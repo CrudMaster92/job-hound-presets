@@ -39,6 +39,7 @@
         "pagination": {"$ref": "#/$defs/pagination"},
         "selectors": {"type": "object", "propertyNames": {"enum": ["item", "title", "link", "location", "description", "employment_type", "posted_date", "remote_mode", "salary", "salary_min", "salary_max", "salary_currency", "salary_period"]}, "additionalProperties": {"type": "string", "minLength": 1}},
         "mapping": {"type": "object", "propertyNames": {"enum": ["items", "source_id", "title", "location", "url", "description", "posted_date", "employment_type", "remote_mode", "salary_min", "salary_max", "salary_currency", "salary_period"]}, "additionalProperties": {"type": "string", "minLength": 1}},
+        "source_filter": {"type": ["object", "null"], "additionalProperties": false, "required": ["title_contains_any"], "properties": {"title_contains_any": {"type": "array", "minItems": 1, "maxItems": 20, "uniqueItems": true, "items": {"type": "string", "minLength": 1, "maxLength": 100}}}},
         "metadata": {"type": "object", "additionalProperties": {"type": ["string", "number", "integer", "boolean"]}}
       }
     },

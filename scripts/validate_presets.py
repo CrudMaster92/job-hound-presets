@@ -16,7 +16,7 @@ except ModuleNotFoundError:  # Full schema validation runs in CI after requireme
 
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMA_PATH = ROOT / "schemas" / "jobhound-preset-v1.schema.json"
-CATALOG_PATH = ROOT / "catalog.json"
+PRESETS_PATH = ROOT / "presets"
 FORBIDDEN_HEADERS = {"authorization", "cookie", "proxy-authorization"}
 
 
@@ -77,37 +77,11 @@ def main() -> int:
         validator = Draft202012Validator(schema, format_checker=FormatChecker())
     else:
         validator = None
-    catalog = load_json(CATALOG_PATH)
-    if catalog.get("format") != "jobhound-preset-catalog" or catalog.get("catalog_version") != 1:
-        raise ValueError("catalog.json: unsupported catalog format or version")
-    if catalog.get("preset_format") != "jobhound-preset" or catalog.get("preset_version") != 1:
-        raise ValueError("catalog.json: unsupported preset contract")
-
-    seen: set[str] = set()
-    referenced: set[Path] = set()
-    for entry in catalog.get("presets", []):
-        preset_id = entry.get("id")
-        if not preset_id or preset_id in seen:
-            raise ValueError(f"catalog.json: missing or duplicate preset id {preset_id!r}")
-        path = (ROOT / entry["path"]).resolve()
-        if ROOT.resolve() not in path.parents or path.suffix != ".json":
-            raise ValueError(f"catalog.json: unsafe preset path {entry['path']!r}")
-        manifest = validate_manifest(path, validator)
-        expected = {key: manifest[key] for key in ("id", "name", "description", "tags")}
-        actual = {key: entry.get(key) for key in expected}
-        if actual != expected or entry.get("company_count") != len(manifest["companies"]):
-            raise ValueError(f"catalog.json: metadata drift for {preset_id!r}")
-        if path.stem != preset_id or manifest["id"] != preset_id:
-            raise ValueError(f"catalog.json: id, filename, and manifest id must match for {preset_id!r}")
-        seen.add(preset_id)
-        referenced.add(path)
-
-    disk_presets = set((ROOT / "presets").glob("*.json"))
-    if disk_presets != referenced:
-        missing = sorted(str(path.relative_to(ROOT)) for path in disk_presets ^ referenced)
-        raise ValueError(f"catalog.json: unlisted or missing preset files: {', '.join(missing)}")
+    referenced = list(PRESETS_PATH.glob("*.json")) if PRESETS_PATH.is_dir() else []
+    for path in referenced:
+        validate_manifest(path, validator)
     mode = "schema + contract" if validator is not None else "contract (install requirements-dev.txt for schema checks)"
-    print(f"Validated {len(referenced)} preset(s) against Job Hound preset version 1: {mode}.")
+    print(f"Validated {len(referenced)} optional legacy import preset(s): {mode}.")
     return 0
 
 

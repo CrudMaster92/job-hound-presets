@@ -6,6 +6,8 @@
 2. Put scraper behavior only in `companies/<id>/monitors/<monitor-id>.json`.
    IDs are permanent. Increase `revision` whenever recipe behavior changes;
    do not mutate an old revision merely to force clients to update.
+   Do not edit generated catalogs, bundles, legacy monoliths, or copy recipes
+   into collection files.
 3. Include only public HTTPS careers sources and deterministic recipes. Never
    include credentials, cookies, authorization headers, personal criteria,
    schedules, or user data. Every request host must be explicit in

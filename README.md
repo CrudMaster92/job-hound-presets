@@ -18,21 +18,21 @@ number of collections:
   specific monitor IDs. Collections own ranking, industry, role, and location
   facets plus optional suggested JobHound criteria; they never duplicate a
   recipe or silently change a user's filters.
-- `scripts/build_catalog.py` validates those sources and generates the stable
-  `api/v1/catalog.json`, company details, collection details, and self-contained
-  downloadable `jobhound-preset` version 2 bundles.
-- `presets/*.json` and `schemas/jobhound-preset-v1.schema.json` remain the
-  compatible version 1 import format.
+- `scripts/build_catalog.py` validates those sources and generates catalog
+  version 3: compact indexes, paged collection membership, one artifact per
+  company and monitor, and optional self-contained bundles.
+- `schemas/jobhound-preset-v1.schema.json` remains available for importing old
+  user-created version 1 files. The public catalog no longer has a monolithic
+  authored preset.
 
 The app currently accepts `ashby`, `greenhouse`, `lever`, `smartrecruiters`, `workday`, `jobvite`, `json_ld`, `generic_json`, `generic_html`, and `playwright` recipes. Recipe request hosts must appear in `allowed_hosts`, credential-bearing headers are forbidden, company keys and careers URLs must be unique, and each recipe's `careers_url` must match its company.
 
 ## Use the catalog
 
-Consumers should fetch `api/v1/catalog.json`, require catalog version 2, then
-resolve only the relative `path` or `download_path` published by that catalog.
-Download bytes are canonicalized and SHA-256 hashed in the catalog. JobHound
-caches the last known good catalog for offline use, validates a selected bundle,
-and validates every installed or updated scraper before activation.
+Consumers should fetch `api/v1/catalog.json`, require catalog version 3, and
+resolve only the relative hashed paths it publishes. Collection membership and
+search data are paged; recipes appear only in `monitors/<id>.json`. Optional
+large bundles are for explicit download, not ordinary browsing or installation.
 
 The [GitHub Pages catalog](https://crudmaster92.github.io/job-hound-presets/) is
 also a human-readable catalog with search and structured filters. Run
