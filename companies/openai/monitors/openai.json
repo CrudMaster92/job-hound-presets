@@ -1,0 +1,48 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "openai",
+  "company_id": "openai",
+  "revision": 1,
+  "label": "OpenAI careers",
+  "careers_url": "https://openai.com/careers/search",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": []
+  },
+  "recipe": {
+    "version": 1,
+    "company": "OpenAI",
+    "careers_url": "https://openai.com/careers/search",
+    "strategy": "ashby",
+    "allowed_hosts": ["openai.com", "api.ashbyhq.com"],
+    "request": {
+      "url": "https://api.ashbyhq.com/posting-api/job-board/openai",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "company_slug": "openai"
+    }
+  }
+}

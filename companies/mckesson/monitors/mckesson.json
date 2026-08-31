@@ -1,0 +1,52 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "mckesson",
+  "company_id": "mckesson",
+  "revision": 1,
+  "label": "McKesson Careers",
+  "careers_url": "https://careers.mckesson.com/en/search-jobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-08-31T17:00:00Z",
+    "job_count": 15,
+    "warnings": ["The public first page is intentionally marked partial."]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "McKesson",
+    "careers_url": "https://careers.mckesson.com/en/search-jobs",
+    "strategy": "generic_html",
+    "allowed_hosts": ["careers.mckesson.com"],
+    "request": {
+      "url": "https://careers.mckesson.com/en/search-jobs",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 10,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "selectors": {
+      "item": "#search-results-list li",
+      "title": "a.search-results__job-title-link",
+      "link": "a.search-results__job-title-link",
+      "location": ".search-results__job-location",
+      "posted_date": ".search-results__job-date-posted"
+    },
+    "mapping": {},
+    "metadata": { "partial_listing": true }
+  }
+}

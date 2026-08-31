@@ -1,0 +1,58 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "exxonmobil",
+  "company_id": "exxonmobil",
+  "revision": 1,
+  "label": "ExxonMobil Careers",
+  "careers_url": "https://jobs.exxonmobil.com/search/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-08-31T17:01:00Z",
+    "job_count": 620,
+    "warnings": []
+  },
+  "recipe": {
+    "version": 1,
+    "company": "ExxonMobil",
+    "careers_url": "https://jobs.exxonmobil.com/search/",
+    "strategy": "generic_html",
+    "allowed_hosts": ["jobs.exxonmobil.com"],
+    "request": {
+      "url": "https://jobs.exxonmobil.com/search/",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "q": "",
+        "sortColumn": "referencedate",
+        "sortDirection": "desc",
+        "startrow": 0
+      },
+      "json_body": null,
+      "timeout_seconds": 20,
+      "max_response_bytes": 1000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "startrow",
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 30,
+      "next_path": null
+    },
+    "selectors": {
+      "item": "#searchresults tbody tr.data-row",
+      "title": "a.jobTitle-link",
+      "link": "a.jobTitle-link",
+      "location": "td.colLocation .jobLocation",
+      "employment_type": "td.colShifttype .jobShifttype",
+      "posted_date": "td.colDate .jobDate"
+    },
+    "mapping": {},
+    "metadata": {}
+  }
+}

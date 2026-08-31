@@ -1,0 +1,57 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "berkshire-geico",
+  "company_id": "berkshire-hathaway",
+  "revision": 1,
+  "label": "GEICO careers (Berkshire subsidiary)",
+  "careers_url": "https://geico.wd1.myworkdayjobs.com/en-US/External",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-08-31T17:06:00Z",
+    "job_count": 273,
+    "warnings": [
+      "This monitor covers GEICO, a Berkshire Hathaway subsidiary, not every decentralized Berkshire business."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Berkshire Hathaway — GEICO",
+    "careers_url": "https://geico.wd1.myworkdayjobs.com/en-US/External",
+    "strategy": "workday",
+    "allowed_hosts": ["geico.wd1.myworkdayjobs.com"],
+    "request": {
+      "url": "https://geico.wd1.myworkdayjobs.com/wday/cxs/geico/External/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 20,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 20,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "geico",
+      "site": "External",
+      "detail_fetch_limit": 25
+    }
+  }
+}

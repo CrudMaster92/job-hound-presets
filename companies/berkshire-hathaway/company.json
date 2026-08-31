@@ -1,0 +1,15 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "berkshire-hathaway",
+  "name": "Berkshire Hathaway",
+  "legal_name": "Berkshire Hathaway Inc.",
+  "aliases": ["Berkshire"],
+  "website_url": "https://www.berkshirehathaway.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": ["conglomerate", "insurance"],
+    "specialties": ["insurance", "energy", "manufacturing"],
+    "tags": ["Fortune 50", "Conglomerate", "United States"]
+  }
+}

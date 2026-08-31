@@ -1,10 +1,32 @@
-# Contributing a preset
+# Contributing catalog data
 
-1. Copy `templates/jobhound-preset.template.json` into `presets/<preset-id>.json`.
-2. Keep the manifest ID and filename aligned. IDs and company keys use lowercase letters, numbers, and hyphens only.
-3. Include only public HTTP(S) careers sources and deterministic recipes. Do not include credentials, cookies, authorization headers, personal criteria, schedules, or user data.
-4. Make each company `careers_url` exactly match its recipe `careers_url`. Every recipe request hostname must be listed in `allowed_hosts`.
-5. Add one catalog entry with the same ID, path, name, description, tags, and company count.
-6. Run `python scripts/validate_presets.py` and include the result in your pull request.
+1. Reuse an existing `companies/<id>` identity before creating one. Aliases do
+   not create another company, and membership in another collection never
+   duplicates a monitor.
+2. Put scraper behavior only in `companies/<id>/monitors/<monitor-id>.json`.
+   IDs are permanent. Increase `revision` whenever recipe behavior changes;
+   do not mutate an old revision merely to force clients to update.
+3. Include only public HTTPS careers sources and deterministic recipes. Never
+   include credentials, cookies, authorization headers, personal criteria,
+   schedules, or user data. Every request host must be explicit in
+   `allowed_hosts`.
+4. Prefer official ATS/API endpoints, then server-rendered HTML/JSON-LD, then a
+   bounded browser recipe. Do not bypass access controls. Mark bounded feeds
+   with `metadata.partial_listing: true` so unseen roles are not closed.
+5. Record honest verification state, timestamp, observed job count, and
+   warnings. A collection may include degraded or unverified coverage only
+   when the limitation is visible and useful; never invent a centralized board.
+6. Create `collections/<id>.json` using references, ranks/notes where relevant,
+   structured facets, and optional suggested criteria. Suggestions are labels,
+   not changes to a user's JobHound search profile.
+7. Run both validators and include their results in the pull request:
 
-Preset changes should be reviewable on their own. Avoid combining catalog work with website or application code. Maintainers may reject recipes that depend on private endpoints, authentication, excessive response sizes, or brittle selectors.
+```sh
+python scripts/validate_presets.py
+python scripts/build_catalog.py
+```
+
+Reviewers should reject duplicate identities, copied recipes, unstable IDs,
+private endpoints, unexplained browser automation, excessive response sizes,
+unsafe hosts, stale verification claims, or generated `dist` edits that do not
+match the authored sources.

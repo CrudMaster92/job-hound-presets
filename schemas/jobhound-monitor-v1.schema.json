@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object", "additionalProperties": false,
+  "required": ["format", "schema_version", "id", "company_id", "revision", "label", "careers_url", "compatibility", "verification", "recipe"],
+  "properties": {
+    "format": {"const": "jobhound-monitor"}, "schema_version": {"const": 1},
+    "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$", "maxLength": 100},
+    "company_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+    "revision": {"type": "integer", "minimum": 1}, "label": {"type": "string", "minLength": 1, "maxLength": 120},
+    "careers_url": {"type": "string", "format": "uri", "pattern": "^https://"},
+    "compatibility": {"type": "object", "additionalProperties": false, "required": ["min_jobhound_version", "recipe_schema_version"],
+      "properties": {"min_jobhound_version": {"type": "string"}, "recipe_schema_version": {"const": 1}}},
+    "verification": {"type": "object", "additionalProperties": false, "required": ["status", "checked_at", "job_count", "warnings"],
+      "properties": {"status": {"enum": ["verified", "degraded", "unverified"]}, "checked_at": {"type": ["string", "null"], "format": "date-time"},
+        "job_count": {"type": ["integer", "null"], "minimum": 0}, "warnings": {"type": "array", "items": {"type": "string"}}}},
+    "recipe": {"$ref": "jobhound-preset-v1.schema.json#/$defs/recipe"}
+  }
+}

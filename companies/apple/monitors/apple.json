@@ -1,0 +1,53 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "apple",
+  "company_id": "apple",
+  "revision": 1,
+  "label": "Apple Careers",
+  "careers_url": "https://jobs.apple.com/en-us/search",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-08-31T17:00:00Z",
+    "job_count": 20,
+    "warnings": ["The public first page is intentionally marked partial."]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Apple",
+    "careers_url": "https://jobs.apple.com/en-us/search",
+    "strategy": "generic_html",
+    "allowed_hosts": ["jobs.apple.com"],
+    "request": {
+      "url": "https://jobs.apple.com/en-us/search",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "selectors": {
+      "item": "#search-job-list > li",
+      "title": "a.link-inline.more",
+      "link": "a.link-inline.more",
+      "location": ".table--advanced-search__location-sub",
+      "description": ".job-list-item.pb-30 p",
+      "posted_date": ".job-posted-date"
+    },
+    "mapping": {},
+    "metadata": { "partial_listing": true }
+  }
+}

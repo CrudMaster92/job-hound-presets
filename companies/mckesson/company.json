@@ -1,0 +1,15 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "mckesson",
+  "name": "McKesson",
+  "legal_name": "McKesson Corporation",
+  "aliases": [],
+  "website_url": "https://www.mckesson.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": ["healthcare"],
+    "specialties": ["pharmaceutical-distribution", "health-technology"],
+    "tags": ["Fortune 50", "Healthcare", "Global"]
+  }
+}

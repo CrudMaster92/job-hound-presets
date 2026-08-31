@@ -1,0 +1,52 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "fortune-10-2026",
+  "revision": 1,
+  "name": "Fortune 10 — 2026",
+  "description": "The first ten companies in the 2026 U.S. Fortune 500, with reusable public-careers monitors.",
+  "tags": ["Fortune 500", "Fortune 50", "2026", "United States"],
+  "facets": {
+    "collection_types": ["ranking"],
+    "industries": [],
+    "role_families": [],
+    "locations": []
+  },
+  "suggested_criteria": { "cities": [], "title_terms": [], "keywords": [] },
+  "source": {
+    "name": "Fortune 500",
+    "url": "https://fortune.com/ranking/fortune500/2026/",
+    "edition": "2026 U.S."
+  },
+  "companies": [
+    { "company_id": "amazon", "rank": 1, "ranked_name": "Amazon" },
+    {
+      "company_id": "walmart",
+      "rank": 2,
+      "ranked_name": "Walmart",
+      "note": "Walmart's current public site is JavaScript-rendered; this bounded monitor is intentionally marked partial."
+    },
+    {
+      "company_id": "unitedhealth-group",
+      "rank": 3,
+      "ranked_name": "UnitedHealth Group"
+    },
+    { "company_id": "apple", "rank": 4, "ranked_name": "Apple" },
+    {
+      "company_id": "google",
+      "monitor_ids": ["google"],
+      "rank": 5,
+      "ranked_name": "Alphabet"
+    },
+    { "company_id": "cvs-health", "rank": 6, "ranked_name": "CVS Health" },
+    {
+      "company_id": "berkshire-hathaway",
+      "rank": 7,
+      "ranked_name": "Berkshire Hathaway",
+      "note": "Berkshire has no centralized careers board; this entry covers two major insurance subsidiaries with separate reusable monitors."
+    },
+    { "company_id": "mckesson", "rank": 8, "ranked_name": "McKesson" },
+    { "company_id": "exxonmobil", "rank": 9, "ranked_name": "ExxonMobil" },
+    { "company_id": "cencora", "rank": 10, "ranked_name": "Cencora" }
+  ]
+}

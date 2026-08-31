@@ -1,0 +1,15 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "unitedhealth-group",
+  "name": "UnitedHealth Group",
+  "legal_name": "UnitedHealth Group Incorporated",
+  "aliases": ["UnitedHealthcare", "Optum"],
+  "website_url": "https://www.unitedhealthgroup.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": ["healthcare"],
+    "specialties": ["health-insurance", "health-services"],
+    "tags": ["Fortune 50", "Healthcare", "United States"]
+  }
+}

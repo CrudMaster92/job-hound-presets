@@ -1,0 +1,58 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "walmart",
+  "company_id": "walmart",
+  "revision": 1,
+  "label": "Walmart Careers",
+  "careers_url": "https://careers.walmart.com/us/en/results",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "degraded",
+    "checked_at": "2026-08-31T17:04:00Z",
+    "job_count": 30,
+    "warnings": [
+      "The public results UI is JavaScript-rendered and bounded to a small number of pages.",
+      "The current site obtains results through its own job-search assistant; this monitor uses only the rendered public cards and is marked partial."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Walmart",
+    "careers_url": "https://careers.walmart.com/us/en/results",
+    "strategy": "playwright",
+    "allowed_hosts": ["careers.walmart.com", "i5.walmartimages.com"],
+    "request": {
+      "url": "https://careers.walmart.com/us/en/results",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "page",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 10,
+      "max_pages": 3,
+      "next_path": null
+    },
+    "selectors": {
+      "item": "[data-testid='job-card']",
+      "title": "[data-testid='job-title']",
+      "location": ".flex.flex-col.gap-2 > .flex"
+    },
+    "mapping": {},
+    "metadata": {
+      "wait_selector": "[data-testid='job-card']",
+      "next_selector": "button[aria-label='Next page']",
+      "link_template": "https://careers.walmart.com/us/en/jobs/{source_id}",
+      "partial_listing": true
+    }
+  }
+}

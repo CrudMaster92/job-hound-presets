@@ -1,0 +1,56 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "cvs-health",
+  "company_id": "cvs-health",
+  "revision": 1,
+  "label": "CVS Health Careers",
+  "careers_url": "https://cvshealth.wd1.myworkdayjobs.com/en-US/CVS_Health_Careers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-08-31T17:04:00Z",
+    "job_count": 199,
+    "warnings": ["Bounded to 200 results; run is marked partial."]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "CVS Health",
+    "careers_url": "https://cvshealth.wd1.myworkdayjobs.com/en-US/CVS_Health_Careers",
+    "strategy": "workday",
+    "allowed_hosts": ["cvshealth.wd1.myworkdayjobs.com"],
+    "request": {
+      "url": "https://cvshealth.wd1.myworkdayjobs.com/wday/cxs/cvshealth/CVS_Health_Careers/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 20,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "cvshealth",
+      "site": "CVS_Health_Careers",
+      "detail_fetch_limit": 25,
+      "partial_listing": true
+    }
+  }
+}

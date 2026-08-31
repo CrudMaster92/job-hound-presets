@@ -1,0 +1,52 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "google",
+  "company_id": "google",
+  "revision": 1,
+  "label": "Google Careers",
+  "careers_url": "https://www.google.com/about/careers/applications/jobs/results",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-08-31T17:00:00Z",
+    "job_count": 20,
+    "warnings": ["The public first page is intentionally marked partial."]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Google",
+    "careers_url": "https://www.google.com/about/careers/applications/jobs/results",
+    "strategy": "generic_html",
+    "allowed_hosts": ["www.google.com"],
+    "request": {
+      "url": "https://www.google.com/about/careers/applications/jobs/results",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "selectors": {
+      "item": "li.lLd3Je",
+      "title": "h3.QJPWVe",
+      "link": "a[jsname='hSRGPd']",
+      "location": ".r0wTof",
+      "description": ".Xsxa1e"
+    },
+    "mapping": {},
+    "metadata": { "partial_listing": true }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "exxonmobil",
+  "name": "ExxonMobil",
+  "legal_name": "Exxon Mobil Corporation",
+  "aliases": ["Exxon", "Mobil"],
+  "website_url": "https://corporate.exxonmobil.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": ["energy"],
+    "specialties": ["oil-and-gas", "low-carbon-solutions"],
+    "tags": ["Fortune 50", "Energy", "Global"]
+  }
+}

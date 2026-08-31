@@ -1,0 +1,15 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "apple",
+  "name": "Apple",
+  "legal_name": "Apple Inc.",
+  "aliases": [],
+  "website_url": "https://www.apple.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": ["technology"],
+    "specialties": ["consumer-electronics", "software"],
+    "tags": ["Fortune 50", "Technology", "Global"]
+  }
+}

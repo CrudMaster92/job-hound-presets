@@ -1,0 +1,39 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "ai",
+  "revision": 1,
+  "name": "AI",
+  "description": "Five leading AI companies with ready-to-run public careers scrapers.",
+  "tags": ["AI", "Technology", "Global"],
+  "facets": {
+    "collection_types": ["industry"],
+    "industries": ["technology"],
+    "role_families": [],
+    "locations": []
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "openai"
+    },
+    {
+      "company_id": "anthropic"
+    },
+    {
+      "company_id": "google",
+      "monitor_ids": ["google"]
+    },
+    {
+      "company_id": "xai"
+    },
+    {
+      "company_id": "cursor"
+    }
+  ]
+}

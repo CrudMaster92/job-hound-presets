@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "google",
+  "name": "Google",
+  "legal_name": "Alphabet Inc.",
+  "aliases": ["Alphabet"],
+  "website_url": "https://about.google/",
+  "logo_url": null,
+  "facets": {
+    "industries": ["technology"],
+    "specialties": [
+      "artificial-intelligence",
+      "search",
+      "cloud-computing",
+      "advertising"
+    ],
+    "tags": ["AI", "Fortune 50", "Technology", "SEO", "Global"]
+  }
+}

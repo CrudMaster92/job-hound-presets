@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object", "additionalProperties": false,
+  "required": ["format", "schema_version", "id", "revision", "name", "description", "tags", "facets", "suggested_criteria", "companies"],
+  "properties": {
+    "format": {"const": "jobhound-collection"}, "schema_version": {"const": 1},
+    "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"}, "revision": {"type": "integer", "minimum": 1},
+    "name": {"type": "string", "minLength": 1, "maxLength": 120}, "description": {"type": "string", "maxLength": 600},
+    "tags": {"type": "array", "uniqueItems": true, "maxItems": 20, "items": {"type": "string", "minLength": 1, "maxLength": 40}},
+    "facets": {"type": "object", "additionalProperties": false, "required": ["collection_types", "industries", "role_families", "locations"],
+      "properties": {"collection_types": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^[a-z0-9-]+$"}},
+        "industries": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^[a-z0-9-]+$"}},
+        "role_families": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^[a-z0-9-]+$"}},
+        "locations": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["city", "region", "country"],
+          "properties": {"city": {"type": "string"}, "region": {"type": "string"}, "country": {"type": "string", "pattern": "^[A-Z]{2}$"}}}}}},
+    "suggested_criteria": {"type": "object", "additionalProperties": false, "required": ["cities", "title_terms", "keywords"],
+      "properties": {"cities": {"type": "array", "items": {"type": "string"}}, "title_terms": {"type": "array", "items": {"type": "string"}}, "keywords": {"type": "array", "items": {"type": "string"}}}},
+    "source": {"type": ["object", "null"], "additionalProperties": false, "required": ["name", "url", "edition"],
+      "properties": {"name": {"type": "string"}, "url": {"type": "string", "format": "uri"}, "edition": {"type": "string"}}},
+    "companies": {"type": "array", "minItems": 1, "maxItems": 200, "items": {"type": "object", "additionalProperties": false,
+      "required": ["company_id"], "properties": {"company_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+        "monitor_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}}, "rank": {"type": "integer", "minimum": 1},
+        "ranked_name": {"type": "string"}, "note": {"type": "string", "maxLength": 300}}}}
+  }
+}

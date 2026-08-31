@@ -1,0 +1,56 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "cencora",
+  "company_id": "cencora",
+  "revision": 1,
+  "label": "Cencora Careers",
+  "careers_url": "https://myhrabc.wd5.myworkdayjobs.com/en-US/Global",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-08-31T17:04:00Z",
+    "job_count": 500,
+    "warnings": ["Bounded to 500 results; run is marked partial."]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Cencora",
+    "careers_url": "https://myhrabc.wd5.myworkdayjobs.com/en-US/Global",
+    "strategy": "workday",
+    "allowed_hosts": ["myhrabc.wd5.myworkdayjobs.com"],
+    "request": {
+      "url": "https://myhrabc.wd5.myworkdayjobs.com/wday/cxs/myhrabc/Global/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 20,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 25,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "myhrabc",
+      "site": "Global",
+      "detail_fetch_limit": 25,
+      "partial_listing": true
+    }
+  }
+}

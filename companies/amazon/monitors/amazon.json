@@ -1,0 +1,55 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "amazon",
+  "company_id": "amazon",
+  "revision": 1,
+  "label": "Amazon Jobs",
+  "careers_url": "https://www.amazon.jobs/en/search",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-08-31T17:02:00Z",
+    "job_count": 991,
+    "warnings": ["Bounded to the newest 1,000 results; run is marked partial."]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Amazon",
+    "careers_url": "https://www.amazon.jobs/en/search",
+    "strategy": "generic_json",
+    "allowed_hosts": ["www.amazon.jobs"],
+    "request": {
+      "url": "https://www.amazon.jobs/en/search.json",
+      "method": "GET",
+      "headers": {},
+      "params": { "offset": 0, "result_limit": 100 },
+      "json_body": null,
+      "timeout_seconds": 15,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "result_limit",
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {
+      "items": "jobs",
+      "source_id": "id_icims",
+      "title": "title",
+      "location": "normalized_location",
+      "url": "job_path",
+      "description": "description",
+      "posted_date": "posted_date",
+      "employment_type": "job_schedule_type"
+    },
+    "metadata": { "partial_listing": true }
+  }
+}
