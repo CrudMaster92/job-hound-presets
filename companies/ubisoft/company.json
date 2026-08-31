@@ -1,0 +1,25 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ubisoft",
+  "name": "Ubisoft",
+  "legal_name": "Ubisoft Entertainment SA",
+  "aliases": [],
+  "website_url": "https://www.ubisoft.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games",
+      "game-development",
+      "game-publishing"
+    ],
+    "tags": [
+      "Gaming",
+      "Video Games",
+      "Global"
+    ]
+  }
+}
