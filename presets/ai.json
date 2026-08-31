@@ -3,7 +3,7 @@
   "version": 1,
   "id": "ai",
   "name": "AI",
-  "description": "Six leading AI companies with ready-to-run public careers scrapers.",
+  "description": "Seven leading AI companies with ready-to-run public careers scrapers.",
   "tags": [
     "AI",
     "Technology",
@@ -232,6 +232,55 @@
         "metadata": {
           "company_slug": "replit",
           "logo_url": "https://replit.com/public/images/logo-small.png"
+        }
+      }
+    },
+    {
+      "key": "hugging-face",
+      "name": "Hugging Face",
+      "careers_url": "https://apply.workable.com/huggingface/",
+      "recipe": {
+        "version": 1,
+        "company": "Hugging Face",
+        "careers_url": "https://apply.workable.com/huggingface/",
+        "strategy": "generic_json",
+        "allowed_hosts": [
+          "apply.workable.com"
+        ],
+        "request": {
+          "url": "https://apply.workable.com/api/v1/widget/accounts/huggingface",
+          "method": "GET",
+          "headers": {},
+          "params": {
+            "details": true
+          },
+          "json_body": null,
+          "timeout_seconds": 15.0,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": 10,
+          "next_path": null
+        },
+        "selectors": {},
+        "mapping": {
+          "items": "jobs",
+          "source_id": "shortcode",
+          "title": "title",
+          "location": "location.location_str",
+          "url": "application_url",
+          "description": "description",
+          "posted_date": "published_on",
+          "employment_type": "employment_type",
+          "remote_mode": "telecommuting"
+        },
+        "metadata": {
+          "account_slug": "huggingface",
+          "platform": "workable"
         }
       }
     }
