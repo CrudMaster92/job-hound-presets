@@ -1,0 +1,16 @@
+{
+  "format": "jobhound-preset-catalog",
+  "catalog_version": 1,
+  "preset_format": "jobhound-preset",
+  "preset_version": 1,
+  "presets": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "description": "Five leading AI companies with ready-to-run public careers scrapers.",
+      "tags": ["AI", "Technology", "Global"],
+      "company_count": 5,
+      "path": "presets/ai.json"
+    }
+  ]
+}
