@@ -1,0 +1,42 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "gaming",
+  "revision": 1,
+  "name": "Gaming",
+  "description": "Curated gaming companies with ready-to-run public careers scrapers.",
+  "tags": [
+    "Gaming",
+    "Video Games",
+    "Global"
+  ],
+  "facets": {
+    "collection_types": [
+      "industry"
+    ],
+    "industries": [
+      "gaming"
+    ],
+    "role_families": [],
+    "locations": [
+      {
+        "city": "Saint-Mandé",
+        "region": "Île-de-France",
+        "country": "FR"
+      }
+    ]
+  },
+  "suggested_criteria": {
+    "cities": [
+      "Saint-Mandé"
+    ],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "ubisoft"
+    }
+  ]
+}
