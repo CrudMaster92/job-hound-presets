@@ -1,0 +1,26 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "eidos-montreal",
+  "name": "Eidos-Montréal",
+  "legal_name": null,
+  "aliases": [
+    "Eidos Montreal"
+  ],
+  "website_url": "https://www.eidosmontreal.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games",
+      "game-development"
+    ],
+    "tags": [
+      "Gaming",
+      "Video Games",
+      "Montreal"
+    ]
+  }
+}
