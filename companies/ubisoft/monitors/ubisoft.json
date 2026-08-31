@@ -1,0 +1,55 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "ubisoft",
+  "company_id": "ubisoft",
+  "revision": 1,
+  "label": "Ubisoft careers",
+  "careers_url": "https://www.ubisoft.com/en-us/company/careers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-08-31T23:33:00Z",
+    "job_count": 184,
+    "warnings": []
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Ubisoft",
+    "careers_url": "https://www.ubisoft.com/en-us/company/careers",
+    "strategy": "smartrecruiters",
+    "allowed_hosts": [
+      "www.ubisoft.com",
+      "api.smartrecruiters.com",
+      "jobs.smartrecruiters.com"
+    ],
+    "request": {
+      "url": "https://api.smartrecruiters.com/v1/companies/Ubisoft2/postings",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "limit": 100,
+        "offset": 0
+      },
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "company_identifier": "Ubisoft2"
+    }
+  }
+}
