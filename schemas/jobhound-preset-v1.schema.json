@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://job-hound.realperson.chatgpt.site/schemas/jobhound-preset-v1.schema.json",
+  "title": "Job Hound preset manifest version 1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["format", "version", "id", "name", "description", "tags", "companies"],
+  "properties": {
+    "format": {"const": "jobhound-preset"},
+    "version": {"const": 1},
+    "id": {"type": "string", "minLength": 1, "maxLength": 80, "pattern": "^[a-z0-9][a-z0-9-]*$"},
+    "name": {"type": "string", "minLength": 1, "maxLength": 120},
+    "description": {"type": "string", "maxLength": 600},
+    "tags": {"type": "array", "maxItems": 20, "uniqueItems": true, "items": {"type": "string", "minLength": 1, "maxLength": 40}},
+    "companies": {"type": "array", "minItems": 1, "maxItems": 200, "items": {"$ref": "#/$defs/company"}}
+  },
+  "$defs": {
+    "httpUrl": {"type": "string", "format": "uri", "pattern": "^https?://"},
+    "company": {
+      "type": "object", "additionalProperties": false,
+      "required": ["key", "name", "careers_url", "recipe"],
+      "properties": {
+        "key": {"type": "string", "minLength": 1, "maxLength": 80, "pattern": "^[a-z0-9][a-z0-9-]*$"},
+        "name": {"type": "string", "minLength": 1, "maxLength": 160},
+        "careers_url": {"$ref": "#/$defs/httpUrl"},
+        "recipe": {"$ref": "#/$defs/recipe"}
+      }
+    },
+    "recipe": {
+      "type": "object", "additionalProperties": false,
+      "required": ["version", "company", "careers_url", "strategy", "allowed_hosts", "request", "pagination", "selectors", "mapping", "metadata"],
+      "properties": {
+        "version": {"const": 1},
+        "company": {"type": "string", "minLength": 1, "maxLength": 300},
+        "careers_url": {"$ref": "#/$defs/httpUrl"},
+        "strategy": {"enum": ["ashby", "greenhouse", "lever", "smartrecruiters", "workday", "jobvite", "json_ld", "generic_json", "generic_html", "playwright"]},
+        "allowed_hosts": {"type": "array", "minItems": 1, "maxItems": 10, "uniqueItems": true, "items": {"type": "string", "pattern": "^[^/:]+$"}},
+        "request": {"$ref": "#/$defs/request"},
+        "pagination": {"$ref": "#/$defs/pagination"},
+        "selectors": {"type": "object", "propertyNames": {"enum": ["item", "title", "link", "location", "description", "employment_type", "posted_date", "remote_mode", "salary", "salary_min", "salary_max", "salary_currency", "salary_period"]}, "additionalProperties": {"type": "string", "minLength": 1}},
+        "mapping": {"type": "object", "propertyNames": {"enum": ["items", "source_id", "title", "location", "url", "description", "posted_date", "employment_type", "remote_mode", "salary_min", "salary_max", "salary_currency", "salary_period"]}, "additionalProperties": {"type": "string", "minLength": 1}},
+        "metadata": {"type": "object", "additionalProperties": {"type": ["string", "number", "integer", "boolean"]}}
+      }
+    },
+    "request": {
+      "type": "object", "additionalProperties": false,
+      "required": ["url", "method", "headers", "params", "json_body", "timeout_seconds", "max_response_bytes"],
+      "properties": {
+        "url": {"$ref": "#/$defs/httpUrl"},
+        "method": {"enum": ["GET", "POST"]},
+        "headers": {"type": "object", "additionalProperties": {"type": "string"}},
+        "params": {"type": "object", "additionalProperties": {"type": ["string", "number", "integer", "boolean"]}},
+        "json_body": {"type": ["object", "null"]},
+        "timeout_seconds": {"type": "number", "minimum": 1, "maximum": 30},
+        "max_response_bytes": {"type": "integer", "minimum": 1024, "maximum": 20000000}
+      }
+    },
+    "pagination": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "parameter", "page_size_parameter", "page_size", "max_pages", "next_path"],
+      "properties": {
+        "kind": {"enum": ["none", "offset", "page", "next_link"]},
+        "parameter": {"type": ["string", "null"]},
+        "page_size_parameter": {"type": ["string", "null"]},
+        "page_size": {"type": "integer", "minimum": 1, "maximum": 500},
+        "max_pages": {"type": "integer", "minimum": 1, "maximum": 100},
+        "next_path": {"type": ["string", "null"]}
+      }
+    }
+  }
+}
