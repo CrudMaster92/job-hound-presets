@@ -3,7 +3,7 @@
   "version": 1,
   "id": "ai",
   "name": "AI",
-  "description": "Seven leading AI companies with ready-to-run public careers scrapers.",
+  "description": "Eight leading AI companies with ready-to-run public careers scrapers.",
   "tags": [
     "AI",
     "Technology",
@@ -281,6 +281,43 @@
         "metadata": {
           "account_slug": "huggingface",
           "platform": "workable"
+        }
+      }
+    },
+    {
+      "key": "groq",
+      "name": "Groq",
+      "careers_url": "https://jobs.ashbyhq.com/groq",
+      "recipe": {
+        "version": 1,
+        "company": "Groq",
+        "careers_url": "https://jobs.ashbyhq.com/groq",
+        "strategy": "ashby",
+        "allowed_hosts": [
+          "jobs.ashbyhq.com",
+          "api.ashbyhq.com"
+        ],
+        "request": {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/groq",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 15.0,
+          "max_response_bytes": 20000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": 10,
+          "next_path": null
+        },
+        "selectors": {},
+        "mapping": {},
+        "metadata": {
+          "company_slug": "groq"
         }
       }
     }
