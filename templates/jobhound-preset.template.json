@@ -1,0 +1,46 @@
+{
+  "format": "jobhound-preset",
+  "version": 1,
+  "id": "example-industry",
+  "name": "Example industry",
+  "description": "Replace this with a short description of the companies in the preset.",
+  "tags": ["Example"],
+  "companies": [
+    {
+      "key": "example-company",
+      "name": "Example Company",
+      "careers_url": "https://example.com/careers",
+      "recipe": {
+        "version": 1,
+        "company": "Example Company",
+        "careers_url": "https://example.com/careers",
+        "strategy": "generic_html",
+        "allowed_hosts": ["example.com"],
+        "request": {
+          "url": "https://example.com/careers",
+          "method": "GET",
+          "headers": {},
+          "params": {},
+          "json_body": null,
+          "timeout_seconds": 15,
+          "max_response_bytes": 5000000
+        },
+        "pagination": {
+          "kind": "none",
+          "parameter": null,
+          "page_size_parameter": null,
+          "page_size": 100,
+          "max_pages": 10,
+          "next_path": null
+        },
+        "selectors": {
+          "item": ".job",
+          "title": ".job-title",
+          "link": "a"
+        },
+        "mapping": {},
+        "metadata": {}
+      }
+    }
+  ]
+}
