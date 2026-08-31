@@ -7,13 +7,13 @@
     {
       "id": "ai",
       "name": "AI",
-      "description": "Seven leading AI companies with ready-to-run public careers scrapers.",
+      "description": "Eight leading AI companies with ready-to-run public careers scrapers.",
       "tags": [
         "AI",
         "Technology",
         "Global"
       ],
-      "company_count": 7,
+      "company_count": 8,
       "path": "presets/ai.json"
     }
   ]
