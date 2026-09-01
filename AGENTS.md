@@ -24,6 +24,14 @@ JobHound application or marketing site unless the user explicitly asks.
 - The version-1 preset schema exists only for importing old user-created files.
   Do not create root `catalog.json` files or `presets/<collection>.json`
   monoliths.
+- Public install actions use `jobhound-catalog-install` version 1 as defined by
+  `schemas/jobhound-catalog-install-v1.schema.json`. Keep handoffs bounded to
+  200 stable company/monitor IDs and revisions. Never embed recipes, trust a
+  browser-supplied path or hash, or install without JobHound resolving the
+  current trusted catalog and asking for local confirmation.
+- The GitHub Pages browser is a live catalog consumer. Keep preset collections
+  primary, company search secondary, individual monitor selection available,
+  and all referenced artifacts hash-checked before presenting an install.
 
 ## Scraper contribution rules
 
