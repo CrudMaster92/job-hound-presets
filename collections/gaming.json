@@ -2,7 +2,7 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "gaming",
-  "revision": 2,
+  "revision": 3,
   "name": "Gaming Industry",
   "description": "Curated gaming companies with ready-to-run public careers scrapers.",
   "tags": [
@@ -32,6 +32,9 @@
     },
     {
       "company_id": "eidos-montreal"
+    },
+    {
+      "company_id": "warner-bros-games"
     }
   ]
 }

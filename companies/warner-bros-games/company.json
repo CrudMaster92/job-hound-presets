@@ -1,0 +1,28 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "warner-bros-games",
+  "name": "Warner Bros. Games",
+  "legal_name": null,
+  "aliases": [
+    "WB Games",
+    "Warner Bros Games"
+  ],
+  "website_url": "https://warnerbrosgames.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games",
+      "game-development",
+      "game-publishing"
+    ],
+    "tags": [
+      "Gaming",
+      "Video Games",
+      "Global"
+    ]
+  }
+}

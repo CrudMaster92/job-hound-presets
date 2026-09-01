@@ -1,0 +1,96 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "warner-bros-games",
+  "company_id": "warner-bros-games",
+  "revision": 1,
+  "label": "Warner Bros. Games careers",
+  "careers_url": "https://warnerbrosgames.com/careers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-01T13:57:29Z",
+    "job_count": 1,
+    "warnings": [
+      "Warner Bros. Games office links now funnel into Warner Bros. Discovery's centralized Phenom careers platform, so this monitor intentionally covers the global games organization instead of duplicating one monitor per office.",
+      "The public Phenom /widgets search is scoped with the keyword 'WB Games', then title-filtered to exclude unrelated Warner Bros. Discovery roles."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Warner Bros. Games",
+    "careers_url": "https://warnerbrosgames.com/careers",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "warnerbrosgames.com",
+      "careers.wbd.com"
+    ],
+    "request": {
+      "url": "https://careers.wbd.com/widgets",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "content-type": "application/json"
+      },
+      "params": {},
+      "json_body": {
+        "lang": "en_global",
+        "deviceType": "desktop",
+        "country": "global",
+        "pageName": "search-results",
+        "ddoKey": "refineSearch",
+        "sortBy": "",
+        "subsearch": "",
+        "from": 0,
+        "jobs": true,
+        "counts": true,
+        "all_fields": [
+          "category",
+          "country",
+          "city"
+        ],
+        "size": 100,
+        "clearAll": false,
+        "jdsource": "facets",
+        "isSliderEnable": false,
+        "pageId": "page10",
+        "siteType": "external",
+        "keywords": "WB Games",
+        "global": true,
+        "selected_fields": {},
+        "locationData": {}
+      },
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {
+      "items": "refineSearch.data.jobs",
+      "source_id": "jobId",
+      "title": "title",
+      "location": "location",
+      "url": "applyUrl",
+      "posted_date": "postedDate"
+    },
+    "source_filter": {
+      "title_contains_any": [
+        "WB Games"
+      ]
+    },
+    "metadata": {
+      "platform": "phenom",
+      "search_keyword": "WB Games"
+    }
+  }
+}
