@@ -1,0 +1,26 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "base44",
+  "name": "Base44",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://base44.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology"
+    ],
+    "specialties": [
+      "artificial-intelligence",
+      "generative-ai",
+      "software-development"
+    ],
+    "tags": [
+      "AI",
+      "Technology",
+      "Global",
+      "AI Coding"
+    ]
+  }
+}

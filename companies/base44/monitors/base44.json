@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "base44",
+  "company_id": "base44",
+  "revision": 1,
+  "label": "Base44 careers",
+  "careers_url": "https://careers.base44.com/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-08-31T00:00:00Z",
+    "job_count": 25,
+    "warnings": []
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Base44",
+    "careers_url": "https://careers.base44.com/",
+    "strategy": "smartrecruiters",
+    "allowed_hosts": [
+      "careers.base44.com",
+      "api.smartrecruiters.com"
+    ],
+    "request": {
+      "url": "https://api.smartrecruiters.com/v1/companies/Wix2/postings",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "q": "Base44",
+        "limit": 100
+      },
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "company_identifier": "Wix2",
+      "search_keyword": "Base44",
+      "platform": "smartrecruiters"
+    },
+    "source_filter": {
+      "title_contains_any": [
+        "Base44"
+      ]
+    }
+  }
+}
