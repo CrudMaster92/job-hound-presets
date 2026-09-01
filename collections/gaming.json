@@ -2,8 +2,8 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "gaming",
-  "revision": 1,
-  "name": "Gaming",
+  "revision": 3,
+  "name": "Gaming Industry",
   "description": "Curated gaming companies with ready-to-run public careers scrapers.",
   "tags": [
     "Gaming",
@@ -18,23 +18,21 @@
       "gaming"
     ],
     "role_families": [],
-    "locations": [
-      {
-        "city": "Burbank",
-        "region": "California",
-        "country": "US"
-      }
-    ]
+    "locations": []
   },
   "suggested_criteria": {
-    "cities": [
-      "Burbank"
-    ],
+    "cities": [],
     "title_terms": [],
     "keywords": []
   },
   "source": null,
   "companies": [
+    {
+      "company_id": "ubisoft"
+    },
+    {
+      "company_id": "eidos-montreal"
+    },
     {
       "company_id": "warner-bros-games"
     }

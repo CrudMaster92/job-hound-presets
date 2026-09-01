@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["format", "version", "catalog_version", "source_commit", "mode", "selections"],
+  "properties": {
+    "format": {"const": "jobhound-catalog-install"},
+    "version": {"const": 1},
+    "catalog_version": {"const": 3},
+    "source_commit": {"type": ["string", "null"], "maxLength": 100},
+    "mode": {"enum": ["collection", "monitors"]},
+    "collection_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,79}$"},
+    "selections": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 200,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["company_id", "monitor_id", "revision"],
+        "properties": {
+          "company_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,79}$"},
+          "monitor_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,99}$"},
+          "revision": {"type": "integer", "minimum": 1}
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"mode": {"const": "collection"}}},
+      "then": {"required": ["collection_id"]},
+      "else": {"not": {"required": ["collection_id"]}}
+    }
+  ]
+}

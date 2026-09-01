@@ -11,14 +11,12 @@
     "recipe_schema_version": 1
   },
   "verification": {
-    "status": "degraded",
-    "checked_at": "2026-09-01T00:06:00Z",
-    "job_count": null,
+    "status": "verified",
+    "checked_at": "2026-09-01T13:57:29Z",
+    "job_count": 1,
     "warnings": [
       "Warner Bros. Games office links now funnel into Warner Bros. Discovery's centralized Phenom careers platform, so this monitor intentionally covers the global games organization instead of duplicating one monitor per office.",
-      "The public Phenom /widgets search is scoped with the keyword 'WB Games' to isolate game roles from the company-wide WBD feed.",
-      "Recipe schema v1 cannot increment Phenom's request-body 'from' offset, so this monitor is bounded to the first 100 matching jobs and is marked partial.",
-      "Live POST execution was not available in the current runtime; integration review should confirm the result shape and current count before merge."
+      "The public Phenom /widgets search is scoped with the keyword 'WB Games', then title-filtered to exclude unrelated Warner Bros. Discovery roles."
     ]
   },
   "recipe": {
@@ -85,9 +83,13 @@
       "url": "applyUrl",
       "posted_date": "postedDate"
     },
+    "source_filter": {
+      "title_contains_any": [
+        "WB Games"
+      ]
+    },
     "metadata": {
       "platform": "phenom",
-      "partial_listing": true,
       "search_keyword": "WB Games"
     }
   }

@@ -1,0 +1,54 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "scale-ai",
+  "company_id": "scale-ai",
+  "revision": 1,
+  "label": "Scale AI careers",
+  "careers_url": "https://scale.com/careers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-08-31T00:00:00Z",
+    "job_count": 215,
+    "warnings": []
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Scale AI",
+    "careers_url": "https://scale.com/careers",
+    "strategy": "greenhouse",
+    "allowed_hosts": [
+      "scale.com",
+      "job-boards.greenhouse.io",
+      "boards-api.greenhouse.io"
+    ],
+    "request": {
+      "url": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "content": true
+      },
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "board_token": "scaleai"
+    }
+  }
+}

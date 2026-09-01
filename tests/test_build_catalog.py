@@ -52,6 +52,22 @@ class CatalogBuildTests(unittest.TestCase):
             berkshire = next(value for value in members["companies"] if value["company_id"] == "berkshire-hathaway")
             self.assertEqual(len(berkshire["monitors"]), 2)
 
+    def test_search_records_are_compact_and_install_ready(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            catalog = build(output=output, source_commit="test-commit")
+            api = output / "api" / "v1"
+            pages = [json.loads((api / ref["path"]).read_text(encoding="utf-8"))
+                     for ref in catalog["search_pages"]]
+            companies = [company for page in pages for company in page["companies"]]
+            amazon = next(value for value in companies if value["id"] == "amazon")
+            self.assertEqual(amazon["monitor_count"], 1)
+            self.assertEqual(amazon["adapters"], ["generic_json"])
+            self.assertEqual(amazon["verification_statuses"], ["verified"])
+            self.assertEqual(amazon["website_url"], "https://www.amazon.com/")
+            self.assertNotIn("monitors", amazon)
+            self.assertNotIn("recipe", json.dumps(amazon))
+
 
 if __name__ == "__main__":
     unittest.main()

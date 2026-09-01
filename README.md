@@ -35,7 +35,12 @@ search data are paged; recipes appear only in `monitors/<id>.json`. Optional
 large bundles are for explicit download, not ordinary browsing or installation.
 
 The [GitHub Pages catalog](https://crudmaster92.github.io/job-hound-presets/) is
-also a human-readable catalog with search and structured filters. Run
+an install-first catalog with preset cards, per-company and per-monitor
+selection, and advanced company search. Its **Open in JobHound** action sends a
+bounded, versioned selection to the loopback-only app; JobHound resolves and
+hash-checks the trusted catalog again and requires a local confirmation before
+installing anything. The handoff contains only stable IDs and revisions, never
+recipes or personal data. Run
 `python scripts/build_catalog.py` and open `dist/index.html` to preview it
 locally.
 

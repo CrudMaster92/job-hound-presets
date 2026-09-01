@@ -216,10 +216,17 @@ def build(*, output: Path, source_commit: str = "local") -> dict:
 
     search_values = []
     for company_id, company in sorted(companies.items()):
+        company_monitors = [
+            value for _, value in sorted(monitors.items()) if value["company_id"] == company_id
+        ]
         search_values.append({
             "id": company_id, "name": company["name"], "legal_name": company.get("legal_name"),
             "aliases": company.get("aliases", []), "facets": company.get("facets", {}),
+            "logo_url": company.get("logo_url"), "website_url": company.get("website_url"),
             "collection_ids": sorted(company_collections[company_id]),
+            "monitor_count": len(company_monitors),
+            "adapters": sorted({value["recipe"]["strategy"] for value in company_monitors}),
+            "verification_statuses": sorted({value["verification"]["status"] for value in company_monitors}),
             "path": company_references[company_id]["path"],
             "sha256": company_references[company_id]["sha256"],
         })

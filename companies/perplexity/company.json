@@ -1,0 +1,25 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "perplexity",
+  "name": "Perplexity",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.perplexity.ai/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology"
+    ],
+    "specialties": [
+      "artificial-intelligence",
+      "generative-ai"
+    ],
+    "tags": [
+      "AI",
+      "Technology",
+      "Global",
+      "Generative AI"
+    ]
+  }
+}
