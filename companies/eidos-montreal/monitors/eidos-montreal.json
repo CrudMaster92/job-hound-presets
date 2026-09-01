@@ -12,8 +12,8 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-08-31T23:35:00Z",
-    "job_count": 6,
+    "checked_at": "2026-09-01T13:48:59Z",
+    "job_count": 4,
     "warnings": [
       "Eidos-Montréal links individual postings to Dayforce; this monitor intentionally scrapes the server-rendered public careers page to avoid Dayforce's CSRF-gated search endpoint."
     ]
