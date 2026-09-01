@@ -12,9 +12,11 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-08-31T23:33:00Z",
-    "job_count": null,
-    "warnings": []
+    "checked_at": "2026-09-01T13:48:59Z",
+    "job_count": 287,
+    "warnings": [
+      "Description detail enrichment is limited to 100 postings per run; all 287 listing records were still normalized."
+    ]
   },
   "recipe": {
     "version": 1,

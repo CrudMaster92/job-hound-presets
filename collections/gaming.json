@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "gaming",
   "revision": 1,
-  "name": "Gaming",
+  "name": "Gaming Industry",
   "description": "Curated gaming companies with ready-to-run public careers scrapers.",
   "tags": [
     "Gaming",
@@ -18,18 +18,10 @@
       "gaming"
     ],
     "role_families": [],
-    "locations": [
-      {
-        "city": "Saint-Mandé",
-        "region": "Île-de-France",
-        "country": "FR"
-      }
-    ]
+    "locations": []
   },
   "suggested_criteria": {
-    "cities": [
-      "Saint-Mandé"
-    ],
+    "cities": [],
     "title_terms": [],
     "keywords": []
   },
