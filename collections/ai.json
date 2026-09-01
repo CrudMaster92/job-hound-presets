@@ -2,7 +2,7 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "ai",
-  "revision": 3,
+  "revision": 4,
   "name": "AI",
   "description": "Curated AI companies with ready-to-run public careers scrapers.",
   "tags": ["AI", "Technology", "Global"],
@@ -40,6 +40,9 @@
     },
     {
       "company_id": "cohere"
+    },
+    {
+      "company_id": "perplexity"
     }
   ]
 }
