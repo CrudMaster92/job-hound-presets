@@ -2,7 +2,7 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "gaming",
-  "revision": 1,
+  "revision": 2,
   "name": "Gaming Industry",
   "description": "Curated gaming companies with ready-to-run public careers scrapers.",
   "tags": [
@@ -29,6 +29,9 @@
   "companies": [
     {
       "company_id": "ubisoft"
+    },
+    {
+      "company_id": "eidos-montreal"
     }
   ]
 }

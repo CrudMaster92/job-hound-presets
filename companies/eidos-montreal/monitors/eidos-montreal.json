@@ -1,0 +1,60 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "eidos-montreal",
+  "company_id": "eidos-montreal",
+  "revision": 1,
+  "label": "Eidos-Montréal careers",
+  "careers_url": "https://www.eidosmontreal.com/careers/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-01T13:48:59Z",
+    "job_count": 4,
+    "warnings": [
+      "Eidos-Montréal links individual postings to Dayforce; this monitor intentionally scrapes the server-rendered public careers page to avoid Dayforce's CSRF-gated search endpoint."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Eidos-Montréal",
+    "careers_url": "https://www.eidosmontreal.com/careers/",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "www.eidosmontreal.com",
+      "jobs.dayforcehcm.com"
+    ],
+    "request": {
+      "url": "https://www.eidosmontreal.com/careers/",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "selectors": {
+      "item": "*:has(> a[href*='jobs.dayforcehcm.com'])",
+      "title": "a[href*='jobs.dayforcehcm.com']",
+      "link": "a[href*='jobs.dayforcehcm.com']"
+    },
+    "mapping": {},
+    "metadata": {
+      "platform": "dayforce-via-careers-html",
+      "headquarters_city": "Montreal",
+      "headquarters_region": "Quebec",
+      "headquarters_country": "CA"
+    }
+  }
+}
