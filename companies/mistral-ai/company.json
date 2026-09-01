@@ -1,0 +1,26 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "mistral-ai",
+  "name": "Mistral AI",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://mistral.ai/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology"
+    ],
+    "specialties": [
+      "artificial-intelligence",
+      "generative-ai",
+      "foundation-models"
+    ],
+    "tags": [
+      "AI",
+      "Technology",
+      "Global",
+      "Foundation Models"
+    ]
+  }
+}

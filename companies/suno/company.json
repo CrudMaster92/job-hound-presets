@@ -1,0 +1,26 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "suno",
+  "name": "Suno AI",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://suno.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology"
+    ],
+    "specialties": [
+      "artificial-intelligence",
+      "generative-ai",
+      "music-generation"
+    ],
+    "tags": [
+      "AI",
+      "Technology",
+      "Global",
+      "Generative Music"
+    ]
+  }
+}

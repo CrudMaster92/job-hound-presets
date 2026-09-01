@@ -1,0 +1,51 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "elevenlabs",
+  "company_id": "elevenlabs",
+  "revision": 1,
+  "label": "ElevenLabs careers",
+  "careers_url": "https://elevenlabs.io/careers/positions",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-08-31T00:00:00Z",
+    "job_count": 249,
+    "warnings": []
+  },
+  "recipe": {
+    "version": 1,
+    "company": "ElevenLabs",
+    "careers_url": "https://elevenlabs.io/careers/positions",
+    "strategy": "ashby",
+    "allowed_hosts": [
+      "elevenlabs.io",
+      "api.ashbyhq.com"
+    ],
+    "request": {
+      "url": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "company_slug": "elevenlabs"
+    }
+  }
+}

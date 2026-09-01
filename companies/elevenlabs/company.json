@@ -1,0 +1,26 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "elevenlabs",
+  "name": "ElevenLabs",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://elevenlabs.io/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology"
+    ],
+    "specialties": [
+      "artificial-intelligence",
+      "generative-ai",
+      "speech-ai"
+    ],
+    "tags": [
+      "AI",
+      "Technology",
+      "Global",
+      "Voice AI"
+    ]
+  }
+}
