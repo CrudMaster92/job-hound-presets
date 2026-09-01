@@ -1,0 +1,25 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "scale-ai",
+  "name": "Scale AI",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://scale.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology"
+    ],
+    "specialties": [
+      "artificial-intelligence",
+      "data-labeling"
+    ],
+    "tags": [
+      "AI",
+      "Technology",
+      "Global",
+      "Data Infrastructure"
+    ]
+  }
+}
