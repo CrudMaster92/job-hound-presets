@@ -1,0 +1,28 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "bkom-studios",
+  "name": "BKOM Studios",
+  "legal_name": null,
+  "aliases": [
+    "BKOM",
+    "Bkom Studios"
+  ],
+  "website_url": "https://www.bkom.com/",
+  "logo_url": "https://www.bkom.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games",
+      "game-development",
+      "game-porting"
+    ],
+    "tags": [
+      "Gaming",
+      "Video Games",
+      "Quebec"
+    ]
+  }
+}
