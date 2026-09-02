@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "bkom-studios",
+  "company_id": "bkom-studios",
+  "revision": 1,
+  "label": "BKOM Studios careers",
+  "careers_url": "https://jobs.bkom.com/jobs/Careers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "BKOM Studios uses a public Zoho Recruit career site. The raw careers document carries the job data but the visible job cards are rendered client-side, so this monitor uses Playwright rather than treating Zoho as a native ATS adapter.",
+      "Current BKOM-owned openings and BKOM job-detail URLs were independently observed during scraper research, but the real JobHound runtime was not available in this session. Keep this Draft PR unverified until an integration run confirms the rendered selectors and normalized output."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "BKOM Studios",
+    "careers_url": "https://jobs.bkom.com/jobs/Careers",
+    "strategy": "playwright",
+    "allowed_hosts": [
+      "jobs.bkom.com",
+      "static.zohocdn.com"
+    ],
+    "request": {
+      "url": "https://jobs.bkom.com/jobs/Careers",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "selectors": {
+      "item": "*:has(> a[href*='/jobs/Careers/']), *:has(> a[href*='PortalDetail.na'])",
+      "title": "a[href*='/jobs/Careers/'], a[href*='PortalDetail.na']",
+      "link": "a[href*='/jobs/Careers/'], a[href*='PortalDetail.na']"
+    },
+    "mapping": {},
+    "metadata": {
+      "platform": "zoho-recruit",
+      "rendered_listing": true,
+      "headquarters_city": "Quebec City",
+      "headquarters_region": "Quebec",
+      "headquarters_country": "CA"
+    }
+  }
+}
