@@ -1,0 +1,25 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "gameloft",
+  "name": "Gameloft",
+  "legal_name": "Gameloft SE",
+  "aliases": [],
+  "website_url": "https://www.gameloft.com/",
+  "logo_url": "https://mkt-web.gameloft.com/assets/images/logo_gameloft_white.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games",
+      "game-development",
+      "game-publishing"
+    ],
+    "tags": [
+      "Gaming",
+      "Video Games",
+      "Global"
+    ]
+  }
+}
