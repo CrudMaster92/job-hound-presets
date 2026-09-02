@@ -1,0 +1,57 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "gameloft",
+  "company_id": "gameloft",
+  "revision": 1,
+  "label": "Gameloft careers",
+  "careers_url": "https://www.gameloft.com/jobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-02T15:50:00Z",
+    "job_count": null,
+    "warnings": [
+      "Gameloft's official careers site links to live SmartRecruiters postings using the company identifier 'Gameloft'."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Gameloft",
+    "careers_url": "https://www.gameloft.com/jobs",
+    "strategy": "smartrecruiters",
+    "allowed_hosts": [
+      "www.gameloft.com",
+      "api.smartrecruiters.com",
+      "jobs.smartrecruiters.com"
+    ],
+    "request": {
+      "url": "https://api.smartrecruiters.com/v1/companies/Gameloft/postings",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "limit": 100,
+        "offset": 0
+      },
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "company_identifier": "Gameloft"
+    }
+  }
+}

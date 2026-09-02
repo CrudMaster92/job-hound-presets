@@ -2,7 +2,7 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "gaming",
-  "revision": 3,
+  "revision": 4,
   "name": "Gaming Industry",
   "description": "Curated gaming companies with ready-to-run public careers scrapers.",
   "tags": [
@@ -35,6 +35,9 @@
     },
     {
       "company_id": "warner-bros-games"
+    },
+    {
+      "company_id": "gameloft"
     }
   ]
 }
