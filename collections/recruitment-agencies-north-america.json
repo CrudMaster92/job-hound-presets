@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "recruitment-agencies-north-america",
+  "revision": 1,
+  "name": "Recruitment Agencies — North America",
+  "description": "Corporate openings at recruitment and staffing agencies that operate in North America.",
+  "tags": ["Recruitment", "Staffing", "North America"],
+  "facets": {"collection_types": ["industry"], "industries": ["staffing-and-recruiting"], "role_families": [], "locations": []},
+  "suggested_criteria": {"cities": [], "title_terms": [], "keywords": []},
+  "source": null,
+  "companies": [
+    {"company_id": "aquent"},
+    {"company_id": "adecco-group"},
+    {"company_id": "motion-recruitment"},
+    {"company_id": "roth-staffing"},
+    {"company_id": "randstad-canada"},
+    {"company_id": "wilsonhcg"},
+    {"company_id": "robert-half"}
+  ]
+}

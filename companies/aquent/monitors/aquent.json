@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "aquent",
+  "company_id": "aquent",
+  "revision": 1,
+  "label": "Aquent corporate careers",
+  "careers_url": "https://jobs.dayforcehcm.com/aquent/CANDIDATEPORTAL",
+  "compatibility": {"min_jobhound_version": "0.1.0", "recipe_schema_version": 1},
+  "verification": {"status": "verified", "checked_at": "2026-09-05T04:47:40Z", "job_count": 6, "warnings": []},
+  "recipe": {
+    "version": 1,
+    "company": "Aquent",
+    "careers_url": "https://jobs.dayforcehcm.com/aquent/CANDIDATEPORTAL",
+    "strategy": "playwright",
+    "allowed_hosts": ["jobs.dayforcehcm.com"],
+    "request": {"url": "https://jobs.dayforcehcm.com/aquent/CANDIDATEPORTAL", "method": "GET", "headers": {}, "params": {}, "json_body": null, "timeout_seconds": 30, "max_response_bytes": 5000000},
+    "pagination": {"kind": "none", "parameter": null, "page_size_parameter": null, "page_size": 100, "max_pages": 1, "next_path": null},
+    "selectors": {"item": "main li:has(h2)", "title": "h2", "link": "a[href]"},
+    "mapping": {},
+    "metadata": {"wait_selector": "main li:has(h2)"}
+  }
+}

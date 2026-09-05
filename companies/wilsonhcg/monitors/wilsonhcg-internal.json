@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "wilsonhcg-internal",
+  "company_id": "wilsonhcg",
+  "revision": 1,
+  "label": "WilsonHCG careers",
+  "careers_url": "https://wilsonhcg.wd5.myworkdayjobs.com/Wilson_Careers",
+  "compatibility": {"min_jobhound_version": "0.1.0", "recipe_schema_version": 1},
+  "verification": {"status": "verified", "checked_at": "2026-09-05T05:22:02Z", "job_count": 20, "warnings": ["The public Workday feed is bounded to its first 20 results."]},
+  "recipe": {
+    "version": 1,
+    "company": "WilsonHCG",
+    "careers_url": "https://wilsonhcg.wd5.myworkdayjobs.com/Wilson_Careers",
+    "strategy": "workday",
+    "allowed_hosts": ["wilsonhcg.wd5.myworkdayjobs.com"],
+    "request": {"url": "https://wilsonhcg.wd5.myworkdayjobs.com/wday/cxs/wilsonhcg/Wilson_Careers/jobs", "method": "POST", "headers": {}, "params": {}, "json_body": {"limit": 20, "offset": 0, "searchText": ""}, "timeout_seconds": 20, "max_response_bytes": 5000000},
+    "pagination": {"kind": "offset", "parameter": "offset", "page_size_parameter": "limit", "page_size": 20, "max_pages": 1, "next_path": null},
+    "selectors": {},
+    "mapping": {},
+    "metadata": {"partial_listing": true}
+  }
+}

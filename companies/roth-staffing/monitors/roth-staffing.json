@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "roth-staffing",
+  "company_id": "roth-staffing",
+  "revision": 1,
+  "label": "Roth Staffing corporate careers",
+  "careers_url": "https://jobs.rothstaffing.com/",
+  "compatibility": {"min_jobhound_version": "0.1.0", "recipe_schema_version": 1},
+  "verification": {"status": "verified", "checked_at": "2026-09-05T04:48:07Z", "job_count": 10, "warnings": ["The public careers page is intentionally bounded to its visible result set."]},
+  "recipe": {
+    "version": 1,
+    "company": "Roth Staffing",
+    "careers_url": "https://jobs.rothstaffing.com/",
+    "strategy": "generic_html",
+    "allowed_hosts": ["jobs.rothstaffing.com"],
+    "request": {"url": "https://jobs.rothstaffing.com/", "method": "GET", "headers": {}, "params": {}, "json_body": null, "timeout_seconds": 20, "max_response_bytes": 5000000},
+    "pagination": {"kind": "none", "parameter": null, "page_size_parameter": null, "page_size": 25, "max_pages": 1, "next_path": null},
+    "selectors": {"item": "article.listing-item__jobs", "title": ".listing-item__title a", "link": ".listing-item__title a", "location": ".listing-item__info--item-location", "description": ".listing-item__desc", "employment_type": ".listing-item__info--item-employment-type", "posted_date": ".listing-item__date"},
+    "mapping": {},
+    "metadata": {"partial_listing": true}
+  }
+}

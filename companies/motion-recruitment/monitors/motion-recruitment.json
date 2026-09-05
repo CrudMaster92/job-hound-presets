@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "motion-recruitment",
+  "company_id": "motion-recruitment",
+  "revision": 1,
+  "label": "Motion Recruitment corporate careers",
+  "careers_url": "https://motionrecruitment.com/about/work-for-us/careers",
+  "compatibility": {"min_jobhound_version": "0.1.0", "recipe_schema_version": 1},
+  "verification": {"status": "verified", "checked_at": "2026-09-05T04:48:07Z", "job_count": 20, "warnings": ["The public careers page is intentionally bounded to its visible result set."]},
+  "recipe": {
+    "version": 1,
+    "company": "Motion Recruitment",
+    "careers_url": "https://motionrecruitment.com/about/work-for-us/careers",
+    "strategy": "generic_html",
+    "allowed_hosts": ["motionrecruitment.com"],
+    "request": {"url": "https://motionrecruitment.com/about/work-for-us/careers", "method": "GET", "headers": {}, "params": {}, "json_body": null, "timeout_seconds": 20, "max_response_bytes": 5000000},
+    "pagination": {"kind": "none", "parameter": null, "page_size_parameter": null, "page_size": 25, "max_pages": 1, "next_path": null},
+    "selectors": {"item": "li.JobItem_module_jobItem", "title": "h2.JobItem_module_title", "link": "a[href]", "location": ".JobItem_module_jobDetailsSection", "description": ".JobItem_module_briefDescription"},
+    "mapping": {},
+    "metadata": {"partial_listing": true}
+  }
+}
