@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "warhorse-studios",
+  "name": "Warhorse Studios",
+  "aliases": [],
+  "website_url": "https://warhorsestudios.cz/",
+  "logo_url": "https://warhorsestudios.cz/_next/static/media/logo.3f1adca1.svg",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

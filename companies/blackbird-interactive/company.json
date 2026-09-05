@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "blackbird-interactive",
+  "name": "Blackbird Interactive",
+  "aliases": [],
+  "website_url": "https://blackbirdinteractive.com/",
+  "logo_url": "https://cdn.prod.website-files.com/69d3e119922064889c920a3e/6a97561b7b486afba38478ff_HighRes_FullBBILogo_White_on_Transparant_Jan2020%202%20(2).png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

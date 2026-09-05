@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "torn-banner",
+  "name": "Torn Banner Studios",
+  "aliases": [],
+  "website_url": "https://tornbanner.com/",
+  "logo_url": "https://tornbanner.com/wp-content/themes/tornbanner-2023/assets/images/torn-banner-marque.svg",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

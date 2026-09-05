@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "people-can-fly",
+  "name": "People Can Fly",
+  "aliases": [],
+  "website_url": "https://peoplecanfly.com/",
+  "logo_url": "https://peoplecanfly.com/wp-content/uploads/2020/05/pcf-logo-black-new.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

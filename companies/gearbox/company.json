@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "gearbox",
+  "name": "Gearbox Entertainment",
+  "aliases": [],
+  "website_url": "https://gearboxsoftware.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gearboxsoftware.com&sz=128",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

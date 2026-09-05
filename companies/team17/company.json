@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "team17",
+  "name": "Team17",
+  "aliases": [],
+  "website_url": "https://team17.com/",
+  "logo_url": "https://www.team17.com/hubfs/Team17%C2%AE_Horiz_white_keyline_RGB.svg",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

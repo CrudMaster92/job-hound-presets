@@ -1,0 +1,75 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "microsoft-gaming",
+  "company_id": "microsoft",
+  "revision": 1,
+  "label": "Microsoft careers",
+  "careers_url": "https://apply.careers.microsoft.com/careers?query=Xbox",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "degraded",
+    "checked_at": "2026-09-05T14:20:06.573868+00:00",
+    "job_count": 5,
+    "warnings": [
+      "First ten Xbox-search results, strictly filtered to gaming titles.",
+      "Partial listing: unseen jobs must not be closed based on this monitor."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Microsoft Gaming",
+    "careers_url": "https://apply.careers.microsoft.com/careers?query=Xbox",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "apply.careers.microsoft.com"
+    ],
+    "request": {
+      "url": "https://apply.careers.microsoft.com/api/pcsx/search",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "domain": "microsoft.com",
+        "query": "Xbox",
+        "start": 0,
+        "num": 100
+      },
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": {
+      "title_contains_any": [
+        "Xbox",
+        "gaming",
+        "gameplay",
+        "game designer",
+        "game developer"
+      ]
+    },
+    "selectors": {},
+    "mapping": {
+      "items": "data.positions",
+      "source_id": "id",
+      "title": "name",
+      "url": "positionUrl",
+      "location": "locations.0",
+      "posted_date": "postedTs"
+    },
+    "metadata": {
+      "partial_listing": true,
+      "scope": "First ten Xbox-search results, strictly filtered to gaming titles."
+    }
+  }
+}

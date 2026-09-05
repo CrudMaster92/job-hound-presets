@@ -2,14 +2,15 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "gaming",
-  "revision": 4,
+  "revision": 5,
   "name": "Gaming Industry",
-  "description": "Verified public careers scrapers for 34 gaming companies, prioritizing North America and Europe, including Sony / PlayStation and Nintendo. Regional and partial coverage is documented per monitor.",
+  "description": "Verified public careers scrapers for 100 gaming companies worldwide, prioritizing major and well-known publishers, platforms, and studios.",
   "tags": [
     "Gaming",
     "Video Games",
     "North America",
     "Europe",
+    "Asia",
     "Global"
   ],
   "facets": {
@@ -130,6 +131,210 @@
     },
     {
       "company_id": "zynga"
+    },
+    {
+      "company_id": "11-bit-studios"
+    },
+    {
+      "company_id": "4a-games"
+    },
+    {
+      "company_id": "amazon",
+      "monitor_ids": [
+        "amazon-games"
+      ]
+    },
+    {
+      "company_id": "arena-net"
+    },
+    {
+      "company_id": "arrowhead"
+    },
+    {
+      "company_id": "asobo-studio"
+    },
+    {
+      "company_id": "blackbird-interactive"
+    },
+    {
+      "company_id": "bloober-team"
+    },
+    {
+      "company_id": "bulkhead"
+    },
+    {
+      "company_id": "ccp-games"
+    },
+    {
+      "company_id": "ci-games"
+    },
+    {
+      "company_id": "cloud-imperium-games"
+    },
+    {
+      "company_id": "coffee-stain"
+    },
+    {
+      "company_id": "crytek"
+    },
+    {
+      "company_id": "cygames"
+    },
+    {
+      "company_id": "daybreak-games"
+    },
+    {
+      "company_id": "double-eleven"
+    },
+    {
+      "company_id": "dream-games"
+    },
+    {
+      "company_id": "embark-studios"
+    },
+    {
+      "company_id": "fatshark"
+    },
+    {
+      "company_id": "focus-entertainment"
+    },
+    {
+      "company_id": "fromsoftware"
+    },
+    {
+      "company_id": "funplus"
+    },
+    {
+      "company_id": "game-freak"
+    },
+    {
+      "company_id": "gearbox"
+    },
+    {
+      "company_id": "gunfire-games"
+    },
+    {
+      "company_id": "hello-games"
+    },
+    {
+      "company_id": "homa"
+    },
+    {
+      "company_id": "hoyoverse"
+    },
+    {
+      "company_id": "jagex"
+    },
+    {
+      "company_id": "jam-city"
+    },
+    {
+      "company_id": "keywords-studios"
+    },
+    {
+      "company_id": "koei-tecmo"
+    },
+    {
+      "company_id": "krafton"
+    },
+    {
+      "company_id": "level-5"
+    },
+    {
+      "company_id": "microsoft",
+      "monitor_ids": [
+        "microsoft-gaming"
+      ]
+    },
+    {
+      "company_id": "miniclip"
+    },
+    {
+      "company_id": "mobilityware"
+    },
+    {
+      "company_id": "moon-active"
+    },
+    {
+      "company_id": "netease"
+    },
+    {
+      "company_id": "nexon"
+    },
+    {
+      "company_id": "obsidian-entertainment"
+    },
+    {
+      "company_id": "offworld"
+    },
+    {
+      "company_id": "people-can-fly"
+    },
+    {
+      "company_id": "playground-games"
+    },
+    {
+      "company_id": "playtika"
+    },
+    {
+      "company_id": "quantic-dream"
+    },
+    {
+      "company_id": "rebellion"
+    },
+    {
+      "company_id": "red-barrels"
+    },
+    {
+      "company_id": "rovio"
+    },
+    {
+      "company_id": "sharkmob"
+    },
+    {
+      "company_id": "snk"
+    },
+    {
+      "company_id": "sumo-digital"
+    },
+    {
+      "company_id": "team17"
+    },
+    {
+      "company_id": "techland"
+    },
+    {
+      "company_id": "tencent"
+    },
+    {
+      "company_id": "testronic"
+    },
+    {
+      "company_id": "thatgamecompany"
+    },
+    {
+      "company_id": "torn-banner"
+    },
+    {
+      "company_id": "tripledot"
+    },
+    {
+      "company_id": "turtle-rock-studios"
+    },
+    {
+      "company_id": "voodoo"
+    },
+    {
+      "company_id": "wargaming"
+    },
+    {
+      "company_id": "warhorse-studios"
+    },
+    {
+      "company_id": "wildcard"
+    },
+    {
+      "company_id": "zeptolab"
     }
   ]
 }

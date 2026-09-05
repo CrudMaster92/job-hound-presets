@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "homa",
+  "company_id": "homa",
+  "revision": 1,
+  "label": "Homa careers",
+  "careers_url": "https://apply.workable.com/homa-games",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-05T14:20:05.080562+00:00",
+    "job_count": 10,
+    "warnings": [
+      "removed 18 duplicate source IDs"
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Homa",
+    "careers_url": "https://apply.workable.com/homa-games",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "apply.workable.com"
+    ],
+    "request": {
+      "url": "https://apply.workable.com/api/v1/widget/accounts/homa-games",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "jobs",
+      "source_id": "shortcode",
+      "title": "title",
+      "url": "url",
+      "location": "city",
+      "posted_date": "published_on",
+      "employment_type": "employment_type"
+    },
+    "metadata": {
+      "platform": "workable"
+    }
+  }
+}

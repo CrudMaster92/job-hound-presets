@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "embark-studios",
+  "name": "Embark Studios",
+  "aliases": [],
+  "website_url": "https://embark-studios.com/",
+  "logo_url": "https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/3b5eb208-782a-4429-b2ab-3603b59ccce9/original.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

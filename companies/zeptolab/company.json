@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "zeptolab",
+  "name": "ZeptoLab",
+  "aliases": [],
+  "website_url": "https://zeptolab.com/",
+  "logo_url": "https://www-cms.zeptolab.com/uploads/Logo_white_242f2b508d.svg",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

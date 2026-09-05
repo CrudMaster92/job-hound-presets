@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "gunfire-games",
+  "name": "Gunfire Games",
+  "aliases": [],
+  "website_url": "https://gunfiregames.com/",
+  "logo_url": "https://images.squarespace-cdn.com/content/v1/55669e4ae4b0352887a893c6/1432788685905-RBGTTR0Y0518VJV4BYZT/GG_LOGO_PRINT.png?format=1500w",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

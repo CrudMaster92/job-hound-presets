@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "11-bit-studios",
+  "name": "11 bit studios",
+  "aliases": [],
+  "website_url": "https://11bitstudios.com/",
+  "logo_url": "https://11bitstudios.com/wp-content/uploads/2020/10/11bitstudios_logo.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

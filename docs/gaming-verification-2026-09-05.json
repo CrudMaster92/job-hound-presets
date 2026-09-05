@@ -1,0 +1,2367 @@
+{
+  "title": "Gaming scraper and logo verification",
+  "checked_at": "2026-09-05T14:35:04.688051+00:00",
+  "collection_revision": 5,
+  "company_count": 100,
+  "monitor_count": 106,
+  "listing_count": 4067,
+  "logo_count": 100,
+  "logo_browser_loaded": 100,
+  "source_link_samples": 184,
+  "source_link_samples_reachable": 184,
+  "published": false,
+  "installed": false,
+  "companies": [
+    {
+      "id": "2k",
+      "name": "2K",
+      "logo_url": "https://assets.2k.com/1a6ngf98576c/2zjPZpinUk7HU9ppHrQaWd/e51ed9ba96d3eab501f5d751248ad72f/2K_Web_App_config_Nav_Logo_30x30.svg",
+      "job_count": 117,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "2k",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 117,
+          "checked_at": "2026-09-04T11:55:38.335511+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://careers.2k.com/"
+        }
+      ]
+    },
+    {
+      "id": "activision",
+      "name": "Activision",
+      "logo_url": "https://cdn.phenompeople.com/CareerConnectResources/prod/ACPUUS/en_us/desktop/assets/images/favicon.ico?v=1753985994190",
+      "job_count": 83,
+      "monitor_count": 1,
+      "strategies": [
+        "workday"
+      ],
+      "monitors": [
+        {
+          "id": "activision",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 83,
+          "checked_at": "2026-09-04T12:07:12.199006+00:00",
+          "strategy": "workday",
+          "warnings": [
+            "Company-specific Workday board with detail enrichment up to 250 listings for descriptions and canonical role URLs. Recheck if board size exceeds that bound or detail enrichment fails."
+          ],
+          "careers_url": "https://careers.activision.com/"
+        }
+      ]
+    },
+    {
+      "id": "bandai-namco",
+      "name": "Bandai Namco",
+      "logo_url": "https://us-east-1-bandai.graphassets.com/AXzioIclSWilEjFtsMJPwz/VmVFnUTTaa4EMoQjHBj8",
+      "job_count": 4,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "bandai-namco",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 4,
+          "checked_at": "2026-09-04T11:55:38.336512+00:00",
+          "strategy": "generic_json",
+          "warnings": [
+            "Bandai Namco Entertainment America board; not the complete global group."
+          ],
+          "careers_url": "https://www.bandainamcoent.com/careers"
+        }
+      ]
+    },
+    {
+      "id": "behaviour-interactive",
+      "name": "Behaviour Interactive",
+      "logo_url": "https://www.bhvr.com/wp-content/uploads/2019/09/cropped-favicon_behaviour_512x512-1-192x192.png",
+      "job_count": 36,
+      "monitor_count": 1,
+      "strategies": [
+        "playwright"
+      ],
+      "monitors": [
+        {
+          "id": "behaviour-interactive",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 36,
+          "checked_at": "2026-09-04T12:04:13.207019+00:00",
+          "strategy": "playwright",
+          "warnings": [],
+          "careers_url": "https://www.bhvr.com/jobs"
+        }
+      ]
+    },
+    {
+      "id": "blizzard-entertainment",
+      "name": "Blizzard Entertainment",
+      "logo_url": "https://cdn.phenompeople.com/CareerConnectResources/BLENGLOBAL/images/Blizz_Corp_RGB_DarkBkgd2-1683126315421.png",
+      "job_count": 36,
+      "monitor_count": 1,
+      "strategies": [
+        "workday"
+      ],
+      "monitors": [
+        {
+          "id": "blizzard-entertainment",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 36,
+          "checked_at": "2026-09-04T12:07:12.197495+00:00",
+          "strategy": "workday",
+          "warnings": [
+            "Company-specific Workday board with detail enrichment up to 250 listings for descriptions and canonical role URLs. Recheck if board size exceeds that bound or detail enrichment fails."
+          ],
+          "careers_url": "https://careers.blizzard.com/"
+        }
+      ]
+    },
+    {
+      "id": "bungie",
+      "name": "Bungie",
+      "logo_url": "https://s4-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/401/057/700/original/Bungie_Logo_Transparent.png?1754940199",
+      "job_count": 2,
+      "monitor_count": 1,
+      "strategies": [
+        "greenhouse"
+      ],
+      "monitors": [
+        {
+          "id": "bungie",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 2,
+          "checked_at": "2026-09-04T11:51:35.029637+00:00",
+          "strategy": "greenhouse",
+          "warnings": [],
+          "careers_url": "https://careers.bungie.com/jobs"
+        }
+      ]
+    },
+    {
+      "id": "capcom",
+      "name": "Capcom",
+      "logo_url": "https://www.capcom.com/favicon64.png",
+      "job_count": 2,
+      "monitor_count": 1,
+      "strategies": [
+        "jobvite"
+      ],
+      "monitors": [
+        {
+          "id": "capcom",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 2,
+          "checked_at": "2026-09-04T12:07:12.192913+00:00",
+          "strategy": "jobvite",
+          "warnings": [
+            "Capcom USA public vacancies; not the complete global group."
+          ],
+          "careers_url": "https://jobs.jobvite.com/capcomusa"
+        }
+      ]
+    },
+    {
+      "id": "cd-projekt-red",
+      "name": "CD PROJEKT RED",
+      "logo_url": "https://www.cdprojektred.com/favicons/apple-touch-icon-57x57.png",
+      "job_count": 43,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "cd-projekt-red",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 43,
+          "checked_at": "2026-09-04T12:08:30.844071+00:00",
+          "strategy": "generic_json",
+          "warnings": [
+            "Complete compact public listing with direct human job links. The compact feed omits descriptions; description keyword matching is unavailable for these records."
+          ],
+          "careers_url": "https://jobs.smartrecruiters.com/CDPROJEKTRED/."
+        }
+      ]
+    },
+    {
+      "id": "digital-extremes",
+      "name": "Digital Extremes",
+      "logo_url": "https://www-static.digitalextremes.com/images/header/DELogo-WhiteOnBlueRGB.png",
+      "job_count": 4,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "digital-extremes",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 4,
+          "checked_at": "2026-09-04T11:55:39.946804+00:00",
+          "strategy": "generic_html",
+          "warnings": [],
+          "careers_url": "https://www.digitalextremes.com/careers/list"
+        }
+      ]
+    },
+    {
+      "id": "eidos-montreal",
+      "name": "Eidos-Montréal",
+      "logo_url": "https://www.eidosmontreal.com/wp-content/themes/eidos/resources/assets/images/favicon/apple-touch-icon.png",
+      "job_count": 4,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "eidos-montreal",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 4,
+          "checked_at": "2026-09-04T11:51:35.035333+00:00",
+          "strategy": "generic_html",
+          "warnings": [],
+          "careers_url": "https://www.eidosmontreal.com/careers"
+        }
+      ]
+    },
+    {
+      "id": "electronic-arts",
+      "name": "Electronic Arts",
+      "logo_url": "https://jobs.ea.com/portal/4/images/logo--ea.webp",
+      "job_count": 334,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "electronic-arts",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 334,
+          "checked_at": "2026-09-04T11:55:38.671456+00:00",
+          "strategy": "generic_html",
+          "warnings": [],
+          "careers_url": "https://jobs.ea.com/en_US/careers/SearchJobs"
+        }
+      ]
+    },
+    {
+      "id": "epic-games",
+      "name": "Epic Games",
+      "logo_url": "https://www.google.com/s2/favicons?domain=epicgames.com&sz=128",
+      "job_count": 162,
+      "monitor_count": 1,
+      "strategies": [
+        "greenhouse"
+      ],
+      "monitors": [
+        {
+          "id": "epic-games",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 162,
+          "checked_at": "2026-09-04T11:51:35.319329+00:00",
+          "strategy": "greenhouse",
+          "warnings": [
+            "Public Greenhouse feed is live and verified; the official job-detail host returns HTTP 403 to automated requests, so automated detail-page availability is not certified."
+          ],
+          "careers_url": "https://www.epicgames.com/site/en-US/careers/jobs"
+        }
+      ]
+    },
+    {
+      "id": "frontier-developments",
+      "name": "Frontier Developments",
+      "logo_url": "https://www.frontier.co.uk/_nuxt/logo-frontier--full.Dvkx9QaO.png",
+      "job_count": 14,
+      "monitor_count": 1,
+      "strategies": [
+        "lever"
+      ],
+      "monitors": [
+        {
+          "id": "frontier-developments",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 14,
+          "checked_at": "2026-09-04T11:51:35.368990+00:00",
+          "strategy": "lever",
+          "warnings": [],
+          "careers_url": "https://careers.frontier.co.uk/jobs"
+        }
+      ]
+    },
+    {
+      "id": "gameloft",
+      "name": "Gameloft",
+      "logo_url": "https://media01.gameloft.com/web_mkt/favicon/apple-icon-114x114.png",
+      "job_count": 43,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "gameloft",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 43,
+          "checked_at": "2026-09-04T12:08:30.846535+00:00",
+          "strategy": "generic_json",
+          "warnings": [
+            "Complete compact public listing with direct human job links. The compact feed omits descriptions; description keyword matching is unavailable for these records."
+          ],
+          "careers_url": "https://jobs.smartrecruiters.com/Gameloft/."
+        }
+      ]
+    },
+    {
+      "id": "io-interactive",
+      "name": "IO Interactive",
+      "logo_url": "https://ioi.dk/favicon.ico",
+      "job_count": 1,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "io-interactive",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 1,
+          "checked_at": "2026-09-04T12:07:13.036800+00:00",
+          "strategy": "generic_json",
+          "warnings": [
+            "Official Teamtailor JSON Feed. For jobs with several offices, the primary listed city is normalized; the description retains other locations."
+          ],
+          "careers_url": "https://apply.ioi.dk/jobs"
+        }
+      ]
+    },
+    {
+      "id": "king",
+      "name": "King",
+      "logo_url": "https://cdn.phenompeople.com/CareerConnectResources/ACMKDSUS/images/Kinglogo-1679923120876-1686718393202.png",
+      "job_count": 16,
+      "monitor_count": 1,
+      "strategies": [
+        "workday"
+      ],
+      "monitors": [
+        {
+          "id": "king",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 16,
+          "checked_at": "2026-09-04T12:07:12.196487+00:00",
+          "strategy": "workday",
+          "warnings": [
+            "Company-specific Workday board with detail enrichment up to 250 listings for descriptions and canonical role URLs. Recheck if board size exceeds that bound or detail enrichment fails."
+          ],
+          "careers_url": "https://careers.king.com/"
+        }
+      ]
+    },
+    {
+      "id": "larian-studios",
+      "name": "Larian Studios",
+      "logo_url": "https://larian.com/images/png/logo-large.png",
+      "job_count": 69,
+      "monitor_count": 1,
+      "strategies": [
+        "lever"
+      ],
+      "monitors": [
+        {
+          "id": "larian-studios",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 69,
+          "checked_at": "2026-09-04T11:51:36.368463+00:00",
+          "strategy": "lever",
+          "warnings": [],
+          "careers_url": "https://larian.com/careers"
+        }
+      ]
+    },
+    {
+      "id": "nintendo",
+      "name": "Nintendo",
+      "logo_url": "https://assets.nintendo.com/image/upload/ncom/icons/fav-icons/apple-touch-icon.png",
+      "job_count": 51,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "nintendo",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 51,
+          "checked_at": "2026-09-04T12:07:12.192913+00:00",
+          "strategy": "generic_json",
+          "warnings": [
+            "Nintendo North America, including Nintendo of America, Canada and the studios in its public board; this is not a worldwide Nintendo inventory."
+          ],
+          "careers_url": "https://careers.nintendo.com/jobs/."
+        }
+      ]
+    },
+    {
+      "id": "paradox-interactive",
+      "name": "Paradox Interactive",
+      "logo_url": "https://www.paradoxinteractive.com/favicons/apple-touch-icon.png",
+      "job_count": 20,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "paradox-interactive",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 20,
+          "checked_at": "2026-09-04T12:07:12.785338+00:00",
+          "strategy": "generic_json",
+          "warnings": [
+            "Official Teamtailor JSON Feed, including published open applications. For jobs with several offices, the primary listed city is normalized; the description retains other locations."
+          ],
+          "careers_url": "https://career.paradoxplaza.com/jobs"
+        }
+      ]
+    },
+    {
+      "id": "remedy-entertainment",
+      "name": "Remedy Entertainment",
+      "logo_url": "https://cdn.prod.website-files.com/644a618a8a06cbd6183bfd08/648c1e50dfbfa21a1a34b40c_cropped-favicon_new-256x256.png",
+      "job_count": 4,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "remedy-entertainment",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 4,
+          "checked_at": "2026-09-04T11:55:38.338625+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://www.remedygames.com/careers"
+        }
+      ]
+    },
+    {
+      "id": "riot-games",
+      "name": "Riot Games",
+      "logo_url": "https://www.riotgames.com/assets/img/meta/c701c1b098b4c37dc45ad6b6a4d48be5/apple-touch-icon-precomposed-76x76.png",
+      "job_count": 161,
+      "monitor_count": 1,
+      "strategies": [
+        "greenhouse"
+      ],
+      "monitors": [
+        {
+          "id": "riot-games",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 161,
+          "checked_at": "2026-09-04T11:51:38.690927+00:00",
+          "strategy": "greenhouse",
+          "warnings": [],
+          "careers_url": "https://www.riotgames.com/en/work-with-us/jobs"
+        }
+      ]
+    },
+    {
+      "id": "roblox",
+      "name": "Roblox",
+      "logo_url": "https://images.rbxcdn.com/905bd722ee0a6ceda3caacde54c0b081.png",
+      "job_count": 226,
+      "monitor_count": 1,
+      "strategies": [
+        "greenhouse"
+      ],
+      "monitors": [
+        {
+          "id": "roblox",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 226,
+          "checked_at": "2026-09-04T11:51:38.754158+00:00",
+          "strategy": "greenhouse",
+          "warnings": [
+            "Public Greenhouse feed is live and verified; careers.roblox.com timed out during automated detail-link checks."
+          ],
+          "careers_url": "https://careers.roblox.com/jobs"
+        }
+      ]
+    },
+    {
+      "id": "rockstar-games",
+      "name": "Rockstar Games",
+      "logo_url": "https://media-rockstargames-com.akamaized.net/favicons/rockstar/favicon-180x180.png",
+      "job_count": 66,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "rockstar-games",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 66,
+          "checked_at": "2026-09-04T11:55:38.337512+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://www.rockstargames.com/careers"
+        }
+      ]
+    },
+    {
+      "id": "scopely",
+      "name": "Scopely",
+      "logo_url": "https://cdn.phenompeople.com/CareerConnectResources/SZISMNUS/images/SCOPELYSQUARELOGOPOSITIVE2-1769701906203.svg",
+      "job_count": 183,
+      "monitor_count": 1,
+      "strategies": [
+        "greenhouse"
+      ],
+      "monitors": [
+        {
+          "id": "scopely",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 183,
+          "checked_at": "2026-09-04T11:51:40.334513+00:00",
+          "strategy": "greenhouse",
+          "warnings": [],
+          "careers_url": "https://www.scopely.com/en/careers"
+        }
+      ]
+    },
+    {
+      "id": "sega",
+      "name": "SEGA",
+      "logo_url": "https://cdn.sega.co.uk/careers/public/content/media/images/vector/logo-sega-white.svg?VersionId=ywzczfQD992kVR6ZF2141uwyoouXWbQk",
+      "job_count": 29,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "sega",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 29,
+          "checked_at": "2026-09-04T11:55:40.555449+00:00",
+          "strategy": "generic_html",
+          "warnings": [
+            "SEGA Europe aggregate includes Creative Assembly and Sports Interactive, avoiding duplicate subsidiary monitors. Other regional SEGA boards are outside this scope."
+          ],
+          "careers_url": "https://careers.sega.co.uk/vacancies"
+        }
+      ]
+    },
+    {
+      "id": "sony-interactive-entertainment",
+      "name": "Sony Interactive Entertainment / PlayStation",
+      "logo_url": "https://gmedia.playstation.com/is/image/SIEPDC/ps-logo-favicon?$icon-96-96--t$",
+      "job_count": 282,
+      "monitor_count": 6,
+      "strategies": [
+        "greenhouse"
+      ],
+      "monitors": [
+        {
+          "id": "playstation-firesprite",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 1,
+          "checked_at": "2026-09-04T11:51:37.567492+00:00",
+          "strategy": "greenhouse",
+          "warnings": [
+            "Sony gaming / PlayStation coverage: global SIE plus SIEI, Naughty Dog, Polyphony Digital, Firesprite and Haven English boards. Bungie has its own company record. The duplicate French Haven board is omitted."
+          ],
+          "careers_url": "https://job-boards.greenhouse.io/firesprite"
+        },
+        {
+          "id": "playstation-havenenglish",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 2,
+          "checked_at": "2026-09-04T11:51:37.760742+00:00",
+          "strategy": "greenhouse",
+          "warnings": [
+            "Sony gaming / PlayStation coverage: global SIE plus SIEI, Naughty Dog, Polyphony Digital, Firesprite and Haven English boards. Bungie has its own company record. The duplicate French Haven board is omitted."
+          ],
+          "careers_url": "https://job-boards.greenhouse.io/havenenglish"
+        },
+        {
+          "id": "playstation-naughtydog",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 15,
+          "checked_at": "2026-09-04T11:51:37.853112+00:00",
+          "strategy": "greenhouse",
+          "warnings": [
+            "Sony gaming / PlayStation coverage: global SIE plus SIEI, Naughty Dog, Polyphony Digital, Firesprite and Haven English boards. Bungie has its own company record. The duplicate French Haven board is omitted."
+          ],
+          "careers_url": "https://job-boards.greenhouse.io/naughtydog"
+        },
+        {
+          "id": "playstation-pdi",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 18,
+          "checked_at": "2026-09-04T11:51:37.975385+00:00",
+          "strategy": "greenhouse",
+          "warnings": [
+            "Sony gaming / PlayStation coverage: global SIE plus SIEI, Naughty Dog, Polyphony Digital, Firesprite and Haven English boards. Bungie has its own company record. The duplicate French Haven board is omitted."
+          ],
+          "careers_url": "https://job-boards.greenhouse.io/pdi"
+        },
+        {
+          "id": "playstation-siei",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 57,
+          "checked_at": "2026-09-04T11:51:38.166409+00:00",
+          "strategy": "greenhouse",
+          "warnings": [
+            "Sony gaming / PlayStation coverage: global SIE plus SIEI, Naughty Dog, Polyphony Digital, Firesprite and Haven English boards. Bungie has its own company record. The duplicate French Haven board is omitted."
+          ],
+          "careers_url": "https://job-boards.greenhouse.io/siei"
+        },
+        {
+          "id": "sony-interactive-entertainment",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 189,
+          "checked_at": "2026-09-04T11:51:40.350797+00:00",
+          "strategy": "greenhouse",
+          "warnings": [
+            "Sony gaming / PlayStation coverage: global SIE plus SIEI, Naughty Dog, Polyphony Digital, Firesprite and Haven English boards. Bungie has its own company record. The duplicate French Haven board is omitted."
+          ],
+          "careers_url": "https://careers.playstation.com/"
+        }
+      ]
+    },
+    {
+      "id": "square-enix",
+      "name": "Square Enix",
+      "logo_url": "https://www.google.com/s2/favicons?domain=square-enix.com&sz=128",
+      "job_count": 9,
+      "monitor_count": 2,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "square-enix-america",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 3,
+          "checked_at": "2026-09-04T12:12:51.662835+00:00",
+          "strategy": "generic_json",
+          "warnings": [
+            "Separate America and Europe boards. Japan is outside these regional monitors."
+          ],
+          "careers_url": "https://apply.workable.com/square-enix-america"
+        },
+        {
+          "id": "square-enix-europe",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 6,
+          "checked_at": "2026-09-04T12:12:51.662835+00:00",
+          "strategy": "generic_json",
+          "warnings": [
+            "Separate America and Europe boards. Japan is outside these regional monitors."
+          ],
+          "careers_url": "https://apply.workable.com/square-enix"
+        }
+      ]
+    },
+    {
+      "id": "supercell",
+      "name": "Supercell",
+      "logo_url": "https://supercell.com/favicon.ico",
+      "job_count": 44,
+      "monitor_count": 1,
+      "strategies": [
+        "ashby"
+      ],
+      "monitors": [
+        {
+          "id": "supercell",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 44,
+          "checked_at": "2026-09-04T11:55:38.777349+00:00",
+          "strategy": "ashby",
+          "warnings": [],
+          "careers_url": "https://supercell.com/en/careers"
+        }
+      ]
+    },
+    {
+      "id": "take-two-interactive",
+      "name": "Take-Two Interactive",
+      "logo_url": "https://images.ctfassets.net/wn7ipiv9ue5v/1DxCIrUbhWllnMBuMyCje5/546552d68f1324b54b89d733f40f2d8f/favicon.png",
+      "job_count": 40,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "take-two-interactive",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 40,
+          "checked_at": "2026-09-04T11:55:38.336512+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://careers.take2games.com/"
+        }
+      ]
+    },
+    {
+      "id": "ubisoft",
+      "name": "Ubisoft",
+      "logo_url": "https://www.google.com/s2/favicons?domain=ubisoft.com&sz=128",
+      "job_count": 285,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "ubisoft",
+          "revision": 2,
+          "status": "verified",
+          "job_count": 285,
+          "checked_at": "2026-09-04T12:08:30.842847+00:00",
+          "strategy": "generic_json",
+          "warnings": [
+            "Complete compact public listing with direct human job links. The compact feed omits descriptions; description keyword matching is unavailable for these records."
+          ],
+          "careers_url": "https://jobs.smartrecruiters.com/Ubisoft2/."
+        }
+      ]
+    },
+    {
+      "id": "unity",
+      "name": "Unity",
+      "logo_url": "https://www.google.com/s2/favicons?domain=unity.com&sz=128",
+      "job_count": 124,
+      "monitor_count": 1,
+      "strategies": [
+        "workday"
+      ],
+      "monitors": [
+        {
+          "id": "unity",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 124,
+          "checked_at": "2026-09-04T12:07:12.787356+00:00",
+          "strategy": "workday",
+          "warnings": [
+            "Company-specific Workday board with detail enrichment up to 250 listings for descriptions and canonical role URLs. Recheck if board size exceeds that bound or detail enrichment fails."
+          ],
+          "careers_url": "https://unitytech.wd1.myworkdayjobs.com/Unity"
+        }
+      ]
+    },
+    {
+      "id": "valve",
+      "name": "Valve",
+      "logo_url": "https://store.fastly.steamstatic.com/public/shared/images/responsive/footerLogo_valve_new.png",
+      "job_count": 25,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "valve",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 25,
+          "checked_at": "2026-09-04T12:04:13.205508+00:00",
+          "strategy": "generic_html",
+          "warnings": [
+            "removed 7 duplicate source IDs",
+            "Published standing hiring areas; the site invites ongoing applications and does not promise an immediate vacancy for each area. List page omits locations."
+          ],
+          "careers_url": "https://www.valvesoftware.com/en"
+        }
+      ]
+    },
+    {
+      "id": "warner-bros-games",
+      "name": "Warner Bros. Games",
+      "logo_url": "https://cdn.wbgames.com/static/wb-games-logo-h.svg",
+      "job_count": 1,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "warner-bros-games",
+          "revision": 2,
+          "status": "degraded",
+          "job_count": 1,
+          "checked_at": "2026-09-04T12:04:13.205508+00:00",
+          "strategy": "generic_json",
+          "warnings": [
+            "Partial coverage: public WB Games keyword search with strict WB Games title ownership filter. Other studios or jobs without that title marker may be missing.",
+            "Partial listing: unseen jobs must not be closed based on this monitor."
+          ],
+          "careers_url": "https://warnerbrosgames.com/careers"
+        }
+      ]
+    },
+    {
+      "id": "zynga",
+      "name": "Zynga",
+      "logo_url": "https://s4-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/401/007/100/original/Zynga.svg_(1).png?1730375803",
+      "job_count": 48,
+      "monitor_count": 1,
+      "strategies": [
+        "greenhouse"
+      ],
+      "monitors": [
+        {
+          "id": "zynga",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 48,
+          "checked_at": "2026-09-04T11:51:43.863999+00:00",
+          "strategy": "greenhouse",
+          "warnings": [],
+          "careers_url": "https://www.zynga.com/jobs"
+        }
+      ]
+    },
+    {
+      "id": "11-bit-studios",
+      "name": "11 bit studios",
+      "logo_url": "https://11bitstudios.com/wp-content/uploads/2020/10/11bitstudios_logo.png",
+      "job_count": 5,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "11-bit-studios",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 5,
+          "checked_at": "2026-09-05T14:20:01.672565+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://11bitstudios.recruitee.com/"
+        }
+      ]
+    },
+    {
+      "id": "4a-games",
+      "name": "4A Games",
+      "logo_url": "https://images.squarespace-cdn.com/content/v1/57c8a51e59cc686ae46cf2c2/1581442703474-SK2BTD4D5TLCRWKQ355E/4A_Games_Logo_512_white_footer.png",
+      "job_count": 19,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "4a-games",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 19,
+          "checked_at": "2026-09-05T14:20:01.672565+00:00",
+          "strategy": "generic_html",
+          "warnings": [
+            "Official careers sections, each linked to its standalone Squarespace role page. Locations are in descriptions."
+          ],
+          "careers_url": "https://www.4a-games.com.mt/careers"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "logo_url": "https://www.google.com/s2/favicons?domain=amazon.com&sz=128",
+      "job_count": 2,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "amazon-games",
+          "revision": 1,
+          "status": "degraded",
+          "job_count": 2,
+          "checked_at": "2026-09-05T14:20:01.672565+00:00",
+          "strategy": "generic_json",
+          "warnings": [
+            "Amazon Games keyword results, filtered to gaming job titles.",
+            "Partial listing: unseen jobs must not be closed based on this monitor."
+          ],
+          "careers_url": "https://www.amazon.jobs/en/search?base_query=Amazon%20Games"
+        }
+      ]
+    },
+    {
+      "id": "arena-net",
+      "name": "ArenaNet",
+      "logo_url": "https://www.arena.net/img/favicon.ico",
+      "job_count": 3,
+      "monitor_count": 1,
+      "strategies": [
+        "ashby"
+      ],
+      "monitors": [
+        {
+          "id": "arena-net",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 3,
+          "checked_at": "2026-09-05T14:20:01.672565+00:00",
+          "strategy": "ashby",
+          "warnings": [],
+          "careers_url": "https://jobs.ashbyhq.com/arenanet"
+        }
+      ]
+    },
+    {
+      "id": "arrowhead",
+      "name": "Arrowhead Game Studios",
+      "logo_url": "https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/c24d0b3d-196b-457e-846d-28b3dd491763/original.png",
+      "job_count": 5,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "arrowhead",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 5,
+          "checked_at": "2026-09-05T14:20:01.676606+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://jobs.arrowheadgamestudios.com/jobs"
+        }
+      ]
+    },
+    {
+      "id": "asobo-studio",
+      "name": "Asobo Studio",
+      "logo_url": "https://www.asobostudio.com/images/a-asobo-blue.png",
+      "job_count": 9,
+      "monitor_count": 1,
+      "strategies": [
+        "lever"
+      ],
+      "monitors": [
+        {
+          "id": "asobo-studio",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 9,
+          "checked_at": "2026-09-05T14:20:02.147544+00:00",
+          "strategy": "lever",
+          "warnings": [],
+          "careers_url": "https://jobs.eu.lever.co/asobostudio"
+        }
+      ]
+    },
+    {
+      "id": "blackbird-interactive",
+      "name": "Blackbird Interactive",
+      "logo_url": "https://cdn.prod.website-files.com/69d3e119922064889c920a3e/6a97561b7b486afba38478ff_HighRes_FullBBILogo_White_on_Transparant_Jan2020%202%20(2).png",
+      "job_count": 10,
+      "monitor_count": 1,
+      "strategies": [
+        "lever"
+      ],
+      "monitors": [
+        {
+          "id": "blackbird-interactive",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 10,
+          "checked_at": "2026-09-05T14:20:02.381133+00:00",
+          "strategy": "lever",
+          "warnings": [],
+          "careers_url": "https://jobs.lever.co/blackbirdinteractive"
+        }
+      ]
+    },
+    {
+      "id": "bloober-team",
+      "name": "Bloober Team",
+      "logo_url": "https://images.squarespace-cdn.com/content/v1/5a708ab19f8dceb345f3815f/1565103924783-61572HWQ9WN4R05HIXSL/eu_logo%2Bbloober_web.png",
+      "job_count": 4,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "bloober-team",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 4,
+          "checked_at": "2026-09-05T14:20:02.395455+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://blooberteam.recruitee.com/"
+        }
+      ]
+    },
+    {
+      "id": "bulkhead",
+      "name": "BULKHEAD",
+      "logo_url": "https://www.google.com/s2/favicons?domain=bulkhead.com&sz=128",
+      "job_count": 6,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "bulkhead",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 6,
+          "checked_at": "2026-09-05T14:20:02.464529+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://careers.bulkhead.com/jobs"
+        }
+      ]
+    },
+    {
+      "id": "ccp-games",
+      "name": "CCP Games",
+      "logo_url": "https://images.ctfassets.net/6fdt5dl491o1/4OL24VNcY1mNwRE0V0ygRX/e90bb54c6364bfc821f16fa13db98eab/fenris_logo.svg",
+      "job_count": 6,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "ccp-games",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 6,
+          "checked_at": "2026-09-05T14:20:02.464529+00:00",
+          "strategy": "generic_json",
+          "warnings": [
+            "Fenris Creations, formerly CCP Games; description field contains the opening summary."
+          ],
+          "careers_url": "https://careers.fenriscreations.com/"
+        }
+      ]
+    },
+    {
+      "id": "ci-games",
+      "name": "CI Games",
+      "logo_url": "https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/36b21f9a-5241-4658-bd23-15f12d714a81/original.png",
+      "job_count": 3,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "ci-games",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 3,
+          "checked_at": "2026-09-05T14:20:02.607039+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://cigames.teamtailor.com/jobs"
+        }
+      ]
+    },
+    {
+      "id": "cloud-imperium-games",
+      "name": "Cloud Imperium Games",
+      "logo_url": "https://cloudimperiumgames.com/uploads/9a5e07c6eb234bde9a864634b210de40.svg",
+      "job_count": 59,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "cloud-imperium-games",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 59,
+          "checked_at": "2026-09-05T14:20:02.698932+00:00",
+          "strategy": "generic_html",
+          "warnings": [],
+          "careers_url": "https://cloudimperiumgames.com/jobs"
+        }
+      ]
+    },
+    {
+      "id": "coffee-stain",
+      "name": "Coffee Stain",
+      "logo_url": "https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/b86c6f4a-3a2b-400b-9bc2-b277592d4ff2/original.png",
+      "job_count": 2,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "coffee-stain",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 2,
+          "checked_at": "2026-09-05T14:20:03.105343+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://jobs.coffeestain.com/jobs"
+        }
+      ]
+    },
+    {
+      "id": "crytek",
+      "name": "Crytek",
+      "logo_url": "https://www.crytek.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogocrytek.0a29e206.png&w=1200&q=75&dpl=unknown",
+      "job_count": 8,
+      "monitor_count": 1,
+      "strategies": [
+        "lever"
+      ],
+      "monitors": [
+        {
+          "id": "crytek",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 8,
+          "checked_at": "2026-09-05T14:20:03.138871+00:00",
+          "strategy": "lever",
+          "warnings": [],
+          "careers_url": "https://jobs.lever.co/crytek"
+        }
+      ]
+    },
+    {
+      "id": "cygames",
+      "name": "Cygames",
+      "logo_url": "https://www.google.com/s2/favicons?domain=cygames.co.jp&sz=128",
+      "job_count": 100,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "cygames",
+          "revision": 1,
+          "status": "degraded",
+          "job_count": 100,
+          "checked_at": "2026-09-05T14:20:03.206412+00:00",
+          "strategy": "generic_html",
+          "warnings": [
+            "First 100 public Cygames group roles, including CySphere.",
+            "Partial listing: unseen jobs must not be closed based on this monitor."
+          ],
+          "careers_url": "https://hrmos.co/pages/cygames/jobs"
+        }
+      ]
+    },
+    {
+      "id": "daybreak-games",
+      "name": "Daybreak Game Company",
+      "logo_url": "https://www.daybreakgames.com/web-platform/images/global/dgc-footer-logo.png?v=2355942022",
+      "job_count": 4,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "daybreak-games",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 4,
+          "checked_at": "2026-09-05T14:20:03.267480+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://job-boards.greenhouse.io/daybreakgames"
+        }
+      ]
+    },
+    {
+      "id": "double-eleven",
+      "name": "Double Eleven",
+      "logo_url": "https://double11.com/images/favicon/favicon.ico",
+      "job_count": 6,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "double-eleven",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 6,
+          "checked_at": "2026-09-05T14:20:03.355283+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://apply.workable.com/double-eleven"
+        }
+      ]
+    },
+    {
+      "id": "dream-games",
+      "name": "Dream Games",
+      "logo_url": "https://cdn.prod.website-files.com/66ba0cbc63210953b4fc73a8/66ba0cbc63210953b4fc73bb_logo-white.svg",
+      "job_count": 19,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "dream-games",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 19,
+          "checked_at": "2026-09-05T14:20:03.695869+00:00",
+          "strategy": "generic_html",
+          "warnings": [],
+          "careers_url": "https://www.dreamgames.com/open-positions"
+        }
+      ]
+    },
+    {
+      "id": "embark-studios",
+      "name": "Embark Studios",
+      "logo_url": "https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/3b5eb208-782a-4429-b2ab-3603b59ccce9/original.png",
+      "job_count": 18,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "embark-studios",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 18,
+          "checked_at": "2026-09-05T14:20:03.727872+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://careers.embark-studios.com/jobs"
+        }
+      ]
+    },
+    {
+      "id": "fatshark",
+      "name": "Fatshark",
+      "logo_url": "https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/9037057b-0e5d-4971-9387-953f22a982e5/original.png",
+      "job_count": 5,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "fatshark",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 5,
+          "checked_at": "2026-09-05T14:20:03.982281+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://jobs.fatsharkgames.com/jobs"
+        }
+      ]
+    },
+    {
+      "id": "focus-entertainment",
+      "name": "Focus Entertainment",
+      "logo_url": "https://cdn.focus-home.com/fhi-fastforward-admin/company/favicon.ico",
+      "job_count": 6,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "focus-entertainment",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 6,
+          "checked_at": "2026-09-05T14:20:03.985317+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://focusentertainment.recruitee.com/"
+        }
+      ]
+    },
+    {
+      "id": "fromsoftware",
+      "name": "FromSoftware",
+      "logo_url": "https://careers.fromsoftware.jp/en/resources/images/common/ogp/apple-touch-icon.png",
+      "job_count": 2,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "fromsoftware",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 2,
+          "checked_at": "2026-09-05T14:20:04.067724+00:00",
+          "strategy": "generic_html",
+          "warnings": [
+            "English-language positions; not the full Japanese careers catalog."
+          ],
+          "careers_url": "https://careers.fromsoftware.jp/en/openpositions.html"
+        }
+      ]
+    },
+    {
+      "id": "funplus",
+      "name": "FunPlus",
+      "logo_url": "https://funplus.com/wp-content/uploads/2025/07/logo.png",
+      "job_count": 1,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "funplus",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 1,
+          "checked_at": "2026-09-05T14:20:04.580826+00:00",
+          "strategy": "generic_html",
+          "warnings": [],
+          "careers_url": "https://funplus.factorialhr.com/embed/jobs"
+        }
+      ]
+    },
+    {
+      "id": "game-freak",
+      "name": "Game Freak",
+      "logo_url": "https://www.gamefreak.co.jp/assets/recruit/img/logo.svg",
+      "job_count": 60,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "game-freak",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 60,
+          "checked_at": "2026-09-05T14:20:04.580826+00:00",
+          "strategy": "generic_html",
+          "warnings": [],
+          "careers_url": "https://hrmos.co/pages/gamefreak/jobs"
+        }
+      ]
+    },
+    {
+      "id": "gearbox",
+      "name": "Gearbox Entertainment",
+      "logo_url": "https://www.google.com/s2/favicons?domain=gearboxsoftware.com&sz=128",
+      "job_count": 1,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "gearbox",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 1,
+          "checked_at": "2026-09-05T14:20:04.584839+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://job-boards.greenhouse.io/gearbox"
+        }
+      ]
+    },
+    {
+      "id": "gunfire-games",
+      "name": "Gunfire Games",
+      "logo_url": "https://images.squarespace-cdn.com/content/v1/55669e4ae4b0352887a893c6/1432788685905-RBGTTR0Y0518VJV4BYZT/GG_LOGO_PRINT.png?format=1500w",
+      "job_count": 3,
+      "monitor_count": 1,
+      "strategies": [
+        "playwright"
+      ],
+      "monitors": [
+        {
+          "id": "gunfire-games",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 3,
+          "checked_at": "2026-09-05T14:20:04.651185+00:00",
+          "strategy": "playwright",
+          "warnings": [],
+          "careers_url": "https://recruiting.paylocity.com/recruiting/jobs/All/20e9f03b-0303-4991-9f63-b4dae15d620f/Gunfire-Games"
+        }
+      ]
+    },
+    {
+      "id": "hello-games",
+      "name": "Hello Games",
+      "logo_url": "https://hellogames.org/images/PatternLibrary/hello-games-logo.svg",
+      "job_count": 8,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "hello-games",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 8,
+          "checked_at": "2026-09-05T14:20:04.961159+00:00",
+          "strategy": "generic_html",
+          "warnings": [],
+          "careers_url": "https://hellogames.org/join-us"
+        }
+      ]
+    },
+    {
+      "id": "homa",
+      "name": "Homa",
+      "logo_url": "https://www.homagames.com/images/apple-touch-icon.png",
+      "job_count": 10,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "homa",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 10,
+          "checked_at": "2026-09-05T14:20:05.080562+00:00",
+          "strategy": "generic_json",
+          "warnings": [
+            "removed 18 duplicate source IDs"
+          ],
+          "careers_url": "https://apply.workable.com/homa-games"
+        }
+      ]
+    },
+    {
+      "id": "hoyoverse",
+      "name": "HoYoverse",
+      "logo_url": "https://www.hoyoverse.com/favicon-256.ico",
+      "job_count": 11,
+      "monitor_count": 1,
+      "strategies": [
+        "ashby"
+      ],
+      "monitors": [
+        {
+          "id": "hoyoverse",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 11,
+          "checked_at": "2026-09-05T14:20:05.207889+00:00",
+          "strategy": "ashby",
+          "warnings": [],
+          "careers_url": "https://jobs.ashbyhq.com/hoyoverse"
+        }
+      ]
+    },
+    {
+      "id": "jagex",
+      "name": "Jagex",
+      "logo_url": "https://framerusercontent.com/images/8cqtudF9l8FTJ69r2TXSnISQhuI.svg?width=1230&height=1230",
+      "job_count": 24,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "jagex",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 24,
+          "checked_at": "2026-09-05T14:20:05.316027+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://apply.workable.com/jagex-limited"
+        }
+      ]
+    },
+    {
+      "id": "jam-city",
+      "name": "Jam City",
+      "logo_url": "https://assets.jamcity.com/20220302093336/logo-1-1.svg",
+      "job_count": 17,
+      "monitor_count": 1,
+      "strategies": [
+        "lever"
+      ],
+      "monitors": [
+        {
+          "id": "jam-city",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 17,
+          "checked_at": "2026-09-05T14:20:05.576654+00:00",
+          "strategy": "lever",
+          "warnings": [],
+          "careers_url": "https://jobs.lever.co/jamcity"
+        }
+      ]
+    },
+    {
+      "id": "keywords-studios",
+      "name": "Keywords Studios",
+      "logo_url": "https://www.keywordsstudios.com/images/custom/a4/8942d58436e8c7c964d20242438ae7/w880/q80/images/uploads/a48942d58436e8c7c964d20242438ae7.png",
+      "job_count": 368,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "keywords-studios",
+          "revision": 1,
+          "status": "degraded",
+          "job_count": 368,
+          "checked_at": "2026-09-05T14:20:05.576654+00:00",
+          "strategy": "generic_json",
+          "warnings": [
+            "Up to 500 roles across Keywords Studios and its owned studios. Listing descriptions are excerpts.",
+            "Partial listing: unseen jobs must not be closed based on this monitor."
+          ],
+          "careers_url": "https://www.keywordsstudios.com/en/careers/browse-careers"
+        }
+      ]
+    },
+    {
+      "id": "koei-tecmo",
+      "name": "Koei Tecmo",
+      "logo_url": "https://www.koeitecmo.co.jp/recruit/assets/images/common/logo_kt.svg",
+      "job_count": 53,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "koei-tecmo",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 53,
+          "checked_at": "2026-09-05T14:20:05.588930+00:00",
+          "strategy": "generic_html",
+          "warnings": [
+            "Japanese mid-career recruitment; includes referral/open applications."
+          ],
+          "careers_url": "https://www.koeitecmo.co.jp/recruit/career"
+        }
+      ]
+    },
+    {
+      "id": "krafton",
+      "name": "KRAFTON",
+      "logo_url": "https://www.google.com/s2/favicons?domain=krafton.com&sz=128",
+      "job_count": 60,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "krafton",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 60,
+          "checked_at": "2026-09-05T14:20:05.812082+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://job-boards.greenhouse.io/krafton"
+        }
+      ]
+    },
+    {
+      "id": "level-5",
+      "name": "LEVEL5",
+      "logo_url": "https://www.level5.co.jp/assets/img/shared/logo.svg",
+      "job_count": 21,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "level-5",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 21,
+          "checked_at": "2026-09-05T14:20:06.569392+00:00",
+          "strategy": "generic_html",
+          "warnings": [],
+          "careers_url": "https://www.level5.co.jp/recruit/career"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "logo_url": "https://www.microsoft.com/favicon.ico?v2",
+      "job_count": 5,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "microsoft-gaming",
+          "revision": 1,
+          "status": "degraded",
+          "job_count": 5,
+          "checked_at": "2026-09-05T14:20:06.573868+00:00",
+          "strategy": "generic_json",
+          "warnings": [
+            "First ten Xbox-search results, strictly filtered to gaming titles.",
+            "Partial listing: unseen jobs must not be closed based on this monitor."
+          ],
+          "careers_url": "https://apply.careers.microsoft.com/careers?query=Xbox"
+        }
+      ]
+    },
+    {
+      "id": "miniclip",
+      "name": "Miniclip",
+      "logo_url": "https://rmkcdn.successfactors.com/9645d618/28ac44b5-b51e-41b9-b127-0.png",
+      "job_count": 25,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "miniclip",
+          "revision": 1,
+          "status": "degraded",
+          "job_count": 25,
+          "checked_at": "2026-09-05T14:20:07.197268+00:00",
+          "strategy": "generic_html",
+          "warnings": [
+            "First 25 public vacancies. Site uses path pagination unsupported by current runtime.",
+            "Partial listing: unseen jobs must not be closed based on this monitor."
+          ],
+          "careers_url": "https://careers.miniclip.com/go/Miniclip-All-Jobs/9013655"
+        }
+      ]
+    },
+    {
+      "id": "mobilityware",
+      "name": "MobilityWare",
+      "logo_url": "https://www.mobilityware.com/wp-content/uploads/2022/10/solitaire-mobilityware-logo.webp",
+      "job_count": 4,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "mobilityware",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 4,
+          "checked_at": "2026-09-05T14:20:07.995920+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://job-boards.greenhouse.io/mobilityware"
+        }
+      ]
+    },
+    {
+      "id": "moon-active",
+      "name": "Moon Active",
+      "logo_url": "https://www.moonactive.com/wp-content/uploads/2019/09/Gray_logo2.svg",
+      "job_count": 36,
+      "monitor_count": 1,
+      "strategies": [
+        "ashby"
+      ],
+      "monitors": [
+        {
+          "id": "moon-active",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 36,
+          "checked_at": "2026-09-05T14:20:08.084204+00:00",
+          "strategy": "ashby",
+          "warnings": [],
+          "careers_url": "https://jobs.ashbyhq.com/moonactive"
+        }
+      ]
+    },
+    {
+      "id": "netease",
+      "name": "NetEase Games",
+      "logo_url": "https://www.google.com/s2/favicons?domain=neteasegames.com&sz=128",
+      "job_count": 26,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "netease",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 26,
+          "checked_at": "2026-09-05T14:20:08.495167+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://job-boards.greenhouse.io/neteasegames"
+        }
+      ]
+    },
+    {
+      "id": "nexon",
+      "name": "Nexon",
+      "logo_url": "https://web.nxfs.nexon.com/arena-home/static/images/nexon.ico",
+      "job_count": 7,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "nexon",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 7,
+          "checked_at": "2026-09-05T14:20:08.539753+00:00",
+          "strategy": "generic_html",
+          "warnings": [
+            "Nexon America, not the complete global group."
+          ],
+          "careers_url": "https://careers.jobscore.com/careers/nexonamericainc"
+        }
+      ]
+    },
+    {
+      "id": "obsidian-entertainment",
+      "name": "Obsidian Entertainment",
+      "logo_url": "https://s3.amazonaws.com/resumator/customer_20180425233613_7ZSIE39YUQY4TBMV/logos/20200625220643_obsidian-logo.gif",
+      "job_count": 2,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "obsidian-entertainment",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 2,
+          "checked_at": "2026-09-05T14:20:08.666798+00:00",
+          "strategy": "generic_html",
+          "warnings": [],
+          "careers_url": "https://obsidian.applytojob.com/apply"
+        }
+      ]
+    },
+    {
+      "id": "offworld",
+      "name": "Offworld Industries",
+      "logo_url": "https://cdn.prod.website-files.com/651b12e762a9295dd41c691b/65947fbf28f21a3b838c2577_OWG_LOGO_PRIMARY_RGB_NEG_blue.png",
+      "job_count": 8,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "offworld",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 8,
+          "checked_at": "2026-09-05T14:20:08.780198+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://owi.bamboohr.com/careers/."
+        }
+      ]
+    },
+    {
+      "id": "people-can-fly",
+      "name": "People Can Fly",
+      "logo_url": "https://peoplecanfly.com/wp-content/uploads/2020/05/pcf-logo-black-new.png",
+      "job_count": 16,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "people-can-fly",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 16,
+          "checked_at": "2026-09-05T14:20:09.006001+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://jobs.smartrecruiters.com/PeopleCanFly/."
+        }
+      ]
+    },
+    {
+      "id": "playground-games",
+      "name": "Playground Games",
+      "logo_url": "https://playground-games.com/site-logo.svg",
+      "job_count": 9,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "playground-games",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 9,
+          "checked_at": "2026-09-05T14:20:09.084247+00:00",
+          "strategy": "generic_html",
+          "warnings": [],
+          "careers_url": "https://jobs.jobvite.com/playground-games"
+        }
+      ]
+    },
+    {
+      "id": "playtika",
+      "name": "Playtika",
+      "logo_url": "https://www.playtika.com/img/logo-playtika.png",
+      "job_count": 27,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "playtika",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 27,
+          "checked_at": "2026-09-05T14:20:09.509773+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://job-boards.greenhouse.io/playtikaltd"
+        }
+      ]
+    },
+    {
+      "id": "quantic-dream",
+      "name": "Quantic Dream",
+      "logo_url": "https://www.quanticdream.com/img/svg/qd_logo_blue.svg",
+      "job_count": 3,
+      "monitor_count": 1,
+      "strategies": [
+        "lever"
+      ],
+      "monitors": [
+        {
+          "id": "quantic-dream",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 3,
+          "checked_at": "2026-09-05T14:20:09.711970+00:00",
+          "strategy": "lever",
+          "warnings": [],
+          "careers_url": "https://jobs.eu.lever.co/quanticdream"
+        }
+      ]
+    },
+    {
+      "id": "rebellion",
+      "name": "Rebellion",
+      "logo_url": "https://rebellion.com/wp-content/uploads/2026/03/ADS_Logo-800x356.png",
+      "job_count": 17,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "rebellion",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 17,
+          "checked_at": "2026-09-05T14:20:09.711970+00:00",
+          "strategy": "generic_json",
+          "warnings": [
+            "removed 21 duplicate source IDs"
+          ],
+          "careers_url": "https://apply.workable.com/rebellion"
+        }
+      ]
+    },
+    {
+      "id": "red-barrels",
+      "name": "Red Barrels",
+      "logo_url": "https://redbarrelsgames.com/wp-content/themes/redbarrelsgames/src/images/logo-15th-anniversary.png",
+      "job_count": 1,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "red-barrels",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 1,
+          "checked_at": "2026-09-05T14:20:09.791584+00:00",
+          "strategy": "generic_html",
+          "warnings": [],
+          "careers_url": "https://redbarrelsgames.com/careers/job-listing"
+        }
+      ]
+    },
+    {
+      "id": "rovio",
+      "name": "Rovio",
+      "logo_url": "https://www.rovio.com/wp-content/uploads/2025/12/cropped-favicon-rovio-32x32.png",
+      "job_count": 7,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "rovio",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 7,
+          "checked_at": "2026-09-05T14:20:09.869235+00:00",
+          "strategy": "generic_html",
+          "warnings": [],
+          "careers_url": "https://www.rovio.com/open-positions"
+        }
+      ]
+    },
+    {
+      "id": "sharkmob",
+      "name": "Sharkmob",
+      "logo_url": "https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/bd86ac9f-4d92-4c09-9fed-865715c63845/original.png",
+      "job_count": 6,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "sharkmob",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 6,
+          "checked_at": "2026-09-05T14:20:10.016923+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://career.sharkmob.com/jobs"
+        }
+      ]
+    },
+    {
+      "id": "snk",
+      "name": "SNK",
+      "logo_url": "https://www.snk-corp.co.jp/wp/wp-content/themes/snk-corp/img/home/img_esports_logo02.png",
+      "job_count": 10,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "snk",
+          "revision": 1,
+          "status": "degraded",
+          "job_count": 10,
+          "checked_at": "2026-09-05T14:20:10.197760+00:00",
+          "strategy": "generic_html",
+          "warnings": [
+            "First 10 of 96 public SNK vacancies; path pagination unsupported by current runtime.",
+            "Partial listing: unseen jobs must not be closed based on this monitor."
+          ],
+          "careers_url": "https://recruit.jobcan.jp/snk-corp/list"
+        }
+      ]
+    },
+    {
+      "id": "sumo-digital",
+      "name": "Sumo Digital",
+      "logo_url": "https://cdn-ilelmkh.nitrocdn.com/gAakFHvyTJGXeStbXnwLjDnTgmXSswWq/assets/images/optimized/rev-81353d5/www.sumo-digital.com/wp-content/uploads/2026/01/cropped-SumoIcons_web_Home-32x32.png",
+      "job_count": 11,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "sumo-digital",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 11,
+          "checked_at": "2026-09-05T14:20:10.220769+00:00",
+          "strategy": "generic_html",
+          "warnings": [],
+          "careers_url": "https://www.sumo-digital.com/careers"
+        }
+      ]
+    },
+    {
+      "id": "team17",
+      "name": "Team17",
+      "logo_url": "https://www.team17.com/hubfs/Team17%C2%AE_Horiz_white_keyline_RGB.svg",
+      "job_count": 1,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "team17",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 1,
+          "checked_at": "2026-09-05T14:20:10.432245+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://apply.workable.com/team-17-digital"
+        }
+      ]
+    },
+    {
+      "id": "techland",
+      "name": "Techland",
+      "logo_url": "https://techland.net/img/favicon/apple-touch-icon.png?v=1554110417",
+      "job_count": 17,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_html"
+      ],
+      "monitors": [
+        {
+          "id": "techland",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 17,
+          "checked_at": "2026-09-05T14:20:10.540722+00:00",
+          "strategy": "generic_html",
+          "warnings": [
+            "removed 4 duplicate source IDs"
+          ],
+          "careers_url": "https://techland.net/job-offers"
+        }
+      ]
+    },
+    {
+      "id": "tencent",
+      "name": "Tencent Games",
+      "logo_url": "https://www.tencent.com/wp-content/uploads/2024/05/logo@2x-en.png",
+      "job_count": 27,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "tencent",
+          "revision": 1,
+          "status": "degraded",
+          "job_count": 27,
+          "checked_at": "2026-09-05T14:20:10.997993+00:00",
+          "strategy": "generic_json",
+          "warnings": [
+            "Gaming keyword search, up to 100 public roles; not all Tencent employment.",
+            "Partial listing: unseen jobs must not be closed based on this monitor."
+          ],
+          "careers_url": "https://careers.tencent.com/en-us/search.html"
+        }
+      ]
+    },
+    {
+      "id": "testronic",
+      "name": "Testronic",
+      "logo_url": "https://www.testroniclabs.com/wp-content/uploads/2026/03/logo-funcom-3-128x128-c-center.png",
+      "job_count": 14,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "testronic",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 14,
+          "checked_at": "2026-09-05T14:20:11.440810+00:00",
+          "strategy": "generic_json",
+          "warnings": [
+            "removed 1 duplicate source IDs"
+          ],
+          "careers_url": "https://apply.workable.com/testronic"
+        }
+      ]
+    },
+    {
+      "id": "thatgamecompany",
+      "name": "thatgamecompany",
+      "logo_url": "https://thatgamecompany.com/wp-content/uploads/tgc-logo-two-tone.png",
+      "job_count": 38,
+      "monitor_count": 1,
+      "strategies": [
+        "ashby"
+      ],
+      "monitors": [
+        {
+          "id": "thatgamecompany",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 38,
+          "checked_at": "2026-09-05T14:20:11.594967+00:00",
+          "strategy": "ashby",
+          "warnings": [],
+          "careers_url": "https://jobs.ashbyhq.com/thatgamecompany"
+        }
+      ]
+    },
+    {
+      "id": "torn-banner",
+      "name": "Torn Banner Studios",
+      "logo_url": "https://tornbanner.com/wp-content/themes/tornbanner-2023/assets/images/torn-banner-marque.svg",
+      "job_count": 4,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "torn-banner",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 4,
+          "checked_at": "2026-09-05T14:20:11.737312+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://tornbanner.bamboohr.com/careers/."
+        }
+      ]
+    },
+    {
+      "id": "tripledot",
+      "name": "Tripledot Studios",
+      "logo_url": "https://app.pinpointhq.com/rails/active_storage/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMEtvUHc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c239ea148c268c268a5c718d1ceeda5440d5ae24/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MY21WemFYcGxTU0lQTkRRd0xqQjROakF1TUFZNkJrVlUiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--a8aaf45d691ceff55bb4ecfcc9bec21f806890fa/TDS_Logo_1200x630_white.png",
+      "job_count": 78,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "tripledot",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 78,
+          "checked_at": "2026-09-05T14:20:11.792339+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://job-boards.greenhouse.io/tripledotstudios"
+        }
+      ]
+    },
+    {
+      "id": "turtle-rock-studios",
+      "name": "Turtle Rock Studios",
+      "logo_url": "https://www.turtlerockstudios.com/static/Logo_Turtlerock_OnDarkBG-413cca342ba938b069cec723b688f877.svg",
+      "job_count": 1,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "turtle-rock-studios",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 1,
+          "checked_at": "2026-09-05T14:20:12.263623+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://job-boards.greenhouse.io/turtlerockstudios"
+        }
+      ]
+    },
+    {
+      "id": "voodoo",
+      "name": "Voodoo",
+      "logo_url": "https://framerusercontent.com/images/0bc42FVMQzvbtsSsoae01IEZWU.png",
+      "job_count": 102,
+      "monitor_count": 1,
+      "strategies": [
+        "ashby"
+      ],
+      "monitors": [
+        {
+          "id": "voodoo",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 102,
+          "checked_at": "2026-09-05T14:20:12.263623+00:00",
+          "strategy": "ashby",
+          "warnings": [],
+          "careers_url": "https://jobs.ashbyhq.com/voodoo"
+        }
+      ]
+    },
+    {
+      "id": "wargaming",
+      "name": "Wargaming",
+      "logo_url": "https://wargaming.com/assets/img/favicon.ico",
+      "job_count": 46,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "wargaming",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 46,
+          "checked_at": "2026-09-05T14:20:12.355059+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://job-boards.greenhouse.io/wargamingen"
+        }
+      ]
+    },
+    {
+      "id": "warhorse-studios",
+      "name": "Warhorse Studios",
+      "logo_url": "https://warhorsestudios.cz/_next/static/media/logo.3f1adca1.svg",
+      "job_count": 4,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "warhorse-studios",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 4,
+          "checked_at": "2026-09-05T14:20:12.515647+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://warhorsestudios.breezy.hr/"
+        }
+      ]
+    },
+    {
+      "id": "wildcard",
+      "name": "Studio Wildcard",
+      "logo_url": "https://images.squarespace-cdn.com/content/v1/568e2c9925981db074af4a32/0ad1f14d-d4cc-4fbe-8ca7-31e4bd494dcb/favicon.ico?format=100w",
+      "job_count": 6,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "wildcard",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 6,
+          "checked_at": "2026-09-05T14:20:12.755517+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://studiowildcard.bamboohr.com/careers/."
+        }
+      ]
+    },
+    {
+      "id": "zeptolab",
+      "name": "ZeptoLab",
+      "logo_url": "https://www-cms.zeptolab.com/uploads/Logo_white_242f2b508d.svg",
+      "job_count": 3,
+      "monitor_count": 1,
+      "strategies": [
+        "generic_json"
+      ],
+      "monitors": [
+        {
+          "id": "zeptolab",
+          "revision": 1,
+          "status": "verified",
+          "job_count": 3,
+          "checked_at": "2026-09-05T14:20:12.855137+00:00",
+          "strategy": "generic_json",
+          "warnings": [],
+          "careers_url": "https://apply.workable.com/zeptolab"
+        }
+      ]
+    }
+  ]
+}

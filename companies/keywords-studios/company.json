@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "keywords-studios",
+  "name": "Keywords Studios",
+  "aliases": [],
+  "website_url": "https://keywordsstudios.com/",
+  "logo_url": "https://www.keywordsstudios.com/images/custom/a4/8942d58436e8c7c964d20242438ae7/w880/q80/images/uploads/a48942d58436e8c7c964d20242438ae7.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

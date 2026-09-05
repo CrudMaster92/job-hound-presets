@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "koei-tecmo",
+  "name": "Koei Tecmo",
+  "aliases": [],
+  "website_url": "https://koeitecmo.co.jp/",
+  "logo_url": "https://www.koeitecmo.co.jp/recruit/assets/images/common/logo_kt.svg",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

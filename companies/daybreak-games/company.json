@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "daybreak-games",
+  "name": "Daybreak Game Company",
+  "aliases": [],
+  "website_url": "https://daybreakgames.com/",
+  "logo_url": "https://www.daybreakgames.com/web-platform/images/global/dgc-footer-logo.png?v=2355942022",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

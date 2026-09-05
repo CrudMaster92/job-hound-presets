@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "thatgamecompany",
+  "name": "thatgamecompany",
+  "aliases": [],
+  "website_url": "https://thatgamecompany.com/",
+  "logo_url": "https://thatgamecompany.com/wp-content/uploads/tgc-logo-two-tone.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "snk",
+  "name": "SNK",
+  "aliases": [],
+  "website_url": "https://snk-corp.co.jp/",
+  "logo_url": "https://www.snk-corp.co.jp/wp/wp-content/themes/snk-corp/img/home/img_esports_logo02.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

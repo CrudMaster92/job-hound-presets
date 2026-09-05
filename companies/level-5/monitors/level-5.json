@@ -1,0 +1,56 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "level-5",
+  "company_id": "level-5",
+  "revision": 1,
+  "label": "LEVEL5 careers",
+  "careers_url": "https://www.level5.co.jp/recruit/career",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-05T14:20:06.569392+00:00",
+    "job_count": 21,
+    "warnings": []
+  },
+  "recipe": {
+    "version": 1,
+    "company": "LEVEL5",
+    "careers_url": "https://www.level5.co.jp/recruit/career",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "www.level5.co.jp"
+    ],
+    "request": {
+      "url": "https://www.level5.co.jp/recruit/career",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "ul.boxA > li",
+      "title": "a > span:first-child",
+      "link": "a",
+      "location": ".cat"
+    },
+    "mapping": {},
+    "metadata": {
+      "location_note": "Primary office; additional offices are listed in the source."
+    }
+  }
+}

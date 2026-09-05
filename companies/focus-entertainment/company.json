@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "focus-entertainment",
+  "name": "Focus Entertainment",
+  "aliases": [],
+  "website_url": "https://focus-entmt.com/",
+  "logo_url": "https://cdn.focus-home.com/fhi-fastforward-admin/company/favicon.ico",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

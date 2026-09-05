@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "mobilityware",
+  "name": "MobilityWare",
+  "aliases": [],
+  "website_url": "https://mobilityware.com/",
+  "logo_url": "https://www.mobilityware.com/wp-content/uploads/2022/10/solitaire-mobilityware-logo.webp",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

@@ -33,7 +33,10 @@
     {
       "company_id": "amazon",
       "rank": 1,
-      "ranked_name": "Amazon"
+      "ranked_name": "Amazon",
+      "monitor_ids": [
+        "amazon"
+      ]
     },
     {
       "company_id": "walmart",
@@ -88,7 +91,10 @@
     {
       "company_id": "microsoft",
       "rank": 11,
-      "ranked_name": "Microsoft"
+      "ranked_name": "Microsoft",
+      "monitor_ids": [
+        "microsoft"
+      ]
     },
     {
       "company_id": "jpmorgan-chase",

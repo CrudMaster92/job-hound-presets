@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "rebellion",
+  "name": "Rebellion",
+  "aliases": [],
+  "website_url": "https://rebellion.com/",
+  "logo_url": "https://rebellion.com/wp-content/uploads/2026/03/ADS_Logo-800x356.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}
