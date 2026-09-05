@@ -4,6 +4,9 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
+
+from scripts import build_catalog
 
 from scripts.build_catalog import build, digest
 
@@ -46,16 +49,41 @@ class CatalogBuildTests(unittest.TestCase):
             api = output / "api" / "v1"
             self.assertTrue(all(page["count"] <= 250 for page in catalog["search_pages"]))
             fortune = next(value for value in catalog["collections"] if value["id"] == "fortune-50-2026")
-            self.assertEqual(fortune["company_count"], 50)
-            self.assertEqual(fortune["monitor_count"], 53)
+            self.assertEqual(fortune["company_count"], 100)
+            self.assertEqual(fortune["monitor_count"], 97)
             detail = json.loads((api / fortune["path"]).read_text(encoding="utf-8"))
             self.assertTrue(all(page["count"] <= 100 for page in detail["member_pages"]))
             members = json.loads((api / detail["member_pages"][0]["path"]).read_text(encoding="utf-8"))
-            self.assertEqual(len(members["companies"]), 50)
+            self.assertEqual(len(members["companies"]), 100)
             self.assertEqual(members["companies"][0]["rank"], 1)
-            self.assertEqual(members["companies"][-1]["rank"], 50)
+            self.assertEqual(members["companies"][-1]["rank"], 100)
+            self.assertEqual([m["rank"] for m in members["companies"]], list(range(1, 101)))
+            unavailable = [m for m in members["companies"] if not m["monitors"]]
+            self.assertEqual({m["company_id"] for m in unavailable}, {
+                "progressive", "hca-healthcare", "delta-air-lines", "publix",
+                "american-airlines", "enterprise-products",
+            })
+            for member in unavailable:
+                self.assertEqual(member["availability"]["status"], "unavailable")
+                self.assertTrue(member["availability"]["message"])
+                self.assertTrue(member["logo_url"])
             berkshire = next(value for value in members["companies"] if value["company_id"] == "berkshire-hathaway")
             self.assertEqual(len(berkshire["monitors"]), 2)
+
+    def test_empty_collection_member_requires_explicit_unavailable_status(self):
+        validate = build_catalog.validate
+
+        def without_availability(path, schema):
+            value = validate(path, schema)
+            if schema == "jobhound-company-v1.schema.json" and value["id"] == "progressive":
+                value.pop("availability", None)
+            return value
+
+        with tempfile.TemporaryDirectory() as directory, patch.object(
+            build_catalog, "validate", side_effect=without_availability
+        ):
+            with self.assertRaisesRegex(ValueError, "progressive.*has no installable monitor"):
+                build(output=Path(directory), source_commit="test-commit")
 
     def test_search_records_are_compact_and_install_ready(self):
         with tempfile.TemporaryDirectory() as directory:

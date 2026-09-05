@@ -116,7 +116,7 @@ def build(*, output: Path, source_commit: str = "local") -> dict:
             selected = member.get("monitor_ids") or [
                 monitor_id for monitor_id, monitor in monitors.items() if monitor["company_id"] == company_id
             ]
-            if not selected:
+            if not selected and companies[company_id].get("availability", {}).get("status") != "unavailable":
                 raise ValueError(f"{path.relative_to(ROOT)}: {company_id!r} has no installable monitor")
             for monitor_id in selected:
                 if monitor_id not in monitors or monitors[monitor_id]["company_id"] != company_id:

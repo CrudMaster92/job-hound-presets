@@ -1,6 +1,6 @@
 # Fortune 100 expansion — catalog coverage and validation
 
-This expansion preserves the existing first 50 companies and adds the missing companies from ranks 51–100 of the [2026 ranking](https://www.sheetsteps.com/data/fortune-500-companies-2026). Collections have not been changed or published.
+This expansion preserves the existing first 50 companies and adds the missing companies from ranks 51–100 of the [2026 ranking](https://www.sheetsteps.com/data/fortune-500-companies-2026). The existing Fortune preset is now named **Fortune 100 — 2026**, revision 2, with 100 ranked members, 94 installable companies, 97 monitors, and six explicit unavailable placeholders. Its stable ID remains `fortune-50-2026` to preserve saved links.
 
 ## Catalog coverage
 
@@ -9,11 +9,11 @@ This expansion preserves the existing first 50 companies and adds the missing co
 - All 50 new logo URLs returned successfully and displayed in a normal browser (50 loaded, no failures). The logo contact sheet was visually inspected; Allstate was corrected to its official corporate logo after an embeddability failure.
 - Every new monitor is explicitly marked partial. Positive bounded runs prove that a monitor works; they do not claim exhaustive global inventory.
 - General Dynamics uses a bounded official General Dynamics Electric Boat source because the corporate aggregator is protected by Azure WAF. The monitor records the business unit in recipe metadata.
-- No collections, schedules, user data, credentials, or authentication material were changed.
+- This release expands the collection; schedules and local user data are unaffected. Scraper and logo validation above records the earlier preparation runs, rather than a fresh revalidation at publication.
 
 ## Unavailable company explanations
 
-Six companies do not yet have a recipe that meets the verification standard. JobHound shows these explanations in Presets company search:
+Six companies do not yet have a recipe that meets the verification standard. The catalog exposes these explanations in company search and collection member records. Unavailable members have no installable monitors. The collection description also summarizes the six exceptions:
 
 - **Progressive** and **HCA Healthcare:** their visible TalentBrew pages return real listings, but unattended requests receive managed Cloudflare challenges. JobHound does not retain challenge cookies or bypass that control.
 - **Delta Air Lines:** the official Avature jobs URL currently returns an empty HTTP 202 maintenance response; Delta's own careers page warns that the careers site is undergoing maintenance.
@@ -31,3 +31,7 @@ Six companies do not yet have a recipe that meets the verification standard. Job
 - Business-unit sources are useful fallbacks for corporate aggregators when ownership is explicit and the recipe records its limited scope.
 - The current generic JSON paginator recognizes only certain top-level arrays. Nested feeds stop after one page; configured page limits alone do not prove pagination.
 - Logo downloads are insufficient verification. Render every logo in a browser because an HTTP 200 asset can still reject embedding.
+
+## Publishing
+
+Pushes to GitHub main run the catalog build and publish GitHub Pages. The Sites preset browser reads this public catalog, so catalog-only expansions do not require a separate Sites code deployment.

@@ -2,12 +2,12 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "fortune-50-2026",
-  "revision": 1,
-  "name": "Fortune 50 — 2026",
-  "description": "The first fifty companies in the 2026 U.S. Fortune 500, with reusable public-careers monitors.",
+  "revision": 2,
+  "name": "Fortune 100 — 2026",
+  "description": "The first 100 companies in the 2026 U.S. Fortune 500. Includes 94 companies with installable monitors and six unavailable companies: Progressive and HCA Healthcare (access restricted), Delta (maintenance), Publix (regional restriction), American Airlines and Enterprise Products (scraper repair needed). Monitor coverage may be partial.",
   "tags": [
     "Fortune 500",
-    "Fortune 50",
+    "Fortune 100",
     "2026",
     "United States"
   ],
@@ -290,6 +290,400 @@
       "company_id": "fedex",
       "rank": 50,
       "ranked_name": "FedEx"
+    },
+    {
+      "company_id": "progressive",
+      "rank": 51,
+      "ranked_name": "Progressive",
+      "monitor_ids": [],
+      "note": "The job board currently blocks unattended checks. This Fortune company is listed while its scraper needs a supported public endpoint."
+    },
+    {
+      "company_id": "lowes",
+      "rank": 52,
+      "ranked_name": "Lowe's",
+      "monitor_ids": [
+        "lowes"
+      ]
+    },
+    {
+      "company_id": "energy-transfer",
+      "rank": 53,
+      "ranked_name": "Energy Transfer",
+      "monitor_ids": [
+        "energy-transfer"
+      ]
+    },
+    {
+      "company_id": "procter-gamble",
+      "rank": 54,
+      "ranked_name": "Procter & Gamble",
+      "monitor_ids": [
+        "procter-gamble"
+      ]
+    },
+    {
+      "company_id": "sysco",
+      "rank": 55,
+      "ranked_name": "Sysco",
+      "monitor_ids": [
+        "sysco"
+      ]
+    },
+    {
+      "company_id": "american-express",
+      "rank": 56,
+      "ranked_name": "American Express",
+      "monitor_ids": [
+        "american-express"
+      ]
+    },
+    {
+      "company_id": "albertsons",
+      "rank": 57,
+      "ranked_name": "Albertsons",
+      "monitor_ids": [
+        "albertsons"
+      ]
+    },
+    {
+      "company_id": "adm",
+      "rank": 58,
+      "ranked_name": "Archer Daniels Midland",
+      "monitor_ids": [
+        "adm"
+      ]
+    },
+    {
+      "company_id": "metlife",
+      "rank": 59,
+      "ranked_name": "MetLife",
+      "monitor_ids": [
+        "metlife"
+      ]
+    },
+    {
+      "company_id": "hca-healthcare",
+      "rank": 60,
+      "ranked_name": "HCA Healthcare",
+      "monitor_ids": [],
+      "note": "The job board currently blocks unattended checks. This Fortune company is listed while its scraper needs a supported public endpoint."
+    },
+    {
+      "company_id": "lockheed-martin",
+      "rank": 61,
+      "ranked_name": "Lockheed Martin",
+      "monitor_ids": [
+        "lockheed-martin"
+      ]
+    },
+    {
+      "company_id": "new-york-life",
+      "rank": 62,
+      "ranked_name": "New York Life Insurance",
+      "monitor_ids": [
+        "new-york-life"
+      ]
+    },
+    {
+      "company_id": "capital-one",
+      "rank": 63,
+      "ranked_name": "Capital One Financial",
+      "monitor_ids": [
+        "capital-one"
+      ]
+    },
+    {
+      "company_id": "allstate",
+      "rank": 64,
+      "ranked_name": "Allstate",
+      "monitor_ids": [
+        "allstate"
+      ]
+    },
+    {
+      "company_id": "caterpillar",
+      "rank": 65,
+      "ranked_name": "Caterpillar",
+      "monitor_ids": [
+        "caterpillar"
+      ]
+    },
+    {
+      "company_id": "ibm",
+      "rank": 66,
+      "ranked_name": "IBM",
+      "monitor_ids": [
+        "ibm"
+      ]
+    },
+    {
+      "company_id": "eli-lilly",
+      "rank": 67,
+      "ranked_name": "Eli Lilly",
+      "monitor_ids": [
+        "eli-lilly"
+      ]
+    },
+    {
+      "company_id": "merck",
+      "rank": 68,
+      "ranked_name": "Merck",
+      "monitor_ids": [
+        "merck"
+      ]
+    },
+    {
+      "company_id": "nationwide",
+      "rank": 69,
+      "ranked_name": "Nationwide",
+      "monitor_ids": [
+        "nationwide"
+      ]
+    },
+    {
+      "company_id": "broadcom",
+      "rank": 70,
+      "ranked_name": "Broadcom",
+      "monitor_ids": [
+        "broadcom"
+      ]
+    },
+    {
+      "company_id": "delta-air-lines",
+      "rank": 71,
+      "ranked_name": "Delta Air Lines",
+      "monitor_ids": [],
+      "note": "The official job board is currently under maintenance. Job monitoring will become available after the board returns and the scraper is verified."
+    },
+    {
+      "company_id": "publix",
+      "rank": 72,
+      "ranked_name": "Publix Super Markets",
+      "monitor_ids": [],
+      "note": "The job board is unavailable from this region. This Fortune company is listed while a repeatable public source is being repaired."
+    },
+    {
+      "company_id": "pfizer",
+      "rank": 73,
+      "ranked_name": "Pfizer",
+      "monitor_ids": [
+        "pfizer"
+      ]
+    },
+    {
+      "company_id": "td-synnex",
+      "rank": 74,
+      "ranked_name": "TD SYNNEX",
+      "monitor_ids": [
+        "td-synnex"
+      ]
+    },
+    {
+      "company_id": "conocophillips",
+      "rank": 75,
+      "ranked_name": "ConocoPhillips",
+      "monitor_ids": [
+        "conocophillips"
+      ]
+    },
+    {
+      "company_id": "galaxy-digital",
+      "rank": 76,
+      "ranked_name": "Galaxy Digital",
+      "monitor_ids": [
+        "galaxy-digital"
+      ]
+    },
+    {
+      "company_id": "abbvie",
+      "rank": 77,
+      "ranked_name": "AbbVie",
+      "monitor_ids": [
+        "abbvie"
+      ]
+    },
+    {
+      "company_id": "prudential",
+      "rank": 78,
+      "ranked_name": "Prudential Financial",
+      "monitor_ids": [
+        "prudential"
+      ]
+    },
+    {
+      "company_id": "tjx",
+      "rank": 79,
+      "ranked_name": "TJX",
+      "monitor_ids": [
+        "tjx"
+      ]
+    },
+    {
+      "company_id": "performance-food-group",
+      "rank": 80,
+      "ranked_name": "Performance Food Group",
+      "monitor_ids": [
+        "performance-food-group"
+      ]
+    },
+    {
+      "company_id": "united-airlines",
+      "rank": 81,
+      "ranked_name": "United Airlines Holdings",
+      "monitor_ids": [
+        "united-airlines"
+      ]
+    },
+    {
+      "company_id": "oracle",
+      "rank": 82,
+      "ranked_name": "Oracle",
+      "monitor_ids": [
+        "oracle"
+      ]
+    },
+    {
+      "company_id": "cisco",
+      "rank": 83,
+      "ranked_name": "Cisco Systems",
+      "monitor_ids": [
+        "cisco"
+      ]
+    },
+    {
+      "company_id": "hp",
+      "rank": 84,
+      "ranked_name": "HP",
+      "monitor_ids": [
+        "hp"
+      ]
+    },
+    {
+      "company_id": "charter-communications",
+      "rank": 85,
+      "ranked_name": "Charter Communications",
+      "monitor_ids": [
+        "charter-communications"
+      ]
+    },
+    {
+      "company_id": "american-airlines",
+      "rank": 86,
+      "ranked_name": "American Airlines Group",
+      "monitor_ids": [],
+      "note": "The job board is hiring, but its current scraper cannot complete a background check reliably and needs repair."
+    },
+    {
+      "company_id": "tyson-foods",
+      "rank": 87,
+      "ranked_name": "Tyson Foods",
+      "monitor_ids": [
+        "tyson-foods"
+      ]
+    },
+    {
+      "company_id": "intel",
+      "rank": 88,
+      "ranked_name": "Intel",
+      "monitor_ids": [
+        "intel"
+      ]
+    },
+    {
+      "company_id": "enterprise-products",
+      "rank": 89,
+      "ranked_name": "Enterprise Products Partners",
+      "monitor_ids": [],
+      "note": "The job board is hiring, but its current listings expose broken placeholder links to automated checks and the scraper needs repair."
+    },
+    {
+      "company_id": "ingram-micro",
+      "rank": 90,
+      "ranked_name": "Ingram Micro Holding",
+      "monitor_ids": [
+        "ingram-micro"
+      ]
+    },
+    {
+      "company_id": "general-dynamics",
+      "rank": 91,
+      "ranked_name": "General Dynamics",
+      "monitor_ids": [
+        "general-dynamics"
+      ]
+    },
+    {
+      "company_id": "uber",
+      "rank": 92,
+      "ranked_name": "Uber Technologies",
+      "monitor_ids": [
+        "uber"
+      ]
+    },
+    {
+      "company_id": "usaa",
+      "rank": 93,
+      "ranked_name": "USAA",
+      "monitor_ids": [
+        "usaa"
+      ]
+    },
+    {
+      "company_id": "tiaa",
+      "rank": 94,
+      "ranked_name": "TIAA",
+      "monitor_ids": [
+        "tiaa"
+      ]
+    },
+    {
+      "company_id": "liberty-mutual",
+      "rank": 95,
+      "ranked_name": "Liberty Mutual Insurance Group",
+      "monitor_ids": [
+        "liberty-mutual"
+      ]
+    },
+    {
+      "company_id": "travelers",
+      "rank": 96,
+      "ranked_name": "Travelers",
+      "monitor_ids": [
+        "travelers"
+      ]
+    },
+    {
+      "company_id": "bristol-myers-squibb",
+      "rank": 97,
+      "ranked_name": "Bristol Myers Squibb",
+      "monitor_ids": [
+        "bristol-myers-squibb"
+      ]
+    },
+    {
+      "company_id": "coca-cola",
+      "rank": 98,
+      "ranked_name": "Coca-Cola",
+      "monitor_ids": [
+        "coca-cola"
+      ]
+    },
+    {
+      "company_id": "nike",
+      "rank": 99,
+      "ranked_name": "Nike",
+      "monitor_ids": [
+        "nike"
+      ]
+    },
+    {
+      "company_id": "massmutual",
+      "rank": 100,
+      "ranked_name": "Massachusetts Mutual Life Insurance",
+      "monitor_ids": [
+        "massmutual"
+      ]
     }
   ]
 }
