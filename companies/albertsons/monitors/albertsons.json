@@ -1,0 +1,60 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "albertsons",
+  "company_id": "albertsons",
+  "revision": 1,
+  "label": "Albertsons Careers",
+  "careers_url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-04T18:25:25.722376+00:00",
+    "job_count": 25,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Albertsons",
+    "careers_url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs",
+    "strategy": "playwright",
+    "allowed_hosts": [
+      "eofd.fa.us6.oraclecloud.com",
+      "static.oracle.com"
+    ],
+    "request": {
+      "url": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": ".job-list-item",
+      "title": ".job-tile__title",
+      "link": "a.job-list-item__link",
+      "location": "posting-locations"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "wait_selector": ".job-list-item a[href*='/job/']"
+    }
+  }
+}

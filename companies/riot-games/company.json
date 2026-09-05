@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "riot-games",
+  "name": "Riot Games",
+  "aliases": [],
+  "website_url": "https://www.riotgames.com/",
+  "logo_url": "https://www.riotgames.com/assets/img/meta/c701c1b098b4c37dc45ad6b6a4d48be5/apple-touch-icon-precomposed-76x76.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

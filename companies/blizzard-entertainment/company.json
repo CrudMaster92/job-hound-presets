@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "blizzard-entertainment",
+  "name": "Blizzard Entertainment",
+  "aliases": [],
+  "website_url": "https://www.blizzard.com/",
+  "logo_url": "https://cdn.phenompeople.com/CareerConnectResources/BLENGLOBAL/images/Blizz_Corp_RGB_DarkBkgd2-1683126315421.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

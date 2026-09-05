@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "cisco",
+  "company_id": "cisco",
+  "revision": 1,
+  "label": "Cisco Systems Careers",
+  "careers_url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-04T12:57:30.545255+00:00",
+    "job_count": 200,
+    "warnings": [
+      "description detail enrichment skipped 195 jobs after the configured 5-posting limit",
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Cisco Systems",
+    "careers_url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "cisco.wd5.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "cisco",
+      "site": "Cisco_Careers",
+      "detail_fetch_limit": 5,
+      "partial_listing": true
+    }
+  }
+}

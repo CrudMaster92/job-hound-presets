@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "bandai-namco",
+  "name": "Bandai Namco",
+  "aliases": [],
+  "website_url": "https://www.bandainamcoent.com/",
+  "logo_url": "https://us-east-1-bandai.graphassets.com/AXzioIclSWilEjFtsMJPwz/VmVFnUTTaa4EMoQjHBj8",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

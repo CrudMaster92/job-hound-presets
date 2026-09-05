@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "unity",
+  "name": "Unity",
+  "aliases": [],
+  "website_url": "https://www.unity.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=unity.com&sz=128",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

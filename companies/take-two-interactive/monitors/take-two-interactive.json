@@ -1,0 +1,64 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "take-two-interactive",
+  "company_id": "take-two-interactive",
+  "revision": 1,
+  "label": "Take-Two Interactive careers",
+  "careers_url": "https://careers.take2games.com/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-04T11:55:38.336512+00:00",
+    "job_count": 40,
+    "warnings": []
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Take-Two Interactive",
+    "careers_url": "https://careers.take2games.com/",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "job-boards.greenhouse.io",
+      "boards-api.greenhouse.io",
+      "careers.take2games.com"
+    ],
+    "request": {
+      "url": "https://boards-api.greenhouse.io/v1/boards/taketwo/jobs",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "content": true
+      },
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "jobs",
+      "source_id": "id",
+      "title": "title",
+      "location": "location.name",
+      "url": "absolute_url",
+      "description": "content",
+      "posted_date": "updated_at"
+    },
+    "metadata": {
+      "board_token": "taketwo",
+      "platform": "greenhouse-null-safe"
+    }
+  }
+}

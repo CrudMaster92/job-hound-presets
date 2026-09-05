@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "cigna",
+  "company_id": "cigna",
+  "revision": 1,
+  "label": "Cigna Group Careers",
+  "careers_url": "https://cigna.wd5.myworkdayjobs.com/cignacareers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-04T05:33:17.929746+00:00",
+    "job_count": 200,
+    "warnings": [
+      "description detail enrichment skipped 195 jobs after the configured 5-posting limit",
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Cigna Group",
+    "careers_url": "https://cigna.wd5.myworkdayjobs.com/cignacareers",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "cigna.wd5.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://cigna.wd5.myworkdayjobs.com/wday/cxs/cigna/cignacareers/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "cigna",
+      "site": "cignacareers",
+      "detail_fetch_limit": 5,
+      "partial_listing": true
+    }
+  }
+}

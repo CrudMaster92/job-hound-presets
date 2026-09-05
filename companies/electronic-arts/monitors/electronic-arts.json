@@ -1,0 +1,55 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "electronic-arts",
+  "company_id": "electronic-arts",
+  "revision": 1,
+  "label": "Electronic Arts careers",
+  "careers_url": "https://jobs.ea.com/en_US/careers/SearchJobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-04T11:55:38.671456+00:00",
+    "job_count": 334,
+    "warnings": []
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Electronic Arts",
+    "careers_url": "https://jobs.ea.com/en_US/careers/SearchJobs",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "jobs.ea.com"
+    ],
+    "request": {
+      "url": "https://jobs.ea.com/en_US/careers/SearchJobs",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "jobOffset",
+      "page_size_parameter": "jobRecordsPerPage",
+      "page_size": 20,
+      "max_pages": 100,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "article:has(a.link_result) > .article__header",
+      "title": "a.link_result",
+      "link": "a.link_result",
+      "location": ".list-item-location",
+      "employment_type": ".list-item-workerType"
+    },
+    "mapping": {},
+    "metadata": {}
+  }
+}

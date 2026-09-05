@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "freddie-mac",
+  "name": "Freddie Mac",
+  "aliases": [],
+  "website_url": "https://www.freddiemac.com/",
+  "logo_url": "https://cdn.phenompeople.com/CareerConnectResources/FRMAUS/images/FM_logo_tagline_cmyk_large-1663267942697.png",
+  "facets": {
+    "industries": [
+      "financial-services"
+    ],
+    "specialties": [],
+    "tags": [
+      "Fortune 50",
+      "2026",
+      "United States"
+    ]
+  }
+}

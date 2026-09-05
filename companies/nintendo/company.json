@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "nintendo",
+  "name": "Nintendo",
+  "aliases": [],
+  "website_url": "https://www.nintendo.com/",
+  "logo_url": "https://assets.nintendo.com/image/upload/ncom/icons/fav-icons/apple-touch-icon.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

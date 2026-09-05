@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "warner-bros-games",
   "company_id": "warner-bros-games",
-  "revision": 1,
+  "revision": 2,
   "label": "Warner Bros. Games careers",
   "careers_url": "https://warnerbrosgames.com/careers",
   "compatibility": {
@@ -11,12 +11,12 @@
     "recipe_schema_version": 1
   },
   "verification": {
-    "status": "verified",
-    "checked_at": "2026-09-01T13:57:29Z",
+    "status": "degraded",
+    "checked_at": "2026-09-04T12:04:13.205508+00:00",
     "job_count": 1,
     "warnings": [
-      "Warner Bros. Games office links now funnel into Warner Bros. Discovery's centralized Phenom careers platform, so this monitor intentionally covers the global games organization instead of duplicating one monitor per office.",
-      "The public Phenom /widgets search is scoped with the keyword 'WB Games', then title-filtered to exclude unrelated Warner Bros. Discovery roles."
+      "Partial coverage: public WB Games keyword search with strict WB Games title ownership filter. Other studios or jobs without that title marker may be missing.",
+      "Partial listing: unseen jobs must not be closed based on this monitor."
     ]
   },
   "recipe": {
@@ -74,6 +74,11 @@
       "max_pages": 1,
       "next_path": null
     },
+    "source_filter": {
+      "title_contains_any": [
+        "WB Games"
+      ]
+    },
     "selectors": {},
     "mapping": {
       "items": "refineSearch.data.jobs",
@@ -83,14 +88,10 @@
       "url": "applyUrl",
       "posted_date": "postedDate"
     },
-    "source_filter": {
-      "title_contains_any": [
-        "WB Games"
-      ]
-    },
     "metadata": {
       "platform": "phenom",
-      "search_keyword": "WB Games"
+      "search_keyword": "WB Games",
+      "partial_listing": true
     }
   }
 }

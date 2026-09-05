@@ -4,12 +4,25 @@
   "id": "cvs-health",
   "name": "CVS Health",
   "legal_name": "CVS Health Corporation",
-  "aliases": ["CVS"],
+  "aliases": [
+    "CVS"
+  ],
   "website_url": "https://www.cvshealth.com/",
-  "logo_url": null,
+  "logo_url": "https://www.cvshealth.com/content/dam/enterprise/cvs-enterprise/logos/CVS_Health_logo.svg",
   "facets": {
-    "industries": ["healthcare", "retail"],
-    "specialties": ["pharmacy", "health-insurance"],
-    "tags": ["Fortune 50", "Healthcare", "Retail", "United States"]
+    "industries": [
+      "healthcare",
+      "retail"
+    ],
+    "specialties": [
+      "pharmacy",
+      "health-insurance"
+    ],
+    "tags": [
+      "Fortune 50",
+      "Healthcare",
+      "Retail",
+      "United States"
+    ]
   }
 }

@@ -12,10 +12,10 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-08-31T17:07:00Z",
-    "job_count": 21,
+    "checked_at": "2026-09-04T05:54:38.260564+00:00",
+    "job_count": 22,
     "warnings": [
-      "This monitor covers Berkshire Hathaway Homestate Companies, not every decentralized Berkshire business."
+      "No centralized parent-company board. Separate GEICO and Berkshire Hathaway Homestate Companies boards only."
     ]
   },
   "recipe": {
@@ -23,7 +23,9 @@
     "company": "Berkshire Hathaway Homestate Companies",
     "careers_url": "https://nationalindemnity.wd5.myworkdayjobs.com/en-US/bhhc",
     "strategy": "workday",
-    "allowed_hosts": ["nationalindemnity.wd5.myworkdayjobs.com"],
+    "allowed_hosts": [
+      "nationalindemnity.wd5.myworkdayjobs.com"
+    ],
     "request": {
       "url": "https://nationalindemnity.wd5.myworkdayjobs.com/wday/cxs/nationalindemnity/bhhc/jobs",
       "method": "POST",

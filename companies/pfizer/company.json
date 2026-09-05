@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "pfizer",
+  "name": "Pfizer",
+  "aliases": [],
+  "website_url": "https://www.pfizer.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pfizer.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 100",
+      "2026",
+      "United States"
+    ]
+  }
+}

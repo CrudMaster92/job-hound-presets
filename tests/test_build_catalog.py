@@ -45,10 +45,15 @@ class CatalogBuildTests(unittest.TestCase):
             catalog = build(output=output, source_commit="test-commit")
             api = output / "api" / "v1"
             self.assertTrue(all(page["count"] <= 250 for page in catalog["search_pages"]))
-            fortune = next(value for value in catalog["collections"] if value["id"] == "fortune-10-2026")
+            fortune = next(value for value in catalog["collections"] if value["id"] == "fortune-50-2026")
+            self.assertEqual(fortune["company_count"], 50)
+            self.assertEqual(fortune["monitor_count"], 53)
             detail = json.loads((api / fortune["path"]).read_text(encoding="utf-8"))
             self.assertTrue(all(page["count"] <= 100 for page in detail["member_pages"]))
             members = json.loads((api / detail["member_pages"][0]["path"]).read_text(encoding="utf-8"))
+            self.assertEqual(len(members["companies"]), 50)
+            self.assertEqual(members["companies"][0]["rank"], 1)
+            self.assertEqual(members["companies"][-1]["rank"], 50)
             berkshire = next(value for value in members["companies"] if value["company_id"] == "berkshire-hathaway")
             self.assertEqual(len(berkshire["monitors"]), 2)
 
@@ -67,6 +72,24 @@ class CatalogBuildTests(unittest.TestCase):
             self.assertEqual(amazon["website_url"], "https://www.amazon.com/")
             self.assertNotIn("monitors", amazon)
             self.assertNotIn("recipe", json.dumps(amazon))
+
+    def test_unavailable_company_is_searchable_without_a_broken_monitor(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            catalog = build(output=output, source_commit="test-commit")
+            api = output / "api" / "v1"
+            pages = [json.loads((api / ref["path"]).read_text(encoding="utf-8"))
+                     for ref in catalog["search_pages"]]
+            companies = [company for page in pages for company in page["companies"]]
+            delta = next(value for value in companies if value["id"] == "delta-air-lines")
+            self.assertEqual(delta["monitor_count"], 0)
+            self.assertEqual(delta["adapters"], [])
+            self.assertEqual(delta["availability"]["status"], "unavailable")
+            self.assertEqual(delta["availability"]["reason"], "maintenance")
+
+            detail = json.loads((api / delta["path"]).read_text(encoding="utf-8"))
+            self.assertEqual(detail["monitors"], [])
+            self.assertEqual(detail["availability"], delta["availability"])
 
 
 if __name__ == "__main__":

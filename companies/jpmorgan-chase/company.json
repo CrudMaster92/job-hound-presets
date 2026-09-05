@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "jpmorgan-chase",
+  "name": "JPMorgan Chase",
+  "aliases": [],
+  "website_url": "https://www.jpmorganchase.com/",
+  "logo_url": "https://careers.jpmorgan.com/content/dam/jpmorganchase/images/logos/jpmc-logo.svg",
+  "facets": {
+    "industries": [
+      "financial-services"
+    ],
+    "specialties": [],
+    "tags": [
+      "Fortune 50",
+      "2026",
+      "United States"
+    ]
+  }
+}

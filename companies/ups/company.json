@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ups",
+  "name": "United Parcel Service",
+  "aliases": [],
+  "website_url": "https://www.ups.com/",
+  "logo_url": "https://cdn.phenompeople.com/CareerConnectResources/UPBUPSGLOBAL/images/1733823476894_logo.png",
+  "facets": {
+    "industries": [
+      "logistics"
+    ],
+    "specialties": [],
+    "tags": [
+      "Fortune 50",
+      "2026",
+      "United States"
+    ]
+  }
+}

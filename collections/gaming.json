@@ -2,12 +2,14 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "gaming",
-  "revision": 3,
+  "revision": 4,
   "name": "Gaming Industry",
-  "description": "Curated gaming companies with ready-to-run public careers scrapers.",
+  "description": "Verified public careers scrapers for 34 gaming companies, prioritizing North America and Europe, including Sony / PlayStation and Nintendo. Regional and partial coverage is documented per monitor.",
   "tags": [
     "Gaming",
     "Video Games",
+    "North America",
+    "Europe",
     "Global"
   ],
   "facets": {
@@ -28,13 +30,106 @@
   "source": null,
   "companies": [
     {
-      "company_id": "ubisoft"
+      "company_id": "2k"
+    },
+    {
+      "company_id": "activision"
+    },
+    {
+      "company_id": "bandai-namco"
+    },
+    {
+      "company_id": "behaviour-interactive"
+    },
+    {
+      "company_id": "blizzard-entertainment"
+    },
+    {
+      "company_id": "bungie"
+    },
+    {
+      "company_id": "capcom"
+    },
+    {
+      "company_id": "cd-projekt-red"
+    },
+    {
+      "company_id": "digital-extremes"
     },
     {
       "company_id": "eidos-montreal"
     },
     {
+      "company_id": "electronic-arts"
+    },
+    {
+      "company_id": "epic-games"
+    },
+    {
+      "company_id": "frontier-developments"
+    },
+    {
+      "company_id": "gameloft"
+    },
+    {
+      "company_id": "io-interactive"
+    },
+    {
+      "company_id": "king"
+    },
+    {
+      "company_id": "larian-studios"
+    },
+    {
+      "company_id": "nintendo"
+    },
+    {
+      "company_id": "paradox-interactive"
+    },
+    {
+      "company_id": "remedy-entertainment"
+    },
+    {
+      "company_id": "riot-games"
+    },
+    {
+      "company_id": "roblox"
+    },
+    {
+      "company_id": "rockstar-games"
+    },
+    {
+      "company_id": "scopely"
+    },
+    {
+      "company_id": "sega"
+    },
+    {
+      "company_id": "sony-interactive-entertainment"
+    },
+    {
+      "company_id": "square-enix"
+    },
+    {
+      "company_id": "supercell"
+    },
+    {
+      "company_id": "take-two-interactive"
+    },
+    {
+      "company_id": "ubisoft"
+    },
+    {
+      "company_id": "unity"
+    },
+    {
+      "company_id": "valve"
+    },
+    {
       "company_id": "warner-bros-games"
+    },
+    {
+      "company_id": "zynga"
     }
   ]
 }

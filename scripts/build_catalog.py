@@ -149,7 +149,8 @@ def build(*, output: Path, source_commit: str = "local") -> dict:
         company_references[company_id] = reference(
             rel, artifact, id=company_id, name=company["name"],
             legal_name=company.get("legal_name"), aliases=company.get("aliases", []),
-            facets=company.get("facets", {}), monitor_count=len(company_monitor_refs),
+            facets=company.get("facets", {}), availability=company.get("availability"),
+            monitor_count=len(company_monitor_refs),
         )
 
     collection_entries: list[dict] = []
@@ -167,6 +168,7 @@ def build(*, output: Path, source_commit: str = "local") -> dict:
             members.append({
                 **member, "name": company["name"], "legal_name": company.get("legal_name"),
                 "aliases": company.get("aliases", []), "logo_url": company.get("logo_url"),
+                "availability": company.get("availability"),
                 "company_path": company_references[company["id"]]["path"],
                 "company_sha256": company_references[company["id"]]["sha256"],
                 "monitors": [monitor_references[key] for key in selected_ids],
@@ -223,6 +225,7 @@ def build(*, output: Path, source_commit: str = "local") -> dict:
             "id": company_id, "name": company["name"], "legal_name": company.get("legal_name"),
             "aliases": company.get("aliases", []), "facets": company.get("facets", {}),
             "logo_url": company.get("logo_url"), "website_url": company.get("website_url"),
+            "availability": company.get("availability"),
             "collection_ids": sorted(company_collections[company_id]),
             "monitor_count": len(company_monitors),
             "adapters": sorted({value["recipe"]["strategy"] for value in company_monitors}),

@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "wells-fargo",
+  "name": "Wells Fargo",
+  "aliases": [],
+  "website_url": "https://www.wellsfargo.com/",
+  "logo_url": "https://www17.wellsfargomedia.com/assets/images/icons/ico/favicon.ico",
+  "facets": {
+    "industries": [
+      "financial-services"
+    ],
+    "specialties": [],
+    "tags": [
+      "Fortune 50",
+      "2026",
+      "United States"
+    ]
+  }
+}

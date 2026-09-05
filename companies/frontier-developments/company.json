@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "frontier-developments",
+  "name": "Frontier Developments",
+  "aliases": [],
+  "website_url": "https://www.frontier.co.uk/",
+  "logo_url": "https://www.frontier.co.uk/_nuxt/logo-frontier--full.Dvkx9QaO.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

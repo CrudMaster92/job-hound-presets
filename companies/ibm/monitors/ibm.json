@@ -1,0 +1,100 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "ibm",
+  "company_id": "ibm",
+  "revision": 1,
+  "label": "IBM Careers",
+  "careers_url": "https://www.ibm.com/careers/search",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-04T13:20:37.696434+00:00",
+    "job_count": 30,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "IBM",
+    "careers_url": "https://www.ibm.com/careers/search",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "www.ibm.com",
+      "www-api.ibm.com",
+      "careers.ibm.com"
+    ],
+    "request": {
+      "url": "https://www-api.ibm.com/search/api/v2",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appId": "careers",
+        "scopes": [
+          "careers2"
+        ],
+        "query": {
+          "bool": {
+            "must": []
+          }
+        },
+        "size": 30,
+        "sort": [
+          {
+            "_score": "desc"
+          },
+          {
+            "pageviews": "desc"
+          }
+        ],
+        "lang": "zz",
+        "localeSelector": {},
+        "sm": {
+          "query": "",
+          "lang": "zz"
+        },
+        "_source": [
+          "_id",
+          "title",
+          "url",
+          "description",
+          "language",
+          "entitled",
+          "field_keyword_17",
+          "field_keyword_08",
+          "field_keyword_18",
+          "field_keyword_19"
+        ]
+      },
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "from",
+      "page_size_parameter": "size",
+      "page_size": 30,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "hits.hits",
+      "source_id": "_id",
+      "title": "_source.title",
+      "url": "_source.url",
+      "description": "_source.description",
+      "location": "_source.field_keyword_19",
+      "remote_mode": "_source.field_keyword_17"
+    },
+    "metadata": {
+      "partial_listing": true
+    }
+  }
+}

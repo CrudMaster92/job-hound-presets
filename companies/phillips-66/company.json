@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "phillips-66",
+  "name": "Phillips 66",
+  "aliases": [],
+  "website_url": "https://www.phillips66.com/",
+  "logo_url": "https://rmkcdn.successfactors.com/596573b8/180d5d77-5d66-482b-a4ce-a.png",
+  "facets": {
+    "industries": [
+      "energy"
+    ],
+    "specialties": [],
+    "tags": [
+      "Fortune 50",
+      "2026",
+      "United States"
+    ]
+  }
+}

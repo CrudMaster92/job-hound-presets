@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "rockstar-games",
+  "name": "Rockstar Games",
+  "aliases": [],
+  "website_url": "https://www.rockstargames.com/",
+  "logo_url": "https://media-rockstargames-com.akamaized.net/favicons/rockstar/favicon-180x180.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

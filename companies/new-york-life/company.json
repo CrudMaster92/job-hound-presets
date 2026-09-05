@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "new-york-life",
+  "name": "New York Life Insurance",
+  "aliases": [],
+  "website_url": "https://www.newyorklife.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=newyorklife.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 100",
+      "2026",
+      "United States"
+    ]
+  }
+}

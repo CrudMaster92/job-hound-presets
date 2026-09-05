@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "nationwide",
+  "name": "Nationwide",
+  "aliases": [],
+  "website_url": "https://www.nationwide.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nationwide.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 100",
+      "2026",
+      "United States"
+    ]
+  }
+}

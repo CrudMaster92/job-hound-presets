@@ -1,0 +1,65 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "lockheed-martin",
+  "company_id": "lockheed-martin",
+  "revision": 1,
+  "label": "Lockheed Martin Careers",
+  "careers_url": "https://lockheedmartin.eightfold.ai/careers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-04T13:16:23.155379+00:00",
+    "job_count": 10,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Lockheed Martin",
+    "careers_url": "https://lockheedmartin.eightfold.ai/careers",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "lockheedmartin.eightfold.ai"
+    ],
+    "request": {
+      "url": "https://lockheedmartin.eightfold.ai/api/pcsx/search",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "domain": "lockheedmartin.com",
+        "query": "",
+        "location": "",
+        "start": 0
+      },
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "start",
+      "page_size_parameter": null,
+      "page_size": 10,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "data.positions",
+      "source_id": "id",
+      "title": "name",
+      "url": "positionUrl",
+      "location": "locations",
+      "remote_mode": "workLocationOption"
+    },
+    "metadata": {
+      "partial_listing": true
+    }
+  }
+}

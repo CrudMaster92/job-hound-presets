@@ -11,12 +11,11 @@
     "recipe_schema_version": 1
   },
   "verification": {
-    "status": "degraded",
-    "checked_at": "2026-08-31T17:04:00Z",
-    "job_count": 30,
+    "status": "verified",
+    "checked_at": "2026-09-04T05:52:51.631369+00:00",
+    "job_count": 27,
     "warnings": [
-      "The public results UI is JavaScript-rendered and bounded to a small number of pages.",
-      "The current site obtains results through its own job-search assistant; this monitor uses only the rendered public cards and is marked partial."
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
     ]
   },
   "recipe": {
@@ -24,7 +23,10 @@
     "company": "Walmart",
     "careers_url": "https://careers.walmart.com/us/en/results",
     "strategy": "playwright",
-    "allowed_hosts": ["careers.walmart.com", "i5.walmartimages.com"],
+    "allowed_hosts": [
+      "careers.walmart.com",
+      "i5.walmartimages.com"
+    ],
     "request": {
       "url": "https://careers.walmart.com/us/en/results",
       "method": "GET",

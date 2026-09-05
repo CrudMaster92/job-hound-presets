@@ -1,0 +1,63 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "wells-fargo",
+  "company_id": "wells-fargo",
+  "revision": 1,
+  "label": "Wells Fargo Careers",
+  "careers_url": "https://wf.wd1.myworkdayjobs.com/WellsFargoJobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-04T05:35:48.221774+00:00",
+    "job_count": 490,
+    "warnings": [
+      "removed 10 duplicate source IDs",
+      "description detail enrichment skipped 485 jobs after the configured 5-posting limit",
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Wells Fargo",
+    "careers_url": "https://wf.wd1.myworkdayjobs.com/WellsFargoJobs",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "wf.wd1.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://wf.wd1.myworkdayjobs.com/wday/cxs/wf/WellsFargoJobs/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 25,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "wf",
+      "site": "WellsFargoJobs",
+      "detail_fetch_limit": 5,
+      "partial_listing": true
+    }
+  }
+}

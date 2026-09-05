@@ -1,0 +1,26 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "sony-interactive-entertainment",
+  "name": "Sony Interactive Entertainment / PlayStation",
+  "aliases": [
+    "Sony",
+    "PlayStation",
+    "SIE"
+  ],
+  "website_url": "https://www.playstation.com/",
+  "logo_url": "https://gmedia.playstation.com/is/image/SIEPDC/ps-logo-favicon?$icon-96-96--t$",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

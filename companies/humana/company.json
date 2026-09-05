@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "humana",
+  "name": "Humana",
+  "aliases": [],
+  "website_url": "https://www.humana.com/",
+  "logo_url": "https://cdn.phenompeople.com/CareerConnectResources/HUMHUMUS/images/humana_careers_logo-1721856704992.png",
+  "facets": {
+    "industries": [
+      "healthcare"
+    ],
+    "specialties": [],
+    "tags": [
+      "Fortune 50",
+      "2026",
+      "United States"
+    ]
+  }
+}

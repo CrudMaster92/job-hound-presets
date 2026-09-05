@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "sega",
+  "name": "SEGA",
+  "aliases": [],
+  "website_url": "https://www.sega.com/",
+  "logo_url": "https://cdn.sega.co.uk/careers/public/content/media/images/vector/logo-sega-white.svg?VersionId=ywzczfQD992kVR6ZF2141uwyoouXWbQk",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

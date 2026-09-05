@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "disney",
+  "name": "Walt Disney",
+  "aliases": [],
+  "website_url": "https://www.thewaltdisneycompany.com/",
+  "logo_url": "https://tbcdn.talentbrew.com/company/391/gst_v1_0/img/logo_disney-careers_black.svg",
+  "facets": {
+    "industries": [
+      "entertainment"
+    ],
+    "specialties": [],
+    "tags": [
+      "Fortune 50",
+      "2026",
+      "United States"
+    ]
+  }
+}

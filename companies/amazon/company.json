@@ -4,12 +4,25 @@
   "id": "amazon",
   "name": "Amazon",
   "legal_name": "Amazon.com, Inc.",
-  "aliases": ["Amazon.com"],
+  "aliases": [
+    "Amazon.com"
+  ],
   "website_url": "https://www.amazon.com/",
-  "logo_url": null,
+  "logo_url": "https://www.google.com/s2/favicons?domain=amazon.com&sz=128",
   "facets": {
-    "industries": ["technology", "retail"],
-    "specialties": ["cloud-computing", "ecommerce"],
-    "tags": ["Fortune 50", "Technology", "Retail", "Global"]
+    "industries": [
+      "technology",
+      "retail"
+    ],
+    "specialties": [
+      "cloud-computing",
+      "ecommerce"
+    ],
+    "tags": [
+      "Fortune 50",
+      "Technology",
+      "Retail",
+      "Global"
+    ]
   }
 }

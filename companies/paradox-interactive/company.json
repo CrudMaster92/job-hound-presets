@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "paradox-interactive",
+  "name": "Paradox Interactive",
+  "aliases": [],
+  "website_url": "https://www.paradoxinteractive.com/",
+  "logo_url": "https://www.paradoxinteractive.com/favicons/apple-touch-icon.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

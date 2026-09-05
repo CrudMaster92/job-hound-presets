@@ -10,13 +10,25 @@
     "aliases": {"type": "array", "uniqueItems": true, "maxItems": 20, "items": {"type": "string", "minLength": 1, "maxLength": 80}},
     "website_url": {"type": "string", "format": "uri", "pattern": "^https://"},
     "logo_url": {"type": ["string", "null"], "format": "uri"},
+    "availability": {"$ref": "#/$defs/availability"},
     "facets": {"$ref": "#/$defs/facets"}
   },
-  "$defs": {"facets": {"type": "object", "additionalProperties": false,
+  "$defs": {
+    "availability": {"type": "object", "additionalProperties": false,
+      "required": ["status", "reason", "message", "checked_at"],
+      "properties": {
+        "status": {"const": "unavailable"},
+        "reason": {"enum": ["access-restricted", "maintenance", "not-hiring", "regional-restriction", "repair-needed"]},
+        "message": {"type": "string", "minLength": 1, "maxLength": 300},
+        "checked_at": {"type": "string", "format": "date-time"}
+      }
+    },
+    "facets": {"type": "object", "additionalProperties": false,
     "required": ["industries", "specialties", "tags"],
     "properties": {
       "industries": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^[a-z0-9-]+$"}},
       "specialties": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^[a-z0-9-]+$"}},
       "tags": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1, "maxLength": 40}}
-    }}}
+    }}
+  }
 }

@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "tyson-foods",
+  "name": "Tyson Foods",
+  "aliases": [],
+  "website_url": "https://www.tysonfoods.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tysonfoods.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 100",
+      "2026",
+      "United States"
+    ]
+  }
+}

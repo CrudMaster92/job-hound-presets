@@ -4,12 +4,24 @@
   "id": "exxonmobil",
   "name": "ExxonMobil",
   "legal_name": "Exxon Mobil Corporation",
-  "aliases": ["Exxon", "Mobil"],
+  "aliases": [
+    "Exxon",
+    "Mobil"
+  ],
   "website_url": "https://corporate.exxonmobil.com/",
-  "logo_url": null,
+  "logo_url": "https://corporate.exxonmobil.com/-/media/global/icons/logos/exxonmobillogocolor2x.png",
   "facets": {
-    "industries": ["energy"],
-    "specialties": ["oil-and-gas", "low-carbon-solutions"],
-    "tags": ["Fortune 50", "Energy", "Global"]
+    "industries": [
+      "energy"
+    ],
+    "specialties": [
+      "oil-and-gas",
+      "low-carbon-solutions"
+    ],
+    "tags": [
+      "Fortune 50",
+      "Energy",
+      "Global"
+    ]
   }
 }

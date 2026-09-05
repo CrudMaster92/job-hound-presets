@@ -1,0 +1,289 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "fortune-50-2026",
+  "revision": 1,
+  "name": "Fortune 50 — 2026",
+  "description": "The first fifty companies in the 2026 U.S. Fortune 500, with reusable public-careers monitors.",
+  "tags": [
+    "Fortune 500",
+    "Fortune 50",
+    "2026",
+    "United States"
+  ],
+  "facets": {
+    "collection_types": [
+      "ranking"
+    ],
+    "industries": [],
+    "role_families": [],
+    "locations": []
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": {
+    "name": "Fortune 500",
+    "url": "https://fortune.com/ranking/fortune500/2026/",
+    "edition": "2026 U.S."
+  },
+  "companies": [
+    {
+      "company_id": "amazon",
+      "rank": 1,
+      "ranked_name": "Amazon"
+    },
+    {
+      "company_id": "walmart",
+      "rank": 2,
+      "ranked_name": "Walmart",
+      "note": "Walmart's current public site is JavaScript-rendered; this bounded monitor is intentionally marked partial."
+    },
+    {
+      "company_id": "unitedhealth-group",
+      "rank": 3,
+      "ranked_name": "UnitedHealth Group"
+    },
+    {
+      "company_id": "apple",
+      "rank": 4,
+      "ranked_name": "Apple"
+    },
+    {
+      "company_id": "google",
+      "monitor_ids": [
+        "google"
+      ],
+      "rank": 5,
+      "ranked_name": "Alphabet"
+    },
+    {
+      "company_id": "cvs-health",
+      "rank": 6,
+      "ranked_name": "CVS Health"
+    },
+    {
+      "company_id": "berkshire-hathaway",
+      "rank": 7,
+      "ranked_name": "Berkshire Hathaway",
+      "note": "Berkshire has no centralized careers board; this entry covers two major insurance subsidiaries with separate reusable monitors."
+    },
+    {
+      "company_id": "mckesson",
+      "rank": 8,
+      "ranked_name": "McKesson"
+    },
+    {
+      "company_id": "exxonmobil",
+      "rank": 9,
+      "ranked_name": "ExxonMobil"
+    },
+    {
+      "company_id": "cencora",
+      "rank": 10,
+      "ranked_name": "Cencora"
+    },
+    {
+      "company_id": "microsoft",
+      "rank": 11,
+      "ranked_name": "Microsoft"
+    },
+    {
+      "company_id": "jpmorgan-chase",
+      "rank": 12,
+      "ranked_name": "JPMorgan Chase"
+    },
+    {
+      "company_id": "costco",
+      "rank": 13,
+      "ranked_name": "Costco Wholesale"
+    },
+    {
+      "company_id": "cigna",
+      "rank": 14,
+      "ranked_name": "Cigna Group"
+    },
+    {
+      "company_id": "cardinal-health",
+      "rank": 15,
+      "ranked_name": "Cardinal Health"
+    },
+    {
+      "company_id": "nvidia",
+      "rank": 16,
+      "ranked_name": "NVIDIA"
+    },
+    {
+      "company_id": "meta",
+      "rank": 17,
+      "ranked_name": "Meta Platforms"
+    },
+    {
+      "company_id": "elevance-health",
+      "rank": 18,
+      "ranked_name": "Elevance Health"
+    },
+    {
+      "company_id": "centene",
+      "rank": 19,
+      "ranked_name": "Centene"
+    },
+    {
+      "company_id": "bank-of-america",
+      "rank": 20,
+      "ranked_name": "Bank of America"
+    },
+    {
+      "company_id": "chevron",
+      "rank": 21,
+      "ranked_name": "Chevron"
+    },
+    {
+      "company_id": "ford",
+      "rank": 22,
+      "ranked_name": "Ford Motor"
+    },
+    {
+      "company_id": "general-motors",
+      "rank": 23,
+      "ranked_name": "General Motors"
+    },
+    {
+      "company_id": "citigroup",
+      "rank": 24,
+      "ranked_name": "Citigroup"
+    },
+    {
+      "company_id": "home-depot",
+      "rank": 25,
+      "ranked_name": "Home Depot"
+    },
+    {
+      "company_id": "fannie-mae",
+      "rank": 26,
+      "ranked_name": "Fannie Mae"
+    },
+    {
+      "company_id": "kroger",
+      "rank": 27,
+      "ranked_name": "Kroger"
+    },
+    {
+      "company_id": "verizon",
+      "rank": 28,
+      "ranked_name": "Verizon Communications"
+    },
+    {
+      "company_id": "phillips-66",
+      "rank": 29,
+      "ranked_name": "Phillips 66"
+    },
+    {
+      "company_id": "marathon-petroleum",
+      "rank": 30,
+      "ranked_name": "Marathon Petroleum"
+    },
+    {
+      "company_id": "stonex",
+      "rank": 31,
+      "ranked_name": "StoneX Group"
+    },
+    {
+      "company_id": "state-farm",
+      "rank": 32,
+      "ranked_name": "State Farm Insurance"
+    },
+    {
+      "company_id": "freddie-mac",
+      "rank": 33,
+      "ranked_name": "Freddie Mac"
+    },
+    {
+      "company_id": "humana",
+      "rank": 34,
+      "ranked_name": "Humana"
+    },
+    {
+      "company_id": "att",
+      "rank": 35,
+      "ranked_name": "AT&T"
+    },
+    {
+      "company_id": "goldman-sachs",
+      "rank": 36,
+      "ranked_name": "Goldman Sachs Group"
+    },
+    {
+      "company_id": "comcast",
+      "rank": 37,
+      "ranked_name": "Comcast"
+    },
+    {
+      "company_id": "wells-fargo",
+      "rank": 38,
+      "ranked_name": "Wells Fargo"
+    },
+    {
+      "company_id": "morgan-stanley",
+      "rank": 39,
+      "ranked_name": "Morgan Stanley"
+    },
+    {
+      "company_id": "valero",
+      "rank": 40,
+      "ranked_name": "Valero Energy"
+    },
+    {
+      "company_id": "dell",
+      "rank": 41,
+      "ranked_name": "Dell Technologies"
+    },
+    {
+      "company_id": "target",
+      "rank": 42,
+      "ranked_name": "Target"
+    },
+    {
+      "company_id": "tesla",
+      "rank": 43,
+      "ranked_name": "Tesla"
+    },
+    {
+      "company_id": "disney",
+      "rank": 44,
+      "ranked_name": "Walt Disney"
+    },
+    {
+      "company_id": "johnson-johnson",
+      "rank": 45,
+      "ranked_name": "Johnson & Johnson"
+    },
+    {
+      "company_id": "pepsico",
+      "rank": 46,
+      "ranked_name": "PepsiCo"
+    },
+    {
+      "company_id": "boeing",
+      "rank": 47,
+      "ranked_name": "Boeing"
+    },
+    {
+      "company_id": "ups",
+      "rank": 48,
+      "ranked_name": "United Parcel Service"
+    },
+    {
+      "company_id": "rtx",
+      "rank": 49,
+      "ranked_name": "RTX"
+    },
+    {
+      "company_id": "fedex",
+      "rank": 50,
+      "ranked_name": "FedEx"
+    }
+  ]
+}

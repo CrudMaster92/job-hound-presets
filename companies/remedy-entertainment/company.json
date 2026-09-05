@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "remedy-entertainment",
+  "name": "Remedy Entertainment",
+  "aliases": [],
+  "website_url": "https://www.remedygames.com/",
+  "logo_url": "https://cdn.prod.website-files.com/644a618a8a06cbd6183bfd08/648c1e50dfbfa21a1a34b40c_cropped-favicon_new-256x256.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

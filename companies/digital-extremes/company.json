@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "digital-extremes",
+  "name": "Digital Extremes",
+  "aliases": [],
+  "website_url": "https://www.digitalextremes.com/",
+  "logo_url": "https://www-static.digitalextremes.com/images/header/DELogo-WhiteOnBlueRGB.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

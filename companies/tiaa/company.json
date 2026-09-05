@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "tiaa",
+  "name": "TIAA",
+  "aliases": [],
+  "website_url": "https://www.tiaa.org/",
+  "logo_url": "https://d25zu39ynyitwy.cloudfront.net/oms/4065/image/2025/3/5AG3W_logo/logo.webp",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 100",
+      "2026",
+      "United States"
+    ]
+  }
+}

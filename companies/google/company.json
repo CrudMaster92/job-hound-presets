@@ -4,17 +4,27 @@
   "id": "google",
   "name": "Google",
   "legal_name": "Alphabet Inc.",
-  "aliases": ["Alphabet"],
+  "aliases": [
+    "Alphabet"
+  ],
   "website_url": "https://about.google/",
-  "logo_url": null,
+  "logo_url": "https://www.google.com/images/branding/google_wordmark/v1/1x/googlelogo_color_white_background_272x92dp.png",
   "facets": {
-    "industries": ["technology"],
+    "industries": [
+      "technology"
+    ],
     "specialties": [
       "artificial-intelligence",
       "search",
       "cloud-computing",
       "advertising"
     ],
-    "tags": ["AI", "Fortune 50", "Technology", "SEO", "Global"]
+    "tags": [
+      "AI",
+      "Fortune 50",
+      "Technology",
+      "SEO",
+      "Global"
+    ]
   }
 }

@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "delta-air-lines",
+  "name": "Delta Air Lines",
+  "aliases": [],
+  "website_url": "https://www.delta.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=delta.com&sz=128",
+  "availability": {
+    "status": "unavailable",
+    "reason": "maintenance",
+    "message": "The official job board is currently under maintenance. Job monitoring will become available after the board returns and the scraper is verified.",
+    "checked_at": "2026-09-04T19:00:00Z"
+  },
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 100",
+      "2026",
+      "United States"
+    ]
+  }
+}
