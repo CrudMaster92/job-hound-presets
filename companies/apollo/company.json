@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "apollo",
+  "name": "Apollo Global Management",
+  "aliases": [],
+  "website_url": "https://www.apollo.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=apollo.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 150",
+      "2026",
+      "United States"
+    ]
+  }
+}

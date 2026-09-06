@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ge-aerospace",
+  "name": "GE Aerospace",
+  "aliases": [],
+  "website_url": "https://www.geaerospace.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=geaerospace.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 150",
+      "2026",
+      "United States"
+    ]
+  }
+}

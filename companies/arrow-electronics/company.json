@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "arrow-electronics",
+  "name": "Arrow Electronics",
+  "aliases": [],
+  "website_url": "https://www.arrow.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=arrow.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 150",
+      "2026",
+      "United States"
+    ]
+  }
+}

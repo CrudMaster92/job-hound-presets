@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "amgen",
+  "name": "Amgen",
+  "aliases": [],
+  "website_url": "https://www.amgen.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=amgen.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 150",
+      "2026",
+      "United States"
+    ]
+  }
+}

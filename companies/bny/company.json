@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "bny",
+  "name": "Bank of New York (BNY)",
+  "aliases": [],
+  "website_url": "https://www.bny.com/",
+  "logo_url": "https://www.bny.com/content/dam/bnymellon/web/favicons/favicon-128.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 150",
+      "2026",
+      "United States"
+    ]
+  }
+}

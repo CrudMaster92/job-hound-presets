@@ -1,0 +1,58 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "coupang",
+  "company_id": "coupang",
+  "revision": 1,
+  "label": "Coupang Careers",
+  "careers_url": "https://boards.greenhouse.io/coupang",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-06T14:04:16.563347+00:00",
+    "job_count": 689,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Coupang",
+    "careers_url": "https://boards.greenhouse.io/coupang",
+    "strategy": "greenhouse",
+    "allowed_hosts": [
+      "boards.greenhouse.io",
+      "boards-api.greenhouse.io"
+    ],
+    "request": {
+      "url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "content": true
+      },
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "board_token": "coupang",
+      "partial_listing": true,
+      "detail_fetch_limit": 3
+    }
+  }
+}

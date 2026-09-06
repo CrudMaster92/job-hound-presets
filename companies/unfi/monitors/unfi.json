@@ -1,0 +1,59 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "unfi",
+  "company_id": "unfi",
+  "revision": 1,
+  "label": "United Natural Foods Careers",
+  "careers_url": "https://jobs.unfi.com/jobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-06T05:08:37.728286+00:00",
+    "job_count": 20,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "United Natural Foods",
+    "careers_url": "https://jobs.unfi.com/jobs",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "jobs.unfi.com"
+    ],
+    "request": {
+      "url": "https://jobs.unfi.com/jobs/",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "#job-list-section > div",
+      "title": "h3",
+      "link": "a[href^=\"/job/\"]",
+      "location": ".location dd",
+      "description": ".description"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true
+    }
+  }
+}

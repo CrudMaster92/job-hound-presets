@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "mondelez",
+  "company_id": "mondelez",
+  "revision": 1,
+  "label": "Mondelez International Careers",
+  "careers_url": "https://wd3.myworkdaysite.com/recruiting/mdlz/External",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-06T05:04:53.413563+00:00",
+    "job_count": 100,
+    "warnings": [
+      "description detail enrichment skipped 97 jobs after the configured 3-posting limit",
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Mondelez International",
+    "careers_url": "https://wd3.myworkdaysite.com/recruiting/mdlz/External",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "wd3.myworkdaysite.com"
+    ],
+    "request": {
+      "url": "https://wd3.myworkdaysite.com/wday/cxs/mdlz/External/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": null,
+      "page_size": 20,
+      "max_pages": 5,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "tenant": "mdlz",
+      "site": "External",
+      "detail_fetch_limit": 3
+    }
+  }
+}

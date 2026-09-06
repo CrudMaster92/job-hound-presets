@@ -2,12 +2,12 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "fortune-50-2026",
-  "revision": 2,
-  "name": "Fortune 100 — 2026",
-  "description": "The first 100 companies in the 2026 U.S. Fortune 500. Includes 94 companies with installable monitors and six unavailable companies: Progressive and HCA Healthcare (access restricted), Delta (maintenance), Publix (regional restriction), American Airlines and Enterprise Products (scraper repair needed). Monitor coverage may be partial.",
+  "revision": 3,
+  "name": "Fortune 150 — 2026",
+  "description": "The first 150 companies in the 2026 U.S. Fortune 500. Includes 142 companies with 145 installable monitors and eight unavailable companies with explanations: Progressive, HCA Healthcare, Delta, Publix, American Airlines, Enterprise Products, CBRE and Lithia. Monitor coverage may be partial.",
   "tags": [
     "Fortune 500",
-    "Fortune 100",
+    "Fortune 150",
     "2026",
     "United States"
   ],
@@ -683,6 +683,404 @@
       "ranked_name": "Massachusetts Mutual Life Insurance",
       "monitor_ids": [
         "massmutual"
+      ]
+    },
+    {
+      "company_id": "ge-aerospace",
+      "rank": 101,
+      "ranked_name": "GE Aerospace",
+      "monitor_ids": [
+        "ge-aerospace"
+      ]
+    },
+    {
+      "company_id": "deere",
+      "rank": 102,
+      "ranked_name": "Deere",
+      "monitor_ids": [
+        "deere"
+      ]
+    },
+    {
+      "company_id": "plains",
+      "rank": 103,
+      "ranked_name": "Plains GP Holdings",
+      "monitor_ids": [
+        "plains"
+      ]
+    },
+    {
+      "company_id": "molina-healthcare",
+      "rank": 104,
+      "ranked_name": "Molina Healthcare",
+      "monitor_ids": [
+        "molina-healthcare"
+      ]
+    },
+    {
+      "company_id": "netflix",
+      "rank": 105,
+      "ranked_name": "Netflix",
+      "monitor_ids": [
+        "netflix"
+      ]
+    },
+    {
+      "company_id": "thermo-fisher",
+      "rank": 106,
+      "ranked_name": "Thermo Fisher Scientific",
+      "monitor_ids": [
+        "thermo-fisher"
+      ]
+    },
+    {
+      "company_id": "abbott",
+      "rank": 107,
+      "ranked_name": "Abbott Laboratories",
+      "monitor_ids": [
+        "abbott"
+      ]
+    },
+    {
+      "company_id": "qualcomm",
+      "rank": 108,
+      "ranked_name": "Qualcomm",
+      "monitor_ids": [
+        "qualcomm"
+      ]
+    },
+    {
+      "company_id": "northwestern-mutual",
+      "rank": 109,
+      "ranked_name": "Northwestern Mutual",
+      "monitor_ids": [
+        "northwestern-mutual"
+      ]
+    },
+    {
+      "company_id": "us-bank",
+      "rank": 110,
+      "ranked_name": "U.S. Bancorp",
+      "monitor_ids": [
+        "us-bank"
+      ]
+    },
+    {
+      "company_id": "dollar-general",
+      "rank": 111,
+      "ranked_name": "Dollar General",
+      "monitor_ids": [
+        "dollar-general"
+      ]
+    },
+    {
+      "company_id": "northrop-grumman",
+      "rank": 112,
+      "ranked_name": "Northrop Grumman",
+      "monitor_ids": [
+        "northrop-grumman"
+      ]
+    },
+    {
+      "company_id": "best-buy",
+      "rank": 113,
+      "ranked_name": "Best Buy",
+      "monitor_ids": [
+        "best-buy"
+      ]
+    },
+    {
+      "company_id": "salesforce",
+      "rank": 114,
+      "ranked_name": "Salesforce",
+      "monitor_ids": [
+        "salesforce"
+      ]
+    },
+    {
+      "company_id": "bny",
+      "rank": 115,
+      "ranked_name": "Bank of New York (BNY)",
+      "monitor_ids": [
+        "bny"
+      ]
+    },
+    {
+      "company_id": "honeywell",
+      "rank": 116,
+      "ranked_name": "Honeywell Technologies",
+      "monitor_ids": [
+        "honeywell"
+      ]
+    },
+    {
+      "company_id": "philip-morris",
+      "rank": 117,
+      "ranked_name": "Philip Morris International",
+      "monitor_ids": [
+        "philip-morris"
+      ]
+    },
+    {
+      "company_id": "cbre",
+      "rank": 118,
+      "ranked_name": "CBRE Group",
+      "monitor_ids": [],
+      "note": "CBRE lists jobs in a normal browser, but its careers board did not pass unattended validation. Its scraper needs repair before installation."
+    },
+    {
+      "company_id": "visa",
+      "rank": 119,
+      "ranked_name": "Visa",
+      "monitor_ids": [
+        "visa"
+      ]
+    },
+    {
+      "company_id": "dow",
+      "rank": 120,
+      "ranked_name": "Dow",
+      "monitor_ids": [
+        "dow"
+      ]
+    },
+    {
+      "company_id": "us-foods",
+      "rank": 121,
+      "ranked_name": "US Foods Holding",
+      "monitor_ids": [
+        "us-foods"
+      ]
+    },
+    {
+      "company_id": "mondelez",
+      "rank": 122,
+      "ranked_name": "Mondelēz International",
+      "monitor_ids": [
+        "mondelez"
+      ]
+    },
+    {
+      "company_id": "lithia",
+      "rank": 123,
+      "ranked_name": "Lithia Motors",
+      "monitor_ids": [],
+      "note": "Lithia’s main job feed is failing. Its legacy portal returned no jobs and the UK fallback did not pass unattended validation. Its scraper needs repair."
+    },
+    {
+      "company_id": "ge-vernova",
+      "rank": 124,
+      "ranked_name": "GE Vernova",
+      "monitor_ids": [
+        "ge-vernova"
+      ]
+    },
+    {
+      "company_id": "micron",
+      "rank": 125,
+      "ranked_name": "Micron Technology",
+      "monitor_ids": [
+        "micron"
+      ]
+    },
+    {
+      "company_id": "warner-bros-discovery",
+      "rank": 126,
+      "ranked_name": "Warner Bros. Discovery",
+      "monitor_ids": [
+        "warner-bros-discovery"
+      ]
+    },
+    {
+      "company_id": "starbucks",
+      "rank": 127,
+      "ranked_name": "Starbucks",
+      "monitor_ids": [
+        "starbucks"
+      ]
+    },
+    {
+      "company_id": "world-kinect",
+      "rank": 128,
+      "ranked_name": "World Kinect",
+      "monitor_ids": [
+        "world-kinect"
+      ]
+    },
+    {
+      "company_id": "amgen",
+      "rank": 129,
+      "ranked_name": "Amgen",
+      "monitor_ids": [
+        "amgen"
+      ]
+    },
+    {
+      "company_id": "chs",
+      "rank": 130,
+      "ranked_name": "CHS",
+      "monitor_ids": [
+        "chs"
+      ]
+    },
+    {
+      "company_id": "amd",
+      "rank": 131,
+      "ranked_name": "Advanced Micro Devices",
+      "monitor_ids": [
+        "amd"
+      ]
+    },
+    {
+      "company_id": "coupang",
+      "rank": 132,
+      "ranked_name": "Coupang",
+      "monitor_ids": [
+        "coupang"
+      ]
+    },
+    {
+      "company_id": "hpe",
+      "rank": 133,
+      "ranked_name": "Hewlett Packard Enterprise",
+      "monitor_ids": [
+        "hpe"
+      ]
+    },
+    {
+      "company_id": "dr-horton",
+      "rank": 134,
+      "ranked_name": "D.R. Horton",
+      "monitor_ids": [
+        "dr-horton"
+      ]
+    },
+    {
+      "company_id": "lennar",
+      "rank": 135,
+      "ranked_name": "Lennar",
+      "monitor_ids": [
+        "lennar"
+      ]
+    },
+    {
+      "company_id": "pnc",
+      "rank": 136,
+      "ranked_name": "PNC Financial Services Group",
+      "monitor_ids": [
+        "pnc"
+      ]
+    },
+    {
+      "company_id": "cummins",
+      "rank": 137,
+      "ranked_name": "Cummins",
+      "monitor_ids": [
+        "cummins"
+      ]
+    },
+    {
+      "company_id": "oneok",
+      "rank": 138,
+      "ranked_name": "Oneok",
+      "monitor_ids": [
+        "oneok"
+      ]
+    },
+    {
+      "company_id": "paypal",
+      "rank": 139,
+      "ranked_name": "PayPal Holdings",
+      "monitor_ids": [
+        "paypal"
+      ]
+    },
+    {
+      "company_id": "guidewell",
+      "rank": 140,
+      "ranked_name": "GuideWell Mutual Holding",
+      "monitor_ids": [
+        "guidewell"
+      ]
+    },
+    {
+      "company_id": "mastercard",
+      "rank": 141,
+      "ranked_name": "Mastercard",
+      "monitor_ids": [
+        "mastercard"
+      ]
+    },
+    {
+      "company_id": "nucor",
+      "rank": 142,
+      "ranked_name": "Nucor",
+      "monitor_ids": [
+        "nucor"
+      ]
+    },
+    {
+      "company_id": "apollo",
+      "rank": 143,
+      "ranked_name": "Apollo Global Management",
+      "monitor_ids": [
+        "apollo"
+      ]
+    },
+    {
+      "company_id": "penske-automotive",
+      "rank": 144,
+      "ranked_name": "Penske Automotive Group",
+      "monitor_ids": [
+        "penske-automotive"
+      ]
+    },
+    {
+      "company_id": "duke-energy",
+      "rank": 145,
+      "ranked_name": "Duke Energy",
+      "monitor_ids": [
+        "duke-energy"
+      ]
+    },
+    {
+      "company_id": "unfi",
+      "rank": 146,
+      "ranked_name": "United Natural Foods",
+      "monitor_ids": [
+        "unfi"
+      ]
+    },
+    {
+      "company_id": "ferguson",
+      "rank": 147,
+      "ranked_name": "Ferguson Enterprises",
+      "monitor_ids": [
+        "ferguson"
+      ]
+    },
+    {
+      "company_id": "arrow-electronics",
+      "rank": 148,
+      "ranked_name": "Arrow Electronics",
+      "monitor_ids": [
+        "arrow-electronics"
+      ]
+    },
+    {
+      "company_id": "nrg",
+      "rank": 149,
+      "ranked_name": "NRG Energy",
+      "monitor_ids": [
+        "nrg"
+      ]
+    },
+    {
+      "company_id": "truist",
+      "rank": 150,
+      "ranked_name": "Truist Financial",
+      "monitor_ids": [
+        "truist"
       ]
     }
   ]

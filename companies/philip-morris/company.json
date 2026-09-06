@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "philip-morris",
+  "name": "Philip Morris International",
+  "aliases": [],
+  "website_url": "https://www.pmi.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pmi.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 150",
+      "2026",
+      "United States"
+    ]
+  }
+}

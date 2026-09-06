@@ -1,0 +1,60 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "dr-horton",
+  "company_id": "dr-horton",
+  "revision": 1,
+  "label": "D.R. Horton Careers",
+  "careers_url": "https://drhorton.taleo.net/careersection/2/jobsearch.ftl?lang=en",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-06T14:02:51.302385+00:00",
+    "job_count": 25,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "D.R. Horton",
+    "careers_url": "https://drhorton.taleo.net/careersection/2/jobsearch.ftl?lang=en",
+    "strategy": "playwright",
+    "allowed_hosts": [
+      "drhorton.taleo.net"
+    ],
+    "request": {
+      "url": "https://drhorton.taleo.net/careersection/2/jobsearch.ftl?lang=en",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "tr[id^=\"job\"]",
+      "title": "a[href*=\"jobdetail.ftl?job=\"]",
+      "link": "a[href*=\"jobdetail.ftl?job=\"]",
+      "location": "td:nth-child(3)",
+      "posted_date": "td:nth-child(4)"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "wait_selector": "tr[id^=\"job\"] a[href*=\"jobdetail.ftl?job=\"]"
+    }
+  }
+}
