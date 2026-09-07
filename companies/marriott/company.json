@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "marriott",
+  "name": "Marriott International",
+  "aliases": [],
+  "website_url": "https://www.marriott.com/",
+  "logo_url": "https://mmx.prnewswire.com/media/MS201796/Marriott-International-logo-black.jpg?id=OA2762385&p=facebook",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 200",
+      "2026",
+      "United States"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "international-paper",
+  "name": "International Paper",
+  "aliases": [],
+  "website_url": "https://www.internationalpaper.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=internationalpaper.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 200",
+      "2026",
+      "United States"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "3m",
+  "name": "3M",
+  "aliases": [],
+  "website_url": "https://www.3m.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=3m.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 200",
+      "2026",
+      "United States"
+    ]
+  }
+}

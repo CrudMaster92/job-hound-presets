@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "wesco",
+  "name": "WESCO International",
+  "aliases": [],
+  "website_url": "https://www.wesco.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=wesco.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 200",
+      "2026",
+      "United States"
+    ]
+  }
+}

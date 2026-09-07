@@ -1,0 +1,58 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "mcdonalds",
+  "company_id": "mcdonalds",
+  "revision": 1,
+  "label": "McDonald's Careers",
+  "careers_url": "https://careers.smartrecruiters.com/McDonaldsCorporation",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-07T07:10:26.373080+00:00",
+    "job_count": 4,
+    "warnings": [
+      "description detail enrichment skipped 1 jobs after the configured 3-posting limit",
+      "Bounded/partial listing; unseen jobs must not be closed from this run.",
+      "Small legacy SmartRecruiters feed, including a franchise opportunity; not the full restaurant or global corporate job catalog. Source links expose the public job JSON."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "McDonald's",
+    "careers_url": "https://careers.smartrecruiters.com/McDonaldsCorporation",
+    "strategy": "smartrecruiters",
+    "allowed_hosts": [
+      "careers.smartrecruiters.com",
+      "api.smartrecruiters.com"
+    ],
+    "request": {
+      "url": "https://api.smartrecruiters.com/v1/companies/McDonaldsCorporation/postings",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 100,
+      "max_pages": 3,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "company_slug": "McDonaldsCorporation",
+      "detail_fetch_limit": 3,
+      "partial_listing": true
+    }
+  }
+}

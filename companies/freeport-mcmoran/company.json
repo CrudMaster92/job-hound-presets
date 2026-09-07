@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "freeport-mcmoran",
+  "name": "Freeport-McMoRan",
+  "aliases": [],
+  "website_url": "https://www.fcx.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fcx.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 200",
+      "2026",
+      "United States"
+    ]
+  }
+}

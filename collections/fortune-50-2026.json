@@ -2,12 +2,12 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "fortune-50-2026",
-  "revision": 3,
-  "name": "Fortune 150 — 2026",
-  "description": "The first 150 companies in the 2026 U.S. Fortune 500. Includes 142 companies with 145 installable monitors and eight unavailable companies with explanations: Progressive, HCA Healthcare, Delta, Publix, American Airlines, Enterprise Products, CBRE and Lithia. Monitor coverage may be partial.",
+  "revision": 4,
+  "name": "Fortune 200 — 2026",
+  "description": "The first 200 companies in the 2026 U.S. Fortune 500. Includes 191 companies with 194 installable monitors and nine unavailable companies with explanations: Progressive, HCA Healthcare, Delta, Publix, American Airlines, Enterprise Products, CBRE, Lithia and Ross Stores. Monitor coverage may be partial, division-specific or limited to legacy feeds.",
   "tags": [
     "Fortune 500",
-    "Fortune 150",
+    "Fortune 200",
     "2026",
     "United States"
   ],
@@ -1081,6 +1081,411 @@
       "ranked_name": "Truist Financial",
       "monitor_ids": [
         "truist"
+      ]
+    },
+    {
+      "company_id": "jabil",
+      "rank": 151,
+      "ranked_name": "Jabil",
+      "monitor_ids": [
+        "jabil"
+      ]
+    },
+    {
+      "company_id": "southern",
+      "rank": 152,
+      "ranked_name": "Southern",
+      "monitor_ids": [
+        "southern"
+      ]
+    },
+    {
+      "company_id": "gilead",
+      "rank": 153,
+      "ranked_name": "Gilead Sciences",
+      "monitor_ids": [
+        "gilead"
+      ]
+    },
+    {
+      "company_id": "pbf-energy",
+      "rank": 154,
+      "ranked_name": "PBF Energy",
+      "monitor_ids": [
+        "pbf-energy"
+      ],
+      "note": "Partial engineering keyword feed. The broader feed contains a posting whose salary data fails normalization; all returned jobs have enriched, usable source URLs."
+    },
+    {
+      "company_id": "paramount",
+      "rank": 155,
+      "ranked_name": "Paramount Skydance",
+      "monitor_ids": [
+        "paramount"
+      ]
+    },
+    {
+      "company_id": "kkr",
+      "rank": 156,
+      "ranked_name": "KKR",
+      "monitor_ids": [
+        "kkr"
+      ],
+      "note": "Public Greenhouse feed mapped directly because a null metadata field in this board breaks the standard adapter."
+    },
+    {
+      "company_id": "quanta-services",
+      "rank": 157,
+      "ranked_name": "Quanta Services",
+      "monitor_ids": [
+        "quanta-services"
+      ]
+    },
+    {
+      "company_id": "paccar",
+      "rank": 158,
+      "ranked_name": "Paccar",
+      "monitor_ids": [
+        "paccar"
+      ]
+    },
+    {
+      "company_id": "medline",
+      "rank": 159,
+      "ranked_name": "Medline",
+      "monitor_ids": [
+        "medline"
+      ]
+    },
+    {
+      "company_id": "applied-materials",
+      "rank": 160,
+      "ranked_name": "Applied Materials",
+      "monitor_ids": [
+        "applied-materials"
+      ]
+    },
+    {
+      "company_id": "hartford",
+      "rank": 160,
+      "ranked_name": "Hartford Insurance Group",
+      "monitor_ids": [
+        "hartford"
+      ],
+      "note": "Published rank 160 is tied with Applied Materials; this is the 161st company in source order."
+    },
+    {
+      "company_id": "carmax",
+      "rank": 162,
+      "ranked_name": "CarMax",
+      "monitor_ids": [
+        "carmax"
+      ]
+    },
+    {
+      "company_id": "southwest",
+      "rank": 163,
+      "ranked_name": "Southwest Airlines",
+      "monitor_ids": [
+        "southwest"
+      ]
+    },
+    {
+      "company_id": "baker-hughes",
+      "rank": 164,
+      "ranked_name": "Baker Hughes",
+      "monitor_ids": [
+        "baker-hughes"
+      ]
+    },
+    {
+      "company_id": "charles-schwab",
+      "rank": 165,
+      "ranked_name": "Charles Schwab",
+      "monitor_ids": [
+        "charles-schwab"
+      ]
+    },
+    {
+      "company_id": "autonation",
+      "rank": 166,
+      "ranked_name": "AutoNation",
+      "monitor_ids": [
+        "autonation"
+      ]
+    },
+    {
+      "company_id": "nextera-energy",
+      "rank": 167,
+      "ranked_name": "NextEra Energy",
+      "monitor_ids": [
+        "nextera-energy"
+      ]
+    },
+    {
+      "company_id": "marsh-mclennan",
+      "rank": 168,
+      "ranked_name": "Marsh & McLennan",
+      "monitor_ids": [
+        "marsh-mclennan"
+      ]
+    },
+    {
+      "company_id": "booking-holdings",
+      "rank": 169,
+      "ranked_name": "Booking Holdings",
+      "monitor_ids": [
+        "booking-holdings"
+      ],
+      "note": "Partial holding-company coverage: the first listed role in each category, excluding separate subsidiary career boards."
+    },
+    {
+      "company_id": "mcdonalds",
+      "rank": 170,
+      "ranked_name": "McDonald's",
+      "monitor_ids": [
+        "mcdonalds"
+      ],
+      "note": "Small legacy SmartRecruiters feed, including a franchise opportunity; not the full restaurant or global corporate job catalog. Source links expose the public job JSON."
+    },
+    {
+      "company_id": "hf-sinclair",
+      "rank": 171,
+      "ranked_name": "HF Sinclair",
+      "monitor_ids": [
+        "hf-sinclair"
+      ]
+    },
+    {
+      "company_id": "aig",
+      "rank": 172,
+      "ranked_name": "AIG",
+      "monitor_ids": [
+        "aig"
+      ]
+    },
+    {
+      "company_id": "occidental",
+      "rank": 173,
+      "ranked_name": "Occidental Petroleum",
+      "monitor_ids": [
+        "occidental"
+      ]
+    },
+    {
+      "company_id": "marriott",
+      "rank": 174,
+      "ranked_name": "Marriott International",
+      "monitor_ids": [
+        "marriott"
+      ]
+    },
+    {
+      "company_id": "jll",
+      "rank": 175,
+      "ranked_name": "Jones Lang LaSalle",
+      "monitor_ids": [
+        "jll"
+      ]
+    },
+    {
+      "company_id": "international-paper",
+      "rank": 176,
+      "ranked_name": "International Paper",
+      "monitor_ids": [
+        "international-paper"
+      ]
+    },
+    {
+      "company_id": "freeport-mcmoran",
+      "rank": 177,
+      "ranked_name": "Freeport-McMoRan",
+      "monitor_ids": [
+        "freeport-mcmoran"
+      ]
+    },
+    {
+      "company_id": "constellation-energy",
+      "rank": 178,
+      "ranked_name": "Constellation Energy",
+      "monitor_ids": [
+        "constellation-energy"
+      ]
+    },
+    {
+      "company_id": "waste-management",
+      "rank": 179,
+      "ranked_name": "Waste Management",
+      "monitor_ids": [
+        "waste-management"
+      ]
+    },
+    {
+      "company_id": "live-nation",
+      "rank": 180,
+      "ranked_name": "Live Nation Entertainment",
+      "monitor_ids": [
+        "live-nation"
+      ]
+    },
+    {
+      "company_id": "stryker",
+      "rank": 181,
+      "ranked_name": "Stryker",
+      "monitor_ids": [
+        "stryker"
+      ]
+    },
+    {
+      "company_id": "dollar-tree",
+      "rank": 182,
+      "ranked_name": "Dollar Tree",
+      "monitor_ids": [
+        "dollar-tree"
+      ]
+    },
+    {
+      "company_id": "3m",
+      "rank": 183,
+      "ranked_name": "3M",
+      "monitor_ids": [
+        "3m"
+      ]
+    },
+    {
+      "company_id": "kraft-heinz",
+      "rank": 184,
+      "ranked_name": "Kraft Heinz",
+      "monitor_ids": [
+        "kraft-heinz"
+      ]
+    },
+    {
+      "company_id": "pge",
+      "rank": 185,
+      "ranked_name": "PG&E",
+      "monitor_ids": [
+        "pge"
+      ]
+    },
+    {
+      "company_id": "danaher",
+      "rank": 186,
+      "ranked_name": "Danaher",
+      "monitor_ids": [
+        "danaher"
+      ]
+    },
+    {
+      "company_id": "union-pacific",
+      "rank": 187,
+      "ranked_name": "Union Pacific",
+      "monitor_ids": [
+        "union-pacific"
+      ]
+    },
+    {
+      "company_id": "genuine-parts",
+      "rank": 188,
+      "ranked_name": "Genuine Parts",
+      "monitor_ids": [
+        "genuine-parts"
+      ]
+    },
+    {
+      "company_id": "exelon",
+      "rank": 189,
+      "ranked_name": "Exelon",
+      "monitor_ids": [
+        "exelon"
+      ]
+    },
+    {
+      "company_id": "blackrock",
+      "rank": 190,
+      "ranked_name": "BlackRock",
+      "monitor_ids": [
+        "blackrock"
+      ]
+    },
+    {
+      "company_id": "block",
+      "rank": 191,
+      "ranked_name": "Block",
+      "monitor_ids": [
+        "block"
+      ]
+    },
+    {
+      "company_id": "adobe",
+      "rank": 192,
+      "ranked_name": "Adobe",
+      "monitor_ids": [
+        "adobe"
+      ]
+    },
+    {
+      "company_id": "rga",
+      "rank": 193,
+      "ranked_name": "Reinsurance Group of America",
+      "monitor_ids": [
+        "rga"
+      ]
+    },
+    {
+      "company_id": "sherwin-williams",
+      "rank": 194,
+      "ranked_name": "Sherwin-Williams",
+      "monitor_ids": [
+        "sherwin-williams"
+      ]
+    },
+    {
+      "company_id": "wesco",
+      "rank": 195,
+      "ranked_name": "WESCO International",
+      "monitor_ids": [
+        "wesco"
+      ]
+    },
+    {
+      "company_id": "lear",
+      "rank": 196,
+      "ranked_name": "Lear",
+      "monitor_ids": [
+        "lear"
+      ]
+    },
+    {
+      "company_id": "synchrony",
+      "rank": 197,
+      "ranked_name": "Synchrony",
+      "monitor_ids": [
+        "synchrony"
+      ]
+    },
+    {
+      "company_id": "amphenol",
+      "rank": 198,
+      "ranked_name": "Amphenol",
+      "monitor_ids": [
+        "amphenol"
+      ],
+      "note": "Partial coverage: Amphenol High Speed and Commercial Products Group only; other Amphenol businesses hire separately."
+    },
+    {
+      "company_id": "ross-stores",
+      "rank": 199,
+      "ranked_name": "Ross Stores",
+      "monitor_ids": [],
+      "note": "Ross is hiring, but its job board requires link extraction that the current scraper format does not support reliably. Its scraper needs repair before installation."
+    },
+    {
+      "company_id": "newmont",
+      "rank": 200,
+      "ranked_name": "Newmont",
+      "monitor_ids": [
+        "newmont"
       ]
     }
   ]

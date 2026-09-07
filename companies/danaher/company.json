@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "danaher",
+  "name": "Danaher",
+  "aliases": [],
+  "website_url": "https://www.danaher.com/",
+  "logo_url": "https://www.danaher.com/themes/custom/danaher/logo.svg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 200",
+      "2026",
+      "United States"
+    ]
+  }
+}

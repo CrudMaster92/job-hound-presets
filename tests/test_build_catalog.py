@@ -49,27 +49,27 @@ class CatalogBuildTests(unittest.TestCase):
             api = output / "api" / "v1"
             self.assertTrue(all(page["count"] <= 250 for page in catalog["search_pages"]))
             fortune = next(value for value in catalog["collections"] if value["id"] == "fortune-50-2026")
-            self.assertEqual(fortune["company_count"], 150)
-            self.assertEqual(fortune["monitor_count"], 145)
+            self.assertEqual(fortune["company_count"], 200)
+            self.assertEqual(fortune["monitor_count"], 194)
             detail = json.loads((api / fortune["path"]).read_text(encoding="utf-8"))
             self.assertTrue(all(page["count"] <= 100 for page in detail["member_pages"]))
-            self.assertEqual([page["count"] for page in detail["member_pages"]], [100, 50])
+            self.assertEqual([page["count"] for page in detail["member_pages"]], [100, 100])
             members = {"companies": [
                 member for page in detail["member_pages"]
                 for member in json.loads((api / page["path"]).read_text(encoding="utf-8"))["companies"]
             ]}
             self.assertTrue(all(member["logo_url"] for member in members["companies"]))
-            self.assertEqual(len({member["company_id"] for member in members["companies"]}), 150)
+            self.assertEqual(len({member["company_id"] for member in members["companies"]}), 200)
             bundle = json.loads((api / fortune["bundle_path"]).read_text(encoding="utf-8"))
-            self.assertEqual(len(bundle["companies"]), 145)
-            self.assertEqual(len(members["companies"]), 150)
+            self.assertEqual(len(bundle["companies"]), 194)
+            self.assertEqual(len(members["companies"]), 200)
             self.assertEqual(members["companies"][0]["rank"], 1)
-            self.assertEqual(members["companies"][-1]["rank"], 150)
-            self.assertEqual([m["rank"] for m in members["companies"]], list(range(1, 151)))
+            self.assertEqual(members["companies"][-1]["rank"], 200)
+            self.assertEqual([m["rank"] for m in members["companies"]], [160 if rank == 161 else rank for rank in range(1, 201)])
             unavailable = [m for m in members["companies"] if not m["monitors"]]
             self.assertEqual({m["company_id"] for m in unavailable}, {
                 "progressive", "hca-healthcare", "delta-air-lines", "publix",
-                "american-airlines", "enterprise-products", "cbre", "lithia",
+                "american-airlines", "enterprise-products", "cbre", "lithia", "ross-stores",
             })
             for member in unavailable:
                 self.assertEqual(member["availability"]["status"], "unavailable")

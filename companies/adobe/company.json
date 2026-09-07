@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "adobe",
+  "name": "Adobe",
+  "aliases": [],
+  "website_url": "https://www.adobe.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=adobe.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 200",
+      "2026",
+      "United States"
+    ]
+  }
+}

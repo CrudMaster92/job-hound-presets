@@ -1,0 +1,60 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "amphenol",
+  "company_id": "amphenol",
+  "revision": 1,
+  "label": "Amphenol High Speed and Commercial Products Careers",
+  "careers_url": "https://amphenol-icc.acquiretm.com/home.aspx",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-07T07:07:43.049616+00:00",
+    "job_count": 10,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run.",
+      "Partial coverage: Amphenol High Speed and Commercial Products Group only; other Amphenol businesses hire separately."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Amphenol",
+    "careers_url": "https://amphenol-icc.acquiretm.com/home.aspx",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "amphenol-icc.acquiretm.com"
+    ],
+    "request": {
+      "url": "https://amphenol-icc.acquiretm.com/home.aspx",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "tr:has(a[href*=\"job_details_clean\"])",
+      "title": "a[href*=\"job_details_clean\"]",
+      "link": "a[href*=\"job_details_clean\"]",
+      "location": "td:nth-child(2)",
+      "posted_date": "td:nth-child(3)"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true
+    }
+  }
+}
