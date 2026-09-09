@@ -12,6 +12,13 @@ from scripts.build_catalog import build, digest
 
 
 class CatalogBuildTests(unittest.TestCase):
+    def test_recruitment_collection_retains_twenty_new_agency_monitors(self):
+        with tempfile.TemporaryDirectory() as directory:
+            catalog = build(output=Path(directory), source_commit="test-commit")
+            collection = next(item for item in catalog["collections"] if item["id"] == "recruitment-agencies-north-america")
+            self.assertEqual(collection["company_count"], 27)
+            self.assertEqual(collection["monitor_count"], 27)
+
     def test_catalog_v3_keeps_recipes_only_in_monitors_and_bundles(self):
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory)

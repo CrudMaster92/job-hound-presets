@@ -1,0 +1,12 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "kelly-internal",
+  "company_id": "kelly",
+  "revision": 1,
+  "label": "Kelly internal careers",
+  "careers_url": "https://careers.kellyocg.com/search",
+  "compatibility": {"min_jobhound_version": "0.1.0", "recipe_schema_version": 1},
+  "verification": {"status": "verified", "checked_at": "2026-09-08T23:49:28Z", "job_count": 88, "warnings": ["The public careers page is bounded to its first 10 results."]},
+  "recipe": {"version": 1, "company": "Kelly", "careers_url": "https://careers.kellyocg.com/search", "strategy": "playwright", "allowed_hosts": ["careers.kellyocg.com"], "request": {"url": "https://careers.kellyocg.com/search", "method": "GET", "headers": {}, "params": {}, "json_body": null, "timeout_seconds": 30, "max_response_bytes": 5000000}, "pagination": {"kind": "none", "parameter": null, "page_size_parameter": null, "page_size": 10, "max_pages": 1, "next_path": null}, "selectors": {"item": "main div:has(> a[href^='/job/'])", "title": "a[href^='/job/']", "link": "a[href^='/job/']", "location": "span"}, "mapping": {}, "metadata": {"wait_selector": "a[href^='/job/']", "partial_listing": true}}
+}

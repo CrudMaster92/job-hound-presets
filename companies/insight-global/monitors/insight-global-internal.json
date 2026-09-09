@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "insight-global-internal",
+  "company_id": "insight-global",
+  "revision": 1,
+  "label": "Insight Global internal careers",
+  "careers_url": "https://careers.insightglobal.com/insightglobal-careers/jobs",
+  "compatibility": {"min_jobhound_version": "0.1.0", "recipe_schema_version": 1},
+  "verification": {"status": "unverified", "checked_at": null, "job_count": null, "warnings": ["Awaiting deterministic browser-runtime validation."]},
+  "recipe": {
+    "version": 1,
+    "company": "Insight Global",
+    "careers_url": "https://careers.insightglobal.com/insightglobal-careers/jobs",
+    "strategy": "playwright",
+    "allowed_hosts": ["careers.insightglobal.com", "assets.jibecdn.com"],
+    "request": {"url": "https://careers.insightglobal.com/insightglobal-careers/jobs", "method": "GET", "headers": {}, "params": {}, "json_body": null, "timeout_seconds": 30, "max_response_bytes": 5000000},
+    "pagination": {"kind": "none", "parameter": null, "page_size_parameter": null, "page_size": 10, "max_pages": 1, "next_path": null},
+    "selectors": {"item": "a[href*='/insightglobal-careers/jobs/']", "title": "p a", "link": "a[href*='/insightglobal-careers/jobs/']", "location": "p"},
+    "mapping": {},
+    "metadata": {"wait_selector": "a[href*='/insightglobal-careers/jobs/']", "partial_listing": true}
+  }
+}
