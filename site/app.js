@@ -40,7 +40,8 @@ function logo(company) {
 function selection(company, monitor) { return { company_id: company.company_id || company.id, monitor_id: monitor.id, revision: monitor.revision }; }
 function selectable(monitor) { return ['verified','degraded'].includes(monitor.verification?.status); }
 function encodeHandoff(mode, selections, collectionId) {
-  const payload = { format:'jobhound-catalog-install', version:1, catalog_version:3, source_commit:state.catalog.source_commit || null, mode, ...(collectionId ? { collection_id:collectionId } : {}), selections:selections.slice(0,200) };
+  if (!selections.length || selections.length > 200) throw new Error('Choose between 1 and 200 monitors per handoff.');
+  const payload = { format:'jobhound-catalog-install', version:1, catalog_version:3, source_commit:state.catalog.source_commit || null, mode, ...(collectionId ? { collection_id:collectionId } : {}), selections };
   const bytes = new TextEncoder().encode(JSON.stringify(payload));
   let binary = ''; bytes.forEach(byte => binary += String.fromCharCode(byte));
   return btoa(binary).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
@@ -85,11 +86,11 @@ function observePreviews() {
 async function openCollection(id) {
   const collection=state.catalog.collections.find(item=>item.id===id); state.drawer={mode:'collection',collection};
   $('drawer-title').textContent=collection.name; $('drawer-description').textContent=collection.description; $('drawer-list').innerHTML='<p class="loading">Loading company monitors…</p>'; $('drawer').showModal();
-  try { const members=await collectionMembers(collection); const chosen=new Map(); members.forEach(company=>company.monitors.forEach(monitor=>{if(selectable(monitor))chosen.set(keyOf(company.company_id,monitor.id),selection(company,monitor));})); state.drawer={...state.drawer,members,chosen}; renderDrawer(); }
+  try { const members=await collectionMembers(collection); const chosen=new Map(); const eligibleCount=members.reduce((count,company)=>count+company.monitors.filter(selectable).length,0); if(eligibleCount<=200)members.forEach(company=>company.monitors.forEach(monitor=>{if(selectable(monitor))chosen.set(keyOf(company.company_id,monitor.id),selection(company,monitor));})); state.drawer={...state.drawer,members,chosen}; renderDrawer(); }
   catch(error){$('drawer-list').innerHTML=`<p class="loading">${esc(error.message)}</p>`;}
 }
 function renderDrawer() {
-  const {members,chosen}=state.drawer; $('drawer-count').textContent=`${chosen.size} of ${members.flatMap(company=>company.monitors).length} monitors selected`;
+  const {members,chosen}=state.drawer; $('drawer-count').textContent=`${chosen.size} of ${members.flatMap(company=>company.monitors).length} monitors selected · choose up to 200 per batch`;
   $('drawer-list').innerHTML=members.map(company=>`<section class="drawer-company"><header>${logo(company)}<span><b>${esc(company.name)}</b><small>${company.monitors.length} monitor${company.monitors.length===1?'':'s'}</small></span></header>${company.availability?.status==='unavailable'?`<p class="availability"><b>Temporarily unavailable</b>${esc(company.availability.message)}</p>`:company.monitors.map(monitor=>{const key=keyOf(company.company_id,monitor.id),status=monitor.verification?.status||'unverified';return `<label><input type="checkbox" data-monitor="${esc(key)}" ${chosen.has(key)?'checked':''}><span><b>${esc(title(monitor.adapter))}</b><small>${esc(monitor.id)}</small></span><em class="${esc(status)}">${esc(title(status))}</em></label>`}).join('')}</section>`).join('');
   document.querySelectorAll('[data-monitor]').forEach(input=>input.onchange=()=>{const [companyId,monitorId]=input.dataset.monitor.split(':');const company=members.find(item=>item.company_id===companyId);const monitor=company.monitors.find(item=>item.id===monitorId);if(input.checked&&chosen.size<200)chosen.set(input.dataset.monitor,selection(company,monitor));else chosen.delete(input.dataset.monitor);renderDrawer();});
   $('drawer-install').disabled=!chosen.size;

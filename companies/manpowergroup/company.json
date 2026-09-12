@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "manpowergroup",
+  "name": "ManpowerGroup",
+  "aliases": [],
+  "website_url": "https://www.manpowergroup.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=manpowergroup.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 250",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "No company-owned internal job feed was validated from the public corporate careers page. Staffing-client vacancies must not be mislabeled as ManpowerGroup employment.",
+    "checked_at": "2026-09-12T12:56:44.667790+00:00"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "lincoln-national",
+  "name": "Lincoln National",
+  "aliases": [],
+  "website_url": "https://www.lfg.com/",
+  "logo_url": "https://rmkcdn.successfactors.com/df01f438/828bc39f-adf4-4e8b-a8d5-c.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 250",
+      "2026",
+      "United States"
+    ]
+  }
+}

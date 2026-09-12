@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "edward-jones",
+  "company_id": "edward-jones",
+  "revision": 1,
+  "label": "Edward Jones U.S. Careers",
+  "careers_url": "https://careers.edwardjones.com/job-search-results",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-12T12:52:07.105621+00:00",
+    "job_count": 12,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run.",
+      "Partial coverage: public external U.S. roles on the observed KBR_US portal; Canada and other portals are excluded."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Jones Financial (Edward Jones)",
+    "careers_url": "https://careers.edwardjones.com/job-search-results",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "careers.edwardjones.com",
+      "jobsapi-google.m-cloud.io"
+    ],
+    "request": {
+      "url": "https://jobsapi-google.m-cloud.io/api/job/search?pageSize=12&offset=0&companyName=companies%2F676b1209-7c4c-4a96-8991-69f52e2705a1&languageCode%5B%5D=en-US&customAttributeFilter=job_type%3D%22Public%22+AND+is_internal%3D%22External%22+AND+%28primary_category%3D%22Experienced+Financial+Advisor%22+OR+primary_category%3D%22Financial+Advisor%22+OR+primary_category%3D%22Headquarters%22+OR+primary_category%3D%22Client+Support+Team%22+OR+primary_category%3D%22Students+%26+Recent+Grads%22%29+AND+ats_portalid%3D%22KBR_US%22+AND+country%3D%22US%22&orderBy=relevance+desc",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "searchResults",
+      "source_id": "job.id",
+      "title": "job.title",
+      "url": "job.url",
+      "location": "job.google_locations.0.address",
+      "description": "job.description"
+    },
+    "metadata": {
+      "partial_listing": true
+    }
+  }
+}

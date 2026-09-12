@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "carvana",
+  "name": "Carvana",
+  "aliases": [],
+  "website_url": "https://www.carvana.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=carvana.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 250",
+      "2026",
+      "United States"
+    ]
+  }
+}

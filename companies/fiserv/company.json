@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "fiserv",
+  "name": "Fiserv",
+  "aliases": [],
+  "website_url": "https://www.fiserv.com/",
+  "logo_url": "https://cdn.phenompeople.com/CareerConnectResources/FFFYJUS/images/fiserv-logo-orange-ff6600-1761828996855.svg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 250",
+      "2026",
+      "United States"
+    ]
+  }
+}

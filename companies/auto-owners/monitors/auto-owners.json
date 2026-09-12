@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "auto-owners",
+  "company_id": "auto-owners",
+  "revision": 1,
+  "label": "Auto-Owners Insurance Careers",
+  "careers_url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-12T12:51:56.015882+00:00",
+    "job_count": 20,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Auto-Owners Insurance",
+    "careers_url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "aoins.wd5.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://aoins.wd5.myworkdayjobs.com/wday/cxs/aoins/AutoOwners/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "aoins",
+      "site": "AutoOwners",
+      "detail_fetch_limit": 20,
+      "partial_listing": true
+    }
+  }
+}

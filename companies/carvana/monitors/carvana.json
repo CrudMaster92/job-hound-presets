@@ -1,0 +1,66 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "carvana",
+  "company_id": "carvana",
+  "revision": 1,
+  "label": "Carvana Careers",
+  "careers_url": "https://www.carvana.com/careers/jobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-12T12:51:34.612232+00:00",
+    "job_count": 10,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Carvana",
+    "careers_url": "https://www.carvana.com/careers/jobs",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "www.carvana.com",
+      "apik.carvana.io"
+    ],
+    "request": {
+      "url": "https://apik.carvana.io/peopletech/careersiterevamp/api/v1/greenhouse/searchjobposts?perPage=10&currentPage=1",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "title": "",
+        "location": "",
+        "costCenters": []
+      },
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "posts",
+      "source_id": "id",
+      "title": "title",
+      "url": "absoluteUrl",
+      "location": "location.name",
+      "description": "content",
+      "posted_date": "updatedAt"
+    },
+    "metadata": {
+      "partial_listing": true
+    }
+  }
+}

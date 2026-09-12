@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "halliburton",
+  "name": "Halliburton",
+  "aliases": [],
+  "website_url": "https://www.halliburton.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=halliburton.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 250",
+      "2026",
+      "United States"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "general-mills",
+  "name": "General Mills",
+  "aliases": [],
+  "website_url": "https://www.generalmills.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=generalmills.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 250",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The Workday runtime returns jobs, but detail enrichment repeatedly fails for a listing and leaves a URL without its required board segment. A recipe with consistently usable source URLs needs validation.",
+    "checked_at": "2026-09-12T12:56:44.667790+00:00"
+  }
+}

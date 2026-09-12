@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "adp",
+  "name": "Automatic Data Processing",
+  "aliases": [],
+  "website_url": "https://www.adp.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=adp.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 250",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The official jobs page loads interactively, but the tested deterministic browser scraper times out. A working portable recipe needs validation before installation.",
+    "checked_at": "2026-09-12T12:56:44.667790+00:00"
+  }
+}

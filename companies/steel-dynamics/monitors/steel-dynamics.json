@@ -1,0 +1,59 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "steel-dynamics",
+  "company_id": "steel-dynamics",
+  "revision": 1,
+  "label": "Steel Dynamics Main iCIMS Board",
+  "careers_url": "https://careers-steeldynamics.icims.com/jobs/search?ss=1&in_iframe=1",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-12T12:51:58.374287+00:00",
+    "job_count": 50,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run.",
+      "Partial coverage: the linked Steel Dynamics iCIMS board; other divisions also have separately linked boards."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Steel Dynamics",
+    "careers_url": "https://careers-steeldynamics.icims.com/jobs/search?ss=1&in_iframe=1",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "careers-steeldynamics.icims.com"
+    ],
+    "request": {
+      "url": "https://careers-steeldynamics.icims.com/jobs/search?ss=1&in_iframe=1",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": ".row:has(> .title > a)",
+      "title": "h3",
+      "link": ".title > a",
+      "location": ".header.left > span:not(.sr-only)"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true
+    }
+  }
+}

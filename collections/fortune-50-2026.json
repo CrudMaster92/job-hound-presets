@@ -2,12 +2,12 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "fortune-50-2026",
-  "revision": 4,
-  "name": "Fortune 200 — 2026",
-  "description": "The first 200 companies in the 2026 U.S. Fortune 500. Includes 191 companies with 194 installable monitors and nine unavailable companies with explanations: Progressive, HCA Healthcare, Delta, Publix, American Airlines, Enterprise Products, CBRE, Lithia and Ross Stores. Monitor coverage may be partial, division-specific or limited to legacy feeds.",
+  "revision": 5,
+  "name": "Fortune 250 — 2026",
+  "description": "The first 250 companies in the 2026 U.S. Fortune 500. Includes 233 companies with 236 installable monitors and 17 unavailable companies with explanations. Coverage is bounded and may be division-specific. Select no more than 200 monitors per handoff; use explicit batches for this collection.",
   "tags": [
     "Fortune 500",
-    "Fortune 200",
+    "Fortune 250",
     "2026",
     "United States"
   ],
@@ -1486,6 +1486,407 @@
       "ranked_name": "Newmont",
       "monitor_ids": [
         "newmont"
+      ]
+    },
+    {
+      "company_id": "eog-resources",
+      "rank": 201,
+      "ranked_name": "EOG Resources",
+      "monitor_ids": [
+        "eog-resources"
+      ]
+    },
+    {
+      "company_id": "state-street",
+      "rank": 202,
+      "ranked_name": "State Street",
+      "monitor_ids": [
+        "state-street"
+      ]
+    },
+    {
+      "company_id": "macys",
+      "rank": 203,
+      "ranked_name": "Macy's",
+      "monitor_ids": [
+        "macys"
+      ],
+      "note": "Partial coverage: Macy's branded Oracle site; Bloomingdale's and Bluemercury have separate boards."
+    },
+    {
+      "company_id": "group-1-automotive",
+      "rank": 204,
+      "ranked_name": "Group 1 Automotive",
+      "monitor_ids": [
+        "group-1-automotive"
+      ],
+      "note": "Partial first page of the officially linked Group 1 iCIMS board, including branded dealerships."
+    },
+    {
+      "company_id": "cdw",
+      "rank": 205,
+      "ranked_name": "CDW",
+      "monitor_ids": [],
+      "note": "Public CDW listings load interactively, but the tested deterministic browser scraper times out. A working portable scraper must be validated before installation."
+    },
+    {
+      "company_id": "avnet",
+      "rank": 206,
+      "ranked_name": "Avnet",
+      "monitor_ids": [
+        "avnet"
+      ]
+    },
+    {
+      "company_id": "halliburton",
+      "rank": 207,
+      "ranked_name": "Halliburton",
+      "monitor_ids": [
+        "halliburton"
+      ]
+    },
+    {
+      "company_id": "super-micro-computer",
+      "rank": 208,
+      "ranked_name": "Super Micro Computer",
+      "monitor_ids": [
+        "super-micro-computer"
+      ]
+    },
+    {
+      "company_id": "american-electric-power",
+      "rank": 209,
+      "ranked_name": "American Electric Power",
+      "monitor_ids": [
+        "american-electric-power"
+      ]
+    },
+    {
+      "company_id": "l3harris",
+      "rank": 210,
+      "ranked_name": "L3Harris Technologies",
+      "monitor_ids": [
+        "l3harris"
+      ]
+    },
+    {
+      "company_id": "becton-dickinson",
+      "rank": 211,
+      "ranked_name": "Becton Dickinson",
+      "monitor_ids": [
+        "becton-dickinson"
+      ]
+    },
+    {
+      "company_id": "carrier",
+      "rank": 212,
+      "ranked_name": "Carrier Global",
+      "monitor_ids": [
+        "carrier"
+      ]
+    },
+    {
+      "company_id": "bjs-wholesale",
+      "rank": 213,
+      "ranked_name": "BJ's Wholesale Club",
+      "monitor_ids": [],
+      "note": "The official careers site returns HTTP 503 and says access has been limited by the site owner, including in a normal browser. No access controls were bypassed."
+    },
+    {
+      "company_id": "tenet-healthcare",
+      "rank": 214,
+      "ranked_name": "Tenet Healthcare",
+      "monitor_ids": [
+        "tenet-healthcare"
+      ]
+    },
+    {
+      "company_id": "fiserv",
+      "rank": 215,
+      "ranked_name": "Fiserv",
+      "monitor_ids": [
+        "fiserv"
+      ]
+    },
+    {
+      "company_id": "cognizant",
+      "rank": 216,
+      "ranked_name": "Cognizant Technology Solutions",
+      "monitor_ids": [],
+      "note": "The official jobs page loads interactively, but its deterministic browser scraper times out. No verified installable recipe is available from this validation."
+    },
+    {
+      "company_id": "ge-healthcare",
+      "rank": 217,
+      "ranked_name": "GE HealthCare Technologies",
+      "monitor_ids": [
+        "ge-healthcare"
+      ]
+    },
+    {
+      "company_id": "adp",
+      "rank": 218,
+      "ranked_name": "Automatic Data Processing",
+      "monitor_ids": [],
+      "note": "The official jobs page loads interactively, but the tested deterministic browser scraper times out. A working portable recipe needs validation before installation."
+    },
+    {
+      "company_id": "colgate-palmolive",
+      "rank": 219,
+      "ranked_name": "Colgate-Palmolive",
+      "monitor_ids": [
+        "colgate-palmolive"
+      ]
+    },
+    {
+      "company_id": "carvana",
+      "rank": 220,
+      "ranked_name": "Carvana",
+      "monitor_ids": [
+        "carvana"
+      ]
+    },
+    {
+      "company_id": "altria",
+      "rank": 221,
+      "ranked_name": "Altria Group",
+      "monitor_ids": [
+        "altria"
+      ]
+    },
+    {
+      "company_id": "boston-scientific",
+      "rank": 222,
+      "ranked_name": "Boston Scientific",
+      "monitor_ids": [
+        "boston-scientific"
+      ]
+    },
+    {
+      "company_id": "cheniere-energy",
+      "rank": 223,
+      "ranked_name": "Cheniere Energy",
+      "monitor_ids": [
+        "cheniere-energy"
+      ]
+    },
+    {
+      "company_id": "parker-hannifin",
+      "rank": 224,
+      "ranked_name": "Parker-Hannifin",
+      "monitor_ids": [],
+      "note": "The officially linked job board loads interactively, but its deterministic browser scraper times out. The scraper needs repair and live validation."
+    },
+    {
+      "company_id": "kimberly-clark",
+      "rank": 225,
+      "ranked_name": "Kimberly-Clark",
+      "monitor_ids": [
+        "kimberly-clark"
+      ]
+    },
+    {
+      "company_id": "american-family",
+      "rank": 226,
+      "ranked_name": "American Family Insurance Group",
+      "monitor_ids": [],
+      "note": "The official careers site presents a Cloudflare access restriction in a normal browser and returns HTTP 403. A permitted public source is needed."
+    },
+    {
+      "company_id": "general-mills",
+      "rank": 227,
+      "ranked_name": "General Mills",
+      "monitor_ids": [],
+      "note": "The Workday runtime returns jobs, but detail enrichment repeatedly fails for a listing and leaves a URL without its required board segment. A recipe with consistently usable source URLs needs validation."
+    },
+    {
+      "company_id": "edison-international",
+      "rank": 228,
+      "ranked_name": "Edison International",
+      "monitor_ids": [
+        "edison-international"
+      ],
+      "note": "Partial coverage: the officially linked Southern California Edison feed; does not guarantee all Edison International subsidiaries."
+    },
+    {
+      "company_id": "autozone",
+      "rank": 229,
+      "ranked_name": "AutoZone",
+      "monitor_ids": [
+        "autozone"
+      ]
+    },
+    {
+      "company_id": "ameriprise",
+      "rank": 230,
+      "ranked_name": "Ameriprise Financial",
+      "monitor_ids": [
+        "ameriprise"
+      ]
+    },
+    {
+      "company_id": "intuit",
+      "rank": 231,
+      "ranked_name": "Intuit",
+      "monitor_ids": [
+        "intuit"
+      ]
+    },
+    {
+      "company_id": "guardian-life",
+      "rank": 232,
+      "ranked_name": "Guardian Life Ins. Co. of America",
+      "monitor_ids": [
+        "guardian-life"
+      ]
+    },
+    {
+      "company_id": "cleveland-cliffs",
+      "rank": 233,
+      "ranked_name": "Cleveland-Cliffs",
+      "monitor_ids": [
+        "cleveland-cliffs"
+      ],
+      "note": "Partial coverage: observed Workday External and Manual postings in the company careers API; location is the primary city."
+    },
+    {
+      "company_id": "global-partners",
+      "rank": 234,
+      "ranked_name": "Global Partners",
+      "monitor_ids": [
+        "global-partners"
+      ]
+    },
+    {
+      "company_id": "aramark",
+      "rank": 235,
+      "ranked_name": "Aramark",
+      "monitor_ids": [
+        "aramark"
+      ],
+      "note": "Partial first page. Jobs at client facilities are Aramark employment; location text also includes the source job ID."
+    },
+    {
+      "company_id": "corebridge-financial",
+      "rank": 236,
+      "ranked_name": "Corebridge Financial",
+      "monitor_ids": [
+        "corebridge-financial"
+      ]
+    },
+    {
+      "company_id": "loews",
+      "rank": 237,
+      "ranked_name": "Loews",
+      "monitor_ids": [
+        "loews"
+      ],
+      "note": "Partial coverage: Loews Corporation corporate board only; separate subsidiary and hotel boards are not included."
+    },
+    {
+      "company_id": "lam-research",
+      "rank": 238,
+      "ranked_name": "Lam Research",
+      "monitor_ids": [
+        "lam-research"
+      ]
+    },
+    {
+      "company_id": "goodyear",
+      "rank": 239,
+      "ranked_name": "Goodyear Tire & Rubber",
+      "monitor_ids": [
+        "goodyear"
+      ],
+      "note": "Small observed Workday feed (three jobs); do not treat this as the complete global Goodyear catalog."
+    },
+    {
+      "company_id": "pacific-life",
+      "rank": 240,
+      "ranked_name": "Pacific Life",
+      "monitor_ids": [
+        "pacific-life"
+      ]
+    },
+    {
+      "company_id": "auto-owners",
+      "rank": 241,
+      "ranked_name": "Auto-Owners Insurance",
+      "monitor_ids": [
+        "auto-owners"
+      ]
+    },
+    {
+      "company_id": "kiewit",
+      "rank": 242,
+      "ranked_name": "Peter Kiewit Sons'",
+      "monitor_ids": [
+        "kiewit"
+      ]
+    },
+    {
+      "company_id": "lincoln-national",
+      "rank": 243,
+      "ranked_name": "Lincoln National",
+      "monitor_ids": [
+        "lincoln-national"
+      ]
+    },
+    {
+      "company_id": "steel-dynamics",
+      "rank": 244,
+      "ranked_name": "Steel Dynamics",
+      "monitor_ids": [
+        "steel-dynamics"
+      ],
+      "note": "Partial coverage: the linked Steel Dynamics iCIMS board; other divisions also have separately linked boards."
+    },
+    {
+      "company_id": "emerson",
+      "rank": 245,
+      "ranked_name": "Emerson Electric",
+      "monitor_ids": [
+        "emerson"
+      ]
+    },
+    {
+      "company_id": "asbury-automotive",
+      "rank": 246,
+      "ranked_name": "Asbury Automotive Group",
+      "monitor_ids": [
+        "asbury-automotive"
+      ]
+    },
+    {
+      "company_id": "manpowergroup",
+      "rank": 247,
+      "ranked_name": "ManpowerGroup",
+      "monitor_ids": [],
+      "note": "No company-owned internal job feed was validated from the public corporate careers page. Staffing-client vacancies must not be mislabeled as ManpowerGroup employment."
+    },
+    {
+      "company_id": "grainger",
+      "rank": 248,
+      "ranked_name": "W.W. Grainger",
+      "monitor_ids": [
+        "grainger"
+      ]
+    },
+    {
+      "company_id": "edward-jones",
+      "rank": 249,
+      "ranked_name": "Jones Financial (Edward Jones)",
+      "monitor_ids": [
+        "edward-jones"
+      ],
+      "note": "Partial coverage: public external U.S. roles on the observed KBR_US portal; Canada and other portals are excluded."
+    },
+    {
+      "company_id": "oreilly-automotive",
+      "rank": 250,
+      "ranked_name": "O'Reilly Automotive",
+      "monitor_ids": [
+        "oreilly-automotive"
       ]
     }
   ]

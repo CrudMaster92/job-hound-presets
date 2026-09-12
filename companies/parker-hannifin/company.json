@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "parker-hannifin",
+  "name": "Parker-Hannifin",
+  "aliases": [],
+  "website_url": "https://www.parker.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=parker.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 250",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The officially linked job board loads interactively, but its deterministic browser scraper times out. The scraper needs repair and live validation.",
+    "checked_at": "2026-09-12T12:56:44.667790+00:00"
+  }
+}

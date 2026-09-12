@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "bjs-wholesale",
+  "name": "BJ's Wholesale Club",
+  "aliases": [],
+  "website_url": "https://www.bjs.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bjs.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 250",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "access-restricted",
+    "message": "The official careers site returns HTTP 503 and says access has been limited by the site owner, including in a normal browser. No access controls were bypassed.",
+    "checked_at": "2026-09-12T12:56:44.667790+00:00"
+  }
+}

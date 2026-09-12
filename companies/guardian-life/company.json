@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "guardian-life",
+  "name": "Guardian Life Ins. Co. of America",
+  "aliases": [],
+  "website_url": "https://www.guardianlife.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=guardianlife.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 250",
+      "2026",
+      "United States"
+    ]
+  }
+}
