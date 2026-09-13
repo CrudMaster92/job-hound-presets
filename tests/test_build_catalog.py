@@ -16,8 +16,8 @@ class CatalogBuildTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             catalog = build(output=Path(directory), source_commit="test-commit")
             collection = next(item for item in catalog["collections"] if item["id"] == "recruitment-agencies-north-america")
-            self.assertEqual(collection["company_count"], 31)
-            self.assertEqual(collection["monitor_count"], 24)
+            self.assertEqual(collection["company_count"], 34)
+            self.assertEqual(collection["monitor_count"], 27)
             api = Path(directory) / "api" / "v1"
             members = json.loads((api / "collections/recruitment-agencies-north-america/members-0001.json").read_text())["companies"]
             unavailable = {"insight-global", "aston-carter", "mlag", "korn-ferry", "pagegroup", "robert-walters", "manpowergroup"}
