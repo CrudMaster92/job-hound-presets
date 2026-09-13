@@ -1,1 +1,29 @@
-{"format":"jobhound-company","schema_version":1,"id":"aston-carter","name":"Aston Carter","legal_name":null,"aliases":[],"website_url":"https://www.astoncarter.com/","logo_url":null,"facets":{"industries":["staffing-and-recruiting"],"specialties":["accounting-finance","professional-talent"],"tags":["Recruitment","Global"]}}
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "aston-carter",
+  "name": "Aston Carter",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.astoncarter.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "staffing-and-recruiting"
+    ],
+    "specialties": [
+      "accounting-finance",
+      "professional-talent"
+    ],
+    "tags": [
+      "Recruitment",
+      "Global"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The official internal-careers link redirects to Actalent. No independently owned Aston Carter internal feed was validated; the Australian placement board was removed.",
+    "checked_at": "2026-09-13T00:11:04.391810+00:00"
+  }
+}

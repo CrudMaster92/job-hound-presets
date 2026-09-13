@@ -8,8 +8,24 @@
   "website_url": "https://insightglobal.com/",
   "logo_url": null,
   "facets": {
-    "industries": ["staffing-and-recruiting"],
-    "specialties": ["staffing", "executive-recruiting", "professional-services"],
-    "tags": ["Recruitment", "Staffing", "North America"]
+    "industries": [
+      "staffing-and-recruiting"
+    ],
+    "specialties": [
+      "staffing",
+      "executive-recruiting",
+      "professional-services"
+    ],
+    "tags": [
+      "Recruitment",
+      "Staffing",
+      "North America"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "access-restricted",
+    "message": "The official internal careers board returned HTTP 403 in a normal browser; its existing recipe timed out. Public client placements are not a substitute.",
+    "checked_at": "2026-09-13T00:11:04.391810+00:00"
   }
 }

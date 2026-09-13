@@ -12,12 +12,25 @@ from scripts.build_catalog import build, digest
 
 
 class CatalogBuildTests(unittest.TestCase):
-    def test_recruitment_collection_retains_twenty_new_agency_monitors(self):
+    def test_recruitment_collection_preserves_blocked_companies_without_installable_placeholders(self):
         with tempfile.TemporaryDirectory() as directory:
             catalog = build(output=Path(directory), source_commit="test-commit")
             collection = next(item for item in catalog["collections"] if item["id"] == "recruitment-agencies-north-america")
-            self.assertEqual(collection["company_count"], 27)
-            self.assertEqual(collection["monitor_count"], 27)
+            self.assertEqual(collection["company_count"], 28)
+            self.assertEqual(collection["monitor_count"], 21)
+            api = Path(directory) / "api" / "v1"
+            members = json.loads((api / "collections/recruitment-agencies-north-america/members-0001.json").read_text())["companies"]
+            unavailable = {"insight-global", "aston-carter", "mlag", "korn-ferry", "pagegroup", "robert-walters", "manpowergroup"}
+            for member in members:
+                if member["company_id"] in unavailable:
+                    self.assertEqual(member["monitors"], [])
+                    self.assertEqual(member["availability"]["status"], "unavailable")
+                    self.assertTrue(member["availability"]["message"])
+                else:
+                    self.assertTrue(member["monitors"])
+                    for monitor in member["monitors"]:
+                        self.assertEqual(monitor["verification"]["status"], "verified")
+                        self.assertGreater(monitor["verification"]["job_count"], 0)
 
     def test_catalog_v3_keeps_recipes_only_in_monitors_and_bundles(self):
         with tempfile.TemporaryDirectory() as directory:

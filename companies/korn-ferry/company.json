@@ -1,1 +1,29 @@
-{"format":"jobhound-company","schema_version":1,"id":"korn-ferry","name":"Korn Ferry","legal_name":"Korn Ferry","aliases":[],"website_url":"https://www.kornferry.com/","logo_url":null,"facets":{"industries":["staffing-and-recruiting"],"specialties":["executive-search","organizational-consulting"],"tags":["Recruitment","Global"]}}
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "korn-ferry",
+  "name": "Korn Ferry",
+  "legal_name": "Korn Ferry",
+  "aliases": [],
+  "website_url": "https://www.kornferry.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "staffing-and-recruiting"
+    ],
+    "specialties": [
+      "executive-search",
+      "organizational-consulting"
+    ],
+    "tags": [
+      "Recruitment",
+      "Global"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The former careers URL is a 404. The replacement Tal.net board mixes internal openings with client vacancies; no reliable employer boundary was validated.",
+    "checked_at": "2026-09-13T00:11:04.391810+00:00"
+  }
+}

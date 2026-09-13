@@ -1,1 +1,28 @@
-{"format":"jobhound-company","schema_version":1,"id":"robert-walters","name":"Robert Walters","legal_name":"Robert Walters plc","aliases":[],"website_url":"https://www.robertwaltersgroup.com/","logo_url":null,"facets":{"industries":["staffing-and-recruiting"],"specialties":["professional-recruitment"],"tags":["Recruitment","Global"]}}
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "robert-walters",
+  "name": "Robert Walters",
+  "legal_name": "Robert Walters plc",
+  "aliases": [],
+  "website_url": "https://www.robertwaltersgroup.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "staffing-and-recruiting"
+    ],
+    "specialties": [
+      "professional-recruitment"
+    ],
+    "tags": [
+      "Recruitment",
+      "Global"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "access-restricted",
+    "message": "The group and Canadian internal-careers pages returned HTTP 403; the placeholder recipe returned no jobs. No public internal-job feed was validated.",
+    "checked_at": "2026-09-13T00:11:04.391810+00:00"
+  }
+}
