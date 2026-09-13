@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "kforce",
+  "name": "Kforce",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.kforce.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "staffing-and-recruiting"
+    ],
+    "specialties": [],
+    "tags": [
+      "Recruitment",
+      "North America"
+    ]
+  }
+}

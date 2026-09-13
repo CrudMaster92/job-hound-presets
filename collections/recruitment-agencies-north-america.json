@@ -2,9 +2,9 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "recruitment-agencies-north-america",
-  "revision": 3,
+  "revision": 4,
   "name": "Recruitment Agencies \u2014 North America",
-  "description": "Internal corporate, recruiting, sales and branch-support openings at recruitment and staffing agencies operating in North America. Includes 21 validated monitors and 7 unavailable companies with explanations. Some feeds are global or explicitly bounded; consult each monitor's coverage warnings.",
+  "description": "Internal corporate, recruiting, sales and branch-support openings at recruitment and staffing agencies operating in North America. Includes 24 validated monitors and 7 unavailable companies with explanations. Some feeds are global or explicitly bounded; consult each monitor's coverage warnings.",
   "tags": [
     "Recruitment",
     "Staffing",
@@ -110,6 +110,15 @@
     },
     {
       "company_id": "manpowergroup"
+    },
+    {
+      "company_id": "staffmark-group"
+    },
+    {
+      "company_id": "beacon-hill"
+    },
+    {
+      "company_id": "kforce"
     }
   ]
 }
