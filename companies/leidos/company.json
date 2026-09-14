@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "leidos",
+  "name": "Leidos Holdings",
+  "aliases": [],
+  "website_url": "https://www.leidos.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=leidos.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 300",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "access-restricted",
+    "message": "The official careers site presents an access challenge in a normal browser and returns HTTP 403. No permitted listing feed was validated.",
+    "checked_at": "2026-09-14T23:22:58.397854+00:00"
+  }
+}

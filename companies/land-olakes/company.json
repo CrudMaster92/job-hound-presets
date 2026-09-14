@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "land-olakes",
+  "name": "Land O'Lakes",
+  "aliases": [],
+  "website_url": "https://www.landolakesinc.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=landolakesinc.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 300",
+      "2026",
+      "United States"
+    ]
+  }
+}

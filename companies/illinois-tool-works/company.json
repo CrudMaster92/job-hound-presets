@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "illinois-tool-works",
+  "name": "Illinois Tool Works",
+  "aliases": [],
+  "website_url": "https://www.itw.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=itw.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 300",
+      "2026",
+      "United States"
+    ]
+  }
+}

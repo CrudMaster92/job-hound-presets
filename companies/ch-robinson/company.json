@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ch-robinson",
+  "name": "C.H. Robinson Worldwide",
+  "aliases": [],
+  "website_url": "https://www.chrobinson.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=chrobinson.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 300",
+      "2026",
+      "United States"
+    ]
+  }
+}

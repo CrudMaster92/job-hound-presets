@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "corning",
+  "name": "Corning",
+  "aliases": [],
+  "website_url": "https://www.corning.com/",
+  "logo_url": "https://rmkcdn.successfactors.com/5da1734a/37ab45fb-30f1-4325-843b-d.jpg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 300",
+      "2026",
+      "United States"
+    ]
+  }
+}

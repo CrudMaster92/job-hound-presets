@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "tractor-supply",
+  "name": "Tractor Supply",
+  "aliases": [],
+  "website_url": "https://www.tractorsupply.com/",
+  "logo_url": "https://rmkcdn.successfactors.com/06fd4c88/922cd839-a2b4-4fa5-b982-5.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 300",
+      "2026",
+      "United States"
+    ]
+  }
+}

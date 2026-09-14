@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "markel",
+  "name": "Markel Group",
+  "aliases": [],
+  "website_url": "https://www.markel.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=markel.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 300",
+      "2026",
+      "United States"
+    ]
+  }
+}

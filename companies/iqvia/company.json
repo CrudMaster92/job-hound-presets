@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "iqvia",
+  "name": "IQVIA Holdings",
+  "aliases": [],
+  "website_url": "https://www.iqvia.com/",
+  "logo_url": "https://images.ctfassets.net/8x484i6m45rv/6EnqpaUZCyWa8zBj2MaEQD/549d7e462d45f0115cd100ca41acb50f/IQV_BIG.D-8d293c90.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 300",
+      "2026",
+      "United States"
+    ]
+  }
+}

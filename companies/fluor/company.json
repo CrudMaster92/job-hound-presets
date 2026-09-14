@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "fluor",
+  "name": "Fluor",
+  "aliases": [],
+  "website_url": "https://www.fluor.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fluor.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 300",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The official Eightfold careers page opens, but no portable listing recipe with validated source links was established. The observed job-detail requests alone are insufficient.",
+    "checked_at": "2026-09-14T23:22:58.397854+00:00"
+  }
+}

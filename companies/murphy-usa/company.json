@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "murphy-usa",
+  "name": "Murphy USA",
+  "aliases": [],
+  "website_url": "https://www.murphyusa.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=murphyusa.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 300",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The official interactive search opens, but no portable listing recipe with validated job links was established. This does not indicate an absence of vacancies.",
+    "checked_at": "2026-09-14T23:22:58.397854+00:00"
+  }
+}

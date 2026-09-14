@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "keurig-dr-pepper",
+  "name": "Keurig Dr Pepper",
+  "aliases": [],
+  "website_url": "https://www.keurigdrpepper.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=keurigdrpepper.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 300",
+      "2026",
+      "United States"
+    ]
+  }
+}

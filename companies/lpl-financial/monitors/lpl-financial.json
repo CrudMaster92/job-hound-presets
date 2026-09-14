@@ -1,0 +1,75 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "lpl-financial",
+  "company_id": "lpl-financial",
+  "revision": 1,
+  "label": "LPL Corporate Categories",
+  "careers_url": "https://lplfinancial.wd1.myworkdayjobs.com/External",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-14T23:19:12.144326+00:00",
+    "job_count": 20,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run.",
+      "Selected corporate job categories only. Excludes Other, Sales and Employee Advisor categories to avoid partner-employed advisor postings; some direct LPL roles are omitted."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "LPL Financial Holdings",
+    "careers_url": "https://lplfinancial.wd1.myworkdayjobs.com/External",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "lplfinancial.wd1.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/External/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {
+          "jobFamilyGroup": [
+            "c5bc593cdde8100202eb0b2d63d30000",
+            "c5bc593cdde8100202f888564b110000",
+            "375b1bb08e561002028da6cbfe1d0000",
+            "375b1bb08e5610020419bae5f4f40000",
+            "27aed8fbbc771002031ffc453a5a0000",
+            "27aed8fbbc77100202cc0dd4625b0000",
+            "c5bc593cdde81002033049672a450000",
+            "375b1bb08e561002043b8fdf65e40000",
+            "375b1bb08e56100204305151351b0000",
+            "375b1bb08e561002044f55223dc20000"
+          ]
+        },
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "lplfinancial",
+      "site": "External",
+      "detail_fetch_limit": 20,
+      "partial_listing": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "omnicom",
+  "name": "Omnicom Group",
+  "aliases": [],
+  "website_url": "https://www.omnicomgroup.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=omnicomgroup.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 300",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The former official careers link redirects to a missing page on omc.com. No current company-owned hiring feed was validated; separate agency hiring is not complete group coverage.",
+    "checked_at": "2026-09-14T23:22:58.397854+00:00"
+  }
+}

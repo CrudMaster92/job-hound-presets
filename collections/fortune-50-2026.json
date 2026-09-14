@@ -2,12 +2,12 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "fortune-50-2026",
-  "revision": 5,
-  "name": "Fortune 250 — 2026",
-  "description": "The first 250 companies in the 2026 U.S. Fortune 500. Includes 233 companies with 236 installable monitors and 17 unavailable companies with explanations. Coverage is bounded and may be division-specific. Select no more than 200 monitors per handoff; use explicit batches for this collection.",
+  "revision": 6,
+  "name": "Fortune 300 — 2026",
+  "description": "The first 300 companies in the 2026 U.S. Fortune 500. Includes 266 companies with 269 installable monitors and 34 unavailable companies with explanations. Coverage is bounded and may be division-specific. Select no more than 200 monitors per handoff; use explicit batches.",
   "tags": [
     "Fortune 500",
-    "Fortune 250",
+    "Fortune 300",
     "2026",
     "United States"
   ],
@@ -1888,6 +1888,396 @@
       "monitor_ids": [
         "oreilly-automotive"
       ]
+    },
+    {
+      "company_id": "vistra",
+      "rank": 251,
+      "ranked_name": "Vistra",
+      "monitor_ids": [
+        "vistra"
+      ]
+    },
+    {
+      "company_id": "texas-instruments",
+      "rank": 252,
+      "ranked_name": "Texas Instruments",
+      "monitor_ids": [
+        "texas-instruments"
+      ]
+    },
+    {
+      "company_id": "mgm-resorts",
+      "rank": 253,
+      "ranked_name": "MGM Resorts International",
+      "monitor_ids": [],
+      "note": "The official careers site returns HTTP 403 and presents an access challenge in a normal browser. No access controls were bypassed."
+    },
+    {
+      "company_id": "corteva",
+      "rank": 254,
+      "ranked_name": "Corteva",
+      "monitor_ids": [
+        "corteva"
+      ]
+    },
+    {
+      "company_id": "universal-health-services",
+      "rank": 255,
+      "ranked_name": "Universal Health Services",
+      "monitor_ids": [],
+      "note": "The public careers search returns 403 Forbidden in a normal browser; the linked iCIMS page did not expose usable listings."
+    },
+    {
+      "company_id": "pultegroup",
+      "rank": 256,
+      "ranked_name": "PulteGroup",
+      "monitor_ids": [],
+      "note": "The official careers opportunities page returns HTTP 403 and presents an access challenge in a normal browser."
+    },
+    {
+      "company_id": "omnicom",
+      "rank": 257,
+      "ranked_name": "Omnicom Group",
+      "monitor_ids": [],
+      "note": "The former official careers link redirects to a missing page on omc.com. No current company-owned hiring feed was validated; separate agency hiring is not complete group coverage."
+    },
+    {
+      "company_id": "dicks-sporting-goods",
+      "rank": 258,
+      "ranked_name": "Dick's Sporting Goods",
+      "monitor_ids": [
+        "dicks-sporting-goods"
+      ]
+    },
+    {
+      "company_id": "devon-energy",
+      "rank": 259,
+      "ranked_name": "Devon Energy",
+      "monitor_ids": [
+        "devon-energy"
+      ]
+    },
+    {
+      "company_id": "leidos",
+      "rank": 260,
+      "ranked_name": "Leidos Holdings",
+      "monitor_ids": [],
+      "note": "The official careers site presents an access challenge in a normal browser and returns HTTP 403. No permitted listing feed was validated."
+    },
+    {
+      "company_id": "aflac",
+      "rank": 261,
+      "ranked_name": "Aflac",
+      "monitor_ids": [
+        "aflac"
+      ]
+    },
+    {
+      "company_id": "targa-resources",
+      "rank": 262,
+      "ranked_name": "Targa Resources",
+      "monitor_ids": [],
+      "note": "The officially linked SelectMinds job board shows Access Forbidden in a normal browser. No access controls were bypassed."
+    },
+    {
+      "company_id": "murphy-usa",
+      "rank": 263,
+      "ranked_name": "Murphy USA",
+      "monitor_ids": [],
+      "note": "The official interactive search opens, but no portable listing recipe with validated job links was established. This does not indicate an absence of vacancies."
+    },
+    {
+      "company_id": "lpl-financial",
+      "rank": 264,
+      "ranked_name": "LPL Financial Holdings",
+      "monitor_ids": [
+        "lpl-financial"
+      ],
+      "note": "Selected corporate job categories only. Excludes Other, Sales and Employee Advisor categories to avoid partner-employed advisor postings; some direct LPL roles are omitted."
+    },
+    {
+      "company_id": "emcor",
+      "rank": 265,
+      "ranked_name": "EMCOR Group",
+      "monitor_ids": [
+        "emcor"
+      ],
+      "note": "The corporate-linked EMCOR iCIMS board includes operating subsidiaries; bounded first-page coverage."
+    },
+    {
+      "company_id": "kinder-morgan",
+      "rank": 266,
+      "ranked_name": "Kinder Morgan",
+      "monitor_ids": [],
+      "note": "The official careers portal links separate corporate and field boards. The inspected corporate iCIMS page exposed no usable listings; a working scoped recipe needs validation."
+    },
+    {
+      "company_id": "consolidated-edison",
+      "rank": 267,
+      "ranked_name": "Consolidated Edison",
+      "monitor_ids": [],
+      "note": "The official careers site presents an access challenge in a normal browser and returns HTTP 403."
+    },
+    {
+      "company_id": "keurig-dr-pepper",
+      "rank": 268,
+      "ranked_name": "Keurig Dr Pepper",
+      "monitor_ids": [
+        "keurig-dr-pepper"
+      ]
+    },
+    {
+      "company_id": "republic-services",
+      "rank": 269,
+      "ranked_name": "Republic Services",
+      "monitor_ids": [
+        "republic-services"
+      ]
+    },
+    {
+      "company_id": "markel",
+      "rank": 270,
+      "ranked_name": "Markel Group",
+      "monitor_ids": [
+        "markel"
+      ]
+    },
+    {
+      "company_id": "farmers-insurance",
+      "rank": 271,
+      "ranked_name": "Farmers Insurance Exchange",
+      "monitor_ids": [],
+      "note": "The official corporate careers page repeatedly timed out in HTTP and normal browser checks. A reachable public careers source needs validation."
+    },
+    {
+      "company_id": "dominion-energy",
+      "rank": 272,
+      "ranked_name": "Dominion Energy",
+      "monitor_ids": [
+        "dominion-energy"
+      ]
+    },
+    {
+      "company_id": "land-olakes",
+      "rank": 273,
+      "ranked_name": "Land O'Lakes",
+      "monitor_ids": [
+        "land-olakes"
+      ]
+    },
+    {
+      "company_id": "iqvia",
+      "rank": 274,
+      "ranked_name": "IQVIA Holdings",
+      "monitor_ids": [
+        "iqvia"
+      ]
+    },
+    {
+      "company_id": "fox",
+      "rank": 275,
+      "ranked_name": "Fox",
+      "monitor_ids": [
+        "fox"
+      ],
+      "note": "FOX Corporation brands shown on the official FOX Careers board; does not include separately owned former entertainment businesses."
+    },
+    {
+      "company_id": "aecom",
+      "rank": 276,
+      "ranked_name": "AECOM",
+      "monitor_ids": [
+        "aecom"
+      ]
+    },
+    {
+      "company_id": "ch-robinson",
+      "rank": 277,
+      "ranked_name": "C.H. Robinson Worldwide",
+      "monitor_ids": [
+        "ch-robinson"
+      ]
+    },
+    {
+      "company_id": "bitgo",
+      "rank": 278,
+      "ranked_name": "Bitgo Holdings",
+      "monitor_ids": [
+        "bitgo"
+      ]
+    },
+    {
+      "company_id": "united-rentals",
+      "rank": 279,
+      "ranked_name": "United Rentals",
+      "monitor_ids": [
+        "united-rentals"
+      ]
+    },
+    {
+      "company_id": "ecolab",
+      "rank": 280,
+      "ranked_name": "Ecolab",
+      "monitor_ids": [
+        "ecolab"
+      ]
+    },
+    {
+      "company_id": "illinois-tool-works",
+      "rank": 281,
+      "ranked_name": "Illinois Tool Works",
+      "monitor_ids": [
+        "illinois-tool-works"
+      ],
+      "note": "Official ITW external board, including operating divisions; separate division systems may be excluded."
+    },
+    {
+      "company_id": "caseys",
+      "rank": 282,
+      "ranked_name": "Casey's General Stores",
+      "monitor_ids": [],
+      "note": "The official careers page presents an access challenge in a normal browser. A permitted public listing source needs validation."
+    },
+    {
+      "company_id": "raymond-james",
+      "rank": 283,
+      "ranked_name": "Raymond James Financial",
+      "monitor_ids": [],
+      "note": "The official careers page timed out over HTTP and failed with a browser protocol error. A working public source needs validation."
+    },
+    {
+      "company_id": "ppg",
+      "rank": 284,
+      "ranked_name": "PPG Industries",
+      "monitor_ids": [
+        "ppg"
+      ],
+      "note": "Bounded Workday feed; the runtime removed duplicate source IDs. Returned count understates listings and must not be used to close unseen jobs."
+    },
+    {
+      "company_id": "dte-energy",
+      "rank": 285,
+      "ranked_name": "DTE Energy",
+      "monitor_ids": [
+        "dte-energy"
+      ]
+    },
+    {
+      "company_id": "corning",
+      "rank": 286,
+      "ranked_name": "Corning",
+      "monitor_ids": [
+        "corning"
+      ]
+    },
+    {
+      "company_id": "principal-financial",
+      "rank": 287,
+      "ranked_name": "Principal Financial",
+      "monitor_ids": [],
+      "note": "The public careers search returns 403 Forbidden in a normal browser; the linked iCIMS page did not expose usable listings."
+    },
+    {
+      "company_id": "mutual-of-omaha",
+      "rank": 288,
+      "ranked_name": "Mutual of Omaha",
+      "monitor_ids": [
+        "mutual-of-omaha"
+      ]
+    },
+    {
+      "company_id": "kohls",
+      "rank": 289,
+      "ranked_name": "Kohl's",
+      "monitor_ids": [
+        "kohls"
+      ]
+    },
+    {
+      "company_id": "tractor-supply",
+      "rank": 290,
+      "ranked_name": "Tractor Supply",
+      "monitor_ids": [
+        "tractor-supply"
+      ]
+    },
+    {
+      "company_id": "whirlpool",
+      "rank": 291,
+      "ranked_name": "Whirlpool",
+      "monitor_ids": [
+        "whirlpool"
+      ]
+    },
+    {
+      "company_id": "fluor",
+      "rank": 292,
+      "ranked_name": "Fluor",
+      "monitor_ids": [],
+      "note": "The official Eightfold careers page opens, but no portable listing recipe with validated source links was established. The observed job-detail requests alone are insufficient."
+    },
+    {
+      "company_id": "gap",
+      "rank": 293,
+      "ranked_name": "Gap",
+      "monitor_ids": [],
+      "note": "The official search automatically applies the browser location and distance. A deterministic recipe with explicit, stable geographic scope must be validated before installation."
+    },
+    {
+      "company_id": "sp-global",
+      "rank": 294,
+      "ranked_name": "S&P Global",
+      "monitor_ids": [
+        "sp-global"
+      ]
+    },
+    {
+      "company_id": "ally-financial",
+      "rank": 295,
+      "ranked_name": "Ally Financial",
+      "monitor_ids": [
+        "ally-financial"
+      ]
+    },
+    {
+      "company_id": "builders-firstsource",
+      "rank": 296,
+      "ranked_name": "Builders FirstSource",
+      "monitor_ids": [],
+      "note": "The official careers search returns 403 Forbidden in a normal browser. No working deterministic listing feed was validated."
+    },
+    {
+      "company_id": "sonic-automotive",
+      "rank": 297,
+      "ranked_name": "Sonic Automotive",
+      "monitor_ids": [
+        "sonic-automotive"
+      ],
+      "note": "Official Sonic dealership listings; dealership brands are operating-company employment. One bounded response, not a global completeness guarantee."
+    },
+    {
+      "company_id": "stanley-black-decker",
+      "rank": 298,
+      "ranked_name": "Stanley Black & Decker",
+      "monitor_ids": [],
+      "note": "The official careers page returned HTTP 403 and repeatedly failed with a normal-browser protocol error. No installable recipe was validated."
+    },
+    {
+      "company_id": "kenvue",
+      "rank": 299,
+      "ranked_name": "Kenvue",
+      "monitor_ids": [
+        "kenvue"
+      ]
+    },
+    {
+      "company_id": "kyndryl",
+      "rank": 300,
+      "ranked_name": "Kyndryl Holdings",
+      "monitor_ids": [
+        "kyndryl"
+      ],
+      "note": "Professional careers board only; the separately linked early-careers board is excluded."
     }
   ]
 }
