@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "diamondback-energy",
+  "name": "Diamondback Energy",
+  "aliases": [],
+  "website_url": "https://www.diamondbackenergy.com/",
+  "logo_url": "https://www.diamondbackenergy.com/sites/g/files/knoqqb82556/themes/site/client_site/dist/images/DB-LOGO+Text_2-Color.jpg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 325",
+      "2026",
+      "United States"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "erie-insurance",
+  "name": "Erie Insurance Group",
+  "aliases": [],
+  "website_url": "https://www.erieinsurance.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=erieinsurance.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 325",
+      "2026",
+      "United States"
+    ]
+  }
+}

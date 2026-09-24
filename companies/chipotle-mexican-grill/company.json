@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "chipotle-mexican-grill",
+  "name": "Chipotle Mexican Grill",
+  "aliases": [],
+  "website_url": "https://www.chipotle.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=chipotle.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 375",
+      "2026",
+      "United States"
+    ]
+  }
+}

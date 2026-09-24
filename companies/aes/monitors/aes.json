@@ -1,0 +1,66 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "aes",
+  "company_id": "aes",
+  "revision": 1,
+  "label": "AES Careers",
+  "careers_url": "https://aes.wd1.myworkdayjobs.com/AES_US",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-24T03:06:24.817411+00:00",
+    "job_count": 20,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run.",
+      "The accessible Workday source is the U.S. careers board."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "AES",
+    "careers_url": "https://aes.wd1.myworkdayjobs.com/AES_US",
+    "strategy": "playwright",
+    "allowed_hosts": [
+      "aes.wd1.myworkdayjobs.com",
+      "www.myworkday.com",
+      "www.myworkdaycdn.com",
+      "paradox-tp.myworkdaycdn.com",
+      "wd1.myworkday.com",
+      "wd1.myworkdaycdn.com",
+      "prod-wd1.myworkdaycdn.com"
+    ],
+    "request": {
+      "url": "https://aes.wd1.myworkdayjobs.com/AES_US",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "li:has(a[data-automation-id=jobTitle])",
+      "title": "a[data-automation-id=jobTitle]",
+      "link": "a[data-automation-id=jobTitle]",
+      "location": "[data-automation-id=locations]"
+    },
+    "mapping": {},
+    "metadata": {
+      "wait_selector": "a[data-automation-id=jobTitle]",
+      "partial_listing": true
+    }
+  }
+}

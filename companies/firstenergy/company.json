@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "firstenergy",
+  "name": "FirstEnergy",
+  "aliases": [],
+  "website_url": "https://www.firstenergycorp.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=firstenergycorp.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 325",
+      "2026",
+      "United States"
+    ]
+  }
+}

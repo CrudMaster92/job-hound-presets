@@ -1,0 +1,1072 @@
+{
+  "checked_at": "2026-09-24T00:41:58.801684+00:00",
+  "base_commit": "36b7fca",
+  "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+  "new_companies": 25,
+  "new_verified_monitors": 25,
+  "total_companies": 325,
+  "total_monitors": 294,
+  "total_available_companies": 291,
+  "total_unavailable_companies": 34,
+  "first_300_preserved": true,
+  "handoff_limit": 200,
+  "companies": [
+    {
+      "company_id": "diamondback-energy",
+      "list_position": 301,
+      "published_rank": 301,
+      "careers_source": "https://diamondbackenergy.wd12.myworkdayjobs.com/DBE",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T00:41:29.562636+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "49f172f3e5a82efb62cec750e5f1806b403cdcbc926b117c840602acbbee5e92",
+      "samples": [
+        {
+          "title": "Advisor Operations Data & Analytics",
+          "location": "Unspecified",
+          "source_url": "https://diamondbackenergy.wd12.myworkdayjobs.com/en-US/DBE/job/Advisor-Operations-Data---Analytics_R100925"
+        },
+        {
+          "title": "Liquid Measurement Supervisor",
+          "location": "locations Midland, TX",
+          "source_url": "https://diamondbackenergy.wd12.myworkdayjobs.com/en-US/DBE/job/Midland-TX/Liquid-Measurement-Supervisor_R100891-1"
+        },
+        {
+          "title": "Field Operations Assistant",
+          "location": "locations Midland, TX",
+          "source_url": "https://diamondbackenergy.wd12.myworkdayjobs.com/en-US/DBE/job/Midland-TX/Field-Operations-Assistant_R100921"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://diamondbackenergy.wd12.myworkdayjobs.com/en-US/DBE/job/Advisor-Operations-Data---Analytics_R100925",
+        "http_status": 200,
+        "final_url": "https://diamondbackenergy.wd12.myworkdayjobs.com/en-US/DBE/job/Advisor-Operations-Data---Analytics_R100925"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "JPEG",
+        "url": "https://www.diamondbackenergy.com/sites/g/files/knoqqb82556/themes/site/client_site/dist/images/DB-LOGO+Text_2-Color.jpg"
+      }
+    },
+    {
+      "company_id": "echostar",
+      "list_position": 302,
+      "published_rank": 302,
+      "careers_source": "https://www.echostar.com/gfj/",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T00:41:26.839859+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "d94f30f1036279a5b07bcbed8afb81fed915884af5a6b7bbd750b9390bfeec17",
+      "samples": [
+        {
+          "title": "Wireless Inbound Sales Rep",
+          "location": "Location Anthony,TX,US",
+          "source_url": "https://www.echostar.com/gfj/wireless-inbound-sales-rep-anthony-tx-6ab3b744e376151060881137"
+        },
+        {
+          "title": "Content Strategist II",
+          "location": "Location Thornton,CO,US",
+          "source_url": "https://www.echostar.com/gfj/content-strategist-ii-thornton-co-6ab3b65c8b08410391c96d43"
+        },
+        {
+          "title": "Content Strategist II",
+          "location": "Location Westminster,CO,US",
+          "source_url": "https://www.echostar.com/gfj/content-strategist-ii-westminster-co-6ab3b651712f2a03fcf44771"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://www.echostar.com/gfj/wireless-inbound-sales-rep-anthony-tx-6ab3b744e376151060881137",
+        "http_status": 200,
+        "final_url": "https://www.echostar.com/gfj/wireless-inbound-sales-rep-anthony-tx-6ab3b744e376151060881137"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "textron",
+      "list_position": 303,
+      "published_rank": 303,
+      "careers_source": "https://careers.textron.com/jobs/",
+      "status": "verified",
+      "strategy": "generic_json",
+      "checked_at": "2026-09-24T00:41:25.990139+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "02f9871c648d78d98dc894862f2a980d473b09b4cf10257bcde7427d53ab5840",
+      "samples": [
+        {
+          "title": "2027 Textron Leadership Development Program - Integrated Supply Chain (Technical)",
+          "location": "Fort Worth, TX",
+          "source_url": "https://careers.textron.com/B97417765BA64A72A6F7FE4F742E3AD224"
+        },
+        {
+          "title": "Tool & Die Fabricator II",
+          "location": "Augusta, GA",
+          "source_url": "https://careers.textron.com/2D8B186BFC204C22854C0A94C2D746F624"
+        },
+        {
+          "title": "Content Manager",
+          "location": "Fort Worth, TX",
+          "source_url": "https://careers.textron.com/276186E0FDC5425CAB515466EF147F1D24"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://careers.textron.com/B97417765BA64A72A6F7FE4F742E3AD224",
+        "http_status": 200,
+        "final_url": "https://careers.textron.com/fort-worth-tx/2027-textron-leadership-development-program-integrated-supply-chain-technical/B97417765BA64A72A6F7FE4F742E3AD2/job/?vs=24&utm_source=RR%20JSON%20Feed-DE&utm_medium=Other&utm_campaign=RR%20JSON%20Feed"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "expedia-group",
+      "list_position": 304,
+      "published_rank": 304,
+      "careers_source": "https://expedia.wd108.myworkdayjobs.com/search",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T00:41:31.518551+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "7039873fcd45bda953fef968b1d42a2938907e294caa67954a384b2f49868443",
+      "samples": [
+        {
+          "title": "Senior Operations Specialist, InsurTech",
+          "location": "locations 2 Locations",
+          "source_url": "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/Austin-Domain-11---HomeAway/Senior-Operations-Specialist--InsurTech_R-109470-1"
+        },
+        {
+          "title": "Senior Machine Learning engineer - Distribution & Supply",
+          "location": "locations Washington - Seattle Campus",
+          "source_url": "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/Washington---Seattle-Campus/Senior-Machine-Learning-engineer---Distribution---Supply_R-106600"
+        },
+        {
+          "title": "Software Development Engineer II",
+          "location": "locations USA - Illinois - Chicago",
+          "source_url": "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/USA---Illinois---Chicago/Software-Development-Engineer-II_R-109976"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/Austin-Domain-11---HomeAway/Senior-Operations-Specialist--InsurTech_R-109470-1",
+        "http_status": 200,
+        "final_url": "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/Austin-Domain-11---HomeAway/Senior-Operations-Specialist--InsurTech_R-109470-1"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "wr-berkley",
+      "list_position": 305,
+      "published_rank": 305,
+      "careers_source": "https://careers-berkley.icims.com/jobs/search?in_iframe=1&ss=1",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T00:41:27.346601+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "ba48185cf72c3300ad17e4dbdb193928d0f5c878ec291724f9e1cb50d6041e1f",
+      "samples": [
+        {
+          "title": "Director, Claims",
+          "location": "NJ, Morristown",
+          "source_url": "https://careers-berkley.icims.com/jobs/14483/director%2c-claims/job?in_iframe=1"
+        },
+        {
+          "title": "Underwriter Trainee - Professional Lines",
+          "location": "FL, Saint Petersburg",
+          "source_url": "https://careers-berkley.icims.com/jobs/14479/underwriter-trainee---professional-lines/job?in_iframe=1"
+        },
+        {
+          "title": "AVP, Risk Engineering",
+          "location": "MN, Minneapolis - 222 S 9th Street - Suite 2600",
+          "source_url": "https://careers-berkley.icims.com/jobs/14478/avp%2c-risk-engineering/job?in_iframe=1"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://careers-berkley.icims.com/jobs/14483/director%2c-claims/job?in_iframe=1",
+        "http_status": 200,
+        "final_url": "https://careers-berkley.icims.com/jobs/14483/director%2c-claims/job?in_iframe=1"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "xcel-energy",
+      "list_position": 306,
+      "published_rank": 306,
+      "careers_source": "https://xcelenergy.wd1.myworkdayjobs.com/External",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T00:41:32.454427+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "4cdb18a64ca1424efc6bb7bd8bf9b30cf947b134625d4ccf71bc1d02fdcb0bd8",
+      "samples": [
+        {
+          "title": "Senior Data Analyst",
+          "location": "locations Denver, CO, 80205",
+          "source_url": "https://xcelenergy.wd1.myworkdayjobs.com/en-US/External/job/Denver-CO-80205/Senior-Data-Analyst_JR116696-1"
+        },
+        {
+          "title": "Apprentice (1st Year - 4th Year) Line Worker - Carlsbad, NM",
+          "location": "locations 2 Locations",
+          "source_url": "https://xcelenergy.wd1.myworkdayjobs.com/en-US/External/job/Carlsbad-NM-88220/Apprentice--1st-Year---4th-Year--Line-Worker---Carlsbad--NM_JR115947-1"
+        },
+        {
+          "title": "Operations Scheduler",
+          "location": "locations Minneapolis, MN, 55403",
+          "source_url": "https://xcelenergy.wd1.myworkdayjobs.com/en-US/External/job/Minneapolis-MN-55403/Operations-Scheduler_JR116265-1"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://xcelenergy.wd1.myworkdayjobs.com/en-US/External/job/Denver-CO-80205/Senior-Data-Analyst_JR116696-1",
+        "http_status": 200,
+        "final_url": "https://xcelenergy.wd1.myworkdayjobs.com/en-US/External/job/Denver-CO-80205/Senior-Data-Analyst_JR116696-1"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "firstenergy",
+      "list_position": 307,
+      "published_rank": 307,
+      "careers_source": "https://careers.firstenergycorp.com/",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T00:41:38.189554+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "6ac515d93247cf5a7f23f35e8457ddcf118b0b60f6905115ce8a80ae73430f9c",
+      "samples": [
+        {
+          "title": "Executive Assistant Leadership - Ethics & Compliance - Akron FirstEnergy Headquarters",
+          "location": "Akron, OH, United States",
+          "source_url": "https://fa-etjd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/FirstEnergyCareers/job/104320?mode=location"
+        },
+        {
+          "title": "Business Analyst - Portfolio Management",
+          "location": "Akron, OH, United States",
+          "source_url": "https://fa-etjd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/FirstEnergyCareers/job/104370?mode=location"
+        },
+        {
+          "title": "Business Analyst - Work Management - Greensburg Corporate Center",
+          "location": "Greensburg, PA, United States",
+          "source_url": "https://fa-etjd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/FirstEnergyCareers/job/104655?mode=location"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://fa-etjd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/FirstEnergyCareers/job/104320?mode=location",
+        "http_status": 200,
+        "final_url": "https://fa-etjd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/FirstEnergyCareers/job/104320?mode=location"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "erie-insurance",
+      "list_position": 308,
+      "published_rank": 308,
+      "careers_source": "https://jobs.erieinsurance.com/search/",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T00:41:32.192996+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "9432132819928704d71076736e0d4a5fa1b1b35f5eb58bbdd2aacba4e5015f8f",
+      "samples": [
+        {
+          "title": "Claims Supervisor",
+          "location": "Silver Spring, MD, US, 20904",
+          "source_url": "https://jobs.erieinsurance.com/job/Silver-Spring-Claims-Supervisor-MD-20904/1398446800"
+        },
+        {
+          "title": "Counsel II - AI, Cybersecurity, Privacy",
+          "location": "Erie, PA, US, 16530",
+          "source_url": "https://jobs.erieinsurance.com/job/Erie-Counsel-II-AI%2C-Cybersecurity%2C-Privacy-PA-16530/1423055900"
+        },
+        {
+          "title": "Property Adjuster (Crawford County)",
+          "location": "Meadville, PA, US, 16335",
+          "source_url": "https://jobs.erieinsurance.com/job/Meadville-Property-Adjuster-%28Crawford-County%29-PA-16335/1409142200"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://jobs.erieinsurance.com/job/Silver-Spring-Claims-Supervisor-MD-20904/1398446800",
+        "http_status": 200,
+        "final_url": "https://jobs.erieinsurance.com/job/Silver-Spring-Claims-Supervisor-MD-20904/1398446800"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "first-citizens-bancshares",
+      "list_position": 309,
+      "published_rank": 309,
+      "careers_source": "https://jobs.firstcitizens.com/jobs",
+      "status": "verified",
+      "strategy": "generic_json",
+      "checked_at": "2026-09-24T00:41:32.530770+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "016ba724a25931f9d77b6e0700de06c952ffaeb61815096c849c5f22874f0a46",
+      "samples": [
+        {
+          "title": "Small Business Specialist (New Business Development)",
+          "location": "VA0883-Leesburg",
+          "source_url": "https://external-firstcitizens.icims.com/jobs/35699/login"
+        },
+        {
+          "title": "Software Engineer Consultant - Appian",
+          "location": "NCSDAC-Data Center",
+          "source_url": "https://external-firstcitizens.icims.com/jobs/34716/login"
+        },
+        {
+          "title": "Sales & Service Representative (Universal Banker)",
+          "location": "MA0282-Wellesley",
+          "source_url": "https://external-firstcitizens.icims.com/jobs/35672/login"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://external-firstcitizens.icims.com/jobs/35699/login",
+        "http_status": 200,
+        "final_url": "https://external-firstcitizens.icims.com/jobs/35699/login"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "blackstone",
+      "list_position": 310,
+      "published_rank": 310,
+      "careers_source": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Careers",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T00:41:38.082065+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "85449453564aede7330bf9321556a1524aa8f331626b871cd423e1b4a9e1c3d9",
+      "samples": [
+        {
+          "title": "Blackstone - Business Continuity & Disaster Recovery - Senior Vice President",
+          "location": "locations New York",
+          "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Careers/job/New-York/Blackstone---Business-Continuity---Disaster-Recovery---Senior-Vice-President_45079-2"
+        },
+        {
+          "title": "Front-office Senior Software Engineer, VP - Liquid Credit",
+          "location": "locations New York 601 Lex",
+          "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Careers/job/New-York-601-Lex/Front-office-Senior-Software-Engineer--VP---Liquid-Credit_44253-1"
+        },
+        {
+          "title": "Tactical Opportunities - Executive Assistant",
+          "location": "locations New York",
+          "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Careers/job/New-York/Tactical-Opportunities---Executive-Assistant_45542-1"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Careers/job/New-York/Blackstone---Business-Continuity---Disaster-Recovery---Senior-Vice-President_45079-2",
+        "http_status": 200,
+        "final_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Careers/job/New-York/Blackstone---Business-Continuity---Disaster-Recovery---Senior-Vice-President_45079-2"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "fidelity-national-financial",
+      "list_position": 311,
+      "published_rank": 311,
+      "careers_source": "https://fntg.wd5.myworkdayjobs.com/FNF-Careers",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T00:41:38.502259+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "FNF title/insurance business careers board."
+      ],
+      "recipe_sha256": "ba6d369d18c3164a3090e1a2862658a5039de9f44927c132008257ee724e0a80",
+      "samples": [
+        {
+          "title": "Senior Security Automation Engineer",
+          "location": "locations Remote - Anywhere, USA",
+          "source_url": "https://fntg.wd5.myworkdayjobs.com/en-US/FNF-Careers/job/Remote---Anywhere-USA/Senior-Security-Automation-Engineer_26-162"
+        },
+        {
+          "title": "Reconciliation Product Manager",
+          "location": "locations 2 Locations",
+          "source_url": "https://fntg.wd5.myworkdayjobs.com/en-US/FNF-Careers/job/Raleigh-NC/Reconciliation-Product-Manager_26-156-1"
+        },
+        {
+          "title": "SoftPro Customer Support Analyst",
+          "location": "locations Raleigh, NC",
+          "source_url": "https://fntg.wd5.myworkdayjobs.com/en-US/FNF-Careers/job/Raleigh-NC/SoftPro-Customer-Support-Analyst_26-76-1"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://fntg.wd5.myworkdayjobs.com/en-US/FNF-Careers/job/Remote---Anywhere-USA/Senior-Security-Automation-Engineer_26-162",
+        "http_status": 200,
+        "final_url": "https://fntg.wd5.myworkdayjobs.com/en-US/FNF-Careers/job/Remote---Anywhere-USA/Senior-Security-Automation-Engineer_26-162"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "otis-worldwide",
+      "list_position": 312,
+      "published_rank": 312,
+      "careers_source": "https://otis.wd504.myworkdayjobs.com/REC_Ext_Gateway",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T00:41:44.589757+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "5fd12bf86d28f1ce0809985000d0cfd59bce284d608b99347fb80a3800f38ff4",
+      "samples": [
+        {
+          "title": "Service Account Representative (Key Account Management)",
+          "location": "locations LOC7013 : Unit 1 & 2, 177 Salmon St, Port Melbourne VIC 3205, Australia",
+          "source_url": "https://otis.wd504.myworkdayjobs.com/en-US/REC_Ext_Gateway/job/LOC7013--Unit-1--2-177-Salmon-St-Port-Melbourne-VIC-3205-Australia/Service-Account-Representative--Key-Account-Management-_20169491"
+        },
+        {
+          "title": "Legal Counsel - 12 Months Fixed Term Contract",
+          "location": "locations LOC7055: Otis Elevator Company Pty Ltd, L23, 363 George Street, Sydney NSW 2000, Australia",
+          "source_url": "https://otis.wd504.myworkdayjobs.com/en-US/REC_Ext_Gateway/job/LOC7055-Otis-Elevator-Company-Pty-Ltd-L23-363-George-Street-Sydney-NSW-2000-Australia/Legal-Counsel---12-Months-Fixed-Term-Contract_20169504-1"
+        },
+        {
+          "title": "ESTÁGIO TÉCNICA DE MANUTENÇÃO",
+          "location": "locations Delegação Porto, Portugal",
+          "source_url": "https://otis.wd504.myworkdayjobs.com/en-US/REC_Ext_Gateway/job/Delegao-Porto-Portugal/ESTGIO-TCNICA-DE-MANUTENO_20169517"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://otis.wd504.myworkdayjobs.com/en-US/REC_Ext_Gateway/job/LOC7013--Unit-1--2-177-Salmon-St-Port-Melbourne-VIC-3205-Australia/Service-Account-Representative--Key-Account-Management-_20169491",
+        "http_status": 200,
+        "final_url": "https://otis.wd504.myworkdayjobs.com/en-US/REC_Ext_Gateway/job/LOC7013--Unit-1--2-177-Salmon-St-Port-Melbourne-VIC-3205-Australia/Service-Account-Representative--Key-Account-Management-_20169491"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "amentum",
+      "list_position": 313,
+      "published_rank": 313,
+      "careers_source": "https://pae.wd1.myworkdayjobs.com/amentum_careers",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T00:41:43.829963+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "Amentum careers board operated through the legacy PAE Workday tenant."
+      ],
+      "recipe_sha256": "206e9ecbbd20763283314208e92f6e43e0f59c3c9ace0bfd39ef8a4f4dd09b0f",
+      "samples": [
+        {
+          "title": "Electronic Technician-D",
+          "location": "locations US-HI-Waimea",
+          "source_url": "https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-HI-Waimea/Electronic-Technician-D_R0171188-1"
+        },
+        {
+          "title": "Electronic Technician-D",
+          "location": "locations US-HI-Waimea",
+          "source_url": "https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-HI-Waimea/Electronic-Technician-D_R0171190"
+        },
+        {
+          "title": "RPA Mx Aircraft Mechanic I/Deployment Pool (J)",
+          "location": "locations OCONUS-Jordan",
+          "source_url": "https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/OCONUS-Jordan/RPA-Mx-Aircraft-Mechanic-I-Deployment-Pool--J-_R0171363-1"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-HI-Waimea/Electronic-Technician-D_R0171188-1",
+        "http_status": 200,
+        "final_url": "https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-HI-Waimea/Electronic-Technician-D_R0171188-1"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "regeneron",
+      "list_position": 314,
+      "published_rank": 314,
+      "careers_source": "https://regeneron.wd1.myworkdayjobs.com/Careers",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T00:41:44.002245+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "5725d3ef77d91661d86d061e6c8ebb80f00587a7339171b07d840064b97ebffa",
+      "samples": [
+        {
+          "title": "Senior Quantitative Biomarker Scientist",
+          "location": "locations 2 Locations",
+          "source_url": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/TARRYTOWN/Senior-Quantitative-Biomarker-Scientist_R50738"
+        },
+        {
+          "title": "Principal Quantitative Pharmacologist",
+          "location": "locations Warren",
+          "source_url": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Warren/Principal-Quantitative-Pharmacologist_R50576"
+        },
+        {
+          "title": "Associate Director Quantitative Pharmacology",
+          "location": "locations 4 Locations",
+          "source_url": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/TARRYTOWN/Associate-Director-Quantitative-Pharmacology_R50754-1"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/TARRYTOWN/Senior-Quantitative-Biomarker-Scientist_R50738",
+        "http_status": 200,
+        "final_url": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/TARRYTOWN/Senior-Quantitative-Biomarker-Scientist_R50738"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "estee-lauder",
+      "list_position": 315,
+      "published_rank": 315,
+      "careers_source": "https://careers.elcompanies.com/careers",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T00:41:50.187940+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "675425e84361c7645d300e5f1016fc667e7e3dc798d4ddce2d08c0e540d00af6",
+      "samples": [
+        {
+          "title": "Dr. Jart Freelancer - PORTLAND, OR",
+          "location": "PORTLAND,US-OR,United States",
+          "source_url": "https://careers.elcompanies.com/careers/job/1168275672814"
+        },
+        {
+          "title": "Brand Manager",
+          "location": "CDMX,MX-CMX,Mexico",
+          "source_url": "https://careers.elcompanies.com/careers/job/1168273430616"
+        },
+        {
+          "title": "Estee Lauder - Freelancer - Annapolis/Easton, MD",
+          "location": "Annapolis,US-MD,United States",
+          "source_url": "https://careers.elcompanies.com/careers/job/1168275644074"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://careers.elcompanies.com/careers/job/1168275672814",
+        "http_status": 200,
+        "final_url": "https://careers.elcompanies.com/careers/job/1168275672814"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "borgwarner",
+      "list_position": 316,
+      "published_rank": 316,
+      "careers_source": "https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T00:41:50.182399+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "f6293b9c577e0e40daa9ac6b8475b3d15977f9e839a7f355d9f82a3ae7df7ee9",
+      "samples": [
+        {
+          "title": "Auxiliar de IMMEX",
+          "location": "locations Saltillo - Mexico",
+          "source_url": "https://borgwarner.wd5.myworkdayjobs.com/en-US/BorgWarner_Careers/job/Saltillo---Mexico/Auxiliar-de-IMMEX_R2026-3737"
+        },
+        {
+          "title": "Controls Engineer",
+          "location": "locations Arden - North Carolina - USA",
+          "source_url": "https://borgwarner.wd5.myworkdayjobs.com/en-US/BorgWarner_Careers/job/Arden---North-Carolina---USA/Controls-Engineer_R2026-3742-1"
+        },
+        {
+          "title": "Assembly Operator, 2nd shift",
+          "location": "locations Seneca - South Carolina - USA",
+          "source_url": "https://borgwarner.wd5.myworkdayjobs.com/en-US/BorgWarner_Careers/job/Seneca---South-Carolina---USA/Assembly-Operator--2nd-shift_R2026-3732"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://borgwarner.wd5.myworkdayjobs.com/en-US/BorgWarner_Careers/job/Saltillo---Mexico/Auxiliar-de-IMMEX_R2026-3737",
+        "http_status": 200,
+        "final_url": "https://borgwarner.wd5.myworkdayjobs.com/en-US/BorgWarner_Careers/job/Saltillo---Mexico/Auxiliar-de-IMMEX_R2026-3737"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "northern-trust",
+      "list_position": 317,
+      "published_rank": 317,
+      "careers_source": "https://ntrs.wd1.myworkdayjobs.com/northerntrust",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T00:41:52.740391+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "aa207d943d07eef63222ec7cc4197abec5850d88ce47608ff1b044fe126b8cb3",
+      "samples": [
+        {
+          "title": "Product Consultant, Digital Solutions Consultant",
+          "location": "locations Chicago, IL",
+          "source_url": "https://ntrs.wd1.myworkdayjobs.com/en-GB/northerntrust/job/Chicago-IL/Product-Consultant--Digital-Solutions-Consultant_R160774"
+        },
+        {
+          "title": "Senior Relationship / Trust Advisor",
+          "location": "locations Coral Gables, FL",
+          "source_url": "https://ntrs.wd1.myworkdayjobs.com/en-GB/northerntrust/job/Coral-Gables-FL/Senior-Relationship---Trust-Advisor_R159132"
+        },
+        {
+          "title": "Rep, CS Banking Ops",
+          "location": "locations Tempe, AZ",
+          "source_url": "https://ntrs.wd1.myworkdayjobs.com/en-GB/northerntrust/job/Tempe-AZ/Rep--CS-Banking-Ops_R161757"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://ntrs.wd1.myworkdayjobs.com/en-GB/northerntrust/job/Chicago-IL/Product-Consultant--Digital-Solutions-Consultant_R160774",
+        "http_status": 200,
+        "final_url": "https://ntrs.wd1.myworkdayjobs.com/en-GB/northerntrust/job/Chicago-IL/Product-Consultant--Digital-Solutions-Consultant_R160774"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "viatris",
+      "list_position": 318,
+      "published_rank": 318,
+      "careers_source": "https://viatris.wd5.myworkdayjobs.com/External",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T00:41:55.808864+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "5be141876e587afd8a74c86cf5a76be3158e1639aaf08ddec2519baf56333388",
+      "samples": [
+        {
+          "title": "Professional (Senior Professional) Sales Representative, Respiratory – Hartford, CT",
+          "location": "locations United States Remote Office; Connecticut, USA",
+          "source_url": "https://viatris.wd5.myworkdayjobs.com/en-US/External/job/United-States-Remote-Office/Professional--Senior-Professional--Sales-Representative--Respiratory---Hartford--CT_R5673911"
+        },
+        {
+          "title": "Sales Representative, Pain - Houston NW, TX",
+          "location": "locations United States Remote Office; Texas, USA",
+          "source_url": "https://viatris.wd5.myworkdayjobs.com/en-US/External/job/United-States-Remote-Office/Sales-Representative--Pain---Houston-NW--TX_R5674173"
+        },
+        {
+          "title": "Sales Representative, Pain - Houston NE, TX",
+          "location": "locations United States Remote Office; Texas, USA",
+          "source_url": "https://viatris.wd5.myworkdayjobs.com/en-US/External/job/United-States-Remote-Office/Sales-Representative--Pain---Houston-NE--TX_R5674172"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://viatris.wd5.myworkdayjobs.com/en-US/External/job/United-States-Remote-Office/Professional--Senior-Professional--Sales-Representative--Respiratory---Hartford--CT_R5673911",
+        "http_status": 200,
+        "final_url": "https://viatris.wd5.myworkdayjobs.com/en-US/External/job/United-States-Remote-Office/Professional--Senior-Professional--Sales-Representative--Respiratory---Hartford--CT_R5673911"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "JPEG"
+      }
+    },
+    {
+      "company_id": "mastec",
+      "list_position": 319,
+      "published_rank": 319,
+      "careers_source": "https://jobs.mastec.com/mes-home/jobs",
+      "status": "verified",
+      "strategy": "generic_json",
+      "checked_at": "2026-09-24T00:41:50.649306+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "MasTec Utility Services careers board; other MasTec divisions are outside this monitor."
+      ],
+      "recipe_sha256": "b86ceee834a7d7339ec5cd503407c35411abc48662dd1a29e05af8346c5fd453",
+      "samples": [
+        {
+          "title": "Site Admin",
+          "location": "25225_AL Triton Mechanica",
+          "source_url": "https://careers-mastec.icims.com/jobs/69463/login"
+        },
+        {
+          "title": "Solar Installer",
+          "location": "2102_Solar Proponent - Te",
+          "source_url": "https://careers-mastec.icims.com/jobs/69439/login"
+        },
+        {
+          "title": "Millwright GF",
+          "location": "25101_Elk Station Unit 4",
+          "source_url": "https://careers-mastec.icims.com/jobs/69247/login"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://careers-mastec.icims.com/jobs/69463/login",
+        "http_status": 200,
+        "final_url": "https://careers-mastec.icims.com/jobs/69463/login"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "reliance",
+      "list_position": 320,
+      "published_rank": 320,
+      "careers_source": "https://careers.reliance.com/jobs",
+      "status": "verified",
+      "strategy": "generic_json",
+      "checked_at": "2026-09-24T00:41:50.967407+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "Reliance family-of-companies careers board."
+      ],
+      "recipe_sha256": "392eca6e7f3b1414e744308371215965fc867b38e65211d1d16f73b2586da10b",
+      "samples": [
+        {
+          "title": "Production Planner - Tualatin, OR",
+          "location": "Phoenix Metals Company - Tualatin, OR",
+          "source_url": "https://careers-reliance.icims.com/jobs/3737/login"
+        },
+        {
+          "title": "CAD CAM Programmer 1",
+          "location": "Phoenix Metals Company - Tualatin, OR",
+          "source_url": "https://careers-reliance.icims.com/jobs/3736/login"
+        },
+        {
+          "title": "Warehouse Material Handler I - Ft. Smith, AR",
+          "location": "Phoenix Metals Company - Fort Smith, AR",
+          "source_url": "https://careers-reliance.icims.com/jobs/3723/login"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://careers-reliance.icims.com/jobs/3737/login",
+        "http_status": 200,
+        "final_url": "https://careers-reliance.icims.com/jobs/3737/login"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "western-southern-financial",
+      "list_position": 321,
+      "published_rank": 321,
+      "careers_source": "https://careers-westernsouthern.icims.com/jobs/search?in_iframe=1&ss=1",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T00:41:51.481736+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "4c8b3d32a21c6d59e37c2756f97a6e2a8a2c61e6250ef8cafdd156c4d64726e1",
+      "samples": [
+        {
+          "title": "Case Analyst",
+          "location": "US-OH-CINCINNATI",
+          "source_url": "https://careers-westernsouthern.icims.com/jobs/25473/case-analyst/job?in_iframe=1"
+        },
+        {
+          "title": "Investment Manager Private Equity",
+          "location": "US-OH-CINCINNATI",
+          "source_url": "https://careers-westernsouthern.icims.com/jobs/25469/investment-manager-private-equity/job?in_iframe=1"
+        },
+        {
+          "title": "Portfolio Governance & Reporting Intern (Full Year 2027)",
+          "location": "US-OH-CINCINNATI",
+          "source_url": "https://careers-westernsouthern.icims.com/jobs/25456/portfolio-governance-%26-reporting-intern-%28full-year-2027%29/job?in_iframe=1"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://careers-westernsouthern.icims.com/jobs/25473/case-analyst/job?in_iframe=1",
+        "http_status": 200,
+        "final_url": "https://careers-westernsouthern.icims.com/jobs/25473/case-analyst/job?in_iframe=1"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "alaska-air-group",
+      "list_position": 322,
+      "published_rank": 322,
+      "careers_source": "https://careers.alaskaair.com/jobs/",
+      "status": "verified",
+      "strategy": "generic_json",
+      "checked_at": "2026-09-24T00:41:51.793094+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "42f26124d912286b93282d06f807cfeac52587c58725e75cd8534161064a4cea",
+      "samples": [
+        {
+          "title": "Customer Service Agent - Puerto Vallarta (six month fixed term)",
+          "location": "Puerto Vallarta, MEX",
+          "source_url": "https://careers.alaskaair.com/9DD276FEB2DF4E29B744CE0FB37C750E24"
+        },
+        {
+          "title": "Ramp & Customer Service Agent",
+          "location": "Walla Walla, WA",
+          "source_url": "https://careers.alaskaair.com/37A3C362C8F644A591988BCD469416D724"
+        },
+        {
+          "title": "Customer Service Agent - Guadalajara (six month fixed term)",
+          "location": "Tlajomulco De Zunigal, MEX",
+          "source_url": "https://careers.alaskaair.com/53C524D4499E4681A8BF6A06676E6BD024"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://careers.alaskaair.com/9DD276FEB2DF4E29B744CE0FB37C750E24",
+        "http_status": 200,
+        "final_url": "https://careers.alaskaair.com/puerto-vallarta-mex/customer-service-agent-puerto-vallarta-six-month-fixed-term/9DD276FEB2DF4E29B744CE0FB37C750E/job/?vs=24&utm_source=RR%20JSON%20Feed-DE&utm_medium=Other&utm_campaign=RR%20JSON%20Feed"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "brightspring-health-services",
+      "list_position": 323,
+      "published_rank": 323,
+      "careers_source": "https://talent.brightspringhealth.com/jobs",
+      "status": "verified",
+      "strategy": "generic_json",
+      "checked_at": "2026-09-24T00:41:52.227165+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "BrightSpring family-of-companies careers board."
+      ],
+      "recipe_sha256": "f2ac8b2473de02a8518728084a91181c6a763031caf5f9cf0bcc0eed56aecd2c",
+      "samples": [
+        {
+          "title": "CNA / Certified Nursing Assistant - Hospice Aide",
+          "location": "WHITE HALL, AR 71602",
+          "source_url": "https://careers-brightspring.icims.com/jobs/195370/login"
+        },
+        {
+          "title": "Nurse Practitioner - Physician Assistant",
+          "location": "JACKSONVILLE, FL 32099",
+          "source_url": "https://careers-brightspring.icims.com/jobs/196839/login"
+        },
+        {
+          "title": "Nurse Practitioner - Physician Assistant",
+          "location": "INDIANAPOLIS, IN 46201",
+          "source_url": "https://careers-brightspring.icims.com/jobs/196816/login"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://careers-brightspring.icims.com/jobs/195370/login",
+        "http_status": 200,
+        "final_url": "https://careers-brightspring.icims.com/jobs/195370/login"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    },
+    {
+      "company_id": "csx",
+      "list_position": 324,
+      "published_rank": 324,
+      "careers_source": "https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CSXCareers/jobs",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T00:41:58.799684+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "a6c8e0f71e6ac113fa2f1af982105e19e2d022173c9b3d2c21cff2d11663f9ac",
+      "samples": [
+        {
+          "title": "Fleet Maintenance Manager - Wallbridge/Toledo, OH",
+          "location": "Walbridge, OH, United States",
+          "source_url": "https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CSXCareers/job/54637"
+        },
+        {
+          "title": "Intermodal Service Employee - Winter Haven, FL",
+          "location": "Winter Haven, FL, United States",
+          "source_url": "https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CSXCareers/job/54748"
+        },
+        {
+          "title": "Mechanical Supervisor",
+          "location": "Walbridge, OH, United States",
+          "source_url": "https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CSXCareers/job/54782"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CSXCareers/job/54637",
+        "http_status": 200,
+        "final_url": "https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CSXCareers/job/54637"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "JPEG"
+      }
+    },
+    {
+      "company_id": "lkq",
+      "list_position": 325,
+      "published_rank": 325,
+      "careers_source": "https://www.jobs.lkqcorp.com/",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T00:41:53.790300+00:00",
+      "job_count": 100,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "5363c77fd3819a32f7facb57671ba955d0e90859c332efec31442ab90b976d96",
+      "samples": [
+        {
+          "title": "Inventory Specialist",
+          "location": "Leominster MA",
+          "source_url": "https://www.jobs.lkqcorp.com/jobs/inventory-specialist-jobs-location-leominster-ma-lkq-jobs-r71771"
+        },
+        {
+          "title": "Automotive Parts Delivery Driver",
+          "location": "Roanoke VA",
+          "source_url": "https://www.jobs.lkqcorp.com/jobs/automotive-parts-delivery-driver-jobs-location-roanoke-va-lkq-jobs-r71485"
+        },
+        {
+          "title": "Warehouse Inventory Specialist",
+          "location": "Brownstown MI",
+          "source_url": "https://www.jobs.lkqcorp.com/jobs/warehouse-inventory-specialist-jobs-location-brownstown-mi-lkq-jobs-r72100"
+        }
+      ],
+      "source_link_check": {
+        "source_url": "https://www.jobs.lkqcorp.com/jobs/inventory-specialist-jobs-location-leominster-ma-lkq-jobs-r71771",
+        "http_status": 200,
+        "final_url": "https://www.jobs.lkqcorp.com/jobs/inventory-specialist-jobs-location-leominster-ma-lkq-jobs-r71771"
+      },
+      "logo_check": {
+        "status": 200,
+        "image_format": "PNG"
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "estee-lauder",
+  "name": "Estée Lauder",
+  "aliases": [],
+  "website_url": "https://www.elcompanies.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=elcompanies.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 325",
+      "2026",
+      "United States"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "airbnb",
+  "name": "Airbnb",
+  "aliases": [],
+  "website_url": "https://www.airbnb.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=airbnb.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 375",
+      "2026",
+      "United States"
+    ]
+  }
+}

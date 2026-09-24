@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "huntington-bancshares",
+  "name": "Huntington Bancshares",
+  "aliases": [],
+  "website_url": "https://www.huntington.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=huntington.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 375",
+      "2026",
+      "United States"
+    ]
+  }
+}

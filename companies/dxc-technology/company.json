@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "dxc-technology",
+  "name": "DXC Technology",
+  "aliases": [],
+  "website_url": "https://www.dxc.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=dxc.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 350",
+      "2026",
+      "United States"
+    ]
+  }
+}
