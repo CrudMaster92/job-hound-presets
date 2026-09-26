@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "conagra-brands",
+  "name": "Conagra Brands",
+  "aliases": [],
+  "website_url": "https://www.conagrabrands.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=conagrabrands.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 400",
+      "2026",
+      "United States"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "international-flavors-and-fragrances",
+  "name": "International Flavors & Fragrances",
+  "aliases": [],
+  "website_url": "https://www.iff.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=iff.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 400",
+      "2026",
+      "United States"
+    ]
+  }
+}

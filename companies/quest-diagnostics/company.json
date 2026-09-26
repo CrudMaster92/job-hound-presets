@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "quest-diagnostics",
+  "name": "Quest Diagnostics",
+  "aliases": [],
+  "website_url": "https://www.questdiagnostics.com/",
+  "logo_url": "https://tbcdn.talentbrew.com/company/38852/gst-v1_0/img/logos/logo-quest-diagnostics.svg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 400",
+      "2026",
+      "United States"
+    ]
+  }
+}

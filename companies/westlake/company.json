@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "westlake",
+  "name": "Westlake",
+  "aliases": [],
+  "website_url": "https://www.westlake.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=westlake.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 400",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "access-restricted",
+    "message": "The official job-search page returned HTTP 403 in HTTP and normal-browser checks.",
+    "checked_at": "2026-09-24T03:38:55.104521+00:00"
+  }
+}

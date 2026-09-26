@@ -1,0 +1,747 @@
+{
+  "checked_at": "2026-09-24T03:38:55.104521+00:00",
+  "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+  "new_companies": 25,
+  "new_verified_monitors": 19,
+  "total_companies": 400,
+  "total_monitors": 361,
+  "total_available_companies": 358,
+  "total_unavailable_companies": 42,
+  "first_375_preserved": true,
+  "handoff_limit": 200,
+  "companies": [
+    {
+      "company_id": "oscar-health",
+      "list_position": 376,
+      "published_rank": 376,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://job-boards.greenhouse.io/oscar",
+      "logo_url": "https://www.google.com/s2/favicons?domain=oscarhealth.com&sz=128",
+      "status": "verified",
+      "strategy": "generic_json",
+      "checked_at": "2026-09-24T03:23:57.695118+00:00",
+      "job_count": 278,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "The public Greenhouse feed is mapped without descriptions because one salary string breaks JobHound salary normalization."
+      ],
+      "recipe_sha256": "f03f1978560eafb8592c237cc30bf86597d9dc40630613f028773fad21bb16cf",
+      "samples": [
+        {
+          "title": "1099 Nurse Practitioner or Physician Assistant - Virtual Urgent Care (Bilingual - Spanish)",
+          "location": "Remote",
+          "source_url": "https://job-boards.greenhouse.io/oscar/jobs/7619750"
+        },
+        {
+          "title": "1099 Physician - APP Supervision",
+          "location": "New York, New York, United States",
+          "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8163054"
+        },
+        {
+          "title": "Advanced Practice Provider - Virtual Health Assessment (Part Time)",
+          "location": "Remote",
+          "source_url": "https://job-boards.greenhouse.io/oscar/jobs/8225598"
+        }
+      ]
+    },
+    {
+      "company_id": "hershey",
+      "list_position": 377,
+      "published_rank": 377,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://careers.thehersheycompany.com/search/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=thehersheycompany.com&sz=128",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T03:29:45.337481+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "b57d8b0140cb70fce3f6e6809544dd76db51b9f98a0e02e5c804907d78237fcf",
+      "samples": [
+        {
+          "title": "Electronic Engineer PLC",
+          "location": "Monterrey, Nuevo León, MX",
+          "source_url": "https://careers.thehersheycompany.com/job/Monterrey-Electronic-Engineer-PLC-Nuev/1433266900"
+        },
+        {
+          "title": "Hershey's Part-Time Territory Sales Associate (Arroyo Grande, CA)",
+          "location": "San Diego, CA, US",
+          "source_url": "https://careers.thehersheycompany.com/job/San-Diego-Hershey&apos;s-Part-Time-Territory-Sales-Associate-%28Arroyo-Grande%2C-CA%29-CA-92101/1413134600"
+        },
+        {
+          "title": "Ingredient Procurement Buyer",
+          "location": "Johor, Johor, MY",
+          "source_url": "https://careers.thehersheycompany.com/job/Johor-Ingredient-Procurement-Buyer-Joho/1400124500"
+        }
+      ]
+    },
+    {
+      "company_id": "motorola-solutions",
+      "list_position": 378,
+      "published_rank": 378,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers",
+      "logo_url": "https://www.google.com/s2/favicons?domain=motorolasolutions.com&sz=128",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T03:27:56.415839+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "7332d4cdb37ae99ec740a33d38a484201faff5958ab6c84fb7403582f528d479",
+      "samples": [
+        {
+          "title": "PCB Design Engineer (Fresh Graduate)",
+          "location": "locations Penang, Malaysia",
+          "source_url": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Penang-Malaysia/PCB-Design-Engineer--Fresh-Graduate-_R68750-1"
+        },
+        {
+          "title": "PCB Design Engineer (Fresh Graduate)",
+          "location": "locations Penang, Malaysia",
+          "source_url": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Penang-Malaysia/PCB-Design-Engineer--Fresh-Graduate-_R68746"
+        },
+        {
+          "title": "Electrical /Electronics Engineer (Fresh Graduate)",
+          "location": "locations Penang, Malaysia",
+          "source_url": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Penang-Malaysia/Electrical--Electronics-Engineer--Fresh-Graduate-_R68714"
+        }
+      ]
+    },
+    {
+      "company_id": "equitable-holdings",
+      "list_position": 379,
+      "published_rank": 379,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://equitable.taleo.net/careersection/eqh_1/moresearch.ftl",
+      "logo_url": "https://www.google.com/s2/favicons?domain=equitableholdings.com&sz=128",
+      "status": "unavailable",
+      "reason": "repair-needed",
+      "message": "The public EQH Taleo board displays jobs, but its JavaScript navigation did not yield a portable recipe with validated direct job links."
+    },
+    {
+      "company_id": "avis-budget-group",
+      "list_position": 380,
+      "published_rank": 380,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://www.avisbudgetgroup.jobs/jobs",
+      "logo_url": "https://www.google.com/s2/favicons?domain=avisbudgetgroup.com&sz=128",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T03:25:30.566320+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "bc77dfc7f82eeb62f65ba672463ce2605e1d8d27bdc93c9dedb394320b76d596",
+      "samples": [
+        {
+          "title": "Accountant, Financial Accounting",
+          "location": "Avis Budget Group Business Support Centre., Green House Kassák Lajos u. 19-25. Kassák Lajos u. 19-25., Budapest",
+          "source_url": "https://www.avisbudgetgroup.jobs/accountant-financial-accounting/job/P1-6683967-1"
+        },
+        {
+          "title": "Accounts Payable Specialist",
+          "location": "Asker",
+          "source_url": "https://www.avisbudgetgroup.jobs/no/accounts-payable-specialist/job/P1-5308901-2"
+        },
+        {
+          "title": "Addetto/a alla Manutenzione",
+          "location": "Bargellino, Bolog",
+          "source_url": "https://www.avisbudgetgroup.jobs/it/addetto-a-alla-manutenzione/job/P1-5200481-2"
+        }
+      ]
+    },
+    {
+      "company_id": "conagra-brands",
+      "list_position": 381,
+      "published_rank": 381,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://careers.conagrabrands.com/us/en/search-results",
+      "logo_url": "https://www.google.com/s2/favicons?domain=conagrabrands.com&sz=128",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T03:30:56.362044+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "71b510364bb22b39d20b3686fa2d8233a2afd823334aa4ad8b84aec0669ab7f4",
+      "samples": [
+        {
+          "title": "Préposé à la production/Cariste",
+          "location": "Location Boisbriand, Quebec, Canada",
+          "source_url": "https://careers.conagrabrands.com/us/en/job/Req-040157/Préposé-à-la-production-Cariste"
+        },
+        {
+          "title": "Journalier en sanitation",
+          "location": "Location Boisbriand, Quebec, Canada",
+          "source_url": "https://careers.conagrabrands.com/us/en/job/Req-038767/Journalier-en-sanitation"
+        },
+        {
+          "title": "Préposé à la production - Secteur des sauces VH (JOUR & SOIR)",
+          "location": "Location Boisbriand, Quebec, Canada",
+          "source_url": "https://careers.conagrabrands.com/us/en/job/Req-040369/Préposé-à-la-production-Secteur-des-sauces-VH-JOUR-SOIR"
+        }
+      ]
+    },
+    {
+      "company_id": "baxter-international",
+      "list_position": 382,
+      "published_rank": 382,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://baxter.wd1.myworkdayjobs.com/baxter",
+      "logo_url": "https://tbcdn.talentbrew.com/company/152/v4_0/img/logo-color.svg",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-24T03:26:56.275014+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "30964fbcf3dec189c4b3412b4b2e3bb32a736f176de97b4257495b0536afa799",
+      "samples": [
+        {
+          "title": "Analyst, Customer Service (US Payroll/Tax)",
+          "location": "La Aurora, Heredia",
+          "source_url": "https://baxter.wd1.myworkdayjobs.com/baxter/job/La-Aurora-Heredia/Analyst--Customer-Service--US-Payroll-Tax-_JR-210528"
+        },
+        {
+          "title": "Analyst, HR Ops - Customer Service",
+          "location": "La Aurora, Heredia",
+          "source_url": "https://baxter.wd1.myworkdayjobs.com/baxter/job/La-Aurora-Heredia/Analyst--HR-Ops---Customer-Service_JR-210527"
+        },
+        {
+          "title": "Junior Analyst, HR Operations - Customer Service",
+          "location": "La Aurora, Heredia",
+          "source_url": "https://baxter.wd1.myworkdayjobs.com/baxter/job/La-Aurora-Heredia/Junior-Analyst--HR-Operations---Customer-Service_JR-210529"
+        }
+      ]
+    },
+    {
+      "company_id": "burlington-stores",
+      "list_position": 383,
+      "published_rank": 383,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://burlingtonstores.jobs/jobs/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=burlington.com&sz=128",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T03:35:31.219601+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "457fb482dd910eb52c7d77defca8a796918b8f044c85b237bf77078bff5b74a0",
+      "samples": [
+        {
+          "title": "Seasonal Cashier Associate - Part Time",
+          "location": "888 W 2nd St, Calexico, CA 92231 location",
+          "source_url": "https://burlingtonstores.jobs/calexico-ca/seasonal-cashier-associate-part-time/2B038ECA5DCF4DD6847FD066C1412A5C/job"
+        },
+        {
+          "title": "Seasonal Cashier Associate - Part Time",
+          "location": "11650 Bandera Rd, San Antonio, TX 78250 location",
+          "source_url": "https://burlingtonstores.jobs/san-antonio-tx/seasonal-cashier-associate-part-time/C0C7F7B71558495BBBBEC9CA263D530A/job"
+        },
+        {
+          "title": "Warehouse Asset Protection Specialist - Second Shift/Afternoon Start",
+          "location": "570 E Mill St, San Bernardino, CA 92408 location",
+          "source_url": "https://burlingtonstores.jobs/san-bernardino-ca/warehouse-asset-protection-specialist-second-shiftafternoon-start/3C9984B80E87428DBEA78BA3D64D881E/job"
+        }
+      ]
+    },
+    {
+      "company_id": "caesars-entertainment",
+      "list_position": 384,
+      "published_rank": 384,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://www.caesars.com/careers",
+      "logo_url": "https://www.google.com/s2/favicons?domain=caesars.com&sz=128",
+      "status": "unavailable",
+      "reason": "repair-needed",
+      "message": "The official careers page loaded blank in a normal browser; no public live listing recipe passed validation."
+    },
+    {
+      "company_id": "owens-corning",
+      "list_position": 385,
+      "published_rank": 385,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://careers.owenscorning.com/search/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=owenscorning.com&sz=128",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T03:25:30.565244+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "e88b59e01370cf0d6ca72574ca76ac998509cf545c72a87e16de09c20c075d9f",
+      "samples": [
+        {
+          "title": "Sales Core Accounts Lead - Nonwovens (EMEA)",
+          "location": "Brussels, Brussels-Capital Region, BE, 1170 +1 more…",
+          "source_url": "https://careers.owenscorning.com/job/Brussels-Sales-Core-Accounts-Lead-Nonwovens-%28EMEA%29-Brus-1170/1423045100"
+        },
+        {
+          "title": "General Laborer",
+          "location": "Verdi, NV, US, 89439",
+          "source_url": "https://careers.owenscorning.com/job/Verdi-General-Laborer-NV-89439/1413071300"
+        },
+        {
+          "title": "General Laborer",
+          "location": "Verdi, NV, US, 89439",
+          "source_url": "https://careers.owenscorning.com/job/Verdi-General-Laborer-NV-89439/1413069700"
+        }
+      ]
+    },
+    {
+      "company_id": "keycorp",
+      "list_position": 386,
+      "published_rank": 386,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site",
+      "logo_url": "https://www.google.com/s2/favicons?domain=key.com&sz=128",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-24T03:34:38.541593+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "a477773c574e8f6062bdd12677cea2cafe3c80c879c9107a1e1d0fdc0eba08ef",
+      "samples": [
+        {
+          "title": "Private Client Advisor",
+          "location": "Penfield, NY",
+          "source_url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Penfield-NY/Private-Client-Advisor_R-42277"
+        },
+        {
+          "title": "Key Private Bank Wealth Planner",
+          "location": "Naples, FL",
+          "source_url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Naples-FL/Key-Private-Bank-Wealth-Planner_R-42282"
+        },
+        {
+          "title": "Sales Enablement Manager ( Healthcare )",
+          "location": "New York, NY",
+          "source_url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/New-York-NY/Sales-Enablement-Manager---Healthcare--_R-40719"
+        }
+      ]
+    },
+    {
+      "company_id": "thrivent-financial",
+      "list_position": 387,
+      "published_rank": 387,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://careers.thrivent.com/jobs/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=thrivent.com&sz=128",
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The official public jobs page presented a Cloudflare security verification page in a normal browser. No access controls were bypassed."
+    },
+    {
+      "company_id": "westlake",
+      "list_position": 388,
+      "published_rank": 388,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://westlake.com/job-search",
+      "logo_url": "https://www.google.com/s2/favicons?domain=westlake.com&sz=128",
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The official job-search page returned HTTP 403 in HTTP and normal-browser checks."
+    },
+    {
+      "company_id": "westinghouse-air-brake-technologies",
+      "list_position": 389,
+      "published_rank": 389,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://careers.smartrecruiters.com/Wabtec",
+      "logo_url": "https://www.google.com/s2/favicons?domain=wabtec.com&sz=128",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-26T02:30:41.212732+00:00",
+      "job_count": 14,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "Wabtec's public SmartRecruiters landing page exposes a bounded subset of listings; per-job cities are unavailable from this page."
+      ],
+      "recipe_sha256": "86d8ac34e461f8fa393a08cb4027f3621f303cb1bd1d4627e115c178ef1cdbf1",
+      "samples": [
+        {
+          "title": "Sales Specialist Visual Inspection (RVI) / Non-Destructive Testing (NDT)",
+          "location": "Unspecified",
+          "source_url": "https://jobs.smartrecruiters.com/Wabtec/3743990014214996-sales-specialist-visual-inspection-rvi-non-destructive-testing-ndt-"
+        },
+        {
+          "title": "Специалист по работе с материалами",
+          "location": "Unspecified",
+          "source_url": "https://jobs.smartrecruiters.com/Wabtec/3743990015672192--"
+        },
+        {
+          "title": "Product Manager (Brake Control) (m/f/d)",
+          "location": "Unspecified",
+          "source_url": "https://jobs.smartrecruiters.com/Wabtec/3743990015669856-product-manager-brake-control-m-f-d-"
+        }
+      ]
+    },
+    {
+      "company_id": "molson-coors-beverage",
+      "list_position": 390,
+      "published_rank": 390,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://jobs.molsoncoors.com/search/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=molsoncoors.com&sz=128",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T03:25:30.567330+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "f064c651429936c75dcec140426699c3056a741b27a82ef04fdc666766eeedfe",
+      "samples": [
+        {
+          "title": "Sr Dir, QFS",
+          "location": "Milwaukee, WI, US",
+          "source_url": "https://jobs.molsoncoors.com/job/Milwaukee-Sr-Dir%2C-QFS-WI-53201/1430584333"
+        },
+        {
+          "title": "Sr Customer Supply Analyst - Beverage",
+          "location": "Milwaukee, WI, US",
+          "source_url": "https://jobs.molsoncoors.com/job/Milwaukee-Sr-Customer-Supply-Analyst-Beverage-WI-53201/1430600733"
+        },
+        {
+          "title": "Mgr Brewery Systems",
+          "location": "Golden, CO, US",
+          "source_url": "https://jobs.molsoncoors.com/job/Golden-Mgr-Brewery-Systems-CO/1430495033"
+        }
+      ]
+    },
+    {
+      "company_id": "lululemon-athletica",
+      "list_position": 391,
+      "published_rank": 391,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://careers.lululemon.com/en_US/careers/SearchCareer/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=lululemon.com&sz=128",
+      "status": "unavailable",
+      "reason": "repair-needed",
+      "message": "The official careers search failed with an HTTP/2 protocol error in a normal browser; no current listing recipe passed validation."
+    },
+    {
+      "company_id": "fm",
+      "list_position": 392,
+      "published_rank": 392,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://careers.fm.com/careers-home/jobs",
+      "logo_url": "https://www.google.com/s2/favicons?domain=fm.com&sz=128",
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The official jobs search returned HTTP 403 in a normal browser; no public listing recipe passed validation."
+    },
+    {
+      "company_id": "ebay",
+      "list_position": 393,
+      "published_rank": 393,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://jobs.ebayinc.com/us/en/search-results",
+      "logo_url": "https://static.ebayinc.com/static/theme/images/logo.svg?v=15b94d7",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T03:32:17.489437+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "5f6756bafd147b24c968f295c31573bd4f06febb327d1ed46b904897e75b64f2",
+      "samples": [
+        {
+          "title": "Global Markets Lead - Global Buyer CRM",
+          "location": "Location Toronto, Canada",
+          "source_url": "https://jobs.ebayinc.com/us/en/job/R0075865/Global-Markets-Lead-Global-Buyer-CRM"
+        },
+        {
+          "title": "Principal, Competitive Strat & Insights",
+          "location": "Location Toronto, Canada",
+          "source_url": "https://jobs.ebayinc.com/us/en/job/R0076181/Principal-Competitive-Strat-Insights"
+        },
+        {
+          "title": "Design Engineer III",
+          "location": "Location Toronto, Canada",
+          "source_url": "https://jobs.ebayinc.com/us/en/job/R0075263/Design-Engineer-III"
+        }
+      ]
+    },
+    {
+      "company_id": "expeditors-international-of-washington",
+      "list_position": 394,
+      "published_rank": 394,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://careers.smartrecruiters.com/Expeditors",
+      "logo_url": "https://www.google.com/s2/favicons?domain=expeditors.com&sz=128",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-26T02:30:41.212732+00:00",
+      "job_count": 18,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "The public SmartRecruiters landing page exposes a bounded subset of listings; per-job cities are unavailable from this page."
+      ],
+      "recipe_sha256": "959dad958f5183e7f3b54b182e31862b8f6123106d5d7d2507bff628e3978492",
+      "samples": [
+        {
+          "title": "Global Sales Executive",
+          "location": "Unspecified",
+          "source_url": "https://jobs.smartrecruiters.com/Expeditors/744000137127152-global-sales-executive"
+        },
+        {
+          "title": "Transport Specialist",
+          "location": "Unspecified",
+          "source_url": "https://jobs.smartrecruiters.com/Expeditors/744000147091179-transport-specialist"
+        },
+        {
+          "title": "Air Export Asst. Manager",
+          "location": "Unspecified",
+          "source_url": "https://jobs.smartrecruiters.com/Expeditors/744000150696200-air-export-asst-manager"
+        }
+      ]
+    },
+    {
+      "company_id": "quest-diagnostics",
+      "list_position": 395,
+      "published_rank": 395,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://careers.questdiagnostics.com/search-jobs",
+      "logo_url": "https://tbcdn.talentbrew.com/company/38852/gst-v1_0/img/logos/logo-quest-diagnostics.svg",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T03:25:30.569507+00:00",
+      "job_count": 8,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "52ccfdbee6b2465f9c2c0b9781b158aa5895f1845ac3b23be732766c45ea358a",
+      "samples": [
+        {
+          "title": "Phlebotomist II",
+          "location": "Scranton, PA",
+          "source_url": "https://careers.questdiagnostics.com/job/scranton/phlebotomist-ii/38852/101058330576"
+        },
+        {
+          "title": "Sr. Phlebotomy Technician",
+          "location": "Minneapolis-St. Paul-Bloomington, MN",
+          "source_url": "https://careers.questdiagnostics.com/job/minneapolis-st-paul-bloomington/sr-phlebotomy-technician/38852/98251092864"
+        },
+        {
+          "title": "Phlebotomist II",
+          "location": "Edina, MN",
+          "source_url": "https://careers.questdiagnostics.com/job/edina/phlebotomist-ii/38852/101010733872"
+        }
+      ]
+    },
+    {
+      "company_id": "analog-devices",
+      "list_position": 396,
+      "published_rank": 396,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://analogdevices.wd1.myworkdayjobs.com/External",
+      "logo_url": "https://www.google.com/s2/favicons?domain=analog.com&sz=128",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-24T03:26:56.274006+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "c49f136a5fbc0998c38cc40f4d1dac2afc414b51eafcde682fc09f84525471e1",
+      "samples": [
+        {
+          "title": "Staff Engineer, Field Applications",
+          "location": "China, Shanghai, Puxi",
+          "source_url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/China-Shanghai-Puxi/Staff-Engineer--Field-Applications_R264040"
+        },
+        {
+          "title": "Technician 1, Equipment Maintenance",
+          "location": "Philippines, Cavite, GTC",
+          "source_url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/Philippines-Cavite-GTC/Technician-4--Equipment-Maintenance_R262914"
+        },
+        {
+          "title": "Technician 1, Product Engineering (Mfg.)",
+          "location": "Philippines, Cavite, GTC",
+          "source_url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/Philippines-Cavite-GTC/Technician-1--Product-Engineering_R265145"
+        }
+      ]
+    },
+    {
+      "company_id": "andersons",
+      "list_position": 397,
+      "published_rank": 397,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://andersonsinc.wd1.myworkdayjobs.com/TheAndersonsCareers",
+      "logo_url": "https://www.andersonsinc.com/dist/images/logo-black.svg",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-24T03:23:38.113138+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "f356028c8d5bff95c748fc3ad40908f5a7f1f13aa9b2208cd05fdc4b04b16771",
+      "samples": [
+        {
+          "title": "Operations Worker - Maumee Hiring Event",
+          "location": "Maumee, OH",
+          "source_url": "https://andersonsinc.wd1.myworkdayjobs.com/TheAndersonsCareers/job/Maumee-OH/Operations-Worker---Maumee-Hiring-Event_R12532"
+        },
+        {
+          "title": "Maintenence Tech - Maumee Hiring Event",
+          "location": "Maumee, OH",
+          "source_url": "https://andersonsinc.wd1.myworkdayjobs.com/TheAndersonsCareers/job/Maumee-OH/Maintenence-Tech---Maumee-Hiring-Event_R12534"
+        },
+        {
+          "title": "Seasonal Operations Worker",
+          "location": "Albion, MI",
+          "source_url": "https://andersonsinc.wd1.myworkdayjobs.com/TheAndersonsCareers/job/Albion-MI/Seasonal-Operations-Worker_R12537"
+        }
+      ]
+    },
+    {
+      "company_id": "gold-com",
+      "list_position": 398,
+      "published_rank": 398,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://www.gold.com/careers/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=gold.com&sz=128",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T03:29:45.336307+00:00",
+      "job_count": 1,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "The current public listing is for the Stack's Bowers Galleries subsidiary; coverage is limited to this official Gold.com board."
+      ],
+      "recipe_sha256": "f141130ae254e71bc8a079e063729f7754711426f99503e76e8fa404b9e5c859",
+      "samples": [
+        {
+          "title": "Client Services Associate",
+          "location": "Costa Mesa, CA",
+          "source_url": "https://www.gold.com/job/client-services-associate"
+        }
+      ]
+    },
+    {
+      "company_id": "toll-brothers",
+      "list_position": 399,
+      "published_rank": 399,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://www.tollcareercenter.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=tollbrothers.com&sz=128",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T03:25:31.723233+00:00",
+      "job_count": 5,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "8e1cc774014d0d7f3822e979bdba6d30376f476223a476814c6a95a9a6d1c192",
+      "samples": [
+        {
+          "title": "Associate Sales Consultant",
+          "location": "Toll Brothers - Reno, Nevada 89506 United States",
+          "source_url": "https://www.tollcareercenter.com/jobs/associate-sales-consultant/25563"
+        },
+        {
+          "title": "Assistant Design Studio Consultant",
+          "location": "Toll Brothers - Cedar Park, Texas 78613 United States",
+          "source_url": "https://www.tollcareercenter.com/jobs/assistant-design-studio-consultant/25561"
+        },
+        {
+          "title": "Director of Land Acquisition",
+          "location": "Toll Brothers - Draper, Utah 84004 United States",
+          "source_url": "https://www.tollcareercenter.com/jobs/director-of-land-acquisition/25559"
+        }
+      ]
+    },
+    {
+      "company_id": "international-flavors-and-fragrances",
+      "list_position": 400,
+      "published_rank": 400,
+      "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+      "careers_source": "https://iff.wd5.myworkdayjobs.com/IFF_Careers",
+      "logo_url": "https://www.google.com/s2/favicons?domain=iff.com&sz=128",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-24T03:26:56.272997+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "de2805a1bc0d7451f0f08b80bac7a5b37af2a459e8bcc1c2ea2f45343304bcb2",
+      "samples": [
+        {
+          "title": "EMEA Total Rewards Manager – Food Ingredients",
+          "location": "Leiden, Netherlands",
+          "source_url": "https://iff.wd5.myworkdayjobs.com/IFF_Careers/job/Leiden-Netherlands/EMEA-Total-Rewards-Manager---Food-Ingredients_R20406"
+        },
+        {
+          "title": "Finance AI & Automation Specialist",
+          "location": "Asturias, Spain",
+          "source_url": "https://iff.wd5.myworkdayjobs.com/IFF_Careers/job/Asturias-Spain/Finance-AI---Automation-Specialist_R21683"
+        },
+        {
+          "title": "Regional Category Manager",
+          "location": "Asturias, Spain",
+          "source_url": "https://iff.wd5.myworkdayjobs.com/IFF_Careers/job/Asturias-Spain/Regional-Category-Manager_R21534-1"
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "checked_at": "2026-09-26T02:29:11.379865+00:00",
+    "logo_http_200": 25,
+    "logo_browser_decoded": 25,
+    "logo_contact_sheet_visually_reviewed": true,
+    "representative_job_links_http_200": 19,
+    "representative_job_links_checked": 19
+  }
+}

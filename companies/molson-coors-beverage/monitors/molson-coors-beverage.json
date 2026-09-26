@@ -1,0 +1,59 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "molson-coors-beverage",
+  "company_id": "molson-coors-beverage",
+  "revision": 1,
+  "label": "Molson Coors Beverage Careers",
+  "careers_url": "https://jobs.molsoncoors.com/search/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-24T03:25:30.567330+00:00",
+    "job_count": 25,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Molson Coors Beverage",
+    "careers_url": "https://jobs.molsoncoors.com/search",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "jobs.molsoncoors.com"
+    ],
+    "request": {
+      "url": "https://jobs.molsoncoors.com/search/",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "tr.data-row",
+      "title": "span.jobTitle.hidden-phone a",
+      "link": "span.jobTitle.hidden-phone a",
+      "location": "td.colLocation span.jobLocation"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 20
+    }
+  }
+}

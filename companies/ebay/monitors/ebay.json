@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "ebay",
+  "company_id": "ebay",
+  "revision": 1,
+  "label": "eBay Careers",
+  "careers_url": "https://jobs.ebayinc.com/us/en/search-results",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-24T03:32:17.489437+00:00",
+    "job_count": 10,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "eBay",
+    "careers_url": "https://jobs.ebayinc.com/us/en/search-results",
+    "strategy": "playwright",
+    "allowed_hosts": [
+      "jobs.ebayinc.com",
+      "cdn.phenompeople.com",
+      "content-us.phenompeople.com",
+      "pp-cdn.phenompeople.com"
+    ],
+    "request": {
+      "url": "https://jobs.ebayinc.com/us/en/search-results",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "li.jobs-list-item",
+      "title": "a[data-ph-at-id=\"job-link\"]",
+      "link": "a[data-ph-at-id=\"job-link\"]",
+      "location": ".job-info .job-location"
+    },
+    "mapping": {},
+    "metadata": {
+      "wait_selector": "li.jobs-list-item a[data-ph-at-id=\"job-link\"]",
+      "partial_listing": true
+    }
+  }
+}
