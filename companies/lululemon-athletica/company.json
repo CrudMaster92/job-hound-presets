@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "lululemon-athletica",
+  "name": "Lululemon athletica",
+  "aliases": [],
+  "website_url": "https://www.lululemon.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lululemon.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 400",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The official careers search failed with an HTTP/2 protocol error in a normal browser; no current listing recipe passed validation.",
+    "checked_at": "2026-09-24T03:38:55.104521+00:00"
+  }
+}

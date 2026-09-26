@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "fm",
+  "name": "FM",
+  "aliases": [],
+  "website_url": "https://www.fm.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=fm.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 400",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "access-restricted",
+    "message": "The official jobs search returned HTTP 403 in a normal browser; no public listing recipe passed validation.",
+    "checked_at": "2026-09-24T03:38:55.104521+00:00"
+  }
+}

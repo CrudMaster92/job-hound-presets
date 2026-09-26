@@ -1,0 +1,59 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "toll-brothers",
+  "company_id": "toll-brothers",
+  "revision": 1,
+  "label": "Toll Brothers Careers",
+  "careers_url": "https://www.tollcareercenter.com/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-24T03:25:31.723233+00:00",
+    "job_count": 5,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Toll Brothers",
+    "careers_url": "https://www.tollcareercenter.com/",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "www.tollcareercenter.com"
+    ],
+    "request": {
+      "url": "https://www.tollcareercenter.com/",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "li[class*=homeJobListItem]",
+      "title": "a[class*=homeJobLink]",
+      "link": "a[class*=homeJobLink]",
+      "location": "span[class*=homeJobLocation]"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 20
+    }
+  }
+}

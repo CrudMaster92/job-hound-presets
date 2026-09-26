@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "baxter-international",
+  "name": "Baxter International",
+  "aliases": [],
+  "website_url": "https://www.baxter.com/",
+  "logo_url": "https://tbcdn.talentbrew.com/company/152/v4_0/img/logo-color.svg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 400",
+      "2026",
+      "United States"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "toll-brothers",
+  "name": "Toll Brothers",
+  "aliases": [],
+  "website_url": "https://www.tollbrothers.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tollbrothers.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 400",
+      "2026",
+      "United States"
+    ]
+  }
+}

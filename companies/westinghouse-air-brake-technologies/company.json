@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "westinghouse-air-brake-technologies",
+  "name": "Westinghouse Air Brake Technologies",
+  "aliases": [],
+  "website_url": "https://www.wabtec.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=wabtec.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 400",
+      "2026",
+      "United States"
+    ]
+  }
+}

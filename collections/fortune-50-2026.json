@@ -2,12 +2,12 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "fortune-50-2026",
-  "revision": 9,
-  "name": "Fortune 375 — 2026",
-  "description": "The first 375 companies in the 2026 U.S. Fortune 500 list order. Includes 339 companies with 342 installable monitors and 36 unavailable companies with explanations. Coverage is bounded and may be division-specific. Select no more than 200 monitors per handoff; use explicit batches.",
+  "revision": 10,
+  "name": "Fortune 400 — 2026",
+  "description": "The first 400 companies in the 2026 U.S. Fortune 500 list order. Includes 358 companies with 361 installable monitors and 42 unavailable companies with explanations. Coverage is bounded and may be division-specific. Select no more than 200 monitors per handoff; use explicit batches.",
   "tags": [
     "Fortune 500",
-    "Fortune 375",
+    "Fortune 400",
     "2026",
     "United States"
   ],
@@ -2892,6 +2892,204 @@
         "yum-china-holdings"
       ],
       "note": "This official restaurant-management board is limited to roles posted in the last 30 days; office jobs use a separate board."
+    },
+    {
+      "company_id": "oscar-health",
+      "rank": 376,
+      "ranked_name": "Oscar Health",
+      "monitor_ids": [
+        "oscar-health"
+      ],
+      "note": "The public Greenhouse feed is mapped without descriptions because one salary string breaks JobHound salary normalization."
+    },
+    {
+      "company_id": "hershey",
+      "rank": 377,
+      "ranked_name": "Hershey",
+      "monitor_ids": [
+        "hershey"
+      ]
+    },
+    {
+      "company_id": "motorola-solutions",
+      "rank": 378,
+      "ranked_name": "Motorola Solutions",
+      "monitor_ids": [
+        "motorola-solutions"
+      ]
+    },
+    {
+      "company_id": "equitable-holdings",
+      "rank": 379,
+      "ranked_name": "Equitable Holdings",
+      "monitor_ids": [],
+      "note": "The public EQH Taleo board displays jobs, but its JavaScript navigation did not yield a portable recipe with validated direct job links."
+    },
+    {
+      "company_id": "avis-budget-group",
+      "rank": 380,
+      "ranked_name": "Avis Budget Group",
+      "monitor_ids": [
+        "avis-budget-group"
+      ]
+    },
+    {
+      "company_id": "conagra-brands",
+      "rank": 381,
+      "ranked_name": "Conagra Brands",
+      "monitor_ids": [
+        "conagra-brands"
+      ]
+    },
+    {
+      "company_id": "baxter-international",
+      "rank": 382,
+      "ranked_name": "Baxter International",
+      "monitor_ids": [
+        "baxter-international"
+      ]
+    },
+    {
+      "company_id": "burlington-stores",
+      "rank": 383,
+      "ranked_name": "Burlington Stores",
+      "monitor_ids": [
+        "burlington-stores"
+      ]
+    },
+    {
+      "company_id": "caesars-entertainment",
+      "rank": 384,
+      "ranked_name": "Caesars Entertainment",
+      "monitor_ids": [],
+      "note": "The official careers page loaded blank in a normal browser; no public live listing recipe passed validation."
+    },
+    {
+      "company_id": "owens-corning",
+      "rank": 385,
+      "ranked_name": "Owens Corning",
+      "monitor_ids": [
+        "owens-corning"
+      ]
+    },
+    {
+      "company_id": "keycorp",
+      "rank": 386,
+      "ranked_name": "KeyCorp",
+      "monitor_ids": [
+        "keycorp"
+      ]
+    },
+    {
+      "company_id": "thrivent-financial",
+      "rank": 387,
+      "ranked_name": "Thrivent Financial for Lutherans",
+      "monitor_ids": [],
+      "note": "The official public jobs page presented a Cloudflare security verification page in a normal browser. No access controls were bypassed."
+    },
+    {
+      "company_id": "westlake",
+      "rank": 388,
+      "ranked_name": "Westlake",
+      "monitor_ids": [],
+      "note": "The official job-search page returned HTTP 403 in HTTP and normal-browser checks."
+    },
+    {
+      "company_id": "westinghouse-air-brake-technologies",
+      "rank": 389,
+      "ranked_name": "Westinghouse Air Brake Technologies",
+      "monitor_ids": [
+        "westinghouse-air-brake-technologies"
+      ],
+      "note": "Wabtec's public SmartRecruiters landing page exposes a bounded subset of listings; per-job cities are unavailable from this page."
+    },
+    {
+      "company_id": "molson-coors-beverage",
+      "rank": 390,
+      "ranked_name": "Molson Coors Beverage",
+      "monitor_ids": [
+        "molson-coors-beverage"
+      ]
+    },
+    {
+      "company_id": "lululemon-athletica",
+      "rank": 391,
+      "ranked_name": "Lululemon athletica",
+      "monitor_ids": [],
+      "note": "The official careers search failed with an HTTP/2 protocol error in a normal browser; no current listing recipe passed validation."
+    },
+    {
+      "company_id": "fm",
+      "rank": 392,
+      "ranked_name": "FM",
+      "monitor_ids": [],
+      "note": "The official jobs search returned HTTP 403 in a normal browser; no public listing recipe passed validation."
+    },
+    {
+      "company_id": "ebay",
+      "rank": 393,
+      "ranked_name": "eBay",
+      "monitor_ids": [
+        "ebay"
+      ]
+    },
+    {
+      "company_id": "expeditors-international-of-washington",
+      "rank": 394,
+      "ranked_name": "Expeditors International of Washington",
+      "monitor_ids": [
+        "expeditors-international-of-washington"
+      ],
+      "note": "The public SmartRecruiters landing page exposes a bounded subset of listings; per-job cities are unavailable from this page."
+    },
+    {
+      "company_id": "quest-diagnostics",
+      "rank": 395,
+      "ranked_name": "Quest Diagnostics",
+      "monitor_ids": [
+        "quest-diagnostics"
+      ]
+    },
+    {
+      "company_id": "analog-devices",
+      "rank": 396,
+      "ranked_name": "Analog Devices",
+      "monitor_ids": [
+        "analog-devices"
+      ]
+    },
+    {
+      "company_id": "andersons",
+      "rank": 397,
+      "ranked_name": "Andersons",
+      "monitor_ids": [
+        "andersons"
+      ]
+    },
+    {
+      "company_id": "gold-com",
+      "rank": 398,
+      "ranked_name": "Gold.com",
+      "monitor_ids": [
+        "gold-com"
+      ],
+      "note": "The current public listing is for the Stack's Bowers Galleries subsidiary; coverage is limited to this official Gold.com board."
+    },
+    {
+      "company_id": "toll-brothers",
+      "rank": 399,
+      "ranked_name": "Toll Brothers",
+      "monitor_ids": [
+        "toll-brothers"
+      ]
+    },
+    {
+      "company_id": "international-flavors-and-fragrances",
+      "rank": 400,
+      "ranked_name": "International Flavors & Fragrances",
+      "monitor_ids": [
+        "international-flavors-and-fragrances"
+      ]
     }
   ]
 }

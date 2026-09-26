@@ -1,0 +1,63 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "westinghouse-air-brake-technologies",
+  "company_id": "westinghouse-air-brake-technologies",
+  "revision": 1,
+  "label": "Westinghouse Air Brake Technologies Careers",
+  "careers_url": "https://careers.smartrecruiters.com/Wabtec",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-26T02:30:41.212732+00:00",
+    "job_count": 14,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run.",
+      "Wabtec's public SmartRecruiters landing page exposes a bounded subset of listings; per-job cities are unavailable from this page."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Westinghouse Air Brake Technologies",
+    "careers_url": "https://careers.smartrecruiters.com/Wabtec",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "careers.smartrecruiters.com",
+      "api.smartrecruiters.com"
+    ],
+    "request": {
+      "url": "https://careers.smartrecruiters.com/Wabtec",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "li.opening-job",
+      "title": "h4.job-title",
+      "link": "a.js-job-ad-link",
+      "location": ".location",
+      "employment_type": "p.job-desc"
+    },
+    "mapping": {},
+    "metadata": {
+      "company_slug": "Wabtec",
+      "detail_fetch_limit": 20,
+      "partial_listing": true
+    }
+  }
+}

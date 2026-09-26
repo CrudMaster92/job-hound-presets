@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "avis-budget-group",
+  "name": "Avis Budget Group",
+  "aliases": [],
+  "website_url": "https://www.avisbudgetgroup.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=avisbudgetgroup.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 400",
+      "2026",
+      "United States"
+    ]
+  }
+}

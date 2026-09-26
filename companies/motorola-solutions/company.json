@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "motorola-solutions",
+  "name": "Motorola Solutions",
+  "aliases": [],
+  "website_url": "https://www.motorolasolutions.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=motorolasolutions.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 400",
+      "2026",
+      "United States"
+    ]
+  }
+}
