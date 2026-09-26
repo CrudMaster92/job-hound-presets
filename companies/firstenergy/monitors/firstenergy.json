@@ -1,0 +1,66 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "firstenergy",
+  "company_id": "firstenergy",
+  "revision": 1,
+  "label": "FirstEnergy Careers",
+  "careers_url": "https://careers.firstenergycorp.com/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-24T00:41:38.189554+00:00",
+    "job_count": 10,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "FirstEnergy",
+    "careers_url": "https://careers.firstenergycorp.com/",
+    "strategy": "playwright",
+    "allowed_hosts": [
+      "careers.firstenergycorp.com",
+      "static.oracle.com",
+      "fa-etjd-saasfaprod1.fa.ocs.oraclecloud.com",
+      "firstenergycorp.com",
+      "www.firstenergycorp.com",
+      "c.oracleinfinity.io",
+      "d.oracleinfinity.io",
+      "dc.oracleinfinity.io"
+    ],
+    "request": {
+      "url": "https://fa-etjd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/FirstEnergyCareers/jobs?mode=location",
+      "method": "GET",
+      "timeout_seconds": 30,
+      "max_response_bytes": 5000000,
+      "headers": {},
+      "params": {},
+      "json_body": null
+    },
+    "pagination": {
+      "kind": "none",
+      "max_pages": 1,
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 10,
+      "next_path": null
+    },
+    "selectors": {
+      "item": "li[data-qa='searchResultItem']",
+      "title": ".job-tile__title",
+      "link": "a.job-list-item__link[href]",
+      "location": "posting-locations span"
+    },
+    "metadata": {
+      "wait_selector": "li[data-qa='searchResultItem']",
+      "partial_listing": true
+    },
+    "mapping": {},
+    "source_filter": null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "xcel-energy",
+  "name": "Xcel Energy",
+  "aliases": [],
+  "website_url": "https://www.xcelenergy.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=xcelenergy.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 325",
+      "2026",
+      "United States"
+    ]
+  }
+}

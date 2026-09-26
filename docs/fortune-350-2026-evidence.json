@@ -1,0 +1,1019 @@
+{
+  "checked_at": "2026-09-24T02:05:01.415729+00:00",
+  "base_collection_revision": 7,
+  "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+  "new_companies": 25,
+  "new_verified_monitors": 24,
+  "total_companies": 350,
+  "total_monitors": 318,
+  "total_available_companies": 315,
+  "total_unavailable_companies": 35,
+  "first_325_preserved": true,
+  "handoff_limit": 200,
+  "companies": [
+    {
+      "company_id": "labcorp-holdings",
+      "list_position": 326,
+      "published_rank": 326,
+      "careers_source": "https://careers.labcorp.com/global/en/search-results",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T02:04:26.337320+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "87782b3f71c647e7b1a1fb4059cd5a497e49646f3b98d33e93574e0f00f6c735",
+      "samples": [
+        {
+          "title": "Lab Supervisor - Core Lab",
+          "location": "Location Knoxville, Tennessee, United States of America",
+          "source_url": "https://careers.labcorp.com/global/en/job/267935/Lab-Supervisor-Core-Lab"
+        },
+        {
+          "title": "Lab Support Services Team Lead - Accessioning",
+          "location": "Location Dublin, Ohio, United States of America",
+          "source_url": "https://careers.labcorp.com/global/en/job/2626277/Lab-Support-Services-Team-Lead-Accessioning"
+        },
+        {
+          "title": "Part Time Phlebotomist- Windermere",
+          "location": "Location Windermere, Florida, United States of America",
+          "source_url": "https://careers.labcorp.com/global/en/job/2627996/Part-Time-Phlebotomist-Windermere"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://careers.labcorp.com/global/en/job/267935/Lab-Supervisor-Core-Lab"
+      }
+    },
+    {
+      "company_id": "arthur-j-gallagher",
+      "list_position": 327,
+      "published_rank": 327,
+      "careers_source": "https://jobs.ajg.com/ajg-global/jobs",
+      "status": "verified",
+      "strategy": "generic_json",
+      "checked_at": "2026-09-24T02:04:13.747222+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "Gallagher global careers board; locations and operating divisions are mixed."
+      ],
+      "recipe_sha256": "4f4c643975c807ff175c3a202c058f96d8c601a290ebe2fe53c3d02e44891d99",
+      "samples": [
+        {
+          "title": "Marketing Project Manager",
+          "location": "Spectrum Building55 Blythswood Street",
+          "source_url": "https://ukjobs-ajg.icims.com/jobs/57745/login"
+        },
+        {
+          "title": "Senior Workers Compensation Claims Adjuster - PA, NJ, DE",
+          "location": "1215 Manor DrSte 101",
+          "source_url": "https://usjobs-ajg.icims.com/jobs/59821/login"
+        },
+        {
+          "title": "Senior Auditor",
+          "location": "450 South Orange Avenue",
+          "source_url": "https://usjobs-ajg.icims.com/jobs/59559/login"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "JPEG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://ukjobs-ajg.icims.com/jobs/57745/login"
+      }
+    },
+    {
+      "company_id": "venture-global",
+      "list_position": 328,
+      "published_rank": 328,
+      "careers_source": "https://venturegloballng.wd108.myworkdayjobs.com/External_Careers",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T02:04:21.102882+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "234989940391258c516b5a1f54fa20eac5eb7fbdf928348d4d882fe6f839dceb",
+      "samples": [
+        {
+          "title": "Principal Engineer, Structural",
+          "location": "locations Plaquemines Parish, LA",
+          "source_url": "https://venturegloballng.wd108.myworkdayjobs.com/en-US/External_Careers/job/Plaquemines-Parish-LA/Lead-Engineer--Structural_JR432"
+        },
+        {
+          "title": "Principal Engineer, Rotating Equipment",
+          "location": "locations Houston, TX",
+          "source_url": "https://venturegloballng.wd108.myworkdayjobs.com/en-US/External_Careers/job/Houston-TX/Principal-Engineer--Rotating-Equipment_JR_1182"
+        },
+        {
+          "title": "Field Operator, Power Island",
+          "location": "locations Plaquemines Parish, LA",
+          "source_url": "https://venturegloballng.wd108.myworkdayjobs.com/en-US/External_Careers/job/Plaquemines-Parish-LA/Field-Operator--Power-Island_JR635"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://venturegloballng.wd108.myworkdayjobs.com/en-US/External_Careers/job/Plaquemines-Parish-LA/Lead-Engineer--Structural_JR432"
+      }
+    },
+    {
+      "company_id": "doordash",
+      "list_position": 329,
+      "published_rank": 329,
+      "careers_source": "https://job-boards.greenhouse.io/doordashusa",
+      "status": "verified",
+      "strategy": "greenhouse",
+      "checked_at": "2026-09-24T02:04:16.673055+00:00",
+      "job_count": 462,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "592f61b507fe2aaa9343de7396386f5b21471aba0820c6a5274b5d87e4826acd",
+      "samples": [
+        {
+          "title": "Account Executive",
+          "location": "Charlotte, NC; Raleigh, NC; Tampa, FL; Orlando, FL; Pittsburgh, PA; Richmond, VA; Jacksonville, FL; Columbus, OH; Dallas, TX; Houston, TX; Minneapolis, MN; Nashville, TN; Kansas City, MO; St. Louis, MO; Tempe, AZ; Indianapolis, IN; Oklahoma City, OK; New Orleans, LA; Charleston, SC; Atlanta, GA",
+          "source_url": "https://job-boards.greenhouse.io/doordashusa/jobs/7858932"
+        },
+        {
+          "title": "Account Executive - Field Sales, New Verticals",
+          "location": "New York, NY",
+          "source_url": "https://job-boards.greenhouse.io/doordashusa/jobs/8160362"
+        },
+        {
+          "title": "Account Manager, CPG",
+          "location": "San Francisco, CA; New York, NY; Chicago, IL; Los Angeles, CA; Atlanta, GA",
+          "source_url": "https://job-boards.greenhouse.io/doordashusa/jobs/7852785"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://job-boards.greenhouse.io/doordashusa/jobs/7858932"
+      }
+    },
+    {
+      "company_id": "sempra",
+      "list_position": 330,
+      "published_rank": 330,
+      "status": "unavailable",
+      "reason": "repair-needed",
+      "careers_source": "https://www.sempra.com/careers",
+      "message": "The official Sempra headquarters board uses an ADP session-token request and its listing cards expose no direct job links. No safe recipe with stable source URLs was validated.",
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "davita",
+      "list_position": 331,
+      "published_rank": 331,
+      "careers_source": "https://careers.davita.com/search-results",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T02:04:35.885449+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "5012f74578831899fc460e959dcce4765f8648a33520acf82cd7ebb2ae2c199e",
+      "samples": [
+        {
+          "title": "Registered Nurse Manager",
+          "location": "Location 1 Elliot Way, Manchester, NH 03103-3502",
+          "source_url": "https://careers.davita.com/job/R0477993/Registered-Nurse-Manager"
+        },
+        {
+          "title": "Nurse Manager (RN)",
+          "location": "Location 903 Hanover St, Manchester, NH 03104",
+          "source_url": "https://careers.davita.com/job/R0465778/Nurse-Manager-RN"
+        },
+        {
+          "title": "Registered Nurse RN",
+          "location": "Location 903 Hanover St, Manchester, NH 03104",
+          "source_url": "https://careers.davita.com/job/R0473745/Registered-Nurse-RN"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://careers.davita.com/job/R0477993/Registered-Nurse-Manager"
+      }
+    },
+    {
+      "company_id": "eversource-energy",
+      "list_position": 332,
+      "published_rank": 332,
+      "careers_source": "https://jobs.eversource.com/search-jobs/",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T02:04:22.004569+00:00",
+      "job_count": 11,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "51da1c3b2641667b1bf724f6b98bc468a20f5beb7ad2c64815b6e893f95eef3f",
+      "samples": [
+        {
+          "title": "Working Foreman - Communication & Control",
+          "location": "Hooksett-NH",
+          "source_url": "https://jobs.eversource.com/job/south-hooksett/working-foreman-communication-and-control/7774/99118663008"
+        },
+        {
+          "title": "Supervisor, Gas Field Operations (Gas Construction)",
+          "location": "Auburn-MA",
+          "source_url": "https://jobs.eversource.com/job/auburn/supervisor-gas-field-operations-gas-construction/7774/101052713344"
+        },
+        {
+          "title": "Technician C, Electric Service Support Center (SW)",
+          "location": "Berlin-CT",
+          "source_url": "https://jobs.eversource.com/job/east-berlin/technician-c-electric-service-support-center-sw/7774/100816394256"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://jobs.eversource.com/job/south-hooksett/working-foreman-communication-and-control/7774/99118663008"
+      }
+    },
+    {
+      "company_id": "servicenow",
+      "list_position": 333,
+      "published_rank": 333,
+      "careers_source": "https://careers.smartrecruiters.com/servicenow",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T02:04:24.130391+00:00",
+      "job_count": 23,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "SmartRecruiters board exposes direct job URLs but omits locations in its listing; city matching is unavailable for this bounded monitor."
+      ],
+      "recipe_sha256": "4861056ab13e2f6e241705115a8895296c0e2869ad3ffd41de8fd25bd9f54b90",
+      "samples": [
+        {
+          "title": "Senior Staff Inbound Product Manager - AI Search",
+          "location": "Unspecified",
+          "source_url": "https://jobs.smartrecruiters.com/servicenow/744000151392329-senior-staff-inbound-product-manager-ai-search"
+        },
+        {
+          "title": "Director, Pursuit Lead, Elevate",
+          "location": "Unspecified",
+          "source_url": "https://jobs.smartrecruiters.com/servicenow/744000150797679-director-pursuit-lead-elevate-"
+        },
+        {
+          "title": "Sr. Services Account Executive- Health Care Life Sciences",
+          "location": "Unspecified",
+          "source_url": "https://jobs.smartrecruiters.com/servicenow/744000150460579-sr-services-account-executive-health-care-life-sciences"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://jobs.smartrecruiters.com/servicenow/744000151392329-senior-staff-inbound-product-manager-ai-search"
+      }
+    },
+    {
+      "company_id": "mt-bank",
+      "list_position": 334,
+      "published_rank": 334,
+      "careers_source": "https://mtb.wd5.myworkdayjobs.com/MTB",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T02:04:31.451763+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "7a23ecc9b1e13bb923eba24db61b25f92ae8cfc0b32b62ce4aac56b85b9d6091",
+      "samples": [
+        {
+          "title": "Senior Software Engineer - Payment Technology",
+          "location": "locations Buffalo, NY",
+          "source_url": "https://mtb.wd5.myworkdayjobs.com/en-US/MTB/job/Buffalo-NY/Senior-Software-Engineer---Payment-Technology_R90186"
+        },
+        {
+          "title": "Site Reliability Engineer (SRE) – NICE Actimize Fraud Platforms",
+          "location": "locations Buffalo, NY",
+          "source_url": "https://mtb.wd5.myworkdayjobs.com/en-US/MTB/job/Buffalo-NY/Technical-Engineer-IV_R90373-1"
+        },
+        {
+          "title": "Bilingual Teller - Float",
+          "location": "locations Harrisburg, PA",
+          "source_url": "https://mtb.wd5.myworkdayjobs.com/en-US/MTB/job/Harrisburg-PA/Bilingual-Teller---Float_R90594"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://mtb.wd5.myworkdayjobs.com/en-US/MTB/job/Buffalo-NY/Senior-Software-Engineer---Payment-Technology_R90186"
+      }
+    },
+    {
+      "company_id": "henry-schein",
+      "list_position": 335,
+      "published_rank": 335,
+      "careers_source": "https://henryschein.wd1.myworkdayjobs.com/External_Careers",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T02:04:34.575126+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "f2a0c86594942ea2c5f75f4ca95c357e5c459a2657de13e295f096c33cdb9161",
+      "samples": [
+        {
+          "title": "Sr. Executive IDN - Strategic Partnerships - West",
+          "location": "locations California, United States - Remote",
+          "source_url": "https://henryschein.wd1.myworkdayjobs.com/en-GB/External_Careers/job/California-United-States---Remote/Sr-Executive-IDN---Strategic-Partnerships---West_R135232"
+        },
+        {
+          "title": "Supervisor Production",
+          "location": "locations Sparks - Nevada",
+          "source_url": "https://henryschein.wd1.myworkdayjobs.com/en-GB/External_Careers/job/Sparks---Nevada/Supervisor-Production_R135384"
+        },
+        {
+          "title": "Bulk Receiver - FT - 6a-2:30p M-F",
+          "location": "locations Denver - Pennsylvania",
+          "source_url": "https://henryschein.wd1.myworkdayjobs.com/en-GB/External_Careers/job/Denver---Pennsylvania/Bulk-Receiver---FT---6a-2-30p-M-F_R135418"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://henryschein.wd1.myworkdayjobs.com/en-GB/External_Careers/job/California-United-States---Remote/Sr-Executive-IDN---Strategic-Partnerships---West_R135232"
+      }
+    },
+    {
+      "company_id": "gxo-logistics",
+      "list_position": 336,
+      "published_rank": 336,
+      "careers_source": "https://jobs.gxo.com/search/",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T02:04:32.107862+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "e03829cf11473feb942600cba0ee4f71007699f9ba348f67a173f874c9d4b823",
+      "samples": [
+        {
+          "title": "PIT Operator - Afternoon Shift Monday - Friday 3:00pm - 11:30pm",
+          "location": "Olathe, KS, US, 66061-4573",
+          "source_url": "https://jobs.gxo.com/job/Olathe-PIT-Operator-Afternoon-Shift-Monday-Friday-300pm-1130pm-KS-66061-4573/1423056200"
+        },
+        {
+          "title": "Class 1 Driver",
+          "location": "Bristol, ENG, GB, BS11 0YW",
+          "source_url": "https://jobs.gxo.com/job/Bristol-Class-1-Driver-ENG-BS11-0YW/1422864300"
+        },
+        {
+          "title": "Warehouse Team Leader - Nights",
+          "location": "BRISTOL, ENG, GB, BS10 7SJ",
+          "source_url": "https://jobs.gxo.com/job/BRISTOL-Warehouse-Team-Leader-Nights-ENG-BS10-7SJ/1422838500"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://jobs.gxo.com/job/Olathe-PIT-Operator-Afternoon-Shift-Monday-Friday-300pm-1130pm-KS-66061-4573/1423056200"
+      }
+    },
+    {
+      "company_id": "ball",
+      "list_position": 337,
+      "published_rank": 337,
+      "careers_source": "https://jobs.ball.com/search/",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T02:04:32.956254+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "7ffc9ba54facfe16c46aa3e68eeaedcbe036c16826d69004b7b950960ae1757a",
+      "samples": [
+        {
+          "title": "Senior Manager, Finance Data Lead",
+          "location": "Westminster, CO, US, 80021",
+          "source_url": "https://jobs.ball.com/corp_packaging/job/Westminster-Senior-Manager%2C-Finance-Data-Lead-CO-80021/1422972500"
+        },
+        {
+          "title": "EHS Specialist",
+          "location": "Fredericia, DK, 7000",
+          "source_url": "https://jobs.ball.com/corp_packaging/job/Fredericia-EHS-Specialist-7000/1401927800"
+        },
+        {
+          "title": "Sr. SAP Functional Analyst Security & Authorization",
+          "location": "Belgrade, RS, 11070",
+          "source_url": "https://jobs.ball.com/corp_packaging/job/Belgrade-Sr_-SAP-Functional-Analyst-Security-&-Authorization-11070/1422912300"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://jobs.ball.com/corp_packaging/job/Westminster-Senior-Manager%2C-Finance-Data-Lead-CO-80021/1422972500"
+      }
+    },
+    {
+      "company_id": "unum-group",
+      "list_position": 338,
+      "published_rank": 338,
+      "careers_source": "https://unum.wd1.myworkdayjobs.com/External",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T02:04:39.221464+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "56802f52f8aebb15a096d80f541063b4b07e47521d7267b076978250b4a865c2",
+      "samples": [
+        {
+          "title": "Sales Consultant Associate- Dallas",
+          "location": "locations Addison, Texas, USA",
+          "source_url": "https://unum.wd1.myworkdayjobs.com/en-US/External/job/Addison-Texas-USA/Sales-Consultant-Associate--Dallas_835126-1"
+        },
+        {
+          "title": "Sales Consultant Associate- Phoenix (Summer 2027 Start Date)",
+          "location": "locations Phoenix, Arizona, USA",
+          "source_url": "https://unum.wd1.myworkdayjobs.com/en-US/External/job/Phoenix-Arizona-USA/Sales-Consultant-Associate--Phoenix_835127"
+        },
+        {
+          "title": "Sales Consultant Associate- Maryland",
+          "location": "locations Columbia, Maryland, USA",
+          "source_url": "https://unum.wd1.myworkdayjobs.com/en-US/External/job/Columbia-Maryland-USA/Sales-Consultant-Associate--Maryland_835128"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://unum.wd1.myworkdayjobs.com/en-US/External/job/Addison-Texas-USA/Sales-Consultant-Associate--Dallas_835126-1"
+      }
+    },
+    {
+      "company_id": "las-vegas-sands",
+      "list_position": 339,
+      "published_rank": 339,
+      "careers_source": "https://sands.wd1.myworkdayjobs.com/sands_careers",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T02:04:40.633962+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "Las Vegas Sands corporate careers board; subsidiary resort and Sands China roles are excluded."
+      ],
+      "recipe_sha256": "56f76e48421772618af80e122e219e6a6fd398f7040df57b8facb58812bfe270",
+      "samples": [
+        {
+          "title": "Staff Accountant - Corporate Accounting",
+          "location": "locations Las Vegas",
+          "source_url": "https://sands.wd1.myworkdayjobs.com/en-US/sands_careers/job/Las-Vegas/Staff-Accountant---Corporate-Accounting_R26_0203"
+        },
+        {
+          "title": "Paralegal - Corporate & Information Governance",
+          "location": "locations Las Vegas",
+          "source_url": "https://sands.wd1.myworkdayjobs.com/en-US/sands_careers/job/Las-Vegas/Paralegal---Corporate---Information-Governance_R26_0167"
+        },
+        {
+          "title": "Lead Software Engineer",
+          "location": "locations Dallas, Texas",
+          "source_url": "https://sands.wd1.myworkdayjobs.com/en-US/sands_careers/job/Dallas-Texas/Lead-Software-Engineer_R26_0040-4"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://sands.wd1.myworkdayjobs.com/en-US/sands_careers/job/Las-Vegas/Staff-Accountant---Corporate-Accounting_R26_0203"
+      }
+    },
+    {
+      "company_id": "entergy",
+      "list_position": 340,
+      "published_rank": 340,
+      "careers_source": "https://jobs.entergy.com/search/",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T02:04:36.552184+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "c06087cffeb0ae7163ebbe0824443d03a47e3a5a9df66b7aa80eb32f85565ff1",
+      "samples": [
+        {
+          "title": "Distribution Designer I-Sr.",
+          "location": "Hernando, Mississippi, United States",
+          "source_url": "https://jobs.entergy.com/job/Hernando-Distribution-Designer-I-Sr_-Miss/1423240900"
+        },
+        {
+          "title": "Mgr, Distribution Control Center",
+          "location": "Beaumont, Texas, United States",
+          "source_url": "https://jobs.entergy.com/job/Beaumont-Mgr%2C-Distribution-Control-Center-Texa/1406464900"
+        },
+        {
+          "title": "Engineer I-Sr. (Pwr Gen)",
+          "location": "New Orleans, Louisiana, United States",
+          "source_url": "https://jobs.entergy.com/job/New-Orleans-Engineer-I-Sr_-%28Pwr-Gen%29-Loui/1403901500"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://jobs.entergy.com/job/Hernando-Distribution-Designer-I-Sr_-Miss/1423240900"
+      }
+    },
+    {
+      "company_id": "fifth-third-bancorp",
+      "list_position": 341,
+      "published_rank": 341,
+      "careers_source": "https://fifththird.wd5.myworkdayjobs.com/53careers",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T02:04:42.715120+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "ee431df055245d44e73be83dc52f3f512cdb2da1f6e02967dff193cb05e5bc8f",
+      "samples": [
+        {
+          "title": "Commercial Relationship Manager I- Emerging Middle Market",
+          "location": "locations Dublin, OH",
+          "source_url": "https://fifththird.wd5.myworkdayjobs.com/en-US/53careers/job/Dublin-OH/Commercial-Relationship-Manager-I--Emerging-Middle-Market_R73023"
+        },
+        {
+          "title": "Personal Banker II - Heights",
+          "location": "locations Houston, TX",
+          "source_url": "https://fifththird.wd5.myworkdayjobs.com/en-US/53careers/job/Houston-TX/Personal-Banker-II---Heights_R73177"
+        },
+        {
+          "title": "Personal Banker Associate I- Pontiac Trail and 11 Mile",
+          "location": "locations Wixom, MI",
+          "source_url": "https://fifththird.wd5.myworkdayjobs.com/en-US/53careers/job/Wixom-MI/Personal-Banker-Associate-I--Pontiac-Trail-and-11-Mile_R72967"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://fifththird.wd5.myworkdayjobs.com/en-US/53careers/job/Dublin-OH/Commercial-Relationship-Manager-I--Emerging-Middle-Market_R73023"
+      }
+    },
+    {
+      "company_id": "graybar-electric",
+      "list_position": 342,
+      "published_rank": 342,
+      "careers_source": "https://graybar.wd1.myworkdayjobs.com/Careers",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T02:04:44.460873+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "60979906063573c3d3432b6970d35795bbee45419e6bff9dd8baf9ab848faa55",
+      "samples": [
+        {
+          "title": "Outside Sales Representative - Industrial",
+          "location": "locations Richmond, VA",
+          "source_url": "https://graybar.wd1.myworkdayjobs.com/en-US/Careers/job/Richmond-VA/Outside-Sales-Representative---Industrial_R263785-1"
+        },
+        {
+          "title": "Warehouse Material Handler",
+          "location": "locations Indianapolis, IN",
+          "source_url": "https://graybar.wd1.myworkdayjobs.com/en-US/Careers/job/Indianapolis-IN/Warehouse-Material-Handler_R263481-1"
+        },
+        {
+          "title": "Gear Quotations Specialist",
+          "location": "locations Diamond Bar, CA",
+          "source_url": "https://graybar.wd1.myworkdayjobs.com/en-US/Careers/job/Diamond-Bar-CA/Gear-Quotations-Specialist_R263385-1"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://graybar.wd1.myworkdayjobs.com/en-US/Careers/job/Richmond-VA/Outside-Sales-Representative---Industrial_R263785-1"
+      }
+    },
+    {
+      "company_id": "dxc-technology",
+      "list_position": 343,
+      "published_rank": 343,
+      "careers_source": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T02:04:46.702312+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "d9e4854123b85b614c176b7eae0c93865a3a5d8db0a3e87164c1449f8ad52320",
+      "samples": [
+        {
+          "title": "Associate Manager Business / Functional Architecture",
+          "location": "locations JPN - TOKYO",
+          "source_url": "https://dxctechnology.wd1.myworkdayjobs.com/en-US/DXCJobs/job/JPN---TOKYO/Associate-Manager-Business---Functional-Architecture_51589850"
+        },
+        {
+          "title": "Principal OCM Transformation Consultant",
+          "location": "locations AUS - NSW - MACQUARIE PARK",
+          "source_url": "https://dxctechnology.wd1.myworkdayjobs.com/en-US/DXCJobs/job/AUS---NSW---MACQUARIE-PARK/Principal-Transformation-Consultant--OCM_51585878"
+        },
+        {
+          "title": "FINRA Certified - Call Center Support Representative",
+          "location": "locations USA - TN - NASHVILLE",
+          "source_url": "https://dxctechnology.wd1.myworkdayjobs.com/en-US/DXCJobs/job/USA---TN---NASHVILLE/FINRA-Certified---Call-Center-Support-Representative_51582981"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://dxctechnology.wd1.myworkdayjobs.com/en-US/DXCJobs/job/JPN---TOKYO/Associate-Manager-Business---Functional-Architecture_51589850"
+      }
+    },
+    {
+      "company_id": "alcoa",
+      "list_position": 344,
+      "published_rank": 344,
+      "careers_source": "https://alcoa.wd5.myworkdayjobs.com/Careers",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T02:04:48.996070+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "a7fe3539361d660473534dc6601f4a759858a5fcea96867a8247badec21cc60f",
+      "samples": [
+        {
+          "title": "Powerhouse Electrical Coordinator",
+          "location": "locations Australia, WA, Wagerup",
+          "source_url": "https://alcoa.wd5.myworkdayjobs.com/en-US/Careers/job/Australia-WA-Wagerup/Powerhouse-Electrical-Coordinator_Req-39122-1"
+        },
+        {
+          "title": "Gerente de Engenharia de Manutenção",
+          "location": "locations Brazil, MA, São Luis",
+          "source_url": "https://alcoa.wd5.myworkdayjobs.com/en-US/Careers/job/Brazil-MA-So-Luis/Gerente-de-Engenharia-de-Manuteno_Req-39077"
+        },
+        {
+          "title": "Casthouse Supervisor",
+          "location": "locations United States, NY, Massena",
+          "source_url": "https://alcoa.wd5.myworkdayjobs.com/en-US/Careers/job/United-States-NY-Massena/Casthouse-Supervisor_Req-39365"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://alcoa.wd5.myworkdayjobs.com/en-US/Careers/job/Australia-WA-Wagerup/Powerhouse-Electrical-Coordinator_Req-39122-1"
+      }
+    },
+    {
+      "company_id": "assurant",
+      "list_position": 345,
+      "published_rank": 345,
+      "careers_source": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T02:04:50.755205+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "beb09dd0175f7f7895881f5ea5c4b0aadb83740030e666bed75bf2d57b690dc7",
+      "samples": [
+        {
+          "title": "Senior Sales Representative",
+          "location": "locations Buenos Aires (Butty)",
+          "source_url": "https://assurant.wd1.myworkdayjobs.com/en-US/Assurant_Careers/job/Buenos-Aires-Butty/Head-of-sales-and-product_R-115200-1"
+        },
+        {
+          "title": "Content Production Specialist",
+          "location": "locations Argentina Virtual",
+          "source_url": "https://assurant.wd1.myworkdayjobs.com/en-US/Assurant_Careers/job/Argentina-Virtual/Content-Production-Specialist_R-115471-1"
+        },
+        {
+          "title": "People Partner",
+          "location": "locations United States Virtual",
+          "source_url": "https://assurant.wd1.myworkdayjobs.com/en-US/Assurant_Careers/job/United-States-Virtual/People-Partner_R-115531-1"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://assurant.wd1.myworkdayjobs.com/en-US/Assurant_Careers/job/Buenos-Aires-Butty/Head-of-sales-and-product_R-115200-1"
+      }
+    },
+    {
+      "company_id": "ryder-system",
+      "list_position": 346,
+      "published_rank": 346,
+      "careers_source": "https://ryder.wd5.myworkdayjobs.com/RyderCareers",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T02:04:55.204796+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "Workday careers board; separately linked driver, technician, and warehouse boards are excluded."
+      ],
+      "recipe_sha256": "cdabe8643e9b3f633ed5cab68db9c595c2ab4275ae3717b98c5199022982ee13",
+      "samples": [
+        {
+          "title": "Warehouse Supervisor",
+          "location": "locations 4 Locations",
+          "source_url": "https://ryder.wd5.myworkdayjobs.com/en-US/RyderCareers/job/USA---Apopka-FL-32712/Customer-Logistics-Supervisor_R183091"
+        },
+        {
+          "title": "Supply Chain Operations Associate",
+          "location": "locations USA - Warren OH 44481",
+          "source_url": "https://ryder.wd5.myworkdayjobs.com/en-US/RyderCareers/job/USA---Warren-OH-44481/Supply-Chain-Operations-Associate_R183807-1"
+        },
+        {
+          "title": "Senior Operations Manager",
+          "location": "locations USA - Port Deposit MD 21904",
+          "source_url": "https://ryder.wd5.myworkdayjobs.com/en-US/RyderCareers/job/USA---Port-Deposit-MD-21904/Senior-Operations-Manager_R184277"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://ryder.wd5.myworkdayjobs.com/en-US/RyderCareers/job/USA---Apopka-FL-32712/Customer-Logistics-Supervisor_R183091"
+      }
+    },
+    {
+      "company_id": "intercontinental-exchange",
+      "list_position": 347,
+      "published_rank": 347,
+      "careers_source": "https://careers.ice.com/jobs",
+      "status": "verified",
+      "strategy": "generic_json",
+      "checked_at": "2026-09-24T02:04:49.259312+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "6b9dbb59fe33056caf180a39b5ed5c42783f15ec6d6b65002a3a8d050a808472",
+      "samples": [
+        {
+          "title": "Java Full Stack Developer",
+          "location": "OFF USA: FL Jacksonville (4800 Deer Lake Drive)",
+          "source_url": "https://careers-ice.icims.com/jobs/12951/login"
+        },
+        {
+          "title": "Senior Product Manager",
+          "location": "OFF USA: FL Jacksonville (4800 Deer Lake Drive)",
+          "source_url": "https://careers-ice.icims.com/jobs/13848/login"
+        },
+        {
+          "title": "Principal Consultant, Technology Delivery",
+          "location": "OFF USA: FL Jacksonville (4800 Deer Lake Drive)",
+          "source_url": "https://careers-ice.icims.com/jobs/13445/login"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://careers-ice.icims.com/jobs/12951/login"
+      }
+    },
+    {
+      "company_id": "cincinnati-financial",
+      "list_position": 348,
+      "published_rank": 348,
+      "careers_source": "https://cinfin.taleo.net/careersection/ex/jobsearch.ftl?lang=en",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T02:04:55.546815+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "d167106446ce3405d7cd64213c7bb09475643e9a642e26387505df175c55dd06",
+      "samples": [
+        {
+          "title": "Life Premium Accounting - Supervisor",
+          "location": "OH-Fairfield",
+          "source_url": "https://cinfin.taleo.net/careersection/ex/jobdetail.ftl?job=2600643&tz=GMT-04%3A00&tzname=America%2FToronto"
+        },
+        {
+          "title": "Accounting - Reinsurance Senior Accountant",
+          "location": "OH-Fairfield",
+          "source_url": "https://cinfin.taleo.net/careersection/ex/jobdetail.ftl?job=2600562&tz=GMT-04%3A00&tzname=America%2FToronto"
+        },
+        {
+          "title": "Accounting - Senior Corp Billing Manager",
+          "location": "OH-Fairfield; OH-Cincinnati",
+          "source_url": "https://cinfin.taleo.net/careersection/ex/jobdetail.ftl?job=2600800&tz=GMT-04%3A00&tzname=America%2FToronto"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://cinfin.taleo.net/careersection/ex/jobdetail.ftl?job=2600643&tz=GMT-04%3A00&tzname=America%2FToronto"
+      }
+    },
+    {
+      "company_id": "chewy",
+      "list_position": 349,
+      "published_rank": 349,
+      "careers_source": "https://careers.chewy.com/us/en/search-results",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T02:05:00.939865+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "Some multi-location roles show an aggregate location label instead of each city."
+      ],
+      "recipe_sha256": "85810262f212000049f36384111115e8b77c1e5026af5af39af4d5e0cf1d81f0",
+      "samples": [
+        {
+          "title": "Lead Veterinarian",
+          "location": "Location Arvada, CO",
+          "source_url": "https://careers.chewy.com/us/en/job/R30331/Lead-Veterinarian"
+        },
+        {
+          "title": "Lead Veterinarian",
+          "location": "Location Fort Myers, FL",
+          "source_url": "https://careers.chewy.com/us/en/job/R30353/Lead-Veterinarian"
+        },
+        {
+          "title": "Category Manager",
+          "location": "Location Plantation, FL",
+          "source_url": "https://careers.chewy.com/us/en/job/R30469/Category-Manager"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://careers.chewy.com/us/en/job/R30331/Lead-Veterinarian"
+      }
+    },
+    {
+      "company_id": "community-health-systems",
+      "list_position": 350,
+      "published_rank": 350,
+      "careers_source": "https://www.careershealthcare.com/job/",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T02:05:01.413106+00:00",
+      "job_count": 60,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "Hospital and corporate careers directory; physician and advanced-practitioner listings use a separate board."
+      ],
+      "recipe_sha256": "dfe7ce181fadc418687d5fed0a576411dfa2466c691b585346a078a613a71615",
+      "samples": [
+        {
+          "title": "1 West Registered Nurse",
+          "location": "Naples, FL",
+          "source_url": "https://www.careershealthcare.com/job/hospital/fl/naples/1-west-registered-nurse"
+        },
+        {
+          "title": "1 West Registered Nurse Charge",
+          "location": "Naples, FL",
+          "source_url": "https://www.careershealthcare.com/job/hospital/fl/naples/1-west-registered-nurse-charge"
+        },
+        {
+          "title": "1 west Registered Nurse PRN",
+          "location": "Naples, FL",
+          "source_url": "https://www.careershealthcare.com/job/hospital/fl/naples/1-west-registered-nurse-prn"
+        }
+      ],
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      },
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://www.careershealthcare.com/job/hospital/fl/naples/1-west-registered-nurse"
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "public-service-enterprise-group",
+  "name": "Public Service Enterprise Group",
+  "aliases": [],
+  "website_url": "https://www.pseg.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=pseg.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 375",
+      "2026",
+      "United States"
+    ]
+  }
+}

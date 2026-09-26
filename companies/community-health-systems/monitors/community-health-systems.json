@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "community-health-systems",
+  "company_id": "community-health-systems",
+  "revision": 1,
+  "label": "Community Health Systems Careers",
+  "careers_url": "https://www.careershealthcare.com/job/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-24T02:05:01.413106+00:00",
+    "job_count": 60,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run.",
+      "Hospital and corporate careers directory; physician and advanced-practitioner listings use a separate board."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Community Health Systems",
+    "careers_url": "https://www.careershealthcare.com/job/",
+    "strategy": "playwright",
+    "allowed_hosts": [
+      "www.careershealthcare.com",
+      "api.careershealthcare.com"
+    ],
+    "request": {
+      "url": "https://www.careershealthcare.com/job/",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "selectors": {
+      "item": "div.info:has(h5.job-title a[href*=\"/job/\"])",
+      "title": "h5.job-title a",
+      "link": "h5.job-title a",
+      "location": "h5.job-location"
+    },
+    "mapping": {},
+    "source_filter": null,
+    "metadata": {
+      "wait_selector": "h5.job-title a[href*=\"/job/\"]",
+      "partial_listing": true
+    }
+  }
+}

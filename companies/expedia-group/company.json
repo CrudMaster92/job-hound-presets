@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "expedia-group",
+  "name": "Expedia Group",
+  "aliases": [],
+  "website_url": "https://www.expediagroup.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=expediagroup.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 325",
+      "2026",
+      "United States"
+    ]
+  }
+}

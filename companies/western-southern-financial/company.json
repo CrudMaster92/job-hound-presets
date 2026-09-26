@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "western-southern-financial",
+  "name": "Western & Southern Financial Group",
+  "aliases": [],
+  "website_url": "https://www.westernsouthern.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=westernsouthern.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 325",
+      "2026",
+      "United States"
+    ]
+  }
+}

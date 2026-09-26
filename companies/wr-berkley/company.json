@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "wr-berkley",
+  "name": "W.R. Berkley",
+  "aliases": [],
+  "website_url": "https://www.wrberkley.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=wrberkley.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 325",
+      "2026",
+      "United States"
+    ]
+  }
+}

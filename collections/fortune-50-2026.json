@@ -2,12 +2,12 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "fortune-50-2026",
-  "revision": 6,
-  "name": "Fortune 300 — 2026",
-  "description": "The first 300 companies in the 2026 U.S. Fortune 500. Includes 266 companies with 269 installable monitors and 34 unavailable companies with explanations. Coverage is bounded and may be division-specific. Select no more than 200 monitors per handoff; use explicit batches.",
+  "revision": 9,
+  "name": "Fortune 375 — 2026",
+  "description": "The first 375 companies in the 2026 U.S. Fortune 500 list order. Includes 339 companies with 342 installable monitors and 36 unavailable companies with explanations. Coverage is bounded and may be division-specific. Select no more than 200 monitors per handoff; use explicit batches.",
   "tags": [
     "Fortune 500",
-    "Fortune 300",
+    "Fortune 375",
     "2026",
     "United States"
   ],
@@ -2278,6 +2278,620 @@
         "kyndryl"
       ],
       "note": "Professional careers board only; the separately linked early-careers board is excluded."
+    },
+    {
+      "company_id": "diamondback-energy",
+      "rank": 301,
+      "ranked_name": "Diamondback Energy",
+      "monitor_ids": [
+        "diamondback-energy"
+      ]
+    },
+    {
+      "company_id": "echostar",
+      "rank": 302,
+      "ranked_name": "EchoStar",
+      "monitor_ids": [
+        "echostar"
+      ]
+    },
+    {
+      "company_id": "textron",
+      "rank": 303,
+      "ranked_name": "Textron",
+      "monitor_ids": [
+        "textron"
+      ]
+    },
+    {
+      "company_id": "expedia-group",
+      "rank": 304,
+      "ranked_name": "Expedia Group",
+      "monitor_ids": [
+        "expedia-group"
+      ]
+    },
+    {
+      "company_id": "wr-berkley",
+      "rank": 305,
+      "ranked_name": "W.R. Berkley",
+      "monitor_ids": [
+        "wr-berkley"
+      ]
+    },
+    {
+      "company_id": "xcel-energy",
+      "rank": 306,
+      "ranked_name": "Xcel Energy",
+      "monitor_ids": [
+        "xcel-energy"
+      ]
+    },
+    {
+      "company_id": "firstenergy",
+      "rank": 307,
+      "ranked_name": "FirstEnergy",
+      "monitor_ids": [
+        "firstenergy"
+      ]
+    },
+    {
+      "company_id": "erie-insurance",
+      "rank": 308,
+      "ranked_name": "Erie Insurance Group",
+      "monitor_ids": [
+        "erie-insurance"
+      ]
+    },
+    {
+      "company_id": "first-citizens-bancshares",
+      "rank": 309,
+      "ranked_name": "First Citizens BancShares",
+      "monitor_ids": [
+        "first-citizens-bancshares"
+      ]
+    },
+    {
+      "company_id": "blackstone",
+      "rank": 310,
+      "ranked_name": "Blackstone",
+      "monitor_ids": [
+        "blackstone"
+      ]
+    },
+    {
+      "company_id": "fidelity-national-financial",
+      "rank": 311,
+      "ranked_name": "Fidelity National Financial",
+      "monitor_ids": [
+        "fidelity-national-financial"
+      ],
+      "note": "FNF title/insurance business careers board."
+    },
+    {
+      "company_id": "otis-worldwide",
+      "rank": 312,
+      "ranked_name": "Otis Worldwide",
+      "monitor_ids": [
+        "otis-worldwide"
+      ]
+    },
+    {
+      "company_id": "amentum",
+      "rank": 313,
+      "ranked_name": "Amentum Holdings",
+      "monitor_ids": [
+        "amentum"
+      ],
+      "note": "Amentum careers board operated through the legacy PAE Workday tenant."
+    },
+    {
+      "company_id": "regeneron",
+      "rank": 314,
+      "ranked_name": "Regeneron Pharmaceuticals",
+      "monitor_ids": [
+        "regeneron"
+      ]
+    },
+    {
+      "company_id": "estee-lauder",
+      "rank": 315,
+      "ranked_name": "Estée Lauder",
+      "monitor_ids": [
+        "estee-lauder"
+      ]
+    },
+    {
+      "company_id": "borgwarner",
+      "rank": 316,
+      "ranked_name": "BorgWarner",
+      "monitor_ids": [
+        "borgwarner"
+      ]
+    },
+    {
+      "company_id": "northern-trust",
+      "rank": 317,
+      "ranked_name": "Northern Trust",
+      "monitor_ids": [
+        "northern-trust"
+      ]
+    },
+    {
+      "company_id": "viatris",
+      "rank": 318,
+      "ranked_name": "Viatris",
+      "monitor_ids": [
+        "viatris"
+      ]
+    },
+    {
+      "company_id": "mastec",
+      "rank": 319,
+      "ranked_name": "MasTec",
+      "monitor_ids": [
+        "mastec"
+      ],
+      "note": "MasTec Utility Services careers board; other MasTec divisions are outside this monitor."
+    },
+    {
+      "company_id": "reliance",
+      "rank": 320,
+      "ranked_name": "Reliance",
+      "monitor_ids": [
+        "reliance"
+      ],
+      "note": "Reliance family-of-companies careers board."
+    },
+    {
+      "company_id": "western-southern-financial",
+      "rank": 321,
+      "ranked_name": "Western & Southern Financial Group",
+      "monitor_ids": [
+        "western-southern-financial"
+      ]
+    },
+    {
+      "company_id": "alaska-air-group",
+      "rank": 322,
+      "ranked_name": "Alaska Air Group",
+      "monitor_ids": [
+        "alaska-air-group"
+      ]
+    },
+    {
+      "company_id": "brightspring-health-services",
+      "rank": 323,
+      "ranked_name": "BrightSpring Health Services",
+      "monitor_ids": [
+        "brightspring-health-services"
+      ],
+      "note": "BrightSpring family-of-companies careers board."
+    },
+    {
+      "company_id": "csx",
+      "rank": 324,
+      "ranked_name": "CSX",
+      "monitor_ids": [
+        "csx"
+      ]
+    },
+    {
+      "company_id": "lkq",
+      "rank": 325,
+      "ranked_name": "LKQ",
+      "monitor_ids": [
+        "lkq"
+      ]
+    },
+    {
+      "company_id": "labcorp-holdings",
+      "rank": 326,
+      "ranked_name": "Labcorp Holdings",
+      "monitor_ids": [
+        "labcorp-holdings"
+      ]
+    },
+    {
+      "company_id": "arthur-j-gallagher",
+      "rank": 327,
+      "ranked_name": "Arthur J. Gallagher",
+      "monitor_ids": [
+        "arthur-j-gallagher"
+      ],
+      "note": "Gallagher global careers board; locations and operating divisions are mixed."
+    },
+    {
+      "company_id": "venture-global",
+      "rank": 328,
+      "ranked_name": "Venture Global",
+      "monitor_ids": [
+        "venture-global"
+      ]
+    },
+    {
+      "company_id": "doordash",
+      "rank": 329,
+      "ranked_name": "DoorDash",
+      "monitor_ids": [
+        "doordash"
+      ]
+    },
+    {
+      "company_id": "sempra",
+      "rank": 330,
+      "ranked_name": "Sempra",
+      "monitor_ids": [],
+      "note": "The official Sempra headquarters board uses an ADP session-token request and its listing cards expose no direct job links. No safe recipe with stable source URLs was validated."
+    },
+    {
+      "company_id": "davita",
+      "rank": 331,
+      "ranked_name": "DaVita",
+      "monitor_ids": [
+        "davita"
+      ]
+    },
+    {
+      "company_id": "eversource-energy",
+      "rank": 332,
+      "ranked_name": "Eversource Energy",
+      "monitor_ids": [
+        "eversource-energy"
+      ]
+    },
+    {
+      "company_id": "servicenow",
+      "rank": 333,
+      "ranked_name": "ServiceNow",
+      "monitor_ids": [
+        "servicenow"
+      ],
+      "note": "SmartRecruiters board exposes direct job URLs but omits locations in its listing; city matching is unavailable for this bounded monitor."
+    },
+    {
+      "company_id": "mt-bank",
+      "rank": 334,
+      "ranked_name": "M&T Bank",
+      "monitor_ids": [
+        "mt-bank"
+      ]
+    },
+    {
+      "company_id": "henry-schein",
+      "rank": 335,
+      "ranked_name": "Henry Schein",
+      "monitor_ids": [
+        "henry-schein"
+      ]
+    },
+    {
+      "company_id": "gxo-logistics",
+      "rank": 336,
+      "ranked_name": "GXO Logistics",
+      "monitor_ids": [
+        "gxo-logistics"
+      ]
+    },
+    {
+      "company_id": "ball",
+      "rank": 337,
+      "ranked_name": "Ball",
+      "monitor_ids": [
+        "ball"
+      ]
+    },
+    {
+      "company_id": "unum-group",
+      "rank": 338,
+      "ranked_name": "Unum Group",
+      "monitor_ids": [
+        "unum-group"
+      ]
+    },
+    {
+      "company_id": "las-vegas-sands",
+      "rank": 339,
+      "ranked_name": "Las Vegas Sands",
+      "monitor_ids": [
+        "las-vegas-sands"
+      ],
+      "note": "Las Vegas Sands corporate careers board; subsidiary resort and Sands China roles are excluded."
+    },
+    {
+      "company_id": "entergy",
+      "rank": 340,
+      "ranked_name": "Entergy",
+      "monitor_ids": [
+        "entergy"
+      ]
+    },
+    {
+      "company_id": "fifth-third-bancorp",
+      "rank": 341,
+      "ranked_name": "Fifth Third Bancorp",
+      "monitor_ids": [
+        "fifth-third-bancorp"
+      ]
+    },
+    {
+      "company_id": "graybar-electric",
+      "rank": 342,
+      "ranked_name": "Graybar Electric",
+      "monitor_ids": [
+        "graybar-electric"
+      ]
+    },
+    {
+      "company_id": "dxc-technology",
+      "rank": 343,
+      "ranked_name": "DXC Technology",
+      "monitor_ids": [
+        "dxc-technology"
+      ]
+    },
+    {
+      "company_id": "alcoa",
+      "rank": 344,
+      "ranked_name": "Alcoa",
+      "monitor_ids": [
+        "alcoa"
+      ]
+    },
+    {
+      "company_id": "assurant",
+      "rank": 345,
+      "ranked_name": "Assurant",
+      "monitor_ids": [
+        "assurant"
+      ]
+    },
+    {
+      "company_id": "ryder-system",
+      "rank": 346,
+      "ranked_name": "Ryder System",
+      "monitor_ids": [
+        "ryder-system"
+      ],
+      "note": "Workday careers board; separately linked driver, technician, and warehouse boards are excluded."
+    },
+    {
+      "company_id": "intercontinental-exchange",
+      "rank": 347,
+      "ranked_name": "Intercontinental Exchange",
+      "monitor_ids": [
+        "intercontinental-exchange"
+      ]
+    },
+    {
+      "company_id": "cincinnati-financial",
+      "rank": 348,
+      "ranked_name": "Cincinnati Financial",
+      "monitor_ids": [
+        "cincinnati-financial"
+      ]
+    },
+    {
+      "company_id": "chewy",
+      "rank": 349,
+      "ranked_name": "Chewy",
+      "monitor_ids": [
+        "chewy"
+      ],
+      "note": "Some multi-location roles show an aggregate location label instead of each city."
+    },
+    {
+      "company_id": "community-health-systems",
+      "rank": 350,
+      "ranked_name": "Community Health Systems",
+      "monitor_ids": [
+        "community-health-systems"
+      ],
+      "note": "Hospital and corporate careers directory; physician and advanced-practitioner listings use a separate board."
+    },
+    {
+      "company_id": "huntington-bancshares",
+      "rank": 350,
+      "ranked_name": "Huntington Bancshares",
+      "monitor_ids": [
+        "huntington-bancshares"
+      ],
+      "note": "Published rank 350 ties with the preceding entry; this is list position 351."
+    },
+    {
+      "company_id": "huntington-ingalls-industries",
+      "rank": 352,
+      "ranked_name": "Huntington Ingalls Industries",
+      "monitor_ids": [
+        "huntington-ingalls-industries"
+      ]
+    },
+    {
+      "company_id": "wayfair",
+      "rank": 353,
+      "ranked_name": "Wayfair",
+      "monitor_ids": [],
+      "note": "Official careers board returned HTTP 429; no safe live recipe was validated."
+    },
+    {
+      "company_id": "lumen-technologies",
+      "rank": 354,
+      "ranked_name": "Lumen Technologies",
+      "monitor_ids": [
+        "lumen-technologies"
+      ]
+    },
+    {
+      "company_id": "ulta-beauty",
+      "rank": 355,
+      "ranked_name": "Ulta Beauty",
+      "monitor_ids": [
+        "ulta-beauty"
+      ]
+    },
+    {
+      "company_id": "crown-holdings",
+      "rank": 356,
+      "ranked_name": "Crown Holdings",
+      "monitor_ids": [
+        "crown-holdings"
+      ]
+    },
+    {
+      "company_id": "airbnb",
+      "rank": 357,
+      "ranked_name": "Airbnb",
+      "monitor_ids": [
+        "airbnb"
+      ]
+    },
+    {
+      "company_id": "aes",
+      "rank": 358,
+      "ranked_name": "AES",
+      "monitor_ids": [
+        "aes"
+      ],
+      "note": "The accessible Workday source is the U.S. careers board."
+    },
+    {
+      "company_id": "norfolk-southern",
+      "rank": 359,
+      "ranked_name": "Norfolk Southern",
+      "monitor_ids": [
+        "norfolk-southern"
+      ]
+    },
+    {
+      "company_id": "public-service-enterprise-group",
+      "rank": 360,
+      "ranked_name": "Public Service Enterprise Group",
+      "monitor_ids": [
+        "public-service-enterprise-group"
+      ]
+    },
+    {
+      "company_id": "kla",
+      "rank": 361,
+      "ranked_name": "KLA",
+      "monitor_ids": [
+        "kla"
+      ]
+    },
+    {
+      "company_id": "expand-energy",
+      "rank": 362,
+      "ranked_name": "Expand Energy",
+      "monitor_ids": [
+        "expand-energy"
+      ]
+    },
+    {
+      "company_id": "hormel-foods",
+      "rank": 363,
+      "ranked_name": "Hormel Foods",
+      "monitor_ids": [
+        "hormel-foods"
+      ]
+    },
+    {
+      "company_id": "darden-restaurants",
+      "rank": 364,
+      "ranked_name": "Darden Restaurants",
+      "monitor_ids": [
+        "darden-restaurants"
+      ],
+      "note": "This monitor covers the Restaurant Support Center board; restaurant and field roles use other boards."
+    },
+    {
+      "company_id": "citizens-financial-group",
+      "rank": 365,
+      "ranked_name": "Citizens Financial Group",
+      "monitor_ids": [
+        "citizens-financial-group"
+      ]
+    },
+    {
+      "company_id": "mosaic",
+      "rank": 366,
+      "ranked_name": "Mosaic",
+      "monitor_ids": [
+        "mosaic"
+      ]
+    },
+    {
+      "company_id": "hilton-worldwide-holdings",
+      "rank": 367,
+      "ranked_name": "Hilton Worldwide Holdings",
+      "monitor_ids": [
+        "hilton-worldwide-holdings"
+      ],
+      "note": "This monitor covers the Hilton-operated Oracle board; franchise hiring can appear elsewhere."
+    },
+    {
+      "company_id": "air-products-and-chemicals",
+      "rank": 368,
+      "ranked_name": "Air Products & Chemicals",
+      "monitor_ids": [
+        "air-products-and-chemicals"
+      ]
+    },
+    {
+      "company_id": "jacobs-solutions",
+      "rank": 369,
+      "ranked_name": "Jacobs Solutions",
+      "monitor_ids": [
+        "jacobs-solutions"
+      ]
+    },
+    {
+      "company_id": "vertex-pharmaceuticals",
+      "rank": 370,
+      "ranked_name": "Vertex Pharmaceuticals",
+      "monitor_ids": [
+        "vertex-pharmaceuticals"
+      ]
+    },
+    {
+      "company_id": "jb-hunt-transport-services",
+      "rank": 371,
+      "ranked_name": "J.B. Hunt Transport Services",
+      "monitor_ids": [
+        "jb-hunt-transport-services"
+      ]
+    },
+    {
+      "company_id": "booz-allen-hamilton",
+      "rank": 372,
+      "ranked_name": "Booz Allen Hamilton",
+      "monitor_ids": [
+        "booz-allen-hamilton"
+      ]
+    },
+    {
+      "company_id": "williams",
+      "rank": 373,
+      "ranked_name": "Williams",
+      "monitor_ids": [
+        "williams"
+      ]
+    },
+    {
+      "company_id": "chipotle-mexican-grill",
+      "rank": 374,
+      "ranked_name": "Chipotle Mexican Grill",
+      "monitor_ids": [
+        "chipotle-mexican-grill"
+      ]
+    },
+    {
+      "company_id": "yum-china-holdings",
+      "rank": 375,
+      "ranked_name": "Yum China Holdings",
+      "monitor_ids": [
+        "yum-china-holdings"
+      ],
+      "note": "This official restaurant-management board is limited to roles posted in the last 30 days; office jobs use a separate board."
     }
   ]
 }
