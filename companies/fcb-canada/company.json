@@ -1,0 +1,26 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "fcb-canada",
+  "name": "FCB Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.fcb.com/",
+  "logo_url": "https://www.fcb.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "creative-advertising",
+      "social-content-influencer",
+      "web-ux-digital-experience"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "Omnicom"
+    ]
+  },
+  "parent_company_id": "omnicom"
+}

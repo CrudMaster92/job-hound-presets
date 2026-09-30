@@ -87,6 +87,32 @@ def monitor_contract(path: Path, monitor: dict, company_id: str) -> None:
         raise ValueError(f"{path.relative_to(ROOT)}: credential-bearing headers are forbidden")
 
 
+def validate_company_hierarchy(companies: dict[str, dict]) -> None:
+    for company_id, company in companies.items():
+        parent_id = company.get("parent_company_id")
+        if parent_id is None:
+            continue
+        if parent_id == company_id:
+            raise ValueError(f"companies/{company_id}/company.json: company cannot be its own parent")
+        if parent_id not in companies:
+            raise ValueError(f"companies/{company_id}/company.json: unknown parent company {parent_id!r}")
+    for company_id in companies:
+        seen: set[str] = set()
+        current = company_id
+        while current:
+            if current in seen:
+                raise ValueError(f"companies/{company_id}/company.json: parent company cycle detected")
+            seen.add(current)
+            current = companies.get(current, {}).get("parent_company_id")
+
+
+def parent_summary(company: dict, companies: dict[str, dict]) -> dict | None:
+    parent_id = company.get("parent_company_id")
+    if not parent_id:
+        return None
+    return {"id": parent_id, "name": companies[parent_id]["name"]}
+
+
 def build(*, output: Path, source_commit: str = "local") -> dict:
     companies: dict[str, dict] = {}
     monitors: dict[str, dict] = {}
@@ -101,6 +127,8 @@ def build(*, output: Path, source_commit: str = "local") -> dict:
             if monitor_path.stem != monitor["id"] or monitor["id"] in monitors:
                 raise ValueError(f"{monitor_path.relative_to(ROOT)}: monitor ID must match its filename and be unique")
             monitors[monitor["id"]] = monitor
+
+    validate_company_hierarchy(companies)
 
     collections: list[dict] = []
     for path in sorted(COLLECTIONS.glob("*.json")):
@@ -143,12 +171,13 @@ def build(*, output: Path, source_commit: str = "local") -> dict:
             monitor_references[key] for key, value in sorted(monitors.items())
             if value["company_id"] == company_id
         ]
-        artifact = {**company, "monitors": company_monitor_refs}
+        artifact = {**company, "parent": parent_summary(company, companies), "monitors": company_monitor_refs}
         rel = f"companies/{company_id}.json"
         write_json(api_root / rel, artifact)
         company_references[company_id] = reference(
             rel, artifact, id=company_id, name=company["name"],
             legal_name=company.get("legal_name"), aliases=company.get("aliases", []),
+            parent=parent_summary(company, companies),
             facets=company.get("facets", {}), availability=company.get("availability"),
             monitor_count=len(company_monitor_refs),
         )
@@ -169,6 +198,7 @@ def build(*, output: Path, source_commit: str = "local") -> dict:
                 **member, "name": company["name"], "legal_name": company.get("legal_name"),
                 "aliases": company.get("aliases", []), "logo_url": company.get("logo_url"),
                 "availability": company.get("availability"),
+                "parent": parent_summary(company, companies), "facets": company.get("facets", {}),
                 "company_path": company_references[company["id"]]["path"],
                 "company_sha256": company_references[company["id"]]["sha256"],
                 "monitors": [monitor_references[key] for key in selected_ids],
@@ -221,9 +251,12 @@ def build(*, output: Path, source_commit: str = "local") -> dict:
         company_monitors = [
             value for _, value in sorted(monitors.items()) if value["company_id"] == company_id
         ]
+        if not company_monitors and not company.get("availability"):
+            continue
         search_values.append({
             "id": company_id, "name": company["name"], "legal_name": company.get("legal_name"),
             "aliases": company.get("aliases", []), "facets": company.get("facets", {}),
+            "parent": parent_summary(company, companies),
             "logo_url": company.get("logo_url"), "website_url": company.get("website_url"),
             "availability": company.get("availability"),
             "collection_ids": sorted(company_collections[company_id]),

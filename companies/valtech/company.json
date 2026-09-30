@@ -1,0 +1,26 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "valtech",
+  "name": "Valtech",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.valtech.com/en-ca/",
+  "logo_url": "https://www.valtech.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "web-ux-digital-experience",
+      "shopper-retail-experiential",
+      "martech-data-analytics",
+      "performance-marketing",
+      "creative-advertising"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada"
+    ]
+  }
+}

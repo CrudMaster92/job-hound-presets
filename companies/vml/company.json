@@ -1,0 +1,30 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "vml",
+  "name": "VML Canada",
+  "legal_name": null,
+  "aliases": [
+    "VML"
+  ],
+  "website_url": "https://www.vml.com/vml-canada",
+  "logo_url": "https://www.vml.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "creative-advertising",
+      "crm-loyalty-lifecycle",
+      "shopper-retail-experiential",
+      "martech-data-analytics",
+      "web-ux-digital-experience"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "WPP"
+    ]
+  },
+  "parent_company_id": "wpp"
+}

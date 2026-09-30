@@ -1,0 +1,25 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "mint",
+  "name": "Mint",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://themintagency.com/",
+  "logo_url": "https://themintagency.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "creative-advertising",
+      "social-content-influencer",
+      "experiential",
+      "performance-marketing"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada"
+    ]
+  }
+}

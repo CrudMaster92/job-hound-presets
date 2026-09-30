@@ -1,0 +1,33 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "mrm-canada",
+  "name": "MRM Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.mrm.com/",
+  "logo_url": "https://www.mrm.com/assets/DefaultSite/images/apple-touch-icon-57x57.png",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "crm-loyalty-lifecycle",
+      "web-ux-digital-experience",
+      "martech-data-analytics",
+      "creative-advertising"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "McCann Worldgroup"
+    ]
+  },
+  "parent_company_id": "mccann-worldgroup",
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The Marketing Job Board collector has not yet been converted and validated as a JobHound monitor.",
+    "checked_at": "2026-09-30T00:53:28.032653Z"
+  }
+}

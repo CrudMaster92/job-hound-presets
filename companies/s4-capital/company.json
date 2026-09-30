@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "s4-capital",
+  "name": "S4 Capital",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.s4capital.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Marketing group"
+    ]
+  }
+}

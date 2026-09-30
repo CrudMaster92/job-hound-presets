@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "vaynerx",
+  "name": "VaynerX",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://vaynerx.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Marketing group"
+    ]
+  }
+}

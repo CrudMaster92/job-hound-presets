@@ -1,0 +1,25 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "kantar-canada",
+  "name": "Kantar Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.kantar.com/Locations/Canada",
+  "logo_url": "https://www.kantar.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "market-research-insights",
+      "martech-data-analytics"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "Kantar"
+    ]
+  },
+  "parent_company_id": "kantar"
+}

@@ -1,0 +1,26 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "north-strategic",
+  "name": "North Strategic",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://northstrategic.com/",
+  "logo_url": "https://northstrategic.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "social-content-influencer",
+      "creative-advertising",
+      "experiential"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "Publicis Groupe"
+    ]
+  },
+  "parent_company_id": "publicis-groupe"
+}

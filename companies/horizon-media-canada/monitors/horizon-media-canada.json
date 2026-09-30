@@ -1,0 +1,79 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "horizon-media-canada",
+  "company_id": "horizon-media-canada",
+  "revision": 1,
+  "label": "Horizon Media Canada jobs",
+  "careers_url": "https://horizonmedia.wd1.myworkdayjobs.com/en-US/CareerOpportunities",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": "2026-09-30T00:58:28.658835Z",
+    "job_count": 4,
+    "warnings": [
+      "JobHound live run returned jobs on 2026-09-29; employer attribution and completeness remain under review."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Horizon Media Canada",
+    "careers_url": "https://horizonmedia.wd1.myworkdayjobs.com/en-US/CareerOpportunities",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "horizonmedia.wd1.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://horizonmedia.wd1.myworkdayjobs.com/wday/cxs/horizonmedia/CareerOpportunities/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 15,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 25,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "horizonmedia",
+      "site": "CareerOpportunities",
+      "detail_fetch_limit": 250
+    },
+    "source_filter": {
+      "predicates": [
+        {
+          "phase": "detail",
+          "path": "jobPostingInfo.country.descriptor",
+          "operator": "equals_ci",
+          "values": [
+            "Canada"
+          ]
+        },
+        {
+          "phase": "detail",
+          "path": "hiringOrganization.name",
+          "operator": "equals_ci",
+          "values": [
+            "Horizon Media Limited Partnership"
+          ]
+        }
+      ]
+    }
+  }
+}

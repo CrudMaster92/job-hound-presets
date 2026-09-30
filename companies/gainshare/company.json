@@ -1,0 +1,30 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "gainshare",
+  "name": "GainShare Performance Marketing",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.gainshare.com/",
+  "logo_url": "https://cdn.prod.website-files.com/69dd2aad400aa1235c5fb5f2/6a14992a2e839079e45e1141_Webclip.png",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "performance-marketing",
+      "martech-data-analytics",
+      "creative-advertising"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The Marketing Job Board collector has not yet been converted and validated as a JobHound monitor.",
+    "checked_at": "2026-09-30T00:53:28.032653Z"
+  }
+}

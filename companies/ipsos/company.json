@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ipsos",
+  "name": "Ipsos",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.ipsos.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Marketing group"
+    ]
+  }
+}

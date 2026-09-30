@@ -7,12 +7,16 @@
   "website_url": "https://www.omnicomgroup.com/",
   "logo_url": "https://www.google.com/s2/favicons?domain=omnicomgroup.com&sz=128",
   "facets": {
-    "industries": [],
+    "industries": [
+      "marketing"
+    ],
     "specialties": [],
     "tags": [
       "Fortune 300",
       "2026",
-      "United States"
+      "United States",
+      "Marketing",
+      "Canada"
     ]
   },
   "availability": {

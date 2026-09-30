@@ -1,0 +1,30 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "rethink",
+  "name": "Rethink",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.rethinkideas.com/",
+  "logo_url": "https://www.rethinkideas.com/favicons/favicon-32x32.png",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "creative-advertising",
+      "web-ux-digital-experience",
+      "social-content-influencer"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The Marketing Job Board collector has not yet been converted and validated as a JobHound monitor.",
+    "checked_at": "2026-09-30T00:53:28.032653Z"
+  }
+}

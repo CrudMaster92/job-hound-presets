@@ -1,0 +1,32 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "media-experts",
+  "name": "Media Experts",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.mediaexperts.com/",
+  "logo_url": "https://images.squarespace-cdn.com/content/v1/65ef115b44896a1157aeaf82/5590ae0a-999c-4e3f-80fb-c6e3a2ce3d84/favicon.ico?format=100w",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "performance-marketing",
+      "martech-data-analytics",
+      "market-research-insights"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "Omnicom"
+    ]
+  },
+  "parent_company_id": "omnicom",
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The Marketing Job Board collector has not yet been converted and validated as a JobHound monitor.",
+    "checked_at": "2026-09-30T00:53:28.032653Z"
+  }
+}

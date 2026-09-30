@@ -1,0 +1,28 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ogilvy-canada",
+  "name": "Ogilvy Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.ogilvy.com/ca/",
+  "logo_url": "https://www.ogilvy.com/favicon-32x32.png",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "creative-advertising",
+      "crm-loyalty-lifecycle",
+      "social-content-influencer",
+      "web-ux-digital-experience",
+      "shopper-retail-experiential"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "WPP"
+    ]
+  },
+  "parent_company_id": "wpp"
+}

@@ -1,0 +1,31 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "bond-brand-loyalty",
+  "name": "Bond Brand Loyalty",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://bondbl.com/",
+  "logo_url": "https://bondbl.com/wp-content/uploads/2025/11/logo.svg",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "crm-loyalty-lifecycle",
+      "martech-data-analytics",
+      "market-research-insights",
+      "experiential"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The Marketing Job Board collector has not yet been converted and validated as a JobHound monitor.",
+    "checked_at": "2026-09-30T00:53:28.032653Z"
+  }
+}
