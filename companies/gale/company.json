@@ -1,0 +1,27 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "gale",
+  "name": "GALE",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.gale.agency/",
+  "logo_url": "https://www.gale.agency/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "creative-advertising",
+      "performance-marketing",
+      "crm-loyalty-lifecycle",
+      "martech-data-analytics"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "Stagwell"
+    ]
+  },
+  "parent_company_id": "stagwell"
+}

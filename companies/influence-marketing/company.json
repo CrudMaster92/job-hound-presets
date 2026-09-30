@@ -1,0 +1,32 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "influence-marketing",
+  "name": "Influence Marketing",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://influencemarketing.ca/",
+  "logo_url": "https://influencemarketing.ca/wp-content/uploads/2025/09/cropped-Influence_Favicon-1-32x32.png",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "experiential",
+      "shopper-retail-experiential",
+      "social-content-influencer",
+      "creative-advertising",
+      "direct-marketing-sales"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The Marketing Job Board collector has not yet been converted and validated as a JobHound monitor.",
+    "checked_at": "2026-09-30T00:53:28.032653Z"
+  }
+}

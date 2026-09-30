@@ -1,0 +1,26 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "actionlink",
+  "name": "ActionLink Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://actionlink.com/",
+  "logo_url": "https://actionlink.com/wp-content/uploads/sites/4/2024/01/cropped-Favicon2b-32x32.png",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "shopper-retail-experiential",
+      "direct-marketing-sales",
+      "market-research-insights"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "Acosta Group"
+    ]
+  },
+  "parent_company_id": "acosta-group"
+}

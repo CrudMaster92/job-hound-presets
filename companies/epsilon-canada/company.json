@@ -1,0 +1,27 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "epsilon-canada",
+  "name": "Epsilon Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.epsilon.com/",
+  "logo_url": "https://www.epsilon.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "martech-data-analytics",
+      "crm-loyalty-lifecycle",
+      "performance-marketing",
+      "market-research-insights"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "Publicis Groupe"
+    ]
+  },
+  "parent_company_id": "publicis-groupe"
+}

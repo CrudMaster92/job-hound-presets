@@ -1,0 +1,25 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "brafton",
+  "name": "Brafton",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.brafton.com/",
+  "logo_url": "https://www.brafton.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "social-content-influencer",
+      "performance-marketing",
+      "web-ux-digital-experience",
+      "creative-advertising"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada"
+    ]
+  }
+}

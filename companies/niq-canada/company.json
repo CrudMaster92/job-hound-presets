@@ -1,0 +1,26 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "niq-canada",
+  "name": "NIQ Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://nielseniq.com/global/en/",
+  "logo_url": "https://nielseniq.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "market-research-insights",
+      "shopper-retail-experiential",
+      "martech-data-analytics"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "NIQ"
+    ]
+  },
+  "parent_company_id": "niq"
+}

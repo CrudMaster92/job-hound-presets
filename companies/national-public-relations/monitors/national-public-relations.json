@@ -1,0 +1,80 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "national-public-relations",
+  "company_id": "national-public-relations",
+  "revision": 1,
+  "label": "NATIONAL Public Relations jobs",
+  "careers_url": "https://www.national.ca/en/careers/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": "2026-09-30T00:58:28.658835Z",
+    "job_count": 4,
+    "warnings": [
+      "JobHound live run returned jobs on 2026-09-29; employer attribution and completeness remain under review."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "NATIONAL Public Relations",
+    "careers_url": "https://www.national.ca/en/careers/",
+    "strategy": "greenhouse",
+    "allowed_hosts": [
+      "www.national.ca",
+      "boards-api.greenhouse.io"
+    ],
+    "request": {
+      "url": "https://boards-api.greenhouse.io/v1/boards/national/jobs",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "content": true
+      },
+      "json_body": null,
+      "timeout_seconds": 15,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "board_token": "national"
+    },
+    "source_filter": {
+      "predicates": [
+        {
+          "phase": "listing",
+          "path": "location.name",
+          "operator": "contains_ci",
+          "values": [
+            "Canada",
+            "Toronto",
+            "Vancouver",
+            "Montréal",
+            "Montreal",
+            "Calgary",
+            "Ottawa",
+            "Halifax",
+            "Edmonton",
+            "Winnipeg",
+            "Mississauga",
+            "Burnaby",
+            "Quebec",
+            "Québec"
+          ]
+        }
+      ]
+    }
+  }
+}

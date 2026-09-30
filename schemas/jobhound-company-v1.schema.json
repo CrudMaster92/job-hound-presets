@@ -7,6 +7,7 @@
     "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$", "maxLength": 80},
     "name": {"type": "string", "minLength": 1, "maxLength": 160},
     "legal_name": {"type": ["string", "null"], "maxLength": 200},
+    "parent_company_id": {"type": ["string", "null"], "pattern": "^[a-z0-9][a-z0-9-]*$", "maxLength": 80},
     "aliases": {"type": "array", "uniqueItems": true, "maxItems": 20, "items": {"type": "string", "minLength": 1, "maxLength": 80}},
     "website_url": {"type": "string", "format": "uri", "pattern": "^https://"},
     "logo_url": {"type": ["string", "null"], "format": "uri"},

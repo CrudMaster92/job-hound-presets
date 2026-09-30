@@ -1,0 +1,93 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "apply-digital",
+  "company_id": "apply-digital",
+  "revision": 1,
+  "label": "Apply Digital jobs",
+  "careers_url": "https://jobs.lever.co/applydigital",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": "2026-09-30T00:58:28.658835Z",
+    "job_count": 12,
+    "warnings": [
+      "JobHound live run returned jobs on 2026-09-29; employer attribution and completeness remain under review."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Apply Digital",
+    "careers_url": "https://jobs.lever.co/applydigital",
+    "strategy": "lever",
+    "allowed_hosts": [
+      "api.lever.co",
+      "jobs.lever.co"
+    ],
+    "request": {
+      "url": "https://api.lever.co/v0/postings/applydigital?mode=json",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {},
+    "source_filter": {
+      "predicate_match": "any",
+      "predicates": [
+        {
+          "phase": "listing",
+          "path": "country",
+          "operator": "equals_ci",
+          "values": [
+            "CA"
+          ]
+        },
+        {
+          "phase": "listing",
+          "path": "categories.allLocations",
+          "operator": "contains_ci",
+          "values": [
+            "Canada"
+          ]
+        },
+        {
+          "phase": "listing",
+          "path": "categories.location",
+          "operator": "contains_ci",
+          "values": [
+            "Canada",
+            "Toronto",
+            "Vancouver",
+            "Montréal",
+            "Montreal",
+            "Calgary",
+            "Ottawa",
+            "Halifax",
+            "Edmonton",
+            "Winnipeg",
+            "Mississauga",
+            "Burnaby",
+            "Quebec",
+            "Québec"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "horizon-media-canada",
+  "name": "Horizon Media Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.horizonmedia.com/",
+  "logo_url": "https://www.horizonmedia.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "performance-marketing",
+      "martech-data-analytics",
+      "market-research-insights",
+      "creative-advertising"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada"
+    ]
+  }
+}

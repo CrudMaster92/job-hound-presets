@@ -1,0 +1,27 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "vaynermedia",
+  "name": "VaynerMedia",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://vaynermedia.com/",
+  "logo_url": "https://vaynermedia.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "creative-advertising",
+      "social-content-influencer",
+      "performance-marketing",
+      "martech-data-analytics"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "VaynerX"
+    ]
+  },
+  "parent_company_id": "vaynerx"
+}

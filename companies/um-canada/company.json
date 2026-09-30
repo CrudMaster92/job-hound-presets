@@ -1,0 +1,32 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "um-canada",
+  "name": "UM Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://umww.ca/",
+  "logo_url": "https://umww.ca/wp-content/themes/Archive/img/favicons/apple-touch-icon.png?v=8j6XRR29y5",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "performance-marketing",
+      "market-research-insights",
+      "social-content-influencer"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "Omnicom"
+    ]
+  },
+  "parent_company_id": "omnicom",
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The Marketing Job Board collector has not yet been converted and validated as a JobHound monitor.",
+    "checked_at": "2026-09-30T00:53:28.032653Z"
+  }
+}

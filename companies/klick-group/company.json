@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "klick-group",
+  "name": "Klick Group",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.klick.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Marketing group"
+    ]
+  }
+}

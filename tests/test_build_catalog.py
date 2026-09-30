@@ -8,10 +8,26 @@ from unittest.mock import patch
 
 from scripts import build_catalog
 
-from scripts.build_catalog import build, digest
+from scripts.build_catalog import build, digest, validate_company_hierarchy
 
 
 class CatalogBuildTests(unittest.TestCase):
+    def test_marketing_and_fortune_share_real_company_identity_without_mosaic_collision(self):
+        root = Path(__file__).resolve().parents[1]
+        fortune = json.loads((root / "collections/fortune-50-2026.json").read_text(encoding="utf-8"))
+        marketing = json.loads((root / "collections/marketing-agencies-canada.json").read_text(encoding="utf-8"))
+        fortune_ids = {member["company_id"] for member in fortune["companies"]}
+        marketing_ids = {member["company_id"] for member in marketing["companies"]}
+        self.assertEqual(fortune_ids & marketing_ids, {"omnicom"})
+        self.assertIn("mosaic", fortune_ids)
+        self.assertIn("mosaic-canada", marketing_ids)
+        self.assertEqual(len(marketing["companies"]), 52)
+        self.assertEqual(sum(bool(member.get("monitor_ids")) for member in marketing["companies"]), 51)
+        self.assertEqual(
+            json.loads((root / "companies/omnicom/company.json").read_text(encoding="utf-8"))["id"],
+            "omnicom",
+        )
+
     def test_recruitment_collection_preserves_blocked_companies_without_installable_placeholders(self):
         with tempfile.TemporaryDirectory() as directory:
             catalog = build(output=Path(directory), source_commit="test-commit")
@@ -133,6 +149,24 @@ class CatalogBuildTests(unittest.TestCase):
             self.assertEqual(amazon["website_url"], "https://www.amazon.com/")
             self.assertNotIn("monitors", amazon)
             self.assertNotIn("recipe", json.dumps(amazon))
+
+    def test_parent_summary_is_emitted_and_hierarchy_is_validated(self):
+        validate_company_hierarchy({"parent": {}, "child": {"parent_company_id": "parent"}})
+        with self.assertRaisesRegex(ValueError, "unknown parent"):
+            validate_company_hierarchy({"child": {"parent_company_id": "missing"}})
+        with self.assertRaisesRegex(ValueError, "cycle"):
+            validate_company_hierarchy({
+                "one": {"parent_company_id": "two"},
+                "two": {"parent_company_id": "one"},
+            })
+
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            catalog = build(output=output, source_commit="test-commit")
+            api = output / "api" / "v1"
+            pages = [json.loads((api / ref["path"]).read_text(encoding="utf-8"))
+                     for ref in catalog["search_pages"]]
+            self.assertTrue(all("parent" in company for page in pages for company in page["companies"]))
 
     def test_unavailable_company_is_searchable_without_a_broken_monitor(self):
         with tempfile.TemporaryDirectory() as directory:

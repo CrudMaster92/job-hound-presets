@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "zulu-alpha-kilo",
+  "name": "Zulu Alpha Kilo",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.zulualphakilo.com/",
+  "logo_url": "https://www.zulualphakilo.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "creative-advertising",
+      "social-content-influencer",
+      "web-ux-digital-experience"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada"
+    ]
+  }
+}

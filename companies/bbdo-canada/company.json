@@ -1,0 +1,26 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "bbdo-canada",
+  "name": "BBDO Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.bbdo.ca/",
+  "logo_url": "https://images.squarespace-cdn.com/content/v1/61857410b63edb6186bffec3/de54c1d7-6dde-4d22-baf6-68dc790c48a7/favicon.ico?format=100w",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "creative-advertising",
+      "social-content-influencer",
+      "web-ux-digital-experience"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "Omnicom"
+    ]
+  },
+  "parent_company_id": "omnicom"
+}

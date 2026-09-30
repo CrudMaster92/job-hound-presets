@@ -1,0 +1,25 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "viral-nation",
+  "name": "Viral Nation",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.viralnation.com/",
+  "logo_url": "https://www.viralnation.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "social-content-influencer",
+      "creative-advertising",
+      "martech-data-analytics",
+      "performance-marketing"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada"
+    ]
+  }
+}

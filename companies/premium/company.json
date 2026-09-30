@@ -1,0 +1,34 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "premium",
+  "name": "Premium Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://premiumretail.com/who-we-are/premium-canada/",
+  "logo_url": "https://premiumretail.com/wp-content/uploads/sites/2/2021/12/cropped-favicon-32x32.png",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "shopper-retail-experiential",
+      "direct-marketing-sales",
+      "market-research-insights",
+      "martech-data-analytics",
+      "creative-advertising"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "Acosta Group"
+    ]
+  },
+  "parent_company_id": "acosta-group",
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The draft JSON feed mixed jobs from other Acosta agencies. A company-owned source must be validated before this monitor can be published.",
+    "checked_at": "2026-09-30T00:53:28.032653Z"
+  }
+}

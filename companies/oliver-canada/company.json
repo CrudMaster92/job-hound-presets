@@ -1,0 +1,27 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "oliver-canada",
+  "name": "OLIVER Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.oliver.agency/",
+  "logo_url": "https://www.oliver.agency/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "creative-advertising",
+      "social-content-influencer",
+      "performance-marketing",
+      "martech-data-analytics"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "The Brandtech Group"
+    ]
+  },
+  "parent_company_id": "the-brandtech-group"
+}

@@ -1,0 +1,358 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "marketing-agencies-canada",
+  "revision": 1,
+  "name": "Marketing Agencies — Canada",
+  "description": "Canadian marketing, advertising, media, experiential, research, CRM, content, and digital agencies with reusable public-careers monitors.",
+  "tags": [
+    "Marketing",
+    "Agencies",
+    "Canada"
+  ],
+  "facets": {
+    "collection_types": [
+      "industry"
+    ],
+    "industries": [
+      "marketing"
+    ],
+    "role_families": [
+      "creative-advertising",
+      "crm-loyalty-lifecycle",
+      "direct-marketing-sales",
+      "experiential",
+      "market-research-insights",
+      "martech-data-analytics",
+      "performance-marketing",
+      "shopper-retail-experiential",
+      "social-content-influencer",
+      "web-ux-digital-experience"
+    ],
+    "locations": [
+      {
+        "city": "",
+        "region": "",
+        "country": "CA"
+      }
+    ]
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "acosta",
+      "monitor_ids": [
+        "acosta"
+      ]
+    },
+    {
+      "company_id": "actionlink",
+      "monitor_ids": [
+        "actionlink"
+      ]
+    },
+    {
+      "company_id": "rival-group",
+      "monitor_ids": [
+        "rival-group"
+      ]
+    },
+    {
+      "company_id": "apex-exchange-canada",
+      "monitor_ids": [
+        "apex-exchange-canada"
+      ]
+    },
+    {
+      "company_id": "apply-digital",
+      "monitor_ids": [
+        "apply-digital"
+      ]
+    },
+    {
+      "company_id": "bbdo-canada",
+      "monitor_ids": [
+        "bbdo-canada"
+      ]
+    },
+    {
+      "company_id": "brafton",
+      "monitor_ids": [
+        "brafton"
+      ]
+    },
+    {
+      "company_id": "critical-mass",
+      "monitor_ids": [
+        "critical-mass"
+      ]
+    },
+    {
+      "company_id": "ddb-canada",
+      "monitor_ids": [
+        "ddb-canada"
+      ]
+    },
+    {
+      "company_id": "dentsu-creative-canada",
+      "monitor_ids": [
+        "dentsu-creative-canada"
+      ]
+    },
+    {
+      "company_id": "dentsu-media-canada",
+      "monitor_ids": [
+        "dentsu-media-canada"
+      ]
+    },
+    {
+      "company_id": "dept",
+      "monitor_ids": [
+        "dept"
+      ]
+    },
+    {
+      "company_id": "edelman-canada",
+      "monitor_ids": [
+        "edelman-canada"
+      ]
+    },
+    {
+      "company_id": "epsilon-canada",
+      "monitor_ids": [
+        "epsilon-canada"
+      ]
+    },
+    {
+      "company_id": "fcb-canada",
+      "monitor_ids": [
+        "fcb-canada"
+      ]
+    },
+    {
+      "company_id": "gale",
+      "monitor_ids": [
+        "gale"
+      ]
+    },
+    {
+      "company_id": "hawkeye-canada",
+      "monitor_ids": [
+        "hawkeye-canada"
+      ]
+    },
+    {
+      "company_id": "icuc-social",
+      "monitor_ids": [
+        "icuc-social"
+      ]
+    },
+    {
+      "company_id": "klick-health",
+      "monitor_ids": [
+        "klick-health"
+      ]
+    },
+    {
+      "company_id": "leger",
+      "monitor_ids": [
+        "leger"
+      ]
+    },
+    {
+      "company_id": "leo-burnett-canada",
+      "monitor_ids": [
+        "leo-burnett-canada"
+      ]
+    },
+    {
+      "company_id": "mosaic-canada",
+      "monitor_ids": [
+        "mosaic-canada"
+      ]
+    },
+    {
+      "company_id": "msl-canada",
+      "monitor_ids": [
+        "msl-canada"
+      ]
+    },
+    {
+      "company_id": "national-public-relations",
+      "monitor_ids": [
+        "national-public-relations"
+      ]
+    },
+    {
+      "company_id": "niq-canada",
+      "monitor_ids": [
+        "niq-canada"
+      ]
+    },
+    {
+      "company_id": "north-strategic",
+      "monitor_ids": [
+        "north-strategic"
+      ]
+    },
+    {
+      "company_id": "nurun-canada",
+      "monitor_ids": [
+        "nurun-canada"
+      ]
+    },
+    {
+      "company_id": "ogilvy-canada",
+      "monitor_ids": [
+        "ogilvy-canada"
+      ]
+    },
+    {
+      "company_id": "oliver-canada",
+      "monitor_ids": [
+        "oliver-canada"
+      ]
+    },
+    {
+      "company_id": "publicis-canada",
+      "monitor_ids": [
+        "publicis-canada"
+      ]
+    },
+    {
+      "company_id": "publicis-health-canada",
+      "monitor_ids": [
+        "publicis-health-canada"
+      ]
+    },
+    {
+      "company_id": "publicis-sapient-canada",
+      "monitor_ids": [
+        "publicis-sapient-canada"
+      ]
+    },
+    {
+      "company_id": "saatchi-canada",
+      "monitor_ids": [
+        "saatchi-canada"
+      ]
+    },
+    {
+      "company_id": "salt-xc",
+      "monitor_ids": [
+        "salt-xc"
+      ]
+    },
+    {
+      "company_id": "sid-lee",
+      "monitor_ids": [
+        "sid-lee"
+      ]
+    },
+    {
+      "company_id": "spark-foundry-canada",
+      "monitor_ids": [
+        "spark-foundry-canada"
+      ]
+    },
+    {
+      "company_id": "starcom-canada",
+      "monitor_ids": [
+        "starcom-canada"
+      ]
+    },
+    {
+      "company_id": "thinkingbox",
+      "monitor_ids": [
+        "thinkingbox"
+      ]
+    },
+    {
+      "company_id": "valtech",
+      "monitor_ids": [
+        "valtech"
+      ]
+    },
+    {
+      "company_id": "vaynermedia",
+      "monitor_ids": [
+        "vaynermedia"
+      ]
+    },
+    {
+      "company_id": "viral-nation",
+      "monitor_ids": [
+        "viral-nation"
+      ]
+    },
+    {
+      "company_id": "vml",
+      "monitor_ids": [
+        "vml"
+      ]
+    },
+    {
+      "company_id": "zenith-canada",
+      "monitor_ids": [
+        "zenith-canada"
+      ]
+    },
+    {
+      "company_id": "zulu-alpha-kilo",
+      "monitor_ids": [
+        "zulu-alpha-kilo"
+      ]
+    },
+    {
+      "company_id": "dac",
+      "monitor_ids": [
+        "dac"
+      ]
+    },
+    {
+      "company_id": "horizon-media-canada",
+      "monitor_ids": [
+        "horizon-media-canada"
+      ]
+    },
+    {
+      "company_id": "kantar-canada",
+      "monitor_ids": [
+        "kantar-canada"
+      ]
+    },
+    {
+      "company_id": "merkle-canada",
+      "monitor_ids": [
+        "merkle-canada"
+      ]
+    },
+    {
+      "company_id": "mint",
+      "monitor_ids": [
+        "mint"
+      ]
+    },
+    {
+      "company_id": "monks-canada",
+      "monitor_ids": [
+        "monks-canada"
+      ]
+    },
+    {
+      "company_id": "wpp-media-canada",
+      "monitor_ids": [
+        "wpp-media-canada"
+      ]
+    },
+    {
+      "company_id": "omnicom",
+      "note": "Also in the Fortune collection. Omnicom Group has no validated group-wide monitor; select its listed agencies individually."
+    }
+  ]
+}

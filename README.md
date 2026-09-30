@@ -27,6 +27,25 @@ number of collections:
 
 The app currently accepts `ashby`, `greenhouse`, `lever`, `smartrecruiters`, `workday`, `jobvite`, `json_ld`, `generic_json`, `generic_html`, and `playwright` recipes. Recipe request hosts must appear in `allowed_hosts`, credential-bearing headers are forbidden, company keys and careers URLs must be unique, and each recipe's `careers_url` must match its company.
 
+Company identities may declare `parent_company_id`. Parent organizations are
+display-only grouping metadata: users still select and install each child
+company independently. A company and monitor can be referenced by multiple
+collections, so adding it to Marketing and a ranking collection never copies
+the recipe. Recipes that partition one real feed can declare the same
+`source_key` and typed listing or detail predicates; JobHound briefly reuses the
+bounded responses and applies each company's ownership rules separately.
+
+The **Marketing Agencies — Canada** collection is a phased migration from the
+local Marketing Job Board. Its first release includes 51 deterministic monitors
+and the shared Omnicom Group identity, which currently has no validated
+group-wide monitor. Migrated monitors remain `unverified` until their current
+source results and employer ownership are reviewed. Thirty other enabled agency
+identities are marked unavailable while their collectors need conversion or
+repair; disabled source entries are not published.
+
+See [the Marketing migration ledger](docs/marketing-migration.md) for the
+included source families and the exact conversion backlog.
+
 ## Use the catalog
 
 Consumers should fetch `api/v1/catalog.json`, require catalog version 3, and

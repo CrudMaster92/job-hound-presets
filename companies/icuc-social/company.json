@@ -1,0 +1,26 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "icuc-social",
+  "name": "ICUC Social",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.icuc.social/",
+  "logo_url": "https://www.icuc.social/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "social-content-influencer",
+      "crm-loyalty-lifecycle",
+      "market-research-insights"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "dentsu"
+    ]
+  },
+  "parent_company_id": "dentsu"
+}

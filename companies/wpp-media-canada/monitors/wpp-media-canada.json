@@ -1,0 +1,78 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "wpp-media-canada",
+  "company_id": "wpp-media-canada",
+  "revision": 1,
+  "label": "WPP Media Canada jobs",
+  "careers_url": "https://job-boards.greenhouse.io/wppmedia?offices%5B%5D=4047104008",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": "2026-09-30T00:58:28.658835Z",
+    "job_count": 33,
+    "warnings": [
+      "JobHound live run returned jobs on 2026-09-29; employer attribution and completeness remain under review."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "WPP Media Canada",
+    "careers_url": "https://job-boards.greenhouse.io/wppmedia?offices%5B%5D=4047104008",
+    "strategy": "greenhouse",
+    "allowed_hosts": [
+      "job-boards.greenhouse.io",
+      "boards-api.greenhouse.io"
+    ],
+    "request": {
+      "url": "https://boards-api.greenhouse.io/v1/boards/wppmedia/jobs",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "content": true
+      },
+      "json_body": null,
+      "timeout_seconds": 15,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "board_token": "wppmedia"
+    },
+    "source_filter": {
+      "predicate_match": "any",
+      "predicates": [
+        {
+          "phase": "listing",
+          "path": "offices",
+          "operator": "array_object_field_equals_ci",
+          "label": "id",
+          "values": [
+            "4047104008"
+          ]
+        },
+        {
+          "phase": "listing",
+          "path": "offices",
+          "operator": "array_object_field_equals_ci",
+          "label": "parent_id",
+          "values": [
+            "4047104008"
+          ]
+        }
+      ]
+    }
+  }
+}

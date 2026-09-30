@@ -1,0 +1,71 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "mosaic-canada",
+  "company_id": "mosaic-canada",
+  "revision": 1,
+  "label": "Mosaic Canada jobs",
+  "careers_url": "https://acosta.jobs/locations/can/agency/mosaic/jobs/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": "2026-09-30T00:58:28.658835Z",
+    "job_count": 207,
+    "warnings": [
+      "JobHound live run returned jobs on 2026-09-29; employer attribution and completeness remain under review."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Mosaic Canada",
+    "careers_url": "https://acosta.jobs/locations/can/agency/mosaic/jobs/",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "acosta.jobs"
+    ],
+    "request": {
+      "url": "https://acosta.jobs/locations/can/agency/mosaic/jobs/feeds/json/",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15,
+      "max_response_bytes": 1000000
+    },
+    "pagination": {
+      "kind": "page",
+      "parameter": "page",
+      "page_size_parameter": null,
+      "page_size": 14,
+      "max_pages": 100,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {
+      "source_id": "guid",
+      "title": "title",
+      "location": "location",
+      "url": "url",
+      "description": "description",
+      "posted_date": "date_new"
+    },
+    "metadata": {
+      "platform": "directemployers"
+    },
+    "source_filter": {
+      "predicates": [
+        {
+          "phase": "listing",
+          "path": "country_short",
+          "operator": "equals_ci",
+          "values": [
+            "CAN"
+          ]
+        }
+      ]
+    }
+  }
+}

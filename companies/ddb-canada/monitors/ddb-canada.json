@@ -1,0 +1,57 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "ddb-canada",
+  "company_id": "ddb-canada",
+  "revision": 1,
+  "label": "DDB Canada jobs",
+  "careers_url": "https://jobs.jobvite.com/ddb/jobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": "2026-09-30T00:58:28.658835Z",
+    "job_count": 0,
+    "warnings": [
+      "JobHound live run returned zero jobs on 2026-09-29; no current opening was confirmed."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "DDB Canada",
+    "careers_url": "https://jobs.jobvite.com/ddb/jobs",
+    "strategy": "jobvite",
+    "allowed_hosts": [
+      "jobs.jobvite.com"
+    ],
+    "request": {
+      "url": "https://jobs.jobvite.com/ddb/jobs",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "selectors": {
+      "item": "table.jv-job-list tr",
+      "title": ".jv-job-list-name",
+      "link": ".jv-job-list-name a",
+      "location": ".jv-job-list-location"
+    },
+    "mapping": {},
+    "metadata": {
+      "platform": "jobvite"
+    }
+  }
+}

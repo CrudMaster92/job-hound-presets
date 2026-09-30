@@ -1,0 +1,30 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "mosaic-canada",
+  "name": "Mosaic Canada",
+  "legal_name": null,
+  "aliases": [
+    "Acosta Mosaic"
+  ],
+  "website_url": "https://www.mosaic.com/en/",
+  "logo_url": "https://www.mosaic.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "experiential",
+      "shopper-retail-experiential",
+      "direct-marketing-sales",
+      "creative-advertising",
+      "martech-data-analytics"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "Acosta Group"
+    ]
+  },
+  "parent_company_id": "acosta-group"
+}

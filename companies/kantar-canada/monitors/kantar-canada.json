@@ -1,0 +1,71 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "kantar-canada",
+  "company_id": "kantar-canada",
+  "revision": 1,
+  "label": "Kantar Canada jobs",
+  "careers_url": "https://kantar.wd3.myworkdayjobs.com/en-US/KANTAR",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": "2026-09-30T00:58:28.658835Z",
+    "job_count": 1,
+    "warnings": [
+      "JobHound live run returned jobs on 2026-09-29; employer attribution and completeness remain under review."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Kantar Canada",
+    "careers_url": "https://kantar.wd3.myworkdayjobs.com/en-US/KANTAR",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "kantar.wd3.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://kantar.wd3.myworkdayjobs.com/wday/cxs/kantar/KANTAR/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 15,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 25,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "kantar",
+      "site": "KANTAR",
+      "detail_fetch_limit": 250
+    },
+    "source_filter": {
+      "predicates": [
+        {
+          "phase": "detail",
+          "path": "jobPostingInfo.country.descriptor",
+          "operator": "equals_ci",
+          "values": [
+            "Canada"
+          ]
+        }
+      ]
+    }
+  }
+}

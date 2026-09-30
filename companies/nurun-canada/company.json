@@ -1,0 +1,26 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "nurun-canada",
+  "name": "Nurun Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.nurun.com/",
+  "logo_url": "https://www.nurun.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "web-ux-digital-experience",
+      "martech-data-analytics",
+      "creative-advertising"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "Publicis Groupe"
+    ]
+  },
+  "parent_company_id": "publicis-groupe"
+}

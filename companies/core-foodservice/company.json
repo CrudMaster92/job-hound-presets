@@ -1,0 +1,32 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "core-foodservice",
+  "name": "CORE Foodservice Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://corefoodservice.com/",
+  "logo_url": "https://b3617393.smushcdn.com/3617393/wp-content/uploads/sites/9/2026/07/cropped-full-circle-zest-32x32.png?lossy=1&strip=1&webp=1",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "direct-marketing-sales",
+      "shopper-retail-experiential",
+      "market-research-insights"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "Acosta Group"
+    ]
+  },
+  "parent_company_id": "acosta-group",
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The draft JSON feed mixed jobs from other Acosta agencies. A company-owned source must be validated before this monitor can be published.",
+    "checked_at": "2026-09-30T00:53:28.032653Z"
+  }
+}
