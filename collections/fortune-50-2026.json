@@ -4,7 +4,7 @@
   "id": "fortune-50-2026",
   "revision": 11,
   "name": "Fortune 500 — 2026",
-  "description": "The 500 companies in the 2026 U.S. Fortune 500 list order. Includes 436 companies with 439 installable monitors and 64 unavailable companies with explanations. Coverage is bounded and may be division-specific. Select no more than 200 monitors per handoff; use explicit batches.",
+  "description": "The 500 companies in the 2026 U.S. Fortune 500 list order. Includes 435 companies with 438 installable monitors and 65 unavailable companies with explanations. Coverage is bounded and may be division-specific. Select no more than 200 monitors per handoff; use explicit batches.",
   "tags": [
     "Fortune 500",
     "2026",
@@ -3372,9 +3372,8 @@
       "company_id": "equinix",
       "rank": 436,
       "ranked_name": "Equinix",
-      "monitor_ids": [
-        "equinix"
-      ]
+      "monitor_ids": [],
+      "note": "The official Equinix listing returned HTTP 202 with an empty body during the fresh review; ordinary browser validation also timed out without job rows. No currently validated scraper is published."
     },
     {
       "company_id": "palo-alto-networks",

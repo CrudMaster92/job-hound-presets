@@ -14,5 +14,11 @@
       "2026",
       "United States"
     ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The official Equinix listing returned HTTP 202 with an empty body during the fresh review; ordinary browser validation also timed out without job rows. No currently validated scraper is published.",
+    "checked_at": "2026-09-30T21:01:04.305762+00:00"
   }
 }
