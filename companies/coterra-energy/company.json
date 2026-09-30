@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "coterra-energy",
+  "name": "Coterra Energy",
+  "aliases": [],
+  "website_url": "https://www.coterra.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=coterra.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 500",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The researched Coterra careers URL returned HTTP 404 and the official homepage did not expose a validated replacement listing. This does not establish that the company has no vacancies.",
+    "checked_at": "2026-09-30T16:54:07.465060+00:00"
+  }
+}

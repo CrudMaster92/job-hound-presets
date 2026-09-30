@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "prologis",
+  "name": "Prologis",
+  "aliases": [],
+  "website_url": "https://www.prologis.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=prologis.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 500",
+      "2026",
+      "United States"
+    ]
+  }
+}

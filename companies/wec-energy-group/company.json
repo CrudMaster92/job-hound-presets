@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "wec-energy-group",
+  "name": "WEC Energy Group",
+  "aliases": [],
+  "website_url": "https://www.wecenergygroup.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=wecenergygroup.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 500",
+      "2026",
+      "United States"
+    ]
+  }
+}

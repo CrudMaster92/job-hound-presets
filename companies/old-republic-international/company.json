@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "old-republic-international",
+  "name": "Old Republic International",
+  "aliases": [],
+  "website_url": "https://www.oldrepublic.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=oldrepublic.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 500",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The official Old Republic careers page links to separate subsidiary careers sources and LinkedIn; a company-owned centralized recipe has not been validated.",
+    "checked_at": "2026-09-30T16:54:07.465060+00:00"
+  }
+}

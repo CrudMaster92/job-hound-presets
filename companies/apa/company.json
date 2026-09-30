@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "apa",
+  "name": "APA",
+  "aliases": [],
+  "website_url": "https://www.apacorp.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=apacorp.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 500",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The official Apache/APA public search endpoint returned a shell without normalized listings. A portable live listing recipe remains unresolved.",
+    "checked_at": "2026-09-30T16:54:07.465060+00:00"
+  }
+}

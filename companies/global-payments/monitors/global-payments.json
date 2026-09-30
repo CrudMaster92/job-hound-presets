@@ -1,0 +1,69 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "global-payments",
+  "company_id": "global-payments",
+  "revision": 1,
+  "label": "Global Payments Careers",
+  "careers_url": "https://worldpay.wd5.myworkdayjobs.com/Worldpay_External_Careers_Site",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-30T16:51:20.747004+00:00",
+    "job_count": 20,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run.",
+      "Coverage is the Worldpay division linked by Global Payments’ current official careers listing; other divisions are not included."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Global Payments",
+    "careers_url": "https://worldpay.wd5.myworkdayjobs.com/Worldpay_External_Careers_Site",
+    "strategy": "playwright",
+    "allowed_hosts": [
+      "worldpay.wd5.myworkdayjobs.com",
+      "www.myworkday.com",
+      "www.myworkdaycdn.com",
+      "paradox-tp.myworkdaycdn.com",
+      "wd5.myworkday.com",
+      "wd5.myworkdaycdn.com",
+      "prod-wd5.myworkdaycdn.com"
+    ],
+    "request": {
+      "url": "https://worldpay.wd5.myworkdayjobs.com/Worldpay_External_Careers_Site",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "li:has(a[data-automation-id=\"jobTitle\"])",
+      "title": "a[data-automation-id=\"jobTitle\"]",
+      "link": "a[data-automation-id=\"jobTitle\"]",
+      "location": "[data-automation-id=\"locations\"]"
+    },
+    "mapping": {},
+    "metadata": {
+      "tenant": "worldpay",
+      "site": "Worldpay_External_Careers_Site",
+      "detail_fetch_limit": 20,
+      "partial_listing": true,
+      "wait_selector": "a[data-automation-id=\"jobTitle\"]"
+    }
+  }
+}
