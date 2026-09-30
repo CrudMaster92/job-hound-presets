@@ -1,0 +1,63 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "williams-sonoma",
+  "company_id": "williams-sonoma",
+  "revision": 1,
+  "label": "Williams-Sonoma Careers",
+  "careers_url": "https://ehac.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-30T16:35:56.657340+00:00",
+    "job_count": 25,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run.",
+      "Main Oracle careers board; separate ApplicantStack sources are not included."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Williams-Sonoma",
+    "careers_url": "https://ehac.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
+    "strategy": "playwright",
+    "allowed_hosts": [
+      "ehac.fa.us6.oraclecloud.com",
+      "static.oracle.com"
+    ],
+    "request": {
+      "url": "https://ehac.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": ".job-grid-item, .job-list-item",
+      "title": ".job-tile__title, .job-list-item__title",
+      "link": "a.job-grid-item__link, a.job-list-item__link",
+      "location": "posting-locations",
+      "description": ".job-grid-item__description"
+    },
+    "mapping": {},
+    "metadata": {
+      "wait_selector": ".job-tile__title, .job-list-item__title",
+      "partial_listing": true,
+      "detail_fetch_limit": 5
+    }
+  }
+}

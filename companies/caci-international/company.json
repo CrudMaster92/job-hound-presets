@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "caci-international",
+  "name": "CACI International",
+  "aliases": [],
+  "website_url": "https://www.caci.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=caci.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 500",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The official CACI Eightfold careers page returned zero normalized jobs with a JSON-LD candidate; its dynamic listing needs a validated portable recipe.",
+    "checked_at": "2026-09-30T16:54:07.465060+00:00"
+  }
+}

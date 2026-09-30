@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "western-digital",
+  "company_id": "western-digital",
+  "revision": 1,
+  "label": "Western Digital Careers",
+  "careers_url": "https://careers.smartrecruiters.com/WesternDigital",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-30T16:37:49.369528+00:00",
+    "job_count": 38,
+    "warnings": [
+      "description detail enrichment skipped 33 jobs after the configured 5-posting limit",
+      "description detail enrichment was incomplete for 5 jobs",
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Western Digital",
+    "careers_url": "https://careers.smartrecruiters.com/WesternDigital",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "careers.smartrecruiters.com"
+    ],
+    "request": {
+      "url": "https://careers.smartrecruiters.com/WesternDigital",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "li.opening-job",
+      "title": "h4.job-title",
+      "link": "a.js-job-ad-link",
+      "location": ".location"
+    },
+    "mapping": {},
+    "metadata": {
+      "company_slug": "WesternDigital",
+      "detail_fetch_limit": 5,
+      "partial_listing": true
+    }
+  }
+}

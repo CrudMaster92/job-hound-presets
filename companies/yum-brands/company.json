@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "yum-brands",
+  "name": "Yum Brands",
+  "aliases": [],
+  "website_url": "https://www.yum.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=yum.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 500",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The official Yum jobs landing page did not expose a validated portable listing. A live company-owned recipe remains unresolved.",
+    "checked_at": "2026-09-30T16:54:07.465060+00:00"
+  }
+}

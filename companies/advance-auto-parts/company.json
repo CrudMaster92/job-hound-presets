@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "advance-auto-parts",
+  "name": "Advance Auto Parts",
+  "aliases": [],
+  "website_url": "https://www.advanceautoparts.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=advanceautoparts.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 500",
+      "2026",
+      "United States"
+    ]
+  }
+}

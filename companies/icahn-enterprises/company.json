@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "icahn-enterprises",
+  "name": "Icahn Enterprises",
+  "aliases": [],
+  "website_url": "https://www.ielp.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ielp.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 500",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The official Icahn Enterprises website did not expose a validated centralized vacancies board. Subsidiary employers have not been combined into an invented parent feed.",
+    "checked_at": "2026-09-30T16:54:07.465060+00:00"
+  }
+}

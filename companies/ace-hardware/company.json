@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ace-hardware",
+  "name": "Ace Hardware",
+  "aliases": [],
+  "website_url": "https://www.acehardware.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=acehardware.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 500",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The official Ace search mixes independently owned retailer opportunities. A corporate-owned listing boundary has not been validated; retailer vacancies are not attributed to Ace Hardware Corporation.",
+    "checked_at": "2026-09-30T16:54:07.465060+00:00"
+  }
+}

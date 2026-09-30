@@ -2,12 +2,11 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "fortune-50-2026",
-  "revision": 10,
-  "name": "Fortune 400 — 2026",
-  "description": "The first 400 companies in the 2026 U.S. Fortune 500 list order. Includes 358 companies with 361 installable monitors and 42 unavailable companies with explanations. Coverage is bounded and may be division-specific. Select no more than 200 monitors per handoff; use explicit batches.",
+  "revision": 11,
+  "name": "Fortune 500 — 2026",
+  "description": "The 500 companies in the 2026 U.S. Fortune 500 list order. Includes 436 companies with 439 installable monitors and 64 unavailable companies with explanations. Coverage is bounded and may be division-specific. Select no more than 200 monitors per handoff; use explicit batches.",
   "tags": [
     "Fortune 500",
-    "Fortune 400",
     "2026",
     "United States"
   ],
@@ -3089,6 +3088,795 @@
       "ranked_name": "International Flavors & Fragrances",
       "monitor_ids": [
         "international-flavors-and-fragrances"
+      ]
+    },
+    {
+      "company_id": "welltower",
+      "rank": 401,
+      "ranked_name": "Welltower",
+      "monitor_ids": [
+        "welltower"
+      ]
+    },
+    {
+      "company_id": "jefferies-financial-group",
+      "rank": 402,
+      "ranked_name": "Jefferies Financial Group",
+      "monitor_ids": [],
+      "note": "The official Jefferies careers endpoint returned HTTP 523; no portable listing recipe passed live validation."
+    },
+    {
+      "company_id": "autoliv",
+      "rank": 403,
+      "ranked_name": "Autoliv",
+      "monitor_ids": [
+        "autoliv"
+      ],
+      "note": "Bounded Autoliv group listing; includes country-level Autoliv boards."
+    },
+    {
+      "company_id": "mohawk-industries",
+      "rank": 404,
+      "ranked_name": "Mohawk Industries",
+      "monitor_ids": [
+        "mohawk-industries"
+      ]
+    },
+    {
+      "company_id": "delek-us-holdings",
+      "rank": 405,
+      "ranked_name": "Delek US Holdings",
+      "monitor_ids": [
+        "delek-us-holdings"
+      ]
+    },
+    {
+      "company_id": "fidelity-national-information-services",
+      "rank": 406,
+      "ranked_name": "Fidelity National Information Services",
+      "monitor_ids": [
+        "fidelity-national-information-services"
+      ]
+    },
+    {
+      "company_id": "accendra-health",
+      "rank": 407,
+      "ranked_name": "Accendra Health",
+      "monitor_ids": [
+        "accendra-health"
+      ]
+    },
+    {
+      "company_id": "american-tower",
+      "rank": 408,
+      "ranked_name": "American Tower",
+      "monitor_ids": [
+        "american-tower"
+      ]
+    },
+    {
+      "company_id": "nvr",
+      "rank": 409,
+      "ranked_name": "NVR",
+      "monitor_ids": [
+        "nvr"
+      ]
+    },
+    {
+      "company_id": "interactive-brokers-group",
+      "rank": 410,
+      "ranked_name": "Interactive Brokers Group",
+      "monitor_ids": [
+        "interactive-brokers-group"
+      ]
+    },
+    {
+      "company_id": "oshkosh",
+      "rank": 411,
+      "ranked_name": "Oshkosh",
+      "monitor_ids": [
+        "oshkosh"
+      ]
+    },
+    {
+      "company_id": "cintas",
+      "rank": 412,
+      "ranked_name": "Cintas",
+      "monitor_ids": [
+        "cintas"
+      ]
+    },
+    {
+      "company_id": "campbell-s",
+      "rank": 413,
+      "ranked_name": "Campbell's",
+      "monitor_ids": [
+        "campbell-s"
+      ]
+    },
+    {
+      "company_id": "vertiv-holdings",
+      "rank": 414,
+      "ranked_name": "Vertiv Holdings",
+      "monitor_ids": [
+        "vertiv-holdings"
+      ]
+    },
+    {
+      "company_id": "global-payments",
+      "rank": 415,
+      "ranked_name": "Global Payments",
+      "monitor_ids": [
+        "global-payments"
+      ],
+      "note": "Coverage is the Worldpay division linked by Global Payments’ current official careers listing; other divisions are not included."
+    },
+    {
+      "company_id": "constellation-brands",
+      "rank": 416,
+      "ranked_name": "Constellation Brands",
+      "monitor_ids": [
+        "constellation-brands"
+      ]
+    },
+    {
+      "company_id": "agco",
+      "rank": 417,
+      "ranked_name": "AGCO",
+      "monitor_ids": [
+        "agco"
+      ]
+    },
+    {
+      "company_id": "intuitive-surgical",
+      "rank": 418,
+      "ranked_name": "Intuitive Surgical",
+      "monitor_ids": [],
+      "note": "The official Intuitive careers listing returned HTTP 403. No access controls were bypassed."
+    },
+    {
+      "company_id": "ace-hardware",
+      "rank": 419,
+      "ranked_name": "Ace Hardware",
+      "monitor_ids": [],
+      "note": "The official Ace search mixes independently owned retailer opportunities. A corporate-owned listing boundary has not been validated; retailer vacancies are not attributed to Ace Hardware Corporation."
+    },
+    {
+      "company_id": "dana",
+      "rank": 420,
+      "ranked_name": "Dana",
+      "monitor_ids": [
+        "dana"
+      ]
+    },
+    {
+      "company_id": "biogen",
+      "rank": 421,
+      "ranked_name": "Biogen",
+      "monitor_ids": [
+        "biogen"
+      ]
+    },
+    {
+      "company_id": "news-corp",
+      "rank": 422,
+      "ranked_name": "News Corp.",
+      "monitor_ids": [
+        "news-corp"
+      ],
+      "note": "The official News Corp feed includes group subsidiaries such as REA Group and Dow Jones."
+    },
+    {
+      "company_id": "concentrix",
+      "rank": 423,
+      "ranked_name": "Concentrix",
+      "monitor_ids": [
+        "concentrix"
+      ]
+    },
+    {
+      "company_id": "wec-energy-group",
+      "rank": 424,
+      "ranked_name": "WEC Energy Group",
+      "monitor_ids": [
+        "wec-energy-group"
+      ]
+    },
+    {
+      "company_id": "vf",
+      "rank": 425,
+      "ranked_name": "VF",
+      "monitor_ids": [
+        "vf"
+      ]
+    },
+    {
+      "company_id": "seaboard",
+      "rank": 426,
+      "ranked_name": "Seaboard",
+      "monitor_ids": [],
+      "note": "The official Seaboard corporate careers page links to an ADP board. A portable listing recipe with direct source URLs has not been validated."
+    },
+    {
+      "company_id": "icahn-enterprises",
+      "rank": 427,
+      "ranked_name": "Icahn Enterprises",
+      "monitor_ids": [],
+      "note": "The official Icahn Enterprises website did not expose a validated centralized vacancies board. Subsidiary employers have not been combined into an invented parent feed."
+    },
+    {
+      "company_id": "regions-financial",
+      "rank": 428,
+      "ranked_name": "Regions Financial",
+      "monitor_ids": [
+        "regions-financial"
+      ]
+    },
+    {
+      "company_id": "thor-industries",
+      "rank": 429,
+      "ranked_name": "Thor Industries",
+      "monitor_ids": [],
+      "note": "The official THOR headquarters careers page links to an ADP board. A portable listing recipe with direct job URLs has not been validated."
+    },
+    {
+      "company_id": "workday",
+      "rank": 430,
+      "ranked_name": "Workday",
+      "monitor_ids": [
+        "workday"
+      ]
+    },
+    {
+      "company_id": "celanese",
+      "rank": 431,
+      "ranked_name": "Celanese",
+      "monitor_ids": [
+        "celanese"
+      ]
+    },
+    {
+      "company_id": "western-digital",
+      "rank": 432,
+      "ranked_name": "Western Digital",
+      "monitor_ids": [
+        "western-digital"
+      ]
+    },
+    {
+      "company_id": "qvc-group",
+      "rank": 433,
+      "ranked_name": "QVC Group",
+      "monitor_ids": [
+        "qvc-group"
+      ],
+      "note": "US QVC Group Workday board only; the separate European board is not included."
+    },
+    {
+      "company_id": "zoetis",
+      "rank": 434,
+      "ranked_name": "Zoetis",
+      "monitor_ids": [
+        "zoetis"
+      ]
+    },
+    {
+      "company_id": "centerpoint-energy",
+      "rank": 435,
+      "ranked_name": "CenterPoint Energy",
+      "monitor_ids": [
+        "centerpoint-energy"
+      ]
+    },
+    {
+      "company_id": "equinix",
+      "rank": 436,
+      "ranked_name": "Equinix",
+      "monitor_ids": [
+        "equinix"
+      ]
+    },
+    {
+      "company_id": "palo-alto-networks",
+      "rank": 437,
+      "ranked_name": "Palo Alto Networks",
+      "monitor_ids": [
+        "palo-alto-networks"
+      ]
+    },
+    {
+      "company_id": "apa",
+      "rank": 438,
+      "ranked_name": "APA",
+      "monitor_ids": [],
+      "note": "The official Apache/APA public search endpoint returned a shell without normalized listings. A portable live listing recipe remains unresolved."
+    },
+    {
+      "company_id": "old-republic-international",
+      "rank": 439,
+      "ranked_name": "Old Republic International",
+      "monitor_ids": [],
+      "note": "The official Old Republic careers page links to separate subsidiary careers sources and LinkedIn; a company-owned centralized recipe has not been validated."
+    },
+    {
+      "company_id": "comfort-systems-usa",
+      "rank": 440,
+      "ranked_name": "Comfort Systems USA",
+      "monitor_ids": [],
+      "note": "The official Comfort Systems USA careers page returned HTTP 403. No access controls were bypassed."
+    },
+    {
+      "company_id": "jetblue-airways",
+      "rank": 441,
+      "ranked_name": "JetBlue Airways",
+      "monitor_ids": [
+        "jetblue-airways"
+      ]
+    },
+    {
+      "company_id": "ppl",
+      "rank": 442,
+      "ranked_name": "PPL",
+      "monitor_ids": [],
+      "note": "The official PPL iCIMS page requires client-side listing extraction. No portable recipe with normalized direct job links passed validation in this batch."
+    },
+    {
+      "company_id": "xylem",
+      "rank": 443,
+      "ranked_name": "Xylem",
+      "monitor_ids": [
+        "xylem"
+      ]
+    },
+    {
+      "company_id": "arista-networks",
+      "rank": 444,
+      "ranked_name": "Arista Networks",
+      "monitor_ids": [
+        "arista-networks"
+      ],
+      "note": "Bounded SmartRecruiters landing page; per-job cities may be unavailable."
+    },
+    {
+      "company_id": "packaging-corp-of-america",
+      "rank": 445,
+      "ranked_name": "Packaging Corp. of America",
+      "monitor_ids": [
+        "packaging-corp-of-america"
+      ]
+    },
+    {
+      "company_id": "pvh",
+      "rank": 446,
+      "ranked_name": "PVH",
+      "monitor_ids": [
+        "pvh"
+      ]
+    },
+    {
+      "company_id": "ovintiv",
+      "rank": 447,
+      "ranked_name": "Ovintiv",
+      "monitor_ids": [
+        "ovintiv"
+      ]
+    },
+    {
+      "company_id": "avery-dennison",
+      "rank": 448,
+      "ranked_name": "Avery Dennison",
+      "monitor_ids": [
+        "avery-dennison"
+      ],
+      "note": "Bounded SmartRecruiters landing page; per-job cities may be unavailable."
+    },
+    {
+      "company_id": "transdigm-group",
+      "rank": 449,
+      "ranked_name": "TransDigm Group",
+      "monitor_ids": [],
+      "note": "The official TransDigm careers page returned HTTP 403. No access controls were bypassed."
+    },
+    {
+      "company_id": "sprouts-farmers-market",
+      "rank": 450,
+      "ranked_name": "Sprouts Farmers Market",
+      "monitor_ids": [],
+      "note": "The official Sprouts listing returned HTTP 403 in a normal browser. No access controls were bypassed."
+    },
+    {
+      "company_id": "prologis",
+      "rank": 451,
+      "ranked_name": "Prologis",
+      "monitor_ids": [
+        "prologis"
+      ]
+    },
+    {
+      "company_id": "franklin-resources",
+      "rank": 452,
+      "ranked_name": "Franklin Resources",
+      "monitor_ids": [],
+      "note": "The indexed Franklin Templeton Workday board returned zero jobs in a fresh runtime check; the branded careers listing needs a current validated recipe."
+    },
+    {
+      "company_id": "eastman-chemical",
+      "rank": 453,
+      "ranked_name": "Eastman Chemical",
+      "monitor_ids": [
+        "eastman-chemical"
+      ]
+    },
+    {
+      "company_id": "abm-industries",
+      "rank": 454,
+      "ranked_name": "ABM Industries",
+      "monitor_ids": [
+        "abm-industries"
+      ]
+    },
+    {
+      "company_id": "nov",
+      "rank": 455,
+      "ranked_name": "NOV",
+      "monitor_ids": [
+        "nov"
+      ]
+    },
+    {
+      "company_id": "j-m-smucker",
+      "rank": 456,
+      "ranked_name": "J.M. Smucker",
+      "monitor_ids": [
+        "j-m-smucker"
+      ],
+      "note": "US Smucker careers board only; the separate Canada board is not included."
+    },
+    {
+      "company_id": "securian-financial-group",
+      "rank": 457,
+      "ranked_name": "Securian Financial Group",
+      "monitor_ids": [
+        "securian-financial-group"
+      ]
+    },
+    {
+      "company_id": "eqt",
+      "rank": 458,
+      "ranked_name": "EQT",
+      "monitor_ids": [
+        "eqt"
+      ]
+    },
+    {
+      "company_id": "caci-international",
+      "rank": 459,
+      "ranked_name": "CACI International",
+      "monitor_ids": [],
+      "note": "The official CACI Eightfold careers page returned zero normalized jobs with a JSON-LD candidate; its dynamic listing needs a validated portable recipe."
+    },
+    {
+      "company_id": "graphic-packaging-holding",
+      "rank": 460,
+      "ranked_name": "Graphic Packaging Holding",
+      "monitor_ids": [
+        "graphic-packaging-holding"
+      ]
+    },
+    {
+      "company_id": "advance-auto-parts",
+      "rank": 461,
+      "ranked_name": "Advance Auto Parts",
+      "monitor_ids": [
+        "advance-auto-parts"
+      ]
+    },
+    {
+      "company_id": "optimum-communications",
+      "rank": 462,
+      "ranked_name": "Optimum Communications",
+      "monitor_ids": [
+        "optimum-communications"
+      ]
+    },
+    {
+      "company_id": "sirius-xm-holdings",
+      "rank": 463,
+      "ranked_name": "Sirius XM Holdings",
+      "monitor_ids": [],
+      "note": "The official SiriusXM iCIMS listing requires client-side extraction. No portable listing recipe passed live validation in this batch."
+    },
+    {
+      "company_id": "cms-energy",
+      "rank": 464,
+      "ranked_name": "CMS Energy",
+      "monitor_ids": [
+        "cms-energy"
+      ]
+    },
+    {
+      "company_id": "hertz-global-holdings",
+      "rank": 465,
+      "ranked_name": "Hertz Global Holdings",
+      "monitor_ids": [
+        "hertz-global-holdings"
+      ]
+    },
+    {
+      "company_id": "ameren",
+      "rank": 466,
+      "ranked_name": "Ameren",
+      "monitor_ids": [
+        "ameren"
+      ]
+    },
+    {
+      "company_id": "rockwell-automation",
+      "rank": 467,
+      "ranked_name": "Rockwell Automation",
+      "monitor_ids": [
+        "rockwell-automation"
+      ]
+    },
+    {
+      "company_id": "solventum",
+      "rank": 468,
+      "ranked_name": "Solventum",
+      "monitor_ids": [
+        "solventum"
+      ]
+    },
+    {
+      "company_id": "monster-beverage",
+      "rank": 469,
+      "ranked_name": "Monster Beverage",
+      "monitor_ids": [],
+      "note": "The official Monster Energy careers endpoint returned HTTP 403. No access controls were bypassed."
+    },
+    {
+      "company_id": "nasdaq",
+      "rank": 470,
+      "ranked_name": "Nasdaq",
+      "monitor_ids": [
+        "nasdaq"
+      ]
+    },
+    {
+      "company_id": "howmet-aerospace",
+      "rank": 471,
+      "ranked_name": "Howmet Aerospace",
+      "monitor_ids": [
+        "howmet-aerospace"
+      ]
+    },
+    {
+      "company_id": "insight-enterprises",
+      "rank": 472,
+      "ranked_name": "Insight Enterprises",
+      "monitor_ids": [
+        "insight-enterprises"
+      ]
+    },
+    {
+      "company_id": "zimmer-biomet-holdings",
+      "rank": 473,
+      "ranked_name": "Zimmer Biomet Holdings",
+      "monitor_ids": [
+        "zimmer-biomet-holdings"
+      ]
+    },
+    {
+      "company_id": "yum-brands",
+      "rank": 474,
+      "ranked_name": "Yum Brands",
+      "monitor_ids": [],
+      "note": "The official Yum jobs landing page did not expose a validated portable listing. A live company-owned recipe remains unresolved."
+    },
+    {
+      "company_id": "fastenal",
+      "rank": 475,
+      "ranked_name": "Fastenal",
+      "monitor_ids": [
+        "fastenal"
+      ]
+    },
+    {
+      "company_id": "marvell-technology",
+      "rank": 476,
+      "ranked_name": "Marvell Technology",
+      "monitor_ids": [
+        "marvell-technology"
+      ]
+    },
+    {
+      "company_id": "voya-financial",
+      "rank": 477,
+      "ranked_name": "Voya Financial",
+      "monitor_ids": [
+        "voya-financial"
+      ]
+    },
+    {
+      "company_id": "american-financial-group",
+      "rank": 478,
+      "ranked_name": "American Financial Group",
+      "monitor_ids": [
+        "american-financial-group"
+      ],
+      "note": "Great American Insurance Group division careers board; other AFG businesses are not included."
+    },
+    {
+      "company_id": "post-holdings",
+      "rank": 479,
+      "ranked_name": "Post Holdings",
+      "monitor_ids": [],
+      "note": "The official Post Holdings jobs search returned HTTP 403 in a normal browser. No access controls were bypassed."
+    },
+    {
+      "company_id": "xpo",
+      "rank": 480,
+      "ranked_name": "XPO",
+      "monitor_ids": [
+        "xpo"
+      ]
+    },
+    {
+      "company_id": "dupont",
+      "rank": 481,
+      "ranked_name": "DuPont",
+      "monitor_ids": [
+        "dupont"
+      ]
+    },
+    {
+      "company_id": "sanmina",
+      "rank": 482,
+      "ranked_name": "Sanmina",
+      "monitor_ids": [
+        "sanmina"
+      ]
+    },
+    {
+      "company_id": "taylor-morrison-home",
+      "rank": 483,
+      "ranked_name": "Taylor Morrison Home",
+      "monitor_ids": [
+        "taylor-morrison-home"
+      ]
+    },
+    {
+      "company_id": "dover",
+      "rank": 484,
+      "ranked_name": "Dover",
+      "monitor_ids": [
+        "dover"
+      ]
+    },
+    {
+      "company_id": "vulcan-materials",
+      "rank": 485,
+      "ranked_name": "Vulcan Materials",
+      "monitor_ids": [
+        "vulcan-materials"
+      ]
+    },
+    {
+      "company_id": "api-group",
+      "rank": 486,
+      "ranked_name": "APi Group",
+      "monitor_ids": [],
+      "note": "The official APi Group careers endpoint returned HTTP 403. No access controls were bypassed."
+    },
+    {
+      "company_id": "roper-technologies",
+      "rank": 487,
+      "ranked_name": "Roper Technologies",
+      "monitor_ids": [],
+      "note": "The official Roper website did not expose a validated centralized listing; operating-company feeds have not been attributed to the parent without ownership evidence."
+    },
+    {
+      "company_id": "kbr",
+      "rank": 488,
+      "ranked_name": "KBR",
+      "monitor_ids": [
+        "kbr"
+      ]
+    },
+    {
+      "company_id": "sonoco-products",
+      "rank": 489,
+      "ranked_name": "Sonoco Products",
+      "monitor_ids": [
+        "sonoco-products"
+      ]
+    },
+    {
+      "company_id": "williams-sonoma",
+      "rank": 490,
+      "ranked_name": "Williams-Sonoma",
+      "monitor_ids": [
+        "williams-sonoma"
+      ],
+      "note": "Main Oracle careers board; separate ApplicantStack sources are not included."
+    },
+    {
+      "company_id": "commercial-metals",
+      "rank": 491,
+      "ranked_name": "Commercial Metals",
+      "monitor_ids": [
+        "commercial-metals"
+      ]
+    },
+    {
+      "company_id": "moody-s",
+      "rank": 492,
+      "ranked_name": "Moody's",
+      "monitor_ids": [
+        "moody-s"
+      ]
+    },
+    {
+      "company_id": "continental-resources",
+      "rank": 493,
+      "ranked_name": "Continental Resources",
+      "monitor_ids": [
+        "continental-resources"
+      ]
+    },
+    {
+      "company_id": "ingersoll-rand",
+      "rank": 494,
+      "ranked_name": "Ingersoll Rand",
+      "monitor_ids": [
+        "ingersoll-rand"
+      ]
+    },
+    {
+      "company_id": "core-main",
+      "rank": 495,
+      "ranked_name": "Core & Main",
+      "monitor_ids": [
+        "core-main"
+      ],
+      "note": "Only the first displayed job is normalized from the source’s grouped anchor cards; this is deliberately limited coverage."
+    },
+    {
+      "company_id": "coterra-energy",
+      "rank": 496,
+      "ranked_name": "Coterra Energy",
+      "monitor_ids": [],
+      "note": "The researched Coterra careers URL returned HTTP 404 and the official homepage did not expose a validated replacement listing. This does not establish that the company has no vacancies."
+    },
+    {
+      "company_id": "primoris-services",
+      "rank": 497,
+      "ranked_name": "Primoris Services",
+      "monitor_ids": [
+        "primoris-services"
+      ],
+      "note": "The official board includes talent-pipeline opportunities alongside vacancies; counts are not exclusively confirmed open positions."
+    },
+    {
+      "company_id": "masco",
+      "rank": 498,
+      "ranked_name": "Masco",
+      "monitor_ids": [
+        "masco"
+      ]
+    },
+    {
+      "company_id": "somnigroup-international",
+      "rank": 499,
+      "ranked_name": "Somnigroup International",
+      "monitor_ids": [],
+      "note": "The official Somnigroup website returned HTTP 403; a current parent or subsidiary listing recipe has not been validated. No access controls were bypassed."
+    },
+    {
+      "company_id": "resideo-technologies",
+      "rank": 500,
+      "ranked_name": "Resideo Technologies",
+      "monitor_ids": [
+        "resideo-technologies"
       ]
     }
   ]

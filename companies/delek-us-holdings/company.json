@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "delek-us-holdings",
+  "name": "Delek US Holdings",
+  "aliases": [],
+  "website_url": "https://www.delekus.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=delekus.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 500",
+      "2026",
+      "United States"
+    ]
+  }
+}

@@ -7,13 +7,13 @@ const context = { TextEncoder, btoa, state: {catalog: {source_commit:'test', col
 vm.createContext(context);
 vm.runInContext(source.slice(source.indexOf('function selectable('), source.indexOf('function openJobHound(')), context);
 vm.runInContext(source.slice(source.indexOf('async function openCollection('), source.indexOf('function renderDrawer(')), context);
-const members = Array.from({length:361}, (_,i)=>({company_id:`company-${i}`, monitors:[{id:`monitor-${i}`,verification:{status:'verified'}}]}));
+const members = Array.from({length:439}, (_,i)=>({company_id:`company-${i}`, monitors:[{id:`monitor-${i}`,verification:{status:'verified'}}]}));
 context.collectionMembers = async()=>members;
 (async()=>{
   await context.openCollection('fortune-50-2026');
   assert.equal(context.state.drawer.chosen.size, 0);
   const selections = members.map(c=>context.selection(c,c.monitors[0]));
-  for (const batch of [selections.slice(0,200), selections.slice(200)]) {
+  for (const batch of [selections.slice(0,200), selections.slice(200,400), selections.slice(400)]) {
     const payload = JSON.parse(Buffer.from(context.encodeHandoff('collection',batch,'fortune-50-2026'),'base64url').toString());
     assert.deepEqual(payload.selections,batch);
     assert.equal(payload.collection_id,'fortune-50-2026');
@@ -23,5 +23,5 @@ context.collectionMembers = async()=>members;
   context.collectionMembers = async()=>members.slice(0,200);
   await context.openCollection('fortune-50-2026');
   assert.equal(context.state.drawer.chosen.size,200);
-  console.log('Large collection starts empty; exact 200/161 batches; empty and oversized handoffs rejected.');
+  console.log('Large collection starts empty; exact 200/200/39 batches; empty and oversized handoffs rejected.');
 })().catch(error=>{console.error(error);process.exitCode=1;});

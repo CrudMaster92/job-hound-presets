@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "core-main",
+  "company_id": "core-main",
+  "revision": 1,
+  "label": "Core & Main Careers",
+  "careers_url": "https://jobs.coreandmain.com/p/coreandmain/jobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-30T16:37:49.372559+00:00",
+    "job_count": 1,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run.",
+      "Only the first displayed job is normalized from the source’s grouped anchor cards; this is deliberately limited coverage."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Core & Main",
+    "careers_url": "https://jobs.coreandmain.com/p/coreandmain/jobs",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "jobs.coreandmain.com"
+    ],
+    "request": {
+      "url": "https://jobs.coreandmain.com/p/coreandmain/jobs",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": ".ViewRows",
+      "title": ".job-title",
+      "link": "a.JobBoardCard",
+      "location": ".meta-info > div:first-child"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 5,
+      "coverage_note": "First displayed job per category only; the source currently exposes anchor cards without an individual enclosing row."
+    }
+  }
+}

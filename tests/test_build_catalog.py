@@ -85,23 +85,23 @@ class CatalogBuildTests(unittest.TestCase):
             api = output / "api" / "v1"
             self.assertTrue(all(page["count"] <= 250 for page in catalog["search_pages"]))
             fortune = next(value for value in catalog["collections"] if value["id"] == "fortune-50-2026")
-            self.assertEqual(fortune["company_count"], 400)
-            self.assertEqual(fortune["monitor_count"], 361)
+            self.assertEqual(fortune["company_count"], 500)
+            self.assertEqual(fortune["monitor_count"], 439)
             detail = json.loads((api / fortune["path"]).read_text(encoding="utf-8"))
             self.assertTrue(all(page["count"] <= 100 for page in detail["member_pages"]))
-            self.assertEqual([page["count"] for page in detail["member_pages"]], [100, 100, 100, 100])
+            self.assertEqual([page["count"] for page in detail["member_pages"]], [100, 100, 100, 100, 100])
             members = {"companies": [
                 member for page in detail["member_pages"]
                 for member in json.loads((api / page["path"]).read_text(encoding="utf-8"))["companies"]
             ]}
             self.assertTrue(all(member["logo_url"] for member in members["companies"]))
-            self.assertEqual(len({member["company_id"] for member in members["companies"]}), 400)
+            self.assertEqual(len({member["company_id"] for member in members["companies"]}), 500)
             bundle = json.loads((api / fortune["bundle_path"]).read_text(encoding="utf-8"))
-            self.assertEqual(len(bundle["companies"]), 361)
-            self.assertEqual(len(members["companies"]), 400)
+            self.assertEqual(len(bundle["companies"]), 439)
+            self.assertEqual(len(members["companies"]), 500)
             self.assertEqual(members["companies"][0]["rank"], 1)
-            self.assertEqual(members["companies"][-1]["rank"], 400)
-            self.assertEqual([m["rank"] for m in members["companies"]], [160 if rank == 161 else 350 if rank == 351 else rank for rank in range(1, 401)])
+            self.assertEqual(members["companies"][-1]["rank"], 500)
+            self.assertEqual([m["rank"] for m in members["companies"]], [160 if rank == 161 else 350 if rank == 351 else rank for rank in range(1, 501)])
             unavailable = [m for m in members["companies"] if not m["monitors"]]
             self.assertEqual({m["company_id"] for m in unavailable}, {
                 "progressive", "hca-healthcare", "delta-air-lines", "publix",
@@ -111,6 +111,10 @@ class CatalogBuildTests(unittest.TestCase):
                 "targa-resources", "murphy-usa", "kinder-morgan", "consolidated-edison", "farmers-insurance",
                 "caseys", "raymond-james", "principal-financial", "fluor", "gap", "builders-firstsource", "stanley-black-decker", "sempra", "wayfair",
                 "equitable-holdings", "caesars-entertainment", "thrivent-financial", "westlake", "lululemon-athletica", "fm",
+                "jefferies-financial-group", "intuitive-surgical", "ace-hardware", "seaboard", "icahn-enterprises", "thor-industries",
+                "apa", "old-republic-international", "comfort-systems-usa", "ppl", "transdigm-group", "sprouts-farmers-market",
+                "franklin-resources", "caci-international", "sirius-xm-holdings", "monster-beverage", "yum-brands", "post-holdings",
+                "api-group", "roper-technologies", "coterra-energy", "somnigroup-international",
             })
             for member in unavailable:
                 self.assertEqual(member["availability"]["status"], "unavailable")

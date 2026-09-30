@@ -1,0 +1,64 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "welltower",
+  "company_id": "welltower",
+  "revision": 1,
+  "label": "Welltower Careers",
+  "careers_url": "https://recruiting.ultipro.com/WEL1008WLLT/JobBoard/30969ce4-3b7e-40a6-b86c-34d3616fe0ed",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-30T16:49:37.560249+00:00",
+    "job_count": 50,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Welltower",
+    "careers_url": "https://recruiting.ultipro.com/WEL1008WLLT/JobBoard/30969ce4-3b7e-40a6-b86c-34d3616fe0ed",
+    "strategy": "playwright",
+    "allowed_hosts": [
+      "recruiting.ultipro.com",
+      "rec-cdn-prod.cdn.ultipro.com",
+      "ignite.cdn.ultipro.com"
+    ],
+    "request": {
+      "url": "https://recruiting.ultipro.com/WEL1008WLLT/JobBoard/30969ce4-3b7e-40a6-b86c-34d3616fe0ed/",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": ".opportunity",
+      "title": "a.opportunity-link",
+      "link": "a.opportunity-link",
+      "location": "[data-automation=\"location-description\"]",
+      "employment_type": "[data-automation=\"job-hours\"]",
+      "description": "[data-automation=\"job-brief-description\"]"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 20,
+      "wait_selector": "a.opportunity-link"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "arista-networks",
+  "name": "Arista Networks",
+  "aliases": [],
+  "website_url": "https://www.arista.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=arista.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 500",
+      "2026",
+      "United States"
+    ]
+  }
+}

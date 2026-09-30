@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "eastman-chemical",
+  "name": "Eastman Chemical",
+  "aliases": [],
+  "website_url": "https://www.eastman.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=eastman.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 500",
+      "2026",
+      "United States"
+    ]
+  }
+}

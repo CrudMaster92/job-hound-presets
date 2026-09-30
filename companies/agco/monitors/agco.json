@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "agco",
+  "company_id": "agco",
+  "revision": 1,
+  "label": "AGCO Careers",
+  "careers_url": "https://careers.agcocorp.com/search",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-30T16:27:45.189131+00:00",
+    "job_count": 25,
+    "warnings": [
+      "description detail enrichment skipped 20 jobs after the configured 5-posting limit",
+      "description detail enrichment was incomplete for 5 jobs",
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "AGCO",
+    "careers_url": "https://careers.agcocorp.com/search",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "careers.agcocorp.com"
+    ],
+    "request": {
+      "url": "https://careers.agcocorp.com/search/",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "tr.data-row",
+      "title": "a.jobTitle-link",
+      "link": "a.jobTitle-link",
+      "location": "span.jobLocation"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 5
+    }
+  }
+}
