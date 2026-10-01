@@ -18,7 +18,7 @@
   "availability": {
     "status": "unavailable",
     "reason": "access-restricted",
-    "message": "The official careers site presents an access challenge in a normal browser and returns HTTP 403.",
-    "checked_at": "2026-09-14T23:22:58.397854+00:00"
+    "message": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation.",
+    "checked_at": "2026-10-01T00:21:26.838864+00:00"
   }
 }

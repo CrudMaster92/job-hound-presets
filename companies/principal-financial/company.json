@@ -18,7 +18,7 @@
   "availability": {
     "status": "unavailable",
     "reason": "access-restricted",
-    "message": "The public careers search returns 403 Forbidden in a normal browser; the linked iCIMS page did not expose usable listings.",
-    "checked_at": "2026-09-14T23:22:58.397854+00:00"
+    "message": "The public iCIMS board displays 403 Forbidden in an ordinary browser and yielded no usable listings.",
+    "checked_at": "2026-10-01T00:21:26.838864+00:00"
   }
 }

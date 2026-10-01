@@ -14,11 +14,5 @@
       "2026",
       "United States"
     ]
-  },
-  "availability": {
-    "status": "unavailable",
-    "reason": "access-restricted",
-    "message": "The official careers site returns HTTP 503 and says access has been limited by the site owner, including in a normal browser. No access controls were bypassed.",
-    "checked_at": "2026-09-12T12:56:44.667790+00:00"
   }
 }

@@ -18,7 +18,7 @@
   "availability": {
     "status": "unavailable",
     "reason": "access-restricted",
-    "message": "The officially linked SelectMinds job board shows Access Forbidden in a normal browser. No access controls were bypassed.",
-    "checked_at": "2026-09-14T23:22:58.397854+00:00"
+    "message": "A normal browser returned ten Targa listing cards, but the representative direct job-detail page returned Access Forbidden (403). Usable source links must be validated before installation.",
+    "checked_at": "2026-10-01T00:21:26.838864+00:00"
   }
 }

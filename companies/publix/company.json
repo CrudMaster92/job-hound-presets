@@ -9,8 +9,8 @@
   "availability": {
     "status": "unavailable",
     "reason": "regional-restriction",
-    "message": "The job board is unavailable from this region. This Fortune company is listed while a repeatable public source is being repaired.",
-    "checked_at": "2026-09-04T19:00:00Z"
+    "message": "The public jobs page explicitly states that the site is not fully available outside the United States. No location restriction was bypassed.",
+    "checked_at": "2026-10-01T00:21:26.838864+00:00"
   },
   "facets": {
     "industries": [],

@@ -8,9 +8,9 @@
   "logo_url": "https://www.google.com/s2/favicons?domain=delta.com&sz=128",
   "availability": {
     "status": "unavailable",
-    "reason": "maintenance",
-    "message": "The official job board is currently under maintenance. Job monitoring will become available after the board returns and the scraper is verified.",
-    "checked_at": "2026-09-04T19:00:00Z"
+    "reason": "repair-needed",
+    "message": "The public Delta Avature board returned HTTP 202 with an empty page in both HTTP and ordinary-browser checks; no listing was validated. The former maintenance explanation is not confirmed by this check.",
+    "checked_at": "2026-10-01T00:21:26.838864+00:00"
   },
   "facets": {
     "industries": [],

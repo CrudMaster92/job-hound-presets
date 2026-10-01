@@ -1,0 +1,1956 @@
+{
+  "checked_at": "2026-10-01T00:21:26.838864+00:00",
+  "scope": "First 33 previously unavailable Fortune companies by rank (51–296)",
+  "tested_companies": 33,
+  "repaired_companies": [
+    "lithia",
+    "bjs-wholesale",
+    "american-family",
+    "general-mills",
+    "pultegroup",
+    "farmers-insurance",
+    "raymond-james",
+    "fluor",
+    "gap"
+  ],
+  "repaired_count": 9,
+  "remaining_in_batch": 24,
+  "total_unavailable_after": 56,
+  "companies": [
+    {
+      "company_id": "progressive",
+      "name": "Progressive",
+      "rank": 51,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "access-restricted",
+        "message": "The job board currently blocks unattended checks. This Fortune company is listed while its scraper needs a supported public endpoint.",
+        "checked_at": "2026-09-04T19:00:00Z"
+      },
+      "http_recheck": {
+        "id": "progressive",
+        "name": "Progressive",
+        "rank": 51,
+        "checked_at": "2026-10-01T00:04:57.457287+00:00",
+        "url": "https://careers.progressive.com/",
+        "status": 403,
+        "final_url": "https://careers.progressive.com/",
+        "title": "Just a moment...",
+        "links": []
+      },
+      "browser_recheck": {
+        "id": "progressive",
+        "url": "https://careers.progressive.com/",
+        "status": 403,
+        "title": "Just a moment...",
+        "text": "",
+        "links": []
+      },
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation."
+    },
+    {
+      "company_id": "hca-healthcare",
+      "name": "HCA Healthcare",
+      "rank": 60,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "access-restricted",
+        "message": "The job board currently blocks unattended checks. This Fortune company is listed while its scraper needs a supported public endpoint.",
+        "checked_at": "2026-09-04T19:00:00Z"
+      },
+      "http_recheck": {
+        "id": "hca-healthcare",
+        "name": "HCA Healthcare",
+        "rank": 60,
+        "checked_at": "2026-10-01T00:04:57.459720+00:00",
+        "url": "https://careers.hcahealthcare.com/search/jobs",
+        "status": 403,
+        "final_url": "https://careers.hcahealthcare.com/search/jobs",
+        "title": "Just a moment...",
+        "links": []
+      },
+      "browser_recheck": {
+        "id": "hca-healthcare",
+        "url": "https://careers.hcahealthcare.com/search/jobs",
+        "status": 403,
+        "title": "Just a moment...",
+        "text": "",
+        "links": []
+      },
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation."
+    },
+    {
+      "company_id": "delta-air-lines",
+      "name": "Delta Air Lines",
+      "rank": 71,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "maintenance",
+        "message": "The official job board is currently under maintenance. Job monitoring will become available after the board returns and the scraper is verified.",
+        "checked_at": "2026-09-04T19:00:00Z"
+      },
+      "http_recheck": {
+        "id": "delta-air-lines",
+        "name": "Delta Air Lines",
+        "rank": 71,
+        "checked_at": "2026-10-01T00:04:57.459720+00:00",
+        "url": "https://delta.avature.net/en_US/careers/SearchJobs",
+        "status": 202,
+        "final_url": "https://delta.avature.net/en_US/careers/SearchJobs",
+        "title": "",
+        "links": []
+      },
+      "browser_recheck": {
+        "id": "delta-air-lines",
+        "url": "https://delta.avature.net/en_US/careers/SearchJobs",
+        "status": 202,
+        "title": "",
+        "text": "",
+        "links": []
+      },
+      "status": "unavailable",
+      "reason": "repair-needed",
+      "message": "The public Delta Avature board returned HTTP 202 with an empty page in both HTTP and ordinary-browser checks; no listing was validated. The former maintenance explanation is not confirmed by this check."
+    },
+    {
+      "company_id": "publix",
+      "name": "Publix Super Markets",
+      "rank": 72,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "regional-restriction",
+        "message": "The job board is unavailable from this region. This Fortune company is listed while a repeatable public source is being repaired.",
+        "checked_at": "2026-09-04T19:00:00Z"
+      },
+      "http_recheck": {
+        "id": "publix",
+        "name": "Publix Super Markets",
+        "rank": 72,
+        "checked_at": "2026-10-01T00:04:57.460908+00:00",
+        "url": "https://jobs.publix.com/jobs/",
+        "status": 200,
+        "final_url": "https://jobs.publix.com/jobs/",
+        "title": "Facebook",
+        "links": [
+          {
+            "text": "Corporate Careers",
+            "url": "https://jobs.publix.com/department/corporate-careers/"
+          },
+          {
+            "text": "Job Search",
+            "url": "https://jobs.publix.com/jobs/"
+          },
+          {
+            "text": "Candidate login",
+            "url": "https://sjobs.brassring.com/TGNewUI/Search/Home/Home?partnerid=26173&siteid=5197#home"
+          },
+          {
+            "text": "Retail Applicant Login",
+            "url": "https://storejobapplication.publix.com/JACOnlineBI/en/Home/IndexExternal"
+          },
+          {
+            "text": "Facebook",
+            "url": "https://www.facebook.com/publixcareers/"
+          },
+          {
+            "text": "Instagram",
+            "url": "https://www.instagram.com/publixcareers/?hl=en"
+          },
+          {
+            "text": "X",
+            "url": "https://twitter.com/publixjobs?lang=en"
+          }
+        ]
+      },
+      "browser_recheck": {
+        "id": "publix",
+        "url": "https://jobs.publix.com/jobs/",
+        "status": 200,
+        "title": "",
+        "text": "Skip to content\nDepartments\nBenefits\nResources\nPublix Experience\nJob Search\nAssociate login\nCandidate login\nWhere shopping is a pleasure.\n\nSince 1930, Publix has grown from a singl",
+        "links": [
+          {
+            "text": "Skip to content",
+            "url": "https://jobs.publix.com/jobs/#main"
+          },
+          {
+            "text": "",
+            "url": "https://jobs.publix.com/"
+          },
+          {
+            "text": "All Departments",
+            "url": "https://jobs.publix.com/departments/"
+          },
+          {
+            "text": "Corporate Careers",
+            "url": "https://jobs.publix.com/department/corporate-careers/"
+          },
+          {
+            "text": "Distribution",
+            "url": "https://jobs.publix.com/department/distribution/"
+          },
+          {
+            "text": "Pharmacy",
+            "url": "https://jobs.publix.com/department/pharmacy/"
+          },
+          {
+            "text": "Publix Technology",
+            "url": "https://jobs.publix.com/department/publix-technology/"
+          },
+          {
+            "text": "Retail Stores",
+            "url": "https://jobs.publix.com/department/retail/"
+          },
+          {
+            "text": "Industrial Maintenance",
+            "url": "https://jobs.publix.com/department/industrial-maintenance/"
+          },
+          {
+            "text": "Manufacturing",
+            "url": "https://jobs.publix.com/department/manufacturing/"
+          },
+          {
+            "text": "Benefits",
+            "url": "https://jobs.publix.com/benefits/"
+          },
+          {
+            "text": "Resources",
+            "url": "https://jobs.publix.com/applicant-resources/"
+          }
+        ]
+      },
+      "status": "unavailable",
+      "reason": "regional-restriction",
+      "message": "The public jobs page explicitly states that the site is not fully available outside the United States. No location restriction was bypassed."
+    },
+    {
+      "company_id": "american-airlines",
+      "name": "American Airlines Group",
+      "rank": 86,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "repair-needed",
+        "message": "The job board is hiring, but its current scraper cannot complete a background check reliably and needs repair.",
+        "checked_at": "2026-09-04T19:00:00Z"
+      },
+      "http_recheck": {
+        "id": "american-airlines",
+        "name": "American Airlines Group",
+        "rank": 86,
+        "checked_at": "2026-10-01T00:04:57.461921+00:00",
+        "url": "https://jobs.aa.com/search/",
+        "status": 200,
+        "final_url": "https://jobs.aa.com/search/",
+        "title": "American Airlines Jobs",
+        "links": [
+          {
+            "text": "Careers",
+            "url": "https://jobs.aa.com/search/"
+          },
+          {
+            "text": "At the Airport",
+            "url": "https://jobs.aa.com/go/Jobs-at-the-Airport/2537600/"
+          },
+          {
+            "text": "View All Jobs",
+            "url": "https://jobs.aa.com/search/?q=&locationsearch=&"
+          },
+          {
+            "text": "Careers",
+            "url": "https://jobs.aa.com/search/"
+          },
+          {
+            "text": "At the Airport",
+            "url": "https://jobs.aa.com/go/Jobs-at-the-Airport/2537600/"
+          },
+          {
+            "text": "View All Jobs",
+            "url": "https://jobs.aa.com/search/?q=&locationsearch=&"
+          },
+          {
+            "text": "Careers",
+            "url": "https://jobs.aa.com/search/"
+          },
+          {
+            "text": "At the Airport",
+            "url": "https://jobs.aa.com/go/Jobs-at-the-Airport/2537600/"
+          },
+          {
+            "text": "View All Jobs",
+            "url": "https://jobs.aa.com/search/?q=&locationsearch=&"
+          },
+          {
+            "text": "View All Jobs",
+            "url": "https://jobs.aa.com/search/?q=&locationsearch=&"
+          }
+        ]
+      },
+      "browser_recheck": {
+        "id": "american-airlines",
+        "url": "https://jobs.aa.com/search/",
+        "status": 403,
+        "title": "Access Denied",
+        "text": "Access Denied\nYou don't have permission to access \"http://jobs.aa.com/search/\" on this server.\n\nReference #18.877f3a17.1790813793.36ef4de\n\nhttps://errors.edgesuite.net/18.877f3a17.",
+        "links": []
+      },
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The public American Airlines search returned a shell over HTTP and Access Denied (403) in an ordinary browser; the candidate browser recipe timed out."
+    },
+    {
+      "company_id": "enterprise-products",
+      "name": "Enterprise Products Partners",
+      "rank": 89,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "repair-needed",
+        "message": "The job board is hiring, but its current listings expose broken placeholder links to automated checks and the scraper needs repair.",
+        "checked_at": "2026-09-04T19:00:00Z"
+      },
+      "http_recheck": {
+        "id": "enterprise-products",
+        "name": "Enterprise Products Partners",
+        "rank": 89,
+        "checked_at": "2026-10-01T00:04:57.461921+00:00",
+        "url": "https://www.enterpriseproducts.com/careers/",
+        "status": 200,
+        "final_url": "https://www.enterpriseproducts.com/careers/",
+        "title": "Careers - Enterprise Products",
+        "links": [
+          {
+            "text": "Careers",
+            "url": "https://www.enterpriseproducts.com/careers/"
+          },
+          {
+            "text": "Job Openings",
+            "url": "https://www.enterpriseproducts.com/careers/job-openings/"
+          },
+          {
+            "text": "Benefits",
+            "url": "https://www.enterpriseproducts.com/careers/benefits/"
+          },
+          {
+            "text": "Culture",
+            "url": "https://www.enterpriseproducts.com/careers/culture/"
+          },
+          {
+            "text": "Internship Program",
+            "url": "https://www.enterpriseproducts.com/careers/early-careers/"
+          },
+          {
+            "text": "Job Openings",
+            "url": "https://www.enterpriseproducts.com/careers/job-openings/"
+          },
+          {
+            "text": "Benefits",
+            "url": "https://www.enterpriseproducts.com/careers/benefits/"
+          },
+          {
+            "text": "Culture",
+            "url": "https://www.enterpriseproducts.com/careers/culture/"
+          },
+          {
+            "text": "Internship Program",
+            "url": "https://www.enterpriseproducts.com/careers/early-careers/"
+          },
+          {
+            "text": "Search Job Openings",
+            "url": "https://www.enterpriseproducts.com/careers/job-openings/"
+          },
+          {
+            "text": "Professional/ Technical",
+            "url": "https://epco.taleo.net/careersection/it/jobsearch.ftl?lang=en&radiusType=M&searchExpanded=false&radius=1&jobfield=4501372523&jobfield=4401372523&jobfield=4301372523&jobfield=101372523&jobfield=4201372523"
+          },
+          {
+            "text": "Operations",
+            "url": "https://epco.taleo.net/careersection/fieldops/jobsearch.ftl?lang=en&radiusType=M&searchExpanded=false&radius=1&jobfield=4801372523"
+          },
+          {
+            "text": "Marine Services",
+            "url": "https://epco.taleo.net/careersection/ent_trans/jobsearch.ftl?lang=en&radiusType=M&searchExpanded=false&jobfield=8260190874&radius=1"
+          },
+          {
+            "text": "Drivers",
+            "url": "https://epco.taleo.net/careersection/6/jobsearch.ftl?lang=en&portal=16100012545"
+          },
+          {
+            "text": "View All Benefits",
+            "url": "https://www.enterpriseproducts.com/careers/benefits/"
+          }
+        ]
+      },
+      "browser_recheck": {
+        "id": "enterprise-products",
+        "url": "https://www.enterpriseproducts.com/careers/",
+        "status": 200,
+        "title": "Careers - Enterprise Products",
+        "text": "Skip to Footer\nSkip to Main Content\nK-1 Tax InformationRoyalty Relations\nPipeline EmergencyContact Us\nAbout Us\nInvestors\nOperations\nSafety & Sustainability\nCustomers\nCareers\nJob Op",
+        "links": [
+          {
+            "text": "Job Openings",
+            "url": "https://www.enterpriseproducts.com/careers/job-openings/"
+          },
+          {
+            "text": "Job Openings",
+            "url": "https://www.enterpriseproducts.com/careers/job-openings/"
+          },
+          {
+            "text": "Search Job Openings",
+            "url": "https://www.enterpriseproducts.com/careers/job-openings/"
+          },
+          {
+            "text": "Professional/ Technical",
+            "url": "https://epco.taleo.net/careersection/it/jobsearch.ftl?lang=en&radiusType=M&searchExpanded=false&radius=1&jobfield=4501372523&jobfield=4401372523&jobfield=4301372523&jobfield=101372523&jobfield=4201372523"
+          },
+          {
+            "text": "Operations",
+            "url": "https://epco.taleo.net/careersection/fieldops/jobsearch.ftl?lang=en&radiusType=M&searchExpanded=false&radius=1&jobfield=4801372523"
+          },
+          {
+            "text": "Marine Services",
+            "url": "https://epco.taleo.net/careersection/ent_trans/jobsearch.ftl?lang=en&radiusType=M&searchExpanded=false&jobfield=8260190874&radius=1"
+          },
+          {
+            "text": "Drivers",
+            "url": "https://epco.taleo.net/careersection/6/jobsearch.ftl?lang=en&portal=16100012545"
+          }
+        ]
+      },
+      "status": "unavailable",
+      "reason": "repair-needed",
+      "message": "The officially linked Taleo board displays jobs, but listing anchors use JavaScript and # placeholders. A portable recipe with validated direct job links remains unresolved."
+    },
+    {
+      "company_id": "cbre",
+      "name": "CBRE Group",
+      "rank": 118,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "repair-needed",
+        "message": "CBRE lists jobs in a normal browser, but its careers board did not pass unattended validation. Its scraper needs repair before installation.",
+        "checked_at": "2026-09-06T19:18:42.131738+00:00"
+      },
+      "http_recheck": {
+        "id": "cbre",
+        "name": "CBRE Group",
+        "rank": 118,
+        "checked_at": "2026-10-01T00:04:58.372253+00:00",
+        "url": "https://careers.cbre.com/en_US/careers/SearchJobs",
+        "status": 202,
+        "final_url": "https://careers.cbre.com/en_US/careers/SearchJobs",
+        "title": "",
+        "links": []
+      },
+      "browser_recheck": {
+        "id": "cbre",
+        "url": "https://careers.cbre.com/en_US/careers/SearchJobs",
+        "status": 202,
+        "title": "",
+        "text": "",
+        "links": []
+      },
+      "status": "unavailable",
+      "reason": "repair-needed",
+      "message": "The official CBRE search returned HTTP 202 with an empty page in HTTP and ordinary-browser checks; no repeatable listing passed validation."
+    },
+    {
+      "company_id": "lithia",
+      "name": "Lithia Motors",
+      "rank": 123,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "repair-needed",
+        "message": "Lithia’s main job feed is failing. Its legacy portal returned no jobs and the UK fallback did not pass unattended validation. Its scraper needs repair.",
+        "checked_at": "2026-09-06T19:18:42.246407+00:00"
+      },
+      "http_recheck": {
+        "id": "lithia",
+        "name": "Lithia Motors",
+        "rank": 123,
+        "checked_at": "2026-10-01T00:04:58.423540+00:00",
+        "url": "https://careers.lithia.co.uk/jobs/vacancy/find/results/",
+        "status": 202,
+        "final_url": "https://careers.lithia.co.uk/jobs/vacancy/find/results/",
+        "title": "",
+        "links": []
+      },
+      "browser_recheck": null,
+      "status": "verified",
+      "recipe_sha256": "a8ca4e32bf933df7aa1e11425b9ae2d2935c4d10f15a1485928aae96d267a252",
+      "strategy": "workday",
+      "checked_at": "2026-10-01T00:09:09.968757+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "samples": [
+        {
+          "title": "Sales Representative",
+          "location": "Avondale Nissan, Avondale, AZ 85323",
+          "source_url": "https://lithia.wd504.myworkdayjobs.com/LithiaCareers/job/Avondale-Nissan-Avondale-AZ-85323/Sales-Representative_R118347"
+        },
+        {
+          "title": "Lot Attendant/Porter",
+          "location": "Porsche Beverly Hills, Los Angeles, CA 90025",
+          "source_url": "https://lithia.wd504.myworkdayjobs.com/LithiaCareers/job/Porsche-Beverly-Hills-Los-Angeles-CA-90025/Lot-Attendant-Porter_R118345"
+        },
+        {
+          "title": "Automotive Sales Desk Manager",
+          "location": "Missoula CJD, Missoula, MT 59802",
+          "source_url": "https://lithia.wd504.myworkdayjobs.com/LithiaCareers/job/Missoula-CJD-Missoula-MT-59802/Automotive-Sales-Desk-Manager_R116659"
+        }
+      ],
+      "representative_link_check": {
+        "id": "lithia",
+        "url": "https://lithia.wd504.myworkdayjobs.com/LithiaCareers/job/Avondale-Nissan-Avondale-AZ-85323/Sales-Representative_R118347",
+        "status": 200,
+        "final_url": "https://lithia.wd504.myworkdayjobs.com/LithiaCareers/job/Avondale-Nissan-Avondale-AZ-85323/Sales-Representative_R118347"
+      }
+    },
+    {
+      "company_id": "ross-stores",
+      "name": "Ross Stores",
+      "rank": 199,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "repair-needed",
+        "message": "Ross is hiring, but its job board requires link extraction that the current scraper format does not support reliably. Its scraper needs repair before installation.",
+        "checked_at": "2026-09-07T12:59:32.540437+00:00"
+      },
+      "http_recheck": {
+        "id": "ross-stores",
+        "name": "Ross Stores",
+        "rank": 199,
+        "checked_at": "2026-10-01T00:04:58.481237+00:00",
+        "url": "https://jobs.rossstores.com/search/searchjobs",
+        "status": 200,
+        "final_url": "https://jobs.rossstores.com/search/searchjobs",
+        "title": "Search Jobs | Ross Stores",
+        "links": [
+          {
+            "text": "Here we\n    grow again! Apply to join our new grand openings",
+            "url": "https://jobs.rossstores.com/#new-openings"
+          },
+          {
+            "text": "Say yes to a great career with Ross Dress for Less and dd’s Discounts",
+            "url": "https://jobs.rossstores.com/"
+          },
+          {
+            "text": "Stores & Retail Management",
+            "url": "https://jobs.rossstores.com/careers/retail-and-management-careers"
+          },
+          {
+            "text": "Buying & Planning Offices",
+            "url": "https://jobs.rossstores.com/careers/buying-and-planning-careers"
+          },
+          {
+            "text": "Internships & Early Career",
+            "url": "https://jobs.rossstores.com/careers/internships-and-entry-level-programs"
+          },
+          {
+            "text": "Supply Chain & Distribution",
+            "url": "https://jobs.rossstores.com/careers/supply-chain-and-distribution-center-careers"
+          },
+          {
+            "text": "Corporate Headquarters",
+            "url": "https://jobs.rossstores.com/careers/corporate"
+          },
+          {
+            "text": "Military",
+            "url": "https://jobs.rossstores.com/careers/military"
+          },
+          {
+            "text": "Search All Jobs",
+            "url": "https://jobs.rossstores.com/search/searchjobs"
+          },
+          {
+            "text": "Search Jobs By Map",
+            "url": "https://jobs.rossstores.com/locations/locations"
+          },
+          {
+            "text": "Search Puerto Rico Jobs",
+            "url": "https://jobs.rossstores.com/puerto-rico"
+          },
+          {
+            "text": "Get Job Alerts",
+            "url": "https://jobs.rossstores.com/talentnetwork/talentnetwork"
+          },
+          {
+            "text": "Careers",
+            "url": "https://jobs.rossstores.com/"
+          },
+          {
+            "text": "Search Jobs",
+            "url": "https://jobs.rossstores.com/search/searchjobs"
+          },
+          {
+            "text": "Get Job Alerts",
+            "url": "https://jobs.rossstores.com/talentnetwork/talentnetwork"
+          },
+          {
+            "text": "Linkedin",
+            "url": "https://www.linkedin.com/company/ross-stores/jobs/"
+          },
+          {
+            "text": "Instagram",
+            "url": "https://www.instagram.com/rosscareers/?hl=em"
+          }
+        ]
+      },
+      "browser_recheck": {
+        "id": "ross-stores",
+        "url": "https://jobs.rossstores.com/search/searchjobs",
+        "status": 200,
+        "title": "Search Jobs | Ross Stores",
+        "text": "Here we grow again! Apply to join our new grand openings\nSkip to content\nSay yes to a great career with Ross Dress for Less and dd’s Discounts\nABOUT ROSS\nCAREERS\nWHAT WE OFFER\nHIRI",
+        "links": [
+          {
+            "text": "Here we\n    grow again! Apply to join our new grand openings",
+            "url": "https://jobs.rossstores.com/#new-openings"
+          },
+          {
+            "text": "Now hiring for our summer grand openings!",
+            "url": "https://jobs.rossstores.com/search/searchjobs#new-openings"
+          },
+          {
+            "text": "Skip to content",
+            "url": "https://jobs.rossstores.com/search/searchjobs#content"
+          },
+          {
+            "text": "Say yes to a great career with Ross Dress for Less and dd’s Discounts",
+            "url": "https://jobs.rossstores.com/"
+          },
+          {
+            "text": "Our Culture",
+            "url": "https://jobs.rossstores.com/about-ross/culture"
+          },
+          {
+            "text": "Community & Sustainability",
+            "url": "https://jobs.rossstores.com/about-ross/community"
+          },
+          {
+            "text": "Stores & Retail Management",
+            "url": "https://jobs.rossstores.com/careers/retail-and-management-careers"
+          },
+          {
+            "text": "Buying & Planning Offices",
+            "url": "https://jobs.rossstores.com/careers/buying-and-planning-careers"
+          },
+          {
+            "text": "Internships & Early Career",
+            "url": "https://jobs.rossstores.com/careers/internships-and-entry-level-programs"
+          },
+          {
+            "text": "Supply Chain & Distribution",
+            "url": "https://jobs.rossstores.com/careers/supply-chain-and-distribution-center-careers"
+          },
+          {
+            "text": "Corporate Headquarters",
+            "url": "https://jobs.rossstores.com/careers/corporate"
+          },
+          {
+            "text": "Military",
+            "url": "https://jobs.rossstores.com/careers/military"
+          }
+        ]
+      },
+      "status": "unavailable",
+      "reason": "repair-needed",
+      "message": "The public Ross JSON feed returns jobs after clearing automatic geography, but it omits direct URLs; rendered rows use data-href. The current portable recipe extraction cannot yet normalize those links reliably."
+    },
+    {
+      "company_id": "cdw",
+      "name": "CDW",
+      "rank": 205,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "repair-needed",
+        "message": "Public CDW listings load interactively, but the tested deterministic browser scraper times out. A working portable scraper must be validated before installation.",
+        "checked_at": "2026-09-12T12:56:44.667790+00:00"
+      },
+      "http_recheck": {
+        "id": "cdw",
+        "name": "CDW",
+        "rank": 205,
+        "checked_at": "2026-10-01T00:04:58.483694+00:00",
+        "url": "https://www.cdwjobs.com/en/search/jobs",
+        "status": 403,
+        "final_url": "https://www.cdwjobs.com/en/search/jobs",
+        "title": "Just a moment...",
+        "links": []
+      },
+      "browser_recheck": {
+        "id": "cdw",
+        "url": "https://www.cdwjobs.com/en/search/jobs",
+        "status": 403,
+        "title": "Just a moment...",
+        "text": "",
+        "links": []
+      },
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation."
+    },
+    {
+      "company_id": "bjs-wholesale",
+      "name": "BJ's Wholesale Club",
+      "rank": 213,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "access-restricted",
+        "message": "The official careers site returns HTTP 503 and says access has been limited by the site owner, including in a normal browser. No access controls were bypassed.",
+        "checked_at": "2026-09-12T12:56:44.667790+00:00"
+      },
+      "http_recheck": {
+        "id": "bjs-wholesale",
+        "name": "BJ's Wholesale Club",
+        "rank": 213,
+        "checked_at": "2026-10-01T00:04:58.713868+00:00",
+        "url": "https://careers.bjs.com/",
+        "status": 503,
+        "final_url": "https://careers.bjs.com/",
+        "title": "Your access to this site has been limited by the site owner",
+        "links": []
+      },
+      "browser_recheck": null,
+      "status": "verified",
+      "recipe_sha256": "11295ed61e91d2f014819825b5125be1b1ee5189842e59b52a855ac156044157",
+      "strategy": "workday",
+      "checked_at": "2026-10-01T00:09:09.967755+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "samples": [
+        {
+          "title": "Overnight Stock Part Time",
+          "location": "Derby, CT #0318",
+          "source_url": "https://bjswholesaleclub.wd1.myworkdayjobs.com/BJsCareers/job/Derby-CT-0318/Overnight-Stock-Part-Time_R253831"
+        },
+        {
+          "title": "Automotive Tire Technician Part Time Sign on Bonus $1,000",
+          "location": "Wallingford, CT #0173",
+          "source_url": "https://bjswholesaleclub.wd1.myworkdayjobs.com/BJsCareers/job/Wallingford-CT-0173/Automotive-Tire-Technician-Part-Time-Sign-on-Bonus--1-000_R257998"
+        },
+        {
+          "title": "Automotive Tire Technician Part Time $1,000 Sign on Bonus",
+          "location": "North Haven, CT #0093",
+          "source_url": "https://bjswholesaleclub.wd1.myworkdayjobs.com/BJsCareers/job/North-Haven-CT-0093/Automotive-Tire-Technician-Part-Time--1-000-Sign-on-Bonus_R257997-1"
+        }
+      ],
+      "representative_link_check": {
+        "id": "bjs-wholesale",
+        "url": "https://bjswholesaleclub.wd1.myworkdayjobs.com/BJsCareers/job/Derby-CT-0318/Overnight-Stock-Part-Time_R253831",
+        "status": 200,
+        "final_url": "https://bjswholesaleclub.wd1.myworkdayjobs.com/BJsCareers/job/Derby-CT-0318/Overnight-Stock-Part-Time_R253831"
+      }
+    },
+    {
+      "company_id": "cognizant",
+      "name": "Cognizant Technology Solutions",
+      "rank": 216,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "repair-needed",
+        "message": "The official jobs page loads interactively, but its deterministic browser scraper times out. No verified installable recipe is available from this validation.",
+        "checked_at": "2026-09-12T12:56:44.667790+00:00"
+      },
+      "http_recheck": {
+        "id": "cognizant",
+        "name": "Cognizant Technology Solutions",
+        "rank": 216,
+        "checked_at": "2026-10-01T00:04:58.713868+00:00",
+        "url": "https://careers.cognizant.com/global-en/",
+        "status": 403,
+        "final_url": "https://careers.cognizant.com/global-en/",
+        "title": "Just a moment...",
+        "links": []
+      },
+      "browser_recheck": {
+        "id": "cognizant",
+        "url": "https://careers.cognizant.com/global-en/",
+        "status": 403,
+        "title": "Just a moment...",
+        "text": "",
+        "links": []
+      },
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation."
+    },
+    {
+      "company_id": "adp",
+      "name": "Automatic Data Processing",
+      "rank": 218,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "repair-needed",
+        "message": "The official jobs page loads interactively, but the tested deterministic browser scraper times out. A working portable recipe needs validation before installation.",
+        "checked_at": "2026-09-12T12:56:44.667790+00:00"
+      },
+      "http_recheck": {
+        "id": "adp",
+        "name": "Automatic Data Processing",
+        "rank": 218,
+        "checked_at": "2026-10-01T00:04:58.813310+00:00",
+        "url": "https://jobs.adp.com/en/",
+        "status": 403,
+        "final_url": "https://jobs.adp.com/en/",
+        "title": "Just a moment...",
+        "links": []
+      },
+      "browser_recheck": {
+        "id": "adp",
+        "url": "https://jobs.adp.com/en/",
+        "status": 403,
+        "title": "Just a moment...",
+        "text": "",
+        "links": []
+      },
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation."
+    },
+    {
+      "company_id": "parker-hannifin",
+      "name": "Parker-Hannifin",
+      "rank": 224,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "repair-needed",
+        "message": "The officially linked job board loads interactively, but its deterministic browser scraper times out. The scraper needs repair and live validation.",
+        "checked_at": "2026-09-12T12:56:44.667790+00:00"
+      },
+      "http_recheck": {
+        "id": "parker-hannifin",
+        "name": "Parker-Hannifin",
+        "rank": 224,
+        "checked_at": "2026-10-01T00:04:59.131359+00:00",
+        "url": "https://parkercareers.ttcportals.com/jobs/search",
+        "status": 403,
+        "final_url": "https://parkercareers.ttcportals.com/jobs/search",
+        "title": "Just a moment...",
+        "links": []
+      },
+      "browser_recheck": {
+        "id": "parker-hannifin",
+        "url": "https://parkercareers.ttcportals.com/jobs/search",
+        "status": 403,
+        "title": "Just a moment...",
+        "text": "parkercareers.ttcportals.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website veri",
+        "links": []
+      },
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation."
+    },
+    {
+      "company_id": "american-family",
+      "name": "American Family Insurance Group",
+      "rank": 226,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "access-restricted",
+        "message": "The official careers site presents a Cloudflare access restriction in a normal browser and returns HTTP 403. A permitted public source is needed.",
+        "checked_at": "2026-09-12T12:56:44.667790+00:00"
+      },
+      "http_recheck": {
+        "id": "american-family",
+        "name": "American Family Insurance Group",
+        "rank": 226,
+        "checked_at": "2026-10-01T00:04:59.493426+00:00",
+        "url": "https://www.amfam.com/about/careers",
+        "status": 403,
+        "final_url": "https://careers.amfam.com/",
+        "title": "Attention Required! | Cloudflare",
+        "links": []
+      },
+      "browser_recheck": null,
+      "status": "verified",
+      "recipe_sha256": "4cf27de138746028c1f017d0be91d053eb48a6a09bbe0aad3088dd1616ce237b",
+      "strategy": "workday",
+      "checked_at": "2026-10-01T00:13:56.824033+00:00",
+      "job_count": 19,
+      "pages": 20,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "Corporate technical, claims, legal and professional title subset; agency-owner and independent-agent opportunities are excluded. This is not the full corporate board."
+      ],
+      "samples": [
+        {
+          "title": "Lead Guidewire Developer (Hybrid)",
+          "location": "WI Madison",
+          "source_url": "https://amfam.wd1.myworkdayjobs.com/Careers/job/WI-Madison/Lead-Application-Development-Engineer--Hybrid-_R39389-1"
+        },
+        {
+          "title": "Senior Network Engineer",
+          "location": "WI Madison",
+          "source_url": "https://amfam.wd1.myworkdayjobs.com/Careers/job/WI-Madison/Senior-Engineer_R39300"
+        },
+        {
+          "title": "Senior Supervisory Attorney – Complex Claim Unit",
+          "location": "WI Madison",
+          "source_url": "https://amfam.wd1.myworkdayjobs.com/Careers/job/WI-Madison/Senior-Supervisory-Attorney---Complex-Claim-Unit_R39607"
+        }
+      ],
+      "representative_link_check": {
+        "id": "american-family",
+        "url": "https://amfam.wd1.myworkdayjobs.com/Careers/job/WI-Madison/Lead-Application-Development-Engineer--Hybrid-_R39389-1",
+        "status": 200,
+        "final_url": "https://amfam.wd1.myworkdayjobs.com/Careers/job/WI-Madison/Lead-Application-Development-Engineer--Hybrid-_R39389-1"
+      }
+    },
+    {
+      "company_id": "general-mills",
+      "name": "General Mills",
+      "rank": 227,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "repair-needed",
+        "message": "The Workday runtime returns jobs, but detail enrichment repeatedly fails for a listing and leaves a URL without its required board segment. A recipe with consistently usable source URLs needs validation.",
+        "checked_at": "2026-09-12T12:56:44.667790+00:00"
+      },
+      "http_recheck": {
+        "id": "general-mills",
+        "name": "General Mills",
+        "rank": 227,
+        "checked_at": "2026-10-01T00:04:59.810710+00:00",
+        "url": "https://careers.generalmills.com/",
+        "status": 200,
+        "final_url": "https://www.careers.generalmills.com/",
+        "title": "Careers | CareersGlobal",
+        "links": [
+          {
+            "text": "",
+            "url": "https://www.careers.generalmills.com/"
+          },
+          {
+            "text": "Careers Home",
+            "url": "https://www.careers.generalmills.com/"
+          },
+          {
+            "text": "Career Areas",
+            "url": "https://www.careers.generalmills.com/career-areas"
+          },
+          {
+            "text": "Search Jobs (Opens in a new tab)",
+            "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers"
+          },
+          {
+            "text": "Search jobs (Opens in a new tab)",
+            "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers"
+          },
+          {
+            "text": "Marketing & Brand Management (Opens in a new tab)",
+            "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers?jobFamilyGroup=69985ce51bb0012bbfb90e3bce476007"
+          },
+          {
+            "text": "Sales (Opens in a new tab)",
+            "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers?jobFamilyGroup=69985ce51bb001d6c130243bce476c07"
+          },
+          {
+            "text": "Supply Chain (Opens in a new tab)",
+            "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers?jobFamilyGroup=69985ce51bb001ebaa71ec3ace474e07&jobFamilyGroup=69985ce51bb0011d532f0b3bce475e07&jobFamilyGroup=69985ce51bb001a97afc273bce476e07&jobFamilyGroup=69985ce51bb001ff6c20123bce476207"
+          },
+          {
+            "text": "Plant Production (Opens in a new tab)",
+            "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers?jobFamilyGroup=69985ce51bb0015466a0153bce476407"
+          },
+          {
+            "text": "R&D and Food Safety and Quality (Opens in a new tab)",
+            "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers?jobFamilyGroup=69985ce51bb001784219f93ace475407&jobFamilyGroup=69985ce51bb001c514b21c3bce476807"
+          },
+          {
+            "text": "Digital & Technology (Opens in a new tab)",
+            "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers?jobFamilyGroup=69985ce51bb001a20fcb003bce475807"
+          },
+          {
+            "text": "Enterprise Services & Global Shared Services (Opens in a new tab)",
+            "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers?jobFamilyGroup=69985ce51bb001c458abe13ace474807&jobFamilyGroup=69985ce51bb001d83187f03ace475007&jobFamilyGroup=69985ce51bb0019f1ce3183bce476607"
+          },
+          {
+            "text": "Retail (Opens in a new tab)",
+            "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers?jobFamilyGroup=69985ce51bb001920765203bce476a07"
+          },
+          {
+            "text": "Finance (Opens in a new tab)",
+            "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers?jobFamilyGroup=69985ce51bb0019957d1f43ace475207"
+          },
+          {
+            "text": "Human Resources & Communications (Opens in a new tab)",
+            "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers?jobFamilyGroup=69985ce51bb0011a416ade3ace474607&jobFamilyGroup=69985ce51bb001cd0e23fd3ace475607"
+          },
+          {
+            "text": "Legal & Corporate Affairs (Opens in a new tab)",
+            "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers?jobFamilyGroup=69985ce51bb001712fc8e43ace474a07&jobFamilyGroup=69985ce51bb0013155ba073bce475c07"
+          },
+          {
+            "text": "University & Internships (Opens in a new tab)",
+            "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers?workerSubType=69985ce51bb0017aa821ab591648e6b3"
+          },
+          {
+            "text": "",
+            "url": "https://www.careers.generalmills.com/"
+          },
+          {
+            "text": "Search Jobs (Opens in a new tab)",
+            "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers"
+          }
+        ]
+      },
+      "browser_recheck": null,
+      "status": "verified",
+      "recipe_sha256": "63c1e5113d61e68f962d87118a76dda4afe902dc7b62bdc41dbf20649ccb6893",
+      "strategy": "workday",
+      "checked_at": "2026-10-01T00:05:33.773555+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "samples": [
+        {
+          "title": "Manufacturing Supervisor - 3rd Shift - Wellston, OH",
+          "location": "Wellston, OH",
+          "source_url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Wellston-OH/Manufacturing-Supervisor---3rd-Shift---Wellston--OH_10128940"
+        },
+        {
+          "title": "Maintenance Asset Care Leader",
+          "location": "Cedar Rapids, IA",
+          "source_url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Cedar-Rapids-IA/Maintenance-Asset-Care-Leader_10130367"
+        },
+        {
+          "title": "Sr Data Scientist (Operations Research)",
+          "location": "Minneapolis, MN",
+          "source_url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Minneapolis-MN/Sr-Data-Scientist--Operations-Research-_10129897"
+        }
+      ],
+      "representative_link_check": {
+        "id": "general-mills",
+        "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Wellston-OH/Manufacturing-Supervisor---3rd-Shift---Wellston--OH_10128940",
+        "status": 200,
+        "final_url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Wellston-OH/Manufacturing-Supervisor---3rd-Shift---Wellston--OH_10128940"
+      }
+    },
+    {
+      "company_id": "manpowergroup",
+      "name": "ManpowerGroup",
+      "rank": 247,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "repair-needed",
+        "message": "Public Manpower Corporate Careers (Taleo RPO) listings were found, but their browser links are JavaScript actions. A supported recipe with stable job-detail URLs has not been validated; client placements remain excluded.",
+        "checked_at": "2026-09-13T00:11:04.391810+00:00"
+      },
+      "http_recheck": {
+        "id": "manpowergroup",
+        "name": "ManpowerGroup",
+        "rank": 247,
+        "checked_at": "2026-10-01T00:05:00.071761+00:00",
+        "url": "https://www.manpowergroup.com/careers",
+        "status": 200,
+        "final_url": "https://www.manpowergroup.com/careers",
+        "title": "Careers",
+        "links": [
+          {
+            "text": "Careers",
+            "url": "https://www.manpowergroup.com/en/careers"
+          },
+          {
+            "text": "Careers",
+            "url": "https://www.manpowergroup.com/en/careers"
+          },
+          {
+            "text": "Careers",
+            "url": "https://www.manpowergroup.com/en/careers"
+          }
+        ]
+      },
+      "browser_recheck": {
+        "id": "manpowergroup",
+        "url": "https://www.manpowergroup.com/careers",
+        "status": 200,
+        "title": "Careers",
+        "text": "skip to content\nCareers\nMedia\nContact Us\nGlobal\n(English)\nWhat We Do\nManpower\nExperis\nTalent Solutions\nInsights\nGlobal Talent Shortage\nGlobal Workforce Trends\nEmployment Outlook Su",
+        "links": []
+      },
+      "status": "unavailable",
+      "reason": "repair-needed",
+      "message": "The official corporate careers page is reachable, but a repeatable internal-employment feed with direct job URLs remains unresolved. Staffing-client vacancies remain excluded."
+    },
+    {
+      "company_id": "mgm-resorts",
+      "name": "MGM Resorts International",
+      "rank": 253,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "access-restricted",
+        "message": "The official careers site returns HTTP 403 and presents an access challenge in a normal browser. No access controls were bypassed.",
+        "checked_at": "2026-09-14T23:22:58.397854+00:00"
+      },
+      "http_recheck": {
+        "id": "mgm-resorts",
+        "name": "MGM Resorts International",
+        "rank": 253,
+        "checked_at": "2026-10-01T00:05:00.112292+00:00",
+        "url": "https://careers.mgmresorts.com/global/en",
+        "status": 403,
+        "final_url": "https://careers.mgmresorts.com/global/en",
+        "title": "Just a moment...",
+        "links": []
+      },
+      "browser_recheck": {
+        "id": "mgm-resorts",
+        "url": "https://careers.mgmresorts.com/global/en",
+        "status": 403,
+        "title": "Just a moment...",
+        "text": "",
+        "links": []
+      },
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation."
+    },
+    {
+      "company_id": "universal-health-services",
+      "name": "Universal Health Services",
+      "rank": 255,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "access-restricted",
+        "message": "The public careers search returns 403 Forbidden in a normal browser; the linked iCIMS page did not expose usable listings.",
+        "checked_at": "2026-09-14T23:22:58.397854+00:00"
+      },
+      "http_recheck": {
+        "id": "universal-health-services",
+        "name": "Universal Health Services",
+        "rank": 255,
+        "checked_at": "2026-10-01T00:05:01.177439+00:00",
+        "url": "https://careers-uhsinc.icims.com/jobs/search?ss=1&in_iframe=1",
+        "status": 200,
+        "final_url": "https://careers-uhsinc.icims.com/jobs/search?ss=1&in_iframe=1",
+        "title": "",
+        "links": []
+      },
+      "browser_recheck": {
+        "id": "universal-health-services",
+        "url": "https://jobs.uhsinc.com/careers/jobs",
+        "status": 200,
+        "title": "403 Forbidden",
+        "text": "403 Forbidden",
+        "links": []
+      },
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The officially linked public iCIMS page displays 403 Forbidden in an ordinary browser and yielded no usable listings."
+    },
+    {
+      "company_id": "pultegroup",
+      "name": "PulteGroup",
+      "rank": 256,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "access-restricted",
+        "message": "The official careers opportunities page returns HTTP 403 and presents an access challenge in a normal browser.",
+        "checked_at": "2026-09-14T23:22:58.397854+00:00"
+      },
+      "http_recheck": {
+        "id": "pultegroup",
+        "name": "PulteGroup",
+        "rank": 256,
+        "checked_at": "2026-10-01T00:05:01.202926+00:00",
+        "url": "https://www.pultegroupinc.com/careers/",
+        "status": 403,
+        "final_url": "https://www.pultegroupinc.com/careers/",
+        "title": "Just a moment...",
+        "links": []
+      },
+      "browser_recheck": null,
+      "status": "verified",
+      "recipe_sha256": "9b6ae1807febc1b496ce81067e935409b8da992bba87e2a39edb0c0c4aa0038a",
+      "strategy": "workday",
+      "checked_at": "2026-10-01T00:09:09.967755+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "samples": [
+        {
+          "title": "Division Staff Accountant",
+          "location": "Jacksonville, FL",
+          "source_url": "https://pultegroup.wd1.myworkdayjobs.com/PGI/job/Jacksonville-FL/Division-Staff-Accountant_JR9672"
+        },
+        {
+          "title": "Host I",
+          "location": "Jacksonville, FL",
+          "source_url": "https://pultegroup.wd1.myworkdayjobs.com/PGI/job/Jacksonville-FL/Host-I_JR9625"
+        },
+        {
+          "title": "Lead Developer (Dynamics 365)",
+          "location": "Atlanta, GA",
+          "source_url": "https://pultegroup.wd1.myworkdayjobs.com/PGI/job/Atlanta-GA/Lead-Software-Engineer_JR9632"
+        }
+      ],
+      "representative_link_check": {
+        "id": "pultegroup",
+        "url": "https://pultegroup.wd1.myworkdayjobs.com/PGI/job/Jacksonville-FL/Division-Staff-Accountant_JR9672",
+        "status": 200,
+        "final_url": "https://pultegroup.wd1.myworkdayjobs.com/PGI/job/Jacksonville-FL/Division-Staff-Accountant_JR9672"
+      }
+    },
+    {
+      "company_id": "omnicom",
+      "name": "Omnicom Group",
+      "rank": 257,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "repair-needed",
+        "message": "The former official careers link redirects to a missing page on omc.com. No current company-owned hiring feed was validated; separate agency hiring is not complete group coverage.",
+        "checked_at": "2026-09-14T23:22:58.397854+00:00"
+      },
+      "http_recheck": {
+        "id": "omnicom",
+        "name": "Omnicom Group",
+        "rank": 257,
+        "checked_at": "2026-10-01T00:05:01.820783+00:00",
+        "url": "https://www.omc.com/",
+        "status": 200,
+        "final_url": "https://www.omc.com/",
+        "title": "Home - Omnicom",
+        "links": []
+      },
+      "browser_recheck": {
+        "id": "omnicom",
+        "url": "https://www.omc.com/",
+        "status": 200,
+        "title": "Home - Omnicom",
+        "text": "About\nOmni\nCapabilities\nCulture\nInvestors\nNews\n\nThe world’s leading marketing\nand sales company\n\nBuilt for intelligent growth in the next era.\n\nWe help the world’s leading brands s",
+        "links": []
+      },
+      "status": "unavailable",
+      "reason": "repair-needed",
+      "message": "The current official Omnicom homepage is reachable, but no validated centralized hiring feed was established. Separate agency jobs are not presented as complete parent coverage."
+    },
+    {
+      "company_id": "leidos",
+      "name": "Leidos Holdings",
+      "rank": 260,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "access-restricted",
+        "message": "The official careers site presents an access challenge in a normal browser and returns HTTP 403. No permitted listing feed was validated.",
+        "checked_at": "2026-09-14T23:22:58.397854+00:00"
+      },
+      "http_recheck": {
+        "id": "leidos",
+        "name": "Leidos Holdings",
+        "rank": 260,
+        "checked_at": "2026-10-01T00:05:01.832797+00:00",
+        "url": "https://careers.leidos.com/",
+        "status": 403,
+        "final_url": "https://careers.leidos.com/",
+        "title": "Just a moment...",
+        "links": []
+      },
+      "browser_recheck": {
+        "id": "leidos",
+        "url": "https://careers.leidos.com/",
+        "status": 403,
+        "title": "Just a moment...",
+        "text": "",
+        "links": []
+      },
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation."
+    },
+    {
+      "company_id": "targa-resources",
+      "name": "Targa Resources",
+      "rank": 262,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "access-restricted",
+        "message": "The officially linked SelectMinds job board shows Access Forbidden in a normal browser. No access controls were bypassed.",
+        "checked_at": "2026-09-14T23:22:58.397854+00:00"
+      },
+      "http_recheck": {
+        "id": "targa-resources",
+        "name": "Targa Resources",
+        "rank": 262,
+        "checked_at": "2026-10-01T00:05:01.833969+00:00",
+        "url": "https://targaresources.referrals.selectminds.com/jobs/search/",
+        "status": 403,
+        "final_url": "https://targaresources.referrals.selectminds.com/jobs/search/",
+        "title": "Access Forbidden",
+        "links": []
+      },
+      "browser_recheck": {
+        "id": "targa-resources",
+        "url": "https://targaresources.referrals.selectminds.com/jobs/search/1588480",
+        "status": 200,
+        "title": "Job Search Results - Targa Resources Careers",
+        "text": "🌎\nEnglish\nEnglish (United Kingdom)\nFrançais (France)\nItaliano\nNorsk\nSuomi\nSvenska\nEspañol\nPortuguês (Brasil)\nNederlands\nFrançais\n日本語\nDeutsch\nPусский\nPolski\nPortuguês\n한국어\n中文(中国)\n中文",
+        "links": [
+          {
+            "text": "Settings",
+            "url": "https://targaresources.referrals.selectminds.com/jobs/search/1588480#"
+          },
+          {
+            "text": "Jobs",
+            "url": "https://targaresources.referrals.selectminds.com/"
+          },
+          {
+            "text": "",
+            "url": "https://targaresources.referrals.selectminds.com/jobs/search/1588480#"
+          },
+          {
+            "text": "All",
+            "url": "https://targaresources.referrals.selectminds.com/jobs/search/1588480#"
+          },
+          {
+            "text": "Houston, Texas (36)",
+            "url": "https://targaresources.referrals.selectminds.com/jobs/search/1588480#"
+          },
+          {
+            "text": "Midland, Texas (16)",
+            "url": "https://targaresources.referrals.selectminds.com/jobs/search/1588480#"
+          },
+          {
+            "text": "Mont Belvieu, Texas (16)",
+            "url": "https://targaresources.referrals.selectminds.com/jobs/search/1588480#"
+          },
+          {
+            "text": "Tulsa, Oklahoma (16)",
+            "url": "https://targaresources.referrals.selectminds.com/jobs/search/1588480#"
+          },
+          {
+            "text": "Kermit, Texas (12)",
+            "url": "https://targaresources.referrals.selectminds.com/jobs/search/1588480#"
+          },
+          {
+            "text": "View More",
+            "url": "https://targaresources.referrals.selectminds.com/jobs/search/1588480#"
+          },
+          {
+            "text": "All",
+            "url": "https://targaresources.referrals.selectminds.com/jobs/search/1588480#"
+          },
+          {
+            "text": "Field Operations (70)",
+            "url": "https://targaresources.referrals.selectminds.com/jobs/search/1588480#"
+          }
+        ]
+      },
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "A normal browser returned ten Targa listing cards, but the representative direct job-detail page returned Access Forbidden (403). Usable source links must be validated before installation."
+    },
+    {
+      "company_id": "murphy-usa",
+      "name": "Murphy USA",
+      "rank": 263,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "repair-needed",
+        "message": "The official interactive search opens, but no portable listing recipe with validated job links was established. This does not indicate an absence of vacancies.",
+        "checked_at": "2026-09-14T23:22:58.397854+00:00"
+      },
+      "http_recheck": {
+        "id": "murphy-usa",
+        "name": "Murphy USA",
+        "rank": 263,
+        "checked_at": "2026-10-01T00:05:02.372317+00:00",
+        "url": "https://jobs.murphyusa.com/",
+        "status": 200,
+        "final_url": "https://jobs.murphyusa.com/murphyusa/jobs",
+        "title": "Murphy USA - Jobs",
+        "links": [
+          {
+            "text": "Careers",
+            "url": "https://jobs.murphyusa.com/murphyusa/jobs"
+          },
+          {
+            "text": "Career Opportunities",
+            "url": "https://jobs.murphyusa.com/murphyusa/jobs"
+          },
+          {
+            "text": "Job Search",
+            "url": "https://jobs.murphyusa.com/murphyusa/job-search"
+          },
+          {
+            "text": "Search Jobs",
+            "url": "https://jobs.murphyusa.com/murphyusa/job-search"
+          },
+          {
+            "text": "Search Jobs",
+            "url": "https://jobs.murphyusa.com/murphyusa/job-search"
+          },
+          {
+            "text": "Search Jobs",
+            "url": "https://jobs.murphyusa.com/murphyusa/job-search"
+          },
+          {
+            "text": "Search Jobs",
+            "url": "https://jobs.murphyusa.com/murphyusa/job-search"
+          },
+          {
+            "text": "Explore Jobs",
+            "url": "https://jobs.murphyusa.com/murphyusa/job-search"
+          },
+          {
+            "text": "Careers",
+            "url": "https://jobs.murphyusa.com/murphyusa/jobs"
+          }
+        ]
+      },
+      "browser_recheck": {
+        "id": "murphy-usa",
+        "url": "https://myjobs.adp.com/murphyusa/cx",
+        "status": 200,
+        "title": "",
+        "text": "",
+        "links": []
+      },
+      "status": "unavailable",
+      "reason": "repair-needed",
+      "message": "The official search redirects to myjobs.adp.com/murphyusa/cx. An ordinary browser displayed the branded shell without jobs; no portable listing with validated direct links was established."
+    },
+    {
+      "company_id": "kinder-morgan",
+      "name": "Kinder Morgan",
+      "rank": 266,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "repair-needed",
+        "message": "The official careers portal links separate corporate and field boards. The inspected corporate iCIMS page exposed no usable listings; a working scoped recipe needs validation.",
+        "checked_at": "2026-09-14T23:22:58.397854+00:00"
+      },
+      "http_recheck": {
+        "id": "kinder-morgan",
+        "name": "Kinder Morgan",
+        "rank": 266,
+        "checked_at": "2026-10-01T00:05:02.836486+00:00",
+        "url": "https://careers-kindermorgan.icims.com/jobs/search?ss=1&in_iframe=1",
+        "status": 200,
+        "final_url": "https://careers-kindermorgan.icims.com/jobs/search?ss=1&in_iframe=1",
+        "title": "",
+        "links": []
+      },
+      "browser_recheck": {
+        "id": "kinder-morgan",
+        "url": "https://careers.kindermorgan.com/careers-home/jobs",
+        "status": 200,
+        "title": "403 Forbidden",
+        "text": "403 Forbidden",
+        "links": []
+      },
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The inspected public corporate iCIMS board displays 403 Forbidden in an ordinary browser; separate corporate and field hiring coverage remains unresolved."
+    },
+    {
+      "company_id": "consolidated-edison",
+      "name": "Consolidated Edison",
+      "rank": 267,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "access-restricted",
+        "message": "The official careers site presents an access challenge in a normal browser and returns HTTP 403.",
+        "checked_at": "2026-09-14T23:22:58.397854+00:00"
+      },
+      "http_recheck": {
+        "id": "consolidated-edison",
+        "name": "Consolidated Edison",
+        "rank": 267,
+        "checked_at": "2026-10-01T00:05:03.068144+00:00",
+        "url": "https://careers.coned.com/",
+        "status": 403,
+        "final_url": "https://careers.coned.com/",
+        "title": "Just a moment...",
+        "links": []
+      },
+      "browser_recheck": {
+        "id": "consolidated-edison",
+        "url": "https://careers.coned.com/",
+        "status": 403,
+        "title": "Just a moment...",
+        "text": "",
+        "links": []
+      },
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation."
+    },
+    {
+      "company_id": "farmers-insurance",
+      "name": "Farmers Insurance Exchange",
+      "rank": 271,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "repair-needed",
+        "message": "The official corporate careers page repeatedly timed out in HTTP and normal browser checks. A reachable public careers source needs validation.",
+        "checked_at": "2026-09-14T23:22:58.397854+00:00"
+      },
+      "http_recheck": {
+        "id": "farmers-insurance",
+        "name": "Farmers Insurance Exchange",
+        "rank": 271,
+        "checked_at": "2026-10-01T00:05:03.258313+00:00",
+        "url": "https://www.farmers.com/careers/",
+        "error": "The read operation timed out"
+      },
+      "browser_recheck": null,
+      "status": "verified",
+      "recipe_sha256": "5590629329a2e71eacb9c8e00d21a0c6d2f5547383fd272d160b5a6b9dbdf2e3",
+      "strategy": "generic_html",
+      "checked_at": "2026-10-01T00:15:22.169598+00:00",
+      "job_count": 25,
+      "pages": 6,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment skipped 20 jobs after the configured 5-posting limit",
+        "description detail enrichment was incomplete for 5 jobs",
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "samples": [
+        {
+          "title": "Learning and Development Consultant",
+          "location": "US",
+          "source_url": "https://jobs.farmersinsurance.com/job/Learning-and-Development-Consultant/1373636357"
+        },
+        {
+          "title": "AI Forward Deployed Lead Engineer",
+          "location": "US",
+          "source_url": "https://jobs.farmersinsurance.com/job/AI-Forward-Deployed-Lead-Engineer/1373639557"
+        },
+        {
+          "title": "Inside Territory Manager - Northeast Region",
+          "location": "PA, US +13 more…",
+          "source_url": "https://jobs.farmersinsurance.com/job/Inside-Territory-Manager-Northeast-Region-PA/1370860257"
+        }
+      ],
+      "representative_link_check": {
+        "id": "farmers-insurance",
+        "url": "https://jobs.farmersinsurance.com/job/Learning-and-Development-Consultant/1373636357",
+        "status": 200,
+        "final_url": "https://jobs.farmersinsurance.com/job/Learning-and-Development-Consultant/1373636357"
+      }
+    },
+    {
+      "company_id": "caseys",
+      "name": "Casey's General Stores",
+      "rank": 282,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "access-restricted",
+        "message": "The official careers page presents an access challenge in a normal browser. A permitted public listing source needs validation.",
+        "checked_at": "2026-09-14T23:22:58.397854+00:00"
+      },
+      "http_recheck": {
+        "id": "caseys",
+        "name": "Casey's General Stores",
+        "rank": 282,
+        "checked_at": "2026-10-01T00:05:03.369140+00:00",
+        "url": "https://www.caseys.com/careers",
+        "status": 403,
+        "final_url": "https://www.caseys.com/careers",
+        "title": "Just a moment...",
+        "links": []
+      },
+      "browser_recheck": {
+        "id": "caseys",
+        "url": "https://www.caseys.com/careers",
+        "status": 403,
+        "title": "Just a moment...",
+        "text": "www.caseys.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are n",
+        "links": []
+      },
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation."
+    },
+    {
+      "company_id": "raymond-james",
+      "name": "Raymond James Financial",
+      "rank": 283,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "repair-needed",
+        "message": "The official careers page timed out over HTTP and failed with a browser protocol error. A working public source needs validation.",
+        "checked_at": "2026-09-14T23:22:58.397854+00:00"
+      },
+      "http_recheck": {
+        "id": "raymond-james",
+        "name": "Raymond James Financial",
+        "rank": 283,
+        "checked_at": "2026-10-01T00:05:03.370140+00:00",
+        "url": "https://www.raymondjames.com/careers",
+        "error": "The read operation timed out"
+      },
+      "browser_recheck": null,
+      "status": "verified",
+      "recipe_sha256": "7f739872341bfd6ba73e3ad94711dc7625aa22c234c7375ee0fe091a4d9d6209",
+      "strategy": "workday",
+      "checked_at": "2026-10-01T00:09:09.969814+00:00",
+      "job_count": 8,
+      "pages": 9,
+      "complete": false,
+      "warnings": [
+        "removed 12 duplicate source IDs",
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "samples": [
+        {
+          "title": "Client Service Associate",
+          "location": "Wheaton, Illinois - United States",
+          "source_url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Wheaton-Illinois---United-States/Client-Service-Associate_R-0013221"
+        },
+        {
+          "title": "Equity Research Associate - Banks (St. Petersburg)",
+          "location": "Saint Petersburg, Florida - United States",
+          "source_url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Saint-Petersburg-Florida---United-States/Equity-Research-Associate---Banks--St-Petersburg-_R-0011909-1"
+        },
+        {
+          "title": "AMP Financial Advisor",
+          "location": "Gaylord, Michigan - United States",
+          "source_url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Gaylord-Michigan---United-States/AMP-Financial-Advisor_R-0013198"
+        }
+      ],
+      "representative_link_check": {
+        "id": "raymond-james",
+        "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Wheaton-Illinois---United-States/Client-Service-Associate_R-0013221",
+        "status": 200,
+        "final_url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Wheaton-Illinois---United-States/Client-Service-Associate_R-0013221"
+      }
+    },
+    {
+      "company_id": "principal-financial",
+      "name": "Principal Financial",
+      "rank": 287,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "access-restricted",
+        "message": "The public careers search returns 403 Forbidden in a normal browser; the linked iCIMS page did not expose usable listings.",
+        "checked_at": "2026-09-14T23:22:58.397854+00:00"
+      },
+      "http_recheck": {
+        "id": "principal-financial",
+        "name": "Principal Financial",
+        "rank": 287,
+        "checked_at": "2026-10-01T00:05:03.371141+00:00",
+        "url": "https://careers-principal.icims.com/jobs/search?ss=1&in_iframe=1",
+        "status": 200,
+        "final_url": "https://careers-principal.icims.com/jobs/search?ss=1&in_iframe=1",
+        "title": "",
+        "links": []
+      },
+      "browser_recheck": {
+        "id": "principal-financial",
+        "url": "https://careers.principal.com/us/jobs",
+        "status": 200,
+        "title": "403 Forbidden",
+        "text": "403 Forbidden",
+        "links": []
+      },
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The public iCIMS board displays 403 Forbidden in an ordinary browser and yielded no usable listings."
+    },
+    {
+      "company_id": "fluor",
+      "name": "Fluor",
+      "rank": 292,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "repair-needed",
+        "message": "The official Eightfold careers page opens, but no portable listing recipe with validated source links was established. The observed job-detail requests alone are insufficient.",
+        "checked_at": "2026-09-14T23:22:58.397854+00:00"
+      },
+      "http_recheck": {
+        "id": "fluor",
+        "name": "Fluor",
+        "rank": 292,
+        "checked_at": "2026-10-01T00:05:03.451324+00:00",
+        "url": "https://careers.fluor.com/careers",
+        "status": 200,
+        "final_url": "https://careers.fluor.com/careers",
+        "title": "Fluor Careers",
+        "links": [
+          {
+            "text": "Applicant Privacy Notice",
+            "url": "https://a.fluor.com/f/1014770/x/58d6a981d0/flr-job-app-privacy-notice.pdf"
+          },
+          {
+            "text": "https://thrivecareers.fluor.com",
+            "url": "https://thrivecareers.fluor.com/"
+          }
+        ]
+      },
+      "browser_recheck": null,
+      "status": "verified",
+      "recipe_sha256": "0a53a0c4243a2736de62b13843267b538222a33e7f6e4973ef79a5f655c0c66b",
+      "strategy": "generic_html",
+      "checked_at": "2026-10-01T00:13:56.820571+00:00",
+      "job_count": 20,
+      "pages": 6,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment skipped 15 jobs after the configured 5-posting limit",
+        "description detail enrichment was incomplete for 5 jobs",
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "First page of Fluor’s officially linked Thrive board; China/Germany and other sources are not asserted to be complete."
+      ],
+      "samples": [
+        {
+          "title": "Electrician",
+          "location": "Tatum, TX, US",
+          "source_url": "https://thrivecareers.fluor.com/job/Tatum-Electrician-TX/1309865600"
+        },
+        {
+          "title": "Support - Safety - Level IV",
+          "location": "Victoria, TX, US",
+          "source_url": "https://thrivecareers.fluor.com/job/Victoria-Support-Safety-Level-IV-TX-77901/1380991500"
+        },
+        {
+          "title": "Utility Worker - Laborer",
+          "location": "Jenkinsville, SC, US",
+          "source_url": "https://thrivecareers.fluor.com/job/Jenkinsville-Utility-Worker-Laborer-SC/1363716500"
+        }
+      ],
+      "representative_link_check": {
+        "id": "fluor",
+        "url": "https://thrivecareers.fluor.com/job/Tatum-Electrician-TX/1309865600",
+        "status": 200,
+        "final_url": "https://thrivecareers.fluor.com/job/Tatum-Electrician-TX/1309865600"
+      }
+    },
+    {
+      "company_id": "gap",
+      "name": "Gap",
+      "rank": 293,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "repair-needed",
+        "message": "The official search automatically applies the browser location and distance. A deterministic recipe with explicit, stable geographic scope must be validated before installation.",
+        "checked_at": "2026-09-14T23:22:58.397854+00:00"
+      },
+      "http_recheck": {
+        "id": "gap",
+        "name": "Gap",
+        "rank": 293,
+        "checked_at": "2026-10-01T00:05:03.552374+00:00",
+        "url": "https://www.gapinc.com/en-us/careers/job-search",
+        "status": 200,
+        "final_url": "https://www.gapinc.com/en-us/careers/job-search",
+        "title": "Job Search | Gap Inc.",
+        "links": [
+          {
+            "text": "Careers",
+            "url": "https://www.gapinc.com/en-us/careers"
+          },
+          {
+            "text": "Overview",
+            "url": "https://www.gapinc.com/careers"
+          },
+          {
+            "text": "Old Navy",
+            "url": "https://www.gapinc.com/en-us/careers/old-navy-careers"
+          },
+          {
+            "text": "Gap",
+            "url": "https://www.gapinc.com/en-us/careers/gap-careers"
+          },
+          {
+            "text": "Banana Republic",
+            "url": "https://www.gapinc.com/en-us/careers/banana-republic-careers"
+          },
+          {
+            "text": "Athleta",
+            "url": "https://www.gapinc.com/en-us/careers/athleta-careers"
+          },
+          {
+            "text": "Gap Inc.",
+            "url": "https://www.gapinc.com/en-us/careers/gap-inc-careers"
+          },
+          {
+            "text": "Benefits",
+            "url": "https://www.gapinc.com/en-us/careers/gap-inc-benefits"
+          },
+          {
+            "text": "Talent Areas",
+            "url": "https://www.gapinc.com/en-us/careers/gap-inc-talent-areas"
+          },
+          {
+            "text": "Technology",
+            "url": "https://www.gapinc.com/en-us/careers/gap-inc-talent-areas/technology-and-digital"
+          },
+          {
+            "text": "Global Supply Chain",
+            "url": "https://www.gapinc.com/en-us/careers/gap-inc-talent-areas/global-supply-chain"
+          },
+          {
+            "text": "Student and Recent Grads",
+            "url": "https://www.gapinc.com/en-us/careers/student-and-recent-grads/rotational-management-program"
+          },
+          {
+            "text": "Rotational Management Program",
+            "url": "https://www.gapinc.com/en-us/careers/student-and-recent-grads/rotational-management-program"
+          },
+          {
+            "text": "Culture Blog",
+            "url": "https://www.gapinc.com/en-us/careers/culture-blog"
+          },
+          {
+            "text": "Job Search",
+            "url": "https://www.gapinc.com/en-us/careers/job-search"
+          },
+          {
+            "text": "My Saved Jobs",
+            "url": "https://www.gapinc.com/en-us/careers/job-search/my-saved-jobs"
+          },
+          {
+            "text": "Careers Login",
+            "url": "https://www.gapinc.com/en-us/careers/careers-login"
+          },
+          {
+            "text": "Careers",
+            "url": "https://www.gapinc.com/Careers"
+          },
+          {
+            "text": "Stores",
+            "url": "https://www.gapinc.com/en-us/careers/job-search?type=Stores&searchOrigin=job_search_quick_stores_link"
+          },
+          {
+            "text": "Headquarters",
+            "url": "https://www.gapinc.com/en-us/careers/job-search?type=Headquarters&searchOrigin=job_search_quick_headquarters_link"
+          },
+          {
+            "text": "Distribution Centers",
+            "url": "https://www.gapinc.com/en-us/careers/job-search?type=Distribution Centers&searchOrigin=job_search_quick_distribution_centers_link"
+          },
+          {
+            "text": "Contact Centers",
+            "url": "https://www.gapinc.com/en-us/careers/job-search?category=Customer%20Service&searchOrigin=job_search_quick_customer_service_link"
+          },
+          {
+            "text": "Careers",
+            "url": "https://www.gapinc.com/en-us/careers"
+          },
+          {
+            "text": "Careers Login",
+            "url": "https://www.gapinc.com/en-us/careers/careers-login"
+          },
+          {
+            "text": "Terms of Use Careers",
+            "url": "https://www.gapinc.com/en-us/careers/privacy-policy#terms"
+          },
+          {
+            "text": "Gap Inc. Global Applicant Privacy Policy",
+            "url": "https://www.gapinc.com/en-ca/careers/careers-privacy-policy"
+          }
+        ]
+      },
+      "browser_recheck": null,
+      "status": "verified",
+      "recipe_sha256": "a3fff53623ff0c68fd76aacb6c1dafbee16b405a5f349a440915ce9e46daad40",
+      "strategy": "workday",
+      "checked_at": "2026-10-01T00:13:56.820571+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "samples": [
+        {
+          "title": "General Manager - Huntington - WV",
+          "location": "06069 ON Huntington - WV",
+          "source_url": "https://gapinc.wd1.myworkdayjobs.com/GAPINC/job/06069-ON-Huntington---WV/General-Manager---Huntington---WV_R222164"
+        },
+        {
+          "title": "General Manager - Santa Anita F/P",
+          "location": "06216 ON Santa Anita F/P",
+          "source_url": "https://gapinc.wd1.myworkdayjobs.com/GAPINC/job/06216-ON-Santa-Anita-FP/General-Manager---Santa-Anita-F-P_R222174"
+        },
+        {
+          "title": "Asset Protection Coordinator - Washington DC Metro",
+          "location": "03375 ON Tysons Corner Center",
+          "source_url": "https://gapinc.wd1.myworkdayjobs.com/GAPINC/job/03375-ON-Tysons-Corner-Center/Asset-Protection-Coordinator---Baltimore_R222160"
+        }
+      ],
+      "representative_link_check": {
+        "id": "gap",
+        "url": "https://gapinc.wd1.myworkdayjobs.com/GAPINC/job/06069-ON-Huntington---WV/General-Manager---Huntington---WV_R222164",
+        "status": 200,
+        "final_url": "https://gapinc.wd1.myworkdayjobs.com/GAPINC/job/06069-ON-Huntington---WV/General-Manager---Huntington---WV_R222164"
+      }
+    },
+    {
+      "company_id": "builders-firstsource",
+      "name": "Builders FirstSource",
+      "rank": 296,
+      "previous_availability": {
+        "status": "unavailable",
+        "reason": "access-restricted",
+        "message": "The official careers search returns 403 Forbidden in a normal browser. No working deterministic listing feed was validated.",
+        "checked_at": "2026-09-14T23:22:58.397854+00:00"
+      },
+      "http_recheck": {
+        "id": "builders-firstsource",
+        "name": "Builders FirstSource",
+        "rank": 296,
+        "checked_at": "2026-10-01T00:05:03.751968+00:00",
+        "url": "https://www.bldr.com/careers",
+        "status": 200,
+        "final_url": "https://careers.bldr.com/",
+        "title": "Builders FirstSource Careers",
+        "links": [
+          {
+            "text": "Careers Home",
+            "url": "https://careers.bldr.com/"
+          },
+          {
+            "text": "Career Areas",
+            "url": "javascript:void(0)"
+          },
+          {
+            "text": "Search & Apply",
+            "url": "https://careers.bldr.com/jobs"
+          },
+          {
+            "text": "View Jobs",
+            "url": "https://myparadigm.com/careers/"
+          },
+          {
+            "text": "See the Guide",
+            "url": "https://assets.jibecdn.com/prod/bldr/0.0.109/assets/BFS_Early_Career_Guide_No_CH_V3.11.24.pdf"
+          }
+        ]
+      },
+      "browser_recheck": {
+        "id": "builders-firstsource",
+        "url": "https://careers.bldr.com/",
+        "status": 403,
+        "title": "403 Forbidden",
+        "text": "403 Forbidden",
+        "links": []
+      },
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The public careers landing page is reachable, but the official /jobs search returns 403 Forbidden in an ordinary browser; no permitted working listing was validated."
+    }
+  ]
+}

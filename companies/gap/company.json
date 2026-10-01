@@ -14,11 +14,5 @@
       "2026",
       "United States"
     ]
-  },
-  "availability": {
-    "status": "unavailable",
-    "reason": "repair-needed",
-    "message": "The official search automatically applies the browser location and distance. A deterministic recipe with explicit, stable geographic scope must be validated before installation.",
-    "checked_at": "2026-09-14T23:22:58.397854+00:00"
   }
 }

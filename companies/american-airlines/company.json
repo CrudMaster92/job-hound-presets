@@ -8,9 +8,9 @@
   "logo_url": "https://www.google.com/s2/favicons?domain=aa.com&sz=128",
   "availability": {
     "status": "unavailable",
-    "reason": "repair-needed",
-    "message": "The job board is hiring, but its current scraper cannot complete a background check reliably and needs repair.",
-    "checked_at": "2026-09-04T19:00:00Z"
+    "reason": "access-restricted",
+    "message": "The public American Airlines search returned a shell over HTTP and Access Denied (403) in an ordinary browser; the candidate browser recipe timed out.",
+    "checked_at": "2026-10-01T00:21:26.838864+00:00"
   },
   "facets": {
     "industries": [],

@@ -18,7 +18,7 @@
   "availability": {
     "status": "unavailable",
     "reason": "repair-needed",
-    "message": "CBRE lists jobs in a normal browser, but its careers board did not pass unattended validation. Its scraper needs repair before installation.",
-    "checked_at": "2026-09-06T19:18:42.131738+00:00"
+    "message": "The official CBRE search returned HTTP 202 with an empty page in HTTP and ordinary-browser checks; no repeatable listing passed validation.",
+    "checked_at": "2026-10-01T00:21:26.838864+00:00"
   }
 }
