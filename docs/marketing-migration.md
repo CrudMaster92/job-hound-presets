@@ -90,3 +90,16 @@ Acosta-family feeds requiring employer-ownership repair:
 
 TBWA Canada, McCann Canada, Sid Lee Media, and Craft Worldwide Canada remain
 disabled and are not authored or published.
+
+## Public board validation — October 2, 2026
+
+33 monitors passed fresh canonical public-collector runs and employer ownership
+review, returning 358 Canadian listings. They are now verified and eligible for
+the shared Site/app feed. Exact observations and representative source URLs are
+in `marketing-public-board-evidence.json`. Publicis child monitor URL sets were
+disjoint; the Mint ATS board identifies itself as The Mint Agency.
+
+The other 18 monitors remain unverified: zero current jobs, collection failures,
+or detail-phase ownership that needs a separately reviewed public budget.
+The public collector continues to exclude them explicitly. Verification does
+not assert exhaustive coverage or remove reported description warnings.
