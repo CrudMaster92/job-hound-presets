@@ -11,12 +11,10 @@
     "recipe_schema_version": 1
   },
   "verification": {
-    "status": "unverified",
-    "checked_at": "2026-09-30T00:58:28.658835Z",
+    "status": "verified",
+    "checked_at": "2026-10-02T20:05:30.226803Z",
     "job_count": 8,
-    "warnings": [
-      "JobHound live run returned jobs on 2026-09-29; employer attribution and completeness remain under review."
-    ]
+    "warnings": []
   },
   "recipe": {
     "version": 1,
