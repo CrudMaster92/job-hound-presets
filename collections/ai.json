@@ -2,13 +2,21 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "ai",
-  "revision": 11,
+  "revision": 12,
   "name": "AI",
   "description": "Curated AI companies with ready-to-run public careers scrapers.",
-  "tags": ["AI", "Technology", "Global"],
+  "tags": [
+    "AI",
+    "Technology",
+    "Global"
+  ],
   "facets": {
-    "collection_types": ["industry"],
-    "industries": ["technology"],
+    "collection_types": [
+      "industry"
+    ],
+    "industries": [
+      "technology"
+    ],
     "role_families": [],
     "locations": []
   },
@@ -27,7 +35,9 @@
     },
     {
       "company_id": "google",
-      "monitor_ids": ["google"]
+      "monitor_ids": [
+        "google"
+      ]
     },
     {
       "company_id": "xai"

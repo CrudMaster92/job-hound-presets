@@ -1,0 +1,1852 @@
+{
+  "runtime": "Canonical JobHound ScraperRecipe/run_scraper with DNS-protected bounded public client",
+  "sources": [
+    {
+      "id": "amazon-games",
+      "company_id": "amazon",
+      "path": "companies/amazon/monitors/amazon-games.json",
+      "recipe_sha256": "134715b4e5dae476bf2d8b8f536926103428678b04d1dea6cd13e13774b96752",
+      "strategy": "generic_json",
+      "request_url": "https://www.amazon.jobs/en/search.json",
+      "careers_url": "https://www.amazon.jobs/en/search?base_query=Amazon%20Games",
+      "checked_at": "2026-10-03T22:01:14.126771+00:00",
+      "prior_verification": {
+        "status": "degraded",
+        "checked_at": "2026-09-05T14:20:01.672565+00:00",
+        "job_count": 2,
+        "warnings": [
+          "Amazon Games keyword results, filtered to gaming job titles.",
+          "Partial listing: unseen jobs must not be closed based on this monitor."
+        ]
+      },
+      "source_filter": {
+        "title_contains_any": [
+          "Amazon Games",
+          "gaming",
+          "game designer",
+          "game developer",
+          "gameplay"
+        ]
+      },
+      "job_count": 3,
+      "pages": 1,
+      "complete": false,
+      "warnings": [],
+      "partial_listing": true,
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Finance Manager, Amazon Games",
+          "location": "Seattle, Washington, USA",
+          "url": "https://www.amazon.jobs/en/jobs/10544645/finance-manager-amazon-games"
+        },
+        {
+          "title": "Senior Creator Marketing Manager , Amazon Games - Luna",
+          "location": "Culver City, California, USA",
+          "url": "https://www.amazon.jobs/en/jobs/10541157/senior-creator-marketing-manager-amazon-games-luna"
+        },
+        {
+          "title": "Senior Technical Program Manager, GenAI Games, Amazon Games GenAI & Strategic Initiatives",
+          "location": "Seattle, Washington, USA",
+          "url": "https://www.amazon.jobs/en/jobs/10379035/senior-technical-program-manager-genai-games-amazon-games-genai-strategic-initiatives"
+        }
+      ],
+      "verdict": "pass"
+    },
+    {
+      "id": "anthropic",
+      "company_id": "anthropic",
+      "path": "companies/anthropic/monitors/anthropic.json",
+      "recipe_sha256": "e15993464e353b563b7338a00737721a55dd2cad537193898fc146cdcec2cca0",
+      "strategy": "greenhouse",
+      "request_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs",
+      "careers_url": "https://job-boards.greenhouse.io/anthropic",
+      "checked_at": "2026-10-03T22:01:13.603796+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": null,
+        "job_count": null,
+        "warnings": []
+      },
+      "source_filter": null,
+      "job_count": 639,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Account Executive, AI Native",
+          "location": "New York City, NY; San Francisco, CA | New York City, NY",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/4461450008"
+        },
+        {
+          "title": "Account Executive - DNB",
+          "location": "Singapore",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391376008"
+        },
+        {
+          "title": "Account Executive - Public Sector (ASEAN)",
+          "location": "Singapore",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391381008"
+        }
+      ],
+      "verdict": "pass"
+    },
+    {
+      "id": "base44",
+      "company_id": "base44",
+      "path": "companies/base44/monitors/base44.json",
+      "recipe_sha256": "253e9aedb639e02f0424e1e4c1827f6abd4d053adcb8ab7a12d739db1abd04ad",
+      "strategy": "smartrecruiters",
+      "request_url": "https://api.smartrecruiters.com/v1/companies/Wix2/postings",
+      "careers_url": "https://careers.base44.com/",
+      "checked_at": "2026-10-03T22:04:36.500987+00:00",
+      "prior_verification": {
+        "status": "verified",
+        "checked_at": "2026-08-31T00:00:00Z",
+        "job_count": 25,
+        "warnings": []
+      },
+      "source_filter": {
+        "title_contains_any": [
+          "Base44"
+        ]
+      },
+      "job_count": 22,
+      "pages": 23,
+      "complete": true,
+      "warnings": [
+        "description detail enrichment was incomplete for 1 jobs"
+      ],
+      "partial_listing": false,
+      "posting_hosts": [
+        "api.smartrecruiters.com"
+      ],
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "DevOps Engineer - Base44",
+          "location": "Tel Aviv, , Israel",
+          "url": "https://api.smartrecruiters.com/v1/companies/Wix2/postings/744000152930574"
+        },
+        {
+          "title": "AI Marketing Builder - Base44",
+          "location": "Tel Aviv, , Israel",
+          "url": "https://api.smartrecruiters.com/v1/companies/Wix2/postings/744000152864758"
+        },
+        {
+          "title": "User Acquisition Analyst- Base44",
+          "location": "Tel Aviv, , Israel",
+          "url": "https://api.smartrecruiters.com/v1/companies/Wix2/postings/744000152173702"
+        }
+      ],
+      "verdict": "already-verified-pass"
+    },
+    {
+      "id": "bbdo-canada",
+      "company_id": "bbdo-canada",
+      "path": "companies/bbdo-canada/monitors/bbdo-canada.json",
+      "recipe_sha256": "c444d4bef743052e8703a5cba5c5ac6e90aab78bfdc85bb9a862c4061320f3c3",
+      "strategy": "jobvite",
+      "request_url": "https://jobs.jobvite.com/bbdo-toronto/jobs",
+      "careers_url": "https://jobs.jobvite.com/bbdo-toronto/jobs",
+      "checked_at": "2026-10-03T22:01:15.094880+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": "2026-09-30T00:58:28.658835Z",
+        "job_count": 0,
+        "warnings": [
+          "JobHound live run returned zero jobs on 2026-09-29; no current opening was confirmed."
+        ]
+      },
+      "source_filter": null,
+      "job_count": 0,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "outcome": "blocked-empty",
+      "samples": [],
+      "verdict": "blocked"
+    },
+    {
+      "id": "cohere",
+      "company_id": "cohere",
+      "path": "companies/cohere/monitors/cohere.json",
+      "recipe_sha256": "6ecf160bb22be4343483fc6371b70fd95857e8247e456ad4e254aa493eebf6a8",
+      "strategy": "ashby",
+      "request_url": "https://api.ashbyhq.com/posting-api/job-board/cohere",
+      "careers_url": "https://jobs.ashbyhq.com/cohere",
+      "checked_at": "2026-10-03T22:04:36.502015+00:00",
+      "prior_verification": {
+        "status": "verified",
+        "checked_at": "2026-08-31T00:00:00Z",
+        "job_count": 144,
+        "warnings": []
+      },
+      "source_filter": null,
+      "job_count": 137,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "posting_hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Senior Full-Stack Engineer, Internal Applications",
+          "location": "Toronto; Canada",
+          "url": "https://jobs.ashbyhq.com/cohere/7133d205-5421-4336-a8e2-6037b5f55073"
+        },
+        {
+          "title": "Member of Technical Staff, Modeling",
+          "location": "London; San Francisco; New York; Paris; Toronto; Montreal",
+          "url": "https://jobs.ashbyhq.com/cohere/3136a5a5-06fd-4c82-8b72-a43467e6b128"
+        },
+        {
+          "title": "Revenue Enablement Program Manager - EMEA",
+          "location": "Europe; London",
+          "url": "https://jobs.ashbyhq.com/cohere/595a2d50-46a5-4ff9-af1c-d58cea9d8e68"
+        }
+      ],
+      "verdict": "already-verified-pass"
+    },
+    {
+      "id": "critical-mass",
+      "company_id": "critical-mass",
+      "path": "companies/critical-mass/monitors/critical-mass.json",
+      "recipe_sha256": "a2932f66c5ab959e26b8ae81d8b61d1c0aae3c73f417cfd6e43e40db8c6b44ca",
+      "strategy": "greenhouse",
+      "request_url": "https://boards-api.greenhouse.io/v1/boards/criticalmass/jobs",
+      "careers_url": "https://www.criticalmass.com/jobs",
+      "checked_at": "2026-10-03T22:01:15.349757+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": "2026-09-30T00:58:28.658835Z",
+        "job_count": 0,
+        "warnings": [
+          "JobHound live run returned zero jobs on 2026-09-29; no current opening was confirmed."
+        ]
+      },
+      "source_filter": {
+        "predicates": [
+          {
+            "phase": "listing",
+            "path": "location.name",
+            "operator": "contains_ci",
+            "values": [
+              "Canada",
+              "Toronto",
+              "Vancouver",
+              "Montréal",
+              "Montreal",
+              "Calgary",
+              "Ottawa",
+              "Halifax",
+              "Edmonton",
+              "Winnipeg",
+              "Mississauga",
+              "Burnaby",
+              "Quebec",
+              "Québec"
+            ]
+          }
+        ]
+      },
+      "job_count": 0,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "outcome": "blocked-empty",
+      "samples": [],
+      "verdict": "blocked"
+    },
+    {
+      "id": "cursor",
+      "company_id": "cursor",
+      "path": "companies/cursor/monitors/cursor.json",
+      "recipe_sha256": "ba626a0b8cdacb8db53eaa3012b37f38ac9f71f86557eeb659022935a56f0fb0",
+      "strategy": "ashby",
+      "request_url": "https://api.ashbyhq.com/posting-api/job-board/cursor",
+      "careers_url": "https://cursor.com/careers",
+      "checked_at": "2026-10-03T22:01:58.549547+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": null,
+        "job_count": null,
+        "warnings": []
+      },
+      "source_filter": null,
+      "job_count": 132,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Software Engineer, Growth",
+          "location": "San Francisco; New York",
+          "url": "https://jobs.ashbyhq.com/cursor/0ec39ed7-a5dc-4551-bb26-b7f4f9fb4a74"
+        },
+        {
+          "title": "Software Engineer, Infrastructure",
+          "location": "San Francisco; New York",
+          "url": "https://jobs.ashbyhq.com/cursor/6d576a09-f30d-4e5e-bb58-5d7ef56cb511"
+        },
+        {
+          "title": "Software Engineer, Core Services",
+          "location": "San Francisco; New York",
+          "url": "https://jobs.ashbyhq.com/cursor/77bf35db-119c-4533-8187-1e8d5ae08c45"
+        }
+      ],
+      "verdict": "pass"
+    },
+    {
+      "id": "cygames",
+      "company_id": "cygames",
+      "path": "companies/cygames/monitors/cygames.json",
+      "recipe_sha256": "06b6fa138f5cf9caa1c2a89abd71070fbd0315b889869b204b994710ba938afa",
+      "strategy": "generic_html",
+      "request_url": "https://hrmos.co/pages/cygames/jobs",
+      "careers_url": "https://hrmos.co/pages/cygames/jobs",
+      "checked_at": "2026-10-03T22:01:15.439709+00:00",
+      "prior_verification": {
+        "status": "degraded",
+        "checked_at": "2026-09-05T14:20:03.206412+00:00",
+        "job_count": 100,
+        "warnings": [
+          "First 100 public Cygames group roles, including CySphere.",
+          "Partial listing: unseen jobs must not be closed based on this monitor."
+        ]
+      },
+      "source_filter": null,
+      "job_count": 100,
+      "pages": 1,
+      "complete": false,
+      "warnings": [],
+      "partial_listing": true,
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "ゲームプランナー／ゲーム／東京",
+          "location": "東京都渋谷区南平台町16番17号 住友不動産渋谷ガーデンタワー 他(1)",
+          "url": "https://hrmos.co/pages/cygames/jobs/0000001"
+        },
+        {
+          "title": "ディレクター／ゲーム／東京",
+          "location": "東京都渋谷区南平台町16番17号 住友不動産渋谷ガーデンタワー 他(1)",
+          "url": "https://hrmos.co/pages/cygames/jobs/0000002"
+        },
+        {
+          "title": "シナリオライター／ゲーム／東京",
+          "location": "東京都渋谷区南平台町16番17号 住友不動産渋谷ガーデンタワー 他(1)",
+          "url": "https://hrmos.co/pages/cygames/jobs/0000003"
+        }
+      ],
+      "verdict": "pass"
+    },
+    {
+      "id": "dac",
+      "company_id": "dac",
+      "path": "companies/dac/monitors/dac.json",
+      "recipe_sha256": "518521558f4e4c3a02dc69743cc7a4b06623f9e8f63fa03e5f4406fa3b1ef8c7",
+      "strategy": "workday",
+      "request_url": "https://dacgroup.wd10.myworkdayjobs.com/wday/cxs/dacgroup/EXT/jobs",
+      "careers_url": "https://www.dacgroup.com/careers",
+      "checked_at": "2026-10-03T22:01:17.413895+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": "2026-09-30T00:58:28.658835Z",
+        "job_count": 19,
+        "warnings": [
+          "JobHound live run returned jobs on 2026-09-29; employer attribution and completeness remain under review."
+        ]
+      },
+      "source_filter": {
+        "predicates": [
+          {
+            "phase": "detail",
+            "path": "jobPostingInfo.country.descriptor",
+            "operator": "equals_ci",
+            "values": [
+              "Canada"
+            ]
+          }
+        ]
+      },
+      "job_count": 19,
+      "pages": 51,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Digital Media Specialist",
+          "location": "Toronto, ON",
+          "url": "https://dacgroup.wd10.myworkdayjobs.com/EXT/job/Toronto-ON/Digital-Media-Specialist_JR1693"
+        },
+        {
+          "title": "Spécialiste Senior des Médias Numériques",
+          "location": "Montreal, QC",
+          "url": "https://dacgroup.wd10.myworkdayjobs.com/EXT/job/Montreal-QC/Digital-Media-Specialist_JR1592"
+        },
+        {
+          "title": "Accounts Payable Associate",
+          "location": "Toronto, ON",
+          "url": "https://dacgroup.wd10.myworkdayjobs.com/EXT/job/Toronto-ON/Accounts-Payable-Associate_JR1695"
+        }
+      ],
+      "verdict": "pass"
+    },
+    {
+      "id": "ddb-canada",
+      "company_id": "ddb-canada",
+      "path": "companies/ddb-canada/monitors/ddb-canada.json",
+      "recipe_sha256": "0a63d4f40b2894c5bfe1821d445978969647334ae4f9e0fc34dd258132bfad7d",
+      "strategy": "jobvite",
+      "request_url": "https://jobs.jobvite.com/ddb/jobs",
+      "careers_url": "https://jobs.jobvite.com/ddb/jobs",
+      "checked_at": "2026-10-03T22:01:17.770749+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": "2026-09-30T00:58:28.658835Z",
+        "job_count": 0,
+        "warnings": [
+          "JobHound live run returned zero jobs on 2026-09-29; no current opening was confirmed."
+        ]
+      },
+      "source_filter": null,
+      "job_count": 0,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "outcome": "blocked-empty",
+      "samples": [],
+      "verdict": "blocked"
+    },
+    {
+      "id": "dentsu-creative-canada",
+      "company_id": "dentsu-creative-canada",
+      "path": "companies/dentsu-creative-canada/monitors/dentsu-creative-canada.json",
+      "recipe_sha256": "be5015eb0e7e012226095b7802349b82d98eed6eeb16a7513a0878699735eb55",
+      "strategy": "workday",
+      "request_url": "https://dentsuaegis.wd3.myworkdayjobs.com/wday/cxs/dentsuaegis/DAN_GLOBAL/jobs",
+      "careers_url": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL",
+      "checked_at": "2026-10-03T22:01:18.904331+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": "2026-09-30T00:58:28.658835Z",
+        "job_count": 7,
+        "warnings": [
+          "JobHound live run returned jobs on 2026-09-29; employer attribution and completeness remain under review."
+        ]
+      },
+      "source_filter": {
+        "predicates": [
+          {
+            "phase": "detail",
+            "path": "jobPostingInfo.jobDescription",
+            "operator": "html_label_equals_ci",
+            "label": "Brand",
+            "values": [
+              "Dentsu Creative"
+            ]
+          },
+          {
+            "phase": "detail",
+            "path": "jobPostingInfo.country.descriptor",
+            "operator": "equals_ci",
+            "values": [
+              "Canada"
+            ]
+          }
+        ],
+        "predicate_match": "all"
+      },
+      "job_count": 7,
+      "pages": 46,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Designer",
+          "location": "Toronto",
+          "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Toronto/Designer_R1131536"
+        },
+        {
+          "title": "Senior Art Director",
+          "location": "Toronto",
+          "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Toronto/Senior-Art-Director_R1127737"
+        },
+        {
+          "title": "Account Supervisor",
+          "location": "Toronto",
+          "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Toronto/Account-Supervisor_R1131532"
+        }
+      ],
+      "verdict": "pass"
+    },
+    {
+      "id": "dentsu-media-canada",
+      "company_id": "dentsu-media-canada",
+      "path": "companies/dentsu-media-canada/monitors/dentsu-media-canada.json",
+      "recipe_sha256": "b6f6afd91d9fd42b3339a414db37488b217db31945525567018e897b603480da",
+      "strategy": "workday",
+      "request_url": "https://dentsuaegis.wd3.myworkdayjobs.com/wday/cxs/dentsuaegis/DAN_GLOBAL/jobs",
+      "careers_url": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL",
+      "checked_at": "2026-10-03T22:01:20.807782+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": "2026-09-30T00:58:28.658835Z",
+        "job_count": 24,
+        "warnings": [
+          "JobHound live run returned jobs on 2026-09-29; employer attribution and completeness remain under review."
+        ]
+      },
+      "source_filter": {
+        "predicates": [
+          {
+            "phase": "detail",
+            "path": "jobPostingInfo.jobDescription",
+            "operator": "html_label_equals_ci",
+            "label": "Brand",
+            "values": [
+              "Dentsu Media"
+            ]
+          },
+          {
+            "phase": "detail",
+            "path": "jobPostingInfo.country.descriptor",
+            "operator": "equals_ci",
+            "values": [
+              "Canada"
+            ]
+          }
+        ],
+        "predicate_match": "all"
+      },
+      "job_count": 23,
+      "pages": 46,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Acheteur, Médias Numériques",
+          "location": "Montreal",
+          "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Montreal/Acheteur--Numrique_R1126726"
+        },
+        {
+          "title": "SVP, Client Leadership, dentsu X",
+          "location": "Toronto",
+          "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Toronto/SVP--Client-Leadership--dentsu-X_R1131876"
+        },
+        {
+          "title": "Acheteur Senior, Programmatique / Senior Buyer, Programmatic",
+          "location": "Montreal",
+          "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Montreal/Acheteur-Senior--Programmatique_R1129238"
+        }
+      ],
+      "verdict": "pass"
+    },
+    {
+      "id": "elevenlabs",
+      "company_id": "elevenlabs",
+      "path": "companies/elevenlabs/monitors/elevenlabs.json",
+      "recipe_sha256": "db8b1bdac9590e34bd84bd36b0645d09cfb640afa405efb8be991ce737d6da1f",
+      "strategy": "ashby",
+      "request_url": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs",
+      "careers_url": "https://elevenlabs.io/careers/positions",
+      "checked_at": "2026-10-03T22:04:36.503020+00:00",
+      "prior_verification": {
+        "status": "verified",
+        "checked_at": "2026-08-31T00:00:00Z",
+        "job_count": 249,
+        "warnings": []
+      },
+      "source_filter": null,
+      "job_count": 169,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "posting_hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Account Manager - India",
+          "location": "India",
+          "url": "https://jobs.ashbyhq.com/elevenlabs/a571b8e4-8176-4e31-aab6-2287ee810236"
+        },
+        {
+          "title": "Enterprise Solutions Engineer - North America",
+          "location": "United States; New York; San Francisco",
+          "url": "https://jobs.ashbyhq.com/elevenlabs/275f43d0-b62d-401d-830c-7c1ac0e688aa"
+        },
+        {
+          "title": "Sales Development - United States",
+          "location": "San Francisco; United States; New York",
+          "url": "https://jobs.ashbyhq.com/elevenlabs/158034c9-eb7c-4348-a0b8-fa9e817b29f1"
+        }
+      ],
+      "verdict": "already-verified-pass"
+    },
+    {
+      "id": "gale",
+      "company_id": "gale",
+      "path": "companies/gale/monitors/gale.json",
+      "recipe_sha256": "74621b24faacf376be435930458dd9af4b6ab15d9cfde5eaac6233ac30ad924b",
+      "strategy": "lever",
+      "request_url": "https://api.lever.co/v0/postings/galepartners?mode=json",
+      "careers_url": "https://jobs.lever.co/galepartners",
+      "checked_at": "2026-10-03T22:01:20.814359+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": "2026-09-30T00:58:28.658835Z",
+        "job_count": 0,
+        "warnings": [
+          "JobHound live run returned zero jobs on 2026-09-29; no current opening was confirmed."
+        ]
+      },
+      "source_filter": {
+        "predicate_match": "any",
+        "predicates": [
+          {
+            "phase": "listing",
+            "path": "country",
+            "operator": "equals_ci",
+            "values": [
+              "CA"
+            ]
+          },
+          {
+            "phase": "listing",
+            "path": "categories.allLocations",
+            "operator": "contains_ci",
+            "values": [
+              "Canada"
+            ]
+          },
+          {
+            "phase": "listing",
+            "path": "categories.location",
+            "operator": "contains_ci",
+            "values": [
+              "Canada",
+              "Toronto",
+              "Vancouver",
+              "Montréal",
+              "Montreal",
+              "Calgary",
+              "Ottawa",
+              "Halifax",
+              "Edmonton",
+              "Winnipeg",
+              "Mississauga",
+              "Burnaby",
+              "Quebec",
+              "Québec"
+            ]
+          }
+        ]
+      },
+      "job_count": 0,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "outcome": "blocked-empty",
+      "samples": [],
+      "verdict": "blocked"
+    },
+    {
+      "id": "google",
+      "company_id": "google",
+      "path": "companies/google/monitors/google.json",
+      "recipe_sha256": "b50c926d177e3e5dd74462e0c89e1f5eab487c84df74a358256652a81fe91c6d",
+      "strategy": "generic_html",
+      "request_url": "https://www.google.com/about/careers/applications/jobs/results",
+      "careers_url": "https://www.google.com/about/careers/applications/jobs",
+      "checked_at": "2026-10-03T22:04:36.503020+00:00",
+      "prior_verification": {
+        "status": "verified",
+        "checked_at": "2026-09-04T05:57:30.625382+00:00",
+        "job_count": 20,
+        "warnings": [
+          "Bounded/partial listing; unseen jobs must not be closed from this run."
+        ]
+      },
+      "source_filter": null,
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [],
+      "partial_listing": true,
+      "posting_hosts": [
+        "www.google.com"
+      ],
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "GSRS Commercial Contracts Program Manager",
+          "location": "Sunnyvale, CA, USA",
+          "url": "https://www.google.com/about/careers/applications/jobs/results/124096239800066758-gsrs-commercial-contracts-program-manager"
+        },
+        {
+          "title": "Commercial Program Manager, Data Center Non-Firm Grid Capacity",
+          "location": "San Francisco, CA, USA",
+          "url": "https://www.google.com/about/careers/applications/jobs/results/132218315014578886-commercial-program-manager-data-center-nonfirm-grid-capacity"
+        },
+        {
+          "title": "Staff Forward Deployed Engineer, GenAI, Google Cloud",
+          "location": "Zürich, Switzerland",
+          "url": "https://www.google.com/about/careers/applications/jobs/results/111514322084995782-staff-forward-deployed-engineer-genai-google-cloud"
+        }
+      ],
+      "verdict": "already-verified-pass"
+    },
+    {
+      "id": "horizon-media-canada",
+      "company_id": "horizon-media-canada",
+      "path": "companies/horizon-media-canada/monitors/horizon-media-canada.json",
+      "recipe_sha256": "e9581a5e37445b6141b35edd005f97ad1a8f103fc8f20fe666e43ed21cc04ce8",
+      "strategy": "workday",
+      "request_url": "https://horizonmedia.wd1.myworkdayjobs.com/wday/cxs/horizonmedia/CareerOpportunities/jobs",
+      "careers_url": "https://horizonmedia.wd1.myworkdayjobs.com/en-US/CareerOpportunities",
+      "checked_at": "2026-10-03T22:01:21.478855+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": "2026-09-30T00:58:28.658835Z",
+        "job_count": 4,
+        "warnings": [
+          "JobHound live run returned jobs on 2026-09-29; employer attribution and completeness remain under review."
+        ]
+      },
+      "source_filter": {
+        "predicates": [
+          {
+            "phase": "detail",
+            "path": "jobPostingInfo.country.descriptor",
+            "operator": "equals_ci",
+            "values": [
+              "Canada"
+            ]
+          },
+          {
+            "phase": "detail",
+            "path": "hiringOrganization.name",
+            "operator": "equals_ci",
+            "values": [
+              "Horizon Media Limited Partnership"
+            ]
+          }
+        ]
+      },
+      "job_count": 0,
+      "pages": 60,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment was incomplete for 54 jobs",
+        "source ownership could not be verified for 54 jobs"
+      ],
+      "partial_listing": false,
+      "outcome": "blocked-empty",
+      "samples": [],
+      "verdict": "blocked"
+    },
+    {
+      "id": "icuc-social",
+      "company_id": "icuc-social",
+      "path": "companies/icuc-social/monitors/icuc-social.json",
+      "recipe_sha256": "16d1f7973096e7124bcbe9d66e7b4c7556c28936a1f42a3386fb3203baba628e",
+      "strategy": "workday",
+      "request_url": "https://dentsuaegis.wd3.myworkdayjobs.com/wday/cxs/dentsuaegis/DAN_GLOBAL/jobs",
+      "careers_url": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL",
+      "checked_at": "2026-10-03T22:01:52.599826+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": "2026-09-30T00:58:28.658835Z",
+        "job_count": 8,
+        "warnings": [
+          "JobHound live run returned jobs on 2026-09-29; employer attribution and completeness remain under review."
+        ]
+      },
+      "source_filter": {
+        "predicates": [
+          {
+            "phase": "detail",
+            "path": "jobPostingInfo.jobDescription",
+            "operator": "html_label_equals_ci",
+            "label": "Brand",
+            "values": [
+              "ICUC"
+            ]
+          },
+          {
+            "phase": "detail",
+            "path": "jobPostingInfo.country.descriptor",
+            "operator": "equals_ci",
+            "values": [
+              "Canada"
+            ]
+          }
+        ],
+        "predicate_match": "all"
+      },
+      "job_count": 8,
+      "pages": 46,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Social Media Content Specialist - English + other languages - Remote",
+          "location": "Canada - International – Remote",
+          "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Canada---International--Remote/Social-Media-Content-Specialist---English---other-languages---Remote_R1106923-1"
+        },
+        {
+          "title": "Social Media Client Success Manager",
+          "location": "Ontario – Remote",
+          "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Ontario--Remote/Client-Success-Manager_R1130364"
+        },
+        {
+          "title": "Freelance Salesforce & HubSpot Developer",
+          "location": "Toronto",
+          "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Toronto/Freelance-Salesforce---HubSpot-Developer_R1129943"
+        }
+      ],
+      "verdict": "pass"
+    },
+    {
+      "id": "kantar-canada",
+      "company_id": "kantar-canada",
+      "path": "companies/kantar-canada/monitors/kantar-canada.json",
+      "recipe_sha256": "13a72b4b57c10f0f248d6d7f2d9aece341fa004e24593b4a0f2282efc485f60f",
+      "strategy": "workday",
+      "request_url": "https://kantar.wd3.myworkdayjobs.com/wday/cxs/kantar/KANTAR/jobs",
+      "careers_url": "https://kantar.wd3.myworkdayjobs.com/en-US/KANTAR",
+      "checked_at": "2026-10-03T22:02:16.980202+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": "2026-09-30T00:58:28.658835Z",
+        "job_count": 1,
+        "warnings": [
+          "JobHound live run returned jobs on 2026-09-29; employer attribution and completeness remain under review."
+        ]
+      },
+      "source_filter": {
+        "predicates": [
+          {
+            "phase": "detail",
+            "path": "jobPostingInfo.country.descriptor",
+            "operator": "equals_ci",
+            "values": [
+              "Canada"
+            ]
+          }
+        ]
+      },
+      "job_count": 1,
+      "pages": 29,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment was incomplete for 1 jobs",
+        "source ownership could not be verified for 1 jobs"
+      ],
+      "partial_listing": false,
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Vice President, Client Service",
+          "location": "Toronto, Queen's Quay East",
+          "url": "https://kantar.wd3.myworkdayjobs.com/KANTAR/job/Toronto-Queens-Quay-East/Vice-President--Client-Service_R102607"
+        }
+      ],
+      "verdict": "blocked"
+    },
+    {
+      "id": "keywords-studios",
+      "company_id": "keywords-studios",
+      "path": "companies/keywords-studios/monitors/keywords-studios.json",
+      "recipe_sha256": "d4d262997dfb9d516ec8b2f348b3955f8f78bb147e213e30580c1e3b2002e451",
+      "strategy": "generic_json",
+      "request_url": "https://www.keywordsstudios.com/ajax/filter_stream/Zy9QSWpZMzBXdzN6OThFSHJ6a3lkZz09",
+      "careers_url": "https://www.keywordsstudios.com/en/careers/browse-careers",
+      "checked_at": "2026-10-03T22:02:46.637756+00:00",
+      "prior_verification": {
+        "status": "degraded",
+        "checked_at": "2026-09-05T14:20:05.576654+00:00",
+        "job_count": 368,
+        "warnings": [
+          "Up to 500 roles across Keywords Studios and its owned studios. Listing descriptions are excerpts.",
+          "Partial listing: unseen jobs must not be closed based on this monitor."
+        ]
+      },
+      "source_filter": null,
+      "job_count": 386,
+      "pages": 1,
+      "complete": false,
+      "warnings": [],
+      "partial_listing": true,
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "2D Concept Artist",
+          "location": "Ottawa, Ontario, Canada",
+          "url": "https://www.keywordsstudios.com/en/careers/browse-careers/AZQ-2d-concept-artist"
+        },
+        {
+          "title": "2D Concept Artist - Volta",
+          "location": "Québec City, Quebec, Canada",
+          "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xTf-2d-concept-artist-volta"
+        },
+        {
+          "title": "2D Concept Artist - Volta",
+          "location": "Québec City, Quebec, Canada",
+          "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xIS-2d-concept-artist-volta"
+        }
+      ],
+      "verdict": "pass"
+    },
+    {
+      "id": "klick-health",
+      "company_id": "klick-health",
+      "path": "companies/klick-health/monitors/klick-health.json",
+      "recipe_sha256": "9335ad460057c44211e9f59ce968bb9ec682c774a5bb2f4874bd9cddd16c6647",
+      "strategy": "smartrecruiters",
+      "request_url": "https://api.smartrecruiters.com/v1/companies/Klick1/postings",
+      "careers_url": "https://careers.klick.com/",
+      "checked_at": "2026-10-03T22:02:56.296856+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": "2026-09-30T00:58:28.658835Z",
+        "job_count": 0,
+        "warnings": [
+          "JobHound live run returned zero jobs on 2026-09-29; no current opening was confirmed."
+        ]
+      },
+      "source_filter": {
+        "predicates": [
+          {
+            "phase": "listing",
+            "path": "location.countryCode",
+            "operator": "equals_ci",
+            "values": [
+              "CA"
+            ]
+          }
+        ]
+      },
+      "job_count": 0,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "outcome": "blocked-empty",
+      "samples": [],
+      "verdict": "blocked"
+    },
+    {
+      "id": "leger",
+      "company_id": "leger",
+      "path": "companies/leger/monitors/leger.json",
+      "recipe_sha256": "706bd715340a8fa9539d8582080361e53bd85ae5606e25a9d333fbe77c8fd1a0",
+      "strategy": "smartrecruiters",
+      "request_url": "https://api.smartrecruiters.com/v1/companies/Leger2/postings",
+      "careers_url": "https://careers.smartrecruiters.com/Leger2",
+      "checked_at": "2026-10-03T22:02:56.750360+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": "2026-09-30T00:58:28.658835Z",
+        "job_count": 0,
+        "warnings": [
+          "JobHound live run returned zero jobs on 2026-09-29; no current opening was confirmed."
+        ]
+      },
+      "source_filter": {
+        "predicates": [
+          {
+            "phase": "listing",
+            "path": "location.countryCode",
+            "operator": "equals_ci",
+            "values": [
+              "CA"
+            ]
+          }
+        ]
+      },
+      "job_count": 0,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "outcome": "blocked-empty",
+      "samples": [],
+      "verdict": "blocked"
+    },
+    {
+      "id": "lovable",
+      "company_id": "lovable",
+      "path": "companies/lovable/monitors/lovable.json",
+      "recipe_sha256": "0b7c065c5214adf0c33d3a14d4d2bbcda1cc319839ff10d8ffa2fd01c772e4ac",
+      "strategy": "ashby",
+      "request_url": "https://api.ashbyhq.com/posting-api/job-board/lovable",
+      "careers_url": "https://lovable.dev/careers",
+      "checked_at": "2026-10-03T22:04:37.190072+00:00",
+      "prior_verification": {
+        "status": "verified",
+        "checked_at": "2026-08-31T00:00:00Z",
+        "job_count": 81,
+        "warnings": []
+      },
+      "source_filter": null,
+      "job_count": 77,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "posting_hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Data Platform/Infrastructure Engineer",
+          "location": "Stockholm",
+          "url": "https://jobs.ashbyhq.com/lovable/cfef6fe1-e0c9-4139-8618-b51bfb1dc683"
+        },
+        {
+          "title": "Research Engineering Lead",
+          "location": "Stockholm",
+          "url": "https://jobs.ashbyhq.com/lovable/79e04665-0e50-45f8-92e3-9237bcb4e0bc"
+        },
+        {
+          "title": "Product Designer",
+          "location": "Stockholm",
+          "url": "https://jobs.ashbyhq.com/lovable/cf78be5e-41ca-478a-b480-0d0839c24543"
+        }
+      ],
+      "verdict": "already-verified-pass"
+    },
+    {
+      "id": "merkle-canada",
+      "company_id": "merkle-canada",
+      "path": "companies/merkle-canada/monitors/merkle-canada.json",
+      "recipe_sha256": "1d6982d381acb382d16e1b0662b443dec9860106958bcc85bf20e434c46571f9",
+      "strategy": "workday",
+      "request_url": "https://dentsuaegis.wd3.myworkdayjobs.com/wday/cxs/dentsuaegis/DAN_GLOBAL/jobs",
+      "careers_url": "https://www.merkle.com/en/careers/jobs.html",
+      "checked_at": "2026-10-03T22:02:57.628868+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": "2026-09-30T00:58:28.658835Z",
+        "job_count": 1,
+        "warnings": [
+          "JobHound live run returned jobs on 2026-09-29; employer attribution and completeness remain under review."
+        ]
+      },
+      "source_filter": {
+        "predicates": [
+          {
+            "phase": "detail",
+            "path": "jobPostingInfo.jobDescription",
+            "operator": "html_label_equals_ci",
+            "label": "Brand",
+            "values": [
+              "Merkle"
+            ]
+          },
+          {
+            "phase": "detail",
+            "path": "jobPostingInfo.country.descriptor",
+            "operator": "equals_ci",
+            "values": [
+              "Canada"
+            ]
+          }
+        ],
+        "predicate_match": "all"
+      },
+      "job_count": 1,
+      "pages": 46,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Senior Consultant, Digital Media",
+          "location": "Toronto",
+          "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Toronto/Senior-Consultant--Digital-Media_R1131700"
+        }
+      ],
+      "verdict": "pass"
+    },
+    {
+      "id": "microsoft-gaming",
+      "company_id": "microsoft",
+      "path": "companies/microsoft/monitors/microsoft-gaming.json",
+      "recipe_sha256": "ed7d6684593c20ecbb7e41ad10c5b23448cdfecb0532ca5a0ff0c31f23d5f790",
+      "strategy": "generic_json",
+      "request_url": "https://apply.careers.microsoft.com/api/pcsx/search",
+      "careers_url": "https://apply.careers.microsoft.com/careers?query=Xbox",
+      "checked_at": "2026-10-03T22:03:10.507093+00:00",
+      "prior_verification": {
+        "status": "degraded",
+        "checked_at": "2026-09-05T14:20:06.573868+00:00",
+        "job_count": 5,
+        "warnings": [
+          "First ten Xbox-search results, strictly filtered to gaming titles.",
+          "Partial listing: unseen jobs must not be closed based on this monitor."
+        ]
+      },
+      "source_filter": {
+        "title_contains_any": [
+          "Xbox",
+          "gaming",
+          "gameplay",
+          "game designer",
+          "game developer"
+        ]
+      },
+      "outcome": "blocked-error",
+      "error": "Client error '429 Too Many Requests' for url 'https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=Xbox&start=0&num=100'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+      "job_count": 0,
+      "samples": [],
+      "verdict": "blocked"
+    },
+    {
+      "id": "midjourney",
+      "company_id": "midjourney",
+      "path": "companies/midjourney/monitors/midjourney.json",
+      "recipe_sha256": "5b6187ee07caed860c12be98da48c9760ba8d109848d868c4894af0b33d58a61",
+      "strategy": "ashby",
+      "request_url": "https://api.ashbyhq.com/posting-api/job-board/midjourney",
+      "careers_url": "https://www.midjourney.com/careers",
+      "checked_at": "2026-10-03T22:04:37.503252+00:00",
+      "prior_verification": {
+        "status": "verified",
+        "checked_at": "2026-08-31T00:00:00Z",
+        "job_count": 16,
+        "warnings": []
+      },
+      "source_filter": null,
+      "job_count": 18,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "posting_hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Senior Machine Learning Engineer (Clinical Team)",
+          "location": "San Francisco Bay Area Hybrid",
+          "url": "https://jobs.ashbyhq.com/midjourney/9beaa654-e136-4e6d-b51b-4c5b3ccb7e2b"
+        },
+        {
+          "title": "Principal Electrical Engineer (Design Lead)",
+          "location": "San Francisco",
+          "url": "https://jobs.ashbyhq.com/midjourney/e4634ead-d224-444b-b2f3-c861ddfb86ae"
+        },
+        {
+          "title": "Software Engineer (Generalist)",
+          "location": "San Francisco",
+          "url": "https://jobs.ashbyhq.com/midjourney/3b47cf49-1d9a-4b2c-a82e-3e9d656632c4"
+        }
+      ],
+      "verdict": "already-verified-pass"
+    },
+    {
+      "id": "miniclip",
+      "company_id": "miniclip",
+      "path": "companies/miniclip/monitors/miniclip.json",
+      "recipe_sha256": "7378a8787dbfe3dfe5ee694f1d8a7ba2485ae322ea95376c7e03e4eb80c0d53e",
+      "strategy": "generic_html",
+      "request_url": "https://careers.miniclip.com/go/Miniclip-All-Jobs/9013655",
+      "careers_url": "https://careers.miniclip.com/go/Miniclip-All-Jobs/9013655",
+      "checked_at": "2026-10-03T22:03:10.953806+00:00",
+      "prior_verification": {
+        "status": "degraded",
+        "checked_at": "2026-09-05T14:20:07.197268+00:00",
+        "job_count": 25,
+        "warnings": [
+          "First 25 public vacancies. Site uses path pagination unsupported by current runtime.",
+          "Partial listing: unseen jobs must not be closed based on this monitor."
+        ]
+      },
+      "source_filter": null,
+      "job_count": 25,
+      "pages": 26,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment was incomplete for 25 jobs"
+      ],
+      "partial_listing": true,
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Senior Data Scientist",
+          "location": "Lisbon, PT",
+          "url": "https://careers.miniclip.com/job/Lisbon-Senior-Data-Scientist/1340963755"
+        },
+        {
+          "title": "Senior Cloud Infrastructure Engineer",
+          "location": "Lisbon, PT",
+          "url": "https://careers.miniclip.com/job/Lisbon-Senior-Cloud-Infrastructure-Engineer/1166913055"
+        },
+        {
+          "title": "CRM Specialist",
+          "location": "Lisbon, PT",
+          "url": "https://careers.miniclip.com/job/Lisbon-CRM-Specialist/1359522155"
+        }
+      ],
+      "verdict": "pass"
+    },
+    {
+      "id": "mistral-ai",
+      "company_id": "mistral-ai",
+      "path": "companies/mistral-ai/monitors/mistral-ai.json",
+      "recipe_sha256": "5537a160ea2897d24c2b876ce01872665591a80073073298dac28c4110338c1a",
+      "strategy": "ashby",
+      "request_url": "https://api.ashbyhq.com/posting-api/job-board/mistral.ai",
+      "careers_url": "https://jobs.ashbyhq.com/mistral.ai",
+      "checked_at": "2026-10-03T22:04:37.862539+00:00",
+      "prior_verification": {
+        "status": "verified",
+        "checked_at": "2026-08-31T00:00:00Z",
+        "job_count": 173,
+        "warnings": []
+      },
+      "source_filter": null,
+      "job_count": 209,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "posting_hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "AI Deployment Strategist - USA",
+          "location": "Palo Alto; New York; San Francisco",
+          "url": "https://jobs.ashbyhq.com/mistral.ai/22fee4f2-f6c9-4516-a0cd-92d6aeb21a52"
+        },
+        {
+          "title": "Engineering Team Lead, Fleet Delivery",
+          "location": "Paris; Zurich; Madrid; Amsterdam; Warsaw; Linz; London; Berlin",
+          "url": "https://jobs.ashbyhq.com/mistral.ai/647826f5-37f4-48b7-b5b8-5b7bee6d8e23"
+        },
+        {
+          "title": "AI Scientist - Agentic Engineering",
+          "location": "Paris; Amsterdam; Linz; London; Berlin",
+          "url": "https://jobs.ashbyhq.com/mistral.ai/f090ef1d-372e-40dc-bf46-ce0bf2850204"
+        }
+      ],
+      "verdict": "already-verified-pass"
+    },
+    {
+      "id": "mosaic-canada",
+      "company_id": "mosaic-canada",
+      "path": "companies/mosaic-canada/monitors/mosaic-canada.json",
+      "recipe_sha256": "dd3f3eb3fc15c672927694406b0ffaee4bbe22623788530c4a33d264af276d43",
+      "strategy": "generic_json",
+      "request_url": "https://acosta.jobs/locations/can/agency/mosaic/jobs/feeds/json/",
+      "careers_url": "https://acosta.jobs/locations/can/agency/mosaic/jobs",
+      "checked_at": "2026-10-03T22:03:14.206873+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": "2026-09-30T00:58:28.658835Z",
+        "job_count": 207,
+        "warnings": [
+          "JobHound live run returned jobs on 2026-09-29; employer attribution and completeness remain under review."
+        ]
+      },
+      "source_filter": {
+        "predicates": [
+          {
+            "phase": "listing",
+            "path": "country_short",
+            "operator": "equals_ci",
+            "values": [
+              "CAN"
+            ]
+          }
+        ]
+      },
+      "job_count": 202,
+      "pages": 15,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "ABR - Alcohol Sampling Brand Ambassador - Edmonton",
+          "location": "Edmonton, AB",
+          "url": "https://acosta.jobs/F5720B12DBDA450B94CEEE41A452EC1A24"
+        },
+        {
+          "title": "Loblaw - Food Sampling Brand Ambassador - Surrey",
+          "location": "Surrey, BC",
+          "url": "https://acosta.jobs/9692EB6DA2F6475F8E9873326D599B1724"
+        },
+        {
+          "title": "Retail Sales Representative",
+          "location": "Victoria, BC",
+          "url": "https://acosta.jobs/454F644AF8F242659AF73046CF9D6ED224"
+        }
+      ],
+      "verdict": "pass"
+    },
+    {
+      "id": "niq-canada",
+      "company_id": "niq-canada",
+      "path": "companies/niq-canada/monitors/niq-canada.json",
+      "recipe_sha256": "02ed68525401b1f0e7246907e2010c67048eed3f2b9d60ac4670455914808605",
+      "strategy": "smartrecruiters",
+      "request_url": "https://api.smartrecruiters.com/v1/companies/NielsenIQ/postings",
+      "careers_url": "https://careers.smartrecruiters.com/NielsenIQ",
+      "checked_at": "2026-10-03T22:03:25.001900+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": "2026-09-30T00:58:28.658835Z",
+        "job_count": 0,
+        "warnings": [
+          "JobHound live run returned zero jobs on 2026-09-29; no current opening was confirmed."
+        ]
+      },
+      "source_filter": {
+        "predicates": [
+          {
+            "phase": "listing",
+            "path": "location.countryCode",
+            "operator": "equals_ci",
+            "values": [
+              "CA"
+            ]
+          }
+        ]
+      },
+      "job_count": 0,
+      "pages": 5,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "outcome": "blocked-empty",
+      "samples": [],
+      "verdict": "blocked"
+    },
+    {
+      "id": "ogilvy-canada",
+      "company_id": "ogilvy-canada",
+      "path": "companies/ogilvy-canada/monitors/ogilvy-canada.json",
+      "recipe_sha256": "fcd102c528087d7bab738d13f58f74f56760bb2fef94bf769b34922bf98bef40",
+      "strategy": "greenhouse",
+      "request_url": "https://boards-api.greenhouse.io/v1/boards/ogilvycanada/jobs",
+      "careers_url": "https://job-boards.greenhouse.io/ogilvycanada",
+      "checked_at": "2026-10-03T22:03:28.996855+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": "2026-09-30T00:58:28.658835Z",
+        "job_count": 0,
+        "warnings": [
+          "JobHound live run returned zero jobs on 2026-09-29; no current opening was confirmed."
+        ]
+      },
+      "source_filter": null,
+      "job_count": 0,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "outcome": "blocked-empty",
+      "samples": [],
+      "verdict": "blocked"
+    },
+    {
+      "id": "oliver-canada",
+      "company_id": "oliver-canada",
+      "path": "companies/oliver-canada/monitors/oliver-canada.json",
+      "recipe_sha256": "42904aaea6af16aa445b30e4463fb6298f31cd3f5be892f9c3ded253f9a255b7",
+      "strategy": "greenhouse",
+      "request_url": "https://boards-api.greenhouse.io/v1/boards/oliverusa/jobs",
+      "careers_url": "https://www.oliver.agency/careers",
+      "checked_at": "2026-10-03T22:03:29.094560+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": "2026-09-30T00:58:28.658835Z",
+        "job_count": 0,
+        "warnings": [
+          "JobHound live run returned zero jobs on 2026-09-29; no current opening was confirmed."
+        ]
+      },
+      "source_filter": {
+        "predicates": [
+          {
+            "phase": "listing",
+            "path": "location.name",
+            "operator": "contains_ci",
+            "values": [
+              "Canada",
+              "Toronto",
+              "Vancouver",
+              "Montréal",
+              "Montreal",
+              "Calgary",
+              "Ottawa",
+              "Halifax",
+              "Edmonton",
+              "Winnipeg",
+              "Mississauga",
+              "Burnaby",
+              "Quebec",
+              "Québec"
+            ]
+          }
+        ]
+      },
+      "outcome": "blocked-error",
+      "error": "'NoneType' object is not iterable",
+      "job_count": 0,
+      "samples": [],
+      "verdict": "blocked"
+    },
+    {
+      "id": "openai",
+      "company_id": "openai",
+      "path": "companies/openai/monitors/openai.json",
+      "recipe_sha256": "b01fb7859685d82a526b2e0508218c5f34fa6693b6d9c567f6d93e3b9cd25a86",
+      "strategy": "ashby",
+      "request_url": "https://api.ashbyhq.com/posting-api/job-board/openai",
+      "careers_url": "https://openai.com/careers/search",
+      "checked_at": "2026-10-03T22:01:58.550545+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": null,
+        "job_count": null,
+        "warnings": []
+      },
+      "source_filter": null,
+      "job_count": 828,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Technical Program Manager, Compute Infrastructure",
+          "location": "San Francisco",
+          "url": "https://jobs.ashbyhq.com/openai/8fb1615c-34bf-47c4-a1d1-b7b2f836bbd3"
+        },
+        {
+          "title": "Research Engineer",
+          "location": "San Francisco",
+          "url": "https://jobs.ashbyhq.com/openai/240d459b-696d-43eb-8497-fab3e56ecd9b"
+        },
+        {
+          "title": "Account Director, Large Enterprise - Tokyo",
+          "location": "Tokyo, Japan",
+          "url": "https://jobs.ashbyhq.com/openai/18f58952-c242-4562-8732-073a0ae8029e"
+        }
+      ],
+      "verdict": "pass"
+    },
+    {
+      "id": "perplexity",
+      "company_id": "perplexity",
+      "path": "companies/perplexity/monitors/perplexity.json",
+      "recipe_sha256": "da8d205e68656851be8ffcb31bf384014e568567549ce2755fd1670a5c604754",
+      "strategy": "ashby",
+      "request_url": "https://api.ashbyhq.com/posting-api/job-board/perplexity",
+      "careers_url": "https://www.perplexity.ai/hub/careers",
+      "checked_at": "2026-10-03T22:04:38.273370+00:00",
+      "prior_verification": {
+        "status": "verified",
+        "checked_at": "2026-08-31T00:00:00Z",
+        "job_count": 97,
+        "warnings": []
+      },
+      "source_filter": null,
+      "job_count": 127,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "posting_hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Product Marketing Manager, Partnerships",
+          "location": "San Francisco; New York City",
+          "url": "https://jobs.ashbyhq.com/perplexity/d5bc2302-202f-4596-9c4d-8720d1e79064"
+        },
+        {
+          "title": "Member of Technical Staff (Software Engineer, Monetization)",
+          "location": "San Francisco; New York City",
+          "url": "https://jobs.ashbyhq.com/perplexity/043d6a58-87a1-4e3c-bf47-4dc351b94cf4"
+        },
+        {
+          "title": "Associate Product Marketing Manager",
+          "location": "San Francisco; New York City",
+          "url": "https://jobs.ashbyhq.com/perplexity/08f1a218-bdff-4cdd-aefe-0d55529b1ece"
+        }
+      ],
+      "verdict": "already-verified-pass"
+    },
+    {
+      "id": "runway-ai",
+      "company_id": "runway-ai",
+      "path": "companies/runway-ai/monitors/runway-ai.json",
+      "recipe_sha256": "8718586ff99f113c725b1f531ea7a78e3f5ec5af7716f4d0e45e0ee360693c6a",
+      "strategy": "ashby",
+      "request_url": "https://api.ashbyhq.com/posting-api/job-board/runway-ml",
+      "careers_url": "https://runway.com/careers",
+      "checked_at": "2026-10-03T22:04:38.747540+00:00",
+      "prior_verification": {
+        "status": "verified",
+        "checked_at": "2026-08-31T00:00:00Z",
+        "job_count": 41,
+        "warnings": []
+      },
+      "source_filter": null,
+      "job_count": 45,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "posting_hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Sr./Staff Product Designer, Growth",
+          "location": "Remote",
+          "url": "https://jobs.ashbyhq.com/runway-ml/28e151ac-cb29-4695-9041-a9e352624111"
+        },
+        {
+          "title": "Sr./Staff Product Designer",
+          "location": "Remote",
+          "url": "https://jobs.ashbyhq.com/runway-ml/b283e7c0-944a-4d4e-be69-49875008c738"
+        },
+        {
+          "title": "Member of Technical Staff, Backend Engineer, API",
+          "location": "Remote",
+          "url": "https://jobs.ashbyhq.com/runway-ml/8489a08a-f0cf-4418-968c-c7c803d538bc"
+        }
+      ],
+      "verdict": "already-verified-pass"
+    },
+    {
+      "id": "scale-ai",
+      "company_id": "scale-ai",
+      "path": "companies/scale-ai/monitors/scale-ai.json",
+      "recipe_sha256": "0ead0770c00433f5cd6b909b57cf5f78899db00501287cf548e3929d43d7b747",
+      "strategy": "greenhouse",
+      "request_url": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs",
+      "careers_url": "https://scale.com/careers",
+      "checked_at": "2026-10-03T22:04:39.625874+00:00",
+      "prior_verification": {
+        "status": "verified",
+        "checked_at": "2026-08-31T00:00:00Z",
+        "job_count": 215,
+        "warnings": []
+      },
+      "source_filter": null,
+      "job_count": 192,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "posting_hosts": [
+        "job-boards.greenhouse.io"
+      ],
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Account Based Marketing Lead",
+          "location": "San Francisco, CA; New York, NY",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4739727005"
+        },
+        {
+          "title": "AI Advisory Consultant",
+          "location": "San Francisco, CA; New York, NY",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4715970005"
+        },
+        {
+          "title": "AI Advisory Principal",
+          "location": "San Francisco, CA; New York, NY",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4715976005"
+        }
+      ],
+      "verdict": "already-verified-pass"
+    },
+    {
+      "id": "snk",
+      "company_id": "snk",
+      "path": "companies/snk/monitors/snk.json",
+      "recipe_sha256": "bb0fa223be1407589728d2cd270eeb3abfac39f3e3a7319b7d31132ca0cd8bfe",
+      "strategy": "generic_html",
+      "request_url": "https://recruit.jobcan.jp/snk-corp/list",
+      "careers_url": "https://recruit.jobcan.jp/snk-corp/list",
+      "checked_at": "2026-10-03T22:03:29.658221+00:00",
+      "prior_verification": {
+        "status": "degraded",
+        "checked_at": "2026-09-05T14:20:10.197760+00:00",
+        "job_count": 10,
+        "warnings": [
+          "First 10 of 96 public SNK vacancies; path pagination unsupported by current runtime.",
+          "Partial listing: unseen jobs must not be closed based on this monitor."
+        ]
+      },
+      "source_filter": null,
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [],
+      "partial_listing": true,
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "【東京】第1スタジオ ゲームプログラマー（メンバー②）",
+          "location": "Unspecified",
+          "url": "https://recruit.jobcan.jp/snk-corp/job_offers/2196631?hide_breadcrumb=false&hide_search=false"
+        },
+        {
+          "title": "【東京】第3スタジオ プロデューサー",
+          "location": "Unspecified",
+          "url": "https://recruit.jobcan.jp/snk-corp/job_offers/2264985?hide_breadcrumb=false&hide_search=false"
+        },
+        {
+          "title": "【東京】グラスルーツプログラム支援課 イベント・大会運営支援担当",
+          "location": "Unspecified",
+          "url": "https://recruit.jobcan.jp/snk-corp/job_offers/2267788?hide_breadcrumb=false&hide_search=false"
+        }
+      ],
+      "verdict": "pass"
+    },
+    {
+      "id": "suno",
+      "company_id": "suno",
+      "path": "companies/suno/monitors/suno.json",
+      "recipe_sha256": "7abfac1446372e13a853e0d34694f6e9b51fa01e9ba8c7a5178900aa351b32b8",
+      "strategy": "ashby",
+      "request_url": "https://api.ashbyhq.com/posting-api/job-board/suno",
+      "careers_url": "https://jobs.ashbyhq.com/suno",
+      "checked_at": "2026-10-03T22:04:40.538458+00:00",
+      "prior_verification": {
+        "status": "verified",
+        "checked_at": "2026-08-31T00:00:00Z",
+        "job_count": 63,
+        "warnings": []
+      },
+      "source_filter": null,
+      "job_count": 66,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "posting_hosts": [
+        "jobs.ashbyhq.com"
+      ],
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Senior / Staff Software Engineer, Frontend",
+          "location": "NYC",
+          "url": "https://jobs.ashbyhq.com/suno/fd50a42b-a5f9-4dc3-8c3f-763f4e06b4d8"
+        },
+        {
+          "title": "Staff / Senior Software Engineer, Platform Teams",
+          "location": "Boston",
+          "url": "https://jobs.ashbyhq.com/suno/9e6da9b6-8562-4d9e-ae8e-c3319f76bdba"
+        },
+        {
+          "title": "Staff / Senior Software Engineer, Product Teams",
+          "location": "NYC",
+          "url": "https://jobs.ashbyhq.com/suno/adb5c5ef-5897-4acb-8014-0a7f162742d8"
+        }
+      ],
+      "verdict": "already-verified-pass"
+    },
+    {
+      "id": "tencent",
+      "company_id": "tencent",
+      "path": "companies/tencent/monitors/tencent.json",
+      "recipe_sha256": "6c2c4a25a0b9e43c932f02b7270f2bec1b9cc8bedd74af22f340486daf9bb2d4",
+      "strategy": "generic_json",
+      "request_url": "https://careers.tencent.com/tencentcareer/api/post/Query",
+      "careers_url": "https://careers.tencent.com/en-us/search.html",
+      "checked_at": "2026-10-03T22:04:20.361397+00:00",
+      "prior_verification": {
+        "status": "degraded",
+        "checked_at": "2026-09-05T14:20:10.997993+00:00",
+        "job_count": 27,
+        "warnings": [
+          "Gaming keyword search, up to 100 public roles; not all Tencent employment.",
+          "Partial listing: unseen jobs must not be closed based on this monitor."
+        ]
+      },
+      "source_filter": null,
+      "outcome": "blocked-error",
+      "error": "Public job URLs must be credential-free HTTPS URLs",
+      "job_count": 0,
+      "samples": [],
+      "verdict": "blocked"
+    },
+    {
+      "id": "warner-bros-games",
+      "company_id": "warner-bros-games",
+      "path": "companies/warner-bros-games/monitors/warner-bros-games.json",
+      "recipe_sha256": "815731b5a946b042e3aebf9a6d4f8fef1f35f2a999c18e55ae7718e3ec7fed39",
+      "strategy": "generic_json",
+      "request_url": "https://careers.wbd.com/widgets",
+      "careers_url": "https://warnerbrosgames.com/careers",
+      "checked_at": "2026-10-03T22:04:20.362672+00:00",
+      "prior_verification": {
+        "status": "degraded",
+        "checked_at": "2026-09-04T12:04:13.205508+00:00",
+        "job_count": 1,
+        "warnings": [
+          "Partial coverage: public WB Games keyword search with strict WB Games title ownership filter. Other studios or jobs without that title marker may be missing.",
+          "Partial listing: unseen jobs must not be closed based on this monitor."
+        ]
+      },
+      "source_filter": {
+        "title_contains_any": [
+          "WB Games"
+        ]
+      },
+      "job_count": 1,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment was incomplete for 1 jobs"
+      ],
+      "partial_listing": true,
+      "posting_hosts": [
+        "warnerbros.wd5.myworkdayjobs.com"
+      ],
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Principal, Security Engineering & Vulnerability Management for WB Games",
+          "location": "Burbank, California, United States of America",
+          "url": "https://warnerbros.wd5.myworkdayjobs.com/global/job/CA-Burbank-Bldg-700-Second-Century-Tower-1/Principal--Security-Engineering---Vulnerability-Management_R000106593/apply"
+        }
+      ],
+      "verdict": "pass"
+    },
+    {
+      "id": "xai",
+      "company_id": "xai",
+      "path": "companies/xai/monitors/xai.json",
+      "recipe_sha256": "c483f472f0d916de562cad83b05aed74d2194e80fd4d29786521bee7ca6c6e17",
+      "strategy": "greenhouse",
+      "request_url": "https://boards-api.greenhouse.io/v1/boards/xai/jobs?content=true",
+      "careers_url": "https://job-boards.greenhouse.io/xai",
+      "checked_at": "2026-10-03T22:01:13.606952+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": null,
+        "job_count": null,
+        "warnings": []
+      },
+      "source_filter": null,
+      "job_count": 301,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "partial_listing": false,
+      "outcome": "candidate",
+      "samples": [
+        {
+          "title": "Agency Development Manager",
+          "location": "Austin, TX; New York, NY",
+          "url": "https://job-boards.greenhouse.io/xai/jobs/5231352007"
+        },
+        {
+          "title": "AI Tutor - Arabic",
+          "location": "Remote International",
+          "url": "https://job-boards.greenhouse.io/xai/jobs/5090171007"
+        },
+        {
+          "title": "AI Tutor - Bulgarian",
+          "location": "Remote International",
+          "url": "https://job-boards.greenhouse.io/xai/jobs/5207579007"
+        }
+      ],
+      "verdict": "pass"
+    },
+    {
+      "id": "zulu-alpha-kilo",
+      "company_id": "zulu-alpha-kilo",
+      "path": "companies/zulu-alpha-kilo/monitors/zulu-alpha-kilo.json",
+      "recipe_sha256": "ee08a584e75c91a7c60b5ce90fa22ff4d99675b115181236aa770193dfc6f865",
+      "strategy": "greenhouse",
+      "request_url": "https://boards-api.greenhouse.io/v1/boards/zulualphakilo/jobs",
+      "careers_url": "https://job-boards.greenhouse.io/zulualphakilo",
+      "checked_at": "2026-10-03T22:03:30.653904+00:00",
+      "prior_verification": {
+        "status": "unverified",
+        "checked_at": "2026-09-30T00:58:28.658835Z",
+        "job_count": 0,
+        "warnings": [
+          "JobHound live run returned zero jobs on 2026-09-29; no current opening was confirmed."
+        ]
+      },
+      "source_filter": {
+        "predicates": [
+          {
+            "phase": "listing",
+            "path": "location.name",
+            "operator": "contains_ci",
+            "values": [
+              "Canada",
+              "Toronto",
+              "Vancouver",
+              "Montréal",
+              "Montreal",
+              "Calgary",
+              "Ottawa",
+              "Halifax",
+              "Edmonton",
+              "Winnipeg",
+              "Mississauga",
+              "Burnaby",
+              "Quebec",
+              "Québec"
+            ]
+          }
+        ]
+      },
+      "outcome": "blocked-error",
+      "error": "'NoneType' object is not iterable",
+      "job_count": 0,
+      "samples": [],
+      "verdict": "blocked"
+    }
+  ]
+}

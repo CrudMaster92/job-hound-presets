@@ -11,9 +11,9 @@
     "recipe_schema_version": 1
   },
   "verification": {
-    "status": "unverified",
-    "checked_at": null,
-    "job_count": null,
+    "status": "verified",
+    "checked_at": "2026-10-03T22:01:13.603796+00:00",
+    "job_count": 639,
     "warnings": []
   },
   "recipe": {
@@ -21,7 +21,10 @@
     "company": "Anthropic",
     "careers_url": "https://job-boards.greenhouse.io/anthropic",
     "strategy": "greenhouse",
-    "allowed_hosts": ["job-boards.greenhouse.io", "boards-api.greenhouse.io"],
+    "allowed_hosts": [
+      "job-boards.greenhouse.io",
+      "boards-api.greenhouse.io"
+    ],
     "request": {
       "url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs",
       "method": "GET",

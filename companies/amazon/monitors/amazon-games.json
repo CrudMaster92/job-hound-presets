@@ -11,12 +11,13 @@
     "recipe_schema_version": 1
   },
   "verification": {
-    "status": "degraded",
-    "checked_at": "2026-09-05T14:20:01.672565+00:00",
-    "job_count": 2,
+    "status": "verified",
+    "checked_at": "2026-10-03T22:01:14.126771+00:00",
+    "job_count": 3,
     "warnings": [
       "Amazon Games keyword results, filtered to gaming job titles.",
-      "Partial listing: unseen jobs must not be closed based on this monitor."
+      "Partial listing: unseen jobs must not be closed based on this monitor.",
+      "Verified working partial listing; unseen jobs must not be treated as closed."
     ]
   },
   "recipe": {
