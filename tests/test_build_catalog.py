@@ -149,7 +149,7 @@ class CatalogBuildTests(unittest.TestCase):
             amazon = next(value for value in companies if value["id"] == "amazon")
             self.assertEqual(amazon["monitor_count"], 2)
             self.assertEqual(amazon["adapters"], ["generic_json"])
-            self.assertEqual(amazon["verification_statuses"], ["degraded", "verified"])
+            self.assertEqual(amazon["verification_statuses"], ["verified"])
             self.assertEqual(amazon["website_url"], "https://www.amazon.com/")
             self.assertNotIn("monitors", amazon)
             self.assertNotIn("recipe", json.dumps(amazon))

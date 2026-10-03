@@ -11,12 +11,14 @@
     "recipe_schema_version": 1
   },
   "verification": {
-    "status": "degraded",
-    "checked_at": "2026-09-05T14:20:07.197268+00:00",
+    "status": "verified",
+    "checked_at": "2026-10-03T22:03:10.953806+00:00",
     "job_count": 25,
     "warnings": [
       "First 25 public vacancies. Site uses path pagination unsupported by current runtime.",
-      "Partial listing: unseen jobs must not be closed based on this monitor."
+      "Partial listing: unseen jobs must not be closed based on this monitor.",
+      "description detail enrichment was incomplete for 25 jobs",
+      "Verified working partial listing; unseen jobs must not be treated as closed."
     ]
   },
   "recipe": {
