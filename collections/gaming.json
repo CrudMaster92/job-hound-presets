@@ -2,7 +2,7 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "gaming",
-  "revision": 5,
+  "revision": 6,
   "name": "Gaming Industry",
   "description": "Verified public careers scrapers for 100 gaming companies worldwide, prioritizing major and well-known publishers, platforms, and studios.",
   "tags": [

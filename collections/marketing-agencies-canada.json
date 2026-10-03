@@ -2,7 +2,7 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "marketing-agencies-canada",
-  "revision": 2,
+  "revision": 3,
   "name": "Marketing Agencies",
   "description": "Marketing, advertising, media, experiential, research, CRM, content, and digital agencies with North American and global operations and reusable public-careers monitors. Individual monitors may cover specific regions or divisions.",
   "tags": [
