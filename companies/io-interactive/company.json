@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "io-interactive",
+  "name": "IO Interactive",
+  "aliases": [],
+  "website_url": "https://www.ioi.dk/",
+  "logo_url": "https://ioi.dk/favicon.ico",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

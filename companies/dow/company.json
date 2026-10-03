@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "dow",
+  "name": "Dow",
+  "aliases": [],
+  "website_url": "https://www.dow.com/",
+  "logo_url": "https://corporate.dow.com/content/dam/images/public-images/web/favicons/apple-touch-icon-180x180.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 150",
+      "2026",
+      "United States"
+    ]
+  }
+}

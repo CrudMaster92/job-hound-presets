@@ -1,0 +1,1018 @@
+{
+  "checked_at": "2026-09-24T03:06:24.817411+00:00",
+  "base_collection_revision": 8,
+  "ranking_source": "https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm",
+  "new_companies": 25,
+  "new_verified_monitors": 24,
+  "total_companies": 375,
+  "total_monitors": 342,
+  "total_available_companies": 339,
+  "total_unavailable_companies": 36,
+  "first_350_preserved": true,
+  "handoff_limit": 200,
+  "companies": [
+    {
+      "company_id": "huntington-bancshares",
+      "list_position": 351,
+      "published_rank": 350,
+      "careers_source": "https://huntington.wd12.myworkdayjobs.com/HNBcareers",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "5fe6a3f5d1494d65b75e634d0e7daa98aa476059de6eecace69c586c0488c2fe",
+      "samples": [
+        {
+          "title": "Customer Experience Banker - 6th Mile & Haggerty - Northville, MI",
+          "location": "locations Northville, MI",
+          "source_url": "https://huntington.wd12.myworkdayjobs.com/en-US/HNBcareers/job/Northville-MI/Customer-Experience-Banker---6th-Mile---Haggerty---Northville---MI_R0076107-1"
+        },
+        {
+          "title": "Customer Experience Banker - West Seven Mile Rd - Detroit, MI",
+          "location": "locations Detroit, MI",
+          "source_url": "https://huntington.wd12.myworkdayjobs.com/en-US/HNBcareers/job/Detroit-MI/Customer-Experience-Banker----West-Seven-Mile-Rd---Detroit--MI_R0076061"
+        },
+        {
+          "title": "Customer Experience Banker (30-35 hrs week) McCord & Central - Toledo, OH",
+          "location": "locations Toledo, OH",
+          "source_url": "https://huntington.wd12.myworkdayjobs.com/en-US/HNBcareers/job/Toledo-OH/Customer-Experience-Banker---30-35-hrs-week--McCord---Central---Toledo--OH_R0075373"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://huntington.wd12.myworkdayjobs.com/en-US/HNBcareers/job/Northville-MI/Customer-Experience-Banker---6th-Mile---Haggerty---Northville---MI_R0076107-1"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "huntington-ingalls-industries",
+      "list_position": 352,
+      "published_rank": 352,
+      "careers_source": "https://careers.huntingtoningalls.com/search",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 50,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "b8d3d04b43a581e3e98da6f07730199f6fa5086fc32c8745526aefdc6ee3efc8",
+      "samples": [
+        {
+          "title": "ENGINEERING TECHNICIAN 3",
+          "location": "Newport News, Virginia, United States",
+          "source_url": "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEERING-TECHNICIAN-3-Virg/1410132300"
+        },
+        {
+          "title": "ENGINEER MECHANICAL 4",
+          "location": "Newport News, Virginia, United States",
+          "source_url": "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-MECHANICAL-4-Virg/1401192400"
+        },
+        {
+          "title": "K54/X18 FOREMAN-$5,000 SIGN-ON BONUS",
+          "location": "Newport News, Virginia, United States",
+          "source_url": "https://careers.huntingtoningalls.com/job/Newport-News-K54X18-FOREMAN-%245%2C000-SIGN-ON-BONUS-Virg/1420976900"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEERING-TECHNICIAN-3-Virg/1410132300"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "wayfair",
+      "list_position": 353,
+      "published_rank": 353,
+      "careers_source": "https://www.wayfair.com/careers/jobs",
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The official Wayfair careers board returned HTTP 429 during validation. No public live job source was safely validated.",
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "lumen-technologies",
+      "list_position": 354,
+      "published_rank": 354,
+      "careers_source": "https://careers.lumen.com/careers?start=0&sort_by=hot",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "4cef5c0b61c8d9be37661e244c19317f888701de119723332e3c5f7e65a387a5",
+      "samples": [
+        {
+          "title": "Senior Lead Applied AI Scientist",
+          "location": "Remote, United States",
+          "source_url": "https://careers.lumen.com/careers/job/1133915695969"
+        },
+        {
+          "title": "SR INFORMATION SECURITY ENGINEER",
+          "location": "MELBOURNE, AUS",
+          "source_url": "https://careers.lumen.com/careers/job/1133914371896"
+        },
+        {
+          "title": "Creative Operations Manager",
+          "location": "Remote, United States",
+          "source_url": "https://careers.lumen.com/careers/job/1133915876144"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://careers.lumen.com/careers/job/1133915695969"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "ulta-beauty",
+      "list_position": 355,
+      "published_rank": 355,
+      "careers_source": "https://careers.ulta.com/careers/jobs",
+      "status": "verified",
+      "strategy": "generic_json",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "3dc176945f482a7a880562b8c480e1257cf5f19985f02013ad02351a30189bab",
+      "samples": [
+        {
+          "title": "Task Associate",
+          "location": "Cincinnati, Ohio",
+          "source_url": "https://fdcnmcareers-ulta.icims.com/jobs/530863/login"
+        },
+        {
+          "title": "Beauty Advisor",
+          "location": "Cincinnati, Ohio",
+          "source_url": "https://fdcnmcareers-ulta.icims.com/jobs/530862/login"
+        },
+        {
+          "title": "Guest Coordinator",
+          "location": "Strongsville, Ohio",
+          "source_url": "https://fdcnmcareers-ulta.icims.com/jobs/530861/login"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://fdcnmcareers-ulta.icims.com/jobs/530863/login"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "crown-holdings",
+      "list_position": 356,
+      "published_rank": 356,
+      "careers_source": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "408608704df5d80b62ee88739512063d7e391a9cbffed0953ad44af6c18c8891",
+      "samples": [
+        {
+          "title": "Shift Manager",
+          "location": "locations Custines",
+          "source_url": "https://crownholdings.wd501.myworkdayjobs.com/en-US/CrownHoldings/job/Custines/Shift-Manager_JR103799"
+        },
+        {
+          "title": "Quality Manager",
+          "location": "locations Kechnec",
+          "source_url": "https://crownholdings.wd501.myworkdayjobs.com/en-US/CrownHoldings/job/Kechnec/Quality-Manager_JR103974"
+        },
+        {
+          "title": "Maintenance Machinist-Starting hourly rate $37.62",
+          "location": "locations OH - Dayton",
+          "source_url": "https://crownholdings.wd501.myworkdayjobs.com/en-US/CrownHoldings/job/OH---Dayton/Maintenance-Machinist-Starting-hourly-rate--3762_JR104060"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://crownholdings.wd501.myworkdayjobs.com/en-US/CrownHoldings/job/Custines/Shift-Manager_JR103799"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "airbnb",
+      "list_position": 357,
+      "published_rank": 357,
+      "careers_source": "https://careers.airbnb.com/positions",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "0209ef4772f4e83d318f66b612268e4eecd6214d1353934f6d8d095dc5a44aa4",
+      "samples": [
+        {
+          "title": "Account Manager",
+          "location": "Unspecified",
+          "source_url": "https://careers.airbnb.com/positions/8184174"
+        },
+        {
+          "title": "Associate Legal Counsel, Japan",
+          "location": "Unspecified",
+          "source_url": "https://careers.airbnb.com/positions/7789554"
+        },
+        {
+          "title": "Business Development Manager",
+          "location": "Unspecified",
+          "source_url": "https://careers.airbnb.com/positions/7995153"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://careers.airbnb.com/positions/8184174/"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "aes",
+      "list_position": 358,
+      "published_rank": 358,
+      "careers_source": "https://aes.wd1.myworkdayjobs.com/AES_US",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "The accessible Workday source is the U.S. careers board."
+      ],
+      "recipe_sha256": "b0fb3db679b1f8c4990620f1a33f1d7656427ac02e003720ed72a816bfa67f2a",
+      "samples": [
+        {
+          "title": "Senior Specialist, Environmental",
+          "location": "locations US, Indianapolis, IN",
+          "source_url": "https://aes.wd1.myworkdayjobs.com/en-US/AES_US/job/US-Indianapolis-IN/Senior-Specialist--Environmental_R1064984"
+        },
+        {
+          "title": "Senior Analyst, Talent Management",
+          "location": "locations US, Arlington, VA",
+          "source_url": "https://aes.wd1.myworkdayjobs.com/en-US/AES_US/job/US-Arlington-VA/Senior-Analyst--Talent-Management_R1064927"
+        },
+        {
+          "title": "Portfolio Managment Analyst",
+          "location": "locations US, Louisville, CO",
+          "source_url": "https://aes.wd1.myworkdayjobs.com/en-US/AES_US/job/US-Louisville-CO/Portfolio-Management-Analyst_R1064604-1"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://aes.wd1.myworkdayjobs.com/en-US/AES_US/job/US-Indianapolis-IN/Senior-Specialist--Environmental_R1064984"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "norfolk-southern",
+      "list_position": 359,
+      "published_rank": 359,
+      "careers_source": "https://jobs.nscorp.com/search",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "16968da6871bafe3cc483c6bda076befafd6b28d0742c24c7a6591fd5562f281",
+      "samples": [
+        {
+          "title": "Special Agent- Chicago, IL",
+          "location": "Location Chicago, IL, US, 60617-6455",
+          "source_url": "https://jobs.nscorp.com/job/Chicago-Special-Agent-Chicago%2C-IL-IL-60617-6455/1410579800"
+        },
+        {
+          "title": "Locomotive Electrician- Conway, PA",
+          "location": "Location Conway, PA, US, 15027",
+          "source_url": "https://jobs.nscorp.com/job/Conway-Locomotive-Electrician-Conway%2C-PA-PA-15027/1433111200"
+        },
+        {
+          "title": "Mechanical Laborer- Roanoke, VA",
+          "location": "Location Roanoke, VA, US, 24017",
+          "source_url": "https://jobs.nscorp.com/job/Roanoke-Mechanical-Laborer-Roanoke%2C-VA-VA-24017/1433119000"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://jobs.nscorp.com/job/Chicago-Special-Agent-Chicago%2C-IL-IL-60617-6455/1410579800"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "public-service-enterprise-group",
+      "list_position": 360,
+      "published_rank": 360,
+      "careers_source": "https://jobs.pseg.com/search",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "733c89ac6df88389f4e3498cb18e868f315f4a4e439ba8b599ac5c701410b2e3",
+      "samples": [
+        {
+          "title": "Nuclear Technical Supervisor - NTS",
+          "location": "Location Hancocks Bridge, NJ, US, 08038",
+          "source_url": "https://jobs.pseg.com/job/Hancocks-Bridge-Nuclear-Technical-Supervisor-NTS-NJ-08038/1420684700"
+        },
+        {
+          "title": "Nuclear Technical Supervisor, Hope Creek - Chemistry",
+          "location": "Location Hancocks Bridge, NJ, US, 08038",
+          "source_url": "https://jobs.pseg.com/job/Hancocks-Bridge-Nuclear-Technical-Supervisor%2C-Hope-Creek-Chemistry-NJ-08038/1420636900"
+        },
+        {
+          "title": "9507 IT Consultant",
+          "location": "Location Salem, NJ, US, 08038",
+          "source_url": "https://jobs.pseg.com/job/Salem-9507-IT-Consultant-NJ-08038/1433168400"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://jobs.pseg.com/job/Hancocks-Bridge-Nuclear-Technical-Supervisor-NTS-NJ-08038/1420684700"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "kla",
+      "list_position": 361,
+      "published_rank": 361,
+      "careers_source": "https://kla.wd1.myworkdayjobs.com/Search",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "0517373cdb49cb081619c5150d173b92e6afda55135ef78ad7c30ec569028554",
+      "samples": [
+        {
+          "title": "Customer Engagement Applications Engineer",
+          "location": "locations Boise, ID",
+          "source_url": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Boise-ID/Customer-Engagement-Applications-Engineer_2639864"
+        },
+        {
+          "title": "Corporate Investigator",
+          "location": "locations Milpitas, CA",
+          "source_url": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Milpitas-CA/Corporate-Investigator_2641229-1"
+        },
+        {
+          "title": "Senior Import Specialist",
+          "location": "locations 2 Locations",
+          "source_url": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Ann-Arbor-MI/Senior-Import-Specialist_2640091-1"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Boise-ID/Customer-Engagement-Applications-Engineer_2639864"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "expand-energy",
+      "list_position": 362,
+      "published_rank": 362,
+      "careers_source": "https://jobs.expandenergy.com/search",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "0619931b95b8fbaf7188e231bac9f7ed8aebb69e55bcb5cf25105b5a16c506ef",
+      "samples": [
+        {
+          "title": "Welder III - ASME Code Vessel",
+          "location": "Oklahoma City, OK, US, 73173-8317",
+          "source_url": "https://jobs.expandenergy.com/job/Oklahoma-City-Welder-III-ASME-Code-Vessel-OK-73173-8317/1423219300"
+        },
+        {
+          "title": "Sr. HSE Technician",
+          "location": "Sayre, PA, US, 18840",
+          "source_url": "https://jobs.expandenergy.com/job/Sayre-Sr_-HSE-Technician-PA-18840/1432439300"
+        },
+        {
+          "title": "Sr. Division Order Analyst",
+          "location": "Spring, TX, US, 77389 +1 more…",
+          "source_url": "https://jobs.expandenergy.com/job/Spring-Sr_-Division-Order-Analyst-TX-77389/1432639400"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://jobs.expandenergy.com/job/Oklahoma-City-Welder-III-ASME-Code-Vessel-OK-73173-8317/1423219300"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "hormel-foods",
+      "list_position": 363,
+      "published_rank": 363,
+      "careers_source": "https://ekkh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2002/jobs",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "4da8e0f6e257d24b073a289997d4fc6c50d0fa63c94ed51b8efbcfe4602c92ab",
+      "samples": [
+        {
+          "title": "Dan's Prize - 1st Shift - Browerville Plant",
+          "location": "Browerville, MN, United States",
+          "source_url": "https://ekkh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2002/job/31962"
+        },
+        {
+          "title": "Dan's Prize - 2nd Shift - Browerville Plant",
+          "location": "Browerville, MN, United States",
+          "source_url": "https://ekkh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2002/job/31965"
+        },
+        {
+          "title": "Farm Worker - Wilcox Lake North Farm - Grove City, MN - Jennie-O Turkey Store",
+          "location": "Grove City, MN, United States",
+          "source_url": "https://ekkh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2002/job/34302"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://ekkh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2002/job/31962"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "darden-restaurants",
+      "list_position": 364,
+      "published_rank": 364,
+      "careers_source": "https://dardenmyjobs.recruiting.com/jobs",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "This monitor covers the Restaurant Support Center board; restaurant and field roles use other boards."
+      ],
+      "recipe_sha256": "9bc369a6a1ac02616cb83a544c7b8f6ae999eb3d4ed7f69a6a55ca8471908e79",
+      "samples": [
+        {
+          "title": "2027 Azure Cloud Infrastructure Intern",
+          "location": "Orlando, Florida",
+          "source_url": "https://darden.paradox.ai/co/DardenRestaurantSupportCenter/Job?job_id=PDX_DRSC_DE2F3718-17D8-45C8-9E1B-C0CBEBF8BC0C_88118&posting_type=2"
+        },
+        {
+          "title": "2027 Finance Intern",
+          "location": "Orlando, Florida",
+          "source_url": "https://darden.paradox.ai/co/DardenRestaurantSupportCenter/Job?job_id=PDX_DRSC_36EE279B-7E53-41A5-9095-0DC299E0FC69_88118&posting_type=2"
+        },
+        {
+          "title": "2027 Human Resources Intern",
+          "location": "Orlando, Florida",
+          "source_url": "https://darden.paradox.ai/co/DardenRestaurantSupportCenter/Job?job_id=PDX_DRSC_47BD1C14-AB3B-412B-A488-7CA3FF75FA7B_88118&posting_type=2"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 202,
+        "final_url": "https://darden.paradox.ai/co/DardenRestaurantSupportCenter/Job?job_id=PDX_DRSC_DE2F3718-17D8-45C8-9E1B-C0CBEBF8BC0C_88118&posting_type=2",
+        "browser_title": "2027 Azure Cloud Infrastructure Intern | Darden Restaurant Support Center",
+        "browser_job_visible": true
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "citizens-financial-group",
+      "list_position": 365,
+      "published_rank": 365,
+      "careers_source": "https://jobs.citizensbank.com/search-jobs",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 15,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "3742cb307191ef36fc2efafe02869374e270609d2def92283b13bd087697c1dc",
+      "samples": [
+        {
+          "title": "Product Owner, Fraud Alerts & Case Management (EO)",
+          "location": "Pittsburgh, Pennsylvania; Westwood, Massachusetts; Johnston, Rhode Island; Boston, Massachusetts",
+          "source_url": "https://jobs.citizensbank.com/job/pittsburgh/product-owner-fraud-alerts-and-case-management-eo/288/101053659280"
+        },
+        {
+          "title": "Mortgage Single Point of Contact Relationship Sr Specialist",
+          "location": "Irving, Texas",
+          "source_url": "https://jobs.citizensbank.com/job/irving/mortgage-single-point-of-contact-relationship-sr-specialist/288/101053658592"
+        },
+        {
+          "title": "Business Support Manager II",
+          "location": "Johnston, Rhode Island; Boston, Massachusetts; Charlotte, North Carolina; Westwood, Massachusetts",
+          "source_url": "https://jobs.citizensbank.com/job/johnston/business-support-manager-ii/288/100942815536"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://jobs.citizensbank.com/job/pittsburgh/product-owner-fraud-alerts-and-case-management-eo/288/101053659280"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "mosaic",
+      "list_position": 366,
+      "published_rank": 366,
+      "careers_source": "https://mosaic.wd5.myworkdayjobs.com/mosaic",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "b765243006e7bf581dc87e7f7f0a81276c198569da929fe204d92d118720b9b5",
+      "samples": [
+        {
+          "title": "Gerente Atendimento ao Cliente – São Paulo/SP",
+          "location": "locations Sao Paulo, SP",
+          "source_url": "https://mosaic.wd5.myworkdayjobs.com/en-US/mosaic/job/Sao-Paulo-SP/Gerente-Atendimento-ao-Cliente---So-Paulo-SP_65112"
+        },
+        {
+          "title": "Electricista Industrial III – Villeta/PY",
+          "location": "locations Villeta",
+          "source_url": "https://mosaic.wd5.myworkdayjobs.com/en-US/mosaic/job/Villeta/Electricista-Industrial-III---Villeta-PY_65033"
+        },
+        {
+          "title": "Electricista Industrial II – Villeta/PY (2 Vacantes)",
+          "location": "locations Villeta",
+          "source_url": "https://mosaic.wd5.myworkdayjobs.com/en-US/mosaic/job/Villeta/Electricista-Industrial---Villeta-PY--2-Vacantes-_65032"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://mosaic.wd5.myworkdayjobs.com/en-US/mosaic/job/Sao-Paulo-SP/Gerente-Atendimento-ao-Cliente---So-Paulo-SP_65112"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "hilton-worldwide-holdings",
+      "list_position": 367,
+      "published_rank": 367,
+      "careers_source": "https://efet.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1009/jobs",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "This monitor covers the Hilton-operated Oracle board; franchise hiring can appear elsewhere."
+      ],
+      "recipe_sha256": "8370ccd5950fcd1d8a87c355299ce54fd159576532d3dd789d8150fe085dd945",
+      "samples": [
+        {
+          "title": "Busperson (Part Time) - Hilton Hawaiian Village Waikiki Beach Resort",
+          "location": "Honolulu, HI, United States",
+          "source_url": "https://efet.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1009/job/223940"
+        },
+        {
+          "title": "Public Area Attendant - Grand Wailea, A Waldorf Astoria Resort",
+          "location": "Wailea, HI, United States",
+          "source_url": "https://efet.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1009/job/224615"
+        },
+        {
+          "title": "Barback",
+          "location": "Mexico",
+          "source_url": "https://efet.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1009/job/224616"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://efet.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1009/job/223940"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "air-products-and-chemicals",
+      "list_position": 368,
+      "published_rank": 368,
+      "careers_source": "https://airproducts.wd5.myworkdayjobs.com/AP0001",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "81ebc7502ffbf95ad0ce4ea303f9d2e409ac7213918fdc11a8bedb07afbe7f2e",
+      "samples": [
+        {
+          "title": "IT Infrastructure Support Specialist",
+          "location": "locations Duba, Saudi Arabia",
+          "source_url": "https://airproducts.wd5.myworkdayjobs.com/en-US/AP0001/job/Duba-Saudi-Arabia/IT-Infrastructure-Support-Specialist_JR-2026-21403"
+        },
+        {
+          "title": "Sr Contract Administrator",
+          "location": "locations Duba, Saudi Arabia",
+          "source_url": "https://airproducts.wd5.myworkdayjobs.com/en-US/AP0001/job/Duba-Saudi-Arabia/Sr-Contract-Administrator_JR-2026-22165"
+        },
+        {
+          "title": "Lead Planner Turnaround",
+          "location": "locations Jubail, Saudi Arabia",
+          "source_url": "https://airproducts.wd5.myworkdayjobs.com/en-US/AP0001/job/Jubail-Saudi-Arabia/Lead-Planner-Turnaround_JR-2026-22070"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://airproducts.wd5.myworkdayjobs.com/en-US/AP0001/job/Duba-Saudi-Arabia/IT-Infrastructure-Support-Specialist_JR-2026-21403"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "jacobs-solutions",
+      "list_position": 369,
+      "published_rank": 369,
+      "careers_source": "https://jacobs.jobs/jobs",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "d3358a3185464f94e112a5e3e6fc2d9525d8d5e79e4889b3ea136d8dd7bbd844",
+      "samples": [
+        {
+          "title": "Telecommunications BIM Designer",
+          "location": "Kansas City, MO",
+          "source_url": "https://jacobs.jobs/kansas-city-mo/telecommunications-bim-designer/BB20F83726734FF19D92B6DD3AA01CFA/job"
+        },
+        {
+          "title": "Senior Design Project Manager - Semiconductor (International Project Assignment)",
+          "location": "Boston, MA",
+          "source_url": "https://jacobs.jobs/boston-ma/senior-design-project-manager-semiconductor-international-project-assignment/BC3952C502B344C28E3B6B50F2F95BA4/job"
+        },
+        {
+          "title": "Water Market Client Account Manager – San Francisco Bay Area",
+          "location": "Oakland, CA",
+          "source_url": "https://jacobs.jobs/oakland-ca/water-market-client-account-manager-san-francisco-bay-area/8C14B0A0B7634928B0D8829314942289/job"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://jacobs.jobs/kansas-city-mo/telecommunications-bim-designer/BB20F83726734FF19D92B6DD3AA01CFA/job/"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "vertex-pharmaceuticals",
+      "list_position": 370,
+      "published_rank": 370,
+      "careers_source": "https://vrtx.wd501.myworkdayjobs.com/Vertex_Careers",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "4088fe41b07472d6f0403b4443db486b9a817b9b16dab4b43e27ae9475c6b461",
+      "samples": [
+        {
+          "title": "Senior Manager, Manufacturing Technical Services (Wednesday-Saturday)",
+          "location": "locations Boston, MA",
+          "source_url": "https://vrtx.wd501.myworkdayjobs.com/en-US/Vertex_Careers/job/Boston-MA/Senior-Manager--Manufacturing-Technical-Services_REQ-30166"
+        },
+        {
+          "title": "Vertex Spring Co-Op 2027, Analytical Development, Statistics",
+          "location": "locations Boston, MA",
+          "source_url": "https://vrtx.wd501.myworkdayjobs.com/en-US/Vertex_Careers/job/Boston-MA/Vertex-Spring-Co-Op-2027--Analytical-Development--Statistics_REQ-30506-1"
+        },
+        {
+          "title": "Vertex Spring Co-Op 2027, Combination Device Technologies & Innovation",
+          "location": "locations Boston, MA",
+          "source_url": "https://vrtx.wd501.myworkdayjobs.com/en-US/Vertex_Careers/job/Boston-MA/Vertex-Spring-Co-Op-2027--Combination-Device-Technologies---Innovation_REQ-30505-1"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://vrtx.wd501.myworkdayjobs.com/en-US/Vertex_Careers/job/Boston-MA/Senior-Manager--Manufacturing-Technical-Services_REQ-30166"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "jb-hunt-transport-services",
+      "list_position": 371,
+      "published_rank": 371,
+      "careers_source": "https://careers.jbhunt.com/jobs",
+      "status": "verified",
+      "strategy": "generic_json",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 489,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "ffe716058b0bfad53019c6a155d11ff43a23aaf7f7d016d092d5fdcc4d0c365d",
+      "samples": [
+        {
+          "title": "Background Verification Coordinator I",
+          "location": "Lowell, AR - JB Hunt Corporate B & C",
+          "source_url": "https://jbhunt.wd501.myworkdayjobs.com/Careers/job/Lowell-AR---JB-Hunt-Corporate-B--C/Background-Verification-Coordinator-I_00615145"
+        },
+        {
+          "title": "Tractor Technician",
+          "location": "Mt Pleasant, WI - 2151 SE Frontage Rd",
+          "source_url": "https://jbhunt.wd501.myworkdayjobs.com/Careers/job/Mt-Pleasant-WI---2151-SE-Frontage-Rd/Tractor-Technician_00643715"
+        },
+        {
+          "title": "Refrigeration Technician",
+          "location": "Chicago, IL - 3642 W. 47th Str",
+          "source_url": "https://jbhunt.wd501.myworkdayjobs.com/Careers/job/Chicago-IL---3642-W-47th-Str/Refrigeration-Technician_00637420"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://jbhunt.wd501.myworkdayjobs.com/Careers/job/Lowell-AR---JB-Hunt-Corporate-B--C/Background-Verification-Coordinator-I_00615145"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "booz-allen-hamilton",
+      "list_position": 372,
+      "published_rank": 372,
+      "careers_source": "https://careers.boozallen.com/jobs/search",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "7b4e30f657055194db603ef34999b7ea0016cb4f6a8e62880897bdb689c03be6",
+      "samples": [
+        {
+          "title": "Digital Network Exploitation Analyst, Senior",
+          "location": "Fort Meade, Maryland, USA",
+          "source_url": "https://careers.boozallen.com/jobs/JobDetail?jobId=130860"
+        },
+        {
+          "title": "Digital Network Exploitation Analyst, Senior",
+          "location": "Fort Meade, Maryland, USA",
+          "source_url": "https://careers.boozallen.com/jobs/JobDetail?jobId=130861"
+        },
+        {
+          "title": "Versa Network Engineer",
+          "location": "Fort Meade, Maryland, USA",
+          "source_url": "https://careers.boozallen.com/jobs/JobDetail?jobId=130882"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://careers.boozallen.com/jobs/JobDetail?jobId=130860"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "williams",
+      "list_position": 373,
+      "published_rank": 373,
+      "careers_source": "https://williams.wd5.myworkdayjobs.com/External",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "0dd3d366c095ac99aac619c29938f4eaca736f2baf7dbb1192d3c6e6db7774d7",
+      "samples": [
+        {
+          "title": "Engineer I/II/III",
+          "location": "locations TX Houston - Tower",
+          "source_url": "https://williams.wd5.myworkdayjobs.com/en-US/External/job/TX-Houston---Tower/Engineer-I-II-III_R112419"
+        },
+        {
+          "title": "Technical Specialist III/IV (Mechanical Integrity)",
+          "location": "locations 4 Locations",
+          "source_url": "https://williams.wd5.myworkdayjobs.com/en-US/External/job/WV-Moundsville---Office/Technical-Specialist-III-IV--Mechanical-Integrity-_R112751"
+        },
+        {
+          "title": "Mgr System Planning",
+          "location": "locations TX Houston - Tower",
+          "source_url": "https://williams.wd5.myworkdayjobs.com/en-US/External/job/TX-Houston---Tower/Mgr-System-Planning_R112750"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://williams.wd5.myworkdayjobs.com/en-US/External/job/TX-Houston---Tower/Engineer-I-II-III_R112419"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "JPEG"
+      }
+    },
+    {
+      "company_id": "chipotle-mexican-grill",
+      "list_position": 374,
+      "published_rank": 374,
+      "careers_source": "https://jobs.chipotle.com/en/search-jobs",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 15,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "d8f54f0870fdca84cb5c287477d912abb93133fcd42c8e3385fe733bcbcebbf9",
+      "samples": [
+        {
+          "title": "Kitchen Leader",
+          "location": "Arnold, MO",
+          "source_url": "https://jobs.chipotle.com/en/job/arnold/kitchen-leader/282/99074577424"
+        },
+        {
+          "title": "Service Leader",
+          "location": "Ennis, TX",
+          "source_url": "https://jobs.chipotle.com/en/job/ennis/service-leader/282/97811372272"
+        },
+        {
+          "title": "Service Leader",
+          "location": "Wayne, PA",
+          "source_url": "https://jobs.chipotle.com/en/job/wayne/service-leader/282/71381947360"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://jobs.chipotle.com/en/job/arnold/kitchen-leader/282/99074577424"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    },
+    {
+      "company_id": "yum-china-holdings",
+      "list_position": 375,
+      "published_rank": 375,
+      "careers_source": "https://yumchina.zhiye.com/alljob?d=30",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-24T03:06:24.817411+00:00",
+      "job_count": 6,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "This official restaurant-management board is limited to roles posted in the last 30 days; office jobs use a separate board."
+      ],
+      "recipe_sha256": "e10cf34c742902301fffe930f3ddeb9c04d5e2a4060ac6a8cdb97c93e0c0d380",
+      "samples": [
+        {
+          "title": "必胜客餐厅储备经理-铁力",
+          "location": "黑龙江省-伊春市...",
+          "source_url": "https://yumchina.zhiye.com/zpdetail/310252679?d=30"
+        },
+        {
+          "title": "肯德基餐厅储备经理-天津市-王钢",
+          "location": "天津市",
+          "source_url": "https://yumchina.zhiye.com/zpdetail/310252678?d=30"
+        },
+        {
+          "title": "必胜客餐厅储备经理-鄂州",
+          "location": "湖北省-鄂州市-...",
+          "source_url": "https://yumchina.zhiye.com/zpdetail/310252677?d=30"
+        }
+      ],
+      "source_link_check": {
+        "status_code": 200,
+        "final_url": "https://yumchina.zhiye.com/zpdetail/310252679?d=30"
+      },
+      "logo_check": {
+        "status_code": 200,
+        "format": "PNG"
+      }
+    }
+  ]
+}

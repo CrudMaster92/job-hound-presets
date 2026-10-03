@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "obsidian-entertainment",
+  "name": "Obsidian Entertainment",
+  "aliases": [],
+  "website_url": "https://obsidian.net/",
+  "logo_url": "https://s3.amazonaws.com/resumator/customer_20180425233613_7ZSIE39YUQY4TBMV/logos/20200625220643_obsidian-logo.gif",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

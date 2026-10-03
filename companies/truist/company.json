@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "truist",
+  "name": "Truist Financial",
+  "aliases": [],
+  "website_url": "https://www.truist.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=truist.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 150",
+      "2026",
+      "United States"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "seaboard",
+  "name": "Seaboard",
+  "aliases": [],
+  "website_url": "https://www.seaboardcorp.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=seaboardcorp.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 500",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The official Seaboard corporate careers page links to an ADP board. A portable listing recipe with direct source URLs has not been validated.",
+    "checked_at": "2026-09-30T16:54:07.465060+00:00"
+  }
+}

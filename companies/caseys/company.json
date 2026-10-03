@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "caseys",
+  "name": "Casey's General Stores",
+  "aliases": [],
+  "website_url": "https://www.caseys.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=caseys.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 300",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "access-restricted",
+    "message": "The official careers page presents an access challenge in a normal browser. A permitted public listing source needs validation.",
+    "checked_at": "2026-09-14T23:22:58.397854+00:00"
+  }
+}

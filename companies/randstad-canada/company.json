@@ -1,0 +1,11 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "randstad-canada",
+  "name": "Randstad Canada",
+  "legal_name": null,
+  "aliases": ["Randstad"],
+  "website_url": "https://www.randstad.ca/",
+  "logo_url": "https://www.randstad.ca/themes/custom/bluex/favicon.ico",
+  "facets": {"industries": ["staffing-and-recruiting"], "specialties": ["workforce-solutions"], "tags": ["Recruitment", "Canada", "North America"]}
+}

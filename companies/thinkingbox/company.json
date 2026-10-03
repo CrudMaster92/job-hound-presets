@@ -1,0 +1,25 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "thinkingbox",
+  "name": "Thinkingbox",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.thinkingbox.com/",
+  "logo_url": "https://www.thinkingbox.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "creative-advertising",
+      "web-ux-digital-experience",
+      "social-content-influencer",
+      "experiential"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada"
+    ]
+  }
+}

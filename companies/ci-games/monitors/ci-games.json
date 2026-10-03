@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "ci-games",
+  "company_id": "ci-games",
+  "revision": 1,
+  "label": "CI Games careers",
+  "careers_url": "https://cigames.teamtailor.com/jobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-05T14:20:02.607039+00:00",
+    "job_count": 3,
+    "warnings": []
+  },
+  "recipe": {
+    "version": 1,
+    "company": "CI Games",
+    "careers_url": "https://cigames.teamtailor.com/jobs",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "cigames.teamtailor.com"
+    ],
+    "request": {
+      "url": "https://cigames.teamtailor.com/jobs.json",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "items",
+      "source_id": "id",
+      "title": "title",
+      "url": "url",
+      "description": "content_html",
+      "location": "_jobposting.jobLocation.0.address.addressLocality",
+      "employment_type": "_jobposting.employmentType",
+      "posted_date": "date_published"
+    },
+    "metadata": {
+      "platform": "teamtailor-jsonfeed",
+      "location_note": "Primary city; descriptions preserve other locations."
+    }
+  }
+}

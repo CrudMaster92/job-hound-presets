@@ -4,12 +4,25 @@
   "id": "berkshire-hathaway",
   "name": "Berkshire Hathaway",
   "legal_name": "Berkshire Hathaway Inc.",
-  "aliases": ["Berkshire"],
+  "aliases": [
+    "Berkshire"
+  ],
   "website_url": "https://www.berkshirehathaway.com/",
-  "logo_url": null,
+  "logo_url": "https://www.logo.wine/a/logo/Berkshire_Hathaway/Berkshire_Hathaway-Logo.wine.svg",
   "facets": {
-    "industries": ["conglomerate", "insurance"],
-    "specialties": ["insurance", "energy", "manufacturing"],
-    "tags": ["Fortune 50", "Conglomerate", "United States"]
+    "industries": [
+      "conglomerate",
+      "insurance"
+    ],
+    "specialties": [
+      "insurance",
+      "energy",
+      "manufacturing"
+    ],
+    "tags": [
+      "Fortune 50",
+      "Conglomerate",
+      "United States"
+    ]
   }
 }

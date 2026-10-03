@@ -1,0 +1,21 @@
+# Fortune 500 — 2026 validation
+
+The stable `fortune-50-2026` collection advances to revision 11 with **500 ranked companies, 435 available companies, 438 installable monitors, and 65 unavailable companies**. The first 400 memberships and their company/monitor records are preserved. Positions 401–500 follow the [2026 Fortune 500 ranking](https://www.fortunechina.com/fortune500/c/2026-06/03/content_474100.htm).
+
+## New coverage
+
+One hundred ranked identities are added, with **77 new live-verified scraper recipes**. All accepted recipes returned normalized public jobs through the canonical JobHound runtime on September 30, 2026. All 77 representative source URLs also returned HTTP 200. The [structured evidence](fortune-500-2026-evidence.json) records timestamps, counts, strategies, fetched pages, completeness, recipe hashes, research URLs, warnings, and representative direct job links. Counts describe these runs, not future expectations.
+
+Twenty-three additions remain explicitly unavailable: Jefferies, Intuitive, Ace Hardware, Seaboard, Icahn, THOR, APA, Old Republic, Comfort Systems USA, PPL, TransDigm, Sprouts, Franklin Resources, CACI, SiriusXM, Monster Beverage, Yum, Post Holdings, APi Group, Roper, Coterra, Somnigroup, and Equinix. Each company has a specific access, ownership, or recipe limitation, and no placeholder monitor. These states do not establish that a company has no vacancies. The collection contains all ranked identities; scraper coverage remains incomplete.
+
+All new recipes mark their listing as partial, so a bounded run cannot close unseen roles. Workday API recipes enrich all 20 listing records to retain valid site-specific links. Global Payments/Worldpay and Sonoco use browser recipes because individual detail responses failed; their browser runs returned valid direct links. Oracle browser recipes allow only the named careers host and Oracle's public asset host, with Vulcan's official redirect host also declared. No credentials, cookies, access-control bypasses, or AI-dependent recurring operations are included.
+
+Coverage limitations remain visible to humans and agents in membership notes and verification warnings. Global Payments uses its linked Worldpay board; AFG uses Great American Insurance; QVC and Smucker use their US boards. SmartRecruiters landing pages expose bounded subsets and may lack cities. Core & Main currently returns only the first displayed listing from grouped anchor cards. Primoris includes talent-pipeline opportunities alongside vacancies, and its counts must not be interpreted as confirmed open positions exclusively. Williams-Sonoma uses the main Oracle board; separate ApplicantStack sources are not included.
+
+## Contracts and checks
+
+The collection reaches the schema's 500-member limit. Installation still uses explicit batches of at most 200 monitors; the browser contract test covers **200/200/38** selections without automatic full-collection selection. Human and agent consumers continue to use the same normalized version-3 catalog and recipe artifacts; the MCP surface is unchanged. Public catalog data was authored in the preset repository, while live validation imported the canonical application's real `ScraperRecipe` and `run_scraper` contracts. No local monitor installation, schedule change, or private data export occurred.
+
+The catalog builds to **745 companies, 636 monitors, and five collections**. Schema validation, catalog generation, all 10 unit/browser contract tests, recipe-hash/identity audit, and diff formatting checks pass. The canonical app's full suite passes with **379 tests**, and its production web build passes. Generated artifacts remain local validation output and are excluded from authored changes. The implementation is on `codex/fortune-500-scrapers`; publication is a separate action.
+
+The fresh pre-merge audit reran all 78 candidates. Equinix returned zero jobs (HTTP 202 with an empty body), and ordinary browser validation timed out; its scraper was removed and its identity remains explicitly unavailable. The other 77 recipes returned jobs again. The generic review helper flags all incomplete results; these are accepted under the repository rule allowing explicit partial coverage, with `metadata.partial_listing` and visible warnings.

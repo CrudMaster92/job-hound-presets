@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "robert-half-internal",
+  "company_id": "robert-half",
+  "revision": 1,
+  "label": "Robert Half corporate careers",
+  "careers_url": "https://careers.roberthalf.com/global/en/search-results",
+  "compatibility": {"min_jobhound_version": "0.1.0", "recipe_schema_version": 1},
+  "verification": {"status": "verified", "checked_at": "2026-09-05T05:25:41Z", "job_count": 10, "warnings": ["The browser-rendered public search is bounded to its initial result set."]},
+  "recipe": {
+    "version": 1,
+    "company": "Robert Half",
+    "careers_url": "https://careers.roberthalf.com/global/en/search-results",
+    "strategy": "playwright",
+    "allowed_hosts": ["careers.roberthalf.com", "cdn.phenompeople.com"],
+    "request": {"url": "https://careers.roberthalf.com/global/en/search-results", "method": "GET", "headers": {}, "params": {}, "json_body": null, "timeout_seconds": 30, "max_response_bytes": 5000000},
+    "pagination": {"kind": "none", "parameter": null, "page_size_parameter": null, "page_size": 30, "max_pages": 1, "next_path": null},
+    "selectors": {"item": "li:has(a[href*='/job/'])", "title": "a[href*='/job/']", "link": "a[href*='/job/']"},
+    "mapping": {},
+    "metadata": {"wait_selector": "li:has(a[href*='/job/'])", "partial_listing": true}
+  }
+}

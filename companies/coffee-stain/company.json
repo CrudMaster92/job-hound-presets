@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "coffee-stain",
+  "name": "Coffee Stain",
+  "aliases": [],
+  "website_url": "https://coffeestain.com/",
+  "logo_url": "https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/b86c6f4a-3a2b-400b-9bc2-b277592d4ff2/original.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

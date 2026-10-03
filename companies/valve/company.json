@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "valve",
+  "name": "Valve",
+  "aliases": [],
+  "website_url": "https://www.valvesoftware.com/",
+  "logo_url": "https://store.fastly.steamstatic.com/public/shared/images/responsive/footerLogo_valve_new.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

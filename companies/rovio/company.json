@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "rovio",
+  "name": "Rovio",
+  "aliases": [],
+  "website_url": "https://rovio.com/",
+  "logo_url": "https://www.rovio.com/wp-content/uploads/2025/12/cropped-favicon-rovio-32x32.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

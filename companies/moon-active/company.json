@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "moon-active",
+  "name": "Moon Active",
+  "aliases": [],
+  "website_url": "https://moonactive.com/",
+  "logo_url": "https://www.moonactive.com/wp-content/uploads/2019/09/Gray_logo2.svg",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

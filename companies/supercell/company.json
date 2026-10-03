@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "supercell",
+  "name": "Supercell",
+  "aliases": [],
+  "website_url": "https://www.supercell.com/",
+  "logo_url": "https://supercell.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

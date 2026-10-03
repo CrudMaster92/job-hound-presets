@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "paramount",
+  "name": "Paramount Skydance",
+  "aliases": [],
+  "website_url": "https://www.paramount.com/",
+  "logo_url": "https://rmkcdn.successfactors.com/44ea18da/3fcab5d8-69ab-46c3-8226-7.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 200",
+      "2026",
+      "United States"
+    ]
+  }
+}

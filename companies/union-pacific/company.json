@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "union-pacific",
+  "name": "Union Pacific",
+  "aliases": [],
+  "website_url": "https://www.up.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=up.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 200",
+      "2026",
+      "United States"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "obsidian-entertainment",
+  "company_id": "obsidian-entertainment",
+  "revision": 1,
+  "label": "Obsidian Entertainment careers",
+  "careers_url": "https://obsidian.applytojob.com/apply",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-05T14:20:08.666798+00:00",
+    "job_count": 2,
+    "warnings": []
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Obsidian Entertainment",
+    "careers_url": "https://obsidian.applytojob.com/apply",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "obsidian.applytojob.com"
+    ],
+    "request": {
+      "url": "https://obsidian.applytojob.com/apply",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "li.list-group-item",
+      "title": "h3 a",
+      "link": "h3 a",
+      "location": ".location"
+    },
+    "mapping": {},
+    "metadata": {}
+  }
+}

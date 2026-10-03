@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "dream-games",
+  "name": "Dream Games",
+  "aliases": [],
+  "website_url": "https://dreamgames.com/",
+  "logo_url": "https://cdn.prod.website-files.com/66ba0cbc63210953b4fc73a8/66ba0cbc63210953b4fc73bb_logo-white.svg",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

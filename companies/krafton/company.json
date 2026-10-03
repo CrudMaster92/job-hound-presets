@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "krafton",
+  "name": "KRAFTON",
+  "aliases": [],
+  "website_url": "https://krafton.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=krafton.com&sz=128",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

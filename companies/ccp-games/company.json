@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ccp-games",
+  "name": "CCP Games",
+  "aliases": [],
+  "website_url": "https://ccpgames.com/",
+  "logo_url": "https://images.ctfassets.net/6fdt5dl491o1/4OL24VNcY1mNwRE0V0ygRX/e90bb54c6364bfc821f16fa13db98eab/fenris_logo.svg",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

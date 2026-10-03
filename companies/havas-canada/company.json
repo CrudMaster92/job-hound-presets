@@ -1,0 +1,34 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "havas-canada",
+  "name": "Havas Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://ca.havas.com/",
+  "logo_url": "https://ca.havas.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "creative-advertising",
+      "performance-marketing",
+      "web-ux-digital-experience",
+      "crm-loyalty-lifecycle",
+      "social-content-influencer"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "Havas"
+    ]
+  },
+  "parent_company_id": "havas",
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The Marketing Job Board collector has not yet been converted and validated as a JobHound monitor.",
+    "checked_at": "2026-09-30T00:53:28.032653Z"
+  }
+}

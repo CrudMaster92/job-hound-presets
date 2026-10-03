@@ -1,0 +1,60 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "yum-china-holdings",
+  "company_id": "yum-china-holdings",
+  "revision": 1,
+  "label": "Yum China Holdings Careers",
+  "careers_url": "https://yumchina.zhiye.com/alljob?d=30",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-24T03:06:24.817411+00:00",
+    "job_count": 6,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run.",
+      "This official restaurant-management board is limited to roles posted in the last 30 days; office jobs use a separate board."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Yum China Holdings",
+    "careers_url": "https://yumchina.zhiye.com/alljob?d=30",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "yumchina.zhiye.com"
+    ],
+    "request": {
+      "url": "https://yumchina.zhiye.com/alljob?d=30",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "tr:has(a[href^=\"/zpdetail/\"])",
+      "title": "td:first-child a[href^=\"/zpdetail/\"]",
+      "link": "td:first-child a[href^=\"/zpdetail/\"]",
+      "location": "td:nth-child(3)",
+      "posted_date": "td:nth-child(4)"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true
+    }
+  }
+}

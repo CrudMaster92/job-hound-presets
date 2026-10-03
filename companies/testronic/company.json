@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "testronic",
+  "name": "Testronic",
+  "aliases": [],
+  "website_url": "https://testroniclabs.com/",
+  "logo_url": "https://www.testroniclabs.com/wp-content/uploads/2026/03/logo-funcom-3-128x128-c-center.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

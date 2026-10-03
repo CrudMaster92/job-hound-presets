@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "judge-group",
+  "name": "The Judge Group",
+  "legal_name": null,
+  "aliases": [
+    "Judge Group"
+  ],
+  "website_url": "https://www.judge.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "staffing-and-recruiting"
+    ],
+    "specialties": [],
+    "tags": [
+      "Recruitment",
+      "North America"
+    ]
+  }
+}

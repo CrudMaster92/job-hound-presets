@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "take-two-interactive",
+  "name": "Take-Two Interactive",
+  "aliases": [],
+  "website_url": "https://www.take2games.com/",
+  "logo_url": "https://images.ctfassets.net/wn7ipiv9ue5v/1DxCIrUbhWllnMBuMyCje5/546552d68f1324b54b89d733f40f2d8f/favicon.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

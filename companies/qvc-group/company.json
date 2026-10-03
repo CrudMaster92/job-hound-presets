@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "qvc-group",
+  "name": "QVC Group",
+  "aliases": [],
+  "website_url": "https://www.qvcgrp.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=qvcgrp.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 500",
+      "2026",
+      "United States"
+    ]
+  }
+}

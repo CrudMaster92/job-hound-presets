@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "american-express",
+  "company_id": "american-express",
+  "revision": 1,
+  "label": "American Express Careers",
+  "careers_url": "https://careers.americanexpress.com/en/sites/CX_1/jobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-04T13:07:14.864310+00:00",
+    "job_count": 10,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "American Express",
+    "careers_url": "https://careers.americanexpress.com/en/sites/CX_1/jobs",
+    "strategy": "playwright",
+    "allowed_hosts": [
+      "careers.americanexpress.com",
+      "static.oracle.com",
+      "egug.fa.us2.oraclecloud.com"
+    ],
+    "request": {
+      "url": "https://careers.americanexpress.com/en/sites/CX_1/jobs",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": ".job-list-item, .job-grid-item",
+      "title": ".job-tile__title",
+      "link": "a[href*=\"/job/\"]",
+      "location": "posting-locations"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "wait_selector": ".job-tile__title"
+    }
+  }
+}

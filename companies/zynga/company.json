@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "zynga",
+  "name": "Zynga",
+  "aliases": [],
+  "website_url": "https://www.zynga.com/",
+  "logo_url": "https://s4-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/401/007/100/original/Zynga.svg_(1).png?1730375803",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

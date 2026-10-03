@@ -1,0 +1,30 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "publicis-canada",
+  "name": "Publicis Canada",
+  "legal_name": null,
+  "aliases": [
+    "Publicis Worldwide Canada"
+  ],
+  "website_url": "https://www.publicis.ca/",
+  "logo_url": "https://www.publicis.ca/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "creative-advertising",
+      "performance-marketing",
+      "martech-data-analytics",
+      "web-ux-digital-experience",
+      "market-research-insights"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "Publicis Groupe"
+    ]
+  },
+  "parent_company_id": "publicis-groupe"
+}

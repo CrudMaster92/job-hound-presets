@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "arrowhead",
+  "name": "Arrowhead Game Studios",
+  "aliases": [],
+  "website_url": "https://arrowheadgamestudios.com/",
+  "logo_url": "https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/c24d0b3d-196b-457e-846d-28b3dd491763/original.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

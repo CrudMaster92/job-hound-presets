@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "adecco-group",
+  "company_id": "adecco-group",
+  "revision": 1,
+  "label": "Adecco Group corporate careers",
+  "careers_url": "https://careers.adeccogroup.com/en/search_jobs",
+  "compatibility": {"min_jobhound_version": "0.1.0", "recipe_schema_version": 1},
+  "verification": {"status": "verified", "checked_at": "2026-09-05T04:48:07Z", "job_count": 10, "warnings": ["The public search page is intentionally bounded to its first result set."]},
+  "recipe": {
+    "version": 1,
+    "company": "Adecco Group",
+    "careers_url": "https://careers.adeccogroup.com/en/search_jobs",
+    "strategy": "generic_html",
+    "allowed_hosts": ["careers.adeccogroup.com"],
+    "request": {"url": "https://careers.adeccogroup.com/en/search_jobs", "method": "GET", "headers": {}, "params": {}, "json_body": null, "timeout_seconds": 20, "max_response_bytes": 5000000},
+    "pagination": {"kind": "none", "parameter": null, "page_size_parameter": null, "page_size": 30, "max_pages": 1, "next_path": null},
+    "selectors": {"item": "li:has(> a[data-job-id])", "title": "h2.global-job-list__title", "link": "a[data-job-id]", "location": ".job-location"},
+    "mapping": {},
+    "metadata": {"partial_listing": true}
+  }
+}

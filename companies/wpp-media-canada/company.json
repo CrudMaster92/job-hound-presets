@@ -1,0 +1,28 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "wpp-media-canada",
+  "name": "WPP Media Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.wppmedia.com/local/ca",
+  "logo_url": "https://www.wppmedia.com/wppmedia/apple-touch-icon.png",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "performance-marketing",
+      "martech-data-analytics",
+      "shopper-retail-experiential",
+      "market-research-insights",
+      "creative-advertising"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "WPP"
+    ]
+  },
+  "parent_company_id": "wpp"
+}

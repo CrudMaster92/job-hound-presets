@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "stanley-black-decker",
+  "name": "Stanley Black & Decker",
+  "aliases": [],
+  "website_url": "https://www.stanleyblackanddecker.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=stanleyblackanddecker.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 300",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The official careers page returned HTTP 403 and repeatedly failed with a normal-browser protocol error. No installable recipe was validated.",
+    "checked_at": "2026-09-14T23:22:58.397854+00:00"
+  }
+}

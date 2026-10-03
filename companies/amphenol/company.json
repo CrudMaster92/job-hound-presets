@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "amphenol",
+  "name": "Amphenol",
+  "aliases": [],
+  "website_url": "https://www.amphenol.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=amphenol.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 200",
+      "2026",
+      "United States"
+    ]
+  }
+}

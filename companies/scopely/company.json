@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "scopely",
+  "name": "Scopely",
+  "aliases": [],
+  "website_url": "https://www.scopely.com/",
+  "logo_url": "https://cdn.phenompeople.com/CareerConnectResources/SZISMNUS/images/SCOPELYSQUARELOGOPOSITIVE2-1769701906203.svg",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

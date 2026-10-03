@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "gameloft",
+  "name": "Gameloft",
+  "aliases": [],
+  "website_url": "https://www.gameloft.com/",
+  "logo_url": "https://media01.gameloft.com/web_mkt/favicon/apple-icon-114x114.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

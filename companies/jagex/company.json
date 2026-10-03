@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "jagex",
+  "name": "Jagex",
+  "aliases": [],
+  "website_url": "https://jagex.com/",
+  "logo_url": "https://framerusercontent.com/images/8cqtudF9l8FTJ69r2TXSnISQhuI.svg?width=1230&height=1230",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

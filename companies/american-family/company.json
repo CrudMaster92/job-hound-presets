@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "american-family",
+  "name": "American Family Insurance Group",
+  "aliases": [],
+  "website_url": "https://www.amfam.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=amfam.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 250",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "access-restricted",
+    "message": "The official careers site presents a Cloudflare access restriction in a normal browser and returns HTTP 403. A permitted public source is needed.",
+    "checked_at": "2026-09-12T12:56:44.667790+00:00"
+  }
+}

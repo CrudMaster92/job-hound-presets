@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "level-5",
+  "name": "LEVEL5",
+  "aliases": [],
+  "website_url": "https://level5.co.jp/",
+  "logo_url": "https://www.level5.co.jp/assets/img/shared/logo.svg",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

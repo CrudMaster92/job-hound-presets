@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "2k",
+  "name": "2K",
+  "aliases": [],
+  "website_url": "https://www.2k.com/",
+  "logo_url": "https://assets.2k.com/1a6ngf98576c/2zjPZpinUk7HU9ppHrQaWd/e51ed9ba96d3eab501f5d751248ad72f/2K_Web_App_config_Nav_Logo_30x30.svg",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

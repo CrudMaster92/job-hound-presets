@@ -1,0 +1,26 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "dept",
+  "name": "DEPT",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.deptagency.com/",
+  "logo_url": "https://www.deptagency.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "web-ux-digital-experience",
+      "creative-advertising",
+      "martech-data-analytics",
+      "performance-marketing",
+      "social-content-influencer"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada"
+    ]
+  }
+}

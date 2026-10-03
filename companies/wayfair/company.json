@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "wayfair",
+  "name": "Wayfair",
+  "aliases": [],
+  "website_url": "https://www.wayfair.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=wayfair.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 375",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "access-restricted",
+    "message": "The official Wayfair careers board returned HTTP 429 during validation. No public live job source was safely validated.",
+    "checked_at": "2026-09-24T03:06:24.817411+00:00"
+  }
+}

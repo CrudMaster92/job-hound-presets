@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "square-enix",
+  "name": "Square Enix",
+  "aliases": [],
+  "website_url": "https://www.square-enix.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=square-enix.com&sz=128",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

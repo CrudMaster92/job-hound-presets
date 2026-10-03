@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "lithia",
+  "name": "Lithia Motors",
+  "aliases": [],
+  "website_url": "https://www.lithiamotors.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lithiamotors.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 150",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "Lithia’s main job feed is failing. Its legacy portal returned no jobs and the UK fallback did not pass unattended validation. Its scraper needs repair.",
+    "checked_at": "2026-09-06T19:18:42.246407+00:00"
+  }
+}

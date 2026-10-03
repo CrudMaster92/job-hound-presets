@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "tenet-healthcare",
+  "name": "Tenet Healthcare",
+  "aliases": [],
+  "website_url": "https://www.tenethealth.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tenethealth.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 250",
+      "2026",
+      "United States"
+    ]
+  }
+}

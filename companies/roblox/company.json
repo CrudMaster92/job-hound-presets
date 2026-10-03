@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "roblox",
+  "name": "Roblox",
+  "aliases": [],
+  "website_url": "https://www.roblox.com/",
+  "logo_url": "https://images.rbxcdn.com/905bd722ee0a6ceda3caacde54c0b081.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

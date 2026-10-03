@@ -1,0 +1,402 @@
+{
+  "checked_at": "2026-10-02T20:05:30.226803Z",
+  "runtime": "Canonical JobHound public collector",
+  "sources": [
+    {
+      "monitor_id": "acosta",
+      "strategy": "generic_json",
+      "job_count": 34,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://acosta.jobs/F7C3AB898E7A49B5B6790AAE3E95C2C124",
+        "https://acosta.jobs/B6BD86B762BE453F9FF83A9834DA790124",
+        "https://acosta.jobs/90B86BD2A5674345BFFB9B2BB9FC1B5A24"
+      ]
+    },
+    {
+      "monitor_id": "actionlink",
+      "strategy": "generic_json",
+      "job_count": 9,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://acosta.jobs/FF5947A35B9541CA9E4398CA7169B5E924",
+        "https://acosta.jobs/A150DD7752D3421086B3A406B28E0F6124",
+        "https://acosta.jobs/9FFAFE666CEC484AA8697DEACD44A17524"
+      ]
+    },
+    {
+      "monitor_id": "apex-exchange-canada",
+      "strategy": "generic_json",
+      "job_count": 4,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://careers.publicisgroupe.com/jobs/175028?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/174192?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/171501?lang=en-us"
+      ]
+    },
+    {
+      "monitor_id": "apply-digital",
+      "strategy": "lever",
+      "job_count": 11,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://jobs.lever.co/applydigital/e67e06b6-48e7-471d-8050-34127416dcf8",
+        "https://jobs.lever.co/applydigital/67602dbc-f444-4828-940e-a6166495cc25",
+        "https://jobs.lever.co/applydigital/83d148d7-51c1-470b-9d53-a535ee08334a"
+      ]
+    },
+    {
+      "monitor_id": "brafton",
+      "strategy": "lever",
+      "job_count": 8,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://jobs.lever.co/brafton/72674198-21b5-47b9-8358-f240ea108971",
+        "https://jobs.lever.co/brafton/128108b2-1dc5-4901-9524-e5462b21d724",
+        "https://jobs.lever.co/brafton/423c31a0-0b98-4279-b767-2ae84f51df81"
+      ]
+    },
+    {
+      "monitor_id": "dept",
+      "strategy": "greenhouse",
+      "job_count": 23,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://job-boards.greenhouse.io/dept/jobs/8189724",
+        "https://job-boards.greenhouse.io/dept/jobs/8187200",
+        "https://job-boards.greenhouse.io/dept/jobs/8232061"
+      ]
+    },
+    {
+      "monitor_id": "edelman-canada",
+      "strategy": "workday",
+      "job_count": 5,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://djeholdings.wd5.myworkdayjobs.com/edelman-careers-E200/job/Toronto-Ontario-Canada/Analyst--Performance-Intelligence_JR102788",
+        "https://djeholdings.wd5.myworkdayjobs.com/edelman-careers-E200/job/Toronto-Ontario-Canada/VP--Creator-Marketing--Health---Financial-Services-_JR103129",
+        "https://djeholdings.wd5.myworkdayjobs.com/edelman-careers-E200/job/Toronto-Ontario-Canada/VP--Creator-Marketing--CPG-Food---Beverage-_JR103128"
+      ]
+    },
+    {
+      "monitor_id": "epsilon-canada",
+      "strategy": "generic_json",
+      "job_count": 1,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://careers.publicisgroupe.com/jobs/155437?lang=en-us"
+      ]
+    },
+    {
+      "monitor_id": "fcb-canada",
+      "strategy": "generic_json",
+      "job_count": 1,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://job-boards.greenhouse.io/fcbworldwide/jobs/4585147007"
+      ]
+    },
+    {
+      "monitor_id": "hawkeye-canada",
+      "strategy": "generic_json",
+      "job_count": 8,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://careers.publicisgroupe.com/jobs/176091?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/170296?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/170036?lang=en-us"
+      ]
+    },
+    {
+      "monitor_id": "leo-burnett-canada",
+      "strategy": "generic_json",
+      "job_count": 11,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://careers.publicisgroupe.com/jobs/168131?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/154705?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/171643?lang=en-us"
+      ]
+    },
+    {
+      "monitor_id": "mint",
+      "strategy": "greenhouse",
+      "job_count": 5,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://job-boards.greenhouse.io/12345/jobs/5246376007",
+        "https://job-boards.greenhouse.io/12345/jobs/5246361007",
+        "https://job-boards.greenhouse.io/12345/jobs/5130909007"
+      ]
+    },
+    {
+      "monitor_id": "monks-canada",
+      "strategy": "greenhouse",
+      "job_count": 11,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://www.monks.com/careers/6106613004/job?gh_jid=6106613004",
+        "https://www.monks.com/careers/6200753004/job?gh_jid=6200753004",
+        "https://www.monks.com/careers/6209732004/job?gh_jid=6209732004"
+      ]
+    },
+    {
+      "monitor_id": "msl-canada",
+      "strategy": "generic_json",
+      "job_count": 2,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://careers.publicisgroupe.com/jobs/173593?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/170265?lang=fr-fr"
+      ]
+    },
+    {
+      "monitor_id": "national-public-relations",
+      "strategy": "greenhouse",
+      "job_count": 4,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://job-boards.greenhouse.io/national/jobs/5151496007",
+        "https://job-boards.greenhouse.io/national/jobs/5179506007",
+        "https://job-boards.greenhouse.io/national/jobs/5170308007"
+      ]
+    },
+    {
+      "monitor_id": "north-strategic",
+      "strategy": "generic_json",
+      "job_count": 2,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://careers.publicisgroupe.com/jobs/155036?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/175552?lang=en-us"
+      ]
+    },
+    {
+      "monitor_id": "nurun-canada",
+      "strategy": "generic_json",
+      "job_count": 3,
+      "complete": true,
+      "warnings": [
+        "removed 1 duplicate source IDs"
+      ],
+      "sample_urls": [
+        "https://careers.publicisgroupe.com/jobs/171126?lang=fr-fr",
+        "https://careers.publicisgroupe.com/jobs/143852?lang=fr-fr",
+        "https://careers.publicisgroupe.com/jobs/153946?lang=fr-fr"
+      ]
+    },
+    {
+      "monitor_id": "publicis-canada",
+      "strategy": "generic_json",
+      "job_count": 9,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://careers.publicisgroupe.com/jobs/165600?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/175759?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/149049?lang=en-us"
+      ]
+    },
+    {
+      "monitor_id": "publicis-health-canada",
+      "strategy": "generic_json",
+      "job_count": 14,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://careers.publicisgroupe.com/jobs/136598?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/175127?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/135404?lang=en-us"
+      ]
+    },
+    {
+      "monitor_id": "publicis-sapient-canada",
+      "strategy": "generic_json",
+      "job_count": 4,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://careers.publicisgroupe.com/jobs/173354?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/176207?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/175003?lang=en-us"
+      ]
+    },
+    {
+      "monitor_id": "rival-group",
+      "strategy": "generic_json",
+      "job_count": 1,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://job-boards.greenhouse.io/angusreid/jobs/5207217008"
+      ]
+    },
+    {
+      "monitor_id": "saatchi-canada",
+      "strategy": "generic_json",
+      "job_count": 11,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://careers.publicisgroupe.com/jobs/170438?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/175027?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/151935?lang=en-us"
+      ]
+    },
+    {
+      "monitor_id": "salt-xc",
+      "strategy": "greenhouse",
+      "job_count": 25,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://job-boards.greenhouse.io/saltxc/jobs/5242267007",
+        "https://job-boards.greenhouse.io/saltxc/jobs/5236772007",
+        "https://job-boards.greenhouse.io/saltxc/jobs/5250335007"
+      ]
+    },
+    {
+      "monitor_id": "sid-lee",
+      "strategy": "generic_json",
+      "job_count": 9,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://sidlee.com/en/careers/job-listing/jobdetails?gh_jid=8139618",
+        "https://sidlee.com/en/careers/job-listing/jobdetails?gh_jid=6610686",
+        "https://sidlee.com/en/careers/job-listing/jobdetails?gh_jid=8247218"
+      ]
+    },
+    {
+      "monitor_id": "spark-foundry-canada",
+      "strategy": "generic_json",
+      "job_count": 12,
+      "complete": true,
+      "warnings": [
+        "removed 1 duplicate source IDs"
+      ],
+      "sample_urls": [
+        "https://careers.publicisgroupe.com/jobs/176321?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/176312?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/171002?lang=en-us"
+      ]
+    },
+    {
+      "monitor_id": "starcom-canada",
+      "strategy": "generic_json",
+      "job_count": 20,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://careers.publicisgroupe.com/jobs/155173?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/171119?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/170801?lang=en-us"
+      ]
+    },
+    {
+      "monitor_id": "thinkingbox",
+      "strategy": "lever",
+      "job_count": 10,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://jobs.lever.co/thinkingbox/d6727673-962e-4be7-91c2-d7fe85a9fe69",
+        "https://jobs.lever.co/thinkingbox/dd09ad83-e4a9-46bf-9a28-8f865beea506",
+        "https://jobs.lever.co/thinkingbox/a90629b1-9cea-4a33-bdb8-da5e9ef55ba9"
+      ]
+    },
+    {
+      "monitor_id": "valtech",
+      "strategy": "generic_json",
+      "job_count": 18,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://job-boards.eu.greenhouse.io/valtech/jobs/4930080101",
+        "https://job-boards.eu.greenhouse.io/valtech/jobs/4930082101",
+        "https://job-boards.eu.greenhouse.io/valtech/jobs/4984242101"
+      ]
+    },
+    {
+      "monitor_id": "vaynermedia",
+      "strategy": "generic_json",
+      "job_count": 2,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://vaynermedia.com/careers?gh_jid=7942288",
+        "https://vaynermedia.com/careers?gh_jid=8136482"
+      ]
+    },
+    {
+      "monitor_id": "viral-nation",
+      "strategy": "generic_json",
+      "job_count": 26,
+      "complete": true,
+      "warnings": [
+        "description detail enrichment skipped 6 jobs after the configured 20-posting limit",
+        "description detail enrichment was incomplete for 20 jobs"
+      ],
+      "sample_urls": [
+        "https://job-boards.greenhouse.io/viralnation/jobs/4866162007",
+        "https://job-boards.greenhouse.io/viralnation/jobs/5063028007",
+        "https://job-boards.greenhouse.io/viralnation/jobs/5017479007"
+      ]
+    },
+    {
+      "monitor_id": "vml",
+      "strategy": "greenhouse",
+      "job_count": 11,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://job-boards.greenhouse.io/vmlcanadaen/jobs/8836500002",
+        "https://job-boards.greenhouse.io/vmlcanadaen/jobs/8706160002",
+        "https://job-boards.greenhouse.io/vmlcanadaen/jobs/8679967002"
+      ]
+    },
+    {
+      "monitor_id": "wpp-media-canada",
+      "strategy": "greenhouse",
+      "job_count": 32,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://job-boards.greenhouse.io/wppmedia/jobs/5275193008",
+        "https://job-boards.greenhouse.io/wppmedia/jobs/5398140008",
+        "https://job-boards.greenhouse.io/wppmedia/jobs/5426154008"
+      ]
+    },
+    {
+      "monitor_id": "zenith-canada",
+      "strategy": "generic_json",
+      "job_count": 12,
+      "complete": true,
+      "warnings": [],
+      "sample_urls": [
+        "https://careers.publicisgroupe.com/jobs/153892?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/171936?lang=en-us",
+        "https://careers.publicisgroupe.com/jobs/173085?lang=en-us"
+      ]
+    }
+  ],
+  "ownership_review": "Company-specific ATS accounts, source-owned agency paths, exact Publicis agency/country predicates, Monks company predicate, and WPP Canadian office predicates reviewed. Publicis monitor URL sets are disjoint. Greenhouse board 12345 identifies itself as The Mint Agency.",
+  "excluded": "Zero-job, failed, and detail-ownership sources remain excluded; public detail-budget exclusion policy is unchanged."
+}

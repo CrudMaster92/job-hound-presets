@@ -4,12 +4,23 @@
   "id": "walmart",
   "name": "Walmart",
   "legal_name": "Walmart Inc.",
-  "aliases": ["Walmart US"],
+  "aliases": [
+    "Walmart US"
+  ],
   "website_url": "https://corporate.walmart.com/",
-  "logo_url": null,
+  "logo_url": "https://www.google.com/s2/favicons?domain=corporate.walmart.com&sz=128",
   "facets": {
-    "industries": ["retail"],
-    "specialties": ["ecommerce", "logistics"],
-    "tags": ["Fortune 50", "Retail", "United States"]
+    "industries": [
+      "retail"
+    ],
+    "specialties": [
+      "ecommerce",
+      "logistics"
+    ],
+    "tags": [
+      "Fortune 50",
+      "Retail",
+      "United States"
+    ]
   }
 }

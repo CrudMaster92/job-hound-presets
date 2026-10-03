@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "raymond-james",
+  "name": "Raymond James Financial",
+  "aliases": [],
+  "website_url": "https://www.raymondjames.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=raymondjames.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 300",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The official careers page timed out over HTTP and failed with a browser protocol error. A working public source needs validation.",
+    "checked_at": "2026-09-14T23:22:58.397854+00:00"
+  }
+}

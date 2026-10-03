@@ -1,0 +1,86 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "saatchi-canada",
+  "company_id": "saatchi-canada",
+  "revision": 1,
+  "label": "Saatchi & Saatchi Canada jobs",
+  "careers_url": "https://careers.publicisgroupe.com/jobs?location=Canada",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-02T20:05:30.226803Z",
+    "job_count": 11,
+    "warnings": []
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Saatchi & Saatchi Canada",
+    "careers_url": "https://careers.publicisgroupe.com/jobs?location=Canada",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "careers.publicisgroupe.com"
+    ],
+    "request": {
+      "url": "https://careers.publicisgroupe.com/api/jobs",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "location": "Canada",
+        "limit": 100,
+        "page": 1
+      },
+      "json_body": null,
+      "timeout_seconds": 15,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "page",
+      "parameter": "page",
+      "page_size_parameter": "limit",
+      "page_size": 100,
+      "max_pages": 20,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {
+      "items": "jobs",
+      "source_id": "data.req_id",
+      "title": "data.title",
+      "location": "data.city",
+      "url": "data.meta_data.canonical_url",
+      "description": "data.description",
+      "posted_date": "data.posted_date",
+      "employment_type": "data.employment_type",
+      "remote_mode": "data.tags6.0"
+    },
+    "metadata": {
+      "portal": "publicis-groupe"
+    },
+    "source_key": "publicis-groupe-canada",
+    "source_filter": {
+      "predicate_match": "all",
+      "predicates": [
+        {
+          "phase": "listing",
+          "path": "data.country_code",
+          "operator": "equals_ci",
+          "values": [
+            "CA"
+          ]
+        },
+        {
+          "phase": "listing",
+          "path": "data.tags2",
+          "operator": "equals_ci",
+          "values": [
+            "Saatchi & Saatchi"
+          ]
+        }
+      ]
+    }
+  }
+}

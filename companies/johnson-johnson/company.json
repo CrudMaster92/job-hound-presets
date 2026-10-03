@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "johnson-johnson",
+  "name": "Johnson & Johnson",
+  "aliases": [],
+  "website_url": "https://www.jnj.com/",
+  "logo_url": "https://jnj-content-lab2.brightspotcdn.com/ac/25/bd2078f54d5992dd486ed26140ce/johnson-johnson-logo.svg",
+  "facets": {
+    "industries": [
+      "healthcare"
+    ],
+    "specialties": [],
+    "tags": [
+      "Fortune 50",
+      "2026",
+      "United States"
+    ]
+  }
+}

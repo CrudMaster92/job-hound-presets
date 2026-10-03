@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "hp",
+  "name": "HP",
+  "aliases": [],
+  "website_url": "https://www.hp.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=hp.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 100",
+      "2026",
+      "United States"
+    ]
+  }
+}

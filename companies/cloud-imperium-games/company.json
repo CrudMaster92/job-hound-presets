@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cloud-imperium-games",
+  "name": "Cloud Imperium Games",
+  "aliases": [],
+  "website_url": "https://cloudimperiumgames.com/",
+  "logo_url": "https://cloudimperiumgames.com/uploads/9a5e07c6eb234bde9a864634b210de40.svg",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

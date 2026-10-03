@@ -1,0 +1,28 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "monks-canada",
+  "name": "Monks Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.monks.com/",
+  "logo_url": "https://www.monks.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "web-ux-digital-experience",
+      "creative-advertising",
+      "performance-marketing",
+      "martech-data-analytics",
+      "social-content-influencer"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "S4 Capital"
+    ]
+  },
+  "parent_company_id": "s4-capital"
+}

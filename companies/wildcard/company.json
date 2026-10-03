@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "wildcard",
+  "name": "Studio Wildcard",
+  "aliases": [],
+  "website_url": "https://studiowildcard.com/",
+  "logo_url": "https://images.squarespace-cdn.com/content/v1/568e2c9925981db074af4a32/0ad1f14d-d4cc-4fbe-8ca7-31e4bd494dcb/favicon.ico?format=100w",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

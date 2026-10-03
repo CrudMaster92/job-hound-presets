@@ -1,0 +1,30 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "manpowergroup",
+  "name": "ManpowerGroup",
+  "aliases": [],
+  "website_url": "https://www.manpowergroup.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=manpowergroup.com&sz=128",
+  "facets": {
+    "industries": [
+      "staffing-and-recruiting"
+    ],
+    "specialties": [
+      "workforce-solutions"
+    ],
+    "tags": [
+      "Fortune 250",
+      "2026",
+      "United States",
+      "Recruitment",
+      "North America"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "Public Manpower Corporate Careers (Taleo RPO) listings were found, but their browser links are JavaScript actions. A supported recipe with stable job-detail URLs has not been validated; client placements remain excluded.",
+    "checked_at": "2026-09-13T00:11:04.391810+00:00"
+  }
+}

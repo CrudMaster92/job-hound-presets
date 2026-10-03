@@ -1,0 +1,31 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "mlag",
+  "name": "Major, Lindsey & Africa",
+  "legal_name": null,
+  "aliases": [
+    "MLA Global"
+  ],
+  "website_url": "https://www.mlaglobal.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "staffing-and-recruiting"
+    ],
+    "specialties": [
+      "legal-recruiting",
+      "legal-staffing"
+    ],
+    "tags": [
+      "Recruitment",
+      "Global"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The official internal-careers iCIMS endpoint returned an empty response. The former public legal-placement board cannot represent employment at Major, Lindsey & Africa.",
+    "checked_at": "2026-09-13T00:11:04.391810+00:00"
+  }
+}

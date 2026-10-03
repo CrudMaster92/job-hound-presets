@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "edelman-canada",
+  "company_id": "edelman-canada",
+  "revision": 1,
+  "label": "Edelman Canada jobs",
+  "careers_url": "https://djeholdings.wd5.myworkdayjobs.com/en-US/edelman-careers-E200",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-02T20:05:30.226803Z",
+    "job_count": 5,
+    "warnings": []
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Edelman Canada",
+    "careers_url": "https://djeholdings.wd5.myworkdayjobs.com/en-US/edelman-careers-E200",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "djeholdings.wd5.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://djeholdings.wd5.myworkdayjobs.com/wday/cxs/djeholdings/edelman-careers-E200/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {
+          "locationCountry": [
+            "a30a87ed25634629aa6c3958aa2b91ea"
+          ]
+        },
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 15,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 25,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "djeholdings",
+      "site": "edelman-careers-E200",
+      "detail_fetch_limit": 250
+    }
+  }
+}

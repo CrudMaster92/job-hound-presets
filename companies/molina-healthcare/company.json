@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "molina-healthcare",
+  "name": "Molina Healthcare",
+  "aliases": [],
+  "website_url": "https://www.molinahealthcare.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=molinahealthcare.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 150",
+      "2026",
+      "United States"
+    ]
+  }
+}

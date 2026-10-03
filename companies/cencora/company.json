@@ -4,12 +4,23 @@
   "id": "cencora",
   "name": "Cencora",
   "legal_name": "Cencora, Inc.",
-  "aliases": ["AmerisourceBergen"],
+  "aliases": [
+    "AmerisourceBergen"
+  ],
   "website_url": "https://www.cencora.com/",
-  "logo_url": null,
+  "logo_url": "https://www.cencora.com/-/media/assets/corporate/global/logos/cencora-logo.png?h=60&w=250&la=en&hash=0463B9CEBA8D3A73118B6C4951E55D03",
   "facets": {
-    "industries": ["healthcare"],
-    "specialties": ["pharmaceutical-distribution", "health-services"],
-    "tags": ["Fortune 50", "Healthcare", "Global"]
+    "industries": [
+      "healthcare"
+    ],
+    "specialties": [
+      "pharmaceutical-distribution",
+      "health-services"
+    ],
+    "tags": [
+      "Fortune 50",
+      "Healthcare",
+      "Global"
+    ]
   }
 }

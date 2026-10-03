@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "sprouts-farmers-market",
+  "name": "Sprouts Farmers Market",
+  "aliases": [],
+  "website_url": "https://www.sprouts.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sprouts.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 500",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "access-restricted",
+    "message": "The official Sprouts listing returned HTTP 403 in a normal browser. No access controls were bypassed.",
+    "checked_at": "2026-09-30T16:54:07.465060+00:00"
+  }
+}

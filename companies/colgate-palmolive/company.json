@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "colgate-palmolive",
+  "name": "Colgate-Palmolive",
+  "aliases": [],
+  "website_url": "https://www.colgatepalmolive.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=colgatepalmolive.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 250",
+      "2026",
+      "United States"
+    ]
+  }
+}

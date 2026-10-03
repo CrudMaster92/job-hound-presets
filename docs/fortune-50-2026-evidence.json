@@ -1,0 +1,2899 @@
+{
+  "edition": "2026 U.S. Fortune 500, ranks 1-50",
+  "ranking_sources": [
+    "https://fortune.com/ranking/fortune500/2026/",
+    "https://www.sheetsteps.com/data/fortune-500-companies-2026"
+  ],
+  "checked_at": "2026-09-04T05:58:48.699878+00:00",
+  "collection_changed": true,
+  "published": false,
+  "companies": [
+    {
+      "rank": 1,
+      "id": "amazon",
+      "name": "Amazon",
+      "website_url": "https://www.amazon.com/",
+      "logo": {
+        "url": "https://www.google.com/s2/favicons?domain=amazon.com&sz=128",
+        "final_url": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://amazon.com&size=128",
+        "mime": "image/png",
+        "size": [
+          48,
+          48
+        ],
+        "sha256": "7e67fb8e6c43002e09c7d363f3b158a716dc09f4043cc058bcc01b206bbd097d"
+      },
+      "monitors": [
+        {
+          "id": "amazon",
+          "strategy": "generic_json",
+          "checked_at": "2026-09-04T05:52:51.648073+00:00",
+          "recipe_sha256": "47d3511ea29321edf8bc2925effd20dd32e1f66f9e677996ed32bcd1992a4d59",
+          "job_count": 1000,
+          "pages": 10,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Data Center Engineering Operations Engineer, DCEO, BOM",
+              "location": "Mumbai, Maharashtra, IND",
+              "url": "https://www.amazon.jobs/en/jobs/10507599/data-center-engineering-operations-engineer-dceo-bom"
+            },
+            {
+              "title": "Software Development Manager, Builder Foundations GRID",
+              "location": "Bengaluru, Karnataka, IND",
+              "url": "https://www.amazon.jobs/en/jobs/10529622/software-development-manager-builder-foundations-grid"
+            },
+            {
+              "title": "Snr Program Manager, Fulfilment Tech-sme, Amazon NOW, Amazon NOW Quick commerce",
+              "location": "Bengaluru, Karnataka, IND",
+              "url": "https://www.amazon.jobs/en/jobs/10516494/snr-program-manager-fulfilment-tech-sme-amazon-now-amazon-now-quick-commerce"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 2,
+      "id": "walmart",
+      "name": "Walmart",
+      "website_url": "https://corporate.walmart.com/",
+      "logo": {
+        "url": "https://www.google.com/s2/favicons?domain=corporate.walmart.com&sz=128",
+        "final_url": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://corporate.walmart.com&size=128",
+        "mime": "image/png",
+        "size": [
+          128,
+          128
+        ],
+        "sha256": "74fae5ede1382268967d353be65f47d943abbc1a6c7ad60fda6cf000094bf04b"
+      },
+      "monitors": [
+        {
+          "id": "walmart",
+          "strategy": "playwright",
+          "checked_at": "2026-09-04T05:52:51.631369+00:00",
+          "recipe_sha256": "a30f67299b8af94c91d9a545bd6681cf053834b8c2985c93ff68b3ce2079c8f4",
+          "job_count": 27,
+          "pages": 3,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "eCom Warehouse Worker",
+              "location": "Marcy, NY 13403-3030",
+              "url": "https://careers.walmart.com/us/en/jobs/CP-9046-11101"
+            },
+            {
+              "title": "Freight Handler",
+              "location": "Plainview, TX 79072-3308",
+              "url": "https://careers.walmart.com/us/en/jobs/CP-9399-11013"
+            },
+            {
+              "title": "Freight Handler",
+              "location": "Porterville, CA 93257-5969",
+              "url": "https://careers.walmart.com/us/en/jobs/CP-9054-11013"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 3,
+      "id": "unitedhealth-group",
+      "name": "UnitedHealth Group",
+      "website_url": "https://www.unitedhealthgroup.com/",
+      "logo": {
+        "url": "https://www.unitedhealthgroup.com/content/dam/uhg/icons/Icons/uhg-logo--desktop-2022.svg",
+        "final_url": "https://www.unitedhealthgroup.com/content/dam/uhg/icons/Icons/uhg-logo--desktop-2022.svg",
+        "mime": "image/svg+xml",
+        "size": null,
+        "sha256": "1a0c0d0d005bedaad7bd494e85269478395c54cdd052f9cc444c32cf8d2df68e"
+      },
+      "monitors": [
+        {
+          "id": "unitedhealth-group",
+          "strategy": "generic_html",
+          "checked_at": "2026-09-04T05:52:51.634710+00:00",
+          "recipe_sha256": "23a1d046cc844420c91c3eb6cbe246659a642db666f17ad1a21fb861f431cd76",
+          "job_count": 15,
+          "pages": 1,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "AI ML Engineer",
+              "location": "Hyderabad, Telangana",
+              "url": "https://careers.unitedhealthgroup.com/job/hyderabad/ai-ml-engineer/34088/100146256752"
+            },
+            {
+              "title": "Hospice Social Worker",
+              "location": "Tupelo, Mississippi",
+              "url": "https://careers.unitedhealthgroup.com/job/tupelo/hospice-social-worker/34088/100146256592"
+            },
+            {
+              "title": "Associate DevOps Engineer - Azure",
+              "location": "Noida, Uttar Pradesh",
+              "url": "https://careers.unitedhealthgroup.com/job/noida/associate-devops-engineer-azure/34088/100146256416"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 4,
+      "id": "apple",
+      "name": "Apple",
+      "website_url": "https://www.apple.com/",
+      "logo": {
+        "url": "https://www.apple.com/favicon.ico",
+        "final_url": "https://www.apple.com/favicon.ico",
+        "mime": "image/x-icon",
+        "sha256": "5493c61cf725cf3a1d63cd9d07de75b0d6faa5564e772f7d0a6074f341442938"
+      },
+      "monitors": [
+        {
+          "id": "apple",
+          "strategy": "generic_html",
+          "checked_at": "2026-09-04T05:52:51.632374+00:00",
+          "recipe_sha256": "937884ae92f7d6946293bf2214169c38a6977cd463fc764a0f1d467f7677b011",
+          "job_count": 20,
+          "pages": 1,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run.",
+            "Public first page; most retail postings omit location in the listing markup."
+          ],
+          "samples": [
+            {
+              "title": "US - Specialist: Seasonal, Part-time",
+              "location": "Various Locations within United States",
+              "url": "https://jobs.apple.com/en-us/details/114438158/us-specialist-seasonal-part-time?team=APPST"
+            },
+            {
+              "title": "Packaging Product Design Engineer",
+              "location": "Unspecified",
+              "url": "https://jobs.apple.com/en-us/details/200681889-0157/packaging-product-design-engineer?team=HRDWR"
+            },
+            {
+              "title": "Wi-Fi Power and Performance Engineer - Platform Architecture",
+              "location": "Unspecified",
+              "url": "https://jobs.apple.com/en-us/details/200680971-3760/wi-fi-power-and-performance-engineer-platform-architecture?team=HRDWR"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Public first page; most retail postings omit location in the listing markup.",
+      "status": "verified"
+    },
+    {
+      "rank": 5,
+      "id": "google",
+      "name": "Google",
+      "website_url": "https://about.google/",
+      "logo": {
+        "url": "https://www.google.com/images/branding/google_wordmark/v1/1x/googlelogo_color_white_background_272x92dp.png",
+        "final_url": "https://www.google.com/images/branding/google_wordmark/v1/1x/googlelogo_color_white_background_272x92dp.png",
+        "mime": "image/png",
+        "size": [
+          272,
+          92
+        ],
+        "sha256": "7700adbd25c8c9775c660116b7447384e6f676209739b8a303a9c4852ff6436e"
+      },
+      "monitors": [
+        {
+          "id": "google",
+          "strategy": "generic_html",
+          "checked_at": "2026-09-04T05:57:30.625382+00:00",
+          "recipe_sha256": "1eadf3cda4bb02193ff254a75f012f0a492c1b54337353120905192d0e7accf0",
+          "job_count": 20,
+          "pages": 1,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Data Scientist III, Product",
+              "location": "Zürich, Switzerland",
+              "url": "https://www.google.com/about/careers/applications/jobs/results/107697501686899398-data-scientist-iii-product"
+            },
+            {
+              "title": "Technical Program Manager, Google Flow",
+              "location": "Mountain View, CA, USA",
+              "url": "https://www.google.com/about/careers/applications/jobs/results/73284849321812678-technical-program-manager-google-flow"
+            },
+            {
+              "title": "Data Center Technician II, Hardware Operations",
+              "location": "Saint George, SC, USA",
+              "url": "https://www.google.com/about/careers/applications/jobs/results/116514262091735750-data-center-technician-ii-hardware-operations"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 6,
+      "id": "cvs-health",
+      "name": "CVS Health",
+      "website_url": "https://www.cvshealth.com/",
+      "logo": {
+        "url": "https://www.cvshealth.com/content/dam/enterprise/cvs-enterprise/logos/CVS_Health_logo.svg",
+        "final_url": "https://www.cvshealth.com/content/dam/enterprise/cvs-enterprise/logos/CVS_Health_logo.svg",
+        "mime": "image/svg+xml",
+        "size": null,
+        "sha256": "d82b7380dcd25ee28641740c493af792556f750dba79cd593d0fa3d54841e1b2"
+      },
+      "monitors": [
+        {
+          "id": "cvs-health",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:52:53.468792+00:00",
+          "recipe_sha256": "270dab6b96a53b991b86974e56bdfda748533119add7ecf0ef835e2f7bd71047",
+          "job_count": 200,
+          "pages": 35,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 175 jobs after the configured 25-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Store Associate",
+              "location": "VA - Windsor",
+              "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/VA---Windsor/Store-Associate_R1033026"
+            },
+            {
+              "title": "Store Associate",
+              "location": "VA - Midlothian",
+              "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/VA---Midlothian/Store-Associate_R1032767"
+            },
+            {
+              "title": "Pharmacy Technician",
+              "location": "VA - Ashland",
+              "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/VA---Ashland/Pharmacy-Technician_R1033025"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 7,
+      "id": "berkshire-hathaway",
+      "name": "Berkshire Hathaway",
+      "website_url": "https://www.berkshirehathaway.com/",
+      "logo": {
+        "url": "https://www.logo.wine/a/logo/Berkshire_Hathaway/Berkshire_Hathaway-Logo.wine.svg",
+        "final_url": "https://www.logo.wine/a/logo/Berkshire_Hathaway/Berkshire_Hathaway-Logo.wine.svg",
+        "mime": "image/svg+xml; charset=UTF-8",
+        "sha256": "4a3744af09137ab888ae9d387bdffbb28e4ee698f9fb1787f6bf7f34aa7bb57f"
+      },
+      "monitors": [
+        {
+          "id": "berkshire-geico",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:54:38.259047+00:00",
+          "recipe_sha256": "a70b5932990afa01d5109e4b25e7a8d715b3dfeafbfe5705a68e2c0abf5bc01b",
+          "job_count": 291,
+          "pages": 40,
+          "complete": true,
+          "warnings": [
+            "description detail enrichment skipped 266 jobs after the configured 25-posting limit",
+            "No centralized parent-company board. Separate GEICO and Berkshire Hathaway Homestate Companies boards only."
+          ],
+          "samples": [
+            {
+              "title": "Staff Analytics Engineer - Product",
+              "location": "Palo Alto, CA",
+              "url": "https://geico.wd1.myworkdayjobs.com/External/job/Palo-Alto-CA/Staff-Analytics-Engineer---Product_R0065271"
+            },
+            {
+              "title": "Inside Sales Representative",
+              "location": "Lakeland, FL",
+              "url": "https://geico.wd1.myworkdayjobs.com/External/job/Lakeland-FL/Inside-Sales-Representative_R0065376"
+            },
+            {
+              "title": "Senior Internal Security Investigator",
+              "location": "Tucson, AZ",
+              "url": "https://geico.wd1.myworkdayjobs.com/External/job/Tucson-AZ/Senior-Internal-Security-Investigator_R0065269"
+            }
+          ]
+        },
+        {
+          "id": "berkshire-homestate",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:54:38.260564+00:00",
+          "recipe_sha256": "02e2c3f91d225a3d4a80e1d04bf823132b786853194697621a7b076b540fa3a2",
+          "job_count": 22,
+          "pages": 24,
+          "complete": true,
+          "warnings": [
+            "No centralized parent-company board. Separate GEICO and Berkshire Hathaway Homestate Companies boards only."
+          ],
+          "samples": [
+            {
+              "title": "Internal Auditor",
+              "location": "Omaha, NE",
+              "url": "https://nationalindemnity.wd5.myworkdayjobs.com/BHHC/job/Omaha-NE/Internal-Auditor_R14841"
+            },
+            {
+              "title": "Senior Technical Accountant",
+              "location": "Omaha, NE",
+              "url": "https://nationalindemnity.wd5.myworkdayjobs.com/BHHC/job/Omaha-NE/Senior-Accountant_R14739"
+            },
+            {
+              "title": "Senior Software Developer (Guidewire Certified)",
+              "location": "Omaha, NE",
+              "url": "https://nationalindemnity.wd5.myworkdayjobs.com/BHHC/job/Omaha-NE/Senior-Software-Developer--Guidewire-Certified-_R11431-7"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "No centralized parent-company board. Separate GEICO and Berkshire Hathaway Homestate Companies boards only.",
+      "status": "verified"
+    },
+    {
+      "rank": 8,
+      "id": "mckesson",
+      "name": "McKesson",
+      "website_url": "https://www.mckesson.com/",
+      "logo": {
+        "url": "https://www.mckesson.com/siteassets/images/z-mckesson-logosicons/mck_logo_blue.svg",
+        "final_url": "https://www.mckesson.com/siteassets/images/z-mckesson-logosicons/mck_logo_blue.svg",
+        "mime": "image/svg+xml",
+        "size": null,
+        "sha256": "340d18ac814e11ed7438acd3ee144394360ec63e8a800a2b77ca0610bba16152"
+      },
+      "monitors": [
+        {
+          "id": "mckesson",
+          "strategy": "generic_html",
+          "checked_at": "2026-09-04T05:53:24.064719+00:00",
+          "recipe_sha256": "fa3fd51272c65bd71c4d80b5594b3eeac18fcddea3a631769bf8f3c3a68544fa",
+          "job_count": 15,
+          "pages": 1,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Delivery Professional - Bulk",
+              "location": "Nashville, TN",
+              "url": "https://careers.mckesson.com/en/job/nashville/delivery-professional-bulk/733/97806126944"
+            },
+            {
+              "title": "Director, Regulatory Affairs",
+              "location": "Multiple",
+              "url": "https://careers.mckesson.com/en/job/shepherdsville/director-regulatory-affairs/733/100142892160"
+            },
+            {
+              "title": "Director, Regulatory Affairs (Licensure, DSCSA, and Trade Compliance Programs)",
+              "location": "Multiple",
+              "url": "https://careers.mckesson.com/en/job/shepherdsville/director-regulatory-affairs-licensure-dscsa-and-trade-compliance-programs/733/100142892096"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 9,
+      "id": "exxonmobil",
+      "name": "ExxonMobil",
+      "website_url": "https://corporate.exxonmobil.com/",
+      "logo": {
+        "url": "https://corporate.exxonmobil.com/-/media/global/icons/logos/exxonmobillogocolor2x.png",
+        "final_url": "https://corporate.exxonmobil.com/-/media/global/icons/logos/exxonmobillogocolor2x.png",
+        "mime": "image/png",
+        "size": [
+          306,
+          80
+        ],
+        "sha256": "9dc0b5103ba0f21f4f0f6550054b80243f176387baf081d41e159cfc1a1f60f9"
+      },
+      "monitors": [
+        {
+          "id": "exxonmobil",
+          "strategy": "generic_html",
+          "checked_at": "2026-09-04T05:53:22.037401+00:00",
+          "recipe_sha256": "035fd9211b4d3a172c902bf4db0cfeee91c2d5f978db723ce51728054dc4c10e",
+          "job_count": 617,
+          "pages": 25,
+          "complete": true,
+          "warnings": [],
+          "samples": [
+            {
+              "title": "Digital Transformation Analyst",
+              "location": "Curitiba, PR, BR, 80420-080",
+              "url": "https://jobs.exxonmobil.com/job/Curitiba-Digital-Transformation-Analyst-PR-80420-080/1416073600"
+            },
+            {
+              "title": "Marketing Communications Advisor - Associate",
+              "location": "Bangalore, KA, IN, 560066",
+              "url": "https://jobs.exxonmobil.com/job/Bangalore-Marketing-Communications-Advisor-Associate-KA-560066/1406192600"
+            },
+            {
+              "title": "Technology Operations Specialist",
+              "location": "Praha, Praha, Hlavní mesto, CZ, 13000",
+              "url": "https://jobs.exxonmobil.com/job/Praha-Technology-Operations-Specialist-Prah-13000/1406210000"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 10,
+      "id": "cencora",
+      "name": "Cencora",
+      "website_url": "https://www.cencora.com/",
+      "logo": {
+        "url": "https://www.cencora.com/-/media/assets/corporate/global/logos/cencora-logo.png?h=60&w=250&la=en&hash=0463B9CEBA8D3A73118B6C4951E55D03",
+        "final_url": "https://www.cencora.com/-/media/assets/corporate/global/logos/cencora-logo.png?h=60&w=250&la=en&hash=0463B9CEBA8D3A73118B6C4951E55D03",
+        "mime": "image/png",
+        "size": [
+          250,
+          60
+        ],
+        "sha256": "3876fc827218a2089b3e09166082a7f239fb69aaf39498abbe75cc519bfcb89d"
+      },
+      "monitors": [
+        {
+          "id": "cencora",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:53:01.426344+00:00",
+          "recipe_sha256": "5eda5cb024a7dd23436be5279e73c84fcbf9cee6f50738031ea9f95133950603",
+          "job_count": 500,
+          "pages": 50,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 475 jobs after the configured 25-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Pharmacy Technician Navigator",
+              "location": "Cincinnati, OH",
+              "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/Cincinnati-OH/R264650-Pharmacy-Technician-Navigator_R2614586"
+            },
+            {
+              "title": "Multi Drop Van Driver - Avonmouth - Full Time",
+              "location": "WEMEA > United Kingdom > Avonmouth CDC",
+              "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--United-Kingdom--Avonmouth-CDC/Multi-Drop-Van-Driver---Avonmouth---Full-Time_R2615257"
+            },
+            {
+              "title": "Driver",
+              "location": "Madrid, Spain",
+              "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/Madrid-Spain/Driver_R2615243"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 11,
+      "id": "microsoft",
+      "name": "Microsoft",
+      "website_url": "https://www.microsoft.com/",
+      "logo": {
+        "url": "https://www.microsoft.com/favicon.ico?v2",
+        "final_url": "https://www.microsoft.com/favicon.ico?v2",
+        "mime": "image/vnd.microsoft.icon",
+        "size": [
+          128,
+          128
+        ],
+        "sha256": "90cdaf487716184e4034000935c605d1633926d348116d198f355a98b8c6cd21"
+      },
+      "monitors": [
+        {
+          "id": "microsoft",
+          "strategy": "generic_json",
+          "checked_at": "2026-09-04T05:39:57.261479+00:00",
+          "recipe_sha256": "e9936bb651bc37b25c327da7985ab8aa542f38ad47c2d73e82a51abdc9ebdc4d",
+          "job_count": 10,
+          "pages": 1,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run.",
+            "Eightfold public search returns 10 results regardless of requested num; first page only."
+          ],
+          "samples": [
+            {
+              "title": "Strategic Account Technology - Canberra",
+              "location": "Australia, Australian Capital Territory, Canberra",
+              "url": "https://apply.careers.microsoft.com/careers/job/1970393556983592"
+            },
+            {
+              "title": "Principal Software Engineer",
+              "location": "China, Jiangsu, Suzhou",
+              "url": "https://apply.careers.microsoft.com/careers/job/1970393556982396"
+            },
+            {
+              "title": "Specialist Sales Leader, Philippines",
+              "location": "Philippines, Multiple Locations, Multiple Locations",
+              "url": "https://apply.careers.microsoft.com/careers/job/1970393556979463"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Eightfold public search returns 10 results regardless of requested num; first page only.",
+      "status": "verified"
+    },
+    {
+      "rank": 12,
+      "id": "jpmorgan-chase",
+      "name": "JPMorgan Chase",
+      "website_url": "https://www.jpmorganchase.com/",
+      "logo": {
+        "url": "https://careers.jpmorgan.com/content/dam/jpmorganchase/images/logos/jpmc-logo.svg",
+        "final_url": "https://careers.jpmorgan.com/content/dam/jpmorganchase/images/logos/jpmc-logo.svg",
+        "mime": "image/svg+xml",
+        "size": null,
+        "sha256": "3a2138bfe8eb81abaf6e6ecaca6ed682e07982fc79877894d7cb26dcba1db772"
+      },
+      "monitors": [
+        {
+          "id": "jpmorgan-chase",
+          "strategy": "playwright",
+          "checked_at": "2026-09-04T05:49:13.695675+00:00",
+          "recipe_sha256": "a504efa804a0101805f4cf7aa9a9674ac48a8df44ae10394cb676f809e4a5f15",
+          "job_count": 25,
+          "pages": 1,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Equity Operations - Associate",
+              "location": "Tokyo-To, Japan",
+              "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210753212"
+            },
+            {
+              "title": "Human Resources_US Payroll Analyst",
+              "location": "Metro Manila, National Capital Region, Philippines",
+              "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210763779"
+            },
+            {
+              "title": "Global Investment Banking - Associate/ Analyst, Thailand",
+              "location": "Bangkok, Thailand",
+              "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210766493"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 13,
+      "id": "costco",
+      "name": "Costco Wholesale",
+      "website_url": "https://www.costco.com/",
+      "logo": {
+        "url": "https://cms.jibecdn.com/prod/costco/assets/HEADER-NAV_LOGO-en-us-1715754754746.png",
+        "final_url": "https://cms.jibecdn.com/prod/costco/assets/HEADER-NAV_LOGO-en-us-1715754754746.png",
+        "mime": "image/png",
+        "sha256": "8f81270022ed41c071e78510a52e324e9ce2899942da71dc39bb1c5f5f5a40d0"
+      },
+      "monitors": [
+        {
+          "id": "costco",
+          "strategy": "generic_json",
+          "checked_at": "2026-09-04T05:57:21.570167+00:00",
+          "recipe_sha256": "aae5e4edce4c6036d51c071375fa9d7d1659c6659fd908ee808c96f9fdba2093",
+          "job_count": 1000,
+          "pages": 10,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run.",
+            "Bounded public listings include standing recruitment pools; an active listing does not guarantee an immediate vacancy."
+          ],
+          "samples": [
+            {
+              "title": "Membership Clerk",
+              "location": "KATY, Texas",
+              "url": "https://careers.costco.com/jobs/67761?lang=en-us"
+            },
+            {
+              "title": "Loss Prevention Clerk",
+              "location": "KATY, Texas",
+              "url": "https://careers.costco.com/jobs/67757?lang=en-us"
+            },
+            {
+              "title": "Cake Decorator",
+              "location": "KATY, Texas",
+              "url": "https://careers.costco.com/jobs/67751?lang=en-us"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listings include standing recruitment pools; an active listing does not guarantee an immediate vacancy.",
+      "status": "verified"
+    },
+    {
+      "rank": 14,
+      "id": "cigna",
+      "name": "Cigna Group",
+      "website_url": "https://www.thecignagroup.com/",
+      "logo": {
+        "url": "https://cdn.phenompeople.com/CareerConnectResources/prod/CIGNUS/images/cropChild-73dIH-1708525422884-1709142170911.png",
+        "final_url": "https://cdn.phenompeople.com/CareerConnectResources/prod/CIGNUS/images/cropChild-73dIH-1708525422884-1709142170911.png",
+        "mime": "image/png",
+        "size": [
+          300,
+          116
+        ],
+        "sha256": "820e684183e9e9c3fcbe7b7e8ddf299562dbcfa8035c7d08f685d7d7a13dd510"
+      },
+      "monitors": [
+        {
+          "id": "cigna",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:33:17.929746+00:00",
+          "recipe_sha256": "58bf2252d0baab393c7b1af7d667fdab84e430e2082b0f56c808a81ed659d6aa",
+          "job_count": 200,
+          "pages": 15,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 195 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Senior Manager, Knowledge Management Strategy & Enablement - Evernorth - Remote",
+              "location": "United States Work at Home",
+              "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/United-States-Work-at-Home/Senior-Manager--Enterprise-Knowledge-Management-Strategy---Enablement---Evernorth---Remote_26010704"
+            },
+            {
+              "title": "Risk & Underwriting Analyst",
+              "location": "Dubai, United Arab Emirates",
+              "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Dubai-United-Arab-Emirates/Risk---Underwriting-Analyst_26008910"
+            },
+            {
+              "title": "Customer Success Manager, Pharmacy Team - Verity 340B Solutions - Remote",
+              "location": "United States Work at Home",
+              "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/United-States-Work-at-Home/Customer-Success-Manager--Pharmacy-Team---Verity-340B-Solutions---Remote_26010716"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 15,
+      "id": "cardinal-health",
+      "name": "Cardinal Health",
+      "website_url": "https://www.cardinalhealth.com/",
+      "logo": {
+        "url": "https://www.google.com/s2/favicons?domain=cardinalhealth.com&sz=128",
+        "final_url": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://cardinalhealth.com&size=128",
+        "mime": "image/png",
+        "size": [
+          48,
+          48
+        ],
+        "sha256": "6751a0395b4530c92ea9abc458944b39a5f0406bc025f346eccf4d09c275c6f9"
+      },
+      "monitors": [
+        {
+          "id": "cardinal-health",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:39:49.641143+00:00",
+          "recipe_sha256": "862e0b0b171f3937f491040e7de0fe2bc30e0e913dff4242dd68ca7cefe1ed26",
+          "job_count": 500,
+          "pages": 30,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 495 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Inventory Associate II (Days)",
+              "location": "TN-Memphis",
+              "url": "https://cardinalhealth.wd1.myworkdayjobs.com/EXT/job/TN-Memphis/Inventory-Associate-II--Days-_20186824"
+            },
+            {
+              "title": "Warehouse Associate II (1st Shift)",
+              "location": "CA-Ontario-Med Prod #4551",
+              "url": "https://cardinalhealth.wd1.myworkdayjobs.com/EXT/job/CA-Ontario-Med-Prod-4551/Warehouse-Associate-II--1st-Shift-_20186873-1"
+            },
+            {
+              "title": "Night Shift Warehouse Associate",
+              "location": "TN-LaVergne-3PL LV3",
+              "url": "https://cardinalhealth.wd1.myworkdayjobs.com/EXT/job/TN-LaVergne-3PL-LV3/Night-Shift-Warehouse-Associate_20186793"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 16,
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "website_url": "https://www.nvidia.com/",
+      "logo": {
+        "url": "https://www.google.com/s2/favicons?domain=nvidia.com&sz=128",
+        "final_url": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://nvidia.com&size=128",
+        "mime": "image/png",
+        "size": [
+          48,
+          48
+        ],
+        "sha256": "24c21375cca347d2f3e86b9bd27d7fdf4774ca7bd5d59482251723cb6dea82b0"
+      },
+      "monitors": [
+        {
+          "id": "nvidia",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:33:42.236544+00:00",
+          "recipe_sha256": "3c377ccd2e4a15bcad47f8dea7039c67d2ac2c38084722564110f89edcee6531",
+          "job_count": 200,
+          "pages": 15,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 195 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Software Solutions Engineer",
+              "location": "India, Pune",
+              "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Software-Solutions-Engineer_JR2018442-1"
+            },
+            {
+              "title": "Senior HR Operation Manager - APAC",
+              "location": "Taiwan, Taipei",
+              "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/Senior-HR-Operation-Manager---APAC_JR2024946"
+            },
+            {
+              "title": "Director, Global Workplace Design",
+              "location": "US, CA, Santa Clara",
+              "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Director--Global-Workplace-Design_JR2025017"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 17,
+      "id": "meta",
+      "name": "Meta Platforms",
+      "website_url": "https://www.meta.com/",
+      "logo": {
+        "url": "https://static.xx.fbcdn.net/rsrc.php/y5/r/m4nf26cLQxS.ico",
+        "final_url": "https://static.xx.fbcdn.net/rsrc.php/y5/r/m4nf26cLQxS.ico",
+        "mime": "image/x-icon",
+        "size": [
+          32,
+          32
+        ],
+        "sha256": "b96d739c3a8ac4ef0b34212c8a2b7f23dcb7b039e0dd14ef170d8e9232972bf7"
+      },
+      "monitors": [
+        {
+          "id": "meta",
+          "strategy": "playwright",
+          "checked_at": "2026-09-04T05:55:50.483242+00:00",
+          "recipe_sha256": "039c674569ce5a90e7eec23e25ec930be081b6bce3f8ca2c8b139be2a1227f76",
+          "job_count": 10,
+          "pages": 1,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run.",
+            "Company-specific public DirectEmployers syndication; first 10 listings. Ownership checked against company_exact=Meta in the public source feed."
+          ],
+          "samples": [
+            {
+              "title": "Security Engineer, Investigator - GenAI",
+              "location": "Bismarck, ND",
+              "url": "https://metacareers.dejobs.org/bismarck-nd/security-engineer-investigator-genai/1B47229803EE40F79C4F751D4686D9C8/job"
+            },
+            {
+              "title": "Warehouse Operations Manager",
+              "location": "Carson City, NV",
+              "url": "https://metacareers.dejobs.org/carson-city-nv/warehouse-operations-manager/8142AD02EE7646819E7C758101267BE5/job"
+            },
+            {
+              "title": "Security Engineer, Investigator - GenAI",
+              "location": "Lincoln, NE",
+              "url": "https://metacareers.dejobs.org/lincoln-ne/security-engineer-investigator-genai/1A84E0A224464F389DD6BD481EC0EDF4/job"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Company-specific public DirectEmployers syndication; first 10 listings. Ownership checked against company_exact=Meta in the public source feed.",
+      "status": "verified"
+    },
+    {
+      "rank": 18,
+      "id": "elevance-health",
+      "name": "Elevance Health",
+      "website_url": "https://www.elevancehealth.com/",
+      "logo": {
+        "url": "https://www.elevancehealth.com/content/dam/elevance-health-non-index/logos/Apex-Header.svg",
+        "final_url": "https://www.elevancehealth.com/content/dam/elevance-health-non-index/logos/Apex-Header.svg",
+        "mime": "image/svg+xml",
+        "size": null,
+        "sha256": "86078862a5e145b5e40918a0b723e23760845725d8fd68db0c371a6dd867ea85"
+      },
+      "monitors": [
+        {
+          "id": "elevance-health",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:33:26.687233+00:00",
+          "recipe_sha256": "096c59c88de6b0a85bd5ff933b0f7cc31b7576906fb720a1a2964fa25709ea62",
+          "job_count": 200,
+          "pages": 15,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 195 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Sales RVP - National Medical Sales - California",
+              "location": "CA-WALNUT CREEK, 2121 N CALIFORNIA BLVD, 7TH FL",
+              "url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/CA-WALNUT-CREEK-2121-N-CALIFORNIA-BLVD-7TH-FL/Sales-RVP---National-Medical-Sales---California_JR200564"
+            },
+            {
+              "title": "Director Pharmacy Account",
+              "location": "MO-ST. LOUIS, 100 S 4TH ST",
+              "url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/MO-ST-LOUIS-100-S-4TH-ST/Director-Pharmacy-Account_JR200159"
+            },
+            {
+              "title": "Sr Application Analyst, Claims Systems",
+              "location": "TN-NASHVILLE, 926 MAIN ST",
+              "url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/TN-NASHVILLE-926-MAIN-ST/Sr-Application-Analyst--Claims-Systems_JR205511"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 19,
+      "id": "centene",
+      "name": "Centene",
+      "website_url": "https://www.centene.com/",
+      "logo": {
+        "url": "https://www.centene.com/content/dam/centenedotcom/logos/centene_logo_2023.jpg",
+        "final_url": "https://www.centene.com/content/dam/centenedotcom/logos/centene_logo_2023.jpg",
+        "mime": "image/jpeg",
+        "size": [
+          222,
+          55
+        ],
+        "sha256": "4732f79969c8275795b553ab60b872b2f8da756e3fd8a48baa4cbb08313647fb"
+      },
+      "monitors": [
+        {
+          "id": "centene",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:35:48.219764+00:00",
+          "recipe_sha256": "e98c3a76c91fcf62f63268b683b5df151b256c33448c720bfb6c600a63631f9d",
+          "job_count": 211,
+          "pages": 16,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 206 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Senior Actuarial Analyst",
+              "location": "Remote-TX",
+              "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-TX/Senior-Actuarial-Analyst_1655968"
+            },
+            {
+              "title": "LTSS Service Care Coordinator",
+              "location": "Remote-TX",
+              "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-TX/LTSS-Service-Care-Coordinator_1655896-1"
+            },
+            {
+              "title": "Utilization Review Clinician - Behavioral Health",
+              "location": "Remote-TX",
+              "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-TX/Utilization-Review-Clinician---Behavioral-Health_1652065"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 20,
+      "id": "bank-of-america",
+      "name": "Bank of America",
+      "website_url": "https://www.bankofamerica.com/",
+      "logo": {
+        "url": "https://careers.bankofamerica.com/etc.clientlibs/careers/clientlibs/clientlib-careers/resources/images/logos/bank_of_america.svg",
+        "final_url": "https://careers.bankofamerica.com/etc.clientlibs/careers/clientlibs/clientlib-careers/resources/images/logos/bank_of_america.svg",
+        "mime": "image/svg+xml",
+        "size": null,
+        "sha256": "93b1bc6726febfb9775b4da1d57013e92550f1c621fc788d71d5be2a88f661fa"
+      },
+      "monitors": [
+        {
+          "id": "bank-of-america",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:33:17.392378+00:00",
+          "recipe_sha256": "b1a97d50861d57d2bd5b7facf9669a0f542b3c34ea7a8042ad2d8bfe9c7bcda0",
+          "job_count": 200,
+          "pages": 15,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 195 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run.",
+            "U.S. lateral-hire board; international and campus hiring are outside this monitor."
+          ],
+          "samples": [
+            {
+              "title": "Business Solutions Advisor - Rancho Park Financial Center",
+              "location": "Los Angeles",
+              "url": "https://ghr.wd1.myworkdayjobs.com/Lateral-US/job/Los-Angeles/Business-Solutions-Advisor---Rancho-Park-Financial-Center_26032382-1"
+            },
+            {
+              "title": "Business Solutions Advisor - Washington Centinela Financial Center",
+              "location": "Los Angeles",
+              "url": "https://ghr.wd1.myworkdayjobs.com/Lateral-US/job/Los-Angeles/Business-Solutions-Advisor---Washington-Centinela-Financial-Center_26032384"
+            },
+            {
+              "title": "Consumer Investments Preferred Banking Specialist - Fort Worth, Texas",
+              "location": "Fort Worth",
+              "url": "https://ghr.wd1.myworkdayjobs.com/Lateral-US/job/Fort-Worth/Consumer-Investments-Preferred-Banking-Specialist---Fort-Worth--Texas_26029643-2"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "U.S. lateral-hire board; international and campus hiring are outside this monitor.",
+      "status": "verified"
+    },
+    {
+      "rank": 21,
+      "id": "chevron",
+      "name": "Chevron",
+      "website_url": "https://www.chevron.com/",
+      "logo": {
+        "url": "https://tbcdn.talentbrew.com/company/35016/v3_0/img/chevron-logo.svg",
+        "final_url": "https://tbcdn.talentbrew.com/company/35016/v3_0/img/chevron-logo.svg",
+        "mime": "image/svg+xml",
+        "size": null,
+        "sha256": "519c46add41c9f1f701375627ed20d7158ff84309ac5f8d0ea1afd040fe04546"
+      },
+      "monitors": [
+        {
+          "id": "chevron",
+          "strategy": "generic_html",
+          "checked_at": "2026-09-04T05:35:48.223784+00:00",
+          "recipe_sha256": "c1b66f7342241100329513754059885291952a9e8b7f6a7ee96ad7dcf77ba3f7",
+          "job_count": 15,
+          "pages": 1,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Tax Counsel / Senior Tax Counsel",
+              "location": "Houston, Texas",
+              "url": "https://careers.chevron.com/job/houston/tax-counsel-senior-tax-counsel/38138/92693836624"
+            },
+            {
+              "title": "Process Control Engineer",
+              "location": "Richmond, California",
+              "url": "https://careers.chevron.com/job/richmond/process-control-engineer/38138/98720904240"
+            },
+            {
+              "title": "Campaign Designer",
+              "location": "Buenos Aires, Argentina",
+              "url": "https://careers.chevron.com/job/buenos-aires/campaign-designer/38138/96317566416"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 22,
+      "id": "ford",
+      "name": "Ford Motor",
+      "website_url": "https://www.ford.com/",
+      "logo": {
+        "url": "https://tbcdn.talentbrew.com/company/48560/cms/v1/img/general/logos/ford-logo.svg",
+        "final_url": "https://tbcdn.talentbrew.com/company/48560/cms/v1/img/general/logos/ford-logo.svg",
+        "mime": "image/svg+xml",
+        "size": null,
+        "sha256": "b9249d98da75f065bb53ba3772b8062efa7ce2794ca2be826d9697212c94f7fe"
+      },
+      "monitors": [
+        {
+          "id": "ford",
+          "strategy": "generic_html",
+          "checked_at": "2026-09-04T05:57:21.570167+00:00",
+          "recipe_sha256": "4e5105f45f6c4c0fd7e94e9bdeb68c3b4c1becb4a7f5ee2a65a2007de9d8f347",
+          "job_count": 15,
+          "pages": 1,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Engineering Specialist, Process",
+              "location": "Livonia, Michigan",
+              "url": "https://www.careers.ford.com/job/livonia/engineering-specialist-process/48560/99218259504"
+            },
+            {
+              "title": "Quality Manager",
+              "location": "Dearborn, Michigan",
+              "url": "https://www.careers.ford.com/job/dearborn/quality-manager/48560/98538113392"
+            },
+            {
+              "title": "Production Supervisor",
+              "location": "Dearborn, Michigan",
+              "url": "https://www.careers.ford.com/job/dearborn/production-supervisor/48560/97430983296"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 23,
+      "id": "general-motors",
+      "name": "General Motors",
+      "website_url": "https://www.gm.com/",
+      "logo": {
+        "url": "https://www.google.com/s2/favicons?domain=gm.com&sz=128",
+        "final_url": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://gm.com&size=128",
+        "mime": "image/png",
+        "sha256": "c635b1f6e38b2012fcaea2fbf6c659c2e47fd8909860ccd6d80dff07e5e0bafa"
+      },
+      "monitors": [
+        {
+          "id": "general-motors",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:35:48.217754+00:00",
+          "recipe_sha256": "69a9dd374c6aa52fc71ff44a63bad8eaee5e99835d498e68c1fb15ed3c045efa",
+          "job_count": 500,
+          "pages": 30,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 495 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Design Release Engineer - Engine Cylinder Heads and Head Gaskets",
+              "location": "Warren, Michigan, United States of America",
+              "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Design-Release-Engineer---Engine-Cylinder-Heads-and-Head-Gaskets_JR-202616947"
+            },
+            {
+              "title": "Senior Design Release Engineer - Transmission & Drive Unit cases",
+              "location": "Warren, Michigan, United States of America",
+              "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Senior-Design-Release-Engineer---Transmission---Drive-Unit-cases_JR-202617109"
+            },
+            {
+              "title": "Sr. Software Engineer - AI Quality and Productivity",
+              "location": "Warren, Michigan, United States of America",
+              "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Sr-Software-Engineer---AI-Quality-and-Productivity_JR-202618670"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 24,
+      "id": "citigroup",
+      "name": "Citigroup",
+      "website_url": "https://www.citigroup.com/",
+      "logo": {
+        "url": "https://tbcdn.talentbrew.com/company/287/v3/img/logos/citi-logo-color.svg",
+        "final_url": "https://tbcdn.talentbrew.com/company/287/v3/img/logos/citi-logo-color.svg",
+        "mime": "image/svg+xml",
+        "size": null,
+        "sha256": "83987c19da187bdce45812c2e75a330446a31225c49da8c2919b734ec685bb54"
+      },
+      "monitors": [
+        {
+          "id": "citigroup",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:33:19.622458+00:00",
+          "recipe_sha256": "48b9ed971f7c17a750b1592785e84d1e6b91f7ba388f16d0c56c8bbecf5633c9",
+          "job_count": 200,
+          "pages": 15,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 195 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Vice President- Trade and Working Capital Solutions (TWCS)- Lead Specialist",
+              "location": "Pune Maharashtra India",
+              "url": "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Vice-President--Trade-and-Working-Capital-Solutions--TWCS---Lead-Specialist_26991009"
+            },
+            {
+              "title": "Applications Support Senior Analyst - Assistant Vice President",
+              "location": "DLF CYBERCITY 12B",
+              "url": "https://citi.wd5.myworkdayjobs.com/2/job/DLF-CYBERCITY-12B/Applications-Support-Senior-Analyst---Assistant-Vice-President_26991680"
+            },
+            {
+              "title": "Senior Low Latency Developer - Assistant Vice President",
+              "location": "Pune Maharashtra India",
+              "url": "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Senior-Low-Latency-Developer---Assistant-Vice-President_26991359"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 25,
+      "id": "home-depot",
+      "name": "Home Depot",
+      "website_url": "https://www.homedepot.com/",
+      "logo": {
+        "url": "https://careers.homedepot.com/wp-content/uploads/sites/2982/2020/11/thd-careers.png",
+        "final_url": "https://careers.homedepot.com/wp-content/uploads/sites/2982/2020/11/thd-careers.png",
+        "mime": "image/png",
+        "size": [
+          186,
+          238
+        ],
+        "sha256": "7504513ee9de881a630c26ba31459d313a89b03e787fe562024dcad0b4524515"
+      },
+      "monitors": [
+        {
+          "id": "home-depot",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:33:33.008412+00:00",
+          "recipe_sha256": "1e596c8dc6867639046f8b02f202177b1919e0450593ae0d2a48eedf0c7f8c38",
+          "job_count": 200,
+          "pages": 15,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 195 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run.",
+            "Public CareerDepot board; separate store/hourly hiring channels may not be included."
+          ],
+          "samples": [
+            {
+              "title": "Rental Delivery Driver II CDLA - Dallas, TX",
+              "location": "DALLAS HUB - 5715",
+              "url": "https://homedepot.wd5.myworkdayjobs.com/CareerDepot/job/DALLAS-HUB---5715/Rental-Delivery-Driver-II-CDLA---Dallas--TX_Req192371"
+            },
+            {
+              "title": "Rental Delivery Driver II CDLA - Dallas, TX",
+              "location": "DALLAS HUB - 5715",
+              "url": "https://homedepot.wd5.myworkdayjobs.com/CareerDepot/job/DALLAS-HUB---5715/Rental-Delivery-Driver-II-CDLA---Dallas--TX_Req192369"
+            },
+            {
+              "title": "Distribution Center - Operations Manager",
+              "location": "LACEY DFC - 5832",
+              "url": "https://homedepot.wd5.myworkdayjobs.com/CareerDepot/job/LACEY-DFC---5832/Distribution-Center---Operations-Manager_Req192460"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Public CareerDepot board; separate store/hourly hiring channels may not be included.",
+      "status": "verified"
+    },
+    {
+      "rank": 26,
+      "id": "fannie-mae",
+      "name": "Fannie Mae",
+      "website_url": "https://www.fanniemae.com/",
+      "logo": {
+        "url": "https://fanniemae.widen.net/content/xnvdnbosmm/png/FM-FannieMaeLogo4cpNavyCropped-1556x325.png",
+        "final_url": "https://fanniemae.widen.net/content/xnvdnbosmm/png/FM-FannieMaeLogo4cpNavyCropped-1556x325.png",
+        "mime": "image/png",
+        "size": [
+          1566,
+          325
+        ],
+        "sha256": "fc6f466e5b5c14a2eded0ffc4cfd331f9c99dcebd96ace19ab1482a18e1dcf17"
+      },
+      "monitors": [
+        {
+          "id": "fannie-mae",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:33:27.258842+00:00",
+          "recipe_sha256": "c6fbc08ab348bd32a7e8908998f46d40e71b6c909b69bbea90d58adaf5d87264",
+          "job_count": 57,
+          "pages": 8,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 52 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Principal--Data, Analytics & AI Architect",
+              "location": "Reston, VA",
+              "url": "https://fanniemae.wd1.myworkdayjobs.com/FannieMaeCareers/job/Reston-VA/Principal--Data--Analytics---AI-Architect_JR2809"
+            },
+            {
+              "title": "Senior Director of Modeling and Analytics, Platforms/Products",
+              "location": "Reston, VA",
+              "url": "https://fanniemae.wd1.myworkdayjobs.com/FannieMaeCareers/job/Reston-VA/Senior-Director-of-Modeling-and-Analytics--Platforms--and-Products_JR2677"
+            },
+            {
+              "title": "Principal, AI Solutions",
+              "location": "Reston, VA",
+              "url": "https://fanniemae.wd1.myworkdayjobs.com/FannieMaeCareers/job/Reston-VA/Principal--AI-Solutions_JR2676"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 27,
+      "id": "kroger",
+      "name": "Kroger",
+      "website_url": "https://www.thekrogerco.com/",
+      "logo": {
+        "url": "https://www.thekrogerco.com/apple-touch-icon.png",
+        "final_url": "https://www.thekrogerco.com/apple-touch-icon.png",
+        "mime": "image/png",
+        "size": [
+          180,
+          180
+        ],
+        "sha256": "fa1fbd8a5968eb9b3dd3629b47f92f64be809b48e3408ecf72e0570cbff52018"
+      },
+      "monitors": [
+        {
+          "id": "kroger",
+          "strategy": "playwright",
+          "checked_at": "2026-09-04T05:45:58.074014+00:00",
+          "recipe_sha256": "eab692d44c8a223533f3e3a09a578ee1aba74727e3a922ba0b03ab311260b21b",
+          "job_count": 25,
+          "pages": 1,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Courtesy Clerk/Grocery Bagger",
+              "location": "Los Angeles, CA, United States (On-site)",
+              "url": "https://eluq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/211158"
+            },
+            {
+              "title": "Courtesy Clerk/Grocery Bagger",
+              "location": "Hollywood, CA, United States (On-site)",
+              "url": "https://eluq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/211217"
+            },
+            {
+              "title": "Cashier",
+              "location": "Hollywood, CA, United States (On-site)",
+              "url": "https://eluq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/211219"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 28,
+      "id": "verizon",
+      "name": "Verizon Communications",
+      "website_url": "https://www.verizon.com/",
+      "logo": {
+        "url": "https://www.google.com/s2/favicons?domain=verizon.com&sz=128",
+        "final_url": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://verizon.com&size=128",
+        "mime": "image/png",
+        "size": [
+          16,
+          16
+        ],
+        "sha256": "f7eda5af3edd20e06ef23c768bdb44c6260448a15fa9226730062b4d5bd56c10"
+      },
+      "monitors": [
+        {
+          "id": "verizon",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:39:49.643165+00:00",
+          "recipe_sha256": "b415027618b774ed43ef03bd6dcc8d8d3209690d9c1cb78f269246d6fd74b2ae",
+          "job_count": 500,
+          "pages": 30,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 495 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Director-Operations Support",
+              "location": "Irving, Texas",
+              "url": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Irving-Texas/Director-Operations-Support_R-1100532-2"
+            },
+            {
+              "title": "Retail Sales Associate",
+              "location": "16822 Twin Lakes AVE, Marysville, Washington",
+              "url": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/16822-Twin-Lakes-AVE-Marysville-Washington/Retail-Sales-Associate_R-1099142-1"
+            },
+            {
+              "title": "Director, Verizon Loyalty Activation",
+              "location": "Basking Ridge, New Jersey",
+              "url": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Verizon-Loyalty-Activation-Lead_R-1100461-2"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 29,
+      "id": "phillips-66",
+      "name": "Phillips 66",
+      "website_url": "https://www.phillips66.com/",
+      "logo": {
+        "url": "https://rmkcdn.successfactors.com/596573b8/180d5d77-5d66-482b-a4ce-a.png",
+        "final_url": "https://rmkcdn.successfactors.com/596573b8/180d5d77-5d66-482b-a4ce-a.png",
+        "mime": "image/png",
+        "size": [
+          186,
+          157
+        ],
+        "sha256": "58ea603e0a2e3df9b779bea5624062ccb23092ebb479c26f690bcd3b6ea8b695"
+      },
+      "monitors": [
+        {
+          "id": "phillips-66",
+          "strategy": "generic_html",
+          "checked_at": "2026-09-04T05:35:54.380664+00:00",
+          "recipe_sha256": "5266d7f4073b2526da1d80c8c47d91e942e7adc9b16aaa9af1b19b6357684bdc",
+          "job_count": 15,
+          "pages": 1,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Advisor III, Commercial Trading Compliance",
+              "location": "Houston, TX, US, 77042",
+              "url": "https://careers.phillips66.com/job/Houston-Advisor-III%2C-Commercial-Trading-Compliance-TX-77042/1413669700"
+            },
+            {
+              "title": "Global Trading Lead, Derivatives",
+              "location": "Houston, TX, US, 77042",
+              "url": "https://careers.phillips66.com/job/Houston-Global-Trading-Lead%2C-Derivatives-TX-77042/1413559900"
+            },
+            {
+              "title": "Global Trading Lead, Derivatives",
+              "location": "London, GB",
+              "url": "https://careers.phillips66.com/job/London-Global-Trading-Lead%2C-Derivatives/1413553300"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 30,
+      "id": "marathon-petroleum",
+      "name": "Marathon Petroleum",
+      "website_url": "https://www.marathonpetroleum.com/",
+      "logo": {
+        "url": "https://www.google.com/s2/favicons?domain=marathonpetroleum.com&sz=128",
+        "final_url": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://marathonpetroleum.com&size=128",
+        "mime": "image/png",
+        "size": [
+          128,
+          128
+        ],
+        "sha256": "c81ab34fb401c445a1b93d9951fdb3ed4cec1191faa3399b964cfc0ab06aa44a"
+      },
+      "monitors": [
+        {
+          "id": "marathon-petroleum",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:33:35.590493+00:00",
+          "recipe_sha256": "965a4880e503e680c2468b34e3b88ce162a6c6e0ead2ea7d21295be2b38aff33",
+          "job_count": 128,
+          "pages": 12,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 123 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Area Team I&E Project Engineer",
+              "location": "Texas City, Texas",
+              "url": "https://mpc.wd1.myworkdayjobs.com/MPCCareers/job/Texas-City-Texas/Area-Team-I-E-Project-Engineer_00023791"
+            },
+            {
+              "title": "Transport Driver",
+              "location": "Phoenix, Arizona",
+              "url": "https://mpc.wd1.myworkdayjobs.com/MPCCareers/job/Phoenix-Arizona/Transport-Driver_00023209"
+            },
+            {
+              "title": "Intern/Co-op - Aircraft Maintenance Technician (Fall 2027))",
+              "location": "Findlay OH Aviation",
+              "url": "https://mpc.wd1.myworkdayjobs.com/MPCCareers/job/Findlay-OH-Aviation/Intern-Co-op---Aircraft-Maintenance-Technician--Fall-2027--_00023974"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 31,
+      "id": "stonex",
+      "name": "StoneX Group",
+      "website_url": "https://www.stonex.com/",
+      "logo": {
+        "url": "https://www.google.com/s2/favicons?domain=stonex.com&sz=128",
+        "final_url": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://stonex.com&size=128",
+        "mime": "image/png",
+        "size": [
+          48,
+          48
+        ],
+        "sha256": "a322191cd4e6f26ba46025317f9ba25816c19bc016eb6cb61f6839b131e4c841"
+      },
+      "monitors": [
+        {
+          "id": "stonex",
+          "strategy": "generic_json",
+          "checked_at": "2026-09-04T05:57:21.571687+00:00",
+          "recipe_sha256": "b9b900de14cc1265444c3ef5e979a7b844eaadaca3b3442144e8892d303eb80c",
+          "job_count": 160,
+          "pages": 2,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Specialist, Physical Trade Operations - coffee",
+              "location": "Bogotá, Colombia",
+              "url": "https://join.stonex.com/jobs/16515?lang=en-us"
+            },
+            {
+              "title": "Full Stack Developer",
+              "location": "SAO PAULO, Brazil",
+              "url": "https://join.stonex.com/jobs/16500?lang=en-us"
+            },
+            {
+              "title": "Senior Data Science Engineer",
+              "location": "Bogotá, Colombia",
+              "url": "https://join.stonex.com/jobs/16438?lang=en-us"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 32,
+      "id": "state-farm",
+      "name": "State Farm Insurance",
+      "website_url": "https://www.statefarm.com/",
+      "logo": {
+        "url": "https://cms.jibecdn.com/prod/statefarm/assets/HEADER-NAV_LOGO-en-us-1728921750341.svg",
+        "final_url": "https://cms.jibecdn.com/prod/statefarm/assets/HEADER-NAV_LOGO-en-us-1728921750341.svg",
+        "mime": "image/svg+xml",
+        "size": null,
+        "sha256": "2e14746cc0c95f114fa97ac4ae3f5f8a5cdb53d3263ed26001ec6c8095c5e719"
+      },
+      "monitors": [
+        {
+          "id": "state-farm",
+          "strategy": "generic_json",
+          "checked_at": "2026-09-04T05:57:21.569159+00:00",
+          "recipe_sha256": "69615aa237c94e029ea3111dd140f2859c6876993197332b8f8f07d2f0977f5a",
+          "job_count": 229,
+          "pages": 3,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Claims Appraiser - Auto Estimatics",
+              "location": "Colorado Springs, Colorado",
+              "url": "https://jobs.statefarm.com/jobs/46114?lang=en-us"
+            },
+            {
+              "title": "Trial Attorney",
+              "location": "Southfield, Michigan",
+              "url": "https://jobs.statefarm.com/jobs/46077?lang=en-us"
+            },
+            {
+              "title": "Mid-Level Software Engineer-Full Stack (Hybrid)",
+              "location": "Bloomington, Illinois",
+              "url": "https://jobs.statefarm.com/jobs/46075?lang=en-us"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 33,
+      "id": "freddie-mac",
+      "name": "Freddie Mac",
+      "website_url": "https://www.freddiemac.com/",
+      "logo": {
+        "url": "https://cdn.phenompeople.com/CareerConnectResources/FRMAUS/images/FM_logo_tagline_cmyk_large-1663267942697.png",
+        "final_url": "https://cdn.phenompeople.com/CareerConnectResources/FRMAUS/images/FM_logo_tagline_cmyk_large-1663267942697.png",
+        "mime": "image/png",
+        "size": [
+          1255,
+          462
+        ],
+        "sha256": "0fc50c9129f962d3bdc90e3fc7090f839211fdbdd7f5753131f747ca2fdcdeff"
+      },
+      "monitors": [
+        {
+          "id": "freddie-mac",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:33:32.096449+00:00",
+          "recipe_sha256": "5c34d0b376ef5a033a96238e350038695d3d400a9f9acaac5c4ffb66eb21ad97",
+          "job_count": 90,
+          "pages": 10,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 85 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Software Engineering Manager",
+              "location": "McLean, VA",
+              "url": "https://freddiemac.wd5.myworkdayjobs.com/External/job/McLean-VA/Software-Engineering-Manager_JR17575"
+            },
+            {
+              "title": "Multifamily Underwriting Senior Associate– Affordable Housing",
+              "location": "McLean, VA",
+              "url": "https://freddiemac.wd5.myworkdayjobs.com/External/job/McLean-VA/Multifamily-Underwriting-Senior-Associate--Affordable-Housing_JR17603"
+            },
+            {
+              "title": "Agile Development, Sr",
+              "location": "McLean, VA",
+              "url": "https://freddiemac.wd5.myworkdayjobs.com/External/job/McLean-VA/Agile-Development--Sr_JR17607"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 34,
+      "id": "humana",
+      "name": "Humana",
+      "website_url": "https://www.humana.com/",
+      "logo": {
+        "url": "https://cdn.phenompeople.com/CareerConnectResources/HUMHUMUS/images/humana_careers_logo-1721856704992.png",
+        "final_url": "https://cdn.phenompeople.com/CareerConnectResources/HUMHUMUS/images/humana_careers_logo-1721856704992.png",
+        "mime": "image/png",
+        "size": [
+          1087,
+          200
+        ],
+        "sha256": "8a4a74fe7b34e102b30da73735d5a7a88e294f6e44e503930ebe219f79b1d9c0"
+      },
+      "monitors": [
+        {
+          "id": "humana",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:33:33.325362+00:00",
+          "recipe_sha256": "dd5396e0e44d25cf67890a846acbc43006ba8823ba8a74d6965fbc9f3cbb087a",
+          "job_count": 200,
+          "pages": 15,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 195 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Medicare Field Agent – Mid West PA",
+              "location": "State College, PA",
+              "url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/State-College-PA/Medicare-Career-Sales-Field-Agent--Mid-West-PA_R-414278"
+            },
+            {
+              "title": "Medicare Field Agent- Northern PA",
+              "location": "Charleston, PA",
+              "url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Charleston-PA/Medicare-Career-Sales-Field-Agent--Northern-PA_R-421907"
+            },
+            {
+              "title": "Medicare Field Agent- South Central PA",
+              "location": "Bedford, PA",
+              "url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Bedford-PA/Medicare-Career-Sales-Field-Agent--South-Central-PA_R-414282"
+            }
+          ]
+        },
+        {
+          "id": "humana-centerwell",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:33:35.561140+00:00",
+          "recipe_sha256": "a8d07488650576590d061662f0a2e9deb8b6651e2674652b96aaefeaf2565462",
+          "job_count": 200,
+          "pages": 15,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 195 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Medical Assistant 2",
+              "location": "Corpus Christi, TX",
+              "url": "https://humana.wd5.myworkdayjobs.com/CenterWell_External_Career_Site/job/Corpus-Christi-TX/Medical-Assistant-2_R-428910-1"
+            },
+            {
+              "title": "Medical Assistant",
+              "location": "El Paso, TX",
+              "url": "https://humana.wd5.myworkdayjobs.com/CenterWell_External_Career_Site/job/El-Paso-TX/Medical-Assistant_R-428862-1"
+            },
+            {
+              "title": "Floating Pool Pharmacy Technician",
+              "location": "Largo, FL",
+              "url": "https://humana.wd5.myworkdayjobs.com/CenterWell_External_Career_Site/job/Largo-FL/Floating-Pool-Pharmacy-Technician_R-425465"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 35,
+      "id": "att",
+      "name": "AT&T",
+      "website_url": "https://www.att.com/",
+      "logo": {
+        "url": "https://tbcdn.talentbrew.com/company/117/cms/img/logos/att.svg",
+        "final_url": "https://tbcdn.talentbrew.com/company/117/cms/img/logos/att.svg",
+        "mime": "image/svg+xml",
+        "size": null,
+        "sha256": "fe3e78d4537e6a54fb121dba7b5dde296094d91087936f192b423b12d732d019"
+      },
+      "monitors": [
+        {
+          "id": "att",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:33:17.388363+00:00",
+          "recipe_sha256": "5aafff1e55338faa2c7a8aafafd1a10cdaca6360901cf6e4e87533f0653d58b3",
+          "job_count": 200,
+          "pages": 15,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 195 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Bilingual Spanish Field Sales Representative",
+              "location": "USA:CA:San Diego / Copley Dr - Adm:5855 Copley Dr",
+              "url": "https://att.wd1.myworkdayjobs.com/ATTGeneral/job/USACASan-Diego--Copley-Dr---Adm5855-Copley-Dr/Bilingual-Spanish-Field-Sales-Representative_R-120573"
+            },
+            {
+              "title": "Field Sales Representative",
+              "location": "USA:CA:San Diego / Copley Dr - Adm:5855 Copley Dr",
+              "url": "https://att.wd1.myworkdayjobs.com/ATTGeneral/job/USACASan-Diego--Copley-Dr---Adm5855-Copley-Dr/Field-Sales-Representative_R-120578"
+            },
+            {
+              "title": "Business Sales Representative – Territory Accounts",
+              "location": "San Francisco, California",
+              "url": "https://att.wd1.myworkdayjobs.com/ATTGeneral/job/San-Francisco-California/Business-Sales-Representative---Territory-Accounts_R-121693"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 36,
+      "id": "goldman-sachs",
+      "name": "Goldman Sachs Group",
+      "website_url": "https://www.goldmansachs.com/",
+      "logo": {
+        "url": "https://cdn.gs.com/images/goldman-sachs/v2/gs-favicon.svg",
+        "final_url": "https://cdn.gs.com/images/goldman-sachs/v2/gs-favicon.svg",
+        "mime": "image/svg+xml",
+        "size": null,
+        "sha256": "089b14b21b1550d118a4d30fd43a0594b9c7601bfc141fa6bf291f9d189e99fc"
+      },
+      "monitors": [
+        {
+          "id": "goldman-sachs",
+          "strategy": "playwright",
+          "checked_at": "2026-09-04T05:53:24.253759+00:00",
+          "recipe_sha256": "8c382eeadb65f5d91f50d1f15e07ede9251bd1619d061ff73a6c20c9abe1a8c9",
+          "job_count": 20,
+          "pages": 1,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Global Banking & Markets-Regulatory Uplift-Analyst-Bengaluru",
+              "location": "Bengaluru · India",
+              "url": "https://higher.gs.com/roles/182581"
+            },
+            {
+              "title": "Controllers, Position Control - Client Assets, Analyst, Singapore",
+              "location": "Singapore · Singapore",
+              "url": "https://higher.gs.com/roles/179111"
+            },
+            {
+              "title": "Operations | Analyst | Dallas",
+              "location": "Dallas · United States",
+              "url": "https://higher.gs.com/roles/159804"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 37,
+      "id": "comcast",
+      "name": "Comcast",
+      "website_url": "https://www.comcast.com/",
+      "logo": {
+        "url": "https://tbcdn.talentbrew.com/company/45483/v1_0/img/comcast-master-logo-on-black.webp",
+        "final_url": "https://tbcdn.talentbrew.com/company/45483/v1_0/img/comcast-master-logo-on-black.webp",
+        "mime": "image/webp",
+        "size": [
+          225,
+          90
+        ],
+        "sha256": "3f107954e7693339725ad4d4017985acb3f6bb46621d4151e3dfd58fbcd08ae2"
+      },
+      "monitors": [
+        {
+          "id": "comcast",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:33:24.841057+00:00",
+          "recipe_sha256": "58fd09048b40b0ef57abe86dd600da79f6ca0369be76050f66660015e0a4aa4f",
+          "job_count": 200,
+          "pages": 15,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 195 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Xfinity Retail Sales Consultant",
+              "location": "IL - Springfield, 3405 Freedom Dr - Retail XFR1320",
+              "url": "https://comcast.wd115.myworkdayjobs.com/Comcast_Careers/job/IL---Springfield-3405-Freedom-Dr---Retail-XFR1320/Xfinity-Retail-Sales-Consultant_R443946"
+            },
+            {
+              "title": "Xfinity Retail Sales Consultant",
+              "location": "IL - Morton Grove, 7927 Golf Rd - Retail XFR1302",
+              "url": "https://comcast.wd115.myworkdayjobs.com/Comcast_Careers/job/IL---Morton-Grove-7927-Golf-Rd---Retail-XFR1302/Xfinity-Retail-Sales-Consultant_R442009"
+            },
+            {
+              "title": "Xfinity Retail Sales Consultant",
+              "location": "IL - Forsyth, 108 E Barnett Ave - Retail XFR1317",
+              "url": "https://comcast.wd115.myworkdayjobs.com/Comcast_Careers/job/IL---Forsyth-108-E-Barnett-Ave---Retail-XFR1317/Xfinity-Retail-Sales-Consultant_R443125"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 38,
+      "id": "wells-fargo",
+      "name": "Wells Fargo",
+      "website_url": "https://www.wellsfargo.com/",
+      "logo": {
+        "url": "https://www17.wellsfargomedia.com/assets/images/icons/ico/favicon.ico",
+        "final_url": "https://www17.wellsfargomedia.com/assets/images/icons/ico/favicon.ico",
+        "mime": "image/x-icon",
+        "size": [
+          48,
+          48
+        ],
+        "sha256": "6780d0b2bc67397895ef7b8845261eee7b9b22610b026835362128942da5fb7c"
+      },
+      "monitors": [
+        {
+          "id": "wells-fargo",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:35:48.221774+00:00",
+          "recipe_sha256": "30090e12282c46fde45234307fc7e72ee6cd81bb3e57007287239b6e858af7ce",
+          "job_count": 490,
+          "pages": 30,
+          "complete": false,
+          "warnings": [
+            "removed 10 duplicate source IDs",
+            "description detail enrichment skipped 485 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Associate Operations Processor",
+              "location": "Bengaluru, India",
+              "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Associate-Operations-Processor_R-562782"
+            },
+            {
+              "title": "Senior Software Engineer- SQL, Data Engineer",
+              "location": "Hyderabad, India",
+              "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-536831"
+            },
+            {
+              "title": "Lead Fraud & Claims Operations Representative",
+              "location": "Hyderabad, India",
+              "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Lead-Fraud---Claims-Operations-Representative_R-571668-1"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 39,
+      "id": "morgan-stanley",
+      "name": "Morgan Stanley",
+      "website_url": "https://www.morganstanley.com/",
+      "logo": {
+        "url": "https://www.google.com/s2/favicons?domain=morganstanley.com&sz=128",
+        "final_url": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://morganstanley.com&size=128",
+        "mime": "image/jpeg",
+        "sha256": "61674cf052a8dfe9b6adc77379b96422d1ead19b5fc25d649fb918fe39cbab3d"
+      },
+      "monitors": [
+        {
+          "id": "morgan-stanley",
+          "strategy": "generic_json",
+          "checked_at": "2026-09-04T05:45:27.671301+00:00",
+          "recipe_sha256": "fbafe193911823c6fc2898e5bd563d38b589ecff1467c9ee36bc7e767ed43931",
+          "job_count": 68,
+          "pages": 1,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run.",
+            "Students and graduates only. The former experienced-hire service currently returns no jobs."
+          ],
+          "samples": [
+            {
+              "title": "2026 Legal Internship Program (Mexico City)",
+              "location": "Mexico City, Mexico",
+              "url": "https://morganstanley.tal.net/vx/candidate/so/pm/1/pl/1/opp/21248"
+            },
+            {
+              "title": "2027 Technology Summer Analyst Program (Alpharetta)",
+              "location": "Alpharetta, United States of America",
+              "url": "https://morganstanley.tal.net/vx/candidate/so/pm/1/pl/1/opp/20953"
+            },
+            {
+              "title": "2027 Machine Learning Research Associate Program - PhD (New York)",
+              "location": "New York, United States of America",
+              "url": "https://morganstanley.tal.net/vx/candidate/so/pm/1/pl/1/opp/20965"
+            }
+          ]
+        },
+        {
+          "id": "morgan-stanley-experienced",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T06:05:27.600578+00:00",
+          "recipe_sha256": "eed122052439b4af1d0aa3dd3023840fc56409eab3fd4fc79bd024d2ee3cd972",
+          "job_count": 500,
+          "pages": 30,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 495 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run.",
+            "Current public Workday external board; bounded to 500 listings. Separate students/graduate monitor is also available."
+          ],
+          "samples": [
+            {
+              "title": "Registered Client Service Associate",
+              "location": "San Francisco, California, United States of America",
+              "url": "https://ms.wd5.myworkdayjobs.com/External/job/San-Francisco-California-United-States-of-America/Registered-Client-Service-Associate_JR028143"
+            },
+            {
+              "title": "Wealth Management Associate",
+              "location": "West Des Moines, Iowa, United States of America",
+              "url": "https://ms.wd5.myworkdayjobs.com/External/job/West-Des-Moines-Iowa-United-States-of-America/Wealth-Management-Associate_JR041929-1"
+            },
+            {
+              "title": "Portfolio Management Associate",
+              "location": "Boston, Massachusetts, United States of America",
+              "url": "https://ms.wd5.myworkdayjobs.com/External/job/Boston-Massachusetts-United-States-of-America/Portfolio-Management-Associate_JR037563"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Current public Workday external board; bounded to 500 listings. Separate students/graduate monitor is also available.",
+      "status": "verified"
+    },
+    {
+      "rank": 40,
+      "id": "valero",
+      "name": "Valero Energy",
+      "website_url": "https://www.valero.com/",
+      "logo": {
+        "url": "https://www.valero.com/themes/custom/valero/logo.svg",
+        "final_url": "https://www.valero.com/themes/custom/valero/logo.svg",
+        "mime": "image/svg+xml",
+        "size": null,
+        "sha256": "d13290ed8a5c498981633e5589265c70e875f9094e550c2ac8d61895f4a746af"
+      },
+      "monitors": [
+        {
+          "id": "valero",
+          "strategy": "generic_html",
+          "checked_at": "2026-09-04T05:39:57.938991+00:00",
+          "recipe_sha256": "ddbe4d137d86c8293e4f664ba816e62d29d109b026be38c5be10e010837cbb5d",
+          "job_count": 6,
+          "pages": 1,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run.",
+            "Six featured U.S. roles linked by the corporate careers page; not the complete Taleo inventory."
+          ],
+          "samples": [
+            {
+              "title": "Refinery Inspector, Tenn.",
+              "location": "Unspecified",
+              "url": "https://valero.taleo.net/careersection/2/jobdetail.ftl?job=26001B7&tz=GMT-05%3A00&tzname=America%2FChicago"
+            },
+            {
+              "title": "Process Operator - Lakota Ethanol Plant, Iowa",
+              "location": "Unspecified",
+              "url": "https://valero.taleo.net/careersection/2/jobdetail.ftl?job=260010W&tz=GMT-05%3A00&tzname=America%2FChicago"
+            },
+            {
+              "title": "Manager QA/QC Lab - Ethanol Plant, Ohio",
+              "location": "Unspecified",
+              "url": "https://valero.taleo.net/careersection/2/jobdetail.ftl?job=260018G&tz=GMT-05%3A00&tzname=America%2FChicago"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Six featured U.S. roles linked by the corporate careers page; not the complete Taleo inventory.",
+      "status": "verified"
+    },
+    {
+      "rank": 41,
+      "id": "dell",
+      "name": "Dell Technologies",
+      "website_url": "https://www.dell.com/",
+      "logo": {
+        "url": "https://www.google.com/s2/favicons?domain=dell.com&sz=128",
+        "final_url": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://dell.com&size=128",
+        "mime": "image/png",
+        "size": [
+          48,
+          48
+        ],
+        "sha256": "cd0171d04e2cc3af3320f96c78f6516e09a6757b67f417345e69ca82c24ac1b6"
+      },
+      "monitors": [
+        {
+          "id": "dell",
+          "strategy": "playwright",
+          "checked_at": "2026-09-04T05:45:58.073006+00:00",
+          "recipe_sha256": "fbc456dca756fc436dd83bf5a24272ff328d559ec1c074ecc6c280f98fce478d",
+          "job_count": 25,
+          "pages": 1,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Analyst, Import Export",
+              "location": "Bayan Lepas, Pulau Pinang, Malaysia and 1 more",
+              "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/292006"
+            },
+            {
+              "title": "Product Operations Senior Engineer",
+              "location": "Bukit Mertajam, Pulau Pinang, Malaysia and 2 more",
+              "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/295231"
+            },
+            {
+              "title": "Advisor, Trade Compliance",
+              "location": "Philippines",
+              "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/296235"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 42,
+      "id": "target",
+      "name": "Target",
+      "website_url": "https://www.target.com/",
+      "logo": {
+        "url": "https://corporate.target.com/getmedia/2cee849d-5862-475f-a383-ed47324afe97/target_bullseye-logo.png?width=220",
+        "final_url": "https://corporate.target.com/getmedia/2cee849d-5862-475f-a383-ed47324afe97/target_bullseye-logo.png?width=220",
+        "mime": "image/png",
+        "size": [
+          220,
+          220
+        ],
+        "sha256": "30f3689bfbaccf8b0c0cae3537b7fd311c91e14216786a96ad4d578d7e0f4bab"
+      },
+      "monitors": [
+        {
+          "id": "target",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:33:43.833220+00:00",
+          "recipe_sha256": "dc18d69310ae237f7bb235515d55632f43080e6bdc9f3a626e579412eb07237a",
+          "job_count": 200,
+          "pages": 15,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 195 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Sr Engineer- Backend",
+              "location": "Tower 02, Manyata Embassy Business Park, Racenahali & Nagawara Villages. Outer Ring Rd, Bangalore 540065",
+              "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/Tower-02-Manyata-Embassy-Business-Park-Racenahali--Nagawara-Villages-Outer-Ring-Rd-Bangalore-540065/Sr-Engineer--Backend_R0000387032"
+            },
+            {
+              "title": "General Merchandise Team Leader",
+              "location": "235 Robert C Daniel Jr Pkwy, Augusta,GA 30909-0800",
+              "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/235-Robert-C-Daniel-Jr-Pkwy-AugustaGA-30909-0800/General-Merchandise-Team-Leader_R0000451904"
+            },
+            {
+              "title": "Seasonal Full Time Hourly Warehouse Operations Openings (T3841)",
+              "location": "300 Manning Bridge Rd, Suffolk,VA 23434-8592",
+              "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/300-Manning-Bridge-Rd-SuffolkVA-23434-8592/Seasonal-Full-Time-Hourly-Warehouse-Operations-Openings--T3841-_R0000447622"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 43,
+      "id": "tesla",
+      "name": "Tesla",
+      "website_url": "https://www.tesla.com/",
+      "logo": {
+        "url": "https://www.google.com/s2/favicons?domain=tesla.com&sz=128",
+        "final_url": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://tesla.com&size=128",
+        "mime": "image/png",
+        "size": [
+          128,
+          128
+        ],
+        "sha256": "b4be4f01063591bf8e715388c3e798339f22fb5b7e1e20a504d5c7cad796d55d"
+      },
+      "monitors": [
+        {
+          "id": "tesla-automation",
+          "strategy": "playwright",
+          "checked_at": "2026-09-04T06:04:39.864868+00:00",
+          "recipe_sha256": "37d549a7be8d6c7fdcf199fab980eba39401acb3595c8a9ed165fd93533ddc0a",
+          "job_count": 2,
+          "pages": 1,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run.",
+            "Tesla Automation subsidiary in Germany only; currently two visible cards per headless page. Tesla worldwide careers remains HTTP 403 Access Denied. This does not cover Tesla U.S. or worldwide hiring."
+          ],
+          "samples": [
+            {
+              "title": "Senior Strategischer Einkäufer (m/w/d)",
+              "location": "Prüm, Rhineland-palatinate",
+              "url": "https://teslaautomation.de/de/recruitment/search/job/senior-strategischer-einkufer-m-w-d-282206"
+            },
+            {
+              "title": "Senior Strategischer Einkäufer (m/w/d)",
+              "location": "Reutlingen, Baden-württemberg",
+              "url": "https://teslaautomation.de/de/recruitment/search/job/senior-strategischer-einkufer-m-w-d-282205"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Tesla Automation subsidiary in Germany only; currently two visible cards per headless page. Tesla worldwide careers remains HTTP 403 Access Denied. This does not cover Tesla U.S. or worldwide hiring.",
+      "status": "verified"
+    },
+    {
+      "rank": 44,
+      "id": "disney",
+      "name": "Walt Disney",
+      "website_url": "https://www.thewaltdisneycompany.com/",
+      "logo": {
+        "url": "https://tbcdn.talentbrew.com/company/391/gst_v1_0/img/logo_disney-careers_black.svg",
+        "final_url": "https://tbcdn.talentbrew.com/company/391/gst_v1_0/img/logo_disney-careers_black.svg",
+        "mime": "image/svg+xml",
+        "size": null,
+        "sha256": "094e7a025dfac710b17291e5da84a028b27815a85864c51a1802533dad0d07e7"
+      },
+      "monitors": [
+        {
+          "id": "disney",
+          "strategy": "generic_html",
+          "checked_at": "2026-09-04T05:35:49.042241+00:00",
+          "recipe_sha256": "07c9b9fadb43cc272bea38f7e25d3e31aa037c1e7264ae927d03ee4afded94f9",
+          "job_count": 10,
+          "pages": 1,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Senior Modeler",
+              "location": "Moore Park, Australia / Sydney, Australia",
+              "url": "https://www.disneycareers.com/en/job/moore-park/senior-modeler/391/100108246096"
+            },
+            {
+              "title": "Merchandise Stock Associate - Full Time, $29.17/Hour",
+              "location": "Kapolei, Hawaii",
+              "url": "https://www.disneycareers.com/en/job/kapolei/merchandise-stock-associate-full-time-29-17-hour/391/97894072640"
+            },
+            {
+              "title": "Media Operations & Data Coordinator (Burbank)",
+              "location": "Los Angeles, California",
+              "url": "https://www.disneycareers.com/en/job/los-angeles/media-operations-and-data-coordinator-burbank/391/100146659120"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 45,
+      "id": "johnson-johnson",
+      "name": "Johnson & Johnson",
+      "website_url": "https://www.jnj.com/",
+      "logo": {
+        "url": "https://jnj-content-lab2.brightspotcdn.com/ac/25/bd2078f54d5992dd486ed26140ce/johnson-johnson-logo.svg",
+        "final_url": "https://jnj-content-lab2.brightspotcdn.com/ac/25/bd2078f54d5992dd486ed26140ce/johnson-johnson-logo.svg",
+        "mime": "image/svg+xml",
+        "size": null,
+        "sha256": "f3f08c93ca7404ea061ae2581918b2d9bf4327d9cc9b70f28ecc753637ef98e4"
+      },
+      "monitors": [
+        {
+          "id": "johnson-johnson",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:35:48.219764+00:00",
+          "recipe_sha256": "121353e250d2ee06dfbe6462675d688481679f5bff2e4873d6e96156c8e1a597",
+          "job_count": 500,
+          "pages": 30,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 495 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Senior Strategic Key Account Manager",
+              "location": "Changsha, Hunan, China",
+              "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Changsha-Hunan-China/Senior-Strategic-Key-Account-Manager_R-082715-1"
+            },
+            {
+              "title": "Product Specialist - Orthopaedics - Makassar -Indonesia",
+              "location": "Makassar, Sulawesi Selatan, Indonesia",
+              "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Makassar-Sulawesi-Selatan-Indonesia/Product-Specialist---Medtech--Surgery----Indonesia_R-093080"
+            },
+            {
+              "title": "Senior Principal Scientist, Data Science RWE",
+              "location": "Titusville, New Jersey, United States of America",
+              "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Titusville-New-Jersey-United-States-of-America/Senior-Principal-Scientist--Data-Science-RWE_R-087629-1"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 46,
+      "id": "pepsico",
+      "name": "PepsiCo",
+      "website_url": "https://www.pepsico.com/",
+      "logo": {
+        "url": "https://cms.jibecdn.com/prod/pepsico/assets/V3-HEADER-NAV_LOGO-en-us-1777040086520.svg",
+        "final_url": "https://cms.jibecdn.com/prod/pepsico/assets/V3-HEADER-NAV_LOGO-en-us-1777040086520.svg",
+        "mime": "image/svg+xml",
+        "size": null,
+        "sha256": "8b50590bf218ce58899ee8ca528ceb40edfdb2f91e3e2cd2ee032dfb79563912"
+      },
+      "monitors": [
+        {
+          "id": "pepsico",
+          "strategy": "generic_json",
+          "checked_at": "2026-09-04T05:57:21.575244+00:00",
+          "recipe_sha256": "c107a23e6a6a2c1b18dacdd8e9a3f4bd5598a7b02c6c3e9574a23441f6e06060",
+          "job_count": 1000,
+          "pages": 10,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "2027 Full Time: Strategic Finance Associate Analyst",
+              "location": "Purchase, New York",
+              "url": "https://www.pepsicojobs.com/jobs/465893?lang=en-us"
+            },
+            {
+              "title": "Service Operations Warehouser",
+              "location": "Arden, NC",
+              "url": "https://www.pepsicojobs.com/jobs/P1-6624961-1?lang=en-us"
+            },
+            {
+              "title": "Process Operator - Twilight",
+              "location": "Auckland, New Zealand",
+              "url": "https://www.pepsicojobs.com/jobs/455798?lang=en-us"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 47,
+      "id": "boeing",
+      "name": "Boeing",
+      "website_url": "https://www.boeing.com/",
+      "logo": {
+        "url": "https://www.boeing.com/favicon.ico?v=1",
+        "final_url": "https://www.boeing.com/favicon.ico?v=1",
+        "mime": "image/x-icon",
+        "size": [
+          16,
+          16
+        ],
+        "sha256": "c6ef1aab1164902257a05875fbf8d3597f70bfa61a8d4312e1aef75426490ce1"
+      },
+      "monitors": [
+        {
+          "id": "boeing",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:33:17.392378+00:00",
+          "recipe_sha256": "089013a3ec7d22b43ab81e426320f429f33451ff9f35e26c2139607abb58991a",
+          "job_count": 200,
+          "pages": 15,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 195 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Portfolio Mission Senior Manager - Millennium Space Systems",
+              "location": "USA - El Segundo, CA",
+              "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Portfolio-Mission-Senior-Manager---Millennium-Space-Systems_JR2026523712-1"
+            },
+            {
+              "title": "Senior Accountant",
+              "location": "USA - Hazelwood, MO",
+              "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Hazelwood-MO/Senior-Accountant_JR2026522750-1"
+            },
+            {
+              "title": "Maintenance Electrician",
+              "location": "USA - Berkeley, MO",
+              "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Maintenance-Electrician_JR2026502828-1"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 48,
+      "id": "ups",
+      "name": "United Parcel Service",
+      "website_url": "https://www.ups.com/",
+      "logo": {
+        "url": "https://cdn.phenompeople.com/CareerConnectResources/UPBUPSGLOBAL/images/1733823476894_logo.png",
+        "final_url": "https://cdn.phenompeople.com/CareerConnectResources/UPBUPSGLOBAL/images/1733823476894_logo.png",
+        "mime": "image/png",
+        "size": [
+          74,
+          88
+        ],
+        "sha256": "c6ce510cffdcebb363fe4d17235459d40eff1ea776676ecdb3ef2aa1a86ab6cc"
+      },
+      "monitors": [
+        {
+          "id": "ups",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:33:44.117681+00:00",
+          "recipe_sha256": "7e02c84ddeb3ba9ed940b3b27b1b78d059ee873182ac74ccf730bab7c68428a2",
+          "job_count": 200,
+          "pages": 15,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 195 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Air District Finance Specialist | 10E",
+              "location": "US - WORLDPORT (KYGRA)",
+              "url": "https://hcmportal.wd5.myworkdayjobs.com/Search/job/US---WORLDPORT-KYGRA/Air-District-Finance-Specialist---10E_R26030734-1"
+            },
+            {
+              "title": "PT Warehouse Supervisor",
+              "location": "US - TUALATIN (ORTUA)",
+              "url": "https://hcmportal.wd5.myworkdayjobs.com/Search/job/US---TUALATIN-ORTUA/PT-Warehouse-Supervisor_R26029764"
+            },
+            {
+              "title": "Speditionskaufmann/-frau (m/w/d) Import Luftfracht in Hamburg",
+              "location": "DE - HAMBURG AIR AND OCEAN OFFICE (DEHBG)",
+              "url": "https://hcmportal.wd5.myworkdayjobs.com/Search/job/DE---HAMBURG-AIR-AND-OCEAN-OFFICE-DEHBG/Speditionskaufmann--frau--m-w-d--Import-Luftfracht-in-Hamburg_R26030147"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 49,
+      "id": "rtx",
+      "name": "RTX",
+      "website_url": "https://www.rtx.com/",
+      "logo": {
+        "url": "https://prd-sc102-cdn.rtx.com/-/media/themes/raytheon-technologies/rtx-shared/rtx-theme/images/rtx_logo.svg?rev=57e660dbd2ee4ef6895a84799210c5bf&rid=a5829bdc17c74537842441a8a1b055f2",
+        "final_url": "https://prd-sc102-cdn.rtx.com/-/media/themes/raytheon-technologies/rtx-shared/rtx-theme/images/rtx_logo.svg?rev=57e660dbd2ee4ef6895a84799210c5bf&rid=a5829bdc17c74537842441a8a1b055f2",
+        "mime": "image/svg+xml",
+        "size": null,
+        "sha256": "661ea5d1258db40a454bd1f407efcf11632ee34eaa7b4cf9a8624a828f269c94"
+      },
+      "monitors": [
+        {
+          "id": "rtx",
+          "strategy": "workday",
+          "checked_at": "2026-09-04T05:39:49.641143+00:00",
+          "recipe_sha256": "4078f8ebda993fbb8a3e8553a34ef6517fa5b4eabc2b0f21dae173f5cd450704",
+          "job_count": 500,
+          "pages": 30,
+          "complete": false,
+          "warnings": [
+            "description detail enrichment skipped 495 jobs after the configured 5-posting limit",
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Customer Service Representative (Mid-Shit 2:30PM to 11:00PM)",
+              "location": "PH-BTG-TANAUAN CITY-BQ4 ~ First Philippine Industrial Park ~ BLDG Q4",
+              "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/PH-BTG-TANAUAN-CITY-BQ4--First-Philippine-Industrial-Park--BLDG-Q4/Customer-Service-Representative--Mid-Shit-2-30PM-to-11-00PM-_01871945"
+            },
+            {
+              "title": "Anlyst, Svc Contract&Wnty",
+              "location": "PH-BTG-TANAUAN CITY-BQ4 ~ First Philippine Industrial Park ~ BLDG Q4",
+              "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/PH-BTG-TANAUAN-CITY-BQ4--First-Philippine-Industrial-Park--BLDG-Q4/Anlyst--Svc-Contract-Wnty_01872409"
+            },
+            {
+              "title": "Cell Leader",
+              "location": "SG-01-SINGAPORE-051 TC ~ 51 Calshot Rd ~ 51 CALSHOT RD-051 TC",
+              "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/SG-01-SINGAPORE-051-TC--51-Calshot-Rd--51-CALSHOT-RD-051-TC/Cell-Leader_01861031"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    },
+    {
+      "rank": 50,
+      "id": "fedex",
+      "name": "FedEx",
+      "website_url": "https://www.fedex.com/",
+      "logo": {
+        "url": "https://www.fedex.com/etc.clientlibs/designs/fedex-common/images/resources/fx-favicon.ico",
+        "final_url": "https://www.fedex.com/etc.clientlibs/designs/fedex-common/images/resources/fx-favicon.ico",
+        "mime": "image/x-icon",
+        "size": [
+          32,
+          32
+        ],
+        "sha256": "eab1b9a0ef942d84e3a8ed8c3e3996acb7a46af9a0b9f914ced662bcbe0e54be"
+      },
+      "monitors": [
+        {
+          "id": "fedex",
+          "strategy": "generic_html",
+          "checked_at": "2026-09-04T05:35:55.270541+00:00",
+          "recipe_sha256": "a620f765489bec7371cccab9a862c6b5cf503d4720c9e1bf1ee5951e5d487be1",
+          "job_count": 25,
+          "pages": 1,
+          "complete": false,
+          "warnings": [
+            "Bounded/partial listing; unseen jobs must not be closed from this run."
+          ],
+          "samples": [
+            {
+              "title": "Customer Financial Services Representative",
+              "location": "Hyderabad, Telan, IN",
+              "url": "https://careers.fedex.com/customer-financial-services-representative/job/FB9C1D9B48E7D595DE29551153A87BDB"
+            },
+            {
+              "title": "Customs Regulatory Advisor (HAN)",
+              "location": "Hanoi, Hà Nộ, VN",
+              "url": "https://careers.fedex.com/customs-regulatory-advisor-han/job/2123755BDFD50B167BF0CC48A6DF33F0"
+            },
+            {
+              "title": "Mgr Solutions Bus Arc",
+              "location": "3690 Hacks Cross Road, Memphis, TN, US",
+              "url": "https://careers.fedex.com/mgr-solutions-bus-arc/job/P25-371454-1"
+            }
+          ]
+        }
+      ],
+      "coverage_note": "Bounded public listing; consult each monitor for limits.",
+      "status": "verified"
+    }
+  ],
+  "coverage": "50 companies have at least one working, explicitly scoped monitor. Most monitors are bounded, not exhaustive worldwide inventories.",
+  "logo_browser_check": {
+    "checked_at": "2026-09-04T06:08:37.598005+00:00",
+    "total": 50,
+    "loaded": 50,
+    "failed": [],
+    "method": "Remote URLs embedded from a local HTTP page in Chromium; inspected image.complete and naturalWidth, and visually reviewed contact sheet."
+  },
+  "sample_source_link_checks": [
+    {
+      "company_id": "amazon",
+      "monitor_id": "amazon",
+      "url": "https://www.amazon.jobs/en/jobs/10507599/data-center-engineering-operations-engineer-dceo-bom",
+      "status": 200,
+      "final_url": "https://www.amazon.jobs/en/jobs/10507599/data-center-engineering-operations-engineer-dceo-bom"
+    },
+    {
+      "company_id": "walmart",
+      "monitor_id": "walmart",
+      "url": "https://careers.walmart.com/us/en/jobs/CP-9046-11101",
+      "status": 200,
+      "final_url": "https://careers.walmart.com/us/en/jobs/CP-9046-11101"
+    },
+    {
+      "company_id": "unitedhealth-group",
+      "monitor_id": "unitedhealth-group",
+      "url": "https://careers.unitedhealthgroup.com/job/hyderabad/ai-ml-engineer/34088/100146256752",
+      "status": 200,
+      "final_url": "https://careers.unitedhealthgroup.com/job/hyderabad/ai-ml-engineer/34088/100146256752"
+    },
+    {
+      "company_id": "apple",
+      "monitor_id": "apple",
+      "url": "https://jobs.apple.com/en-us/details/114438158/us-specialist-seasonal-part-time?team=APPST",
+      "status": 200,
+      "final_url": "https://jobs.apple.com/en-us/details/114438158/us-specialist-seasonal-part-time?team=APPST"
+    },
+    {
+      "company_id": "google",
+      "monitor_id": "google",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/107697501686899398-data-scientist-iii-product",
+      "status": 200,
+      "final_url": "https://www.google.com/about/careers/applications/jobs/results/107697501686899398-data-scientist-iii-product"
+    },
+    {
+      "company_id": "cvs-health",
+      "monitor_id": "cvs-health",
+      "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/VA---Windsor/Store-Associate_R1033026",
+      "status": 200,
+      "final_url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/VA---Windsor/Store-Associate_R1033026"
+    },
+    {
+      "company_id": "berkshire-hathaway",
+      "monitor_id": "berkshire-geico",
+      "url": "https://geico.wd1.myworkdayjobs.com/External/job/Palo-Alto-CA/Staff-Analytics-Engineer---Product_R0065271",
+      "status": 200,
+      "final_url": "https://geico.wd1.myworkdayjobs.com/External/job/Palo-Alto-CA/Staff-Analytics-Engineer---Product_R0065271"
+    },
+    {
+      "company_id": "berkshire-hathaway",
+      "monitor_id": "berkshire-homestate",
+      "url": "https://nationalindemnity.wd5.myworkdayjobs.com/BHHC/job/Omaha-NE/Internal-Auditor_R14841",
+      "status": 200,
+      "final_url": "https://nationalindemnity.wd5.myworkdayjobs.com/BHHC/job/Omaha-NE/Internal-Auditor_R14841"
+    },
+    {
+      "company_id": "mckesson",
+      "monitor_id": "mckesson",
+      "url": "https://careers.mckesson.com/en/job/nashville/delivery-professional-bulk/733/97806126944",
+      "status": 200,
+      "final_url": "https://careers.mckesson.com/en/job/nashville/delivery-professional-bulk/733/97806126944"
+    },
+    {
+      "company_id": "exxonmobil",
+      "monitor_id": "exxonmobil",
+      "url": "https://jobs.exxonmobil.com/job/Curitiba-Digital-Transformation-Analyst-PR-80420-080/1416073600",
+      "status": 200,
+      "final_url": "https://jobs.exxonmobil.com/job/Curitiba-Digital-Transformation-Analyst-PR-80420-080/1416073600"
+    },
+    {
+      "company_id": "cencora",
+      "monitor_id": "cencora",
+      "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/Cincinnati-OH/R264650-Pharmacy-Technician-Navigator_R2614586",
+      "status": 200,
+      "final_url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/Cincinnati-OH/R264650-Pharmacy-Technician-Navigator_R2614586"
+    },
+    {
+      "company_id": "microsoft",
+      "monitor_id": "microsoft",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556983592",
+      "status": 200,
+      "final_url": "https://apply.careers.microsoft.com/careers/job/1970393556983592"
+    },
+    {
+      "company_id": "jpmorgan-chase",
+      "monitor_id": "jpmorgan-chase",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210753212",
+      "status": 200,
+      "final_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210753212"
+    },
+    {
+      "company_id": "costco",
+      "monitor_id": "costco",
+      "url": "https://careers.costco.com/jobs/67761?lang=en-us",
+      "status": 200,
+      "final_url": "https://careers.costco.com/jobs/67761?lang=en-us"
+    },
+    {
+      "company_id": "cigna",
+      "monitor_id": "cigna",
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/United-States-Work-at-Home/Senior-Manager--Enterprise-Knowledge-Management-Strategy---Enablement---Evernorth---Remote_26010704",
+      "status": 200,
+      "final_url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/United-States-Work-at-Home/Senior-Manager--Enterprise-Knowledge-Management-Strategy---Enablement---Evernorth---Remote_26010704"
+    },
+    {
+      "company_id": "cardinal-health",
+      "monitor_id": "cardinal-health",
+      "url": "https://cardinalhealth.wd1.myworkdayjobs.com/EXT/job/TN-Memphis/Inventory-Associate-II--Days-_20186824",
+      "status": 200,
+      "final_url": "https://cardinalhealth.wd1.myworkdayjobs.com/EXT/job/TN-Memphis/Inventory-Associate-II--Days-_20186824"
+    },
+    {
+      "company_id": "nvidia",
+      "monitor_id": "nvidia",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Software-Solutions-Engineer_JR2018442-1",
+      "status": 200,
+      "final_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Software-Solutions-Engineer_JR2018442-1"
+    },
+    {
+      "company_id": "meta",
+      "monitor_id": "meta",
+      "url": "https://metacareers.dejobs.org/bismarck-nd/security-engineer-investigator-genai/1B47229803EE40F79C4F751D4686D9C8/job",
+      "status": 200,
+      "final_url": "https://metacareers.dejobs.org/bismarck-nd/security-engineer-investigator-genai/1B47229803EE40F79C4F751D4686D9C8/job/"
+    },
+    {
+      "company_id": "elevance-health",
+      "monitor_id": "elevance-health",
+      "url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/CA-WALNUT-CREEK-2121-N-CALIFORNIA-BLVD-7TH-FL/Sales-RVP---National-Medical-Sales---California_JR200564",
+      "status": 200,
+      "final_url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/CA-WALNUT-CREEK-2121-N-CALIFORNIA-BLVD-7TH-FL/Sales-RVP---National-Medical-Sales---California_JR200564"
+    },
+    {
+      "company_id": "centene",
+      "monitor_id": "centene",
+      "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-TX/Senior-Actuarial-Analyst_1655968",
+      "status": 200,
+      "final_url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-TX/Senior-Actuarial-Analyst_1655968"
+    },
+    {
+      "company_id": "bank-of-america",
+      "monitor_id": "bank-of-america",
+      "url": "https://ghr.wd1.myworkdayjobs.com/Lateral-US/job/Los-Angeles/Business-Solutions-Advisor---Rancho-Park-Financial-Center_26032382-1",
+      "status": 200,
+      "final_url": "https://ghr.wd1.myworkdayjobs.com/Lateral-US/job/Los-Angeles/Business-Solutions-Advisor---Rancho-Park-Financial-Center_26032382-1"
+    },
+    {
+      "company_id": "chevron",
+      "monitor_id": "chevron",
+      "url": "https://careers.chevron.com/job/houston/tax-counsel-senior-tax-counsel/38138/92693836624",
+      "status": 200,
+      "final_url": "https://careers.chevron.com/job/houston/tax-counsel-senior-tax-counsel/38138/92693836624"
+    },
+    {
+      "company_id": "ford",
+      "monitor_id": "ford",
+      "url": "https://www.careers.ford.com/job/livonia/engineering-specialist-process/48560/99218259504",
+      "status": 200,
+      "final_url": "https://www.careers.ford.com/job/livonia/engineering-specialist-process/48560/99218259504"
+    },
+    {
+      "company_id": "general-motors",
+      "monitor_id": "general-motors",
+      "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Design-Release-Engineer---Engine-Cylinder-Heads-and-Head-Gaskets_JR-202616947",
+      "status": 200,
+      "final_url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Design-Release-Engineer---Engine-Cylinder-Heads-and-Head-Gaskets_JR-202616947"
+    },
+    {
+      "company_id": "citigroup",
+      "monitor_id": "citigroup",
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Vice-President--Trade-and-Working-Capital-Solutions--TWCS---Lead-Specialist_26991009",
+      "status": 200,
+      "final_url": "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Vice-President--Trade-and-Working-Capital-Solutions--TWCS---Lead-Specialist_26991009"
+    },
+    {
+      "company_id": "home-depot",
+      "monitor_id": "home-depot",
+      "url": "https://homedepot.wd5.myworkdayjobs.com/CareerDepot/job/DALLAS-HUB---5715/Rental-Delivery-Driver-II-CDLA---Dallas--TX_Req192371",
+      "status": 200,
+      "final_url": "https://homedepot.wd5.myworkdayjobs.com/CareerDepot/job/DALLAS-HUB---5715/Rental-Delivery-Driver-II-CDLA---Dallas--TX_Req192371"
+    },
+    {
+      "company_id": "fannie-mae",
+      "monitor_id": "fannie-mae",
+      "url": "https://fanniemae.wd1.myworkdayjobs.com/FannieMaeCareers/job/Reston-VA/Principal--Data--Analytics---AI-Architect_JR2809",
+      "status": 200,
+      "final_url": "https://fanniemae.wd1.myworkdayjobs.com/FannieMaeCareers/job/Reston-VA/Principal--Data--Analytics---AI-Architect_JR2809"
+    },
+    {
+      "company_id": "kroger",
+      "monitor_id": "kroger",
+      "url": "https://eluq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/211158",
+      "status": 200,
+      "final_url": "https://eluq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/211158"
+    },
+    {
+      "company_id": "verizon",
+      "monitor_id": "verizon",
+      "url": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Irving-Texas/Director-Operations-Support_R-1100532-2",
+      "status": 200,
+      "final_url": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Irving-Texas/Director-Operations-Support_R-1100532-2"
+    },
+    {
+      "company_id": "phillips-66",
+      "monitor_id": "phillips-66",
+      "url": "https://careers.phillips66.com/job/Houston-Advisor-III%2C-Commercial-Trading-Compliance-TX-77042/1413669700",
+      "status": 200,
+      "final_url": "https://careers.phillips66.com/job/Houston-Advisor-III%2C-Commercial-Trading-Compliance-TX-77042/1413669700"
+    },
+    {
+      "company_id": "marathon-petroleum",
+      "monitor_id": "marathon-petroleum",
+      "url": "https://mpc.wd1.myworkdayjobs.com/MPCCareers/job/Texas-City-Texas/Area-Team-I-E-Project-Engineer_00023791",
+      "status": 200,
+      "final_url": "https://mpc.wd1.myworkdayjobs.com/MPCCareers/job/Texas-City-Texas/Area-Team-I-E-Project-Engineer_00023791"
+    },
+    {
+      "company_id": "stonex",
+      "monitor_id": "stonex",
+      "url": "https://join.stonex.com/jobs/16515?lang=en-us",
+      "status": 200,
+      "final_url": "https://join.stonex.com/jobs/16515?lang=en-us"
+    },
+    {
+      "company_id": "state-farm",
+      "monitor_id": "state-farm",
+      "url": "https://jobs.statefarm.com/jobs/46114?lang=en-us",
+      "status": 200,
+      "final_url": "https://jobs.statefarm.com/main/jobs/46114?lang=en-us"
+    },
+    {
+      "company_id": "freddie-mac",
+      "monitor_id": "freddie-mac",
+      "url": "https://freddiemac.wd5.myworkdayjobs.com/External/job/McLean-VA/Software-Engineering-Manager_JR17575",
+      "status": 200,
+      "final_url": "https://freddiemac.wd5.myworkdayjobs.com/External/job/McLean-VA/Software-Engineering-Manager_JR17575"
+    },
+    {
+      "company_id": "humana",
+      "monitor_id": "humana",
+      "url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/State-College-PA/Medicare-Career-Sales-Field-Agent--Mid-West-PA_R-414278",
+      "status": 200,
+      "final_url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/State-College-PA/Medicare-Career-Sales-Field-Agent--Mid-West-PA_R-414278"
+    },
+    {
+      "company_id": "humana",
+      "monitor_id": "humana-centerwell",
+      "url": "https://humana.wd5.myworkdayjobs.com/CenterWell_External_Career_Site/job/Corpus-Christi-TX/Medical-Assistant-2_R-428910-1",
+      "status": 200,
+      "final_url": "https://humana.wd5.myworkdayjobs.com/CenterWell_External_Career_Site/job/Corpus-Christi-TX/Medical-Assistant-2_R-428910-1"
+    },
+    {
+      "company_id": "att",
+      "monitor_id": "att",
+      "url": "https://att.wd1.myworkdayjobs.com/ATTGeneral/job/USACASan-Diego--Copley-Dr---Adm5855-Copley-Dr/Bilingual-Spanish-Field-Sales-Representative_R-120573",
+      "status": 200,
+      "final_url": "https://att.wd1.myworkdayjobs.com/ATTGeneral/job/USACASan-Diego--Copley-Dr---Adm5855-Copley-Dr/Bilingual-Spanish-Field-Sales-Representative_R-120573"
+    },
+    {
+      "company_id": "goldman-sachs",
+      "monitor_id": "goldman-sachs",
+      "url": "https://higher.gs.com/roles/182581",
+      "status": 200,
+      "final_url": "https://higher.gs.com/roles/182581"
+    },
+    {
+      "company_id": "comcast",
+      "monitor_id": "comcast",
+      "url": "https://comcast.wd115.myworkdayjobs.com/Comcast_Careers/job/IL---Springfield-3405-Freedom-Dr---Retail-XFR1320/Xfinity-Retail-Sales-Consultant_R443946",
+      "status": 200,
+      "final_url": "https://comcast.wd115.myworkdayjobs.com/Comcast_Careers/job/IL---Springfield-3405-Freedom-Dr---Retail-XFR1320/Xfinity-Retail-Sales-Consultant_R443946"
+    },
+    {
+      "company_id": "wells-fargo",
+      "monitor_id": "wells-fargo",
+      "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Associate-Operations-Processor_R-562782",
+      "status": 200,
+      "final_url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Associate-Operations-Processor_R-562782"
+    },
+    {
+      "company_id": "morgan-stanley",
+      "monitor_id": "morgan-stanley",
+      "url": "https://morganstanley.tal.net/vx/candidate/so/pm/1/pl/1/opp/21248",
+      "status": 200,
+      "final_url": "https://morganstanley.tal.net/vx/candidate/so/pm/1/pl/1/opp/21248"
+    },
+    {
+      "company_id": "valero",
+      "monitor_id": "valero",
+      "url": "https://valero.taleo.net/careersection/2/jobdetail.ftl?job=26001B7&tz=GMT-05%3A00&tzname=America%2FChicago",
+      "status": 200,
+      "final_url": "https://valero.taleo.net/careersection/2/jobdetail.ftl?job=26001B7&tz=GMT-05%3A00&tzname=America%2FChicago"
+    },
+    {
+      "company_id": "dell",
+      "monitor_id": "dell",
+      "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/292006",
+      "status": 200,
+      "final_url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/292006"
+    },
+    {
+      "company_id": "target",
+      "monitor_id": "target",
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/Tower-02-Manyata-Embassy-Business-Park-Racenahali--Nagawara-Villages-Outer-Ring-Rd-Bangalore-540065/Sr-Engineer--Backend_R0000387032",
+      "status": 200,
+      "final_url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/Tower-02-Manyata-Embassy-Business-Park-Racenahali--Nagawara-Villages-Outer-Ring-Rd-Bangalore-540065/Sr-Engineer--Backend_R0000387032"
+    },
+    {
+      "company_id": "disney",
+      "monitor_id": "disney",
+      "url": "https://www.disneycareers.com/en/job/moore-park/senior-modeler/391/100108246096",
+      "status": 200,
+      "final_url": "https://www.disneycareers.com/en/job/moore-park/senior-modeler/391/100108246096"
+    },
+    {
+      "company_id": "johnson-johnson",
+      "monitor_id": "johnson-johnson",
+      "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Changsha-Hunan-China/Senior-Strategic-Key-Account-Manager_R-082715-1",
+      "status": 200,
+      "final_url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Changsha-Hunan-China/Senior-Strategic-Key-Account-Manager_R-082715-1"
+    },
+    {
+      "company_id": "pepsico",
+      "monitor_id": "pepsico",
+      "url": "https://www.pepsicojobs.com/jobs/465893?lang=en-us",
+      "status": 200,
+      "final_url": "https://www.pepsicojobs.com/main/jobs/465893?lang=en-us"
+    },
+    {
+      "company_id": "boeing",
+      "monitor_id": "boeing",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Portfolio-Mission-Senior-Manager---Millennium-Space-Systems_JR2026523712-1",
+      "status": 200,
+      "final_url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Portfolio-Mission-Senior-Manager---Millennium-Space-Systems_JR2026523712-1"
+    },
+    {
+      "company_id": "ups",
+      "monitor_id": "ups",
+      "url": "https://hcmportal.wd5.myworkdayjobs.com/Search/job/US---WORLDPORT-KYGRA/Air-District-Finance-Specialist---10E_R26030734-1",
+      "status": 200,
+      "final_url": "https://hcmportal.wd5.myworkdayjobs.com/Search/job/US---WORLDPORT-KYGRA/Air-District-Finance-Specialist---10E_R26030734-1"
+    },
+    {
+      "company_id": "rtx",
+      "monitor_id": "rtx",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/PH-BTG-TANAUAN-CITY-BQ4--First-Philippine-Industrial-Park--BLDG-Q4/Customer-Service-Representative--Mid-Shit-2-30PM-to-11-00PM-_01871945",
+      "status": 200,
+      "final_url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/PH-BTG-TANAUAN-CITY-BQ4--First-Philippine-Industrial-Park--BLDG-Q4/Customer-Service-Representative--Mid-Shit-2-30PM-to-11-00PM-_01871945"
+    },
+    {
+      "company_id": "fedex",
+      "monitor_id": "fedex",
+      "url": "https://careers.fedex.com/customer-financial-services-representative/job/FB9C1D9B48E7D595DE29551153A87BDB",
+      "status": 200,
+      "final_url": "https://careers.fedex.com/customer-financial-services-representative/job/FB9C1D9B48E7D595DE29551153A87BDB"
+    },
+    {
+      "company_id": "morgan-stanley",
+      "monitor_id": "morgan-stanley-experienced",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/San-Francisco-California-United-States-of-America/Registered-Client-Service-Associate_JR028143",
+      "status": 200,
+      "final_url": "https://ms.wd5.myworkdayjobs.com/External/job/San-Francisco-California-United-States-of-America/Registered-Client-Service-Associate_JR028143"
+    },
+    {
+      "company_id": "tesla",
+      "monitor_id": "tesla-automation",
+      "url": "https://teslaautomation.de/de/recruitment/search/job/senior-strategischer-einkufer-m-w-d-282206",
+      "status": 200,
+      "final_url": "https://teslaautomation.de/de/recruitment/search/job/senior-strategischer-einkufer-m-w-d-282206"
+    }
+  ],
+  "checks": {
+    "catalog_schema_and_build": "passed: 67 companies, 70 monitors, 3 unchanged collections",
+    "catalog_tests": "4 passed",
+    "jobhound_pytest": "passed",
+    "jobhound_web_build": "passed; existing bundle-size warning",
+    "fortune_10_collection_unchanged": true,
+    "public_mcp_tool_surface_changed": false
+  },
+  "collection_id": "fortune-50-2026"
+}

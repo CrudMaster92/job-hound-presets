@@ -1,0 +1,57 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "sega",
+  "company_id": "sega",
+  "revision": 1,
+  "label": "SEGA careers",
+  "careers_url": "https://careers.sega.co.uk/vacancies",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-04T11:55:40.555449+00:00",
+    "job_count": 29,
+    "warnings": [
+      "SEGA Europe aggregate includes Creative Assembly and Sports Interactive, avoiding duplicate subsidiary monitors. Other regional SEGA boards are outside this scope."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "SEGA",
+    "careers_url": "https://careers.sega.co.uk/vacancies",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "careers.sega.co.uk"
+    ],
+    "request": {
+      "url": "https://careers.sega.co.uk/vacancies",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "page",
+      "page_size_parameter": null,
+      "page_size": 1,
+      "max_pages": 100,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": ".job-summary",
+      "title": "h3 a",
+      "link": "h3 a",
+      "location": ".views-field-field-country .field-content",
+      "description": ".views-field-field-description-brief"
+    },
+    "mapping": {},
+    "metadata": {}
+  }
+}

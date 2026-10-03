@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "adm",
+  "name": "Archer Daniels Midland",
+  "aliases": [],
+  "website_url": "https://www.adm.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=adm.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 100",
+      "2026",
+      "United States"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "altria",
+  "company_id": "altria",
+  "revision": 1,
+  "label": "Altria Group Careers",
+  "careers_url": "https://careers.altria.com/search",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-12T12:51:35.916683+00:00",
+    "job_count": 10,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Altria Group",
+    "careers_url": "https://careers.altria.com/search",
+    "strategy": "playwright",
+    "allowed_hosts": [
+      "careers.altria.com",
+      "api41.sapsf.com",
+      "hcm41.sapsf.com"
+    ],
+    "request": {
+      "url": "https://careers.altria.com/search/",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "li[data-testid=\"jobCard\"]",
+      "title": "a.jobCardTitle",
+      "link": "a.jobCardTitle",
+      "location": "[data-testid=\"jobCardLocation\"]"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "wait_selector": "a.jobCardTitle"
+    }
+  }
+}

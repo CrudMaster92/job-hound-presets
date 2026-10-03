@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "burlington-stores",
+  "company_id": "burlington-stores",
+  "revision": 1,
+  "label": "Burlington Stores Careers",
+  "careers_url": "https://burlingtonstores.jobs/jobs/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-24T03:35:31.219601+00:00",
+    "job_count": 10,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Burlington Stores",
+    "careers_url": "https://burlingtonstores.jobs/jobs",
+    "strategy": "playwright",
+    "allowed_hosts": [
+      "burlingtonstores.jobs",
+      "prod-search-api.jobsyn.org",
+      "src.nlx.org",
+      "seo.nlx.org"
+    ],
+    "request": {
+      "url": "https://burlingtonstores.jobs/jobs/",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "li:has(div.job-listing > a[href$='/job/'])",
+      "title": "div.job-listing > a h2",
+      "link": "div.job-listing > a[href$='/job/']",
+      "location": "div.job-listing p"
+    },
+    "mapping": {},
+    "metadata": {
+      "wait_selector": "div.job-listing > a[href$='/job/']",
+      "partial_listing": true
+    }
+  }
+}

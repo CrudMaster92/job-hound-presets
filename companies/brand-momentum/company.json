@@ -1,0 +1,32 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "brand-momentum",
+  "name": "Brand Momentum",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://brandmomentum.ca/",
+  "logo_url": "https://brandmomentum.ca/wp-content/uploads/2023/04/cropped-FAVICON-192x192.png",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "experiential",
+      "shopper-retail-experiential",
+      "direct-marketing-sales",
+      "social-content-influencer",
+      "market-research-insights"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The Marketing Job Board collector has not yet been converted and validated as a JobHound monitor.",
+    "checked_at": "2026-09-30T00:53:28.032653Z"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "jetblue-airways",
+  "name": "JetBlue Airways",
+  "aliases": [],
+  "website_url": "https://www.jetblue.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=jetblue.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 500",
+      "2026",
+      "United States"
+    ]
+  }
+}

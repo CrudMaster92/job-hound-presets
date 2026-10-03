@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "deere",
+  "name": "Deere",
+  "aliases": [],
+  "website_url": "https://www.deere.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=deere.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 150",
+      "2026",
+      "United States"
+    ]
+  }
+}

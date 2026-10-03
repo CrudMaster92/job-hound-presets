@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "nike",
+  "name": "Nike",
+  "aliases": [],
+  "website_url": "https://www.nike.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nike.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 100",
+      "2026",
+      "United States"
+    ]
+  }
+}

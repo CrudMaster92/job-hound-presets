@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "norfolk-southern",
+  "name": "Norfolk Southern",
+  "aliases": [],
+  "website_url": "https://www.nscorp.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nscorp.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 375",
+      "2026",
+      "United States"
+    ]
+  }
+}

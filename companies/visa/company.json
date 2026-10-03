@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "visa",
+  "name": "Visa",
+  "aliases": [],
+  "website_url": "https://www.visa.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=visa.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 150",
+      "2026",
+      "United States"
+    ]
+  }
+}

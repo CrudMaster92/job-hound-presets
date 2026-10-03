@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "bungie",
+  "name": "Bungie",
+  "aliases": [],
+  "website_url": "https://www.bungie.net/",
+  "logo_url": "https://s4-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/401/057/700/original/Bungie_Logo_Transparent.png?1754940199",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

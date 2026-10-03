@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "bulkhead",
+  "name": "BULKHEAD",
+  "aliases": [],
+  "website_url": "https://bulkhead.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bulkhead.com&sz=128",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

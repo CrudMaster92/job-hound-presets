@@ -6,10 +6,19 @@
   "legal_name": "McKesson Corporation",
   "aliases": [],
   "website_url": "https://www.mckesson.com/",
-  "logo_url": null,
+  "logo_url": "https://www.mckesson.com/siteassets/images/z-mckesson-logosicons/mck_logo_blue.svg",
   "facets": {
-    "industries": ["healthcare"],
-    "specialties": ["pharmaceutical-distribution", "health-technology"],
-    "tags": ["Fortune 50", "Healthcare", "Global"]
+    "industries": [
+      "healthcare"
+    ],
+    "specialties": [
+      "pharmaceutical-distribution",
+      "health-technology"
+    ],
+    "tags": [
+      "Fortune 50",
+      "Healthcare",
+      "Global"
+    ]
   }
 }

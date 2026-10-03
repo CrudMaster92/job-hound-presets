@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "keycorp",
+  "name": "KeyCorp",
+  "aliases": [],
+  "website_url": "https://www.key.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=key.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 400",
+      "2026",
+      "United States"
+    ]
+  }
+}

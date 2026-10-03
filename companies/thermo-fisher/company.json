@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "thermo-fisher",
+  "name": "Thermo Fisher Scientific",
+  "aliases": [],
+  "website_url": "https://www.thermofisher.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=thermofisher.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 150",
+      "2026",
+      "United States"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "kraft-heinz",
+  "name": "Kraft Heinz",
+  "aliases": [],
+  "website_url": "https://www.kraftheinz.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=kraftheinz.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 200",
+      "2026",
+      "United States"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "netease",
+  "name": "NetEase Games",
+  "aliases": [],
+  "website_url": "https://neteasegames.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=neteasegames.com&sz=128",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

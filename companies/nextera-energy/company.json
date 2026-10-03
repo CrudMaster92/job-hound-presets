@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "nextera-energy",
+  "name": "NextEra Energy",
+  "aliases": [],
+  "website_url": "https://www.nexteraenergy.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=nexteraenergy.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 200",
+      "2026",
+      "United States"
+    ]
+  }
+}

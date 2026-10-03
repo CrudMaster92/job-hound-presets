@@ -1,0 +1,58 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "phillips-66",
+  "company_id": "phillips-66",
+  "revision": 1,
+  "label": "Phillips 66 Careers",
+  "careers_url": "https://careers.phillips66.com/search?q=&sortColumn=referencedate&sortDirection=desc",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-04T05:35:54.380664+00:00",
+    "job_count": 15,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Phillips 66",
+    "careers_url": "https://careers.phillips66.com/search?q=&sortColumn=referencedate&sortDirection=desc",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "careers.phillips66.com"
+    ],
+    "request": {
+      "url": "https://careers.phillips66.com/search?q=&sortColumn=referencedate&sortDirection=desc",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "startrow",
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "tr.data-row",
+      "title": "a.jobTitle-link",
+      "link": "a.jobTitle-link",
+      "location": ".jobLocation"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true
+    }
+  }
+}

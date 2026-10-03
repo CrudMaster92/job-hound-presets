@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "duke-energy",
+  "name": "Duke Energy",
+  "aliases": [],
+  "website_url": "https://www.duke-energy.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=duke-energy.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 150",
+      "2026",
+      "United States"
+    ]
+  }
+}

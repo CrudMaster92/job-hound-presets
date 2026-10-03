@@ -12,10 +12,11 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-08-31T17:06:00Z",
-    "job_count": 273,
+    "checked_at": "2026-09-04T05:54:38.259047+00:00",
+    "job_count": 291,
     "warnings": [
-      "This monitor covers GEICO, a Berkshire Hathaway subsidiary, not every decentralized Berkshire business."
+      "description detail enrichment skipped 266 jobs after the configured 25-posting limit",
+      "No centralized parent-company board. Separate GEICO and Berkshire Hathaway Homestate Companies boards only."
     ]
   },
   "recipe": {
@@ -23,7 +24,9 @@
     "company": "Berkshire Hathaway — GEICO",
     "careers_url": "https://geico.wd1.myworkdayjobs.com/en-US/External",
     "strategy": "workday",
-    "allowed_hosts": ["geico.wd1.myworkdayjobs.com"],
+    "allowed_hosts": [
+      "geico.wd1.myworkdayjobs.com"
+    ],
     "request": {
       "url": "https://geico.wd1.myworkdayjobs.com/wday/cxs/geico/External/jobs",
       "method": "POST",

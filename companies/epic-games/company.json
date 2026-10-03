@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "epic-games",
+  "name": "Epic Games",
+  "aliases": [],
+  "website_url": "https://www.epicgames.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=epicgames.com&sz=128",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

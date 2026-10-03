@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cygames",
+  "name": "Cygames",
+  "aliases": [],
+  "website_url": "https://cygames.co.jp/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cygames.co.jp&sz=128",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

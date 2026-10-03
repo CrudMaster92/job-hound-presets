@@ -1,0 +1,68 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "niq-canada",
+  "company_id": "niq-canada",
+  "revision": 1,
+  "label": "NIQ Canada jobs",
+  "careers_url": "https://careers.smartrecruiters.com/NielsenIQ",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": "2026-09-30T00:58:28.658835Z",
+    "job_count": 0,
+    "warnings": [
+      "JobHound live run returned zero jobs on 2026-09-29; no current opening was confirmed."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "NIQ Canada",
+    "careers_url": "https://careers.smartrecruiters.com/NielsenIQ",
+    "strategy": "smartrecruiters",
+    "allowed_hosts": [
+      "api.smartrecruiters.com",
+      "careers.smartrecruiters.com"
+    ],
+    "request": {
+      "url": "https://api.smartrecruiters.com/v1/companies/NielsenIQ/postings",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "limit": 100,
+        "offset": 0
+      },
+      "json_body": null,
+      "timeout_seconds": 15,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "detail_fetch_limit": 250
+    },
+    "source_filter": {
+      "predicates": [
+        {
+          "phase": "listing",
+          "path": "location.countryCode",
+          "operator": "equals_ci",
+          "values": [
+            "CA"
+          ]
+        }
+      ]
+    }
+  }
+}

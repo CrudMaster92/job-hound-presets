@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "randstad-canada-internal",
+  "company_id": "randstad-canada",
+  "revision": 1,
+  "label": "Randstad Canada in-house careers",
+  "careers_url": "https://www.randstad.ca/jobs/our-current-vacancies/",
+  "compatibility": {"min_jobhound_version": "0.1.0", "recipe_schema_version": 1},
+  "verification": {"status": "verified", "checked_at": "2026-09-05T05:22:01Z", "job_count": 9, "warnings": ["The public vacancy page is bounded to its visible result set."]},
+  "recipe": {
+    "version": 1,
+    "company": "Randstad Canada",
+    "careers_url": "https://www.randstad.ca/jobs/our-current-vacancies/",
+    "strategy": "generic_html",
+    "allowed_hosts": ["www.randstad.ca"],
+    "request": {"url": "https://www.randstad.ca/jobs/our-current-vacancies/", "method": "GET", "headers": {}, "params": {}, "json_body": null, "timeout_seconds": 20, "max_response_bytes": 5000000},
+    "pagination": {"kind": "none", "parameter": null, "page_size_parameter": null, "page_size": 20, "max_pages": 1, "next_path": null},
+    "selectors": {"item": "li.cards__item[data-rs-card='true']", "title": "a.cards__link", "link": "a.cards__link", "location": "ul.cards__meta li:first-child", "description": ".cards__description", "employment_type": "ul.cards__meta li:nth-child(2)", "posted_date": ".cards__date"},
+    "mapping": {},
+    "metadata": {"partial_listing": true}
+  }
+}

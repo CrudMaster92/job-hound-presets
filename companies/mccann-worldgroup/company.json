@@ -1,0 +1,19 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "mccann-worldgroup",
+  "name": "McCann Worldgroup",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.mccannworldgroup.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [],
+    "tags": [
+      "Marketing group"
+    ]
+  }
+}

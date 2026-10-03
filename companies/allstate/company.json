@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "allstate",
+  "name": "Allstate",
+  "aliases": [],
+  "website_url": "https://www.allstate.com/",
+  "logo_url": "https://www.allstatecorporation.com/resources/Allstate/images/allstatecorporation/allstateblue_logo.png?v=19cb2ca3-a344-bf65-dc38-10f70301ed56",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 100",
+      "2026",
+      "United States"
+    ]
+  }
+}

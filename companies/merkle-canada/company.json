@@ -1,0 +1,27 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "merkle-canada",
+  "name": "Merkle Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.merkle.com/en/",
+  "logo_url": "https://assets.merkle.com/is/content/merkle/merkle-full-logo-dt?dpr=off",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "martech-data-analytics",
+      "crm-loyalty-lifecycle",
+      "web-ux-digital-experience",
+      "market-research-insights"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "dentsu"
+    ]
+  },
+  "parent_company_id": "dentsu"
+}

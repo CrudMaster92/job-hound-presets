@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "uber",
+  "company_id": "uber",
+  "revision": 1,
+  "label": "Uber Technologies Careers",
+  "careers_url": "https://jobs.uber.com/en/jobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-04T18:23:47.045084+00:00",
+    "job_count": 10,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Uber Technologies",
+    "careers_url": "https://jobs.uber.com/en/jobs",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "jobs.uber.com"
+    ],
+    "request": {
+      "url": "https://jobs.uber.com/en/jobs/?page=1",
+      "method": "GET",
+      "headers": {
+        "User-Agent": "Mozilla/5.0"
+      },
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 30.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "[data-slot='card'][data-id]",
+      "title": "a.js-view-job",
+      "link": "a.js-view-job",
+      "location": "[data-slot='card-description'] .flex.flex-wrap > div:first-child > div",
+      "employment_type": "[data-slot='card-description'] .flex.flex-wrap > div:nth-child(2)"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true
+    }
+  }
+}

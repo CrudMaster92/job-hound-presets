@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "hoyoverse",
+  "name": "HoYoverse",
+  "aliases": [],
+  "website_url": "https://hoyoverse.com/",
+  "logo_url": "https://www.hoyoverse.com/favicon-256.ico",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

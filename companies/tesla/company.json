@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "tesla",
+  "name": "Tesla",
+  "aliases": [],
+  "website_url": "https://www.tesla.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=tesla.com&sz=128",
+  "facets": {
+    "industries": [
+      "automotive"
+    ],
+    "specialties": [],
+    "tags": [
+      "Fortune 50",
+      "2026",
+      "United States"
+    ]
+  }
+}

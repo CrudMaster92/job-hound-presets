@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "offworld",
+  "name": "Offworld Industries",
+  "aliases": [],
+  "website_url": "https://offworldindustries.com/",
+  "logo_url": "https://cdn.prod.website-files.com/651b12e762a9295dd41c691b/65947fbf28f21a3b838c2577_OWG_LOGO_PRIMARY_RGB_NEG_blue.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

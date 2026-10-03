@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "global-partners",
+  "name": "Global Partners",
+  "aliases": [],
+  "website_url": "https://www.globalp.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=globalp.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 250",
+      "2026",
+      "United States"
+    ]
+  }
+}

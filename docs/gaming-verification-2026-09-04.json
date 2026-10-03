@@ -1,0 +1,1253 @@
+{
+  "checked_at": "2026-09-04T12:14:17.204852+00:00",
+  "published": false,
+  "installed_monitors": false,
+  "company_count": 34,
+  "monitor_count": 40,
+  "listing_count": 2568,
+  "logo_count": 34,
+  "logo_browser_images_loaded": 68,
+  "companies": [
+    {
+      "id": "2k",
+      "name": "2K",
+      "logo": {
+        "url": "https://assets.2k.com/1a6ngf98576c/2zjPZpinUk7HU9ppHrQaWd/e51ed9ba96d3eab501f5d751248ad72f/2K_Web_App_config_Nav_Logo_30x30.svg",
+        "final_url": "https://assets.2k.com/1a6ngf98576c/2zjPZpinUk7HU9ppHrQaWd/e51ed9ba96d3eab501f5d751248ad72f/2K_Web_App_config_Nav_Logo_30x30.svg",
+        "mime": "image/svg+xml",
+        "size": null,
+        "file": "2k-0.svg",
+        "sha256": "07d18ae91a96f9b9f5d113a3a5fecdc76762beb99447c2e81b527e6954f8e986"
+      },
+      "coverage_note": "Public company board. Completeness refers to this source, not every subsidiary or regional hiring system.",
+      "monitors": [
+        {
+          "id": "2k",
+          "revision": 1,
+          "strategy": "generic_json",
+          "count": 117,
+          "pages": 1,
+          "complete": true,
+          "warnings": [],
+          "recipe_sha256": "5ed80f56a1c5b15d4f2c9ae71e22fbc9b21682f4413aa1828eeece4296abaad6",
+          "sample_urls": [
+            "https://job-boards.greenhouse.io/2k/jobs/7964926003",
+            "https://job-boards.greenhouse.io/2k/jobs/7985627003",
+            "https://job-boards.greenhouse.io/2k/jobs/7980001003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "activision",
+      "name": "Activision",
+      "logo": {
+        "url": "https://cdn.phenompeople.com/CareerConnectResources/prod/ACPUUS/en_us/desktop/assets/images/favicon.ico?v=1753985994190",
+        "final_url": "https://cdn.phenompeople.com/CareerConnectResources/prod/ACPUUS/en_us/desktop/assets/images/favicon.ico?v=1753985994190",
+        "mime": "image/vnd.microsoft.icon",
+        "size": [
+          48,
+          48
+        ],
+        "file": "activision-3.png",
+        "sha256": "deb11ae5058b6ce3d07df536efc07be2d657b727d8ee5246402db53beb174479"
+      },
+      "coverage_note": "Company-specific Workday board with detail enrichment up to 250 listings for descriptions and canonical role URLs. Recheck if board size exceeds that bound or detail enrichment fails.",
+      "monitors": [
+        {
+          "id": "activision",
+          "revision": 1,
+          "strategy": "workday",
+          "count": 83,
+          "pages": 88,
+          "complete": true,
+          "warnings": [
+            "Company-specific Workday board with detail enrichment up to 250 listings for descriptions and canonical role URLs. Recheck if board size exceeds that bound or detail enrichment fails."
+          ],
+          "recipe_sha256": "fe897ea19d63ff1ac538b98827ffc2784a854c3a59e47d0ba55a9602d02980f1",
+          "sample_urls": [
+            "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Middleton/Senior-Expert-Gameplay-Engineer---Raven-Software---Middleton--WI_R028063",
+            "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Santa-Monica/Social-Media-Manager_R028013",
+            "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Santa-Monica/Associate-Site-Reliability-Engineer_R027696"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bandai-namco",
+      "name": "Bandai Namco",
+      "logo": {
+        "url": "https://us-east-1-bandai.graphassets.com/AXzioIclSWilEjFtsMJPwz/VmVFnUTTaa4EMoQjHBj8",
+        "final_url": "https://us-east-1-bandai.graphassets.com/AXzioIclSWilEjFtsMJPwz/VmVFnUTTaa4EMoQjHBj8",
+        "mime": "image/svg+xml",
+        "size": null,
+        "file": "bandai-namco-0.svg",
+        "sha256": "87a7b6a90b6ecde76b49c92046db086520b954e6614c157223bf87377438bd8a"
+      },
+      "coverage_note": "Bandai Namco Entertainment America board; not the complete global group.",
+      "monitors": [
+        {
+          "id": "bandai-namco",
+          "revision": 1,
+          "strategy": "generic_json",
+          "count": 4,
+          "pages": 1,
+          "complete": true,
+          "warnings": [
+            "Bandai Namco Entertainment America board; not the complete global group."
+          ],
+          "recipe_sha256": "f615effb3b4f942cd0538372450f129be63e08f230581001965c13d05c062e81",
+          "sample_urls": [
+            "https://www.bandainamcoent.com/careers/8581169002?gh_jid=8581169002",
+            "https://www.bandainamcoent.com/careers/8463119002?gh_jid=8463119002",
+            "https://www.bandainamcoent.com/careers/8612175002?gh_jid=8612175002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "behaviour-interactive",
+      "name": "Behaviour Interactive",
+      "logo": {
+        "url": "https://www.bhvr.com/wp-content/uploads/2019/09/cropped-favicon_behaviour_512x512-1-192x192.png",
+        "final_url": "https://www.bhvr.com/wp-content/uploads/2019/09/cropped-favicon_behaviour_512x512-1-192x192.png",
+        "mime": "image/png",
+        "size": [
+          192,
+          192
+        ],
+        "file": "behaviour-interactive-4.png",
+        "sha256": "77cdadf44e0a87b50e17333a51a6a38c11afd1f824bef8696791eaa92cf358af"
+      },
+      "coverage_note": "Public company board. Completeness refers to this source, not every subsidiary or regional hiring system.",
+      "monitors": [
+        {
+          "id": "behaviour-interactive",
+          "revision": 1,
+          "strategy": "playwright",
+          "count": 36,
+          "pages": 4,
+          "complete": true,
+          "warnings": [],
+          "recipe_sha256": "f46016cf9b132e4803963d1a0ab6e3f4b1610467a37712ea865809b3c83900bf",
+          "sample_urls": [
+            "https://www.bhvr.com/poste/art-director-2",
+            "https://www.bhvr.com/poste/senior-facilities-maintenance-technician",
+            "https://www.bhvr.com/poste/ux-director-7-days-to-die"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blizzard-entertainment",
+      "name": "Blizzard Entertainment",
+      "logo": {
+        "url": "https://cdn.phenompeople.com/CareerConnectResources/BLENGLOBAL/images/Blizz_Corp_RGB_DarkBkgd2-1683126315421.png",
+        "final_url": "https://cdn.phenompeople.com/CareerConnectResources/BLENGLOBAL/images/Blizz_Corp_RGB_DarkBkgd2-1683126315421.png",
+        "mime": "image/png",
+        "size": [
+          1550,
+          908
+        ],
+        "file": "blizzard-entertainment-0.png",
+        "sha256": "0f3c5b93781134bb8185df23ce6d2c11141058a87585175a4393100b35a01a33"
+      },
+      "coverage_note": "Company-specific Workday board with detail enrichment up to 250 listings for descriptions and canonical role URLs. Recheck if board size exceeds that bound or detail enrichment fails.",
+      "monitors": [
+        {
+          "id": "blizzard-entertainment",
+          "revision": 1,
+          "strategy": "workday",
+          "count": 36,
+          "pages": 38,
+          "complete": true,
+          "warnings": [
+            "Company-specific Workday board with detail enrichment up to 250 listings for descriptions and canonical role URLs. Recheck if board size exceeds that bound or detail enrichment fails."
+          ],
+          "recipe_sha256": "8fd8dcc5a1ccdd9023ed9e15591df223ac9939f4bc8a29e71e09c54aa233eb4c",
+          "sample_urls": [
+            "https://xboxgaming.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Irvine---Blizzard---Blizzard-Way/Associate-Game-Designer--Encounters---World-of-Warcraft_R028085",
+            "https://xboxgaming.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Irvine---Blizzard---Blizzard-Way/Lead-Software-Engineer--Engine-Systems_R027633",
+            "https://xboxgaming.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Shanghai---Blizzard---Room-501/Senior-Manager--Warcraft-Product-Management_R027305"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bungie",
+      "name": "Bungie",
+      "logo": {
+        "url": "https://s4-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/401/057/700/original/Bungie_Logo_Transparent.png?1754940199",
+        "final_url": "https://s4-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/401/057/700/original/Bungie_Logo_Transparent.png?1754940199",
+        "mime": "image/png",
+        "size": [
+          650,
+          227
+        ],
+        "file": "bungie-4.png",
+        "sha256": "2869ee2f7a0a3b436001db2a801085349e97a16692467cf64771c9832250ae85"
+      },
+      "coverage_note": "Public company board. Completeness refers to this source, not every subsidiary or regional hiring system.",
+      "monitors": [
+        {
+          "id": "bungie",
+          "revision": 1,
+          "strategy": "greenhouse",
+          "count": 2,
+          "pages": 1,
+          "complete": true,
+          "warnings": [],
+          "recipe_sha256": "3a27bce942d34bff91ed9850dacedd8aac85588b4e2de22e3a4d3b6a9d1f68a5",
+          "sample_urls": [
+            "https://job-boards.greenhouse.io/bungie/jobs/5921280004",
+            "https://job-boards.greenhouse.io/bungie/jobs/6139094004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capcom",
+      "name": "Capcom",
+      "logo": {
+        "url": "https://www.capcom.com/favicon64.png",
+        "final_url": "https://www.capcom.com/favicon64.png",
+        "mime": "image/png",
+        "size": [
+          64,
+          64
+        ],
+        "file": "capcom-1.png",
+        "sha256": "6814873920c9a9e22b54051c96068134a1f4cce8ed371251c13b0d80775cbb19"
+      },
+      "coverage_note": "Capcom USA public vacancies; not the complete global group.",
+      "monitors": [
+        {
+          "id": "capcom",
+          "revision": 1,
+          "strategy": "jobvite",
+          "count": 2,
+          "pages": 1,
+          "complete": true,
+          "warnings": [
+            "Capcom USA public vacancies; not the complete global group."
+          ],
+          "recipe_sha256": "cf658a97d8f7fbc8b1e5a2b7a461b8cce54d89ab13a8397cd67fdc3163278057",
+          "sample_urls": [
+            "https://jobs.jobvite.com/capcomusa/job/opZCAfwk",
+            "https://jobs.jobvite.com/capcomusa/job/oCCzAfw7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cd-projekt-red",
+      "name": "CD PROJEKT RED",
+      "logo": {
+        "url": "https://www.cdprojektred.com/favicons/apple-touch-icon-57x57.png",
+        "final_url": "https://www.cdprojektred.com/favicons/apple-touch-icon-57x57.png",
+        "mime": "image/png",
+        "size": [
+          57,
+          57
+        ],
+        "file": "cd-projekt-red-1.png",
+        "sha256": "233c7c7861888f32773846b42f79afa14cec37e169912daf6981fe3f8fe2bd56"
+      },
+      "coverage_note": "Complete compact public listing with direct human job links. The compact feed omits descriptions; description keyword matching is unavailable for these records.",
+      "monitors": [
+        {
+          "id": "cd-projekt-red",
+          "revision": 1,
+          "strategy": "generic_json",
+          "count": 43,
+          "pages": 1,
+          "complete": true,
+          "warnings": [
+            "Complete compact public listing with direct human job links. The compact feed omits descriptions; description keyword matching is unavailable for these records."
+          ],
+          "recipe_sha256": "6d5b31bd073de241da0f7e29abfceb60fad8abdcdaae2d2a5ed5726b9b654149",
+          "sample_urls": [
+            "https://jobs.smartrecruiters.com/CDPROJEKTRED/744000147227759",
+            "https://jobs.smartrecruiters.com/CDPROJEKTRED/744000144753664",
+            "https://jobs.smartrecruiters.com/CDPROJEKTRED/743999985526203"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-extremes",
+      "name": "Digital Extremes",
+      "logo": {
+        "url": "https://www-static.digitalextremes.com/images/header/DELogo-WhiteOnBlueRGB.png",
+        "final_url": "https://www-static.digitalextremes.com/images/header/DELogo-WhiteOnBlueRGB.png",
+        "mime": "image/png",
+        "size": [
+          356,
+          575
+        ],
+        "file": "digital-extremes-0.png",
+        "sha256": "03ba14e3e52d3c4c4ea06e2623e186d604f6ecc176a67f7ae2b28fa8a9a1ba1d"
+      },
+      "coverage_note": "Public company board. Completeness refers to this source, not every subsidiary or regional hiring system.",
+      "monitors": [
+        {
+          "id": "digital-extremes",
+          "revision": 1,
+          "strategy": "generic_html",
+          "count": 4,
+          "pages": 1,
+          "complete": true,
+          "warnings": [],
+          "recipe_sha256": "0d914e9fd3a789ab6c3a6208c1688944ff3fc38c10927a89a910268dd64501f6",
+          "sample_urls": [
+            "https://www.digitalextremes.com/careers/position/5190928007",
+            "https://www.digitalextremes.com/careers/position/5210646007",
+            "https://www.digitalextremes.com/careers/position/5169126007"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eidos-montreal",
+      "name": "Eidos-Montréal",
+      "logo": {
+        "url": "https://www.eidosmontreal.com/wp-content/themes/eidos/resources/assets/images/favicon/apple-touch-icon.png",
+        "final_url": "https://www.eidosmontreal.com/wp-content/themes/eidos/resources/assets/images/favicon/apple-touch-icon.png",
+        "mime": "image/png",
+        "size": [
+          180,
+          180
+        ],
+        "file": "eidos-montreal-3.png",
+        "sha256": "bef7fc3eed7d1112547ca59a463ff7bd6528ac18bf7188d44fe74f22a3f9bfd8"
+      },
+      "coverage_note": "Public company board. Completeness refers to this source, not every subsidiary or regional hiring system.",
+      "monitors": [
+        {
+          "id": "eidos-montreal",
+          "revision": 1,
+          "strategy": "generic_html",
+          "count": 4,
+          "pages": 1,
+          "complete": true,
+          "warnings": [],
+          "recipe_sha256": "b3b963747df6983931e3b44b5b83c0c39e3c6e3fc552a942e79015fe647921ed",
+          "sample_urls": [
+            "https://jobs.dayforcehcm.com/en-CA/eic/CANDIDATEPORTAL/jobs/2241",
+            "https://jobs.dayforcehcm.com/en-CA/eic/CANDIDATEPORTAL/jobs/2255",
+            "https://jobs.dayforcehcm.com/en-CA/eic/CANDIDATEPORTAL/jobs/2216"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electronic-arts",
+      "name": "Electronic Arts",
+      "logo": {
+        "url": "https://jobs.ea.com/portal/4/images/logo--ea.webp",
+        "final_url": "https://jobs.ea.com/portal/4/images/logo--ea.webp",
+        "mime": "image/webp",
+        "size": [
+          704,
+          127
+        ],
+        "file": "electronic-arts-0.png",
+        "sha256": "e4ecd5fcd8411c172f9e0aeeb4d7208153bd67cdb399d1597569cc7421ab0884"
+      },
+      "coverage_note": "Public company board. Completeness refers to this source, not every subsidiary or regional hiring system.",
+      "monitors": [
+        {
+          "id": "electronic-arts",
+          "revision": 1,
+          "strategy": "generic_html",
+          "count": 334,
+          "pages": 17,
+          "complete": true,
+          "warnings": [],
+          "recipe_sha256": "40de0e90360d9c93f3fc896bb7dc228c09156840bd5124bc66fe9883a2ddd201",
+          "sample_urls": [
+            "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-C-EA-SPORTS-FC/216031",
+            "https://jobs.ea.com/en_US/careers/JobDetail/Experience-Designer-FC/213579",
+            "https://jobs.ea.com/en_US/careers/JobDetail/Visual-Designer-EA-SPORTS-UFC/215826"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "epic-games",
+      "name": "Epic Games",
+      "logo": {
+        "url": "https://www.google.com/s2/favicons?domain=epicgames.com&sz=128",
+        "final_url": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://epicgames.com&size=128",
+        "mime": "image/png",
+        "size": [
+          48,
+          48
+        ],
+        "file": "epic-games-0.png",
+        "sha256": "8d0eff1ea31e1e8434fe944db5bbd621e025040d7410e9bd11bd5989a3f71142"
+      },
+      "coverage_note": "Public Greenhouse feed is live and verified; the official job-detail host returns HTTP 403 to automated requests, so automated detail-page availability is not certified.",
+      "monitors": [
+        {
+          "id": "epic-games",
+          "revision": 1,
+          "strategy": "greenhouse",
+          "count": 162,
+          "pages": 1,
+          "complete": true,
+          "warnings": [
+            "Public Greenhouse feed is live and verified; the official job-detail host returns HTTP 403 to automated requests, so automated detail-page availability is not certified."
+          ],
+          "recipe_sha256": "cc48c28bbfe11d78d5bcdea86e08a9c050de96760955d08e994352539990f993",
+          "sample_urls": [
+            "https://epicgames.com/careers/jobs/6123842004?gh_jid=6123842004",
+            "https://epicgames.com/careers/jobs/6122983004?gh_jid=6122983004",
+            "https://epicgames.com/careers/jobs/6085856004?gh_jid=6085856004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frontier-developments",
+      "name": "Frontier Developments",
+      "logo": {
+        "url": "https://www.frontier.co.uk/_nuxt/logo-frontier--full.Dvkx9QaO.png",
+        "final_url": "https://www.frontier.co.uk/_nuxt/logo-frontier--full.Dvkx9QaO.png",
+        "mime": "image/png",
+        "size": [
+          266,
+          120
+        ],
+        "file": "frontier-developments-0.png",
+        "sha256": "7a6855a090cab69bc7aa044975922ed0d36238a6b6d0aa3fb5d7edd0d35d4a12"
+      },
+      "coverage_note": "Public company board. Completeness refers to this source, not every subsidiary or regional hiring system.",
+      "monitors": [
+        {
+          "id": "frontier-developments",
+          "revision": 1,
+          "strategy": "lever",
+          "count": 14,
+          "pages": 1,
+          "complete": true,
+          "warnings": [],
+          "recipe_sha256": "d934bdb6afc7f61006022e327f61cd6da5dfa6cb1be34c2f4c30ef28adf770e0",
+          "sample_urls": [
+            "https://jobs.eu.lever.co/frontier/cd66d459-7633-4b39-968e-a2db6313664b",
+            "https://jobs.eu.lever.co/frontier/63e86556-fd86-4a9b-b7f1-bf31d9bd4651",
+            "https://jobs.eu.lever.co/frontier/e69f5e7f-67b6-4c33-a203-d6c6c190be9e"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gameloft",
+      "name": "Gameloft",
+      "logo": {
+        "url": "https://media01.gameloft.com/web_mkt/favicon/apple-icon-114x114.png",
+        "final_url": "https://media01.gameloft.com/web_mkt/favicon/apple-icon-114x114.png",
+        "mime": "image/png",
+        "size": [
+          114,
+          114
+        ],
+        "file": "gameloft-5.png",
+        "sha256": "ffcc3e792e7f669219a306f0b20709ca1f7f034a14e958684b9db242db3e642b"
+      },
+      "coverage_note": "Complete compact public listing with direct human job links. The compact feed omits descriptions; description keyword matching is unavailable for these records.",
+      "monitors": [
+        {
+          "id": "gameloft",
+          "revision": 1,
+          "strategy": "generic_json",
+          "count": 43,
+          "pages": 1,
+          "complete": true,
+          "warnings": [
+            "Complete compact public listing with direct human job links. The compact feed omits descriptions; description keyword matching is unavailable for these records."
+          ],
+          "recipe_sha256": "1b4db1d9d9615f71e5086251c67b9ad860e7e48d09466d622b3f5ab7de9a68d8",
+          "sample_urls": [
+            "https://jobs.smartrecruiters.com/Gameloft/744000147489419",
+            "https://jobs.smartrecruiters.com/Gameloft/744000140860009",
+            "https://jobs.smartrecruiters.com/Gameloft/744000115751358"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "io-interactive",
+      "name": "IO Interactive",
+      "logo": {
+        "url": "https://ioi.dk/favicon.ico",
+        "final_url": "https://ioi.dk/favicon.ico",
+        "mime": "image/x-icon",
+        "size": [
+          48,
+          48
+        ],
+        "file": "io-interactive-0.png",
+        "sha256": "1310a5aab7243698964b214e9a183311908d5b4f5187de9acc85bdebf523738c"
+      },
+      "coverage_note": "Official Teamtailor JSON Feed. For jobs with several offices, the primary listed city is normalized; the description retains other locations.",
+      "monitors": [
+        {
+          "id": "io-interactive",
+          "revision": 1,
+          "strategy": "generic_json",
+          "count": 1,
+          "pages": 1,
+          "complete": true,
+          "warnings": [
+            "Official Teamtailor JSON Feed. For jobs with several offices, the primary listed city is normalized; the description retains other locations."
+          ],
+          "recipe_sha256": "f59dca95b43d1c84b0ff4c6fc1d1bd5a549a5e2268523db4364dff519ecbbe88",
+          "sample_urls": [
+            "https://apply.ioi.dk/jobs/7656090-systems-specialist-student-assistant"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "king",
+      "name": "King",
+      "logo": {
+        "url": "https://cdn.phenompeople.com/CareerConnectResources/ACMKDSUS/images/Kinglogo-1679923120876-1686718393202.png",
+        "final_url": "https://cdn.phenompeople.com/CareerConnectResources/ACMKDSUS/images/Kinglogo-1679923120876-1686718393202.png",
+        "mime": "image/png",
+        "size": [
+          382,
+          226
+        ],
+        "file": "king-0.png",
+        "sha256": "19a39985841d1e35274a7345b7581762ad0560cb6840be7acc2718d88f25d6b2"
+      },
+      "coverage_note": "Company-specific Workday board with detail enrichment up to 250 listings for descriptions and canonical role URLs. Recheck if board size exceeds that bound or detail enrichment fails.",
+      "monitors": [
+        {
+          "id": "king",
+          "revision": 1,
+          "strategy": "workday",
+          "count": 16,
+          "pages": 17,
+          "complete": true,
+          "warnings": [
+            "Company-specific Workday board with detail enrichment up to 250 listings for descriptions and canonical role URLs. Recheck if board size exceeds that bound or detail enrichment fails."
+          ],
+          "recipe_sha256": "65237d7c5bf06f643aff6bf77b7e31aaf42e847d964cced6ea4a394e97079dc3",
+          "sample_urls": [
+            "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/Barcelona---King---PG/Senior-Producer---Minecraft-Blast--New-Games_R027929",
+            "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/Barcelona---King---PG/Data-Scientist---Catalog-Games_R028006",
+            "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/Barcelona---King---PG/Principal-Unity-Developer_R027669"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "larian-studios",
+      "name": "Larian Studios",
+      "logo": {
+        "url": "https://larian.com/images/png/logo-large.png",
+        "final_url": "https://larian.com/images/png/logo-large.png",
+        "mime": "image/png",
+        "size": [
+          419,
+          583
+        ],
+        "file": "larian-studios-0.png",
+        "sha256": "776fe1988b57bb02a59d78044c9078e12174f60b3f89b37a9bb7d1acb9d6b4f8"
+      },
+      "coverage_note": "Public company board. Completeness refers to this source, not every subsidiary or regional hiring system.",
+      "monitors": [
+        {
+          "id": "larian-studios",
+          "revision": 1,
+          "strategy": "lever",
+          "count": 69,
+          "pages": 1,
+          "complete": true,
+          "warnings": [],
+          "recipe_sha256": "5fbf0734c8bbaadb5a2f84b99780287b9fa7fad1460cbd520c6e8d3856b53b87",
+          "sample_urls": [
+            "https://jobs.lever.co/larian/8ea397ca-d54a-4957-b23c-6b9274a74509",
+            "https://jobs.lever.co/larian/9c06bb8d-cc20-4b22-87a2-0e959d70a294",
+            "https://jobs.lever.co/larian/09bd74d9-6abc-44cf-af96-7236b7fc64ee"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nintendo",
+      "name": "Nintendo",
+      "logo": {
+        "url": "https://assets.nintendo.com/image/upload/ncom/icons/fav-icons/apple-touch-icon.png",
+        "final_url": "https://assets.nintendo.com/image/upload/ncom/icons/fav-icons/apple-touch-icon.png",
+        "mime": "image/png",
+        "size": [
+          180,
+          180
+        ],
+        "file": "nintendo-0.png",
+        "sha256": "ffd169baa5b931c28e76c6a1febbf0733d3e8b813e3b01b90ee31fdb09d6d2de"
+      },
+      "coverage_note": "Nintendo North America, including Nintendo of America, Canada and the studios in its public board; this is not a worldwide Nintendo inventory.",
+      "monitors": [
+        {
+          "id": "nintendo",
+          "revision": 1,
+          "strategy": "generic_json",
+          "count": 51,
+          "pages": 1,
+          "complete": true,
+          "warnings": [
+            "Nintendo North America, including Nintendo of America, Canada and the studios in its public board; this is not a worldwide Nintendo inventory."
+          ],
+          "recipe_sha256": "e7786107281494c225965619086735dd0ad48a727909d5d72c19903438950e70",
+          "sample_urls": [
+            "https://careers.nintendo.com/jobs/4363567009",
+            "https://careers.nintendo.com/jobs/4330392009",
+            "https://careers.nintendo.com/jobs/4299949009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paradox-interactive",
+      "name": "Paradox Interactive",
+      "logo": {
+        "url": "https://www.paradoxinteractive.com/favicons/apple-touch-icon.png",
+        "final_url": "https://www.paradoxinteractive.com/favicons/apple-touch-icon.png",
+        "mime": "image/png",
+        "size": [
+          180,
+          180
+        ],
+        "file": "paradox-interactive-3.png",
+        "sha256": "2dc1ed42165d139e93df1b7057bee9258c314c463f57ca005f6d7e426cdc166a"
+      },
+      "coverage_note": "Official Teamtailor JSON Feed, including published open applications. For jobs with several offices, the primary listed city is normalized; the description retains other locations.",
+      "monitors": [
+        {
+          "id": "paradox-interactive",
+          "revision": 1,
+          "strategy": "generic_json",
+          "count": 20,
+          "pages": 1,
+          "complete": true,
+          "warnings": [
+            "Official Teamtailor JSON Feed, including published open applications. For jobs with several offices, the primary listed city is normalized; the description retains other locations."
+          ],
+          "recipe_sha256": "4456a646920725a9f6b9b8c4c66aa80f361d5d1576a708bcda66013a6d9580e4",
+          "sample_urls": [
+            "https://career.paradoxplaza.com/jobs/3359477-open-application-for-senior-game-programmers",
+            "https://career.paradoxplaza.com/jobs/7802607-legal-counsel",
+            "https://career.paradoxplaza.com/jobs/3408057-open-application-for-senior-game-designers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "remedy-entertainment",
+      "name": "Remedy Entertainment",
+      "logo": {
+        "url": "https://cdn.prod.website-files.com/644a618a8a06cbd6183bfd08/648c1e50dfbfa21a1a34b40c_cropped-favicon_new-256x256.png",
+        "final_url": "https://cdn.prod.website-files.com/644a618a8a06cbd6183bfd08/648c1e50dfbfa21a1a34b40c_cropped-favicon_new-256x256.png",
+        "mime": "image/png",
+        "size": [
+          256,
+          256
+        ],
+        "file": "remedy-entertainment-1.png",
+        "sha256": "17a04abb63bd65880e7f6ea38272786f56180639c87bde1eb9f709977a8d9fe5"
+      },
+      "coverage_note": "Public company board. Completeness refers to this source, not every subsidiary or regional hiring system.",
+      "monitors": [
+        {
+          "id": "remedy-entertainment",
+          "revision": 1,
+          "strategy": "generic_json",
+          "count": 4,
+          "pages": 1,
+          "complete": true,
+          "warnings": [],
+          "recipe_sha256": "6bf84d7e19b5d83a58e8625f95a7e099a5615e576220080660ff3774edc67909",
+          "sample_urls": [
+            "https://job-boards.greenhouse.io/remedy/jobs/8684516002",
+            "https://job-boards.greenhouse.io/remedy/jobs/8684534002",
+            "https://job-boards.greenhouse.io/remedy/jobs/8527060002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "riot-games",
+      "name": "Riot Games",
+      "logo": {
+        "url": "https://www.riotgames.com/assets/img/meta/c701c1b098b4c37dc45ad6b6a4d48be5/apple-touch-icon-precomposed-76x76.png",
+        "final_url": "https://www.riotgames.com/assets/img/meta/c701c1b098b4c37dc45ad6b6a4d48be5/apple-touch-icon-precomposed-76x76.png",
+        "mime": "image/png",
+        "size": [
+          76,
+          76
+        ],
+        "file": "riot-games-3.png",
+        "sha256": "24a4c2455ae39fb54999c7abba4b98264aa2f0470bebfad67c0dfee3e8fa6a1a"
+      },
+      "coverage_note": "Public company board. Completeness refers to this source, not every subsidiary or regional hiring system.",
+      "monitors": [
+        {
+          "id": "riot-games",
+          "revision": 1,
+          "strategy": "greenhouse",
+          "count": 161,
+          "pages": 1,
+          "complete": true,
+          "warnings": [],
+          "recipe_sha256": "6de67ee70439cefec111d3a02064cdcdf1b86cbc7976fd1828b269453738775c",
+          "sample_urls": [
+            "https://www.riotgames.com/en/work-with-us/job/7977844?gh_jid=7977844",
+            "https://www.riotgames.com/en/work-with-us/job/7093485?gh_jid=7093485",
+            "https://www.riotgames.com/en/work-with-us/job/7102244?gh_jid=7102244"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roblox",
+      "name": "Roblox",
+      "logo": {
+        "url": "https://images.rbxcdn.com/905bd722ee0a6ceda3caacde54c0b081.png",
+        "final_url": "https://images.rbxcdn.com/905bd722ee0a6ceda3caacde54c0b081.png",
+        "mime": "image/png",
+        "size": [
+          180,
+          180
+        ],
+        "file": "roblox-0.png",
+        "sha256": "7afe92edde27ce7949b0ebea760d2a009eac696db5686a8efe9c7d17ef590af3"
+      },
+      "coverage_note": "Public Greenhouse feed is live and verified; careers.roblox.com timed out during automated detail-link checks.",
+      "monitors": [
+        {
+          "id": "roblox",
+          "revision": 1,
+          "strategy": "greenhouse",
+          "count": 226,
+          "pages": 1,
+          "complete": true,
+          "warnings": [
+            "Public Greenhouse feed is live and verified; careers.roblox.com timed out during automated detail-link checks."
+          ],
+          "recipe_sha256": "28350d4cbce36e5ce5ba4d57defc6cc5a687fe9af18dae988032586912956bf7",
+          "sample_urls": [
+            "https://careers.roblox.com/jobs/7350081?gh_jid=7350081",
+            "https://careers.roblox.com/jobs/7396342?gh_jid=7396342",
+            "https://careers.roblox.com/jobs/8070133?gh_jid=8070133"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rockstar-games",
+      "name": "Rockstar Games",
+      "logo": {
+        "url": "https://media-rockstargames-com.akamaized.net/favicons/rockstar/favicon-180x180.png",
+        "final_url": "https://media-rockstargames-com.akamaized.net/favicons/rockstar/favicon-180x180.png",
+        "mime": "image/png",
+        "size": [
+          180,
+          180
+        ],
+        "file": "rockstar-games-1.png",
+        "sha256": "5882eb239a34a344bc223fa220a3039bc4e3a539d7846268f50b5163a5f7138f"
+      },
+      "coverage_note": "Public company board. Completeness refers to this source, not every subsidiary or regional hiring system.",
+      "monitors": [
+        {
+          "id": "rockstar-games",
+          "revision": 1,
+          "strategy": "generic_json",
+          "count": 66,
+          "pages": 1,
+          "complete": true,
+          "warnings": [],
+          "recipe_sha256": "5b4ad71697642e6898c2557c6a1fc8e823d13b05db89bf6c93abb7196ebb578e",
+          "sample_urls": [
+            "https://job-boards.greenhouse.io/rockstargames/jobs/7632962003",
+            "https://job-boards.greenhouse.io/rockstargames/jobs/7811462003",
+            "https://job-boards.greenhouse.io/rockstargames/jobs/7709290003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scopely",
+      "name": "Scopely",
+      "logo": {
+        "url": "https://cdn.phenompeople.com/CareerConnectResources/SZISMNUS/images/SCOPELYSQUARELOGOPOSITIVE2-1769701906203.svg",
+        "final_url": "https://cdn.phenompeople.com/CareerConnectResources/SZISMNUS/images/SCOPELYSQUARELOGOPOSITIVE2-1769701906203.svg",
+        "mime": "image/svg+xml",
+        "size": null,
+        "file": "scopely-0.svg",
+        "sha256": "c6de16dbcb1218a195fe5816e8f492bb83640b36498335f1249dee2df3adfcda"
+      },
+      "coverage_note": "Public company board. Completeness refers to this source, not every subsidiary or regional hiring system.",
+      "monitors": [
+        {
+          "id": "scopely",
+          "revision": 1,
+          "strategy": "greenhouse",
+          "count": 183,
+          "pages": 1,
+          "complete": true,
+          "warnings": [],
+          "recipe_sha256": "153fc1056c0b2772b2d1a8104826819de98fb6d82f2036d6bba77c17ab2e6133",
+          "sample_urls": [
+            "https://job-boards.greenhouse.io/scopely/jobs/5398064008?gh_jid=5398064008",
+            "https://job-boards.greenhouse.io/scopely/jobs/5364642008?gh_jid=5364642008",
+            "https://job-boards.greenhouse.io/scopely/jobs/5354199008?gh_jid=5354199008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sega",
+      "name": "SEGA",
+      "logo": {
+        "url": "https://cdn.sega.co.uk/careers/public/content/media/images/vector/logo-sega-white.svg?VersionId=ywzczfQD992kVR6ZF2141uwyoouXWbQk",
+        "final_url": "https://cdn.sega.co.uk/careers/public/content/media/images/vector/logo-sega-white.svg?VersionId=ywzczfQD992kVR6ZF2141uwyoouXWbQk",
+        "mime": "image/svg+xml",
+        "size": null,
+        "file": "sega-1.svg",
+        "sha256": "3924fd1700292a1abbbb608fbc35421f776e54dc1a864779b722df552db5c4c7"
+      },
+      "coverage_note": "SEGA Europe aggregate includes Creative Assembly and Sports Interactive, avoiding duplicate subsidiary monitors. Other regional SEGA boards are outside this scope.",
+      "monitors": [
+        {
+          "id": "sega",
+          "revision": 1,
+          "strategy": "generic_html",
+          "count": 29,
+          "pages": 3,
+          "complete": true,
+          "warnings": [
+            "SEGA Europe aggregate includes Creative Assembly and Sports Interactive, avoiding duplicate subsidiary monitors. Other regional SEGA boards are outside this scope."
+          ],
+          "recipe_sha256": "4cb6b5290b732e24bf13cf19f56e1a2d5f5c9f20e42cc4bee7305b9d3d3b491b",
+          "sample_urls": [
+            "https://careers.sega.co.uk/vacancies/qa-associate-functionality-tester",
+            "https://careers.sega.co.uk/vacancies/fpa-analyst",
+            "https://careers.sega.co.uk/vacancies/senior-software-engineer-match-ai-simulation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sony-interactive-entertainment",
+      "name": "Sony Interactive Entertainment / PlayStation",
+      "logo": {
+        "url": "https://gmedia.playstation.com/is/image/SIEPDC/ps-logo-favicon?$icon-96-96--t$",
+        "final_url": "https://gmedia.playstation.com/is/image/SIEPDC/ps-logo-favicon?$icon-96-96--t$",
+        "mime": "image/png",
+        "size": [
+          96,
+          96
+        ],
+        "file": "sony-interactive-entertainment-4.png",
+        "sha256": "f48e6b832ac7d54222dd16a1cf515a4fd0470b863b3c2d4796bc7e60e5de3677"
+      },
+      "coverage_note": "Sony gaming / PlayStation coverage: global SIE plus SIEI, Naughty Dog, Polyphony Digital, Firesprite and Haven English boards. Bungie has its own company record. The duplicate French Haven board is omitted.",
+      "monitors": [
+        {
+          "id": "playstation-firesprite",
+          "revision": 1,
+          "strategy": "greenhouse",
+          "count": 1,
+          "pages": 1,
+          "complete": true,
+          "warnings": [
+            "Sony gaming / PlayStation coverage: global SIE plus SIEI, Naughty Dog, Polyphony Digital, Firesprite and Haven English boards. Bungie has its own company record. The duplicate French Haven board is omitted."
+          ],
+          "recipe_sha256": "094575af48b9b46a215f6d9fd743231b59bff1da9a421da7be181412ae73f292",
+          "sample_urls": [
+            "https://job-boards.greenhouse.io/firesprite/jobs/6115299004"
+          ]
+        },
+        {
+          "id": "playstation-havenenglish",
+          "revision": 1,
+          "strategy": "greenhouse",
+          "count": 2,
+          "pages": 1,
+          "complete": true,
+          "warnings": [
+            "Sony gaming / PlayStation coverage: global SIE plus SIEI, Naughty Dog, Polyphony Digital, Firesprite and Haven English boards. Bungie has its own company record. The duplicate French Haven board is omitted."
+          ],
+          "recipe_sha256": "f7498fa6e9befcdae9d6033b4fb410510088c621fa316f3316bd956ce331a3de",
+          "sample_urls": [
+            "https://job-boards.greenhouse.io/havenenglish/jobs/6098187004",
+            "https://job-boards.greenhouse.io/havenenglish/jobs/6114876004"
+          ]
+        },
+        {
+          "id": "playstation-naughtydog",
+          "revision": 1,
+          "strategy": "greenhouse",
+          "count": 15,
+          "pages": 1,
+          "complete": true,
+          "warnings": [
+            "Sony gaming / PlayStation coverage: global SIE plus SIEI, Naughty Dog, Polyphony Digital, Firesprite and Haven English boards. Bungie has its own company record. The duplicate French Haven board is omitted."
+          ],
+          "recipe_sha256": "401b51212099177d931f2cb911d885d3612f67dcfd63afe369ca91f24a8a13f8",
+          "sample_urls": [
+            "https://job-boards.greenhouse.io/naughtydog/jobs/6105185004",
+            "https://job-boards.greenhouse.io/naughtydog/jobs/6139154004",
+            "https://job-boards.greenhouse.io/naughtydog/jobs/5822257004"
+          ]
+        },
+        {
+          "id": "playstation-pdi",
+          "revision": 1,
+          "strategy": "greenhouse",
+          "count": 18,
+          "pages": 1,
+          "complete": true,
+          "warnings": [
+            "Sony gaming / PlayStation coverage: global SIE plus SIEI, Naughty Dog, Polyphony Digital, Firesprite and Haven English boards. Bungie has its own company record. The duplicate French Haven board is omitted."
+          ],
+          "recipe_sha256": "255c30b1c4ed2e951b7b3c33080218cbfde27c06a327258db90b3ee932a4454b",
+          "sample_urls": [
+            "https://job-boards.greenhouse.io/pdi/jobs/5589126004",
+            "https://job-boards.greenhouse.io/pdi/jobs/5568685004",
+            "https://job-boards.greenhouse.io/pdi/jobs/5599597004"
+          ]
+        },
+        {
+          "id": "playstation-siei",
+          "revision": 1,
+          "strategy": "greenhouse",
+          "count": 57,
+          "pages": 1,
+          "complete": true,
+          "warnings": [
+            "Sony gaming / PlayStation coverage: global SIE plus SIEI, Naughty Dog, Polyphony Digital, Firesprite and Haven English boards. Bungie has its own company record. The duplicate French Haven board is omitted."
+          ],
+          "recipe_sha256": "dfe1e68765820c92a895f4fb49e0320c68d1159c8d8f0c8ebdefa945e7079e02",
+          "sample_urls": [
+            "https://job-boards.greenhouse.io/siei/jobs/6138372004",
+            "https://job-boards.greenhouse.io/siei/jobs/6160977004",
+            "https://job-boards.greenhouse.io/siei/jobs/5983281004"
+          ]
+        },
+        {
+          "id": "sony-interactive-entertainment",
+          "revision": 1,
+          "strategy": "greenhouse",
+          "count": 189,
+          "pages": 1,
+          "complete": true,
+          "warnings": [
+            "Sony gaming / PlayStation coverage: global SIE plus SIEI, Naughty Dog, Polyphony Digital, Firesprite and Haven English boards. Bungie has its own company record. The duplicate French Haven board is omitted."
+          ],
+          "recipe_sha256": "9e094a19f49f113044ea985f54df50c70977bf12042d1c41961257e4e6b7603b",
+          "sample_urls": [
+            "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6007946004",
+            "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6142826004",
+            "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6128642004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "square-enix",
+      "name": "Square Enix",
+      "logo": {
+        "url": "https://www.google.com/s2/favicons?domain=square-enix.com&sz=128",
+        "final_url": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://square-enix.com&size=128",
+        "mime": "image/png",
+        "size": [
+          48,
+          48
+        ],
+        "file": "square-enix-1.png",
+        "sha256": "e6f1c4fcbe20419b56abcc291ebf7ca63a5f8b4490141c203a3a146073360c4f"
+      },
+      "coverage_note": "Separate America and Europe boards. Japan is outside these regional monitors.",
+      "monitors": [
+        {
+          "id": "square-enix-america",
+          "revision": 1,
+          "strategy": "generic_json",
+          "count": 3,
+          "pages": 1,
+          "complete": true,
+          "warnings": [
+            "Separate America and Europe boards. Japan is outside these regional monitors."
+          ],
+          "recipe_sha256": "a05585b760192c8839a89dc79745d132bacabe6655cd644039eaaced391184ac",
+          "sample_urls": [
+            "https://apply.workable.com/j/75F3814DC9",
+            "https://apply.workable.com/j/E0DCDB5179",
+            "https://apply.workable.com/j/EF2554A90C"
+          ]
+        },
+        {
+          "id": "square-enix-europe",
+          "revision": 1,
+          "strategy": "generic_json",
+          "count": 6,
+          "pages": 1,
+          "complete": true,
+          "warnings": [
+            "Separate America and Europe boards. Japan is outside these regional monitors."
+          ],
+          "recipe_sha256": "5a0f32af96461b7f0fa1ccab09e9c8d285402002c17ca5a66eab34541f16d32e",
+          "sample_urls": [
+            "https://apply.workable.com/j/65BE2E57FE",
+            "https://apply.workable.com/j/7663963D43",
+            "https://apply.workable.com/j/CBA0FD38A4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "supercell",
+      "name": "Supercell",
+      "logo": {
+        "url": "https://supercell.com/favicon.ico",
+        "final_url": "https://supercell.com/favicon.ico",
+        "mime": "image/vnd.microsoft.icon",
+        "size": [
+          48,
+          48
+        ],
+        "file": "supercell-3.png",
+        "sha256": "01d921f6bfe0170d7f0e2ae3acb124feebe91ecb0afe86d0ec1b9055c7ec8521"
+      },
+      "coverage_note": "Public company board. Completeness refers to this source, not every subsidiary or regional hiring system.",
+      "monitors": [
+        {
+          "id": "supercell",
+          "revision": 1,
+          "strategy": "ashby",
+          "count": 44,
+          "pages": 1,
+          "complete": true,
+          "warnings": [],
+          "recipe_sha256": "eb6ddade3f63c2a7d705e5dd44a3a80d7d2c065a350bd1b0b56c4d2b402a59eb",
+          "sample_urls": [
+            "https://jobs.ashbyhq.com/supercell/3c2e4e49-4b85-4281-a7e1-1bfddd3dab6f",
+            "https://jobs.ashbyhq.com/supercell/afac0f22-9b86-4c60-8fe7-29f0e024126f",
+            "https://jobs.ashbyhq.com/supercell/259aa2ac-cd24-479e-8f63-d4318589cddf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "take-two-interactive",
+      "name": "Take-Two Interactive",
+      "logo": {
+        "url": "https://images.ctfassets.net/wn7ipiv9ue5v/1DxCIrUbhWllnMBuMyCje5/546552d68f1324b54b89d733f40f2d8f/favicon.png",
+        "final_url": "https://images.ctfassets.net/wn7ipiv9ue5v/1DxCIrUbhWllnMBuMyCje5/546552d68f1324b54b89d733f40f2d8f/favicon.png",
+        "mime": "image/png",
+        "size": [
+          64,
+          64
+        ],
+        "file": "take-two-interactive-3.png",
+        "sha256": "e94835aca6498c8fdccdc0f4dc14009b380d6264475a19302ac5acd4849279bb"
+      },
+      "coverage_note": "Public company board. Completeness refers to this source, not every subsidiary or regional hiring system.",
+      "monitors": [
+        {
+          "id": "take-two-interactive",
+          "revision": 1,
+          "strategy": "generic_json",
+          "count": 40,
+          "pages": 1,
+          "complete": true,
+          "warnings": [],
+          "recipe_sha256": "74910d3c2521501aa45346c9b0a6d8bf8d40d34461f5b30a3b7fb92c21e8fd91",
+          "sample_urls": [
+            "https://job-boards.greenhouse.io/taketwo/jobs/8165127",
+            "https://job-boards.greenhouse.io/taketwo/jobs/8067264",
+            "https://job-boards.greenhouse.io/taketwo/jobs/8140012"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ubisoft",
+      "name": "Ubisoft",
+      "logo": {
+        "url": "https://www.google.com/s2/favicons?domain=ubisoft.com&sz=128",
+        "final_url": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://ubisoft.com&size=128",
+        "mime": "image/png",
+        "size": [
+          128,
+          128
+        ],
+        "file": "ubisoft-0.png",
+        "sha256": "fc7f08595a79668133a3829c0387c9f27477626080eb30b39d352db7bbc010b5"
+      },
+      "coverage_note": "Complete compact public listing with direct human job links. The compact feed omits descriptions; description keyword matching is unavailable for these records.",
+      "monitors": [
+        {
+          "id": "ubisoft",
+          "revision": 2,
+          "strategy": "generic_json",
+          "count": 285,
+          "pages": 3,
+          "complete": true,
+          "warnings": [
+            "Complete compact public listing with direct human job links. The compact feed omits descriptions; description keyword matching is unavailable for these records."
+          ],
+          "recipe_sha256": "52feadd4a108d3e47fd5711a2aa6db351eb7a5a264cbcfa764357e95c2ec4553",
+          "sample_urls": [
+            "https://jobs.smartrecruiters.com/Ubisoft2/744000147409729",
+            "https://jobs.smartrecruiters.com/Ubisoft2/744000140062829",
+            "https://jobs.smartrecruiters.com/Ubisoft2/744000107117815"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unity",
+      "name": "Unity",
+      "logo": {
+        "url": "https://www.google.com/s2/favicons?domain=unity.com&sz=128",
+        "final_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://unity.com&size=128",
+        "mime": "image/png",
+        "size": [
+          48,
+          48
+        ],
+        "file": "unity-3.png",
+        "sha256": "2eb3bf64c6140c2b01a677402597e2ab57bacc7a6a45d261a7d6ea9234ea7480"
+      },
+      "coverage_note": "Company-specific Workday board with detail enrichment up to 250 listings for descriptions and canonical role URLs. Recheck if board size exceeds that bound or detail enrichment fails.",
+      "monitors": [
+        {
+          "id": "unity",
+          "revision": 1,
+          "strategy": "workday",
+          "count": 124,
+          "pages": 131,
+          "complete": true,
+          "warnings": [
+            "Company-specific Workday board with detail enrichment up to 250 listings for descriptions and canonical role URLs. Recheck if board size exceeds that bound or detail enrichment fails."
+          ],
+          "recipe_sha256": "87e04fa4024aa5c25558407215bbddc716846f35f1cb758aed7205687a8126b7",
+          "sample_urls": [
+            "https://unitytech.wd1.myworkdayjobs.com/Unity/job/Brighton-United-Kingdom/Senior-Client-Partner--Games---Entertainment--Turkish-Speaker-_JOBREQ-2616380-1",
+            "https://unitytech.wd1.myworkdayjobs.com/Unity/job/Montreal-Canada/Operations-Developer---Dveloppeur-oprationnel_JOBREQ-2615824",
+            "https://unitytech.wd1.myworkdayjobs.com/Unity/job/Mountain-View-CA-USA/Staff-Machine-Learning-Engineer_JOBREQ-2616040"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "valve",
+      "name": "Valve",
+      "logo": {
+        "url": "https://store.fastly.steamstatic.com/public/shared/images/responsive/footerLogo_valve_new.png",
+        "final_url": "https://store.fastly.steamstatic.com/public/shared/images/responsive/footerLogo_valve_new.png",
+        "mime": "image/png",
+        "size": [
+          184,
+          52
+        ],
+        "file": "valve-3.png",
+        "sha256": "ff991cd769572478cdc67d22980851f2f4f028b009445f8e9251e84f0a2aa41c"
+      },
+      "coverage_note": "Published standing hiring areas; the site invites ongoing applications and does not promise an immediate vacancy for each area. List page omits locations.",
+      "monitors": [
+        {
+          "id": "valve",
+          "revision": 1,
+          "strategy": "generic_html",
+          "count": 25,
+          "pages": 1,
+          "complete": true,
+          "warnings": [
+            "removed 7 duplicate source IDs",
+            "Published standing hiring areas; the site invites ongoing applications and does not promise an immediate vacancy for each area. List page omits locations."
+          ],
+          "recipe_sha256": "3ef7eb18ebbc5ea8851195aefa44a1d54e6118920170cfb5c93d6d9dd0e8f7ad",
+          "sample_urls": [
+            "https://www.valvesoftware.com/en/jobs?job_id=2",
+            "https://www.valvesoftware.com/en/jobs?job_id=63",
+            "https://www.valvesoftware.com/en/jobs?job_id=57"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "warner-bros-games",
+      "name": "Warner Bros. Games",
+      "logo": {
+        "url": "https://cdn.wbgames.com/static/wb-games-logo-h.svg",
+        "final_url": "https://cdn.wbgames.com/static/wb-games-logo-h.svg",
+        "mime": "image/svg+xml",
+        "size": null,
+        "file": "warner-bros-games-0.svg",
+        "sha256": "c90d9d31a26c9053cfe99a9dfd2d86b3f484534a2723eb5f621e5a05f7d2361e"
+      },
+      "coverage_note": "Partial coverage: public WB Games keyword search with strict WB Games title ownership filter. Other studios or jobs without that title marker may be missing.",
+      "monitors": [
+        {
+          "id": "warner-bros-games",
+          "revision": 2,
+          "strategy": "generic_json",
+          "count": 1,
+          "pages": 1,
+          "complete": false,
+          "warnings": [
+            "Partial coverage: public WB Games keyword search with strict WB Games title ownership filter. Other studios or jobs without that title marker may be missing.",
+            "Partial listing: unseen jobs must not be closed based on this monitor."
+          ],
+          "recipe_sha256": "815731b5a946b042e3aebf9a6d4f8fef1f35f2a999c18e55ae7718e3ec7fed39",
+          "sample_urls": [
+            "https://warnerbros.wd5.myworkdayjobs.com/global/job/CA-Burbank-Bldg-700-Second-Century-Tower-1/Principal--Security-Engineering---Vulnerability-Management_R000106593/apply"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zynga",
+      "name": "Zynga",
+      "logo": {
+        "url": "https://s4-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/401/007/100/original/Zynga.svg_(1).png?1730375803",
+        "final_url": "https://s4-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/401/007/100/original/Zynga.svg_(1).png?1730375803",
+        "mime": "image/png",
+        "size": [
+          1200,
+          1100
+        ],
+        "file": "zynga-0.png",
+        "sha256": "895e8810c22b0c75b4c379b5a82eb42a1e6993aaf98c2bcad0cd6aef31988640"
+      },
+      "coverage_note": "Public company board. Completeness refers to this source, not every subsidiary or regional hiring system.",
+      "monitors": [
+        {
+          "id": "zynga",
+          "revision": 1,
+          "strategy": "greenhouse",
+          "count": 48,
+          "pages": 1,
+          "complete": true,
+          "warnings": [],
+          "recipe_sha256": "b19dcf3f3a8f8b9f8c5b0cd0f404f7ff8db0ac8230b0c98b5bbabc7939a82bbe",
+          "sample_urls": [
+            "https://job-boards.greenhouse.io/zyngacareers/jobs/6123790004",
+            "https://job-boards.greenhouse.io/zyngacareers/jobs/6113059004",
+            "https://job-boards.greenhouse.io/zyngacareers/jobs/6146566004"
+          ]
+        }
+      ]
+    }
+  ],
+  "collection_revision": 4
+}

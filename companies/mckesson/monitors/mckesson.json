@@ -12,16 +12,20 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-08-31T17:00:00Z",
+    "checked_at": "2026-09-04T05:53:24.064719+00:00",
     "job_count": 15,
-    "warnings": ["The public first page is intentionally marked partial."]
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
   },
   "recipe": {
     "version": 1,
     "company": "McKesson",
     "careers_url": "https://careers.mckesson.com/en/search-jobs",
     "strategy": "generic_html",
-    "allowed_hosts": ["careers.mckesson.com"],
+    "allowed_hosts": [
+      "careers.mckesson.com"
+    ],
     "request": {
       "url": "https://careers.mckesson.com/en/search-jobs",
       "method": "GET",
@@ -47,6 +51,8 @@
       "posted_date": ".search-results__job-date-posted"
     },
     "mapping": {},
-    "metadata": { "partial_listing": true }
+    "metadata": {
+      "partial_listing": true
+    }
   }
 }

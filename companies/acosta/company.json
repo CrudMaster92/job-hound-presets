@@ -1,0 +1,28 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "acosta",
+  "name": "Acosta Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.acosta.group/",
+  "logo_url": "https://www.acosta.group/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "shopper-retail-experiential",
+      "direct-marketing-sales",
+      "market-research-insights",
+      "martech-data-analytics",
+      "creative-advertising"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "Acosta Group"
+    ]
+  },
+  "parent_company_id": "acosta-group"
+}

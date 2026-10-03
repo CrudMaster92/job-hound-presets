@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "homa",
+  "name": "Homa",
+  "aliases": [],
+  "website_url": "https://homagames.com/",
+  "logo_url": "https://www.homagames.com/images/apple-touch-icon.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

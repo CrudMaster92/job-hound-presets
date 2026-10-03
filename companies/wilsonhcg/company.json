@@ -1,0 +1,11 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "wilsonhcg",
+  "name": "WilsonHCG",
+  "legal_name": "Wilson Human Capital Group, Inc.",
+  "aliases": ["Wilson HCG"],
+  "website_url": "https://www.wilsonhcg.com/",
+  "logo_url": "https://www.wilsonhcg.com/favicon.ico",
+  "facets": {"industries": ["staffing-and-recruiting"], "specialties": ["recruitment-process-outsourcing", "executive-search"], "tags": ["Recruitment", "North America", "Global"]}
+}

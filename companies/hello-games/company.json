@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "hello-games",
+  "name": "Hello Games",
+  "aliases": [],
+  "website_url": "https://hellogames.org/",
+  "logo_url": "https://hellogames.org/images/PatternLibrary/hello-games-logo.svg",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

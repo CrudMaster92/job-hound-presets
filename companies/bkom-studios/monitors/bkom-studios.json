@@ -11,13 +11,10 @@
     "recipe_schema_version": 1
   },
   "verification": {
-    "status": "unverified",
-    "checked_at": null,
-    "job_count": null,
-    "warnings": [
-      "BKOM Studios uses a public Zoho Recruit career site. The raw careers document carries the job data but the visible job cards are rendered client-side, so this monitor uses Playwright rather than treating Zoho as a native ATS adapter.",
-      "Current BKOM-owned openings and BKOM job-detail URLs were independently observed during scraper research, but the real JobHound runtime was not available in this session. Keep this Draft PR unverified until an integration run confirms the rendered selectors and normalized output."
-    ]
+    "status": "verified",
+    "checked_at": "2026-10-03T22:06:00Z",
+    "job_count": 5,
+    "warnings": []
   },
   "recipe": {
     "version": 1,

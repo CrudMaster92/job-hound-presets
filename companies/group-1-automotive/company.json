@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "group-1-automotive",
+  "name": "Group 1 Automotive",
+  "aliases": [],
+  "website_url": "https://www.group1auto.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=group1auto.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 250",
+      "2026",
+      "United States"
+    ]
+  }
+}

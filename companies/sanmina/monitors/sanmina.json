@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "sanmina",
+  "company_id": "sanmina",
+  "revision": 1,
+  "label": "Sanmina Careers",
+  "careers_url": "https://sanminacareers.mua.hrdepartment.com/hr/ats/JobSearch/viewAll",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-30T16:49:22.126668+00:00",
+    "job_count": 25,
+    "warnings": [
+      "description detail enrichment skipped 5 jobs after the configured 20-posting limit",
+      "description detail enrichment was incomplete for 20 jobs",
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Sanmina",
+    "careers_url": "https://sanminacareers.mua.hrdepartment.com/hr/ats/JobSearch/viewAll",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "sanminacareers.mua.hrdepartment.com"
+    ],
+    "request": {
+      "url": "https://sanminacareers.mua.hrdepartment.com/hr/ats/JobSearch/viewAll",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "tr:has(a[href*=\"/Posting/view/\"])",
+      "title": "td:first-child a",
+      "link": "td:first-child a",
+      "location": "td:nth-child(4)"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 20
+    }
+  }
+}

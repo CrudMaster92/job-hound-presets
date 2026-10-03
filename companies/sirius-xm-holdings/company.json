@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "sirius-xm-holdings",
+  "name": "Sirius XM Holdings",
+  "aliases": [],
+  "website_url": "https://www.siriusxm.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=siriusxm.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 500",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The official SiriusXM iCIMS listing requires client-side extraction. No portable listing recipe passed live validation in this batch.",
+    "checked_at": "2026-09-30T16:54:07.465060+00:00"
+  }
+}

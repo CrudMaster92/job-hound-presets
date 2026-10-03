@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "american-financial-group",
+  "company_id": "american-financial-group",
+  "revision": 1,
+  "label": "American Financial Group Careers",
+  "careers_url": "https://gaig.wd1.myworkdayjobs.com/GAIG_External",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-30T16:48:25.289467+00:00",
+    "job_count": 20,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run.",
+      "Great American Insurance Group division careers board; other AFG businesses are not included."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "American Financial Group",
+    "careers_url": "https://gaig.wd1.myworkdayjobs.com/GAIG_External",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "gaig.wd1.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://gaig.wd1.myworkdayjobs.com/wday/cxs/gaig/GAIG_External/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "gaig",
+      "site": "GAIG_External",
+      "detail_fetch_limit": 20,
+      "partial_listing": true
+    }
+  }
+}

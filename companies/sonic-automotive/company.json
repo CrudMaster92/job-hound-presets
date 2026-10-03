@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "sonic-automotive",
+  "name": "Sonic Automotive",
+  "aliases": [],
+  "website_url": "https://www.sonicautomotive.com/",
+  "logo_url": "https://jobs.sonicautomotive.com/apple-touch-icon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 300",
+      "2026",
+      "United States"
+    ]
+  }
+}

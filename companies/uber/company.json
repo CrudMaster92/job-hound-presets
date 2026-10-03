@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "uber",
+  "name": "Uber Technologies",
+  "aliases": [],
+  "website_url": "https://www.uber.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=uber.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 100",
+      "2026",
+      "United States"
+    ]
+  }
+}

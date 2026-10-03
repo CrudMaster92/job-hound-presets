@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "activision",
+  "name": "Activision",
+  "aliases": [],
+  "website_url": "https://www.activision.com/",
+  "logo_url": "https://cdn.phenompeople.com/CareerConnectResources/prod/ACPUUS/en_us/desktop/assets/images/favicon.ico?v=1753985994190",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

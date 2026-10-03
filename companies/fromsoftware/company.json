@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "fromsoftware",
+  "name": "FromSoftware",
+  "aliases": [],
+  "website_url": "https://fromsoftware.jp/",
+  "logo_url": "https://careers.fromsoftware.jp/en/resources/images/common/ogp/apple-touch-icon.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

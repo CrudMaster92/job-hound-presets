@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "andersons",
+  "name": "Andersons",
+  "aliases": [],
+  "website_url": "https://www.andersonsinc.com/",
+  "logo_url": "https://www.andersonsinc.com/dist/images/logo-black.svg",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 400",
+      "2026",
+      "United States"
+    ]
+  }
+}

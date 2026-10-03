@@ -1,0 +1,1644 @@
+{
+  "ranking_source": "https://www.sheetsteps.com/data/fortune-500-companies-2026",
+  "rank_note": "The source ties Applied Materials and Hartford at 160; source order is retained.",
+  "logo_validation": {
+    "http_success": 50,
+    "browser_loaded": 50,
+    "browser_failed": 0,
+    "checked_at": "2026-09-07T12:55:38Z",
+    "visually_reviewed": true
+  },
+  "companies": [
+    {
+      "rank": 151,
+      "company_id": "jabil",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-07T07:21:04.852970+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "462d6c557a3469463ebc4df2ecfeb39afb9cf39fc3e2e0f08b9a6f9180aaba1d",
+      "ranking_source": "https://fortune.com/company/jabil-circuit/",
+      "careers_source": "https://careers.jabil.com/en/jobs/",
+      "samples": [
+        {
+          "title": "HR EIT",
+          "location": "Guangzhou Juncheng",
+          "source_url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Guangzhou-Juncheng/HR-EIT_J2387726"
+        },
+        {
+          "title": "Programmer Analyst - I",
+          "location": "Pune",
+          "source_url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Pune/Programmer-Analyst---I_J2426191-1"
+        },
+        {
+          "title": "Sr. Risk & Assurance Auditor I",
+          "location": "Ranjangaon",
+          "source_url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Ranjangaon/Sr-Risk---Assurance-Auditor-II_J2456078"
+        }
+      ]
+    },
+    {
+      "rank": 152,
+      "company_id": "southern",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-07T07:11:36.157216+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "20a21f88b9cfee235d31f9ab7182d1723f4fe3c5be56318f6e58db84caf4171d",
+      "ranking_source": "https://fortune.com/company/southern/",
+      "careers_source": "https://southerncompany.jobs/jobs/",
+      "samples": [
+        {
+          "title": "Senior Engineer – Training (Distribution)",
+          "location": "Lithonia, GA",
+          "source_url": "https://southerncompany.jobs/lithonia-ga/senior-engineer-training-distribution/669F9C710998458FA7D99F12B3C6B795/job"
+        },
+        {
+          "title": "Manager, Area Construction",
+          "location": "Atlanta, GA",
+          "source_url": "https://southerncompany.jobs/atlanta-ga/manager-area-construction/FB921DDD06984C3B9EFF5F59F0CF1501/job"
+        },
+        {
+          "title": "Manager, Construction - Large Pipeline",
+          "location": "Atlanta, GA",
+          "source_url": "https://southerncompany.jobs/atlanta-ga/manager-construction-large-pipeline/7BAF679FDE524B49A4FCDAE4215420F2/job"
+        }
+      ]
+    },
+    {
+      "rank": 153,
+      "company_id": "gilead",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-07T07:20:59.797830+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "373063f491cfaeba51fc56a1084394db48ff5ca2a7f50d7835c65ba561e06b53",
+      "ranking_source": "https://fortune.com/company/gilead-sciences/",
+      "careers_source": "https://www.gilead.com/careers",
+      "samples": [
+        {
+          "title": "Director, IT Data and AI Product Owner – Clinical Development",
+          "location": "United States - California - Foster City",
+          "source_url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Director--IT-Data-and-AI-Product-Owner---Clinical-Development_R0054846-2"
+        },
+        {
+          "title": "Assoc Director, R&D Information Systems",
+          "location": "United Kingdom - Cambridge",
+          "source_url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-Kingdom---Cambridge/Assoc-Director--R-D-Information-Systems_R0054074-2"
+        },
+        {
+          "title": "Financial Specialist I",
+          "location": "Ireland - Cork",
+          "source_url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/Ireland---Cork/Financial-Specialist-I_R0054025-1"
+        }
+      ]
+    },
+    {
+      "rank": 154,
+      "company_id": "pbf-energy",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-07T07:23:35.856668+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "Partial engineering keyword feed. The broader feed contains a posting whose salary data fails normalization; all returned jobs have enriched, usable source URLs."
+      ],
+      "recipe_sha256": "9a4227817b50675068fcae4f1fa16b578a61121358e7ed59226a3acf15838d6e",
+      "ranking_source": "https://fortune.com/company/pbf-energy/",
+      "careers_source": "https://www.pbfenergy.com/careers/",
+      "samples": [
+        {
+          "title": "Process Engineer",
+          "location": "Chalmette, LA",
+          "source_url": "https://pbfenergy.wd1.myworkdayjobs.com/PBF/job/Chalmette-LA/Process-Engineer_R03211"
+        },
+        {
+          "title": "Project Controls Lead, Turnaround and Capital",
+          "location": "Paulsboro, NJ",
+          "source_url": "https://pbfenergy.wd1.myworkdayjobs.com/PBF/job/Paulsboro-NJ/Project-Controls-Lead--Turnaround-and-Capital_R03173"
+        },
+        {
+          "title": "Fixed and Rotating Equipment Manager",
+          "location": "Martinez, CA",
+          "source_url": "https://pbfenergy.wd1.myworkdayjobs.com/PBF/job/Martinez-CA/Fixed-and-Rotating-Equipment-Manager_R03189"
+        }
+      ]
+    },
+    {
+      "rank": 155,
+      "company_id": "paramount",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-07T06:58:10.179356+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "ceb761adff4619d76fcd0073bcebd03668f19c74960ecf77365c2ffda405d83e",
+      "ranking_source": "https://fortune.com/company/cbs/",
+      "careers_source": "https://careers.paramount.com/search/",
+      "samples": [
+        {
+          "title": "Traffic Operations Senior",
+          "location": "Mt Coot-tha, QLD, AU, 4066",
+          "source_url": "https://careers.paramount.com/job/Mt-Coot-tha-Traffic-Operations-Senior-QLD-4066/1427175200"
+        },
+        {
+          "title": "Lead Software Engineer",
+          "location": "Burbank, CA, US, 91505",
+          "source_url": "https://careers.paramount.com/job/Burbank-Lead-Software-Engineer-CA-91505/1390820700"
+        },
+        {
+          "title": "Analyst RTR General Ledger",
+          "location": "Budapest, HU",
+          "source_url": "https://careers.paramount.com/job/Budapest-Analyst-RTR-General-Ledger/1398847100"
+        }
+      ]
+    },
+    {
+      "rank": 156,
+      "company_id": "kkr",
+      "status": "verified",
+      "strategy": "generic_json",
+      "checked_at": "2026-09-07T07:14:44.552507+00:00",
+      "job_count": 139,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "Public Greenhouse feed mapped directly because a null metadata field in this board breaks the standard adapter."
+      ],
+      "recipe_sha256": "400cd13e2a2b8c6ff2ad59d7f4d65de0dd7e471616c7d1c1e594473ddb0e97f4",
+      "ranking_source": "https://fortune.com/company/kkr/",
+      "careers_source": "https://www.kkr.com/careers",
+      "samples": [
+        {
+          "title": "Accounting Operations Systems - Senior Analyst",
+          "location": "Gurugram",
+          "source_url": "https://www.kkr.com/careers/career-opportunities/post?gh_jid=5989339004"
+        },
+        {
+          "title": "Actuarial Associate, Insurance Risk Modeling",
+          "location": "Des Moines",
+          "source_url": "https://www.kkr.com/careers/career-opportunities/post?gh_jid=6120001004"
+        },
+        {
+          "title": "Actuarial Associate, Insurance Risk Modeling",
+          "location": "New York, New York, United States",
+          "source_url": "https://www.kkr.com/careers/career-opportunities/post?gh_jid=6120000004"
+        }
+      ]
+    },
+    {
+      "rank": 157,
+      "company_id": "quanta-services",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-07T07:08:35.385553+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "ece206086626eb2600b7943b727e1d0665fc4dcd9c69785a2d2d0cab28378da1",
+      "ranking_source": "https://fortune.com/company/quanta-services/",
+      "careers_source": "https://www.quantaservices.com/careers/",
+      "samples": [
+        {
+          "title": "Junior Cost Specialist",
+          "location": "US-TX-Spring",
+          "source_url": "https://careers2-quanta.icims.com/jobs/18368/junior-cost-specialist/job?hub=15&in_iframe=1"
+        },
+        {
+          "title": "Shop Mechanic",
+          "location": "US-TX-Amarillo",
+          "source_url": "https://careers-quanta.icims.com/jobs/18367/shop-mechanic/job?hub=15&in_iframe=1"
+        },
+        {
+          "title": "Traveling Mechanic",
+          "location": "US-TX-Houston",
+          "source_url": "https://careers-quanta.icims.com/jobs/18366/traveling-mechanic/job?hub=15&in_iframe=1"
+        }
+      ]
+    },
+    {
+      "rank": 158,
+      "company_id": "paccar",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-07T06:56:38.806774+00:00",
+      "job_count": 100,
+      "pages": 4,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "34d9f17292a28994fd4c079d41affe306b7f4268662372e1e1235f0c66fe7924",
+      "ranking_source": "https://fortune.com/company/paccar/",
+      "careers_source": "https://jobs.paccar.com/search/",
+      "samples": [
+        {
+          "title": "Maintenance Mechanic",
+          "location": "Renton, WA, US, 98055",
+          "source_url": "https://jobs.paccar.com/job/Renton-Maintenance-Mechanic-WA-98055/1413966533"
+        },
+        {
+          "title": "Senior Microsoft 365 Messaging and Collaboration Engineer (GR 31)",
+          "location": "Renton, WA, US, 98057",
+          "source_url": "https://jobs.paccar.com/job/Renton-Senior-Microsoft-365-Messaging-and-Collaboration-Engineer-%28GR-31%29-WA-98057/1414002833"
+        },
+        {
+          "title": "Unit Manager",
+          "location": "Louisville, KY, US, 40258",
+          "source_url": "https://jobs.paccar.com/job/Louisville-Unit-Manager-KY-40258/1424523733"
+        }
+      ]
+    },
+    {
+      "rank": 159,
+      "company_id": "medline",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-07T07:21:10.173409+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "ff87b04952ea87f0518143499a22868347ac347a9e7f5ffb675d5bece037ced1",
+      "ranking_source": "https://fortune.com/company/medline/",
+      "careers_source": "https://www.medline.com/about-us/careers/",
+      "samples": [
+        {
+          "title": "Warehouse Operator",
+          "location": "West Jefferson, Ohio",
+          "source_url": "https://medline.wd5.myworkdayjobs.com/Medline/job/West-Jefferson-Ohio/Warehouse-Operator_R2615016"
+        },
+        {
+          "title": "Maintenance Tech 12HR AM/PM",
+          "location": "Hartland, Wisconsin",
+          "source_url": "https://medline.wd5.myworkdayjobs.com/Medline/job/Hartland-Wisconsin/Maintenance-Tech-12HR-AM-PM_R2617236"
+        },
+        {
+          "title": "Maintenance Tech I 12HR PM - $6,500 Sign On Bonus!",
+          "location": "Hartland, Wisconsin",
+          "source_url": "https://medline.wd5.myworkdayjobs.com/Medline/job/Hartland-Wisconsin/Maintenance-Tech-I-12HR-PM----6-500-Sign-On-Bonus-_R2601916"
+        }
+      ]
+    },
+    {
+      "rank": 160,
+      "company_id": "applied-materials",
+      "status": "verified",
+      "strategy": "generic_json",
+      "checked_at": "2026-09-07T07:07:43.043663+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "bebb3c0fa6d5c423c3f2aa3d527b3888fdf478ee95e8e1ab054b7f4e4405f339",
+      "ranking_source": "https://fortune.com/company/applied-materials/",
+      "careers_source": "https://careers.appliedmaterials.com/search-jobs",
+      "samples": [
+        {
+          "title": "Shift Supervisor (M2) - Boise, ID",
+          "location": "['Boise,ID']",
+          "source_url": "https://careers.appliedmaterials.com/careers/job/790312945109"
+        },
+        {
+          "title": "Manager, Data Scientist",
+          "location": "['Austin,TX']",
+          "source_url": "https://careers.appliedmaterials.com/careers/job/790317004117"
+        },
+        {
+          "title": "Customer Support Technician 客戶支援助理工程師",
+          "location": "['Hsinchu,TWN']",
+          "source_url": "https://careers.appliedmaterials.com/careers/job/790298881094"
+        }
+      ]
+    },
+    {
+      "rank": 160,
+      "company_id": "hartford",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-07T07:20:59.855069+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "09c1f9124beff78c2814c917f247871077dab2a0a20378cf167b196ba2c26675",
+      "ranking_source": "https://fortune.com/company/hartford-financial-services/",
+      "careers_source": "https://www.thehartford.com/careers",
+      "samples": [
+        {
+          "title": "Staff or Senior Staff Attorney , Workers' Compensation",
+          "location": "Brea, CA",
+          "source_url": "https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Brea-CA/Staff-or-Senior-Staff-Attorney---Workers--Compensation_R2626304"
+        },
+        {
+          "title": "Client Relationship Manager, Employee Benefits",
+          "location": "United States - Remote",
+          "source_url": "https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/United-States---Remote/Client-Relationship-Manager--Employee-Benefits_R2626715"
+        },
+        {
+          "title": "Senior Security Engineer",
+          "location": "Hartford, CT",
+          "source_url": "https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Hartford-CT/Senior-Security-Engineer_R2625632"
+        }
+      ]
+    },
+    {
+      "rank": 162,
+      "company_id": "carmax",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-07T07:20:55.273105+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "f2f9f513452f3119cd908c626dfeefeffcf9d6f55e5347c402117bcc72945da8",
+      "ranking_source": "https://fortune.com/company/carmax/",
+      "careers_source": "https://careers.carmax.com/us/en/search-results",
+      "samples": [
+        {
+          "title": "ASE Automotive Technician - Up to $7,500 Sign On Bonus!",
+          "location": "TX - San Marcos",
+          "source_url": "https://carmax.wd1.myworkdayjobs.com/External/job/TX---San-Marcos/ASE-Automotive-Technician---Up-to--7-500-Sign-On-Bonus-_JR-184706"
+        },
+        {
+          "title": "Automotive Technician - Up to $5,000 Sign On Bonus!",
+          "location": "TX - San Marcos",
+          "source_url": "https://carmax.wd1.myworkdayjobs.com/External/job/TX---San-Marcos/Automotive-Technician---Up-to--5-000-Sign-On-Bonus-_JR-184704"
+        },
+        {
+          "title": "Auction Services Associate",
+          "location": "TX - Houston",
+          "source_url": "https://carmax.wd1.myworkdayjobs.com/External/job/TX---Houston/Auction-Services-Associate_JR-174341"
+        }
+      ]
+    },
+    {
+      "rank": 163,
+      "company_id": "southwest",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-07T07:21:20.949502+00:00",
+      "job_count": 14,
+      "pages": 15,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "02a0b6612327bb004a0154c47749c7e872e51e9893c9aa20c27a1a524275d857",
+      "ranking_source": "https://fortune.com/company/southwest-airlines/",
+      "careers_source": "https://careers.southwestair.com/us/en/search-results",
+      "samples": [
+        {
+          "title": "Operations Agent - PIT (Part-Time)",
+          "location": "PA-Pittsburgh",
+          "source_url": "https://swa.wd1.myworkdayjobs.com/external/job/PA-Pittsburgh/Operations-Agent---PIT--Part-Time-_R-2026-71441"
+        },
+        {
+          "title": "Tech Lead Software Engineer",
+          "location": "TX-Dallas",
+          "source_url": "https://swa.wd1.myworkdayjobs.com/external/job/TX-Dallas/Tech-Lead-Software-Engineer_R-2026-71516"
+        },
+        {
+          "title": "Sr Software Engineer - Agentic",
+          "location": "India Office",
+          "source_url": "https://swa.wd1.myworkdayjobs.com/external/job/India-Office/Sr-Software-Engineer---Agentic_R-2026-68057"
+        }
+      ]
+    },
+    {
+      "rank": 164,
+      "company_id": "baker-hughes",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-07T07:20:47.238158+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "88e69e2f723a8a0f964fde8e2c82dc91084da14f701e47fd445a3025c58ead95",
+      "ranking_source": "https://fortune.com/company/baker-hughes/",
+      "careers_source": "https://careers.bakerhughes.com/global/en/search-results",
+      "samples": [
+        {
+          "title": "Senior Mechanical Project Engineer- Tree Systems",
+          "location": "GB-AC-ABERDEEN-BAKER HUGHES BUILDING",
+          "source_url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/GB-AC-ABERDEEN-BAKER-HUGHES-BUILDING/Project-Senior-engineer_R167365"
+        },
+        {
+          "title": "ARMO Tech - Electro Mech I",
+          "location": "CN-TIANJIN-# 1 JIXIU BASE HARBOR ECONOMIC AREA",
+          "source_url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/CN-TIANJIN--1-JIXIU-BASE-HARBOR-ECONOMIC-AREA/ARMO-Tech---Electro-Mech-II_R165541"
+        },
+        {
+          "title": "Senior Commercial Manager - Industrial Power Generation (M/F/D)",
+          "location": "IT-FI-FLORENCE-VIA FELICE MATTEUCCI 2",
+          "source_url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/IT-FI-FLORENCE-VIA-FELICE-MATTEUCCI-2/Senior-Commercial-Manager---Industrial-Power-Generation--M-F-D-_R166515"
+        }
+      ]
+    },
+    {
+      "rank": 165,
+      "company_id": "charles-schwab",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-07T06:56:42.176463+00:00",
+      "job_count": 15,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "af7d9f2099f56140047d3409e1c13fffbf11ecbcf3efcba2bd69c41f8c9bc886",
+      "ranking_source": "https://fortune.com/company/charles-schwab/",
+      "careers_source": "https://www.schwabjobs.com/search-jobs",
+      "samples": [
+        {
+          "title": "SRE Sr Specialist - Software Development & Engineering",
+          "location": "Hyderabad, Telangana",
+          "source_url": "https://www.schwabjobs.com/job/hyderabad/sre-sr-specialist-software-development-and-engineering/33995/100287013264"
+        },
+        {
+          "title": "Director, Securities Lending Trading Platform Strategy & Business Management",
+          "location": "New York, NY",
+          "source_url": "https://www.schwabjobs.com/job/new-york/director-securities-lending-trading-platform-strategy-and-business-management/33727/99778273968"
+        },
+        {
+          "title": "Manager, Business Systems Analyst- Liquidity",
+          "location": "Westlake, TX",
+          "source_url": "https://www.schwabjobs.com/job/westlake/manager-business-systems-analyst-liquidity/33727/99807984224"
+        }
+      ]
+    },
+    {
+      "rank": 166,
+      "company_id": "autonation",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-07T07:20:47.238158+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "19f36a9257392e90d820b2cb269057852ad2c7c1239d0bef29e1bce385d3a8e4",
+      "ranking_source": "https://fortune.com/company/auto-nation/",
+      "careers_source": "https://jobs.autonation.com/jobs",
+      "samples": [
+        {
+          "title": "Express Automotive Technician | AutoNation Honda 104",
+          "location": "AutoNation Honda 104",
+          "source_url": "https://autonation.wd5.myworkdayjobs.com/Careers/job/AutoNation-Honda-104/Auto-Express-Lube-Technician---AutoNation-Honda-104---Pays--20-per-hour_JR2026146982"
+        },
+        {
+          "title": "Express Lube / Tire Auto Technician | AutoNation Acura Colorado Springs",
+          "location": "AutoNation Acura Colorado Springs",
+          "source_url": "https://autonation.wd5.myworkdayjobs.com/Careers/job/AutoNation-Acura-Colorado-Springs/Express-Lube---Tire-Auto-Technician---AutoNation-Acura-Colorado-Springs_JR2026148703"
+        },
+        {
+          "title": "Senior Recon - Used Car Technician / Monday - Friday work Schedule",
+          "location": "AutoNation USA Denton",
+          "source_url": "https://autonation.wd5.myworkdayjobs.com/Careers/job/AutoNation-USA-Denton/Senior-Recon---Used-Car-Technician---Monday---Friday-work-Schedule_JR2026146592"
+        }
+      ]
+    },
+    {
+      "rank": 167,
+      "company_id": "nextera-energy",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-07T06:56:38.803692+00:00",
+      "job_count": 100,
+      "pages": 4,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "049c8244399f7c5e5f802eea1da5ea31f0779653770238bdc35c179c142c345d",
+      "ranking_source": "https://fortune.com/company/nextera-energy/",
+      "careers_source": "https://jobs.nexteraenergy.com/search/",
+      "samples": [
+        {
+          "title": "Principal Physical Trader",
+          "location": "Juno Beach, FL, US, 33408",
+          "source_url": "https://jobs.nexteraenergy.com/job/Juno-Beach-Principal-Physical-Trader-FL-33408/1407817900"
+        },
+        {
+          "title": "Principal Data Analyst",
+          "location": "Juno Beach, FL, US, 33408",
+          "source_url": "https://jobs.nexteraenergy.com/job/Juno-Beach-Principal-Data-Analyst-FL-33408/1390852300"
+        },
+        {
+          "title": "Power Generation Engineer - Controls",
+          "location": "Palm Beach Gardens, FL, US, 33410",
+          "source_url": "https://jobs.nexteraenergy.com/job/Palm-Beach-Gardens-Power-Generation-Engineer-Controls-FL-33410/1407822000"
+        }
+      ]
+    },
+    {
+      "rank": 168,
+      "company_id": "marsh-mclennan",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-07T07:21:09.161555+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "d0cef3a40e5a70390ce847cbfbdc621d91d3caa5e9a899dada9ae7a1098a4a75",
+      "ranking_source": "https://fortune.com/company/marsh-mclennan/",
+      "careers_source": "https://careers.marshmclennan.com/global/en/search-results",
+      "samples": [
+        {
+          "title": "Facultative (FACS) Broker",
+          "location": "Johannesburg - Alice",
+          "source_url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Johannesburg---Alice/Facultative--FACS--Broker_R_361318"
+        },
+        {
+          "title": "Client Adviser / クライアント案件担当・営業事務 / Credit Specialty / クレジットスペシャルティーズ【マーシュブローカージャパン(MBJ)出向】- Marsh Risk - Tokyo, Japan",
+          "location": "Tokyo - Akasaka",
+          "source_url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Tokyo---Akasaka/Client-Adviser-------Credit-Specialty-----MBJ----Marsh-Risk---Tokyo--Japan_R_355635-1"
+        },
+        {
+          "title": "Client Relationship Management - Senior Analyst",
+          "location": "Tokyo - Akasaka",
+          "source_url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Tokyo---Akasaka/Client-Relationship-Management---Senior-Analyst_R_356166-1"
+        }
+      ]
+    },
+    {
+      "rank": 169,
+      "company_id": "booking-holdings",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-07T07:06:10.236529+00:00",
+      "job_count": 7,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "Partial holding-company coverage: the first listed role in each category, excluding separate subsidiary career boards."
+      ],
+      "recipe_sha256": "59f74957b4c9a84bcb0e47654f79f0b866e6f411566c5bed47de562d37ff7492",
+      "ranking_source": "https://fortune.com/company/booking-holdings/",
+      "careers_source": "https://www.bookingholdings.com/careers/",
+      "samples": [
+        {
+          "title": "Head of Communications, B2B",
+          "location": "New York, New York, USA",
+          "source_url": "https://www.bookingholdings.com/careers-listing/head-of-communications-b2b"
+        },
+        {
+          "title": "Senior Legal Counsel, Global Compliance & Ethics",
+          "location": "Norwalk, Connecticut, USA",
+          "source_url": "https://www.bookingholdings.com/careers-listing/senior-legal-counsel-global-compliance-ethics"
+        },
+        {
+          "title": "Global Sr Enterprise Security Architect (Director level)",
+          "location": "Norwalk, Connecticut, USA",
+          "source_url": "https://www.bookingholdings.com/careers-listing/global-sr-enterprise-security-architect-director-level"
+        }
+      ]
+    },
+    {
+      "rank": 170,
+      "company_id": "mcdonalds",
+      "status": "verified",
+      "strategy": "smartrecruiters",
+      "checked_at": "2026-09-07T07:10:26.373080+00:00",
+      "job_count": 4,
+      "pages": 4,
+      "complete": false,
+      "warnings": [
+        "description detail enrichment skipped 1 jobs after the configured 3-posting limit",
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "Small legacy SmartRecruiters feed, including a franchise opportunity; not the full restaurant or global corporate job catalog. Source links expose the public job JSON."
+      ],
+      "recipe_sha256": "cbbcf49e28ef86e03a1f621c01c132e4e6697c77c51908e63837320320537efe",
+      "ranking_source": "https://fortune.com/company/mcdonalds/",
+      "careers_source": "https://careers.mcdonalds.com/",
+      "samples": [
+        {
+          "title": "Franchisee UK & Ireland",
+          "location": "London, England, United Kingdom",
+          "source_url": "https://api.smartrecruiters.com/v1/companies/McDonaldsCorporation/postings/744000120624847"
+        },
+        {
+          "title": "Sr. Engineer, Access Governance",
+          "location": "Ciudad de México, CDMX, Mexico",
+          "source_url": "https://api.smartrecruiters.com/v1/companies/McDonaldsCorporation/postings/744000114147537"
+        },
+        {
+          "title": "Azure Specialist",
+          "location": "Ciudad de México, CDMX, Mexico",
+          "source_url": "https://api.smartrecruiters.com/v1/companies/McDonaldsCorporation/postings/744000103567655"
+        }
+      ]
+    },
+    {
+      "rank": 171,
+      "company_id": "hf-sinclair",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-07T06:56:38.804692+00:00",
+      "job_count": 40,
+      "pages": 4,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "bc6cbd05f133ef0d8b52500fcdd1123e288bbfeb044531b98404ff169b7fd00e",
+      "ranking_source": "https://fortune.com/company/hollyfrontier/",
+      "careers_source": "https://careers.hfsinclair.com/search/",
+      "samples": [
+        {
+          "title": "Renewable Feedstock Trader",
+          "location": "Dallas, TX, US, 75219",
+          "source_url": "https://careers.hfsinclair.com/job/Dallas-Renewable-Feedstock-Trader-TX-75219/1399183100"
+        },
+        {
+          "title": "Process Engineer",
+          "location": "Artesia, NM, US, 88210",
+          "source_url": "https://careers.hfsinclair.com/job/Artesia-Process-Engineer-NM-88210/1399011700"
+        },
+        {
+          "title": "Procurement Specialist",
+          "location": "Dallas, TX, US, 75219",
+          "source_url": "https://careers.hfsinclair.com/job/Dallas-Procurement-Specialist-TX-75219/1407707400"
+        }
+      ]
+    },
+    {
+      "rank": 172,
+      "company_id": "aig",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-07T07:20:47.237038+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "b9f59236cc035f2a107110ffe5cd1b381c4e898b0570e73bf4e2cb192eebd59d",
+      "ranking_source": "https://fortune.com/company/aig/",
+      "careers_source": "https://www.aig.com/home/careers",
+      "samples": [
+        {
+          "title": "Treasury Analyst",
+          "location": "Dublin",
+          "source_url": "https://aig.wd1.myworkdayjobs.com/aig/job/Dublin/Treasury-Analyst_JR2602832"
+        },
+        {
+          "title": "Full-Stack Software Engineer - GenAI",
+          "location": "GA-Atlanta",
+          "source_url": "https://aig.wd1.myworkdayjobs.com/aig/job/GA-Atlanta/Full-Stack-Software-Engineer---GenAI_JR2600811"
+        },
+        {
+          "title": "Senior Casualty Underwriter",
+          "location": "Copenhagen",
+          "source_url": "https://aig.wd1.myworkdayjobs.com/aig/job/Copenhagen/Senior-Casualty-Underwriter_JR2602844"
+        }
+      ]
+    },
+    {
+      "rank": 173,
+      "company_id": "occidental",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-07T07:21:14.939654+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "a42a38fe5cf7cf290f6354d0d2780e0383431df018869803a39fd3ac37918f09",
+      "ranking_source": "https://fortune.com/company/occidental-petroleum/",
+      "careers_source": "https://www.oxy.com/careers/",
+      "samples": [
+        {
+          "title": "Instrumentation & Electrical Technician (Direct Air Capture - Stratos)",
+          "location": "Ector County",
+          "source_url": "https://oxy.wd5.myworkdayjobs.com/Corporate/job/Ector-County/Instrumentation---Electrical-Technician--Direct-Air-Capture---Stratos-_JR100007"
+        },
+        {
+          "title": "Talent Support Coordinator",
+          "location": "Tulsa, Oklahoma",
+          "source_url": "https://oxy.wd5.myworkdayjobs.com/Corporate/job/Tulsa-Oklahoma/Talent-Support-Coordinator_JR110542"
+        },
+        {
+          "title": "Engineering Tech I",
+          "location": "Houston, Texas",
+          "source_url": "https://oxy.wd5.myworkdayjobs.com/Corporate/job/Houston-Texas/Engineering-Tech-I_JR110355"
+        }
+      ]
+    },
+    {
+      "rank": 174,
+      "company_id": "marriott",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-07T07:01:05.401423+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "44957f385b87668c158731c777cec9e8f20989842a01bf77e1364612d5620f0d",
+      "ranking_source": "https://fortune.com/company/marriott-international/",
+      "careers_source": "https://careers.marriott.com/jobs",
+      "samples": [
+        {
+          "title": "Sales Manager - Room Sales",
+          "location": "Ahmedabad, Gujarat, India",
+          "source_url": "https://ejwl.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/26072113"
+        },
+        {
+          "title": "Sales Manager-Japanese Speaker - The St. Regis Jakarta",
+          "location": "Daerah Khusus Ibukota Jakarta, Indonesia",
+          "source_url": "https://ejwl.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/26086259"
+        },
+        {
+          "title": "Food & Beverage Attendant - Lagoons",
+          "location": "Port Douglas, QLD, Australia",
+          "source_url": "https://ejwl.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/26087362"
+        }
+      ]
+    },
+    {
+      "rank": 175,
+      "company_id": "jll",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-07T07:21:07.267393+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "842fc1eecb7fd4b152d6b8418fd02a736ca2195100e22c6df3a3f31fc47653bd",
+      "ranking_source": "https://fortune.com/company/jones-lang-lasalle/",
+      "careers_source": "https://www.us.jll.com/en/careers",
+      "samples": [
+        {
+          "title": "Analyst - Contract to Billing",
+          "location": "Gurugram, HR",
+          "source_url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Gurugram-HR/Analyst---Contract-to-Billing_REQ531895"
+        },
+        {
+          "title": "Senior Facility Executive- Soft Services",
+          "location": "Mumbai, MH",
+          "source_url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Mumbai-MH/Senior-Facility-Executive--Soft-Services_REQ532590"
+        },
+        {
+          "title": "Front Office Executive",
+          "location": "Mumbai, MH",
+          "source_url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Mumbai-MH/Front-Office-Executive_REQ514182"
+        }
+      ]
+    },
+    {
+      "rank": 176,
+      "company_id": "international-paper",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-07T07:09:02.586850+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "d03c8086b0366d6b220bed58d7d20ac940fb878671066f1b5c4b80710ef02adc",
+      "ranking_source": "https://fortune.com/company/international-paper/",
+      "careers_source": "https://jobs.internationalpaper.com/search/",
+      "samples": [
+        {
+          "title": "Entry Level Operator",
+          "location": "Valliant, OK, United States",
+          "source_url": "https://iazbqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2003889"
+        },
+        {
+          "title": "Production Associate-Russ Box",
+          "location": "Russellville, AR, United States",
+          "source_url": "https://iazbqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2003919"
+        },
+        {
+          "title": "Maintenance",
+          "location": "Indianapolis, IN, United States",
+          "source_url": "https://iazbqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2002334"
+        }
+      ]
+    },
+    {
+      "rank": 177,
+      "company_id": "freeport-mcmoran",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-07T06:58:10.180359+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "32278e9dbba34138f15eb78322d0c8621905f5542a8770c936a59c0f83feb59e",
+      "ranking_source": "https://fortune.com/company/freeport-mcmoran/",
+      "careers_source": "https://jobs.fcx.com/search/",
+      "samples": [
+        {
+          "title": "Machinist - Mechanical Field Services",
+          "location": "Morenci, AZ, US, 85540",
+          "source_url": "https://jobs.fcx.com/job/Morenci-Machinist-Mechanical-Field-Services-AZ-85540/1314864700"
+        },
+        {
+          "title": "Diesel Diagnostic Mechanic I - Mine Maintenance",
+          "location": "Morenci, AZ, US, 85540",
+          "source_url": "https://jobs.fcx.com/job/Morenci-Diesel-Diagnostic-Mechanic-I-Mine-Maintenance-AZ-85540/1287698900"
+        },
+        {
+          "title": "Technical Expert, Mine Operations - Development Services Expert",
+          "location": "Papua, ID, 99967",
+          "source_url": "https://jobs.fcx.com/job/Papua-Technical-Expert%2C-Mine-Operations-Development-Services-Expert-99967/1407537900"
+        }
+      ]
+    },
+    {
+      "rank": 178,
+      "company_id": "constellation-energy",
+      "status": "verified",
+      "strategy": "generic_json",
+      "checked_at": "2026-09-07T07:00:31.375455+00:00",
+      "job_count": 100,
+      "pages": 5,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "1b137e207521f59fa8b52f10bfa2f4a077cb1e9f9b0ab9096bdebd3eb199f8d7",
+      "ranking_source": "https://fortune.com/company/constellation-energy/",
+      "careers_source": "https://jobs.constellationenergy.com/jobs",
+      "samples": [
+        {
+          "title": "Manager Design Engineering",
+          "location": "Byron, Illinois",
+          "source_url": "https://jobs.constellationenergy.com/jobs/137529?lang=en-us"
+        },
+        {
+          "title": "Shift Foreman",
+          "location": "Eddystone, Pennsylvania",
+          "source_url": "https://jobs.constellationenergy.com/jobs/138191?lang=en-us"
+        },
+        {
+          "title": "Refrigeration Appliance Technician",
+          "location": "Baltimore, Maryland",
+          "source_url": "https://jobs.constellationenergy.com/jobs/138379?lang=en-us"
+        }
+      ]
+    },
+    {
+      "rank": 179,
+      "company_id": "waste-management",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-07T07:01:05.400258+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "ff9ad284b563d18ab5111d5c07083af43f44b8d80ab1225f318a26f5f7689a50",
+      "ranking_source": "https://fortune.com/company/waste-management/",
+      "careers_source": "https://careers.wm.com/",
+      "samples": [
+        {
+          "title": "Operations Manager Residential",
+          "location": "Naples, FL, United States (On-site)",
+          "source_url": "https://emcm.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/WMCareers/job/2353126"
+        },
+        {
+          "title": "Helper",
+          "location": "Medley, FL, United States (On-site)",
+          "source_url": "https://emcm.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/WMCareers/job/2353061"
+        },
+        {
+          "title": "Plant Associate",
+          "location": "Vernon, CA, United States and 2 more (On-site)",
+          "source_url": "https://emcm.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/WMCareers/job/2347306"
+        }
+      ]
+    },
+    {
+      "rank": 180,
+      "company_id": "live-nation",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-07T07:21:07.821224+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "f7f402158c5123f1909397d6036d73d7422df581cc9f771ec081926484b53d4b",
+      "ranking_source": "https://fortune.com/company/live-nation-entertainment/",
+      "careers_source": "https://www.livenationentertainment.com/careers/",
+      "samples": [
+        {
+          "title": "Evening Porter - The Pavilion at Toyota Music Factory",
+          "location": "Irving, TX, USA",
+          "source_url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Irving-TX-USA/Evening-Porter---The-Pavilion-at-Toyota-Music-Factory_JR-87335"
+        },
+        {
+          "title": "Backstage Experience Coordinator/Production Runner",
+          "location": "Phoenix, AZ, USA",
+          "source_url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Phoenix-AZ-USA/Backstage-Experience-Coordinator-Production-Runner_JR-93026"
+        },
+        {
+          "title": "Security Scheduling Manager - Live Nation/Crossroads Venues Boston",
+          "location": "Cambridge, MA, USA",
+          "source_url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Cambridge-MA-USA/Security-Scheduling-Manager---Live-Nation-Crossroads-Venues-Boston_JR-93014"
+        }
+      ]
+    },
+    {
+      "rank": 181,
+      "company_id": "stryker",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-07T07:21:22.886937+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "13ecdc8145d563719c91738abdf4dc20d5afe5c59f24f7bff6d12d3765dbc9b6",
+      "ranking_source": "https://fortune.com/company/stryker/",
+      "careers_source": "https://careers.stryker.com/jobs",
+      "samples": [
+        {
+          "title": "Associate Territory Manager - Orthopaedics",
+          "location": "Melbourne, Australia",
+          "source_url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Melbourne-Australia/Associate-Territory-Manager---Orthopaedics_R569606"
+        },
+        {
+          "title": "Pricing Manager - Southern Europe",
+          "location": "Rome, Italy",
+          "source_url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Rome-Italy/Pricing-Manager---Southern-Europe_R556652"
+        },
+        {
+          "title": "Senior Manager, Sales Compensation (EMEA & Latin America)",
+          "location": "Amsterdam, Netherlands",
+          "source_url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Senior-Manager--Sales-Compensation--EMEA---Latin-America-_R571021"
+        }
+      ]
+    },
+    {
+      "rank": 182,
+      "company_id": "dollar-tree",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-07T07:20:57.313945+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "bd2a7df98f6bcc5336f88d7ad008ecb8304feb9e4de536d8cccc10a9c2dc3543",
+      "ranking_source": "https://fortune.com/company/dollar-tree/",
+      "careers_source": "https://careers.dollartree.com/us/en/search-results",
+      "samples": [
+        {
+          "title": "Merchandising Assistant Manager",
+          "location": "FL-Arcadia",
+          "source_url": "https://dollartree.wd5.myworkdayjobs.com/dollartreeus/job/FL-Arcadia/Merchandising-Assistant-Manager_R-333187"
+        },
+        {
+          "title": "Assistant Manager II",
+          "location": "GA-Jefferson",
+          "source_url": "https://dollartree.wd5.myworkdayjobs.com/dollartreeus/job/GA-Jefferson/Assistant-Manager-II_R-333592"
+        },
+        {
+          "title": "Assistant Manager I",
+          "location": "WA-Othello",
+          "source_url": "https://dollartree.wd5.myworkdayjobs.com/dollartreeus/job/WA-Othello/Assistant-Manager-I_R-333588"
+        }
+      ]
+    },
+    {
+      "rank": 183,
+      "company_id": "3m",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-07T07:20:47.235860+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "8cf96abbe98e05a2d39b5a48e9ebd027bfed22c40853df25e3785df917e8d254",
+      "ranking_source": "https://fortune.com/company/3m/",
+      "careers_source": "https://www.3m.com/3M/en_US/careers-us/",
+      "samples": [
+        {
+          "title": "Manager / Specialist – Product Development – Electronics",
+          "location": "IN, Bangalore Kar",
+          "source_url": "https://3m.wd1.myworkdayjobs.com/Search/job/IN-Bangalore-Kar/Specialist---Product-Development---Electronics_R01170300"
+        },
+        {
+          "title": "Specialist-Tax Accounting",
+          "location": "IN, BANGALORE",
+          "source_url": "https://3m.wd1.myworkdayjobs.com/Search/job/IN-BANGALORE/Specialist-Tax-Accounting_R01170581"
+        },
+        {
+          "title": "Senior Specialist, 3rd Party Manufacturing",
+          "location": "IN, BANGALORE",
+          "source_url": "https://3m.wd1.myworkdayjobs.com/Search/job/IN-BANGALORE/Senior-Specialist--3rd-Party-Manufacturing_R01169664-2"
+        }
+      ]
+    },
+    {
+      "rank": 184,
+      "company_id": "kraft-heinz",
+      "status": "verified",
+      "strategy": "generic_json",
+      "checked_at": "2026-09-07T07:08:35.385553+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "7a542173444f35b55f72eda0e57fd09c6552d7e5810f1342fcce5a27f9a7f9e7",
+      "ranking_source": "https://fortune.com/company/kraft-heinz/",
+      "careers_source": "https://careers.kraftheinz.com/",
+      "samples": [
+        {
+          "title": "Senior Brand Manager, Marketing (Base - Multiple Positions)",
+          "location": "['Chicago/Aon Center, Illinois, United States of America']",
+          "source_url": "https://jobs.kraftheinz.com/careers/job/1970324837390384"
+        },
+        {
+          "title": "Sr Key Account Manager Mini Hyper Super",
+          "location": "['Menara Mandiri, Indonesia']",
+          "source_url": "https://jobs.kraftheinz.com/careers/job/1970324837513537"
+        },
+        {
+          "title": "Culinary & AFH Category Manager - AT",
+          "location": "['El Tagamoa El Khames Commercial Office, Cairo, Egypt']",
+          "source_url": "https://jobs.kraftheinz.com/careers/job/1970324837383695"
+        }
+      ]
+    },
+    {
+      "rank": 185,
+      "company_id": "pge",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-07T06:56:39.676479+00:00",
+      "job_count": 15,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "1f28f72db33cc0b3c76c49c068b42667c5bb40b1f86f6b670e15935c879964af",
+      "ranking_source": "https://fortune.com/company/pge-corp/",
+      "careers_source": "https://jobs.pge.com/search-jobs",
+      "samples": [
+        {
+          "title": "Operations Data Analyst, Principal",
+          "location": "Oakland, CA",
+          "source_url": "https://jobs.pge.com/job/oakland/operations-data-analyst-principal/29673/94610480032"
+        },
+        {
+          "title": "Principal Program Manager - HSR, Caltrain, BART",
+          "location": "Oakland, CA",
+          "source_url": "https://jobs.pge.com/job/oakland/principal-program-manager-hsr-caltrain-bart/29673/97859699920"
+        },
+        {
+          "title": "Senior Electric Distribution Engineer, Asset Strategy Engineering - Oakland",
+          "location": "Oakland, CA",
+          "source_url": "https://jobs.pge.com/job/oakland/senior-electric-distribution-engineer-asset-strategy-engineering-oakland/29673/99190533552"
+        }
+      ]
+    },
+    {
+      "rank": 186,
+      "company_id": "danaher",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-07T07:20:56.154893+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "5483af0860a630fa1f1003664710caa4bc813666cdea2b87b4ac6db618948093",
+      "ranking_source": "https://fortune.com/company/danaher/",
+      "careers_source": "https://jobs.danaher.com/global/en/search-results",
+      "samples": [
+        {
+          "title": "Production Associate II",
+          "location": "Singapore, Singapore",
+          "source_url": "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Singapore-Singapore/Production-Associate-II_R1318316"
+        },
+        {
+          "title": "Calibration and Preventive Maintenance Technician",
+          "location": "New Brighton, Minnesota, United States",
+          "source_url": "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/New-Brighton-Minnesota-United-States/Calibration-and-Preventive-Maintenance-Technician_R1310998"
+        },
+        {
+          "title": "CNC Grinder II (Manual) - 2nd Shift",
+          "location": "New Port Richey, Florida, United States",
+          "source_url": "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/New-Port-Richey-Florida-United-States/CNC-Grinder-II--Manual----2nd-Shift_R1314550"
+        }
+      ]
+    },
+    {
+      "rank": 187,
+      "company_id": "union-pacific",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-07T06:58:10.177118+00:00",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "e343fe98ec35d5fe7c6ba19dbb57e2001ece2a40fb4a64c9733381a59b3f339a",
+      "ranking_source": "https://fortune.com/company/union-pacific/",
+      "careers_source": "https://up.jobs/",
+      "samples": [
+        {
+          "title": "Electrician Diesel Engines - North Platte, NE",
+          "location": "NO PLATTE, NE, US, 68000",
+          "source_url": "https://up.jobs/job/NO-PLATTE-Electrician-Diesel-Engines-North-Platte%2C-NE-NE-68000/1373741000"
+        },
+        {
+          "title": "Mechanical Service Operator (Locomotive) - North Platte, NE",
+          "location": "NO PLATTE, NE, US, 68000",
+          "source_url": "https://up.jobs/job/NO-PLATTE-Mechanical-Service-Operator-%28Locomotive%29-North-Platte%2C-NE-NE-68000/1373741700"
+        },
+        {
+          "title": "Mechanic - Diesel Engines - North Platte, NE",
+          "location": "NO PLATTE, NE, US, 68000",
+          "source_url": "https://up.jobs/job/NO-PLATTE-Mechanic-Diesel-Engines-North-Platte%2C-NE-NE-68000/1373739400"
+        }
+      ]
+    },
+    {
+      "rank": 188,
+      "company_id": "genuine-parts",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-07T06:56:44.933835+00:00",
+      "job_count": 15,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "112fff09ce6447c077c5a96fc70d2922c1e6e90323073184d744c7b72033dcb5",
+      "ranking_source": "https://fortune.com/company/genuine-parts/",
+      "careers_source": "https://jobs.genpt.com/search-jobs",
+      "samples": [
+        {
+          "title": "ASE Certified Automotive Technician",
+          "location": "Newberg, OR |",
+          "source_url": "https://jobs.genpt.com/job/newberg/ase-certified-automotive-technician/39539/99813555920"
+        },
+        {
+          "title": "Diesel Technician",
+          "location": "Columbia, MO |",
+          "source_url": "https://jobs.genpt.com/job/columbia/diesel-technician/39539/99768331216"
+        },
+        {
+          "title": "Service Advisor",
+          "location": "Newberg, OR |",
+          "source_url": "https://jobs.genpt.com/job/newberg/service-advisor/39539/96092318928"
+        }
+      ]
+    },
+    {
+      "rank": 189,
+      "company_id": "exelon",
+      "status": "verified",
+      "strategy": "generic_json",
+      "checked_at": "2026-09-07T07:00:31.375455+00:00",
+      "job_count": 100,
+      "pages": 5,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "faf8a4118a8cd3f77f701eb3d9c64c7d5848d0b8457ae71f5db59b0688376a16",
+      "ranking_source": "https://fortune.com/company/exelon/",
+      "careers_source": "https://jobs.exeloncorp.com/jobs",
+      "samples": [
+        {
+          "title": "Sr Regulatory Specialist (Regulatory Strategy)-Oakbrook Terrace. IL",
+          "location": "CHICAGO, Illinois",
+          "source_url": "https://jobs.exeloncorp.com/careers-home/jobs"
+        },
+        {
+          "title": "Health Care Professional Case Manager",
+          "location": "JOLIET, Illinois",
+          "source_url": "https://jobs.exeloncorp.com/careers-home/jobs"
+        },
+        {
+          "title": "Sr Gas System Controller - BGE",
+          "location": "BALTIMORE, Maryland",
+          "source_url": "https://jobs.exeloncorp.com/careers-home/jobs"
+        }
+      ]
+    },
+    {
+      "rank": 190,
+      "company_id": "blackrock",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-07T06:56:38.806774+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "03bbdcf620d02fcb384c78cd683f96c0277b7f0d2840296453b008587cb97581",
+      "ranking_source": "https://fortune.com/company/blackrock/",
+      "careers_source": "https://careers.blackrock.com/search-jobs",
+      "samples": [
+        {
+          "title": "Vice President, Investment Data Management - PFS",
+          "location": "New York, NY",
+          "source_url": "https://careers.blackrock.com/job/new-york/vice-president-investment-data-management-pfs/45831/98588538528"
+        },
+        {
+          "title": "Director, Institutional Compliance",
+          "location": "San Francisco, CA",
+          "source_url": "https://careers.blackrock.com/job/san-francisco/director-institutional-compliance/45831/100191831568"
+        },
+        {
+          "title": "Veterans Transition Program-Client Service Associate",
+          "location": "Wilmington, DE",
+          "source_url": "https://careers.blackrock.com/job/wilmington/veterans-transition-program-client-service-associate/45831/98422466720"
+        }
+      ]
+    },
+    {
+      "rank": 191,
+      "company_id": "block",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-07T12:58:49.640691+00:00",
+      "job_count": 50,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "785da838b9cb4131347934ec8eb8415fa1499bae5e1ea5cfeab031e4ee8a6301",
+      "ranking_source": "https://fortune.com/company/square/",
+      "careers_source": "https://block.xyz/careers/jobs",
+      "samples": [
+        {
+          "title": "Business Intelligence Analyst",
+          "location": "Toronto, Ontario, Canada",
+          "source_url": "https://block.xyz/careers/jobs/5369959008"
+        },
+        {
+          "title": "People Intelligence Architect",
+          "location": "Bay Area, CA, US",
+          "source_url": "https://block.xyz/careers/jobs/5406274008"
+        },
+        {
+          "title": "Staff Data Analyst, Block Compliance",
+          "location": "Denver, CO, US",
+          "source_url": "https://block.xyz/careers/jobs/5114793008"
+        }
+      ]
+    },
+    {
+      "rank": 192,
+      "company_id": "adobe",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-07T07:20:47.235860+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "b791bd3eb6559efaa19b761ec74cfed216a23cd6ccf13833c0f5ccef9481d0ba",
+      "ranking_source": "https://fortune.com/company/adobe-systems/",
+      "careers_source": "https://careers.adobe.com/us/en/search-results",
+      "samples": [
+        {
+          "title": "Principal Product Manager - AI for Engineering",
+          "location": "Seattle",
+          "source_url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Seattle/Principal-Product-Manager---AI-for-Engineering_R171074"
+        },
+        {
+          "title": "Senior Software Engineer, Meta Factory Agent Harness",
+          "location": "San Jose",
+          "source_url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Senior-Software-Engineer--Meta-Factory-Agent-Harness_R170223-1"
+        },
+        {
+          "title": "Software Development Engineer 3 - Graph Engineering",
+          "location": "Noida",
+          "source_url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Noida/Software-Development-Engineer-3---Graph-Engineering_R171678-1"
+        }
+      ]
+    },
+    {
+      "rank": 193,
+      "company_id": "rga",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-07T07:21:16.562695+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "59967dc20685aef8bca34ffd78d6c07670a6aab18721185b16de7821acf5eda0",
+      "ranking_source": "https://fortune.com/company/reinsurance-group-of-america/",
+      "careers_source": "https://www.rgare.com/careers",
+      "samples": [
+        {
+          "title": "Director, Underwriting Audit",
+          "location": "United States, Chesterfield, MO, RGA HQ",
+          "source_url": "https://rgare.wd1.myworkdayjobs.com/Careers/job/United-States-Chesterfield-MO-RGA-HQ/Director--Underwriting-Audit_J28589"
+        },
+        {
+          "title": "Lead Software Engineer",
+          "location": "Remote, Florida, United States of America",
+          "source_url": "https://rgare.wd1.myworkdayjobs.com/Careers/job/Remote-Florida-United-States-of-America/Lead-Software-Engineer_J28548"
+        },
+        {
+          "title": "Executive Director, Vendor Relationship Management",
+          "location": "United States, St. Louis, MO, RGA Real Estate Office",
+          "source_url": "https://rgare.wd1.myworkdayjobs.com/Careers/job/United-States-St-Louis-MO-RGA-Real-Estate-Office/Executive-Director--Vendor-Relationship-Management_J28679-1"
+        }
+      ]
+    },
+    {
+      "rank": 194,
+      "company_id": "sherwin-williams",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-07T07:01:05.401423+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "80952f7ef6d7bb629c4ee6bdd719a8cbdaf30230223967d8617d27e74eb90959",
+      "ranking_source": "https://fortune.com/company/sherwin-williams/",
+      "careers_source": "https://careers.sherwin-williams.com/",
+      "samples": [
+        {
+          "title": "Bilingual Branch Wholesale Product Specialist (Spanish)",
+          "location": "Pineville, NC, United States",
+          "source_url": "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2619857"
+        },
+        {
+          "title": "Plant Engineering Manager",
+          "location": "Greensboro, NC, United States",
+          "source_url": "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2622429"
+        },
+        {
+          "title": "Bilingual Customer Service Specialist (Spanish)",
+          "location": "Phoenix, AZ, United States",
+          "source_url": "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2622961"
+        }
+      ]
+    },
+    {
+      "rank": 195,
+      "company_id": "wesco",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-07T07:12:08.282769+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "f29e1e03656b7b9728c984f744edc1b22921a6019048f2129e8d8c0f68dbd2e4",
+      "ranking_source": "https://fortune.com/company/wesco-international/",
+      "careers_source": "https://www.wesco.com/us/en/careers.html",
+      "samples": [
+        {
+          "title": "Associate Representative - Inside Sales",
+          "location": "Bangkok, Thailand (On-site)",
+          "source_url": "https://eklm.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/34046"
+        },
+        {
+          "title": "Administrator - Operations",
+          "location": "Jakarta Selatan, Daerah Khusus Ibukota Jakarta, Indonesia and 1 more (On-site)",
+          "source_url": "https://eklm.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/34199"
+        },
+        {
+          "title": "Representative - Inside Sales",
+          "location": "Shanghai, Shanghai, China (Hybrid)",
+          "source_url": "https://eklm.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/34238"
+        }
+      ]
+    },
+    {
+      "rank": 196,
+      "company_id": "lear",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-07T06:56:38.805778+00:00",
+      "job_count": 100,
+      "pages": 4,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "9e5a327046d22db8fa478e9a81464ab75bba4fe20e6d1ab33765355beb749a98",
+      "ranking_source": "https://fortune.com/company/lear/",
+      "careers_source": "https://jobs.lear.com/search/",
+      "samples": [
+        {
+          "title": "Inženýr dodavatelské kvality",
+          "location": "Ostrov u Stribra, Plzen Region, CZ, 34901",
+          "source_url": "https://jobs.lear.com/job/Ostrov-u-Stribra-In%C5%BEen%C3%BDr-dodavatelsk%C3%A9-kvality-%C2%A0Plz-34901/1383912833"
+        },
+        {
+          "title": "Plant Quality Engineer",
+          "location": "Duncan, SC, US, 29334",
+          "source_url": "https://jobs.lear.com/job/Duncan-Plant-Quality-Engineer-SC-29334/1393792233"
+        },
+        {
+          "title": "Maintenance Supervisor I",
+          "location": "Farwell, MI, US, 48622",
+          "source_url": "https://jobs.lear.com/job/Farwell-Maintenance-Supervisor-I-MI-48622/1393808033"
+        }
+      ]
+    },
+    {
+      "rank": 197,
+      "company_id": "synchrony",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-07T06:58:10.183360+00:00",
+      "job_count": 15,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "81ba29598c2c400259c843a42cd87b5cdbdfa34500a99f11321537c0da0922df",
+      "ranking_source": "https://fortune.com/company/synchrony-financial/",
+      "careers_source": "https://www.synchronycareers.com/jobs/",
+      "samples": [
+        {
+          "title": "VP, Cloud Solution Architect",
+          "location": "Location Charlotte, NC",
+          "source_url": "https://www.synchronycareers.com/job/charlotte/vp-cloud-solution-architect/49398/100194547536"
+        },
+        {
+          "title": "AVP, Field Sales Manager-Verizon (Southeast)",
+          "location": "Location Alpharetta, GA",
+          "source_url": "https://www.synchronycareers.com/job/alpharetta/avp-field-sales-manager-verizon-southeast/49398/100194547088"
+        },
+        {
+          "title": "AVP, Credit Model Development (L11)",
+          "location": "Location Hyderabad, India",
+          "source_url": "https://www.synchronycareers.com/job/hyderabad/avp-credit-model-development-l11/49398/99170704816"
+        }
+      ]
+    },
+    {
+      "rank": 198,
+      "company_id": "amphenol",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-07T07:07:43.049616+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "Partial coverage: Amphenol High Speed and Commercial Products Group only; other Amphenol businesses hire separately."
+      ],
+      "recipe_sha256": "a1fba0c72418ce0103c74caafed4400ac814cb1cfc2305ecde53efc12bb95075",
+      "ranking_source": "https://fortune.com/company/amphenol/",
+      "careers_source": "https://amphenol.com/careers",
+      "samples": [
+        {
+          "title": "Demand Manager",
+          "location": "PA, Yocumtown",
+          "source_url": "https://amphenol-icc.acquiretm.com/job_details_clean.aspx?ID=8372"
+        },
+        {
+          "title": "Mechanical Application Development Engineer",
+          "location": "ON, Ottawa",
+          "source_url": "https://amphenol-icc.acquiretm.com/job_details_clean.aspx?ID=8368"
+        },
+        {
+          "title": "Thermal Engineer – Electronic Cooling",
+          "location": "PA, Yocumtown",
+          "source_url": "https://amphenol-icc.acquiretm.com/job_details_clean.aspx?ID=8369"
+        }
+      ]
+    },
+    {
+      "rank": 199,
+      "company_id": "ross-stores",
+      "status": "unavailable",
+      "reason": "repair-needed",
+      "message": "Ross is hiring, but its job board requires link extraction that the current scraper format does not support reliably. Its scraper needs repair before installation.",
+      "ranking_source": "https://fortune.com/company/ross-stores/"
+    },
+    {
+      "rank": 200,
+      "company_id": "newmont",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-07T07:06:10.237985+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "4c1498348f611ac7c4af07ccd61ee99e6a644c7e78ceee6efaeb1a82eeae877b",
+      "ranking_source": "https://fortune.com/company/newmont-mining/",
+      "careers_source": "https://jobs.newmont.com/search/",
+      "samples": [
+        {
+          "title": "Senior Long Term Planning",
+          "location": "Location: Denver, Colorado, United States",
+          "source_url": "https://jobs.newmont.com/us/en/job/43349/Senior-Long-Term-Planning"
+        },
+        {
+          "title": "Senior Metallurgist",
+          "location": "Location: Denver, Colorado, United States",
+          "source_url": "https://jobs.newmont.com/us/en/job/42570/Senior-Metallurgist"
+        },
+        {
+          "title": "Specialist Global Cybersecurity Architecture",
+          "location": "Location: Denver, Colorado, United States",
+          "source_url": "https://jobs.newmont.com/us/en/job/43241/Specialist-Global-Cybersecurity-Architecture"
+        }
+      ]
+    }
+  ]
+}

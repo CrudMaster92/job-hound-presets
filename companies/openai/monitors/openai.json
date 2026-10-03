@@ -11,9 +11,9 @@
     "recipe_schema_version": 1
   },
   "verification": {
-    "status": "unverified",
-    "checked_at": null,
-    "job_count": null,
+    "status": "verified",
+    "checked_at": "2026-10-03T22:01:58.550545+00:00",
+    "job_count": 828,
     "warnings": []
   },
   "recipe": {
@@ -21,7 +21,10 @@
     "company": "OpenAI",
     "careers_url": "https://openai.com/careers/search",
     "strategy": "ashby",
-    "allowed_hosts": ["openai.com", "api.ashbyhq.com"],
+    "allowed_hosts": [
+      "openai.com",
+      "api.ashbyhq.com"
+    ],
     "request": {
       "url": "https://api.ashbyhq.com/posting-api/job-board/openai",
       "method": "GET",

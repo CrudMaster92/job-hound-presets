@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ge-vernova",
+  "name": "GE Vernova",
+  "aliases": [],
+  "website_url": "https://www.gevernova.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=gevernova.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 150",
+      "2026",
+      "United States"
+    ]
+  }
+}

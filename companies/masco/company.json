@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "masco",
+  "name": "Masco",
+  "aliases": [],
+  "website_url": "https://www.masco.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=masco.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 500",
+      "2026",
+      "United States"
+    ]
+  }
+}

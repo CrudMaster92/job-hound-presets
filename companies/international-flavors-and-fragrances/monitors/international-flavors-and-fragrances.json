@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "international-flavors-and-fragrances",
+  "company_id": "international-flavors-and-fragrances",
+  "revision": 1,
+  "label": "International Flavors & Fragrances Careers",
+  "careers_url": "https://iff.wd5.myworkdayjobs.com/IFF_Careers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-24T03:26:56.272997+00:00",
+    "job_count": 20,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "International Flavors & Fragrances",
+    "careers_url": "https://iff.wd5.myworkdayjobs.com/IFF_Careers",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "iff.wd5.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://iff.wd5.myworkdayjobs.com/wday/cxs/iff/IFF_Careers/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "iff",
+      "site": "IFF_Careers",
+      "detail_fetch_limit": 20,
+      "partial_listing": true
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "venture-global",
+  "name": "Venture Global",
+  "aliases": [],
+  "website_url": "https://www.ventureglobal.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=ventureglobal.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 350",
+      "2026",
+      "United States"
+    ]
+  }
+}

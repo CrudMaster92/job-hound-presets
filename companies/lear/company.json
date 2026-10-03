@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "lear",
+  "name": "Lear",
+  "aliases": [],
+  "website_url": "https://www.lear.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=lear.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 200",
+      "2026",
+      "United States"
+    ]
+  }
+}

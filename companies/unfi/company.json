@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "unfi",
+  "name": "United Natural Foods",
+  "aliases": [],
+  "website_url": "https://www.unfi.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=unfi.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 150",
+      "2026",
+      "United States"
+    ]
+  }
+}

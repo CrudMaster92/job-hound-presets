@@ -1,0 +1,60 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "alaska-air-group",
+  "company_id": "alaska-air-group",
+  "revision": 1,
+  "label": "Alaska Air Group Careers",
+  "careers_url": "https://careers.alaskaair.com/jobs/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-24T00:41:51.793094+00:00",
+    "job_count": 10,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Alaska Air Group",
+    "careers_url": "https://careers.alaskaair.com/jobs/",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "careers.alaskaair.com"
+    ],
+    "request": {
+      "url": "https://careers.alaskaair.com/jobs/feeds/json/",
+      "method": "GET",
+      "timeout_seconds": 15,
+      "max_response_bytes": 5000000,
+      "headers": {},
+      "params": {},
+      "json_body": null
+    },
+    "pagination": {
+      "kind": "page",
+      "parameter": "page",
+      "page_size": 10,
+      "max_pages": 1,
+      "page_size_parameter": null,
+      "next_path": null
+    },
+    "mapping": {
+      "source_id": "guid",
+      "title": "title",
+      "location": "location",
+      "url": "url",
+      "description": "description",
+      "posted_date": "date_new"
+    },
+    "metadata": {
+      "partial_listing": true
+    },
+    "selectors": {},
+    "source_filter": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ddb-canada",
+  "name": "DDB Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://ddb.ca/",
+  "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQHW7s9DOI7tFw/company-logo_200_200/company-logo_200_200/0/1655247943756/ddb_canada_logo?e=2147483647&v=beta&t=s40paDD3evEC2W1wvEPTXIM0IygcuqURjhYNKLPBxEk",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "creative-advertising",
+      "shopper-retail-experiential",
+      "crm-loyalty-lifecycle",
+      "social-content-influencer",
+      "web-ux-digital-experience"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "Omnicom"
+    ]
+  },
+  "parent_company_id": "omnicom"
+}

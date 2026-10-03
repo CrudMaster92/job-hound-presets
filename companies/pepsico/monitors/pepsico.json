@@ -1,0 +1,64 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "pepsico",
+  "company_id": "pepsico",
+  "revision": 1,
+  "label": "PepsiCo Careers",
+  "careers_url": "https://www.pepsicojobs.com/jobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-04T05:57:21.575244+00:00",
+    "job_count": 1000,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "PepsiCo",
+    "careers_url": "https://www.pepsicojobs.com/jobs",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "www.pepsicojobs.com"
+    ],
+    "request": {
+      "url": "https://www.pepsicojobs.com/api/jobs",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "limit": 100
+      },
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "page",
+      "parameter": "page",
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "jobs",
+      "source_id": "data.req_id",
+      "title": "data.title",
+      "url": "data.meta_data.canonical_url",
+      "location": "data.full_location",
+      "description": "data.description",
+      "posted_date": "data.create_date",
+      "employment_type": "data.employment_type"
+    },
+    "metadata": {
+      "partial_listing": true
+    }
+  }
+}

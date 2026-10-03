@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "elevance-health",
+  "name": "Elevance Health",
+  "aliases": [],
+  "website_url": "https://www.elevancehealth.com/",
+  "logo_url": "https://www.elevancehealth.com/content/dam/elevance-health-non-index/logos/Apex-Header.svg",
+  "facets": {
+    "industries": [
+      "healthcare"
+    ],
+    "specialties": [],
+    "tags": [
+      "Fortune 50",
+      "2026",
+      "United States"
+    ]
+  }
+}

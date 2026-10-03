@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "tencent",
+  "name": "Tencent Games",
+  "aliases": [],
+  "website_url": "https://tencent.com/",
+  "logo_url": "https://www.tencent.com/wp-content/uploads/2024/05/logo@2x-en.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "king",
+  "name": "King",
+  "aliases": [],
+  "website_url": "https://www.king.com/",
+  "logo_url": "https://cdn.phenompeople.com/CareerConnectResources/ACMKDSUS/images/Kinglogo-1679923120876-1686718393202.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

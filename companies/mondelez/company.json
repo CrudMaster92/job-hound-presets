@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "mondelez",
+  "name": "Mondelez International",
+  "aliases": [],
+  "website_url": "https://www.mondelezinternational.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=mondelezinternational.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 150",
+      "2026",
+      "United States"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "sid-lee",
+  "name": "Sid Lee",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://sidlee.com/",
+  "logo_url": "https://sidlee.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "creative-advertising",
+      "web-ux-digital-experience",
+      "experiential",
+      "social-content-influencer"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "kyu"
+    ]
+  },
+  "parent_company_id": "kyu"
+}

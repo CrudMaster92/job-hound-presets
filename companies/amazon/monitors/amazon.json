@@ -12,21 +12,28 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-08-31T17:02:00Z",
-    "job_count": 991,
-    "warnings": ["Bounded to the newest 1,000 results; run is marked partial."]
+    "checked_at": "2026-09-04T05:52:51.648073+00:00",
+    "job_count": 1000,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
   },
   "recipe": {
     "version": 1,
     "company": "Amazon",
     "careers_url": "https://www.amazon.jobs/en/search",
     "strategy": "generic_json",
-    "allowed_hosts": ["www.amazon.jobs"],
+    "allowed_hosts": [
+      "www.amazon.jobs"
+    ],
     "request": {
       "url": "https://www.amazon.jobs/en/search.json",
       "method": "GET",
       "headers": {},
-      "params": { "offset": 0, "result_limit": 100 },
+      "params": {
+        "offset": 0,
+        "result_limit": 100
+      },
       "json_body": null,
       "timeout_seconds": 15,
       "max_response_bytes": 5000000
@@ -50,6 +57,8 @@
       "posted_date": "posted_date",
       "employment_type": "job_schedule_type"
     },
-    "metadata": { "partial_listing": true }
+    "metadata": {
+      "partial_listing": true
+    }
   }
 }

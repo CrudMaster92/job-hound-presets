@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "edison-international",
+  "name": "Edison International",
+  "aliases": [],
+  "website_url": "https://www.edison.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=edison.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 250",
+      "2026",
+      "United States"
+    ]
+  }
+}

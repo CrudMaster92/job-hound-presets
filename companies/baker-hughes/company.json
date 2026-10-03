@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "baker-hughes",
+  "name": "Baker Hughes",
+  "aliases": [],
+  "website_url": "https://www.bakerhughes.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bakerhughes.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 200",
+      "2026",
+      "United States"
+    ]
+  }
+}

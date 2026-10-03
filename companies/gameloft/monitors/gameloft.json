@@ -1,0 +1,65 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "gameloft",
+  "company_id": "gameloft",
+  "revision": 1,
+  "label": "Gameloft careers",
+  "careers_url": "https://jobs.smartrecruiters.com/Gameloft/.",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-04T12:08:30.846535+00:00",
+    "job_count": 43,
+    "warnings": [
+      "Complete compact public listing with direct human job links. The compact feed omits descriptions; description keyword matching is unavailable for these records."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Gameloft",
+    "careers_url": "https://jobs.smartrecruiters.com/Gameloft/.",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "jobs.smartrecruiters.com",
+      "api.smartrecruiters.com",
+      "www.gameloft.com"
+    ],
+    "request": {
+      "url": "https://api.smartrecruiters.com/v1/companies/Gameloft/postings",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "content",
+      "source_id": "id",
+      "title": "name",
+      "location": "location.fullLocation",
+      "url": "id",
+      "posted_date": "releasedDate",
+      "employment_type": "typeOfEmployment.label"
+    },
+    "metadata": {
+      "platform": "smartrecruiters-public-list",
+      "source_url_note": "Resolve the numeric ID against the public company board directory. The API ref field is a JSON endpoint, not a human job page.",
+      "description_note": "Compact public feed does not include job descriptions; title/location matching remains available."
+    }
+  }
+}

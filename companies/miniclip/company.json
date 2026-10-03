@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "miniclip",
+  "name": "Miniclip",
+  "aliases": [],
+  "website_url": "https://miniclip.com/",
+  "logo_url": "https://rmkcdn.successfactors.com/9645d618/28ac44b5-b51e-41b9-b127-0.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

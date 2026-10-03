@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "sumo-digital",
+  "name": "Sumo Digital",
+  "aliases": [],
+  "website_url": "https://sumo-digital.com/",
+  "logo_url": "https://cdn-ilelmkh.nitrocdn.com/gAakFHvyTJGXeStbXnwLjDnTgmXSswWq/assets/images/optimized/rev-81353d5/www.sumo-digital.com/wp-content/uploads/2026/01/cropped-SumoIcons_web_Home-32x32.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "electronic-arts",
+  "name": "Electronic Arts",
+  "aliases": [],
+  "website_url": "https://www.ea.com/",
+  "logo_url": "https://jobs.ea.com/portal/4/images/logo--ea.webp",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "North America",
+      "Europe"
+    ]
+  }
+}

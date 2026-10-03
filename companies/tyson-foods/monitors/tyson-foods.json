@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "tyson-foods",
+  "company_id": "tyson-foods",
+  "revision": 1,
+  "label": "Tyson Foods Careers",
+  "careers_url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-04T12:57:51.688501+00:00",
+    "job_count": 199,
+    "warnings": [
+      "description detail enrichment skipped 194 jobs after the configured 5-posting limit",
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Tyson Foods",
+    "careers_url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "tysonfoods.wd5.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://tysonfoods.wd5.myworkdayjobs.com/wday/cxs/tysonfoods/TSN/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "tysonfoods",
+      "site": "TSN",
+      "detail_fetch_limit": 5,
+      "partial_listing": true
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "kimberly-clark",
+  "name": "Kimberly-Clark",
+  "aliases": [],
+  "website_url": "https://www.kimberly-clark.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=kimberly-clark.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 250",
+      "2026",
+      "United States"
+    ]
+  }
+}

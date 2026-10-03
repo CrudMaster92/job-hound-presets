@@ -1,0 +1,26 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "salt-xc",
+  "name": "SALT XC",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.saltxc.com/",
+  "logo_url": "https://www.saltxc.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "shopper-retail-experiential",
+      "creative-advertising",
+      "performance-marketing",
+      "social-content-influencer",
+      "experiential"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada"
+    ]
+  }
+}

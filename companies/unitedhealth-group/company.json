@@ -4,12 +4,24 @@
   "id": "unitedhealth-group",
   "name": "UnitedHealth Group",
   "legal_name": "UnitedHealth Group Incorporated",
-  "aliases": ["UnitedHealthcare", "Optum"],
+  "aliases": [
+    "UnitedHealthcare",
+    "Optum"
+  ],
   "website_url": "https://www.unitedhealthgroup.com/",
-  "logo_url": null,
+  "logo_url": "https://www.unitedhealthgroup.com/content/dam/uhg/icons/Icons/uhg-logo--desktop-2022.svg",
   "facets": {
-    "industries": ["healthcare"],
-    "specialties": ["health-insurance", "health-services"],
-    "tags": ["Fortune 50", "Healthcare", "United States"]
+    "industries": [
+      "healthcare"
+    ],
+    "specialties": [
+      "health-insurance",
+      "health-services"
+    ],
+    "tags": [
+      "Fortune 50",
+      "Healthcare",
+      "United States"
+    ]
   }
 }

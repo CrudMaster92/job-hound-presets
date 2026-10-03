@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "comcast",
+  "name": "Comcast",
+  "aliases": [],
+  "website_url": "https://www.comcast.com/",
+  "logo_url": "https://tbcdn.talentbrew.com/company/45483/v1_0/img/comcast-master-logo-on-black.webp",
+  "facets": {
+    "industries": [
+      "telecommunications"
+    ],
+    "specialties": [],
+    "tags": [
+      "Fortune 50",
+      "2026",
+      "United States"
+    ]
+  }
+}

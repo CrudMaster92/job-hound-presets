@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "home-depot",
+  "name": "Home Depot",
+  "aliases": [],
+  "website_url": "https://www.homedepot.com/",
+  "logo_url": "https://careers.homedepot.com/wp-content/uploads/sites/2982/2020/11/thd-careers.png",
+  "facets": {
+    "industries": [
+      "retail"
+    ],
+    "specialties": [],
+    "tags": [
+      "Fortune 50",
+      "2026",
+      "United States"
+    ]
+  }
+}

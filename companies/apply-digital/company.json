@@ -1,0 +1,25 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "apply-digital",
+  "name": "Apply Digital",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.applydigital.com/",
+  "logo_url": "https://www.applydigital.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "web-ux-digital-experience",
+      "martech-data-analytics",
+      "creative-advertising",
+      "shopper-retail-experiential"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada"
+    ]
+  }
+}

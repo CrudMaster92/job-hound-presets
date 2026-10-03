@@ -6,10 +6,19 @@
   "legal_name": "Apple Inc.",
   "aliases": [],
   "website_url": "https://www.apple.com/",
-  "logo_url": null,
+  "logo_url": "https://www.apple.com/favicon.ico",
   "facets": {
-    "industries": ["technology"],
-    "specialties": ["consumer-electronics", "software"],
-    "tags": ["Fortune 50", "Technology", "Global"]
+    "industries": [
+      "technology"
+    ],
+    "specialties": [
+      "consumer-electronics",
+      "software"
+    ],
+    "tags": [
+      "Fortune 50",
+      "Technology",
+      "Global"
+    ]
   }
 }

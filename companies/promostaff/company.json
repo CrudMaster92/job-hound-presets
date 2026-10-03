@@ -1,0 +1,31 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "promostaff",
+  "name": "PromoStaff",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.promostaff.ca/",
+  "logo_url": "https://static.wixstatic.com/media/dbf23c_e6b688654c964701b6e22210e0278f4f%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/dbf23c_e6b688654c964701b6e22210e0278f4f%7Emv2.png",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "experiential",
+      "shopper-retail-experiential",
+      "direct-marketing-sales",
+      "market-research-insights"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The Marketing Job Board collector has not yet been converted and validated as a JobHound monitor.",
+    "checked_at": "2026-09-30T00:53:28.032653Z"
+  }
+}

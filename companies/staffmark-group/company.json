@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "staffmark-group",
+  "name": "Staffmark Group",
+  "legal_name": null,
+  "aliases": [
+    "Staffmark"
+  ],
+  "website_url": "https://smgroupna.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "staffing-and-recruiting"
+    ],
+    "specialties": [],
+    "tags": [
+      "Recruitment",
+      "North America"
+    ]
+  }
+}

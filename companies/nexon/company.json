@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "nexon",
+  "name": "Nexon",
+  "aliases": [],
+  "website_url": "https://nexon.com/",
+  "logo_url": "https://web.nxfs.nexon.com/arena-home/static/images/nexon.ico",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "tencent",
+  "company_id": "tencent",
+  "revision": 1,
+  "label": "Tencent Games careers",
+  "careers_url": "https://careers.tencent.com/en-us/search.html",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "degraded",
+    "checked_at": "2026-09-05T14:20:10.997993+00:00",
+    "job_count": 27,
+    "warnings": [
+      "Gaming keyword search, up to 100 public roles; not all Tencent employment.",
+      "Partial listing: unseen jobs must not be closed based on this monitor."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Tencent Games",
+    "careers_url": "https://careers.tencent.com/en-us/search.html",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "careers.tencent.com"
+    ],
+    "request": {
+      "url": "https://careers.tencent.com/tencentcareer/api/post/Query",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "pageIndex": 1,
+        "pageSize": 100,
+        "language": "en-us",
+        "keyword": "game"
+      },
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "Data.Posts",
+      "source_id": "PostId",
+      "title": "RecruitPostName",
+      "url": "PostURL",
+      "location": "LocationName",
+      "description": "Responsibility",
+      "posted_date": "LastUpdateTime"
+    },
+    "metadata": {
+      "partial_listing": true,
+      "scope": "Gaming keyword search, up to 100 public roles; not all Tencent employment."
+    }
+  }
+}

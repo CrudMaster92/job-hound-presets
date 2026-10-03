@@ -1,0 +1,26 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "klick-health",
+  "name": "Klick Health",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.klick.com/",
+  "logo_url": "https://careers.klick.com/favicon-32x32.png",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "creative-advertising",
+      "martech-data-analytics",
+      "web-ux-digital-experience"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "Klick Group"
+    ]
+  },
+  "parent_company_id": "klick-group"
+}

@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ross-stores",
+  "name": "Ross Stores",
+  "aliases": [],
+  "website_url": "https://www.rossstores.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=rossstores.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 200",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "Ross is hiring, but its job board requires link extraction that the current scraper format does not support reliably. Its scraper needs repair before installation.",
+    "checked_at": "2026-09-07T12:59:32.540437+00:00"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "equinix",
+  "name": "Equinix",
+  "aliases": [],
+  "website_url": "https://www.equinix.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=equinix.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 500",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The official Equinix listing returned HTTP 202 with an empty body during the fresh review; ordinary browser validation also timed out without job rows. No currently validated scraper is published.",
+    "checked_at": "2026-09-30T21:01:04.305762+00:00"
+  }
+}

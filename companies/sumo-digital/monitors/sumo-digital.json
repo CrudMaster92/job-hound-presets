@@ -1,0 +1,54 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "sumo-digital",
+  "company_id": "sumo-digital",
+  "revision": 1,
+  "label": "Sumo Digital careers",
+  "careers_url": "https://www.sumo-digital.com/careers",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-05T14:20:10.220769+00:00",
+    "job_count": 11,
+    "warnings": []
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Sumo Digital",
+    "careers_url": "https://www.sumo-digital.com/careers",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "www.sumo-digital.com"
+    ],
+    "request": {
+      "url": "https://www.sumo-digital.com/careers",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "tr[data-item-id]",
+      "title": "td:first-child a",
+      "link": "td:first-child a",
+      "location": "td:nth-child(3)"
+    },
+    "mapping": {},
+    "metadata": {}
+  }
+}

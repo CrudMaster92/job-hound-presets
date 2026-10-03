@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "goldman-sachs",
+  "name": "Goldman Sachs Group",
+  "aliases": [],
+  "website_url": "https://www.goldmansachs.com/",
+  "logo_url": "https://cdn.gs.com/images/goldman-sachs/v2/gs-favicon.svg",
+  "facets": {
+    "industries": [
+      "financial-services"
+    ],
+    "specialties": [],
+    "tags": [
+      "Fortune 50",
+      "2026",
+      "United States"
+    ]
+  }
+}

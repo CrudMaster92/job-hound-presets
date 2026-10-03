@@ -1,0 +1,84 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "rival-group",
+  "company_id": "rival-group",
+  "revision": 1,
+  "label": "Angus Reid / Rival Group jobs",
+  "careers_url": "https://job-boards.greenhouse.io/angusreid",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-02T20:05:30.226803Z",
+    "job_count": 1,
+    "warnings": []
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Angus Reid / Rival Group",
+    "careers_url": "https://job-boards.greenhouse.io/angusreid",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "job-boards.greenhouse.io",
+      "boards-api.greenhouse.io"
+    ],
+    "request": {
+      "url": "https://boards-api.greenhouse.io/v1/boards/angusreid/jobs",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "content": true
+      },
+      "json_body": null,
+      "timeout_seconds": 15,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {
+      "source_id": "id",
+      "title": "title",
+      "location": "location.name",
+      "url": "absolute_url",
+      "description": "content",
+      "posted_date": "updated_at",
+      "items": "jobs"
+    },
+    "metadata": {},
+    "source_filter": {
+      "predicates": [
+        {
+          "phase": "listing",
+          "path": "location.name",
+          "operator": "contains_ci",
+          "values": [
+            "Canada",
+            "Toronto",
+            "Vancouver",
+            "Montréal",
+            "Montreal",
+            "Calgary",
+            "Ottawa",
+            "Halifax",
+            "Edmonton",
+            "Winnipeg",
+            "Mississauga",
+            "Burnaby",
+            "Quebec",
+            "Québec"
+          ]
+        }
+      ]
+    }
+  }
+}

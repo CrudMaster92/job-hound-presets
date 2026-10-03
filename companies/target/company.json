@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "target",
+  "name": "Target",
+  "aliases": [],
+  "website_url": "https://www.target.com/",
+  "logo_url": "https://corporate.target.com/getmedia/2cee849d-5862-475f-a383-ed47324afe97/target_bullseye-logo.png?width=220",
+  "facets": {
+    "industries": [
+      "retail"
+    ],
+    "specialties": [],
+    "tags": [
+      "Fortune 50",
+      "2026",
+      "United States"
+    ]
+  }
+}

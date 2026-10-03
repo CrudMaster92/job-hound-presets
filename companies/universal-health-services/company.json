@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "universal-health-services",
+  "name": "Universal Health Services",
+  "aliases": [],
+  "website_url": "https://www.uhs.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=uhs.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 300",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "access-restricted",
+    "message": "The public careers search returns 403 Forbidden in a normal browser; the linked iCIMS page did not expose usable listings.",
+    "checked_at": "2026-09-14T23:22:58.397854+00:00"
+  }
+}

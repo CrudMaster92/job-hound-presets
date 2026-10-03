@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "bloober-team",
+  "name": "Bloober Team",
+  "aliases": [],
+  "website_url": "https://blooberteam.com/",
+  "logo_url": "https://images.squarespace-cdn.com/content/v1/5a708ab19f8dceb345f3815f/1565103924783-61572HWQ9WN4R05HIXSL/eu_logo%2Bbloober_web.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

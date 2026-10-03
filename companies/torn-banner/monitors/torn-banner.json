@@ -1,0 +1,59 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "torn-banner",
+  "company_id": "torn-banner",
+  "revision": 1,
+  "label": "Torn Banner Studios careers",
+  "careers_url": "https://tornbanner.bamboohr.com/careers/.",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-05T14:20:11.737312+00:00",
+    "job_count": 4,
+    "warnings": []
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Torn Banner Studios",
+    "careers_url": "https://tornbanner.bamboohr.com/careers/.",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "tornbanner.bamboohr.com"
+    ],
+    "request": {
+      "url": "https://tornbanner.bamboohr.com/careers/list",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "result",
+      "source_id": "id",
+      "title": "jobOpeningName",
+      "url": "id",
+      "location": "location.city",
+      "employment_type": "employmentStatusLabel"
+    },
+    "metadata": {
+      "platform": "bamboohr",
+      "description_note": "Public listing lacks descriptions; location can be unspecified for remote roles."
+    }
+  }
+}

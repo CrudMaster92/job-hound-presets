@@ -1,0 +1,133 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "recruitment-agencies-north-america",
+  "revision": 5,
+  "name": "Recruitment Agencies \u2014 North America",
+  "description": "Internal corporate, recruiting, sales and branch-support openings at recruitment and staffing agencies operating in North America. Includes 27 validated monitors and 7 unavailable companies with explanations. Some feeds are global or explicitly bounded; consult each monitor's coverage warnings.",
+  "tags": [
+    "Recruitment",
+    "Staffing",
+    "North America"
+  ],
+  "facets": {
+    "collection_types": [
+      "industry"
+    ],
+    "industries": [
+      "staffing-and-recruiting"
+    ],
+    "role_families": [],
+    "locations": []
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "aquent"
+    },
+    {
+      "company_id": "adecco-group"
+    },
+    {
+      "company_id": "motion-recruitment"
+    },
+    {
+      "company_id": "roth-staffing"
+    },
+    {
+      "company_id": "randstad-canada"
+    },
+    {
+      "company_id": "wilsonhcg"
+    },
+    {
+      "company_id": "robert-half"
+    },
+    {
+      "company_id": "insight-global"
+    },
+    {
+      "company_id": "kelly"
+    },
+    {
+      "company_id": "actalent"
+    },
+    {
+      "company_id": "allegis-global-solutions"
+    },
+    {
+      "company_id": "aston-carter"
+    },
+    {
+      "company_id": "tek-systems"
+    },
+    {
+      "company_id": "mlag"
+    },
+    {
+      "company_id": "aerotek"
+    },
+    {
+      "company_id": "vaco"
+    },
+    {
+      "company_id": "cross-country-healthcare"
+    },
+    {
+      "company_id": "amn-healthcare"
+    },
+    {
+      "company_id": "aya-healthcare"
+    },
+    {
+      "company_id": "hays"
+    },
+    {
+      "company_id": "pagegroup"
+    },
+    {
+      "company_id": "robert-walters"
+    },
+    {
+      "company_id": "korn-ferry"
+    },
+    {
+      "company_id": "heidrick-struggles"
+    },
+    {
+      "company_id": "spencer-stuart"
+    },
+    {
+      "company_id": "cielo"
+    },
+    {
+      "company_id": "trueblue"
+    },
+    {
+      "company_id": "manpowergroup"
+    },
+    {
+      "company_id": "staffmark-group"
+    },
+    {
+      "company_id": "beacon-hill"
+    },
+    {
+      "company_id": "kforce"
+    },
+    {
+      "company_id": "judge-group"
+    },
+    {
+      "company_id": "jackson-healthcare"
+    },
+    {
+      "company_id": "supplemental-health-care"
+    }
+  ]
+}

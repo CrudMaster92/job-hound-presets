@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ebay",
+  "name": "eBay",
+  "aliases": [],
+  "website_url": "https://www.ebayinc.com/",
+  "logo_url": "https://static.ebayinc.com/static/theme/images/logo.svg?v=15b94d7",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 400",
+      "2026",
+      "United States"
+    ]
+  }
+}

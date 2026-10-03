@@ -1,0 +1,61 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "aig",
+  "company_id": "aig",
+  "revision": 1,
+  "label": "AIG Careers",
+  "careers_url": "https://aig.wd1.myworkdayjobs.com/aig",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-07T07:20:47.237038+00:00",
+    "job_count": 20,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "AIG",
+    "careers_url": "https://aig.wd1.myworkdayjobs.com/aig",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "aig.wd1.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://aig.wd1.myworkdayjobs.com/wday/cxs/aig/aig/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "aig",
+      "site": "aig",
+      "detail_fetch_limit": 20,
+      "partial_listing": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "jackson-healthcare",
+  "name": "Jackson Healthcare",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://jacksonhealthcare.com/",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "staffing-and-recruiting"
+    ],
+    "specialties": [],
+    "tags": [
+      "Recruitment",
+      "North America"
+    ]
+  }
+}

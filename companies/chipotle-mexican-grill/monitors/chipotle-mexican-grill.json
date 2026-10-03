@@ -1,0 +1,58 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "chipotle-mexican-grill",
+  "company_id": "chipotle-mexican-grill",
+  "revision": 1,
+  "label": "Chipotle Mexican Grill Careers",
+  "careers_url": "https://jobs.chipotle.com/en/search-jobs",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-24T03:06:24.817411+00:00",
+    "job_count": 15,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Chipotle Mexican Grill",
+    "careers_url": "https://jobs.chipotle.com/en/search-jobs",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "jobs.chipotle.com"
+    ],
+    "request": {
+      "url": "https://jobs.chipotle.com/en/search-jobs",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 20,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": "li:has(a[data-job-id][href*=\"/job/\"])",
+      "title": "a[data-job-id] h2",
+      "link": "a[data-job-id]",
+      "location": ".job-location"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true
+    }
+  }
+}

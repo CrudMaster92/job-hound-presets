@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "conocophillips",
+  "name": "ConocoPhillips",
+  "aliases": [],
+  "website_url": "https://www.conocophillips.com/",
+  "logo_url": "https://www.conocophillips.com/favicons/apple-touch-icon.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 100",
+      "2026",
+      "United States"
+    ]
+  }
+}

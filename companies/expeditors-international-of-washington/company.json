@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "expeditors-international-of-washington",
+  "name": "Expeditors International of Washington",
+  "aliases": [],
+  "website_url": "https://www.expeditors.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=expeditors.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 400",
+      "2026",
+      "United States"
+    ]
+  }
+}

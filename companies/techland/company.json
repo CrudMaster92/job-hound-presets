@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "techland",
+  "name": "Techland",
+  "aliases": [],
+  "website_url": "https://techland.net/",
+  "logo_url": "https://techland.net/img/favicon/apple-touch-icon.png?v=1554110417",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

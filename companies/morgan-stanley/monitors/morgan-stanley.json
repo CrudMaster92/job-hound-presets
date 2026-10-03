@@ -1,0 +1,65 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "morgan-stanley",
+  "company_id": "morgan-stanley",
+  "revision": 1,
+  "label": "Morgan Stanley Students and Graduates",
+  "careers_url": "https://www.morganstanley.com/careers/career-opportunities-search?opportunity=sg",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-04T05:45:27.671301+00:00",
+    "job_count": 68,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run.",
+      "Students and graduates only. The former experienced-hire service currently returns no jobs."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Morgan Stanley",
+    "careers_url": "https://www.morganstanley.com/careers/career-opportunities-search?opportunity=sg",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "www.morganstanley.com"
+    ],
+    "request": {
+      "url": "https://www.morganstanley.com/web/career_services/webapp/service/careerservice/resultset.json",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "opportunity": "sg",
+        "lang": "en"
+      },
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "resultSet",
+      "source_id": "jobNumber",
+      "title": "jobTitle",
+      "url": "url",
+      "description": "jobDescription",
+      "location": "location",
+      "employment_type": "employmentType"
+    },
+    "metadata": {
+      "partial_listing": true
+    }
+  }
+}

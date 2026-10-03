@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "plains",
+  "name": "Plains GP Holdings",
+  "aliases": [],
+  "website_url": "https://www.plains.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=plains.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 150",
+      "2026",
+      "United States"
+    ]
+  }
+}

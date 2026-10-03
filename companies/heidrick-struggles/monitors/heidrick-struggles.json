@@ -1,0 +1,59 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "heidrick-struggles",
+  "company_id": "heidrick-struggles",
+  "revision": 2,
+  "label": "Heidrick & Struggles internal careers",
+  "careers_url": "https://heidrick.wd1.myworkdayjobs.com/heidrickandstruggles",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-12T19:08:37.074793+00:00",
+    "job_count": 40,
+    "warnings": [
+      "removed 20 duplicate source IDs"
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Heidrick & Struggles",
+    "careers_url": "https://heidrick.wd1.myworkdayjobs.com/heidrickandstruggles",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "heidrick.wd1.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://heidrick.wd1.myworkdayjobs.com/wday/cxs/heidrick/heidrickandstruggles/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 25,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "heidrick",
+      "site": "heidrickandstruggles",
+      "detail_fetch_limit": 100
+    }
+  }
+}

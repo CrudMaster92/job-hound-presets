@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "devon-energy",
+  "name": "Devon Energy",
+  "aliases": [],
+  "website_url": "https://www.devonenergy.com/",
+  "logo_url": "https://www.devonenergy.com/favicons/apple-touch-icon-152x152.png",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 300",
+      "2026",
+      "United States"
+    ]
+  }
+}

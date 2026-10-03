@@ -1,0 +1,1370 @@
+{
+  "checked_at": "2026-09-14T23:22:58.397854+00:00",
+  "base_commit": "3e3930bf46c052247efcc36c536ad24a92f7e938",
+  "ranking_source": "https://www.sheetsteps.com/data/fortune-500-companies-2026",
+  "new_companies": 50,
+  "new_verified_monitors": 33,
+  "total_companies": 300,
+  "total_monitors": 269,
+  "total_available_companies": 266,
+  "total_unavailable_companies": 34,
+  "first_250_preserved": true,
+  "logo_validation": {
+    "http": 50,
+    "browser_decoded": 50,
+    "visually_reviewed": true
+  },
+  "handoff_limit": 200,
+  "companies": [
+    {
+      "company_id": "vistra",
+      "list_position": 251,
+      "published_rank": 251,
+      "ranking_source": "https://fortune.com/company/vistra-energy/",
+      "careers_source": "https://vistracorp.com/careers/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=vistracorp.com&sz=128",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-14T23:19:26.088967+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "e3062a0743bb3df9072d952f436a93cc6c8de19dbc722ef2226d81c47d48c8d6",
+      "samples": [
+        {
+          "title": "Principal Analyst, Technology Services",
+          "location": "Irving, Texas",
+          "source_url": "https://vst.wd5.myworkdayjobs.com/vistra_careers/job/Irving-Texas/Principal-Analyst--Technology-Services_40016516-2"
+        },
+        {
+          "title": "Principal Developer, Technology Services",
+          "location": "Irving, Texas",
+          "source_url": "https://vst.wd5.myworkdayjobs.com/vistra_careers/job/Irving-Texas/Principal-Developer--Technology-Services_40016344-1"
+        },
+        {
+          "title": "Warehouse Attendant",
+          "location": "Glen Rose, Texas",
+          "source_url": "https://vst.wd5.myworkdayjobs.com/vistra_careers/job/Glen-Rose-Texas/Warehouse-Attendant_40016612-2"
+        }
+      ]
+    },
+    {
+      "company_id": "texas-instruments",
+      "list_position": 252,
+      "published_rank": 252,
+      "ranking_source": "https://fortune.com/company/texas-instruments/",
+      "careers_source": "https://careers.ti.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=ti.com&sz=128",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-14T23:19:24.051687+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "7a250ab88529e161072c86145490f0338a438d583cac28d41bcd45f2d2d0b514",
+      "samples": [
+        {
+          "title": "Patent Attorney",
+          "location": "Dallas, TX, United States",
+          "source_url": "https://careers.ti.com/en/sites/CX/job/25002293"
+        },
+        {
+          "title": "Central Field Applications Engineer (Server/ AI Platform)",
+          "location": "Taiwan",
+          "source_url": "https://careers.ti.com/en/sites/CX/job/25011012"
+        },
+        {
+          "title": "PMO Master Scheduler",
+          "location": "Dallas, TX, United States",
+          "source_url": "https://careers.ti.com/en/sites/CX/job/25016317"
+        }
+      ]
+    },
+    {
+      "company_id": "mgm-resorts",
+      "list_position": 253,
+      "published_rank": 253,
+      "ranking_source": "https://fortune.com/company/mgm-resorts-international/",
+      "careers_source": "https://careers.mgmresorts.com/global/en",
+      "logo_url": "https://www.google.com/s2/favicons?domain=mgmresorts.com&sz=128",
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The official careers site returns HTTP 403 and presents an access challenge in a normal browser. No access controls were bypassed."
+    },
+    {
+      "company_id": "corteva",
+      "list_position": 254,
+      "published_rank": 254,
+      "ranking_source": "https://fortune.com/company/corteva/",
+      "careers_source": "https://careers.corteva.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=corteva.com&sz=128",
+      "status": "verified",
+      "strategy": "generic_json",
+      "checked_at": "2026-09-14T23:18:49.561509+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "a5b60525ed7dd76f0dc676ab260ab86c15281068e60110be8d1b667b728433ac",
+      "samples": [
+        {
+          "title": "KAM Distribuição Sul de SP - Sede Avaré/SP",
+          "location": "SP,BR",
+          "source_url": "https://apply.corteva.com/careers/job/893397616395"
+        },
+        {
+          "title": "KAM DISTRIBUIÇAO Norte PR - Cascavel/PR",
+          "location": "SP,BR",
+          "source_url": "https://apply.corteva.com/careers/job/893397616396"
+        },
+        {
+          "title": "Operations Support Operator",
+          "location": "Valdosta, GA, US",
+          "source_url": "https://apply.corteva.com/careers/job/893396951971"
+        }
+      ]
+    },
+    {
+      "company_id": "universal-health-services",
+      "list_position": 255,
+      "published_rank": 255,
+      "ranking_source": "https://fortune.com/company/universal-health-services/",
+      "careers_source": "https://jobs.uhsinc.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=uhs.com&sz=128",
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The public careers search returns 403 Forbidden in a normal browser; the linked iCIMS page did not expose usable listings."
+    },
+    {
+      "company_id": "pultegroup",
+      "list_position": 256,
+      "published_rank": 256,
+      "ranking_source": "https://fortune.com/company/pultegroup/",
+      "careers_source": "https://www.pultegroupinc.com/careers/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=pultegroupinc.com&sz=128",
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The official careers opportunities page returns HTTP 403 and presents an access challenge in a normal browser."
+    },
+    {
+      "company_id": "omnicom",
+      "list_position": 257,
+      "published_rank": 257,
+      "ranking_source": "https://fortune.com/company/omnicom-group/",
+      "careers_source": "https://www.omnicomgroup.com/careers/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=omnicomgroup.com&sz=128",
+      "status": "unavailable",
+      "reason": "repair-needed",
+      "message": "The former official careers link redirects to a missing page on omc.com. No current company-owned hiring feed was validated; separate agency hiring is not complete group coverage."
+    },
+    {
+      "company_id": "dicks-sporting-goods",
+      "list_position": 258,
+      "published_rank": 258,
+      "ranking_source": "https://fortune.com/company/dicks-sporting-goods/",
+      "careers_source": "https://www.dickssportinggoods.jobs/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=dickssportinggoods.com&sz=128",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-14T23:18:50.133425+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "c0c02a3f7c3c2918ec5687c7258995e8431ad8e336dbe8e144732cf62cb9151d",
+      "samples": [
+        {
+          "title": "Specialist Footwear",
+          "location": "Store1261 Brownsville TX",
+          "source_url": "https://dickssportinggoods.wd1.myworkdayjobs.com/DSG/job/Store1261-Brownsville-TX/Specialist-Footwear_202631847-1"
+        },
+        {
+          "title": "Team Captain Endzone & Loyalty (Front End)",
+          "location": "Store1261 Brownsville TX",
+          "source_url": "https://dickssportinggoods.wd1.myworkdayjobs.com/DSG/job/Store1261-Brownsville-TX/Team-Captain-Endzone---Loyalty--Front-End-_202612302"
+        },
+        {
+          "title": "Specialist Golf",
+          "location": "Store1129 South San Antonio TX",
+          "source_url": "https://dickssportinggoods.wd1.myworkdayjobs.com/DSG/job/Store1129-South-San-Antonio-TX/Specialist-Golf_202631612-1"
+        }
+      ]
+    },
+    {
+      "company_id": "devon-energy",
+      "list_position": 259,
+      "published_rank": 259,
+      "ranking_source": "https://fortune.com/company/devon-energy/",
+      "careers_source": "https://careers.devonenergy.com/",
+      "logo_url": "https://www.devonenergy.com/favicons/apple-touch-icon-152x152.png",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-14T23:18:49.751436+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "62187b5064f50ca75db8ed6028c30b123bea507aa82842e4078cc019df2e45ae",
+      "samples": [
+        {
+          "title": "Health and Safety Professional",
+          "location": "Carlsbad, NM",
+          "source_url": "https://wd5.myworkdaysite.com/recruiting/devonenergy/Careers/job/Carlsbad-NM/Health-and-Safety-Professional_R26306"
+        },
+        {
+          "title": "Engineering Summer Intern 2027",
+          "location": "Oklahoma City, OK",
+          "source_url": "https://wd5.myworkdaysite.com/recruiting/devonenergy/Careers/job/Oklahoma-City-OK/Engineering-Summer-Intern-2027_R26265"
+        },
+        {
+          "title": "Cyber Security Intern 2027",
+          "location": "Oklahoma City, OK",
+          "source_url": "https://wd5.myworkdaysite.com/recruiting/devonenergy/Careers/job/Oklahoma-City-OK/Cyber-Security-Intern-2027_R26303-1"
+        }
+      ]
+    },
+    {
+      "company_id": "leidos",
+      "list_position": 260,
+      "published_rank": 260,
+      "ranking_source": "https://fortune.com/company/leidos-holdings/",
+      "careers_source": "https://careers.leidos.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=leidos.com&sz=128",
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The official careers site presents an access challenge in a normal browser and returns HTTP 403. No permitted listing feed was validated."
+    },
+    {
+      "company_id": "aflac",
+      "list_position": 261,
+      "published_rank": 261,
+      "ranking_source": "https://fortune.com/company/aflac/",
+      "careers_source": "https://careers.aflac.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=aflac.com&sz=128",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-14T23:18:47.989186+00:00",
+      "job_count": 23,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "3ce87ba2ff2b3fa361a56bf54d9ac8af11623b79a32af866e8d6015ac6c16736",
+      "samples": [
+        {
+          "title": "2027 Corporate Digital Services Internship",
+          "location": "GA, US, 31999",
+          "source_url": "https://careers.aflac.com/job/2027-Corporate-Digital-Services-Internship-GA-31999/1429645300"
+        },
+        {
+          "title": "Sr LTD Case Manager",
+          "location": "Windsor, CT, US, 06095",
+          "source_url": "https://careers.aflac.com/job/Windsor-Sr-LTD-Case-Manager-CT-06095/1357112100"
+        },
+        {
+          "title": "Mgr, Claims Operations",
+          "location": "Windsor, CT, US, 06095",
+          "source_url": "https://careers.aflac.com/job/Windsor-Mgr%2C-Claims-Operations-CT-06095/1419446700"
+        }
+      ]
+    },
+    {
+      "company_id": "targa-resources",
+      "list_position": 262,
+      "published_rank": 262,
+      "ranking_source": "https://fortune.com/company/targa-resources/",
+      "careers_source": "https://www.targaresources.com/careers",
+      "logo_url": "https://www.google.com/s2/favicons?domain=www.targaresources.com&sz=64",
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The officially linked SelectMinds job board shows Access Forbidden in a normal browser. No access controls were bypassed."
+    },
+    {
+      "company_id": "murphy-usa",
+      "list_position": 263,
+      "published_rank": 263,
+      "ranking_source": "https://fortune.com/company/murphy-usa/",
+      "careers_source": "https://jobs.murphyusa.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=murphyusa.com&sz=128",
+      "status": "unavailable",
+      "reason": "repair-needed",
+      "message": "The official interactive search opens, but no portable listing recipe with validated job links was established. This does not indicate an absence of vacancies."
+    },
+    {
+      "company_id": "lpl-financial",
+      "list_position": 264,
+      "published_rank": 264,
+      "ranking_source": "https://fortune.com/company/lpl-financial-holdings/",
+      "careers_source": "https://careers.lpl.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=lpl.com&sz=128",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-14T23:19:12.144326+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "Selected corporate job categories only. Excludes Other, Sales and Employee Advisor categories to avoid partner-employed advisor postings; some direct LPL roles are omitted."
+      ],
+      "recipe_sha256": "2db1b90eb1d361281f9e8067ccfe4df50a588efc6f36cfb10f9b631a9277d040",
+      "samples": [
+        {
+          "title": "Admin Assistant - Rochester, NY",
+          "location": "Rochester, NY",
+          "source_url": "https://lplfinancial.wd1.myworkdayjobs.com/External/job/Rochester-NY/Admin-Assistant---Rochester--NY_R-053378-1"
+        },
+        {
+          "title": "VP, Workforce Management",
+          "location": "Fort Mill/Charlotte",
+          "source_url": "https://lplfinancial.wd1.myworkdayjobs.com/External/job/Fort-MillCharlotte/VP--Workforce-Management_R-052927-1"
+        },
+        {
+          "title": "AVP Data Warehouse Lead",
+          "location": "Fort Mill/Charlotte",
+          "source_url": "https://lplfinancial.wd1.myworkdayjobs.com/External/job/Fort-MillCharlotte/Lead-Data-Warehouse-Technical-Analyst_R-053137-1"
+        }
+      ]
+    },
+    {
+      "company_id": "emcor",
+      "list_position": 265,
+      "published_rank": 265,
+      "ranking_source": "https://fortune.com/company/emcor-group/",
+      "careers_source": "https://emcorgroup.com/careers",
+      "logo_url": "https://www.google.com/s2/favicons?domain=emcorgroup.com&sz=128",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-14T23:18:59.561841+00:00",
+      "job_count": 50,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "The corporate-linked EMCOR iCIMS board includes operating subsidiaries; bounded first-page coverage."
+      ],
+      "recipe_sha256": "120e6181b5f905ddf8e8843fe2bcc7ac539f82a101e8b5e9ca33d7d313b5f47a",
+      "samples": [
+        {
+          "title": "Offsite Construction Project Manager",
+          "location": "US-AZ-Mesa",
+          "source_url": "https://careers-emcorgroup.icims.com/jobs/52428/offsite-construction-project-manager/job?in_iframe=1"
+        },
+        {
+          "title": "Retrofit Estimator",
+          "location": "US-CA-Thousand Oaks",
+          "source_url": "https://careers-emcorgroup.icims.com/jobs/52427/retrofit-estimator/job?in_iframe=1"
+        },
+        {
+          "title": "Project Engineer - Mesa, AZ",
+          "location": "US-AZ-Mesa",
+          "source_url": "https://careers-emcorgroup.icims.com/jobs/52426/project-engineer---mesa%2c-az/job?in_iframe=1"
+        }
+      ]
+    },
+    {
+      "company_id": "kinder-morgan",
+      "list_position": 266,
+      "published_rank": 266,
+      "ranking_source": "https://fortune.com/company/kinder-morgan/",
+      "careers_source": "https://www.kindermorgan.com/Careers",
+      "logo_url": "https://www.google.com/s2/favicons?domain=kindermorgan.com&sz=128",
+      "status": "unavailable",
+      "reason": "repair-needed",
+      "message": "The official careers portal links separate corporate and field boards. The inspected corporate iCIMS page exposed no usable listings; a working scoped recipe needs validation."
+    },
+    {
+      "company_id": "consolidated-edison",
+      "list_position": 267,
+      "published_rank": 267,
+      "ranking_source": "https://fortune.com/company/consolidated-edison/",
+      "careers_source": "https://careers.coned.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=conedison.com&sz=128",
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The official careers site presents an access challenge in a normal browser and returns HTTP 403."
+    },
+    {
+      "company_id": "keurig-dr-pepper",
+      "list_position": 268,
+      "published_rank": 268,
+      "ranking_source": "https://fortune.com/company/dr-pepper-snapple-group/",
+      "careers_source": "https://careers.keurigdrpepper.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=keurigdrpepper.com&sz=128",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-14T23:19:04.339357+00:00",
+      "job_count": 15,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "5338268e2c865dda12af02b1263382353a99cc9088a080c89c138b3b1e8dab92",
+      "samples": [
+        {
+          "title": "Operador C",
+          "location": "Tecámac de Felipe Villanueva, México",
+          "source_url": "https://careers.keurigdrpepper.com/en/job/tecamac-de-felipe-villanueva/operador-c/42849/100640168544"
+        },
+        {
+          "title": "Fork Lift Operator",
+          "location": "Knoxville, TN",
+          "source_url": "https://careers.keurigdrpepper.com/en/job/knoxville/fork-lift-operator/42849/99971661296"
+        },
+        {
+          "title": "Quality Technician",
+          "location": "Sacramento, CA",
+          "source_url": "https://careers.keurigdrpepper.com/en/job/sacramento/quality-technician/42849/100640143200"
+        }
+      ]
+    },
+    {
+      "company_id": "republic-services",
+      "list_position": 269,
+      "published_rank": 269,
+      "ranking_source": "https://fortune.com/company/republic-services/",
+      "careers_source": "https://jobs.republicservices.com/us/en",
+      "logo_url": "https://www.google.com/s2/favicons?domain=republicservices.com&sz=128",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-14T23:19:21.567661+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "e77a7c375a65e7fe431e83ed622e7028e9ebdce9d8dcede97f4309d88da61b8f",
+      "samples": [
+        {
+          "title": "HazMat Field Driver/Technician - CDL (B)",
+          "location": "Clackamas, OR, USA",
+          "source_url": "https://republic.wd5.myworkdayjobs.com/Republic/job/Clackamas-OR-USA/HazMat-Field-Driver-Technician---CDL--B-_R-184133-1"
+        },
+        {
+          "title": "Landfill Heavy Equipment Operator",
+          "location": "Jacksonville, TX, USA",
+          "source_url": "https://republic.wd5.myworkdayjobs.com/Republic/job/Jacksonville-TX-USA/Landfill-Heavy-Equipment-Operator_R-184525"
+        },
+        {
+          "title": "Residential Helper",
+          "location": "Center, TX, USA",
+          "source_url": "https://republic.wd5.myworkdayjobs.com/Republic/job/Center-TX-USA/Residential-Helper_R-184393"
+        }
+      ]
+    },
+    {
+      "company_id": "markel",
+      "list_position": 270,
+      "published_rank": 270,
+      "ranking_source": "https://fortune.com/company/markel/",
+      "careers_source": "https://www.markel.com/careers",
+      "logo_url": "https://www.google.com/s2/favicons?domain=markel.com&sz=128",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-14T23:19:12.967137+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "ba0132b5e69553e974bfdac547e5fbea3e59f9e300e937bf324c651c312327d9",
+      "samples": [
+        {
+          "title": "Worker's Compensation Claims Examiner III",
+          "location": "Henderson NV",
+          "source_url": "https://markelcorp.wd5.myworkdayjobs.com/GlobalCareers/job/Henderson-NV/Claims-Examiner-III_R0023900"
+        },
+        {
+          "title": "Executive Claims Examiner",
+          "location": "Richmond, VA",
+          "source_url": "https://markelcorp.wd5.myworkdayjobs.com/GlobalCareers/job/Richmond-VA/Executive-Claims-Examiner_R0023914"
+        },
+        {
+          "title": "State National Claims Supervisor",
+          "location": "Bedford TX",
+          "source_url": "https://markelcorp.wd5.myworkdayjobs.com/GlobalCareers/job/Bedford-TX/State-National-Claims-Supervisor_R0022311"
+        }
+      ]
+    },
+    {
+      "company_id": "farmers-insurance",
+      "list_position": 271,
+      "published_rank": 271,
+      "ranking_source": "https://fortune.com/company/farmers-insurance-exchange/",
+      "careers_source": "https://www.farmers.com/careers/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=farmers.com&sz=128",
+      "status": "unavailable",
+      "reason": "repair-needed",
+      "message": "The official corporate careers page repeatedly timed out in HTTP and normal browser checks. A reachable public careers source needs validation."
+    },
+    {
+      "company_id": "dominion-energy",
+      "list_position": 272,
+      "published_rank": 272,
+      "ranking_source": "https://fortune.com/company/dominion-resources/",
+      "careers_source": "https://careers.dominionenergy.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=dominionenergy.com&sz=128",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-14T23:18:58.185088+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "c3e32bbbc14aea436edf4cb1d283c572615439b7f084bcc345ff5a21b59c1bc3",
+      "samples": [
+        {
+          "title": "Associate Engineer/ Engineer/ Senior Engineer/ Staff Engineer",
+          "location": "Glen Allen, VA, US, 23060",
+          "source_url": "https://careers.dominionenergy.com/job/Glen-Allen-Associate-Engineer-Engineer-Senior-Engineer-Staff-Engineer-VA-23060/1429519500"
+        },
+        {
+          "title": "Nuclear Intern - Rapid Response (Mechanical Engineering)",
+          "location": "WATERFORD, CT, US, 06385",
+          "source_url": "https://careers.dominionenergy.com/job/WATERFORD-Nuclear-Intern-Rapid-Response-%28Mechanical-Engineering%29-CT-06385/1429580300"
+        },
+        {
+          "title": "Controls Specialist / Senior Controls Specialist (Richmond, Hybrid)",
+          "location": "RICHMOND, VA, US, 23219",
+          "source_url": "https://careers.dominionenergy.com/job/RICHMOND-Controls-Specialist-Senior-Controls-Specialist-%28Richmond%2C-Hybrid%29-VA-23219/1429578700"
+        }
+      ]
+    },
+    {
+      "company_id": "land-olakes",
+      "list_position": 273,
+      "published_rank": 273,
+      "ranking_source": "https://fortune.com/company/land-olakes/",
+      "careers_source": "https://careers.landolakesinc.com/us/en",
+      "logo_url": "https://www.google.com/s2/favicons?domain=landolakesinc.com&sz=128",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-14T23:19:11.735691+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "63ff34ae4b579662853a25563c6fbc806b899812da0ec28dfe05e64c5f6e1598",
+      "samples": [
+        {
+          "title": "Production Operator",
+          "location": "Caledonia, NY (USA)",
+          "source_url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Caledonia-NY-USA/Production-Operator_R-40527"
+        },
+        {
+          "title": "Quality Assurance Supervisor - 2nd Shift",
+          "location": "Spencer, WI (USA)",
+          "source_url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Spencer-WI-USA/Quality-Assurance-Supervisor---2nd-Shift_R-40517"
+        },
+        {
+          "title": "Line Associate",
+          "location": "Turlock, CA (USA)",
+          "source_url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Turlock-CA-USA/Line-Associate_R-40423"
+        }
+      ]
+    },
+    {
+      "company_id": "iqvia",
+      "list_position": 274,
+      "published_rank": 274,
+      "ranking_source": "https://fortune.com/company/quintiles-ims-holdings/",
+      "careers_source": "https://jobs.iqvia.com/en",
+      "logo_url": "https://images.ctfassets.net/8x484i6m45rv/6EnqpaUZCyWa8zBj2MaEQD/549d7e462d45f0115cd100ca41acb50f/IQV_BIG.D-8d293c90.png",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-14T23:19:01.513455+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "2b07c676963dafefadce17f8aad542dc0b6d2da2c395434167f33178c5352b93",
+      "samples": [
+        {
+          "title": "Consulting Intern",
+          "location": "Mexico City, Mexico",
+          "source_url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Mexico-City-Mexico/Intern_R1556962"
+        },
+        {
+          "title": "Commercial Business Partner",
+          "location": "São Paulo, Brazil",
+          "source_url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/So-Paulo-Brazil/Commercial-Business-Partner_R1553205"
+        },
+        {
+          "title": "Key Account Representative - Philadelphia, PA",
+          "location": "Philadelphia, PA",
+          "source_url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Philadelphia-PA/Key-Account-Representative---Philadelphia--PA_R1556307"
+        }
+      ]
+    },
+    {
+      "company_id": "fox",
+      "list_position": 275,
+      "published_rank": 275,
+      "ranking_source": "https://fortune.com/company/fox/",
+      "careers_source": "https://www.foxcareers.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=foxcorporation.com&sz=128",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-14T23:19:00.632671+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "FOX Corporation brands shown on the official FOX Careers board; does not include separately owned former entertainment businesses."
+      ],
+      "recipe_sha256": "65e254a45ddca1067734a68dc742f94118fc7936158278298c9858a2c4f6f548",
+      "samples": [
+        {
+          "title": "Executive Assistant (R50033559)",
+          "location": "New York, New York",
+          "source_url": "https://www.foxcareers.com/Search/JobDetail/R50033559/executive-assistant-fox-news-media?pageLanguage=en-US"
+        },
+        {
+          "title": "On-Campus Multiplatform Video Producer/Editor (USC) - Big Ten Network (R50033825) Remote",
+          "location": "Home Office, California",
+          "source_url": "https://www.foxcareers.com/Search/JobDetail/R50033825/on-campus-multiplatform-video-producer-editor-usc-big-ten-network-fox-sports?pageLanguage=en-US"
+        },
+        {
+          "title": "Per Diem Transmitter Engineer (R50033844)",
+          "location": "Los Angeles, California",
+          "source_url": "https://www.foxcareers.com/Search/JobDetail/R50033844/per-diem-transmitter-engineer-fox-tv-stations?pageLanguage=en-US"
+        }
+      ]
+    },
+    {
+      "company_id": "aecom",
+      "list_position": 276,
+      "published_rank": 276,
+      "ranking_source": "https://fortune.com/company/aecom/",
+      "careers_source": "https://aecom.com/careers/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=aecom.com&sz=128",
+      "status": "verified",
+      "strategy": "playwright",
+      "checked_at": "2026-09-14T23:18:47.965981+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "412bde820bc0d45599f6dbf74b2a30cfb4855f41f95697a1bcf311751cf8a9f9",
+      "samples": [
+        {
+          "title": "Project Director (Construction Supervision)",
+          "location": "Abu Dhabi, ARE",
+          "source_url": "https://aecom.jobs/abu-dhabi-are/project-director-construction-supervision/6BF71DD3FADC4F8F8B1F6FAA2CBA7C50/job"
+        },
+        {
+          "title": "Civil/Site Engineer – Airside Projects",
+          "location": "Philadelphia, PA",
+          "source_url": "https://aecom.jobs/philadelphia-pa/civilsite-engineer-airside-projects/EF2B920C5A0E41EAB8E886EF44CC8FD6/job"
+        },
+        {
+          "title": "Engineer, Mechanical",
+          "location": "Bukit Damansara, MYS",
+          "source_url": "https://aecom.jobs/bukit-damansara-mys/engineer-mechanical/71C76E1ADD5A4117A191B32467FDDA5A/job"
+        }
+      ]
+    },
+    {
+      "company_id": "ch-robinson",
+      "list_position": 277,
+      "published_rank": 277,
+      "ranking_source": "https://fortune.com/company/c-h-robinson-worldwide/",
+      "careers_source": "https://jobs.chrobinson.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=chrobinson.com&sz=128",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-14T23:18:47.990194+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "26fa505710142c1e00dc63c7f0048b0420e5a3ae0df8a8baa8e48d5f87bdf1a7",
+      "samples": [
+        {
+          "title": "Intern - Account Manager - Starting Summer 2027",
+          "location": "Chicago, IL United States of America",
+          "source_url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Chicago-IL-United-States-of-America/Intern---Account-Manager---Starting-Summer-2027_R49485-1"
+        },
+        {
+          "title": "Senior Automation Solutions Developer",
+          "location": "Eden Prairie, MN United States of America",
+          "source_url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Senior-Automation-Solutions-Developer_R49021"
+        },
+        {
+          "title": "Transportation Security Operations Specialist",
+          "location": "Downers Grove, IL United States of America",
+          "source_url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Downers-Grove-IL-United-States-of-America/Security-Operations-Specialist_R49311"
+        }
+      ]
+    },
+    {
+      "company_id": "bitgo",
+      "list_position": 278,
+      "published_rank": 278,
+      "ranking_source": "https://fortune.com/company/bitgo-holdings/",
+      "careers_source": "https://www.bitgo.com/company/careers/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=bitgo.com&sz=128",
+      "status": "verified",
+      "strategy": "generic_json",
+      "checked_at": "2026-09-14T23:18:47.989186+00:00",
+      "job_count": 37,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "b0ea8ea002097ef21a333291f5f702a14866794c2891e7d03b8a5169351c02c3",
+      "samples": [
+        {
+          "title": "Application Security Engineer",
+          "location": "India",
+          "source_url": "https://job-boards.greenhouse.io/bitgo/jobs/7821447002"
+        },
+        {
+          "title": "Associate General Counsel",
+          "location": "Singapore",
+          "source_url": "https://job-boards.greenhouse.io/bitgo/jobs/8627534002"
+        },
+        {
+          "title": "Associate - Listings & Ecosystem Development",
+          "location": "New York, United States",
+          "source_url": "https://job-boards.greenhouse.io/bitgo/jobs/7907250002"
+        }
+      ]
+    },
+    {
+      "company_id": "united-rentals",
+      "list_position": 279,
+      "published_rank": 279,
+      "ranking_source": "https://fortune.com/company/united-rentals/",
+      "careers_source": "https://jobs.unitedrentals.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=unitedrentals.com&sz=128",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-14T23:19:25.952555+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "9eafa1f847aa1731a06d9ce74c63e74ed167e8afbcfe70393e86b24c6aed00a3",
+      "samples": [
+        {
+          "title": "Inside Sales Rep - Reservations (Contact Center)",
+          "location": "Charlotte, NC, USA",
+          "source_url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Charlotte-NC-USA/Inside-Sales-Rep---Reservations--Contact-Center-_101163"
+        },
+        {
+          "title": "Outbound Sales Rep - Business Development Contact Center",
+          "location": "Charlotte, NC, USA",
+          "source_url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Charlotte-NC-USA/Outbound-Sales-Rep---Business-Development-Contact-Center_99574"
+        },
+        {
+          "title": "Inside Sales Rep",
+          "location": "Shreveport, LA, USA",
+          "source_url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Shreveport-LA-USA/Inside-Sales-Rep_99450"
+        }
+      ]
+    },
+    {
+      "company_id": "ecolab",
+      "list_position": 280,
+      "published_rank": 280,
+      "ranking_source": "https://fortune.com/company/ecolab/",
+      "careers_source": "https://jobs.ecolab.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=ecolab.com&sz=128",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-14T23:18:59.066768+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "72f13b300d8a01a3d85cda42747dc9efb9580f18b90423637153cc9b72cd40f4",
+      "samples": [
+        {
+          "title": "Key Account Manager - USA",
+          "location": "USA - Texas - Austin",
+          "source_url": "https://ecolab.wd1.myworkdayjobs.com/Ecolab_External/job/USA---Texas---Austin/Key-Account-Manager---USA_R00302624"
+        },
+        {
+          "title": "Test Specialist - PCL",
+          "location": "CAN - Alberta - Calgary",
+          "source_url": "https://ecolab.wd1.myworkdayjobs.com/Ecolab_External/job/CAN---Alberta---Calgary/Test-Specialist---PCL_R00304433"
+        },
+        {
+          "title": "Pest Control Technician",
+          "location": "USA - Massachusetts - Boston",
+          "source_url": "https://ecolab.wd1.myworkdayjobs.com/Ecolab_External/job/USA---Massachusetts---Boston/Service-Specialist-Trainee_R00304429"
+        }
+      ]
+    },
+    {
+      "company_id": "illinois-tool-works",
+      "list_position": 281,
+      "published_rank": 281,
+      "ranking_source": "https://fortune.com/company/illinois-tool-works/",
+      "careers_source": "https://careers.itw.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=itw.com&sz=128",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-14T23:19:00.661964+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "Official ITW external board, including operating divisions; separate division systems may be excluded."
+      ],
+      "recipe_sha256": "cde5a09036c4143f58674f3913b4b441a79ca5f42bd888778f4340693fbcb364",
+      "samples": [
+        {
+          "title": "Service Technician II",
+          "location": "Columbus, OH - Job Posting Location Only",
+          "source_url": "https://itw.wd5.myworkdayjobs.com/External/job/Columbus-OH---Job-Posting-Location-Only/Service-Technician-II_JR10066"
+        },
+        {
+          "title": "Service Technician 1",
+          "location": "Newark, NJ - Job Posting Location Only",
+          "source_url": "https://itw.wd5.myworkdayjobs.com/External/job/Newark-NJ---Job-Posting-Location-Only/Service-Technician-1_JR10064"
+        },
+        {
+          "title": "Service Technician II",
+          "location": "Baltimore - 8869 Kelso Drive",
+          "source_url": "https://itw.wd5.myworkdayjobs.com/External/job/Baltimore---8869-Kelso-Drive/Service-Technician-II_JR10041"
+        }
+      ]
+    },
+    {
+      "company_id": "caseys",
+      "list_position": 282,
+      "published_rank": 282,
+      "ranking_source": "https://fortune.com/company/caseys-general-stores/",
+      "careers_source": "https://www.caseys.com/careers",
+      "logo_url": "https://www.google.com/s2/favicons?domain=caseys.com&sz=128",
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The official careers page presents an access challenge in a normal browser. A permitted public listing source needs validation."
+    },
+    {
+      "company_id": "raymond-james",
+      "list_position": 283,
+      "published_rank": 283,
+      "ranking_source": "https://fortune.com/company/raymond-james-financial/",
+      "careers_source": "https://www.raymondjames.com/careers",
+      "logo_url": "https://www.google.com/s2/favicons?domain=raymondjames.com&sz=128",
+      "status": "unavailable",
+      "reason": "repair-needed",
+      "message": "The official careers page timed out over HTTP and failed with a browser protocol error. A working public source needs validation."
+    },
+    {
+      "company_id": "ppg",
+      "list_position": 284,
+      "published_rank": 284,
+      "ranking_source": "https://fortune.com/company/ppg-industries/",
+      "careers_source": "https://careers.ppg.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=ppg.com&sz=128",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-14T23:19:17.238055+00:00",
+      "job_count": 12,
+      "pages": 13,
+      "complete": false,
+      "warnings": [
+        "removed 8 duplicate source IDs",
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "Bounded Workday feed; the runtime removed duplicate source IDs. Returned count understates listings and must not be used to close unseen jobs."
+      ],
+      "recipe_sha256": "fcb74734a60cbffe3aefd221a5cbd34993f460c51a6bed5dc4b44b334c1e71fb",
+      "samples": [
+        {
+          "title": "EHS Manager",
+          "location": "MYS - Petaling Jaya Plant",
+          "source_url": "https://ppg.wd5.myworkdayjobs.com/PPG_CAREERS/job/MYS---Petaling-Jaya-Plant/EHS-Manager_JR2612125"
+        },
+        {
+          "title": "Asistent/ka prodeje - Brno prodejny",
+          "location": "CZE - Brno Kastanova Store",
+          "source_url": "https://ppg.wd5.myworkdayjobs.com/PPG_CAREERS/job/CZE---Brno-Kastanova-Store/Asistent-ka-prodeje---Brno-Katanov_JR265760"
+        },
+        {
+          "title": "Senior Sales Representative",
+          "location": "SGP - Singapore Cleantech Office",
+          "source_url": "https://ppg.wd5.myworkdayjobs.com/PPG_CAREERS/job/SGP---Singapore-Cleantech-Office/Senior-Sales-Representative_JR2610506"
+        }
+      ]
+    },
+    {
+      "company_id": "dte-energy",
+      "list_position": 285,
+      "published_rank": 285,
+      "ranking_source": "https://fortune.com/company/dte-energy/",
+      "careers_source": "https://careers.dteenergy.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=dteenergy.com&sz=128",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-14T23:18:58.769634+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "fd1cf5d70532422aeaf80c3c3a65819a87708b74d7efa844601b50d9a8123f44",
+      "samples": [
+        {
+          "title": "Principal Engineer - Underground",
+          "location": "Detroit, MI, US",
+          "source_url": "https://careers.dteenergy.com/job/Detroit-Principal-Engineer-Underground-MI-48201/1349080400"
+        },
+        {
+          "title": "Associate Data Analyst",
+          "location": "Detroit, MI, US",
+          "source_url": "https://careers.dteenergy.com/job/Detroit-Associate-Data-Analyst-MI-48201/1429764200"
+        },
+        {
+          "title": "Associate Environmental Engineer - Coke",
+          "location": "River Rouge, MI, US",
+          "source_url": "https://careers.dteenergy.com/job/River-Rouge-Associate-Environmental-Engineer-Coke-MI-48218/1429759500"
+        }
+      ]
+    },
+    {
+      "company_id": "corning",
+      "list_position": 286,
+      "published_rank": 286,
+      "ranking_source": "https://fortune.com/company/corning/",
+      "careers_source": "https://corningjobs.corning.com/",
+      "logo_url": "https://rmkcdn.successfactors.com/5da1734a/37ab45fb-30f1-4325-843b-d.jpg",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-14T23:18:48.778913+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "c11f5579599cc76dda4c16b83db501d70b5f195410ef4452f56f44a49e36efd5",
+      "samples": [
+        {
+          "title": "IT Service Analyst M365",
+          "location": "Obispado, NLE, MX, 64060",
+          "source_url": "https://corningjobs.corning.com/job/Obispado-IT-Service-Analyst-M365-NLE-64060/1392826000"
+        },
+        {
+          "title": "Sr. Quality Engineer",
+          "location": "TuCheng City, TW, 236",
+          "source_url": "https://corningjobs.corning.com/job/TuCheng-City-Sr_-Quality-Engineer-236/1384425900"
+        },
+        {
+          "title": "Innovation Project Manager",
+          "location": "Corning, NY, US, 14831",
+          "source_url": "https://corningjobs.corning.com/job/Corning-Innovation-Project-Manager-NY-14831/1401663600"
+        }
+      ]
+    },
+    {
+      "company_id": "principal-financial",
+      "list_position": 287,
+      "published_rank": 287,
+      "ranking_source": "https://fortune.com/company/principal-financial/",
+      "careers_source": "https://careers.principal.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=principal.com&sz=128",
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The public careers search returns 403 Forbidden in a normal browser; the linked iCIMS page did not expose usable listings."
+    },
+    {
+      "company_id": "mutual-of-omaha",
+      "list_position": 288,
+      "published_rank": 288,
+      "ranking_source": "https://fortune.com/company/mutual-of-omaha-insurance/",
+      "careers_source": "https://www.mutualofomaha.com/careers",
+      "logo_url": "https://www.google.com/s2/favicons?domain=mutualofomaha.com&sz=128",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-14T23:19:16.350171+00:00",
+      "job_count": 14,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "5b051ec8743caa1bf5d7f3dbd10bf56bef0aef289fd9531992a7aaae94987c74",
+      "samples": [
+        {
+          "title": "Summer 2027 Actuarial Intern",
+          "location": "Onsite",
+          "source_url": "https://www.mutualofomaha.com/careers/jobs/detail/505174"
+        },
+        {
+          "title": "Summer 2027 Raikes Program Actuarial Intern",
+          "location": "Onsite",
+          "source_url": "https://www.mutualofomaha.com/careers/jobs/detail/505216"
+        },
+        {
+          "title": "Systems Engineer (Informatica) -Remote",
+          "location": "Remote",
+          "source_url": "https://www.mutualofomaha.com/careers/jobs/detail/505149"
+        }
+      ]
+    },
+    {
+      "company_id": "kohls",
+      "list_position": 289,
+      "published_rank": 289,
+      "ranking_source": "https://fortune.com/company/kohls/",
+      "careers_source": "https://careers.kohls.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=kohls.com&sz=128",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-14T23:19:05.379319+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "8b193487c875a1247bbace8f414bbbe2fe9f4c4006001c153135d251234d3f23",
+      "samples": [
+        {
+          "title": "Full-Time Stockroom Operations Supervisor",
+          "location": "Holmdel (0388)",
+          "source_url": "https://kohls.wd504.myworkdayjobs.com/kohlscareers/job/Holmdel-0388/Full-Time-Stockroom-Operations-Supervisor_R471545"
+        },
+        {
+          "title": "Assistant Store Manager",
+          "location": "Simi Valley (0605)",
+          "source_url": "https://kohls.wd504.myworkdayjobs.com/kohlscareers/job/Simi-Valley-0605/Assistant-Store-Manager_R500294"
+        },
+        {
+          "title": "Store Manager",
+          "location": "Douglasville (1033)",
+          "source_url": "https://kohls.wd504.myworkdayjobs.com/kohlscareers/job/Douglasville-1033/Store-Manager_R500293"
+        }
+      ]
+    },
+    {
+      "company_id": "tractor-supply",
+      "list_position": 290,
+      "published_rank": 290,
+      "ranking_source": "https://fortune.com/company/tractor-supply/",
+      "careers_source": "https://www.tractorsupply.careers/",
+      "logo_url": "https://rmkcdn.successfactors.com/06fd4c88/922cd839-a2b4-4fa5-b982-5.png",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-14T23:19:24.483594+00:00",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "d1fbc3181b10ea542c65d1983503f14368bb06012d9067227606b4e36034d342",
+      "samples": [
+        {
+          "title": "Receiver",
+          "location": "Warrensburg, MO, US, 64093",
+          "source_url": "https://www.tractorsupply.careers/job/Warrensburg-Receiver-MO-64093/1401758800"
+        },
+        {
+          "title": "Team Leader",
+          "location": "Warrensburg, MO, US, 64093",
+          "source_url": "https://www.tractorsupply.careers/job/Warrensburg-Team-Leader-MO-64093/1401760000"
+        },
+        {
+          "title": "Distribution Center Team Member",
+          "location": "Waverly, NE, US, 68462",
+          "source_url": "https://www.tractorsupply.careers/job/Waverly-Distribution-Center-Team-Member-NE-68462/1392942500"
+        }
+      ]
+    },
+    {
+      "company_id": "whirlpool",
+      "list_position": 291,
+      "published_rank": 291,
+      "ranking_source": "https://fortune.com/company/whirlpool/",
+      "careers_source": "https://jobs.whirlpool.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=whirlpoolcorp.com&sz=128",
+      "status": "verified",
+      "strategy": "generic_json",
+      "checked_at": "2026-09-14T23:19:35.449547+00:00",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "27bf872751bd3b5384303ecd1de36a8513d5a1a8f5092fb59c21c6d895bd938d",
+      "samples": [
+        {
+          "title": "Senior Art Director",
+          "location": "Chicago, IL, US",
+          "source_url": "https://jobs.whirlpool.com/careers/job/34403408866"
+        },
+        {
+          "title": "Senior Plastics Process Engineer",
+          "location": "SC,BR",
+          "source_url": "https://jobs.whirlpool.com/careers/job/34403305671"
+        },
+        {
+          "title": "Cycle Design Lead Engineer",
+          "location": "St Joseph, MI, US",
+          "source_url": "https://jobs.whirlpool.com/careers/job/34403858325"
+        }
+      ]
+    },
+    {
+      "company_id": "fluor",
+      "list_position": 292,
+      "published_rank": 292,
+      "ranking_source": "https://fortune.com/company/fluor/",
+      "careers_source": "https://www.fluor.com/careers",
+      "logo_url": "https://www.google.com/s2/favicons?domain=fluor.com&sz=128",
+      "status": "unavailable",
+      "reason": "repair-needed",
+      "message": "The official Eightfold careers page opens, but no portable listing recipe with validated source links was established. The observed job-detail requests alone are insufficient."
+    },
+    {
+      "company_id": "gap",
+      "list_position": 293,
+      "published_rank": 293,
+      "ranking_source": "https://fortune.com/company/gap/",
+      "careers_source": "https://www.gapinc.com/en-us/careers",
+      "logo_url": "https://www.google.com/s2/favicons?domain=gapinc.com&sz=128",
+      "status": "unavailable",
+      "reason": "repair-needed",
+      "message": "The official search automatically applies the browser location and distance. A deterministic recipe with explicit, stable geographic scope must be validated before installation."
+    },
+    {
+      "company_id": "sp-global",
+      "list_position": 294,
+      "published_rank": 294,
+      "ranking_source": "https://fortune.com/company/sp-global/",
+      "careers_source": "https://careers.spglobal.com/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=spglobal.com&sz=128",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-14T23:19:23.098843+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "010a51d775af57795aa149b0dce4fbe975c7a02f2e3578769088d93f23572e6d",
+      "samples": [
+        {
+          "title": "Finance Associate Director, Sales Compensation MI (Data Architecture & Strategy)",
+          "location": "London, UK",
+          "source_url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/London-UK/Finance-Associate-Director--Sales-Compensation-MI--Data-Architecture---Strategy-_331576-2"
+        },
+        {
+          "title": "Finance Manager, Sales Compensation (Strategic Center of Excellence)",
+          "location": "London, UK",
+          "source_url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/London-UK/Finance-Manager--Sales-Compensation--Strategic-Center-of-Excellence-_331575-1"
+        },
+        {
+          "title": "Product Manager, Private Markets",
+          "location": "New York, NY",
+          "source_url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/New-York-NY/Analyst--Business---Product-Analysis_331030-1"
+        }
+      ]
+    },
+    {
+      "company_id": "ally-financial",
+      "list_position": 295,
+      "published_rank": 295,
+      "ranking_source": "https://fortune.com/company/ally-financial/",
+      "careers_source": "https://www.ally.com/about/careers/",
+      "logo_url": "https://www.google.com/s2/favicons?domain=ally.com&sz=128",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-14T23:18:47.987163+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "dcd2acb85a561df18ffee2c7df85a5027178c8908e599c2e743653acd8c38a9e",
+      "samples": [
+        {
+          "title": "Senior Analyst - Shared Services FPA",
+          "location": "Charlotte, NC",
+          "source_url": "https://ally.wd1.myworkdayjobs.com/Ally/job/Charlotte-NC/Senior-Analyst---Shared-Services-FP-A_R2600323"
+        },
+        {
+          "title": "2028 Early Talent – Accounting Leadership Talent Development Program",
+          "location": "Detroit, MI",
+          "source_url": "https://ally.wd1.myworkdayjobs.com/Ally/job/Detroit-MI/XMLNAME-2028-Early-Talent---Accounting-Leadership-Talent-Development-Program_R2600661"
+        },
+        {
+          "title": "Summer 2028 Internship - Accounting",
+          "location": "Detroit, MI",
+          "source_url": "https://ally.wd1.myworkdayjobs.com/Ally/job/Detroit-MI/Summer-2028-Internship---Accounting_R2600660"
+        }
+      ]
+    },
+    {
+      "company_id": "builders-firstsource",
+      "list_position": 296,
+      "published_rank": 296,
+      "ranking_source": "https://fortune.com/company/builders-firstsource/",
+      "careers_source": "https://www.bldr.com/careers",
+      "logo_url": "https://www.google.com/s2/favicons?domain=bldr.com&sz=128",
+      "status": "unavailable",
+      "reason": "access-restricted",
+      "message": "The official careers search returns 403 Forbidden in a normal browser. No working deterministic listing feed was validated."
+    },
+    {
+      "company_id": "sonic-automotive",
+      "list_position": 297,
+      "published_rank": 297,
+      "ranking_source": "https://fortune.com/company/sonic-automotive/",
+      "careers_source": "https://jobs.sonicautomotive.com/",
+      "logo_url": "https://jobs.sonicautomotive.com/apple-touch-icon.png",
+      "status": "verified",
+      "strategy": "generic_html",
+      "checked_at": "2026-09-14T23:19:22.469399+00:00",
+      "job_count": 387,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "Official Sonic dealership listings; dealership brands are operating-company employment. One bounded response, not a global completeness guarantee."
+      ],
+      "recipe_sha256": "6375983629b7735c5647a535dea9a22c3166f4b91af6aaec01b5170d1ebea254",
+      "samples": [
+        {
+          "title": "Shipping and Receiving - BMW of Denver",
+          "location": "1040 Colorado Boulevard, Denver 80246",
+          "source_url": "https://jobs.sonicautomotive.com/job-detail?job=744000149455239&post_date=1789425989"
+        },
+        {
+          "title": "Automotive Accounting Specialist",
+          "location": "8819 South Orange Blossom Trail, Orlando 32809",
+          "source_url": "https://jobs.sonicautomotive.com/job-detail?job=744000149437687&post_date=1789420063"
+        },
+        {
+          "title": "Automotive Sales Consultant (Pre-Owned) Bilingual Spanish",
+          "location": "12057 Southwest Freeway, Stafford 77477",
+          "source_url": "https://jobs.sonicautomotive.com/job-detail?job=744000149437201&post_date=1789419266"
+        }
+      ]
+    },
+    {
+      "company_id": "stanley-black-decker",
+      "list_position": 298,
+      "published_rank": 298,
+      "ranking_source": "https://fortune.com/company/stanley-black-decker/",
+      "careers_source": "https://www.stanleyblackanddecker.com/careers",
+      "logo_url": "https://www.google.com/s2/favicons?domain=stanleyblackanddecker.com&sz=128",
+      "status": "unavailable",
+      "reason": "repair-needed",
+      "message": "The official careers page returned HTTP 403 and repeatedly failed with a normal-browser protocol error. No installable recipe was validated."
+    },
+    {
+      "company_id": "kenvue",
+      "list_position": 299,
+      "published_rank": 299,
+      "ranking_source": "https://fortune.com/company/kenvue/",
+      "careers_source": "https://www.kenvue.com/careers",
+      "logo_url": "https://www.google.com/s2/favicons?domain=kenvue.com&sz=128",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-14T23:19:02.572592+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ],
+      "recipe_sha256": "28c101f0edcd2ea27f8b9f75098fe7b4f819546efbb278ca3c12648b13a7de42",
+      "samples": [
+        {
+          "title": "Assoc. Mgr, Marketing Capabilities & Ops",
+          "location": "North America, United States, New Jersey, Summit",
+          "source_url": "https://kenvue.wd5.myworkdayjobs.com/kenvue/job/North-America-United-States-New-Jersey-Summit/Assoc-Mgr--Marketing-Capabilities---Ops_2607048440W"
+        },
+        {
+          "title": "Manufacturing Apprentice",
+          "location": "North America, United States, Pennsylvania, Fort Washington",
+          "source_url": "https://kenvue.wd5.myworkdayjobs.com/kenvue/job/North-America-United-States-Pennsylvania-Fort-Washington/Manufacturing-Apprentice_2607048755W"
+        },
+        {
+          "title": "Key Account Executive (en Porto Viejo)",
+          "location": "Latin America, Ecuador, Guayas, Guayaquil",
+          "source_url": "https://kenvue.wd5.myworkdayjobs.com/kenvue/job/Latin-America-Ecuador-Guayas-Guayaquil/Key-Account-Executive--en-Porto-Viejo-_2607048104W"
+        }
+      ]
+    },
+    {
+      "company_id": "kyndryl",
+      "list_position": 300,
+      "published_rank": 300,
+      "ranking_source": "https://fortune.com/company/kyndryl-holdings/",
+      "careers_source": "https://www.kyndryl.com/us/en/careers",
+      "logo_url": "https://www.google.com/s2/favicons?domain=kyndryl.com&sz=128",
+      "status": "verified",
+      "strategy": "workday",
+      "checked_at": "2026-09-14T23:19:11.170183+00:00",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "Professional careers board only; the separately linked early-careers board is excluded."
+      ],
+      "recipe_sha256": "8b9c77f9d5f830f8ca9e1b566bf21864bb2f6d2f283ebee2401e76eb5708c468",
+      "samples": [
+        {
+          "title": "Software Engineering - Development",
+          "location": "Mexico City, Distrito Federal, Mexico",
+          "source_url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Mexico-City-Distrito-Federal-Mexico/Software-Engineering---Development_R-61788-1"
+        },
+        {
+          "title": "Application Consulting",
+          "location": "Mexico City, Distrito Federal, Mexico",
+          "source_url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Mexico-City-Distrito-Federal-Mexico/Application-Consulting_R-60378"
+        },
+        {
+          "title": "Network support",
+          "location": "Mexico City, Distrito Federal, Mexico",
+          "source_url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Mexico-City-Distrito-Federal-Mexico/Network-support_R-65488"
+        }
+      ]
+    }
+  ]
+}

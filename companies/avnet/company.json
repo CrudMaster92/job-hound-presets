@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "avnet",
+  "name": "Avnet",
+  "aliases": [],
+  "website_url": "https://www.avnet.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=avnet.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 250",
+      "2026",
+      "United States"
+    ]
+  }
+}

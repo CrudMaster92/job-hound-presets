@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "publix",
+  "name": "Publix Super Markets",
+  "aliases": [],
+  "website_url": "https://www.publix.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=publix.com&sz=128",
+  "availability": {
+    "status": "unavailable",
+    "reason": "regional-restriction",
+    "message": "The job board is unavailable from this region. This Fortune company is listed while a repeatable public source is being repaired.",
+    "checked_at": "2026-09-04T19:00:00Z"
+  },
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 100",
+      "2026",
+      "United States"
+    ]
+  }
+}

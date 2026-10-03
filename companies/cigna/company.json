@@ -1,0 +1,20 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cigna",
+  "name": "Cigna Group",
+  "aliases": [],
+  "website_url": "https://www.thecignagroup.com/",
+  "logo_url": "https://cdn.phenompeople.com/CareerConnectResources/prod/CIGNUS/images/cropChild-73dIH-1708525422884-1709142170911.png",
+  "facets": {
+    "industries": [
+      "healthcare"
+    ],
+    "specialties": [],
+    "tags": [
+      "Fortune 50",
+      "2026",
+      "United States"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "kyndryl",
+  "name": "Kyndryl Holdings",
+  "aliases": [],
+  "website_url": "https://www.kyndryl.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=kyndryl.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 300",
+      "2026",
+      "United States"
+    ]
+  }
+}

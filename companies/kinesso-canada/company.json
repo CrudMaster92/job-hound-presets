@@ -1,0 +1,32 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "kinesso-canada",
+  "name": "KINESSO",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://kinesso.com/",
+  "logo_url": "https://jp.kinesso.com/wp-content/themes/stickyeyes/assets/favicons/apple-touch-icon.png",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "martech-data-analytics",
+      "performance-marketing",
+      "web-ux-digital-experience"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "Omnicom"
+    ]
+  },
+  "parent_company_id": "omnicom",
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The Marketing Job Board collector has not yet been converted and validated as a JobHound monitor.",
+    "checked_at": "2026-09-30T00:53:28.032653Z"
+  }
+}

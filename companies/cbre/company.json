@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cbre",
+  "name": "CBRE Group",
+  "aliases": [],
+  "website_url": "https://www.cbre.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=cbre.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 150",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "CBRE lists jobs in a normal browser, but its careers board did not pass unattended validation. Its scraper needs repair before installation.",
+    "checked_at": "2026-09-06T19:18:42.131738+00:00"
+  }
+}

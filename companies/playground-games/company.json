@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "playground-games",
+  "name": "Playground Games",
+  "aliases": [],
+  "website_url": "https://playground-games.com/",
+  "logo_url": "https://playground-games.com/site-logo.svg",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

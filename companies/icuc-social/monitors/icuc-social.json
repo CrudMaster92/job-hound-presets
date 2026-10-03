@@ -1,0 +1,86 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "icuc-social",
+  "company_id": "icuc-social",
+  "revision": 1,
+  "label": "ICUC Social jobs",
+  "careers_url": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-03T22:01:52.599826+00:00",
+    "job_count": 8,
+    "warnings": [
+      "Verified locally with detail ownership checks; excluded from public collection pending a separately reviewed detail budget."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "ICUC Social",
+    "careers_url": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "dentsuaegis.wd3.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://dentsuaegis.wd3.myworkdayjobs.com/wday/cxs/dentsuaegis/DAN_GLOBAL/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {
+          "locationCountry": [
+            "a30a87ed25634629aa6c3958aa2b91ea"
+          ]
+        },
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 15,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 25,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "dentsuaegis",
+      "site": "DAN_GLOBAL",
+      "detail_fetch_limit": 250
+    },
+    "source_key": "dentsu-global-canada",
+    "source_filter": {
+      "predicates": [
+        {
+          "phase": "detail",
+          "path": "jobPostingInfo.jobDescription",
+          "operator": "html_label_equals_ci",
+          "label": "Brand",
+          "values": [
+            "ICUC"
+          ]
+        },
+        {
+          "phase": "detail",
+          "path": "jobPostingInfo.country.descriptor",
+          "operator": "equals_ci",
+          "values": [
+            "Canada"
+          ]
+        }
+      ],
+      "predicate_match": "all"
+    }
+  }
+}

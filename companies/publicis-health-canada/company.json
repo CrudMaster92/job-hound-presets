@@ -1,0 +1,26 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "publicis-health-canada",
+  "name": "Publicis Health Canada",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://publicishealth.com/",
+  "logo_url": "https://publicishealth.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "creative-advertising",
+      "social-content-influencer",
+      "market-research-insights"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada",
+      "Publicis Groupe"
+    ]
+  },
+  "parent_company_id": "publicis-groupe"
+}

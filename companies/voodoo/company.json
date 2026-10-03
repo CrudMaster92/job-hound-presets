@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "voodoo",
+  "name": "Voodoo",
+  "aliases": [],
+  "website_url": "https://voodoo.io/",
+  "logo_url": "https://framerusercontent.com/images/0bc42FVMQzvbtsSsoae01IEZWU.png",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

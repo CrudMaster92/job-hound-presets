@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "sempra",
+  "name": "Sempra",
+  "aliases": [],
+  "website_url": "https://www.sempra.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=sempra.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 350",
+      "2026",
+      "United States"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "repair-needed",
+    "message": "The official Sempra headquarters board uses an ADP session-token request and its listing cards expose no direct job links. No safe recipe with stable source URLs was validated.",
+    "checked_at": "2026-09-24T02:01:50.342101+00:00"
+  }
+}

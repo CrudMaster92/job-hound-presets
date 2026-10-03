@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "humana",
+  "company_id": "humana",
+  "revision": 1,
+  "label": "Humana Careers",
+  "careers_url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-04T05:33:33.325362+00:00",
+    "job_count": 200,
+    "warnings": [
+      "description detail enrichment skipped 195 jobs after the configured 5-posting limit",
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Humana",
+    "careers_url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "humana.wd5.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://humana.wd5.myworkdayjobs.com/wday/cxs/humana/Humana_External_Career_Site/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "humana",
+      "site": "Humana_External_Career_Site",
+      "detail_fetch_limit": 5,
+      "partial_listing": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "dac",
+  "name": "DAC",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.dacgroup.com/en-ca/",
+  "logo_url": "https://www.dacgroup.com/favicon.ico",
+  "facets": {
+    "industries": [
+      "marketing"
+    ],
+    "specialties": [
+      "performance-marketing",
+      "martech-data-analytics",
+      "creative-advertising",
+      "web-ux-digital-experience"
+    ],
+    "tags": [
+      "Marketing",
+      "Canada"
+    ]
+  }
+}

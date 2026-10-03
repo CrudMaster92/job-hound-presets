@@ -1,0 +1,58 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "eversource-energy",
+  "company_id": "eversource-energy",
+  "revision": 1,
+  "label": "Eversource Energy Careers",
+  "careers_url": "https://jobs.eversource.com/search-jobs/",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-09-24T02:04:22.004569+00:00",
+    "job_count": 11,
+    "warnings": [
+      "Bounded/partial listing; unseen jobs must not be closed from this run."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Eversource Energy",
+    "careers_url": "https://jobs.eversource.com/search-jobs/",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "jobs.eversource.com"
+    ],
+    "request": {
+      "url": "https://jobs.eversource.com/search-jobs/",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "selectors": {
+      "item": "li:has(a[data-job-id][href*=\"/job/\"])",
+      "title": "a[data-job-id] h2",
+      "link": "a[data-job-id]",
+      "location": "a[data-job-id] .job-location"
+    },
+    "mapping": {},
+    "source_filter": null,
+    "metadata": {
+      "partial_listing": true
+    }
+  }
+}

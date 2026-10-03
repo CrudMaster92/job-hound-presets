@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "jam-city",
+  "name": "Jam City",
+  "aliases": [],
+  "website_url": "https://jamcity.com/",
+  "logo_url": "https://assets.jamcity.com/20220302093336/logo-1-1.svg",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

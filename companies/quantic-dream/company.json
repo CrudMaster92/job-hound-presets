@@ -1,0 +1,21 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "quantic-dream",
+  "name": "Quantic Dream",
+  "aliases": [],
+  "website_url": "https://quanticdream.com/",
+  "logo_url": "https://www.quanticdream.com/img/svg/qd_logo_blue.svg",
+  "facets": {
+    "industries": [
+      "gaming"
+    ],
+    "specialties": [
+      "video-games"
+    ],
+    "tags": [
+      "Gaming",
+      "Global"
+    ]
+  }
+}

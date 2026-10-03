@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "boston-scientific",
+  "name": "Boston Scientific",
+  "aliases": [],
+  "website_url": "https://www.bostonscientific.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=bostonscientific.com&sz=128",
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 250",
+      "2026",
+      "United States"
+    ]
+  }
+}

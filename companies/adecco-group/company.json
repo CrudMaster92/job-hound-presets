@@ -1,0 +1,11 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "adecco-group",
+  "name": "Adecco Group",
+  "legal_name": "The Adecco Group AG",
+  "aliases": ["Adecco"],
+  "website_url": "https://www.adeccogroup.com/",
+  "logo_url": "https://tbcdn.talentbrew.com/company/22630/v2_0/icons/favicon.png",
+  "facets": {"industries": ["staffing-and-recruiting"], "specialties": ["workforce-solutions"], "tags": ["Recruitment", "North America", "Global"]}
+}

@@ -1,0 +1,756 @@
+{
+  "source_commit": "22a8f1af4dbbeb723304a01f65b8286a7c549b3c",
+  "checked_at": "2026-09-13T00:11:04.391810+00:00",
+  "scope": "public recruitment catalog only; no local installations changed",
+  "records": [
+    {
+      "company_id": "aquent",
+      "monitor_id": "aquent",
+      "revision": 1,
+      "verdict": "existing-pass",
+      "checked_at": "2026-09-12T19:05:16.149085+00:00",
+      "strategy": "playwright",
+      "job_count": 4,
+      "pages": 1,
+      "complete": true,
+      "warnings": [],
+      "careers_url": "https://jobs.dayforcehcm.com/aquent/CANDIDATEPORTAL",
+      "samples": [
+        {
+          "title": "CO Energy, Manufacturing, & Utilities - Client Partner, Focus",
+          "location": "Unspecified",
+          "source_url": "https://jobs.dayforcehcm.com/en-US/aquent/CANDIDATEPORTAL/jobs/4704"
+        },
+        {
+          "title": "Client Partner",
+          "location": "Unspecified",
+          "source_url": "https://jobs.dayforcehcm.com/en-US/aquent/CANDIDATEPORTAL/jobs/4680"
+        },
+        {
+          "title": "Senior Software Engineer",
+          "location": "Unspecified",
+          "source_url": "https://jobs.dayforcehcm.com/en-US/aquent/CANDIDATEPORTAL/jobs/4671"
+        }
+      ]
+    },
+    {
+      "company_id": "adecco-group",
+      "monitor_id": "adecco-group",
+      "revision": 1,
+      "verdict": "existing-pass",
+      "checked_at": "2026-09-12T19:05:16.151289+00:00",
+      "strategy": "generic_html",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded public listing; partial_listing=true prevents closure of unseen jobs. This is not exhaustive coverage."
+      ],
+      "careers_url": "https://careers.adeccogroup.com/en/search_jobs",
+      "samples": [
+        {
+          "title": "Sr Business Development Manager - Akkodis E&T - Houston, TX",
+          "location": "Multiple locations",
+          "source_url": "https://careers.adeccogroup.com/en/job/texas/sr-business-development-manager-akkodis-e-and-t-houston-tx/37746/98904499088"
+        },
+        {
+          "title": "RESPONSABLE RECRUTEMENT ONSITE H/F H/F",
+          "location": "Fouch\u00e8res, France",
+          "source_url": "https://careers.adeccogroup.com/en/job/foucheres/responsable-recrutement-onsite-h-f-h-f/26094/100487652416"
+        },
+        {
+          "title": "Charg\u00e9 de Recrutement en stage altern\u00e9 H/F",
+          "location": "Royan, France",
+          "source_url": "https://careers.adeccogroup.com/en/job/royan/charge-de-recrutement-en-stage-alterne-h-f/26094/100476592656"
+        }
+      ]
+    },
+    {
+      "company_id": "motion-recruitment",
+      "monitor_id": "motion-recruitment",
+      "revision": 1,
+      "verdict": "existing-pass",
+      "checked_at": "2026-09-12T19:05:16.154628+00:00",
+      "strategy": "generic_html",
+      "job_count": 20,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded public listing; partial_listing=true prevents closure of unseen jobs. This is not exhaustive coverage."
+      ],
+      "careers_url": "https://motionrecruitment.com/about/work-for-us/careers",
+      "samples": [
+        {
+          "title": "Sales - Entry Level",
+          "location": "Philadelphia, Pennsylvania",
+          "source_url": "https://motionrecruitment.com/about/work-for-us/careers/philadelphia/active/sales-entry-level/6189"
+        },
+        {
+          "title": "Sales - Entry Level",
+          "location": "Boston, Massachusetts",
+          "source_url": "https://motionrecruitment.com/about/work-for-us/careers/boston/active/sales-entry-level/6188"
+        },
+        {
+          "title": "Sales - Entry Level",
+          "location": "Chicago, Illinois",
+          "source_url": "https://motionrecruitment.com/about/work-for-us/careers/chicago/active/sales-entry-level/6187"
+        }
+      ]
+    },
+    {
+      "company_id": "roth-staffing",
+      "monitor_id": "roth-staffing",
+      "revision": 1,
+      "verdict": "existing-pass",
+      "checked_at": "2026-09-12T19:05:20.786980+00:00",
+      "strategy": "generic_html",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded public listing; partial_listing=true prevents closure of unseen jobs. This is not exhaustive coverage."
+      ],
+      "careers_url": "https://jobs.rothstaffing.com/",
+      "samples": [
+        {
+          "title": "Business Solutions Manager\u2013 Sales & Recruiting",
+          "location": "Hybrid (St. Louis, MO)",
+          "source_url": "https://jobs.rothstaffing.com/job/3530/business-solutions-manager-sales-recruiting"
+        },
+        {
+          "title": "Business Solutions Manager \u2013 Sales & Recruiting",
+          "location": "Hybrid (San Diego, CA)",
+          "source_url": "https://jobs.rothstaffing.com/job/3528/business-solutions-manager-sales-recruiting"
+        },
+        {
+          "title": "Business Solutions Manager\u2013 Sales & Recruiting",
+          "location": "Hybrid (Denver, CO)",
+          "source_url": "https://jobs.rothstaffing.com/job/3524/business-solutions-manager-sales-recruiting"
+        }
+      ]
+    },
+    {
+      "company_id": "randstad-canada",
+      "monitor_id": "randstad-canada-internal",
+      "revision": 1,
+      "verdict": "existing-pass",
+      "checked_at": "2026-09-12T19:05:20.830302+00:00",
+      "strategy": "generic_html",
+      "job_count": 15,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded public listing; partial_listing=true prevents closure of unseen jobs. This is not exhaustive coverage."
+      ],
+      "careers_url": "https://www.randstad.ca/jobs/our-current-vacancies/",
+      "samples": [
+        {
+          "title": "HR & Recruitment Intern - Unpaid Co-Op Opportunity (Winter)",
+          "location": "Winnipeg, Manitoba",
+          "source_url": "https://www.randstad.ca/jobs/our-current-vacancies/hr-recruitment-intern-unpaid-co-op-opportunity-winter_winnipeg_47422792"
+        },
+        {
+          "title": "Consultant(e) en personnel, Relation Client",
+          "location": "Brossard, Qu\u00e9bec",
+          "source_url": "https://www.randstad.ca/jobs/our-current-vacancies/consultante-en-personnel-relation-client_brossard_47421809"
+        },
+        {
+          "title": "Stagiaires en ressources humaines et en recrutement \u2013 non r\u00e9mun\u00e9r\u00e9 (Hiver)",
+          "location": "Montreal, Qu\u00e9bec",
+          "source_url": "https://www.randstad.ca/jobs/our-current-vacancies/stagiaires-en-ressources-humaines-et-en-recrutement-non-remunere-hiver_montreal_47420300"
+        }
+      ]
+    },
+    {
+      "company_id": "wilsonhcg",
+      "monitor_id": "wilsonhcg-internal",
+      "revision": 1,
+      "verdict": "existing-pass",
+      "checked_at": "2026-09-12T19:05:21.356972+00:00",
+      "strategy": "workday",
+      "job_count": 20,
+      "pages": 21,
+      "complete": false,
+      "warnings": [
+        "Bounded public listing; partial_listing=true prevents closure of unseen jobs. This is not exhaustive coverage."
+      ],
+      "careers_url": "https://wilsonhcg.wd5.myworkdayjobs.com/Wilson_Careers",
+      "samples": [
+        {
+          "title": "Recruitment Consultant - Canada, US, Mexico (Remote) | PST/MST",
+          "location": "US Remote",
+          "source_url": "https://wilsonhcg.wd5.myworkdayjobs.com/Wilson_Careers/job/US-Remote/Recruitment-Consultant---Canada--US--Mexico--Remote----PST-MST_R793"
+        },
+        {
+          "title": "Talent Attraction Specialist - South Africa (Remote)",
+          "location": "South Africa Remote",
+          "source_url": "https://wilsonhcg.wd5.myworkdayjobs.com/Wilson_Careers/job/South-Africa-Remote/Talent-Attraction-Specialist---South-Africa--Remote-_R689"
+        },
+        {
+          "title": "Specialist, Early Careers Program - New York City or Toronto (Hybrid) | 12-month contract",
+          "location": "US Remote",
+          "source_url": "https://wilsonhcg.wd5.myworkdayjobs.com/Wilson_Careers/job/US-Remote/Specialist--Early-Careers-Program---New-York-City-or-Toronto--Hybrid-----12-month-contract_R789"
+        }
+      ]
+    },
+    {
+      "company_id": "robert-half",
+      "monitor_id": "robert-half-internal",
+      "revision": 1,
+      "verdict": "existing-pass",
+      "checked_at": "2026-09-12T19:05:21.580190+00:00",
+      "strategy": "playwright",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded public listing; partial_listing=true prevents closure of unseen jobs. This is not exhaustive coverage."
+      ],
+      "careers_url": "https://careers.roberthalf.com/global/en/search-results",
+      "samples": [
+        {
+          "title": "Recruiting Manager (Technology) Midtown",
+          "location": "Unspecified",
+          "source_url": "https://careers.roberthalf.com/global/en/job/JR-258976/Recruiting-Manager-Technology-Midtown"
+        },
+        {
+          "title": "Recruiting Manager (Technology) Midtown",
+          "location": "Unspecified",
+          "source_url": "https://careers.roberthalf.com/global/en/job/JR-258975/Recruiting-Manager-Technology-Midtown"
+        },
+        {
+          "title": "Client Solutions Director (Management Resources)",
+          "location": "Unspecified",
+          "source_url": "https://careers.roberthalf.com/global/en/job/JR-259182/Client-Solutions-Director-Management-Resources"
+        }
+      ]
+    },
+    {
+      "company_id": "insight-global",
+      "verdict": "blocked",
+      "reason": "The official internal careers board returned HTTP 403 in a normal browser; its existing recipe timed out. Public client placements are not a substitute.",
+      "official_source": "https://careers.insightglobal.com/insightglobal-careers/jobs",
+      "withdrawn_monitors": [
+        {
+          "id": "insight-global-internal",
+          "last_revision": 1
+        }
+      ]
+    },
+    {
+      "company_id": "kelly",
+      "monitor_id": "kelly-internal",
+      "revision": 1,
+      "verdict": "existing-pass",
+      "checked_at": "2026-09-12T19:05:32.468303+00:00",
+      "strategy": "playwright",
+      "job_count": 10,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded public listing; partial_listing=true prevents closure of unseen jobs. This is not exhaustive coverage."
+      ],
+      "careers_url": "https://careers.kellyocg.com/search",
+      "samples": [
+        {
+          "title": "14872 - Kelly Education Account Manager - Enterprise, AL",
+          "location": "Unspecified",
+          "source_url": "https://careers.kellyocg.com/job/14872-Kelly-Education-Account-Manager-Enterprise-AL-pak-14872"
+        },
+        {
+          "title": "14885 - Recruiter | South Boston, MA | Professional & Industrial",
+          "location": "Unspecified",
+          "source_url": "https://careers.kellyocg.com/job/14885-Recruiter-South-Boston-MA-Professional-Industrial-pak-14885"
+        },
+        {
+          "title": "14886 - Recruiter | Milwaukee, WI | In House Temp | Professional & Industrial",
+          "location": "Unspecified",
+          "source_url": "https://careers.kellyocg.com/job/14886-Recruiter-Milwaukee-WI-In-House-Temp-Professional-Industrial-pak-14886"
+        }
+      ]
+    },
+    {
+      "company_id": "actalent",
+      "monitor_id": "actalent",
+      "revision": 2,
+      "verdict": "repaired",
+      "checked_at": "2026-09-12T19:08:25.989840+00:00",
+      "strategy": "generic_html",
+      "job_count": 184,
+      "pages": 11,
+      "complete": false,
+      "warnings": [
+        "Bounded public listing; partial_listing=true prevents closure of unseen jobs. This is not exhaustive coverage.",
+        "US internal iCIMS feed only; Canadian internal coverage is not claimed. Listing descriptions are excerpts."
+      ],
+      "careers_url": "https://careers-actalentservices.icims.com/jobs/search?in_iframe=1",
+      "samples": [
+        {
+          "title": "Business Support Associate",
+          "location": "US-IL-Chicago",
+          "source_url": "https://careers-actalentservices.icims.com/jobs/13216/business-support-associate/job?in_iframe=1"
+        },
+        {
+          "title": "Sales Development Representative",
+          "location": "US-CO-Denver",
+          "source_url": "https://careers-actalentservices.icims.com/jobs/13215/sales-development-representative/job?in_iframe=1"
+        },
+        {
+          "title": "Sales Development Representative",
+          "location": "US-CO-Denver",
+          "source_url": "https://careers-actalentservices.icims.com/jobs/13210/sales-development-representative/job?in_iframe=1"
+        }
+      ]
+    },
+    {
+      "company_id": "allegis-global-solutions",
+      "monitor_id": "allegis-global-solutions",
+      "revision": 2,
+      "verdict": "repaired",
+      "checked_at": "2026-09-13T00:12:08.250414+00:00",
+      "strategy": "smartrecruiters",
+      "job_count": 56,
+      "pages": 57,
+      "complete": true,
+      "warnings": [
+        "Official AGS North America department 1152964 only; excludes QuantumWork Advisory and other regional departments."
+      ],
+      "careers_url": "https://careers.smartrecruiters.com/AllegisGlobalSolutions",
+      "samples": [
+        {
+          "title": "Communications Manager",
+          "location": "Hanover, MD, United States",
+          "source_url": "https://api.smartrecruiters.com/v1/companies/AllegisGlobalSolutions/postings/744000149074330"
+        },
+        {
+          "title": "Recruitment Relationship Manager II",
+          "location": "Troy, MI, United States",
+          "source_url": "https://api.smartrecruiters.com/v1/companies/AllegisGlobalSolutions/postings/744000149072668"
+        },
+        {
+          "title": "Recruitment Relationship Manager II",
+          "location": "Jacksonville, FL, United States",
+          "source_url": "https://api.smartrecruiters.com/v1/companies/AllegisGlobalSolutions/postings/744000149072478"
+        }
+      ]
+    },
+    {
+      "company_id": "aston-carter",
+      "verdict": "blocked",
+      "reason": "The official internal-careers link redirects to Actalent. No independently owned Aston Carter internal feed was validated; the Australian placement board was removed.",
+      "official_source": "https://www.astoncarter.com/en/about-us/our-people/careers-at-aston-carter",
+      "withdrawn_monitors": [
+        {
+          "id": "aston-carter",
+          "last_revision": 1
+        }
+      ]
+    },
+    {
+      "company_id": "tek-systems",
+      "monitor_id": "tek-systems",
+      "revision": 2,
+      "verdict": "repaired",
+      "checked_at": "2026-09-12T19:08:25.988827+00:00",
+      "strategy": "generic_html",
+      "job_count": 132,
+      "pages": 8,
+      "complete": false,
+      "warnings": [
+        "Bounded public listing; partial_listing=true prevents closure of unseen jobs. This is not exhaustive coverage.",
+        "Internal iCIMS feed; up to 30 pages, with listing-description excerpts."
+      ],
+      "careers_url": "https://careers-teksystems.icims.com/jobs/search?in_iframe=1",
+      "samples": [
+        {
+          "title": "Marketing Strategist, Brand & Communications",
+          "location": "US-MD-Hanover",
+          "source_url": "https://careers-teksystems.icims.com/jobs/13859/marketing-strategist%2c-brand-%26-communications/job?in_iframe=1"
+        },
+        {
+          "title": "Sales Development Representative 2 - San Antonio",
+          "location": "US-TX-San Antonio",
+          "source_url": "https://careers-teksystems.icims.com/jobs/13856/sales-development-representative-2---san-antonio/job?in_iframe=1"
+        },
+        {
+          "title": "Technical Staffing Recruiter - Downtown Boston",
+          "location": "US-MA-Boston",
+          "source_url": "https://careers-teksystems.icims.com/jobs/13851/technical-staffing-recruiter---downtown-boston/job?in_iframe=1"
+        }
+      ]
+    },
+    {
+      "company_id": "mlag",
+      "verdict": "blocked",
+      "reason": "The official internal-careers iCIMS endpoint returned an empty response. The former public legal-placement board cannot represent employment at Major, Lindsey & Africa.",
+      "official_source": "https://careers-mlaglobal.icims.com/jobs/search?in_iframe=1",
+      "withdrawn_monitors": [
+        {
+          "id": "mlag",
+          "last_revision": 1
+        }
+      ]
+    },
+    {
+      "company_id": "aerotek",
+      "monitor_id": "aerotek",
+      "revision": 2,
+      "verdict": "repaired",
+      "checked_at": "2026-09-12T19:08:25.988827+00:00",
+      "strategy": "generic_html",
+      "job_count": 217,
+      "pages": 12,
+      "complete": false,
+      "warnings": [
+        "Bounded public listing; partial_listing=true prevents closure of unseen jobs. This is not exhaustive coverage.",
+        "Internal iCIMS feed; up to 30 pages, with listing-description excerpts."
+      ],
+      "careers_url": "https://careers-aerotek.icims.com/jobs/search?in_iframe=1",
+      "samples": [
+        {
+          "title": "On Premise Manager",
+          "location": "Unspecified",
+          "source_url": "https://careers-aerotek.icims.com/jobs/13835/on-premise-manager/job?in_iframe=1"
+        },
+        {
+          "title": "On Premise Recruiter",
+          "location": "Unspecified",
+          "source_url": "https://careers-aerotek.icims.com/jobs/13833/on-premise-recruiter/job?in_iframe=1"
+        },
+        {
+          "title": "On Premise Recruiter",
+          "location": "Unspecified",
+          "source_url": "https://careers-aerotek.icims.com/jobs/13832/on-premise-recruiter/job?in_iframe=1"
+        }
+      ]
+    },
+    {
+      "company_id": "vaco",
+      "monitor_id": "vaco",
+      "revision": 3,
+      "verdict": "repaired",
+      "checked_at": "2026-09-13T00:01:44.360909+00:00",
+      "strategy": "greenhouse",
+      "job_count": 56,
+      "pages": 1,
+      "complete": true,
+      "warnings": [
+        "Vaco internal recruiting and business-development roles, including Vaco by Highspring; client placement board excluded."
+      ],
+      "careers_url": "https://job-boards.greenhouse.io/vaco",
+      "samples": [
+        {
+          "title": "Accounting and Finance Agency Business Development Manager",
+          "location": "Indianapolis, Indiana",
+          "source_url": "https://job-boards.greenhouse.io/vaco/jobs/7963980003"
+        },
+        {
+          "title": "Accounting and Finance Agency Senior Recruiter",
+          "location": "New York, New York",
+          "source_url": "https://job-boards.greenhouse.io/vaco/jobs/7767554003"
+        },
+        {
+          "title": "Accounting and Finance Business Development Manager",
+          "location": "Columbus, Ohio",
+          "source_url": "https://job-boards.greenhouse.io/vaco/jobs/7631211003"
+        }
+      ]
+    },
+    {
+      "company_id": "cross-country-healthcare",
+      "monitor_id": "cross-country-healthcare",
+      "revision": 3,
+      "verdict": "repaired",
+      "checked_at": "2026-09-13T00:06:24.266640+00:00",
+      "strategy": "playwright",
+      "job_count": 19,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded public listing; partial_listing=true prevents closure of unseen jobs. This is not exhaustive coverage.",
+        "Corporate and branch-support board, including employee home-visit liaison roles; not the travel/clinical placement search."
+      ],
+      "careers_url": "https://jobs.dayforcehcm.com/crosscountry/CANDIDATEPORTAL",
+      "samples": [
+        {
+          "title": "Healthcare Staffing Coordinator Late nights M-F Bilingual (Spanish)",
+          "location": "Virtual \u2022 Multiple Locations",
+          "source_url": "https://jobs.dayforcehcm.com/en-US/crosscountry/CANDIDATEPORTAL/jobs/8584"
+        },
+        {
+          "title": "Payroll & Billing Specialist",
+          "location": "Virtual \u2022 Multiple Locations",
+          "source_url": "https://jobs.dayforcehcm.com/en-US/crosscountry/CANDIDATEPORTAL/jobs/8569"
+        },
+        {
+          "title": "Assistant Director Recruitment (Education)",
+          "location": "Virtual \u2022 Multiple Locations",
+          "source_url": "https://jobs.dayforcehcm.com/en-US/crosscountry/CANDIDATEPORTAL/jobs/8566"
+        }
+      ]
+    },
+    {
+      "company_id": "amn-healthcare",
+      "monitor_id": "amn-healthcare",
+      "revision": 2,
+      "verdict": "repaired",
+      "checked_at": "2026-09-12T19:08:32.371295+00:00",
+      "strategy": "workday",
+      "job_count": 28,
+      "pages": 30,
+      "complete": true,
+      "warnings": [
+        "removed 11 duplicate source IDs"
+      ],
+      "careers_url": "https://amn.wd1.myworkdayjobs.com/AMN_Careers",
+      "samples": [
+        {
+          "title": "Channel Sales Executive",
+          "location": "Remote - TX",
+          "source_url": "https://amn.wd1.myworkdayjobs.com/AMN_Careers/job/Remote---TX/Channel-Sales-Executive_Req23779"
+        },
+        {
+          "title": "Talent Acquisition Specialist",
+          "location": "Remote - VA",
+          "source_url": "https://amn.wd1.myworkdayjobs.com/AMN_Careers/job/Remote---VA/Talent-Acquisition-Specialist_Req23826"
+        },
+        {
+          "title": "Corporate Counsel",
+          "location": "Dallas, TX",
+          "source_url": "https://amn.wd1.myworkdayjobs.com/AMN_Careers/job/Dallas-TX/Corporate-Counsel_Req23883"
+        }
+      ]
+    },
+    {
+      "company_id": "aya-healthcare",
+      "monitor_id": "aya-healthcare",
+      "revision": 3,
+      "verdict": "existing-pass",
+      "checked_at": "2026-09-12T19:06:10.212953+00:00",
+      "strategy": "playwright",
+      "job_count": 43,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded public listing; partial_listing=true prevents closure of unseen jobs. This is not exhaustive coverage."
+      ],
+      "careers_url": "https://www.ayahealthcare.com/corporate-careers/jobs/",
+      "samples": [
+        {
+          "title": "Account Manager, Locums",
+          "location": "Remote, US",
+          "source_url": "https://www.ayahealthcare.com/corporate-careers/jobs/7986073?gh_jid=7986073&gh_jtitle=Account Manager, Locums"
+        },
+        {
+          "title": "Account Manager, Specialty Lines",
+          "location": "Remote, US",
+          "source_url": "https://www.ayahealthcare.com/corporate-careers/jobs/8189881?gh_jid=8189881&gh_jtitle=Account Manager, Specialty Lines"
+        },
+        {
+          "title": "Account Manager, Specialty Lines",
+          "location": "San Diego, CA",
+          "source_url": "https://www.ayahealthcare.com/corporate-careers/jobs/8189912?gh_jid=8189912&gh_jtitle=Account Manager, Specialty Lines"
+        }
+      ]
+    },
+    {
+      "company_id": "hays",
+      "monitor_id": "hays",
+      "revision": 2,
+      "verdict": "repaired",
+      "checked_at": "2026-09-13T00:06:24.266640+00:00",
+      "strategy": "generic_html",
+      "job_count": 8,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded public listing; partial_listing=true prevents closure of unseen jobs. This is not exhaustive coverage.",
+        "Canadian internal openings only. Office is included in each title; structured location is unavailable."
+      ],
+      "careers_url": "https://m.hays.ca/careers/search?lang=en",
+      "samples": [
+        {
+          "title": "Sourcing Partner - Toronto Office",
+          "location": "Unspecified",
+          "source_url": "https://m.hays.ca/careers/Job/Detail/8148?lang=en"
+        },
+        {
+          "title": "IT Account Manager - Toronto Office",
+          "location": "Unspecified",
+          "source_url": "https://m.hays.ca/careers/Job/Detail/8122?lang=en"
+        },
+        {
+          "title": "IT Sourcing Partner - Calgary Office",
+          "location": "Unspecified",
+          "source_url": "https://m.hays.ca/careers/Job/Detail/8048?lang=en"
+        }
+      ]
+    },
+    {
+      "company_id": "pagegroup",
+      "verdict": "blocked",
+      "reason": "The official PageGroup careers page returned HTTP 403; the placeholder recipe returned no jobs. No public internal-job feed was validated.",
+      "official_source": "https://www.page.com/careers",
+      "withdrawn_monitors": [
+        {
+          "id": "pagegroup",
+          "last_revision": 1
+        }
+      ]
+    },
+    {
+      "company_id": "robert-walters",
+      "verdict": "blocked",
+      "reason": "The group and Canadian internal-careers pages returned HTTP 403; the placeholder recipe returned no jobs. No public internal-job feed was validated.",
+      "official_source": "https://www.robert-walters.ca/about-us/robert-walters-careers.html",
+      "withdrawn_monitors": [
+        {
+          "id": "robert-walters",
+          "last_revision": 1
+        }
+      ]
+    },
+    {
+      "company_id": "korn-ferry",
+      "verdict": "blocked",
+      "reason": "The former careers URL is a 404. The replacement Tal.net board mixes internal openings with client vacancies; no reliable employer boundary was validated.",
+      "official_source": "https://www.kornferry.com/careers/join-korn-ferry",
+      "withdrawn_monitors": [
+        {
+          "id": "korn-ferry",
+          "last_revision": 1
+        }
+      ]
+    },
+    {
+      "company_id": "heidrick-struggles",
+      "monitor_id": "heidrick-struggles",
+      "revision": 2,
+      "verdict": "repaired",
+      "checked_at": "2026-09-12T19:08:37.074793+00:00",
+      "strategy": "workday",
+      "job_count": 40,
+      "pages": 43,
+      "complete": true,
+      "warnings": [
+        "removed 20 duplicate source IDs"
+      ],
+      "careers_url": "https://heidrick.wd1.myworkdayjobs.com/heidrickandstruggles",
+      "samples": [
+        {
+          "title": "Executive Search Senior Associate, Human Resources Officers",
+          "location": "New York City",
+          "source_url": "https://heidrick.wd1.myworkdayjobs.com/heidrickandstruggles/job/New-York-City/Executive-Search-Senior-Associate--Human-Resources-Officers_R2618058"
+        },
+        {
+          "title": "Executive Search Senior Associate, Industrial",
+          "location": "Houston",
+          "source_url": "https://heidrick.wd1.myworkdayjobs.com/heidrickandstruggles/job/Houston/Senior-Associate_R2617954"
+        },
+        {
+          "title": "Executive Search, Analyst",
+          "location": "New York City",
+          "source_url": "https://heidrick.wd1.myworkdayjobs.com/heidrickandstruggles/job/New-York-City/Executive-Search--Analyst_R2618064"
+        }
+      ]
+    },
+    {
+      "company_id": "spencer-stuart",
+      "monitor_id": "spencer-stuart",
+      "revision": 2,
+      "verdict": "repaired",
+      "checked_at": "2026-09-12T19:08:37.476362+00:00",
+      "strategy": "workday",
+      "job_count": 20,
+      "pages": 21,
+      "complete": true,
+      "warnings": [],
+      "careers_url": "https://spencerstuart.wd5.myworkdayjobs.com/Spencer_Stuart_External_Careers",
+      "samples": [
+        {
+          "title": "Summer Analyst Intern",
+          "location": "New York",
+          "source_url": "https://spencerstuart.wd5.myworkdayjobs.com/Spencer_Stuart_External_Careers/job/New-York/Summer-Analyst-Intern_R4909"
+        },
+        {
+          "title": "Associate",
+          "location": "Stockholm",
+          "source_url": "https://spencerstuart.wd5.myworkdayjobs.com/Spencer_Stuart_External_Careers/job/Stockholm/Associate_R4724"
+        },
+        {
+          "title": "Associate",
+          "location": "Brussels",
+          "source_url": "https://spencerstuart.wd5.myworkdayjobs.com/Spencer_Stuart_External_Careers/job/Brussels/Associate_R4890"
+        }
+      ]
+    },
+    {
+      "company_id": "cielo",
+      "monitor_id": "cielo",
+      "revision": 2,
+      "verdict": "repaired",
+      "checked_at": "2026-09-12T19:08:47.504347+00:00",
+      "strategy": "smartrecruiters",
+      "job_count": 70,
+      "pages": 71,
+      "complete": true,
+      "warnings": [],
+      "careers_url": "https://careers.smartrecruiters.com/Cielo2",
+      "samples": [
+        {
+          "title": "Senior Recruiter - R&D Specialist",
+          "location": "Wauwatosa, WI, United States",
+          "source_url": "https://api.smartrecruiters.com/v1/companies/Cielo2/postings/744000149114199"
+        },
+        {
+          "title": "Senior Talent Consultant",
+          "location": "Buenos Aires, Buenos Aires, Argentina",
+          "source_url": "https://api.smartrecruiters.com/v1/companies/Cielo2/postings/744000149095344"
+        },
+        {
+          "title": "Specialized Talent Administrator & Coordinator",
+          "location": "Budapest, , Hungary",
+          "source_url": "https://api.smartrecruiters.com/v1/companies/Cielo2/postings/744000149038736"
+        }
+      ]
+    },
+    {
+      "company_id": "trueblue",
+      "monitor_id": "trueblue",
+      "revision": 2,
+      "verdict": "repaired",
+      "checked_at": "2026-09-13T00:09:40.347982+00:00",
+      "strategy": "playwright",
+      "job_count": 25,
+      "pages": 1,
+      "complete": false,
+      "warnings": [
+        "Bounded public listing; partial_listing=true prevents closure of unseen jobs. This is not exhaustive coverage."
+      ],
+      "careers_url": "https://ehnn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/jobs",
+      "samples": [
+        {
+          "title": "Staffing Specialist",
+          "location": "Charleston, SC, United States (On-site)",
+          "source_url": "https://ehnn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/119030"
+        },
+        {
+          "title": "Staffing Specialist",
+          "location": "South Charleston, WV, United States (On-site)",
+          "source_url": "https://ehnn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/119285"
+        },
+        {
+          "title": "Staffing Specialist",
+          "location": "Lebanon, IN, United States (On-site)",
+          "source_url": "https://ehnn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/119330"
+        }
+      ]
+    },
+    {
+      "company_id": "manpowergroup",
+      "verdict": "blocked-existing-identity",
+      "reason": "Public Manpower Corporate Careers (Taleo RPO) listings were found, but their browser links are JavaScript actions. A supported recipe with stable job-detail URLs has not been validated; client placements remain excluded.",
+      "official_source": "https://manpower.taleo.net/careersection/mgsrpo/moresearch.ftl"
+    }
+  ]
+}

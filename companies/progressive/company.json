@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "progressive",
+  "name": "Progressive",
+  "aliases": [],
+  "website_url": "https://www.progressive.com/",
+  "logo_url": "https://www.google.com/s2/favicons?domain=progressive.com&sz=128",
+  "availability": {
+    "status": "unavailable",
+    "reason": "access-restricted",
+    "message": "The job board currently blocks unattended checks. This Fortune company is listed while its scraper needs a supported public endpoint.",
+    "checked_at": "2026-09-04T19:00:00Z"
+  },
+  "facets": {
+    "industries": [],
+    "specialties": [],
+    "tags": [
+      "Fortune 100",
+      "2026",
+      "United States"
+    ]
+  }
+}
