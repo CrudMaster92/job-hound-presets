@@ -2,13 +2,14 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "marketing-agencies-canada",
-  "revision": 1,
-  "name": "Marketing Agencies — Canada",
-  "description": "Canadian marketing, advertising, media, experiential, research, CRM, content, and digital agencies with reusable public-careers monitors.",
+  "revision": 2,
+  "name": "Marketing Agencies",
+  "description": "Marketing, advertising, media, experiential, research, CRM, content, and digital agencies with North American and global operations and reusable public-careers monitors. Individual monitors may cover specific regions or divisions.",
   "tags": [
     "Marketing",
     "Agencies",
-    "Canada"
+    "North America",
+    "Global"
   ],
   "facets": {
     "collection_types": [
@@ -29,13 +30,7 @@
       "social-content-influencer",
       "web-ux-digital-experience"
     ],
-    "locations": [
-      {
-        "city": "",
-        "region": "",
-        "country": "CA"
-      }
-    ]
+    "locations": []
   },
   "suggested_criteria": {
     "cities": [],
