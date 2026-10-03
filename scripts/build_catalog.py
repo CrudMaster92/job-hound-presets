@@ -113,7 +113,7 @@ def parent_summary(company: dict, companies: dict[str, dict]) -> dict | None:
     return {"id": parent_id, "name": companies[parent_id]["name"]}
 
 
-def build(*, output: Path, source_commit: str = "local") -> dict:
+def build(*, output: Path, source_commit: str = "local", admission: dict | None = None) -> dict:
     companies: dict[str, dict] = {}
     monitors: dict[str, dict] = {}
     for path in sorted(COMPANIES.glob("*/company.json")):
@@ -127,6 +127,13 @@ def build(*, output: Path, source_commit: str = "local") -> dict:
             if monitor_path.stem != monitor["id"] or monitor["id"] in monitors:
                 raise ValueError(f"{monitor_path.relative_to(ROOT)}: monitor ID must match its filename and be unique")
             monitors[monitor["id"]] = monitor
+
+    if admission:
+        from server.contributions.validation import effective_verification
+        for monitor_id, authorization in admission.get("accepted", {}).items():
+            if monitor_id in monitors:
+                verification = effective_verification(monitors[monitor_id], authorization["receipt"])
+                monitors[monitor_id] = {**monitors[monitor_id], "verification": verification}
 
     validate_company_hierarchy(companies)
 
@@ -295,8 +302,9 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=Path, default=DIST)
     parser.add_argument("--source-commit", default="local")
+    parser.add_argument("--admission", type=Path, help="Trusted merge/receipt admission output, never candidate data")
     args = parser.parse_args()
-    catalog = build(output=args.output.resolve(), source_commit=args.source_commit)
+    catalog = build(output=args.output.resolve(), source_commit=args.source_commit, admission=load(args.admission) if args.admission else None)
     print(
         f"Built {catalog['company_count']} companies, {catalog['monitor_count']} monitors, "
         f"and {len(catalog['collections'])} collections."
