@@ -22,7 +22,7 @@
   "availability": {
     "status": "unavailable",
     "reason": "repair-needed",
-    "message": "The former official careers link redirects to a missing page on omc.com. No current company-owned hiring feed was validated; separate agency hiring is not complete group coverage.",
-    "checked_at": "2026-09-14T23:22:58.397854+00:00"
+    "message": "The current official Omnicom homepage is reachable, but no validated centralized hiring feed was established. Separate agency jobs are not presented as complete parent coverage.",
+    "checked_at": "2026-10-01T00:21:26.838864+00:00"
   }
 }

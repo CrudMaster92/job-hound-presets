@@ -17,8 +17,8 @@
   },
   "availability": {
     "status": "unavailable",
-    "reason": "repair-needed",
-    "message": "The official jobs page loads interactively, but its deterministic browser scraper times out. No verified installable recipe is available from this validation.",
-    "checked_at": "2026-09-12T12:56:44.667790+00:00"
+    "reason": "access-restricted",
+    "message": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation.",
+    "checked_at": "2026-10-01T00:21:26.838864+00:00"
   }
 }

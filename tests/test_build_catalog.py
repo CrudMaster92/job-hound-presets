@@ -86,7 +86,7 @@ class CatalogBuildTests(unittest.TestCase):
             self.assertTrue(all(page["count"] <= 250 for page in catalog["search_pages"]))
             fortune = next(value for value in catalog["collections"] if value["id"] == "fortune-50-2026")
             self.assertEqual(fortune["company_count"], 500)
-            self.assertEqual(fortune["monitor_count"], 438)
+            self.assertEqual(fortune["monitor_count"], 447)
             detail = json.loads((api / fortune["path"]).read_text(encoding="utf-8"))
             self.assertTrue(all(page["count"] <= 100 for page in detail["member_pages"]))
             self.assertEqual([page["count"] for page in detail["member_pages"]], [100, 100, 100, 100, 100])
@@ -97,7 +97,7 @@ class CatalogBuildTests(unittest.TestCase):
             self.assertTrue(all(member["logo_url"] for member in members["companies"]))
             self.assertEqual(len({member["company_id"] for member in members["companies"]}), 500)
             bundle = json.loads((api / fortune["bundle_path"]).read_text(encoding="utf-8"))
-            self.assertEqual(len(bundle["companies"]), 438)
+            self.assertEqual(len(bundle["companies"]), 447)
             self.assertEqual(len(members["companies"]), 500)
             self.assertEqual(members["companies"][0]["rank"], 1)
             self.assertEqual(members["companies"][-1]["rank"], 500)
@@ -105,11 +105,11 @@ class CatalogBuildTests(unittest.TestCase):
             unavailable = [m for m in members["companies"] if not m["monitors"]]
             self.assertEqual({m["company_id"] for m in unavailable}, {
                 "progressive", "hca-healthcare", "delta-air-lines", "publix",
-                "american-airlines", "enterprise-products", "cbre", "lithia", "ross-stores",
-                "cdw", "bjs-wholesale", "cognizant", "adp", "parker-hannifin", "american-family", "manpowergroup", "general-mills",
-                "mgm-resorts", "universal-health-services", "pultegroup", "omnicom", "leidos",
-                "targa-resources", "murphy-usa", "kinder-morgan", "consolidated-edison", "farmers-insurance",
-                "caseys", "raymond-james", "principal-financial", "fluor", "gap", "builders-firstsource", "stanley-black-decker", "sempra", "wayfair",
+                "american-airlines", "enterprise-products", "cbre", "ross-stores",
+                "cdw", "cognizant", "adp", "parker-hannifin", "manpowergroup",
+                "mgm-resorts", "universal-health-services", "omnicom", "leidos",
+                "targa-resources", "murphy-usa", "kinder-morgan", "consolidated-edison",
+                "caseys", "principal-financial", "builders-firstsource", "stanley-black-decker", "sempra", "wayfair",
                 "equitable-holdings", "caesars-entertainment", "thrivent-financial", "westlake", "lululemon-athletica", "fm",
                 "jefferies-financial-group", "intuitive-surgical", "ace-hardware", "seaboard", "icahn-enterprises", "thor-industries",
                 "apa", "old-republic-international", "comfort-systems-usa", "ppl", "transdigm-group", "sprouts-farmers-market",
@@ -184,7 +184,7 @@ class CatalogBuildTests(unittest.TestCase):
             self.assertEqual(delta["monitor_count"], 0)
             self.assertEqual(delta["adapters"], [])
             self.assertEqual(delta["availability"]["status"], "unavailable")
-            self.assertEqual(delta["availability"]["reason"], "maintenance")
+            self.assertEqual(delta["availability"]["reason"], "repair-needed")
 
             detail = json.loads((api / delta["path"]).read_text(encoding="utf-8"))
             self.assertEqual(detail["monitors"], [])

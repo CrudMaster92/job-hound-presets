@@ -14,11 +14,5 @@
       "2026",
       "United States"
     ]
-  },
-  "availability": {
-    "status": "unavailable",
-    "reason": "access-restricted",
-    "message": "The official careers site presents a Cloudflare access restriction in a normal browser and returns HTTP 403. A permitted public source is needed.",
-    "checked_at": "2026-09-12T12:56:44.667790+00:00"
   }
 }

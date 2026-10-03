@@ -1,0 +1,425 @@
+[
+  {
+    "id": "american-family",
+    "company_id": "american-family",
+    "path": "companies/american-family/monitors/american-family.json",
+    "recipe_sha256": "bfdb2eae723955c5c649eaaa55d0c4f9f132fe078de0d7e4477ec58ce1ffa214",
+    "strategy": "workday",
+    "request_url": "https://amfam.wd1.myworkdayjobs.com/wday/cxs/amfam/Careers/jobs",
+    "careers_url": "https://amfam.wd1.myworkdayjobs.com/Careers",
+    "checked_at": "2026-10-03T22:09:38.191204+00:00",
+    "prior_verification": {
+      "status": "verified",
+      "checked_at": "2026-10-01T00:13:56.824033+00:00",
+      "job_count": 19,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "Corporate technical, claims, legal and professional title subset; agency-owner and independent-agent opportunities are excluded. This is not the full corporate board."
+      ]
+    },
+    "source_filter": {
+      "title_contains_any": [
+        "Engineer",
+        "Developer",
+        "Attorney",
+        "Actuary",
+        "Adjuster",
+        "Analyst",
+        "Intern",
+        "Claims",
+        "Scientist",
+        "Litigation",
+        "Telephony",
+        "Systems",
+        "Compliance",
+        "Sponsorship",
+        "Marketing",
+        "Risk"
+      ],
+      "predicate_match": "all"
+    },
+    "job_count": 17,
+    "pages": 18,
+    "complete": false,
+    "warnings": [],
+    "partial_listing": true,
+    "posting_hosts": [
+      "amfam.wd1.myworkdayjobs.com"
+    ],
+    "outcome": "candidate",
+    "sample_jobs": [
+      {
+        "title": "Cybersecurity Engineer - PAM (Hybrid)",
+        "url": "https://amfam.wd1.myworkdayjobs.com/Careers/job/AF-MA-Boston-Office-Congress-St/Cybersecurity-Engineer---PAM--Hybrid-_R39412-1"
+      },
+      {
+        "title": "Senior Security & Risk Analyst (Hybrid)",
+        "url": "https://amfam.wd1.myworkdayjobs.com/Careers/job/MA-Boston/Senior-Security---Risk-Analyst--Hybrid-_R39447"
+      },
+      {
+        "title": "Lead Guidewire Developer (Hybrid)",
+        "url": "https://amfam.wd1.myworkdayjobs.com/Careers/job/WI-Madison/Lead-Application-Development-Engineer--Hybrid-_R39389-1"
+      }
+    ],
+    "review": "Pass: incomplete listing is explicitly declared by metadata.partial_listing; all source URLs are public HTTPS in employer-specific boards."
+  },
+  {
+    "id": "bjs-wholesale",
+    "company_id": "bjs-wholesale",
+    "path": "companies/bjs-wholesale/monitors/bjs-wholesale.json",
+    "recipe_sha256": "11295ed61e91d2f014819825b5125be1b1ee5189842e59b52a855ac156044157",
+    "strategy": "workday",
+    "request_url": "https://bjswholesaleclub.wd1.myworkdayjobs.com/wday/cxs/bjswholesaleclub/BJsCareers/jobs",
+    "careers_url": "https://bjswholesaleclub.wd1.myworkdayjobs.com/BJsCareers",
+    "checked_at": "2026-10-03T22:09:38.192208+00:00",
+    "prior_verification": {
+      "status": "verified",
+      "checked_at": "2026-10-01T00:09:09.967755+00:00",
+      "job_count": 20,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ]
+    },
+    "source_filter": null,
+    "job_count": 20,
+    "pages": 21,
+    "complete": false,
+    "warnings": [],
+    "partial_listing": true,
+    "posting_hosts": [
+      "bjswholesaleclub.wd1.myworkdayjobs.com"
+    ],
+    "outcome": "candidate",
+    "sample_jobs": [
+      {
+        "title": "Full Time Online Order Fulfillment Supervisor",
+        "url": "https://bjswholesaleclub.wd1.myworkdayjobs.com/BJsCareers/job/Chesterfield-MI-0385/Full-Time-Online-Order-Fulfillment-Supervisor_R258382"
+      },
+      {
+        "title": "Full Time Experienced Butcher",
+        "url": "https://bjswholesaleclub.wd1.myworkdayjobs.com/BJsCareers/job/Avon-OH-0115/Full-Time-Experienced-Butcher_R258289"
+      },
+      {
+        "title": "Automotive Tire Technician Part Time $1000 Sign On Bonus",
+        "url": "https://bjswholesaleclub.wd1.myworkdayjobs.com/BJsCareers/job/Lewis-Center-OH-0396/Automotive-Tire-Technician-Part-Time--1000-Sign-On-Bonus_R258278"
+      }
+    ],
+    "review": "Pass: incomplete listing is explicitly declared by metadata.partial_listing; all source URLs are public HTTPS in employer-specific boards."
+  },
+  {
+    "id": "farmers-insurance",
+    "company_id": "farmers-insurance",
+    "path": "companies/farmers-insurance/monitors/farmers-insurance.json",
+    "recipe_sha256": "5590629329a2e71eacb9c8e00d21a0c6d2f5547383fd272d160b5a6b9dbdf2e3",
+    "strategy": "generic_html",
+    "request_url": "https://jobs.farmersinsurance.com/search/",
+    "careers_url": "https://jobs.farmersinsurance.com/search",
+    "checked_at": "2026-10-03T22:09:38.193212+00:00",
+    "prior_verification": {
+      "status": "verified",
+      "checked_at": "2026-10-01T00:15:22.169598+00:00",
+      "job_count": 25,
+      "warnings": [
+        "description detail enrichment skipped 20 jobs after the configured 5-posting limit",
+        "description detail enrichment was incomplete for 5 jobs",
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ]
+    },
+    "source_filter": null,
+    "job_count": 25,
+    "pages": 6,
+    "complete": false,
+    "warnings": [
+      "description detail enrichment skipped 20 jobs after the configured 5-posting limit",
+      "description detail enrichment was incomplete for 5 jobs"
+    ],
+    "partial_listing": true,
+    "posting_hosts": [
+      "jobs.farmersinsurance.com"
+    ],
+    "outcome": "candidate",
+    "sample_jobs": [
+      {
+        "title": "Sr. Field Territory Manager - Kentucky",
+        "url": "https://jobs.farmersinsurance.com/job/Sr_-Field-Territory-Manager-Kentucky-KY/1371371257"
+      },
+      {
+        "title": "Inside Territory Manager - Midwest Region",
+        "url": "https://jobs.farmersinsurance.com/job/Inside-Territory-Manager-Midwest-Region-KS/1371372157"
+      },
+      {
+        "title": "Solution Engineer - Google CCAAS",
+        "url": "https://jobs.farmersinsurance.com/job/Solution-Engineer-Google-CCAAS/1366073857"
+      }
+    ],
+    "review": "Pass: incomplete listing is explicitly declared by metadata.partial_listing; all source URLs are public HTTPS in employer-specific boards."
+  },
+  {
+    "id": "fluor",
+    "company_id": "fluor",
+    "path": "companies/fluor/monitors/fluor.json",
+    "recipe_sha256": "0a53a0c4243a2736de62b13843267b538222a33e7f6e4973ef79a5f655c0c66b",
+    "strategy": "generic_html",
+    "request_url": "https://thrivecareers.fluor.com/search/",
+    "careers_url": "https://thrivecareers.fluor.com/search",
+    "checked_at": "2026-10-03T22:09:38.194263+00:00",
+    "prior_verification": {
+      "status": "verified",
+      "checked_at": "2026-10-01T00:13:56.820571+00:00",
+      "job_count": 20,
+      "warnings": [
+        "description detail enrichment skipped 15 jobs after the configured 5-posting limit",
+        "description detail enrichment was incomplete for 5 jobs",
+        "Bounded/partial listing; unseen jobs must not be closed from this run.",
+        "First page of Fluor’s officially linked Thrive board; China/Germany and other sources are not asserted to be complete."
+      ]
+    },
+    "source_filter": null,
+    "job_count": 20,
+    "pages": 6,
+    "complete": false,
+    "warnings": [
+      "description detail enrichment skipped 15 jobs after the configured 5-posting limit",
+      "description detail enrichment was incomplete for 5 jobs"
+    ],
+    "partial_listing": true,
+    "posting_hosts": [
+      "thrivecareers.fluor.com"
+    ],
+    "outcome": "candidate",
+    "sample_jobs": [
+      {
+        "title": "Boilermaker Welder - Tube",
+        "url": "https://thrivecareers.fluor.com/job/Graham-Boilermaker-Welder-Tube-TX/1373451100"
+      },
+      {
+        "title": "Boilermaker",
+        "url": "https://thrivecareers.fluor.com/job/Graham-Boilermaker-TX/1373449700"
+      },
+      {
+        "title": "Design Engineer II - Rotating Equipment Engineer",
+        "url": "https://thrivecareers.fluor.com/job/houston-Design-Engineer-II-Rotating-Equipment-Engineer-TX-77001/1389753100"
+      }
+    ],
+    "review": "Pass: incomplete listing is explicitly declared by metadata.partial_listing; all source URLs are public HTTPS in employer-specific boards."
+  },
+  {
+    "id": "gap",
+    "company_id": "gap",
+    "path": "companies/gap/monitors/gap.json",
+    "recipe_sha256": "a3fff53623ff0c68fd76aacb6c1dafbee16b405a5f349a440915ce9e46daad40",
+    "strategy": "workday",
+    "request_url": "https://gapinc.wd1.myworkdayjobs.com/wday/cxs/gapinc/GAPINC/jobs",
+    "careers_url": "https://gapinc.wd1.myworkdayjobs.com/GAPINC",
+    "checked_at": "2026-10-03T22:09:42.203659+00:00",
+    "prior_verification": {
+      "status": "verified",
+      "checked_at": "2026-10-01T00:13:56.820571+00:00",
+      "job_count": 20,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ]
+    },
+    "source_filter": null,
+    "job_count": 20,
+    "pages": 21,
+    "complete": false,
+    "warnings": [],
+    "partial_listing": true,
+    "posting_hosts": [
+      "gapinc.wd1.myworkdayjobs.com"
+    ],
+    "outcome": "candidate",
+    "sample_jobs": [
+      {
+        "title": "General manager - Shops On The Circle",
+        "url": "https://gapinc.wd1.myworkdayjobs.com/GAPINC/job/06141-ON-Shops-On-The-Circle/General-manager---Shops-On-The-Circle_R222324-1"
+      },
+      {
+        "title": "General Manager - Willowbrook-Houston",
+        "url": "https://gapinc.wd1.myworkdayjobs.com/GAPINC/job/05366-ON-Willowbrook-Houston/General-Manager---Willowbrook-Houston_R222353"
+      },
+      {
+        "title": "General Manager - Biltmore Park TS",
+        "url": "https://gapinc.wd1.myworkdayjobs.com/GAPINC/job/01205-ATH-Biltmore-Park-TS/General-Manager---Biltmore-Park-TS_R222349"
+      }
+    ],
+    "review": "Pass: incomplete listing is explicitly declared by metadata.partial_listing; all source URLs are public HTTPS in employer-specific boards."
+  },
+  {
+    "id": "general-mills",
+    "company_id": "general-mills",
+    "path": "companies/general-mills/monitors/general-mills.json",
+    "recipe_sha256": "63c1e5113d61e68f962d87118a76dda4afe902dc7b62bdc41dbf20649ccb6893",
+    "strategy": "workday",
+    "request_url": "https://genmills.wd1.myworkdayjobs.com/wday/cxs/genmills/GMI_External_Careers/jobs",
+    "careers_url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers",
+    "checked_at": "2026-10-03T22:09:42.293669+00:00",
+    "prior_verification": {
+      "status": "verified",
+      "checked_at": "2026-10-01T00:05:33.773555+00:00",
+      "job_count": 20,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ]
+    },
+    "source_filter": null,
+    "job_count": 20,
+    "pages": 21,
+    "complete": false,
+    "warnings": [],
+    "partial_listing": true,
+    "posting_hosts": [
+      "genmills.wd1.myworkdayjobs.com"
+    ],
+    "outcome": "candidate",
+    "sample_jobs": [
+      {
+        "title": "Senior Recruiter",
+        "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Minneapolis-MN/Senior-Recruiter_10130834"
+      },
+      {
+        "title": "Industrial Electrician",
+        "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Cincinnati-OH/Industrial-Electrician_10130320"
+      },
+      {
+        "title": "Millwright/Production Mechanic",
+        "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Cincinnati-OH/Millwright-Production-Mechanic_10130041"
+      }
+    ],
+    "review": "Pass: incomplete listing is explicitly declared by metadata.partial_listing; all source URLs are public HTTPS in employer-specific boards."
+  },
+  {
+    "id": "lithia",
+    "company_id": "lithia",
+    "path": "companies/lithia/monitors/lithia.json",
+    "recipe_sha256": "a8ca4e32bf933df7aa1e11425b9ae2d2935c4d10f15a1485928aae96d267a252",
+    "strategy": "workday",
+    "request_url": "https://lithia.wd504.myworkdayjobs.com/wday/cxs/lithia/LithiaCareers/jobs",
+    "careers_url": "https://lithia.wd504.myworkdayjobs.com/LithiaCareers",
+    "checked_at": "2026-10-03T22:09:53.069832+00:00",
+    "prior_verification": {
+      "status": "verified",
+      "checked_at": "2026-10-01T00:09:09.968757+00:00",
+      "job_count": 20,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ]
+    },
+    "source_filter": null,
+    "job_count": 20,
+    "pages": 21,
+    "complete": false,
+    "warnings": [],
+    "partial_listing": true,
+    "posting_hosts": [
+      "lithia.wd504.myworkdayjobs.com"
+    ],
+    "outcome": "candidate",
+    "sample_jobs": [
+      {
+        "title": "Part-Time Receptionist",
+        "url": "https://lithia.wd504.myworkdayjobs.com/LithiaCareers/job/Wesley-Chapel-Honda-Wesley-Chapel-FL-33544/Part-Time-Receptionist_R118535"
+      },
+      {
+        "title": "Parts Advisor",
+        "url": "https://lithia.wd504.myworkdayjobs.com/LithiaCareers/job/Acura-of-Palm-Beach-West-Palm-Beach-FL-33411/Parts-Advisor_R118533"
+      },
+      {
+        "title": "Business Development Center Agent (BDC Agent)",
+        "url": "https://lithia.wd504.myworkdayjobs.com/LithiaCareers/job/Tampa-Honda-Tampa-FL-33612/Business-Development-Center-Agent--BDC-Agent-_R118530"
+      }
+    ],
+    "review": "Pass: incomplete listing is explicitly declared by metadata.partial_listing; all source URLs are public HTTPS in employer-specific boards."
+  },
+  {
+    "id": "pultegroup",
+    "company_id": "pultegroup",
+    "path": "companies/pultegroup/monitors/pultegroup.json",
+    "recipe_sha256": "9b6ae1807febc1b496ce81067e935409b8da992bba87e2a39edb0c0c4aa0038a",
+    "strategy": "workday",
+    "request_url": "https://pultegroup.wd1.myworkdayjobs.com/wday/cxs/pultegroup/PGI/jobs",
+    "careers_url": "https://pultegroup.wd1.myworkdayjobs.com/PGI",
+    "checked_at": "2026-10-03T22:09:55.519127+00:00",
+    "prior_verification": {
+      "status": "verified",
+      "checked_at": "2026-10-01T00:09:09.967755+00:00",
+      "job_count": 20,
+      "warnings": [
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ]
+    },
+    "source_filter": null,
+    "job_count": 20,
+    "pages": 21,
+    "complete": false,
+    "warnings": [],
+    "partial_listing": true,
+    "posting_hosts": [
+      "pultegroup.wd1.myworkdayjobs.com"
+    ],
+    "outcome": "candidate",
+    "sample_jobs": [
+      {
+        "title": "Mortgage Branch Manager (Pulte Mortgage)",
+        "url": "https://pultegroup.wd1.myworkdayjobs.com/PGI/job/Bellevue-WA/Mortgage-Branch-Manager--Pulte-Mortgage-_JR9686"
+      },
+      {
+        "title": "Mortgage Branch Manager (Pule Mortgage)",
+        "url": "https://pultegroup.wd1.myworkdayjobs.com/PGI/job/Houston-TX/Mortgage-Branch-Manager--Pule-Mortgage-_JR9687"
+      },
+      {
+        "title": "Division Staff Accountant",
+        "url": "https://pultegroup.wd1.myworkdayjobs.com/PGI/job/Mission-Viejo-CA/Division-Staff-Accountant_JR9685"
+      }
+    ],
+    "review": "Pass: incomplete listing is explicitly declared by metadata.partial_listing; all source URLs are public HTTPS in employer-specific boards."
+  },
+  {
+    "id": "raymond-james",
+    "company_id": "raymond-james",
+    "path": "companies/raymond-james/monitors/raymond-james.json",
+    "recipe_sha256": "7f739872341bfd6ba73e3ad94711dc7625aa22c234c7375ee0fe091a4d9d6209",
+    "strategy": "workday",
+    "request_url": "https://raymondjames.wd1.myworkdayjobs.com/wday/cxs/raymondjames/RaymondJamesCareers/jobs",
+    "careers_url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers",
+    "checked_at": "2026-10-03T22:09:57.621880+00:00",
+    "prior_verification": {
+      "status": "verified",
+      "checked_at": "2026-10-01T00:09:09.969814+00:00",
+      "job_count": 8,
+      "warnings": [
+        "removed 12 duplicate source IDs",
+        "Bounded/partial listing; unseen jobs must not be closed from this run."
+      ]
+    },
+    "source_filter": null,
+    "job_count": 15,
+    "pages": 16,
+    "complete": false,
+    "warnings": [
+      "removed 5 duplicate source IDs",
+      "description detail enrichment was incomplete for 1 jobs"
+    ],
+    "partial_listing": true,
+    "posting_hosts": [
+      "raymondjames.wd1.myworkdayjobs.com"
+    ],
+    "outcome": "candidate",
+    "sample_jobs": [
+      {
+        "title": "Early Careers Sourcing, Engagement & Recruiting Operations Specialist",
+        "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Saint-Petersburg-Florida---United-States/Early-Careers-Sourcing--Engagement---Recruiting-Operations-Specialist_R-0013226"
+      },
+      {
+        "title": "Sr. Outbound AdvisorChoice Consultant",
+        "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Remote-New-York---United-States/Sr-Outbound-AdvisorChoice-Consultant_R-0013289"
+      },
+      {
+        "title": "Senior Manager, Loan Review",
+        "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/New-York-New-York---United-States/Senior-Manager--Loan-Review_R-0012981"
+      }
+    ],
+    "review": "Pass: incomplete listing is explicitly declared by metadata.partial_listing; all source URLs are public HTTPS in employer-specific boards."
+  }
+]

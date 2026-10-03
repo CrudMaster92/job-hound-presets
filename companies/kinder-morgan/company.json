@@ -17,8 +17,8 @@
   },
   "availability": {
     "status": "unavailable",
-    "reason": "repair-needed",
-    "message": "The official careers portal links separate corporate and field boards. The inspected corporate iCIMS page exposed no usable listings; a working scoped recipe needs validation.",
-    "checked_at": "2026-09-14T23:22:58.397854+00:00"
+    "reason": "access-restricted",
+    "message": "The inspected public corporate iCIMS board displays 403 Forbidden in an ordinary browser; separate corporate and field hiring coverage remains unresolved.",
+    "checked_at": "2026-10-01T00:21:26.838864+00:00"
   }
 }

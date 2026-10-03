@@ -2,9 +2,9 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "fortune-50-2026",
-  "revision": 11,
+  "revision": 12,
   "name": "Fortune 500 — 2026",
-  "description": "The 500 companies in the 2026 U.S. Fortune 500 list order. Includes 435 companies with 438 installable monitors and 65 unavailable companies with explanations. Coverage is bounded and may be division-specific. Select no more than 200 monitors per handoff; use explicit batches.",
+  "description": "The 500 companies in the 2026 U.S. Fortune 500 list order. Includes 444 companies with 447 installable monitors and 56 unavailable companies with explanations. Coverage is bounded and may be division-specific. Select no more than 200 monitors per handoff; use explicit batches.",
   "tags": [
     "Fortune 500",
     "2026",
@@ -295,7 +295,7 @@
       "rank": 51,
       "ranked_name": "Progressive",
       "monitor_ids": [],
-      "note": "The job board currently blocks unattended checks. This Fortune company is listed while its scraper needs a supported public endpoint."
+      "note": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation."
     },
     {
       "company_id": "lowes",
@@ -366,7 +366,7 @@
       "rank": 60,
       "ranked_name": "HCA Healthcare",
       "monitor_ids": [],
-      "note": "The job board currently blocks unattended checks. This Fortune company is listed while its scraper needs a supported public endpoint."
+      "note": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation."
     },
     {
       "company_id": "lockheed-martin",
@@ -453,14 +453,14 @@
       "rank": 71,
       "ranked_name": "Delta Air Lines",
       "monitor_ids": [],
-      "note": "The official job board is currently under maintenance. Job monitoring will become available after the board returns and the scraper is verified."
+      "note": "The public Delta Avature board returned HTTP 202 with an empty page in both HTTP and ordinary-browser checks; no listing was validated. The former maintenance explanation is not confirmed by this check."
     },
     {
       "company_id": "publix",
       "rank": 72,
       "ranked_name": "Publix Super Markets",
       "monitor_ids": [],
-      "note": "The job board is unavailable from this region. This Fortune company is listed while a repeatable public source is being repaired."
+      "note": "The public jobs page explicitly states that the site is not fully available outside the United States. No location restriction was bypassed."
     },
     {
       "company_id": "pfizer",
@@ -571,7 +571,7 @@
       "rank": 86,
       "ranked_name": "American Airlines Group",
       "monitor_ids": [],
-      "note": "The job board is hiring, but its current scraper cannot complete a background check reliably and needs repair."
+      "note": "The public American Airlines search returned a shell over HTTP and Access Denied (403) in an ordinary browser; the candidate browser recipe timed out."
     },
     {
       "company_id": "tyson-foods",
@@ -594,7 +594,7 @@
       "rank": 89,
       "ranked_name": "Enterprise Products Partners",
       "monitor_ids": [],
-      "note": "The job board is hiring, but its current listings expose broken placeholder links to automated checks and the scraper needs repair."
+      "note": "The officially linked Taleo board displays jobs, but listing anchors use JavaScript and # placeholders. A portable recipe with validated direct job links remains unresolved."
     },
     {
       "company_id": "ingram-micro",
@@ -825,7 +825,7 @@
       "rank": 118,
       "ranked_name": "CBRE Group",
       "monitor_ids": [],
-      "note": "CBRE lists jobs in a normal browser, but its careers board did not pass unattended validation. Its scraper needs repair before installation."
+      "note": "The official CBRE search returned HTTP 202 with an empty page in HTTP and ordinary-browser checks; no repeatable listing passed validation."
     },
     {
       "company_id": "visa",
@@ -863,8 +863,9 @@
       "company_id": "lithia",
       "rank": 123,
       "ranked_name": "Lithia Motors",
-      "monitor_ids": [],
-      "note": "Lithia’s main job feed is failing. Its legacy portal returned no jobs and the UK fallback did not pass unattended validation. Its scraper needs repair."
+      "monitor_ids": [
+        "lithia"
+      ]
     },
     {
       "company_id": "ge-vernova",
@@ -1477,7 +1478,7 @@
       "rank": 199,
       "ranked_name": "Ross Stores",
       "monitor_ids": [],
-      "note": "Ross is hiring, but its job board requires link extraction that the current scraper format does not support reliably. Its scraper needs repair before installation."
+      "note": "The public Ross JSON feed returns jobs after clearing automatic geography, but it omits direct URLs; rendered rows use data-href. The current portable recipe extraction cannot yet normalize those links reliably."
     },
     {
       "company_id": "newmont",
@@ -1526,7 +1527,7 @@
       "rank": 205,
       "ranked_name": "CDW",
       "monitor_ids": [],
-      "note": "Public CDW listings load interactively, but the tested deterministic browser scraper times out. A working portable scraper must be validated before installation."
+      "note": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation."
     },
     {
       "company_id": "avnet",
@@ -1588,8 +1589,9 @@
       "company_id": "bjs-wholesale",
       "rank": 213,
       "ranked_name": "BJ's Wholesale Club",
-      "monitor_ids": [],
-      "note": "The official careers site returns HTTP 503 and says access has been limited by the site owner, including in a normal browser. No access controls were bypassed."
+      "monitor_ids": [
+        "bjs-wholesale"
+      ]
     },
     {
       "company_id": "tenet-healthcare",
@@ -1612,7 +1614,7 @@
       "rank": 216,
       "ranked_name": "Cognizant Technology Solutions",
       "monitor_ids": [],
-      "note": "The official jobs page loads interactively, but its deterministic browser scraper times out. No verified installable recipe is available from this validation."
+      "note": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation."
     },
     {
       "company_id": "ge-healthcare",
@@ -1627,7 +1629,7 @@
       "rank": 218,
       "ranked_name": "Automatic Data Processing",
       "monitor_ids": [],
-      "note": "The official jobs page loads interactively, but the tested deterministic browser scraper times out. A working portable recipe needs validation before installation."
+      "note": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation."
     },
     {
       "company_id": "colgate-palmolive",
@@ -1674,7 +1676,7 @@
       "rank": 224,
       "ranked_name": "Parker-Hannifin",
       "monitor_ids": [],
-      "note": "The officially linked job board loads interactively, but its deterministic browser scraper times out. The scraper needs repair and live validation."
+      "note": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation."
     },
     {
       "company_id": "kimberly-clark",
@@ -1688,15 +1690,18 @@
       "company_id": "american-family",
       "rank": 226,
       "ranked_name": "American Family Insurance Group",
-      "monitor_ids": [],
-      "note": "The official careers site presents a Cloudflare access restriction in a normal browser and returns HTTP 403. A permitted public source is needed."
+      "monitor_ids": [
+        "american-family"
+      ],
+      "note": "Corporate technical, claims, legal and professional title subset; agency-owner and independent-agent opportunities are excluded. This is not the full corporate board."
     },
     {
       "company_id": "general-mills",
       "rank": 227,
       "ranked_name": "General Mills",
-      "monitor_ids": [],
-      "note": "The Workday runtime returns jobs, but detail enrichment repeatedly fails for a listing and leaves a URL without its required board segment. A recipe with consistently usable source URLs needs validation."
+      "monitor_ids": [
+        "general-mills"
+      ]
     },
     {
       "company_id": "edison-international",
@@ -1861,7 +1866,7 @@
       "rank": 247,
       "ranked_name": "ManpowerGroup",
       "monitor_ids": [],
-      "note": "No company-owned internal job feed was validated from the public corporate careers page. Staffing-client vacancies must not be mislabeled as ManpowerGroup employment."
+      "note": "The official corporate careers page is reachable, but a repeatable internal-employment feed with direct job URLs remains unresolved. Staffing-client vacancies remain excluded."
     },
     {
       "company_id": "grainger",
@@ -1909,7 +1914,7 @@
       "rank": 253,
       "ranked_name": "MGM Resorts International",
       "monitor_ids": [],
-      "note": "The official careers site returns HTTP 403 and presents an access challenge in a normal browser. No access controls were bypassed."
+      "note": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation."
     },
     {
       "company_id": "corteva",
@@ -1924,21 +1929,22 @@
       "rank": 255,
       "ranked_name": "Universal Health Services",
       "monitor_ids": [],
-      "note": "The public careers search returns 403 Forbidden in a normal browser; the linked iCIMS page did not expose usable listings."
+      "note": "The officially linked public iCIMS page displays 403 Forbidden in an ordinary browser and yielded no usable listings."
     },
     {
       "company_id": "pultegroup",
       "rank": 256,
       "ranked_name": "PulteGroup",
-      "monitor_ids": [],
-      "note": "The official careers opportunities page returns HTTP 403 and presents an access challenge in a normal browser."
+      "monitor_ids": [
+        "pultegroup"
+      ]
     },
     {
       "company_id": "omnicom",
       "rank": 257,
       "ranked_name": "Omnicom Group",
       "monitor_ids": [],
-      "note": "The former official careers link redirects to a missing page on omc.com. No current company-owned hiring feed was validated; separate agency hiring is not complete group coverage."
+      "note": "The current official Omnicom homepage is reachable, but no validated centralized hiring feed was established. Separate agency jobs are not presented as complete parent coverage."
     },
     {
       "company_id": "dicks-sporting-goods",
@@ -1961,7 +1967,7 @@
       "rank": 260,
       "ranked_name": "Leidos Holdings",
       "monitor_ids": [],
-      "note": "The official careers site presents an access challenge in a normal browser and returns HTTP 403. No permitted listing feed was validated."
+      "note": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation."
     },
     {
       "company_id": "aflac",
@@ -1976,14 +1982,14 @@
       "rank": 262,
       "ranked_name": "Targa Resources",
       "monitor_ids": [],
-      "note": "The officially linked SelectMinds job board shows Access Forbidden in a normal browser. No access controls were bypassed."
+      "note": "A normal browser returned ten Targa listing cards, but the representative direct job-detail page returned Access Forbidden (403). Usable source links must be validated before installation."
     },
     {
       "company_id": "murphy-usa",
       "rank": 263,
       "ranked_name": "Murphy USA",
       "monitor_ids": [],
-      "note": "The official interactive search opens, but no portable listing recipe with validated job links was established. This does not indicate an absence of vacancies."
+      "note": "The official search redirects to myjobs.adp.com/murphyusa/cx. An ordinary browser displayed the branded shell without jobs; no portable listing with validated direct links was established."
     },
     {
       "company_id": "lpl-financial",
@@ -2008,14 +2014,14 @@
       "rank": 266,
       "ranked_name": "Kinder Morgan",
       "monitor_ids": [],
-      "note": "The official careers portal links separate corporate and field boards. The inspected corporate iCIMS page exposed no usable listings; a working scoped recipe needs validation."
+      "note": "The inspected public corporate iCIMS board displays 403 Forbidden in an ordinary browser; separate corporate and field hiring coverage remains unresolved."
     },
     {
       "company_id": "consolidated-edison",
       "rank": 267,
       "ranked_name": "Consolidated Edison",
       "monitor_ids": [],
-      "note": "The official careers site presents an access challenge in a normal browser and returns HTTP 403."
+      "note": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation."
     },
     {
       "company_id": "keurig-dr-pepper",
@@ -2045,8 +2051,9 @@
       "company_id": "farmers-insurance",
       "rank": 271,
       "ranked_name": "Farmers Insurance Exchange",
-      "monitor_ids": [],
-      "note": "The official corporate careers page repeatedly timed out in HTTP and normal browser checks. A reachable public careers source needs validation."
+      "monitor_ids": [
+        "farmers-insurance"
+      ]
     },
     {
       "company_id": "dominion-energy",
@@ -2135,14 +2142,15 @@
       "rank": 282,
       "ranked_name": "Casey's General Stores",
       "monitor_ids": [],
-      "note": "The official careers page presents an access challenge in a normal browser. A permitted public listing source needs validation."
+      "note": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation."
     },
     {
       "company_id": "raymond-james",
       "rank": 283,
       "ranked_name": "Raymond James Financial",
-      "monitor_ids": [],
-      "note": "The official careers page timed out over HTTP and failed with a browser protocol error. A working public source needs validation."
+      "monitor_ids": [
+        "raymond-james"
+      ]
     },
     {
       "company_id": "ppg",
@@ -2174,7 +2182,7 @@
       "rank": 287,
       "ranked_name": "Principal Financial",
       "monitor_ids": [],
-      "note": "The public careers search returns 403 Forbidden in a normal browser; the linked iCIMS page did not expose usable listings."
+      "note": "The public iCIMS board displays 403 Forbidden in an ordinary browser and yielded no usable listings."
     },
     {
       "company_id": "mutual-of-omaha",
@@ -2212,15 +2220,18 @@
       "company_id": "fluor",
       "rank": 292,
       "ranked_name": "Fluor",
-      "monitor_ids": [],
-      "note": "The official Eightfold careers page opens, but no portable listing recipe with validated source links was established. The observed job-detail requests alone are insufficient."
+      "monitor_ids": [
+        "fluor"
+      ],
+      "note": "First page of Fluor’s officially linked Thrive board; China/Germany and other sources are not asserted to be complete."
     },
     {
       "company_id": "gap",
       "rank": 293,
       "ranked_name": "Gap",
-      "monitor_ids": [],
-      "note": "The official search automatically applies the browser location and distance. A deterministic recipe with explicit, stable geographic scope must be validated before installation."
+      "monitor_ids": [
+        "gap"
+      ]
     },
     {
       "company_id": "sp-global",
@@ -2243,7 +2254,7 @@
       "rank": 296,
       "ranked_name": "Builders FirstSource",
       "monitor_ids": [],
-      "note": "The official careers search returns 403 Forbidden in a normal browser. No working deterministic listing feed was validated."
+      "note": "The public careers landing page is reachable, but the official /jobs search returns 403 Forbidden in an ordinary browser; no permitted working listing was validated."
     },
     {
       "company_id": "sonic-automotive",

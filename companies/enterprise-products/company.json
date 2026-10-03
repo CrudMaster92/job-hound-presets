@@ -9,8 +9,8 @@
   "availability": {
     "status": "unavailable",
     "reason": "repair-needed",
-    "message": "The job board is hiring, but its current listings expose broken placeholder links to automated checks and the scraper needs repair.",
-    "checked_at": "2026-09-04T19:00:00Z"
+    "message": "The officially linked Taleo board displays jobs, but listing anchors use JavaScript and # placeholders. A portable recipe with validated direct job links remains unresolved.",
+    "checked_at": "2026-10-01T00:21:26.838864+00:00"
   },
   "facets": {
     "industries": [],

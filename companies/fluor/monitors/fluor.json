@@ -1,0 +1,63 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "fluor",
+  "company_id": "fluor",
+  "revision": 1,
+  "label": "Fluor Careers",
+  "careers_url": "https://thrivecareers.fluor.com/search",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-03T22:09:38.194263+00:00",
+    "job_count": 20,
+    "warnings": [
+      "description detail enrichment skipped 15 jobs after the configured 5-posting limit",
+      "description detail enrichment was incomplete for 5 jobs",
+      "Bounded/partial listing; unseen jobs must not be closed from this run.",
+      "First page of Fluor’s officially linked Thrive board; China/Germany and other sources are not asserted to be complete."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Fluor",
+    "careers_url": "https://thrivecareers.fluor.com/search",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "thrivecareers.fluor.com"
+    ],
+    "request": {
+      "url": "https://thrivecareers.fluor.com/search/",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 20,
+      "max_pages": 1,
+      "next_path": null
+    },
+    "source_key": null,
+    "source_filter": null,
+    "selectors": {
+      "item": "tr.data-row",
+      "title": "a.jobTitle-link",
+      "link": "a.jobTitle-link",
+      "location": ".jobLocation"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 5
+    }
+  }
+}

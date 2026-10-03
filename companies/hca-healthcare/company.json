@@ -9,8 +9,8 @@
   "availability": {
     "status": "unavailable",
     "reason": "access-restricted",
-    "message": "The job board currently blocks unattended checks. This Fortune company is listed while its scraper needs a supported public endpoint.",
-    "checked_at": "2026-09-04T19:00:00Z"
+    "message": "The public careers site still presents an access/security restriction in ordinary-browser and HTTP checks. No permitted live scraper with usable job URLs passed validation.",
+    "checked_at": "2026-10-01T00:21:26.838864+00:00"
   },
   "facets": {
     "industries": [],
