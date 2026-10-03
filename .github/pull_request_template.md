@@ -10,6 +10,6 @@ Describe official employer/source ownership, representative job links, fixture f
 - [ ] Exact normalized public-only JSON package and proposal evidence; no private data, credentials, scripts, workflows or generated files.
 - [ ] Author verification remains unverified; fixture parsing is provisional.
 - [ ] Repository validators/build passed; trusted runtime verdict is pending or linked.
-- [ ] Jo must inspect employer ownership and merge. No agent auto-merge.
+- [ ] the maintainer must inspect employer ownership and merge. No agent auto-merge.
 
-Preparation, trusted validation, review/merge and actual publication are separate states. Eligible sources join the next successful scheduled build after Jo's merge.
+Preparation, trusted validation, review/merge and actual publication are separate states. Eligible sources join the next successful scheduled build after the maintainer's merge.

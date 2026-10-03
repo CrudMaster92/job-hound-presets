@@ -1,7 +1,7 @@
 """Trusted receipt admission shared by catalog publication and collection.
 
 Receipts MUST come from the canonical repository's review-receipts branch.
-Candidate trees are never a receipt source. Jo's actual merge is the authority.
+Candidate trees are never a receipt source. The maintainer's actual merge is the authority.
 """
 from __future__ import annotations
 
@@ -22,7 +22,7 @@ def admitted(monitor, receipt, pull, runtime_revision):
             or pull.get("base", {}).get("ref") != "main"
             or pull.get("base", {}).get("repo", {}).get("full_name") != REPOSITORY
             or pull.get("head", {}).get("sha") != proof.head_commit):
-        raise ValueError("Exact validated PR must be merged into canonical main by Jo")
+        raise ValueError("Exact validated PR must be merged into canonical main by the maintainer")
     return effective_verification(monitor, receipt, runtime_revision=runtime_revision)
 
 

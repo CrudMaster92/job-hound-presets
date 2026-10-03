@@ -81,4 +81,4 @@ edits, and changes based on an outdated branch.
 
 ## Contribution-first lane
 
-For new recipe PRs, include contributions/<monitor-id>/proposal.json and keep authored verification unverified. Trusted base-branch CI performs the canonical live run and writes a bound receipt; Jo alone reviews ownership and merges. Follow the new CONTRIBUTING.md section. No executable changes, generated runtime edits, automatic contributions during searches, or auto-merge. Main and review-receipts must have the documented deployment protections before activation.
+For new recipe PRs, include contributions/<monitor-id>/proposal.json and keep authored verification unverified. Trusted base-branch CI performs the canonical live run and writes a bound receipt; the maintainer alone reviews ownership and merges. Follow the new CONTRIBUTING.md section. No executable changes, generated runtime edits, automatic contributions during searches, or auto-merge. Main and review-receipts must have the documented deployment protections before activation.

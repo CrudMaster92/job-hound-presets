@@ -174,5 +174,5 @@ def validate_documents(proposal: Proposal) -> dict[str, Any]:
     files.update({f"collections/{item['id']}.json": item for item in proposal.collections})
     return {"files": files, "monitor": monitor, "company": company,
             "proposal_hash": content_hash(files), "runtime_verified": False,
-            "warnings": ["Offline parsing is not live verification.", "Jo must review employer ownership before merging."],
+            "warnings": ["Offline parsing is not live verification.", "the maintainer must review employer ownership before merging."],
             "public_collection_eligible": recipe.strategy.value != "playwright"}

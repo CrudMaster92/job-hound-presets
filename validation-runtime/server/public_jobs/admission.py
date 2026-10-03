@@ -1,4 +1,4 @@
-"""Advance individually pinned sources after Jo merges trusted contributions."""
+"""Advance individually pinned sources after the maintainer merges trusted contributions."""
 from __future__ import annotations
 
 import argparse
@@ -18,7 +18,7 @@ def advance_lock(root: Path, previous: dict, approved: dict, pending=None) -> di
     pins = {item["id"]: {**item, "catalog_commit": item.get("catalog_commit", previous["catalog_commit"])}
             for item in previous["monitors"]}
     # Current author status is immaterial. Admission is an exact data hash and
-    # trusted live receipt for this runtime, plus Jo's actual merge.
+    # trusted live receipt for this runtime, plus the maintainer's actual merge.
     candidates = {item["id"]: item for item in [*current["monitors"], *current["excluded"]]}
     for monitor_id, authorization in approved.items():
         if monitor_id not in candidates:
