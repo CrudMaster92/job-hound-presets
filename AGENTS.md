@@ -78,3 +78,7 @@ Treat the build as a validation step and review its diff; do not commit generate
 churn. Reviewers should reject duplicate identities or recipes, unstable IDs,
 unsafe hosts, stale or invented verification, contamination, direct generated
 edits, and changes based on an outdated branch.
+
+## Contribution-first lane
+
+For new recipe PRs, include contributions/<monitor-id>/proposal.json and keep authored verification unverified. Trusted base-branch CI performs the canonical live run and writes a bound receipt; Jo alone reviews ownership and merges. Follow the new CONTRIBUTING.md section. No executable changes, generated runtime edits, automatic contributions during searches, or auto-merge. Main and review-receipts must have the documented deployment protections before activation.
