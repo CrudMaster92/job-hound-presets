@@ -12,7 +12,7 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-10-01T00:13:56.820571+00:00",
+    "checked_at": "2026-10-03T22:09:38.194263+00:00",
     "job_count": 20,
     "warnings": [
       "description detail enrichment skipped 15 jobs after the configured 5-posting limit",
