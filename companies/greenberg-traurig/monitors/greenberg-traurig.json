@@ -1,0 +1,60 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "greenberg-traurig",
+  "company_id": "greenberg-traurig",
+  "revision": 1,
+  "label": "Greenberg Traurig public careers",
+  "careers_url": "https://gtlaw.wd1.myworkdayjobs.com/en-US/GTLAW",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-05T18:08:46.522853+00:00",
+    "job_count": 248,
+    "warnings": [
+      "description detail enrichment skipped 223 jobs after the configured 25-posting limit",
+      "description detail enrichment was incomplete for 1 jobs"
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Greenberg Traurig",
+    "careers_url": "https://gtlaw.wd1.myworkdayjobs.com/en-US/GTLAW",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "gtlaw.wd1.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://gtlaw.wd1.myworkdayjobs.com/wday/cxs/gtlaw/GTLAW/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "timeout_seconds": 20,
+      "max_response_bytes": 5000000,
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      }
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "detail_fetch_limit": 25,
+      "tenant": "gtlaw",
+      "site": "GTLAW"
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 100,
+      "next_path": null
+    }
+  }
+}

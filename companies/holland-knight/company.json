@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "holland-knight",
+  "name": "Holland & Knight",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.hklaw.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "legal-services"
+    ],
+    "specialties": [
+      "law-firm"
+    ],
+    "tags": [
+      "Big Law",
+      "Legal Services"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ashurst-perkins-coie",
+  "name": "Ashurst Perkins Coie",
+  "legal_name": null,
+  "aliases": [
+    "Perkins Coie"
+  ],
+  "website_url": "https://perkinscoie.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "legal-services"
+    ],
+    "specialties": [
+      "law-firm"
+    ],
+    "tags": [
+      "Big Law",
+      "Legal Services"
+    ]
+  }
+}

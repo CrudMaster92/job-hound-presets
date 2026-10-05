@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "dla-piper",
+  "name": "DLA Piper",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.dlapiper.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "legal-services"
+    ],
+    "specialties": [
+      "law-firm"
+    ],
+    "tags": [
+      "Big Law",
+      "Legal Services"
+    ]
+  }
+}

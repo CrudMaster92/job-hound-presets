@@ -1,0 +1,59 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "ropes-gray",
+  "company_id": "ropes-gray",
+  "revision": 1,
+  "label": "Ropes & Gray public careers",
+  "careers_url": "https://careers-ropesgray.icims.com/jobs/search",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-05T18:10:34.880606+00:00",
+    "job_count": 47,
+    "warnings": []
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Ropes & Gray",
+    "careers_url": "https://careers-ropesgray.icims.com/jobs/search",
+    "strategy": "generic_html",
+    "allowed_hosts": [
+      "careers-ropesgray.icims.com"
+    ],
+    "request": {
+      "url": "https://careers-ropesgray.icims.com/jobs/search",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "ss": 1,
+        "in_iframe": 1
+      },
+      "timeout_seconds": 20,
+      "max_response_bytes": 5000000,
+      "json_body": null
+    },
+    "selectors": {
+      "item": ".iCIMS_JobCardItem",
+      "title": ".title h3",
+      "link": ".title a[href]",
+      "location": ".header.left span:not(.field-label)",
+      "description": ".description"
+    },
+    "mapping": {},
+    "metadata": {
+      "detail_fetch_limit": 25
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "pr",
+      "page_size": 1,
+      "max_pages": 100,
+      "page_size_parameter": null,
+      "next_path": null
+    }
+  }
+}

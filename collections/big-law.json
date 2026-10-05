@@ -1,0 +1,180 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "big-law",
+  "revision": 1,
+  "name": "Big Law",
+  "description": "Large national and international law firms with public legal and business-services career boards. First batch: 20 firms. Coverage varies by firm, region and hiring track; individual notes describe each board. Some boards include evergreen, internship or recruiting-event postings. This is a curated industry collection, not a ranked top-20 list.",
+  "tags": [
+    "Big Law",
+    "Law Firms",
+    "Legal Services",
+    "Business Services",
+    "Global"
+  ],
+  "facets": {
+    "collection_types": [
+      "industry"
+    ],
+    "industries": [
+      "legal-services"
+    ],
+    "role_families": [
+      "legal",
+      "marketing-business-development",
+      "finance-accounting",
+      "information-technology",
+      "human-resources",
+      "administration"
+    ],
+    "locations": []
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "skadden",
+      "monitor_ids": [
+        "skadden"
+      ],
+      "note": "Global business services and selected legal roles"
+    },
+    {
+      "company_id": "morgan-lewis",
+      "monitor_ids": [
+        "morgan-lewis"
+      ],
+      "note": "Professional staff and selected legal roles"
+    },
+    {
+      "company_id": "goodwin",
+      "monitor_ids": [
+        "goodwin"
+      ],
+      "note": "Global operations and business professionals"
+    },
+    {
+      "company_id": "greenberg-traurig",
+      "monitor_ids": [
+        "greenberg-traurig"
+      ],
+      "note": "Roles advertised on the firm public Workday board"
+    },
+    {
+      "company_id": "holland-knight",
+      "monitor_ids": [
+        "holland-knight"
+      ],
+      "note": "Roles advertised on the firm public Workday board"
+    },
+    {
+      "company_id": "cooley",
+      "monitor_ids": [
+        "cooley"
+      ],
+      "note": "US business professionals; separate UK board is not included"
+    },
+    {
+      "company_id": "white-case",
+      "monitor_ids": [
+        "white-case"
+      ],
+      "note": "Global public legal and business services openings"
+    },
+    {
+      "company_id": "ashurst-perkins-coie",
+      "monitor_ids": [
+        "ashurst-perkins-coie"
+      ],
+      "note": "Roles advertised on the legacy Perkins Coie public board; other Ashurst boards are not included"
+    },
+    {
+      "company_id": "dla-piper",
+      "monitor_ids": [
+        "dla-piper"
+      ],
+      "note": "US board; separate international board is not included"
+    },
+    {
+      "company_id": "norton-rose-fulbright",
+      "monitor_ids": [
+        "norton-rose-fulbright"
+      ],
+      "note": "External board; separate graduate board is not included"
+    },
+    {
+      "company_id": "alston-bird",
+      "monitor_ids": [
+        "alston-bird"
+      ],
+      "note": "Roles advertised on the firm public Workday board"
+    },
+    {
+      "company_id": "fragomen",
+      "monitor_ids": [
+        "fragomen"
+      ],
+      "note": "Immigration legal and business services openings; includes firm-branded technology roles"
+    },
+    {
+      "company_id": "wilson-sonsini",
+      "monitor_ids": [
+        "wilson-sonsini"
+      ],
+      "note": "Roles advertised on the firm public Workday board"
+    },
+    {
+      "company_id": "faegre-drinker",
+      "monitor_ids": [
+        "faegre-drinker"
+      ],
+      "note": "Roles advertised on the dedicated firm Workday board"
+    },
+    {
+      "company_id": "weil-gotshal-manges",
+      "monitor_ids": [
+        "weil-gotshal-manges"
+      ],
+      "note": "Roles advertised on the firm public Workday board"
+    },
+    {
+      "company_id": "sidley-austin",
+      "monitor_ids": [
+        "sidley-austin"
+      ],
+      "note": "US business professionals board; other regions are not included"
+    },
+    {
+      "company_id": "latham-watkins",
+      "monitor_ids": [
+        "latham-watkins"
+      ],
+      "note": "Business services openings"
+    },
+    {
+      "company_id": "ropes-gray",
+      "monitor_ids": [
+        "ropes-gray"
+      ],
+      "note": "Business support openings"
+    },
+    {
+      "company_id": "foley-lardner",
+      "monitor_ids": [
+        "foley-lardner"
+      ],
+      "note": "Business professionals and paralegal openings"
+    },
+    {
+      "company_id": "mayer-brown",
+      "monitor_ids": [
+        "mayer-brown"
+      ],
+      "note": "Global business services openings"
+    }
+  ]
+}

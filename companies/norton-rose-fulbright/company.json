@@ -1,0 +1,22 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "norton-rose-fulbright",
+  "name": "Norton Rose Fulbright",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.nortonrosefulbright.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "legal-services"
+    ],
+    "specialties": [
+      "law-firm"
+    ],
+    "tags": [
+      "Big Law",
+      "Legal Services"
+    ]
+  }
+}

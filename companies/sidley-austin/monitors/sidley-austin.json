@@ -1,0 +1,59 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "sidley-austin",
+  "company_id": "sidley-austin",
+  "revision": 1,
+  "label": "Sidley Austin public careers",
+  "careers_url": "https://sidley.wd501.myworkdayjobs.com/en-US/US",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-05T18:12:48.627432+00:00",
+    "job_count": 89,
+    "warnings": [
+      "description detail enrichment skipped 64 jobs after the configured 25-posting limit"
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Sidley Austin",
+    "careers_url": "https://sidley.wd501.myworkdayjobs.com/en-US/US",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "sidley.wd501.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://sidley.wd501.myworkdayjobs.com/wday/cxs/sidley/US/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "timeout_seconds": 20,
+      "max_response_bytes": 5000000,
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      }
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "detail_fetch_limit": 25,
+      "tenant": "sidley",
+      "site": "US"
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": 100,
+      "next_path": null
+    }
+  }
+}
