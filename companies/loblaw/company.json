@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "loblaw",
+  "name": "Loblaw Companies",
+  "aliases": [],
+  "website_url": "https://www.loblaw.ca",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "retail"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

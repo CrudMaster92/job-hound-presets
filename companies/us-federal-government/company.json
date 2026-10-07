@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "us-federal-government",
+  "name": "United States Federal Government",
+  "aliases": [],
+  "website_url": "https://www.usa.gov",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "public-sector"
+    ],
+    "specialties": [],
+    "tags": [
+      "USA"
+    ]
+  }
+}

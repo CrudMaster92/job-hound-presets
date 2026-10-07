@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "td-bank-group",
+  "name": "TD Bank Group",
+  "aliases": [],
+  "website_url": "https://www.td.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "banking"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

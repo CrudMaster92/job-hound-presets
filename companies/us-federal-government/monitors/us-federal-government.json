@@ -1,0 +1,70 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "us-federal-government",
+  "company_id": "us-federal-government",
+  "revision": 1,
+  "label": "United States Federal Government public careers",
+  "careers_url": "https://www.usajobs.gov/Search/Results?hp=public",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-07T20:44:02.710179+00:00",
+    "job_count": 250,
+    "warnings": [
+      "USAJOBS announcements open to the public; excludes USPS, military recruiting and separate agency hiring systems. Announcements can cover multiple vacancies or standing inventories.",
+      "description detail enrichment skipped 245 jobs after the configured 5-posting limit",
+      "Bounded/partial coverage; unseen jobs must not be closed."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "United States Federal Government",
+    "careers_url": "https://www.usajobs.gov/Search/Results?hp=public",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "www.usajobs.gov"
+    ],
+    "request": {
+      "url": "https://www.usajobs.gov/Search/ExecuteSearch",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "HiringPath": [
+          "public"
+        ],
+        "Page": "1"
+      },
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "page",
+      "parameter": "Page",
+      "page_size_parameter": null,
+      "page_size": 25,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "Jobs",
+      "source_id": "DocumentID",
+      "title": "Title",
+      "url": "PositionURI",
+      "location": "Location",
+      "employment_type": "WorkSchedule",
+      "posted_date": "PositionStartDate",
+      "salary_min": "MinimumRange"
+    },
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 5
+    }
+  }
+}

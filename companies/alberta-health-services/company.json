@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "alberta-health-services",
+  "name": "Alberta Health Services",
+  "aliases": [],
+  "website_url": "https://www.albertahealthservices.ca",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "public-sector"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "access-restricted",
+    "message": "Official careers source returned HTTP 403. Healthcare restructuring also limits comparability of historic workforce counts.",
+    "checked_at": "2026-10-07T20:47:59.768775+00:00"
+  }
+}

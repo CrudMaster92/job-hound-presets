@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "canada-post",
+  "name": "Canada Post",
+  "aliases": [
+    "Canada Post Corporation",
+    "Postes Canada"
+  ],
+  "website_url": "https://www.canadapost-postescanada.ca",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "public-sector"
+    ],
+    "specialties": [
+      "logistics"
+    ],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

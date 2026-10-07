@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "california-state-government",
+  "name": "State of California",
+  "aliases": [],
+  "website_url": "https://www.ca.gov",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "public-sector"
+    ],
+    "specialties": [],
+    "tags": [
+      "USA"
+    ]
+  }
+}

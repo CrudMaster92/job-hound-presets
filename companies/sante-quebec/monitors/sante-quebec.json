@@ -1,0 +1,73 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "sante-quebec",
+  "company_id": "sante-quebec",
+  "revision": 1,
+  "label": "Santé Québec public careers",
+  "careers_url": "https://emplois.sante.quebec/fr_CA/annonces",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-07T20:43:57.949892+00:00",
+    "job_count": 10,
+    "warnings": [
+      "Central board only; excludes the separately operated institution career boards across the unified employer.",
+      "description detail enrichment skipped 5 jobs after the configured 5-posting limit",
+      "Bounded/partial coverage; unseen jobs must not be closed."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Santé Québec",
+    "careers_url": "https://emplois.sante.quebec/fr_CA/annonces",
+    "strategy": "generic_json",
+    "allowed_hosts": [
+      "emplois.sante.quebec",
+      "api.digitalrecruiters.com"
+    ],
+    "request": {
+      "url": "https://api.digitalrecruiters.com/public/v1/careers-site/job-ads",
+      "method": "POST",
+      "headers": {},
+      "params": {
+        "domainName": "emplois.sante.quebec",
+        "limit": 500,
+        "page": 1,
+        "locale": "fr_CA"
+      },
+      "json_body": {
+        "filters": {}
+      },
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {},
+    "mapping": {
+      "items": "items",
+      "source_id": "id",
+      "title": "title",
+      "url": "url",
+      "location": "location",
+      "employment_type": "contract"
+    },
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 5,
+      "posting_url_prefix": "https://emplois.sante.quebec/fr_CA/annonce",
+      "scope": "Central Santé Québec and Équipe Volante Publique board; institution boards are not included."
+    }
+  }
+}

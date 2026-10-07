@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "sante-quebec",
+  "name": "Santé Québec",
+  "aliases": [],
+  "website_url": "https://sante.quebec",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "public-sector"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

@@ -2,9 +2,9 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "fortune-50-2026",
-  "revision": 12,
+  "revision": 13,
   "name": "Fortune 500 — 2026",
-  "description": "The 500 companies in the 2026 U.S. Fortune 500 list order. Includes 444 companies with 447 installable monitors and 56 unavailable companies with explanations. Coverage is bounded and may be division-specific. Select no more than 200 monitors per handoff; use explicit batches.",
+  "description": "The 500 companies in the 2026 U.S. Fortune 500 list order. Includes 444 companies with 448 installable monitors and 56 unavailable companies with explanations. Coverage is bounded and may be division-specific. Select no more than 200 monitors per handoff; use explicit batches.",
   "tags": [
     "Fortune 500",
     "2026",

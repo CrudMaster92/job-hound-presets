@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "empire-company",
+  "name": "Empire Company (Sobeys)",
+  "aliases": [],
+  "website_url": "https://www.empireco.ca",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "retail"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "access-restricted",
+    "message": "Official Sobeys careers source returned HTTP 403. No crawler is activated; public access must be restored.",
+    "checked_at": "2026-10-07T20:47:59.768775+00:00"
+  }
+}
