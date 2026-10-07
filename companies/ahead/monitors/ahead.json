@@ -1,0 +1,52 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "ahead",
+  "company_id": "ahead",
+  "revision": 2,
+  "label": "AHEAD careers",
+  "careers_url": "https://jobs.lever.co/thinkahead",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "AHEAD",
+    "careers_url": "https://jobs.lever.co/thinkahead",
+    "strategy": "lever",
+    "allowed_hosts": [
+      "api.lever.co",
+      "jobs.lever.co"
+    ],
+    "request": {
+      "url": "https://api.lever.co/v0/postings/thinkahead?mode=json",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 25,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {},
+    "coverage_mode": "all"
+  }
+}

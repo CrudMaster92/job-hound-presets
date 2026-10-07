@@ -1,0 +1,189 @@
+{
+  "base_commit": "6888898b190440a81c5ba86d75bd80788b601ac8",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "greenlight-consulting",
+    "name": "Greenlight Consulting",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://www.greenlightconsulting.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "greenlight-consulting",
+    "company_id": "greenlight-consulting",
+    "revision": 2,
+    "label": "Greenlight Consulting careers",
+    "careers_url": "https://job-boards.greenhouse.io/greenlightconsulting",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "Greenlight Consulting",
+      "careers_url": "https://job-boards.greenhouse.io/greenlightconsulting",
+      "strategy": "generic_json",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/greenlightconsulting/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {
+        "items": "jobs",
+        "source_id": "id",
+        "title": "title",
+        "location": "location.name",
+        "url": "absolute_url",
+        "description": "content",
+        "posted_date": "updated_at"
+      },
+      "metadata": {
+        "board_token": "greenlightconsulting"
+      },
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/greenlightconsulting/jobs",
+    "fetched_at": "2026-10-05T16:09:01.662753Z",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/greenlightconsulting/jobs/5276944008",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 4496432008,
+          "location": {
+            "name": "Toronto, Canada"
+          },
+          "metadata": null,
+          "id": 5276944008,
+          "updated_at": "2026-06-23T12:18:35-04:00",
+          "requisition_id": "71",
+          "title": "Account Executive",
+          "company_name": "Greenlight Consulting",
+          "first_published": "2026-06-23T12:18:35-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/greenlightconsulting/jobs/5302072008",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 4503798008,
+          "location": {
+            "name": "Toronto, Canada"
+          },
+          "metadata": null,
+          "id": 5302072008,
+          "updated_at": "2026-07-07T13:55:44-04:00",
+          "requisition_id": "77",
+          "title": "AI Lead Consultant, AI Practice",
+          "company_name": "Greenlight Consulting",
+          "first_published": "2026-07-07T13:55:44-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/greenlightconsulting/jobs/5277209008",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 4496560008,
+          "location": {
+            "name": "Toronto, Canada"
+          },
+          "metadata": null,
+          "id": 5277209008,
+          "updated_at": "2026-06-29T21:02:50-04:00",
+          "requisition_id": "73",
+          "title": "Automation Business Consultant (RPA+AI Projects)",
+          "company_name": "Greenlight Consulting",
+          "first_published": "2026-06-23T14:18:14-04:00",
+          "language": "en",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.greenlightconsulting.com",
+    "explanation": "Greenlight Consulting public employer careers board. Employer evidence: https://job-boards.greenhouse.io/greenlightconsulting. The listed ATS account is branded for this employer or its consolidated consulting group. Representative posting titles, locations, company branding and links were inspected; this proposal contains no personal search profile. Regional coverage and source limitations is documented in the monitor and separate live evidence report.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://job-boards.greenhouse.io/greenlightconsulting/jobs/5276944008",
+      "https://job-boards.greenhouse.io/greenlightconsulting/jobs/5302072008",
+      "https://job-boards.greenhouse.io/greenlightconsulting/jobs/5277209008"
+    ]
+  }
+}

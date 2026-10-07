@@ -1,0 +1,237 @@
+{
+  "base_commit": "6888898b190440a81c5ba86d75bd80788b601ac8",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "point-b",
+    "name": "Point B",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://www.pointb.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "point-b",
+    "company_id": "point-b",
+    "revision": 2,
+    "label": "Point B careers",
+    "careers_url": "https://jobs.lever.co/pointb",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "Point B",
+      "careers_url": "https://jobs.lever.co/pointb",
+      "strategy": "lever",
+      "allowed_hosts": [
+        "api.lever.co",
+        "jobs.lever.co"
+      ],
+      "request": {
+        "url": "https://api.lever.co/v0/postings/pointb?mode=json",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {},
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.lever.co/v0/postings/pointb?mode=json",
+    "fetched_at": "2026-10-05T16:09:02.491701Z",
+    "payload": [
+      {
+        "additionalPlain": "Intrigued To Learn More?\nWhen you apply, a member of our Talent Acquisition team will personally review your information. If your experience could be a match, we’ll contact you with next steps.\n \nWhy Join Point B? \nAt Point B, you’ll own meaningful work from day one, contribute your perspective, and stay connected to the outcomes you help create. As you build expertise through hands-on experience, coaches and leaders will support your growth and help you take on what’s next. Point B also offers flexible work options and competitive benefits, including medical, dental, and vision coverage, a 401(k), paid time off, paid sick leave, and an employee assistance program, within a culture consistently recognized as one of the best places to work.\n \nPoint B is an equal-opportunity employer committed to a diverse workforce. We provide equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws. You can read more about our commitment to diversity on our website.\n \nPoint B is committed to providing equal opportunities for persons with disabilities or religious observances, which includes providing reasonable accommodation for in any individuals with disabilities or for religious purposes. Applicants with disabilities may contact our Accommodations team at applicantaccommodations@pointb.com or 206-517-5000 to request and arrange for accommodations through the application and/or recruiting process. If you need assistance to accommodate a disability or religious observance, you may request an accommodation at any time. Please note: This mailbox is only for accommodation requests or questions. Please use the Contact Us form for any recruiting inquires.\n \nLegal Information for Job Seekers can be accessed on our Careers Website.\n \nPursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\n",
+        "additional": "<div><strong>Intrigued To Learn More?</strong></div>\n<div>When you apply, a member of our Talent Acquisition team will personally review your information. If your experience could be a match, we’ll contact you with next steps.</div>\n<div>&nbsp;</div>\n<div><strong>Why Join Point B? </strong></div>\n<div>At Point B, you’ll own meaningful work from day one, contribute your perspective, and stay connected to the outcomes you help create. As you build expertise through hands-on experience, coaches and leaders will support your growth and help you take on what’s next. Point B also offers flexible work options and competitive&nbsp;<a href=\"https://www.pointb.com/Careers/Benefits\">benefits</a>, including medical, dental, and vision coverage, a 401(k), paid time off, paid sick leave, and an employee assistance program, within a culture consistently recognized as one of the best places to work.</div>\n<div>&nbsp;</div>\n<div>Point B is an&nbsp;<strong>equal-opportunity employer</strong>&nbsp;committed to a diverse workforce. We provide equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.&nbsp;You can read more about our commitment to diversity on our&nbsp;<a href=\"https://www.pointb.com/About/DEI-J\">website</a>.</div>\n<div>&nbsp;</div>\n<div>Point B is committed to providing equal opportunities for persons with disabilities or religious observances, which includes providing reasonable accommodation for in any individuals&nbsp;with disabilities or for religious purposes. Applicants with disabilities may contact our Accommodations team at&nbsp;<a href=\"mailto:applicantaccommodations@pointb.com\">applicantaccommodations@pointb.com</a>&nbsp;or 206-517-5000 to request and arrange for accommodations through the application and/or recruiting process. If you need assistance to accommodate a disability or religious observance, you may request an accommodation at any time. Please note: This mailbox is only for accommodation requests or questions. Please use the Contact Us form for any recruiting inquires.</div>\n<div>&nbsp;</div>\n<div>Legal Information for Job Seekers can be accessed on our&nbsp;<a href=\"https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcareers.pointb.com%2F&amp;data=05%7C01%7Cmrutledge%40PointB.com%7C3b178bc9310a45fde1f508dbe6c4b983%7C2e0d020c53684963a29544297d7fd521%7C0%7C0%7C638357504829754746%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=dZoxKKNS4zv%2BShiY6pzjccefaOYyVvNfzEAVKLjSp9o%3D&amp;reserved=0\">Careers Website.</a></div>\n<div>&nbsp;</div>\n<div>Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.</div>",
+        "categories": {
+          "commitment": "Full-time",
+          "department": "Intelligent Operations 2",
+          "location": "Chicago, IL",
+          "team": "Payer",
+          "allLocations": [
+            "Chicago, IL"
+          ]
+        },
+        "createdAt": 1784306489834,
+        "descriptionPlain": "Point B helps organizations adapt and thrive as technology, AI, and constant disruption reshape how work gets done. For more than 30 years, we’ve connected strategy, execution, and technology so teams, systems, and decisions can move together under pressure. This work helps clients drive growth, improve operational efficiency, and accelerate time to value. We don’t stop at recommendations. We stay with the work through delivery to turn plans into measurable progress and lasting results.\n \n",
+        "description": "<div>\n<p>Point B helps organizations adapt and thrive as technology, AI, and constant disruption reshape how work gets done. For more than 30 years, we’ve connected strategy, execution, and technology so teams, systems, and decisions can move together under pressure. This work helps clients drive growth, improve operational efficiency, and accelerate time to value. We don’t stop at recommendations. We stay with the work through delivery to turn plans into measurable progress and lasting results.</p>\n</div>\n<div>&nbsp;</div>",
+        "id": "5128a154-c740-48e4-a32a-98e0ab41c4b7",
+        "lists": [
+          {
+            "text": "JOB SUMMARY:",
+            "content": "<p>The Associate is an onsite client-facing role responsible for leading discrete workstreams supporting process improvement, intelligent automation, and AI-enabled transformation initiatives. Associates independently perform analysis, facilitate client working sessions, develop recommendations, and collaborate with business and technical teams to design solutions that improve operational performance.</p>"
+          },
+          {
+            "text": "RESPONSIBILITIES:",
+            "content": "<div>\n<p data-pm-slice=\"1 3 []\"><strong>Decision Making &amp; Influence</strong></p>\n\n<li>\n<p>Independently manage assigned workstreams and deliver high-quality client outcomes with limited oversight.</p>\n</li>\n<li>\n<p>Prioritize work, identify risks, and recommend practical solutions to engagement leadership.</p>\n</li>\n<li>\n<p>Manage project activities, timelines, and deliverables for assigned workstreams.</p>\n</li>\n\n<p><strong>Client Service Delivery</strong></p>\n\n<li>\n<p>Facilitate client interviews, workshops, and working sessions to understand business objectives and operational challenges.</p>\n</li>\n<li>\n<p>Analyze business processes, operating models, data, and technologies to identify improvement opportunities.</p>\n</li>\n<li>\n<p>Develop future-state process designs and implementation recommendations.</p>\n</li>\n<li>\n<p>Prepare executive-ready deliverables, business cases, roadmaps, and presentations.</p>\n</li>\n<li>\n<p>Coordinate effectively across client stakeholders, technical teams, and engagement leadership.</p>\n</li>\n<li>\n<p>Support implementation planning, organizational readiness, and adoption activities.</p>\n</li>\n\n<p><em><strong>Capability-Specific Examples (IO – Automation &amp; AI)</strong></em></p>\n\n<li>\n<p>Lead process discovery and operational assessments to identify automation and AI opportunities.</p>\n</li>\n<li>\n<p>Evaluate business processes for automation feasibility, value, complexity, and implementation readiness.</p>\n</li>\n<li>\n<p>Translate business requirements into functional specifications, user stories, and solution requirements.</p>\n</li>\n<li>\n<p>Partner with technical teams to design, configure, test, and deploy automation solutions.</p>\n</li>\n<li>\n<p>Support process mining, workflow redesign, and operational analytics activities.</p>\n</li>\n<li>\n<p>Develop automation business cases, value assessments, and implementation roadmaps.</p>\n</li>\n<li>\n<p>Help clients redesign work by integrating AI, automation, data, and process improvements into future-state operations.</p>\n</li>\n<li>\n<p>Support governance, change management, and user adoption activities throughout implementation.</p>\n</li>\n\n<p><strong>Business Development</strong></p>\n\n<li>\n<p>Support proposal development and client pursuits.</p>\n</li>\n<li>\n<p>Identify client needs and connect opportunities to Point B capabilities.</p>\n</li>\n<li>\n<p>Build trusted client relationships through exceptional service delivery.</p>\n</li>\n\n<p><strong>Leadership</strong></p>\n\n<li>\n<p>Mentor Analysts by providing coaching, feedback, and day-to-day guidance.</p>\n</li>\n<li>\n<p>Foster collaboration across engagement teams.</p>\n</li>\n<li>\n<p>Demonstrate ownership, initiative, and accountability for client outcomes.</p>\n</li>\n<li>\n<p>Consistently demonstrate Point B values.</p>\n</li>\n\n<p><strong>Intellectual Capital</strong></p>\n\n<li>\n<p>Contribute to development of methodologies, playbooks, accelerators, and thought leadership.</p>\n</li>\n<li>\n<p>Continue building expertise in AI, automation, enterprise technologies, and operational transformation.</p>\n</li>\n<li>\n<p>Share lessons learned and leading practices across the capability.</p>\n</li>\n\n</div>"
+          },
+          {
+            "text": "REQUIRED QUALIFICATIONS:",
+            "content": "<div>\n<ul data-pm-slice=\"3 3 []\">\n<li>\n<p>B.A. or B.S. degree required; MBA preferred.</p>\n</li>\n<li>\n<p>2+ years of consulting, business transformation, operations, process improvement, automation, technology implementation, or related experience.</p>\n</li>\n<li>\n<p>Ability to work on-site as requested.</p>\n</li>\n<li>\n<p>Ability to work remotely.</p>\n</li>\n<li>\n<p>Ability to travel up to 80%.</p>\n</li>\n<li>\n<p>Ability to work non-standard work hours as necessary.</p>\n</li>\n\n</ul></div>"
+          },
+          {
+            "text": "DESIRED QUALIFICATIONS:",
+            "content": "<div>\n<ul data-pm-slice=\"3 3 []\">\n<li>\n<p>Experience supporting or leading workstreams on consulting engagements or business transformation initiatives.</p>\n</li>\n<li>\n<p>Experience documenting business requirements, process maps, operating procedures, or functional specifications.</p>\n</li>\n<li>\n<p>Working knowledge of process improvement methodologies (Lean, Six Sigma, BPM, Design Thinking, etc.).</p>\n</li>\n<li>\n<p>Exposure to AI, intelligent automation, process mining, low-code platforms, enterprise applications (ERP, CRM), or workflow technologies.</p>\n</li>\n<li>\n<p>Familiarity with Agile, SDLC, or product delivery methodologies.</p>\n</li>\n<li>\n<p>Strong analytical and problem-solving skills with experience translating business challenges into actionable recommendations.</p>\n</li>\n<li>\n<p>Experience analyzing operational or process data using tools such as Excel, Power BI, Tableau, SQL, or similar technologies.</p>\n</li>\n<li>\n<p>Experience collaborating with both business and technical stakeholders.</p>\n</li>\n<li>\n<p>Excellent written, verbal, and presentation skills.</p>\n</li>\n<li>\n<p>Experience working in one or more industries such as Healthcare, Life Sciences, Financial Services, Manufacturing, Consumer Products &amp; Retail, or similar industries.</p>\n</li>\n\n</ul></div>"
+          },
+          {
+            "text": "COMPENSATION & BENEFITS:",
+            "content": "<div>\n<p>The estimated salary range for this role is $69,000- $138,000 USD per year. This salary range is provided as required by local and state law as applicable. Individual salaries vary on a number of factors including but not limited to geography, skills, education, experience and unique qualifications where applicable.</p>\n<p>&nbsp;Bonuses are awarded at Point B’s discretion and are based upon individual contributions and overall firm performance.</p>\n<p>Employees hired on or after October 1 are not eligible to participate in the current year’s bonus or merit increase cycle. Eligibility will begin with the following performance cycle, in accordance with company policy</p>\n</div>"
+          }
+        ],
+        "text": "Associate, AI & Process Automation",
+        "country": "US",
+        "workplaceType": "hybrid",
+        "opening": "<div>\n<p>Point B helps organizations adapt and thrive as technology, AI, and constant disruption reshape how work gets done. For more than 30 years, we&rsquo;ve connected strategy, execution, and technology so teams, systems, and decisions can move together under pressure. This work helps clients drive growth, improve operational efficiency, and accelerate time to value. We don&rsquo;t stop at recommendations. We stay with the work through delivery to turn plans into measurable progress and lasting results.</p>\n</div>\n<div>&nbsp;</div>",
+        "openingPlain": "Point B helps organizations adapt and thrive as technology, AI, and constant disruption reshape how work gets done. For more than 30 years, we’ve connected strategy, execution, and technology so teams, systems, and decisions can move together under pressure. This work helps clients drive growth, improve operational efficiency, and accelerate time to value. We don’t stop at recommendations. We stay with the work through delivery to turn plans into measurable progress and lasting results.\n \n",
+        "descriptionBody": "",
+        "descriptionBodyPlain": "",
+        "hostedUrl": "https://jobs.lever.co/pointb/5128a154-c740-48e4-a32a-98e0ab41c4b7",
+        "applyUrl": "https://jobs.lever.co/pointb/5128a154-c740-48e4-a32a-98e0ab41c4b7/apply"
+      },
+      {
+        "additionalPlain": "Compensation & Benefits: \nThe estimated salary range for this role is $69,000- $138,000 USD per year. This salary range is provided as required by local and state law as applicable. Individual salaries vary on a number of factors including but not limited to geography, skills, education, experience and unique qualifications where applicable.\n Bonuses are awarded at Point B’s discretion and are based upon individual contributions and overall firm performance.\nEmployees hired on or after October 1 are not eligible to participate in the current year’s bonus or merit increase cycle. Eligibility will begin with the following performance cycle, in accordance with company policy\nIntrigued To Learn More?\nWhen you apply, a member of our Talent Acquisition team will personally review your information. If your experience could be a match, we’ll contact you with next steps.\n \nWhy Join Point B? \nAt Point B, you’ll own meaningful work from day one, contribute your perspective, and stay connected to the outcomes you help create. As you build expertise through hands-on experience, coaches and leaders will support your growth and help you take on what’s next. Point B also offers flexible work options and competitive benefits, including medical, dental, and vision coverage, a 401(k), paid time off, paid sick leave, and an employee assistance program, within a culture consistently recognized as one of the best places to work.\n \nPoint B is an equal-opportunity employer committed to a diverse workforce. We provide equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws. You can read more about our commitment to diversity on our website.\n \nPoint B is committed to providing equal opportunities for persons with disabilities or religious observances, which includes providing reasonable accommodation for in any individuals with disabilities or for religious purposes. Applicants with disabilities may contact our Accommodations team at applicantaccommodations@pointb.com or 206-517-5000 to request and arrange for accommodations through the application and/or recruiting process. If you need assistance to accommodate a disability or religious observance, you may request an accommodation at any time. Please note: This mailbox is only for accommodation requests or questions. Please use the Contact Us form for any recruiting inquires.\n \nLegal Information for Job Seekers can be accessed on our Careers Website.\n \nPursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\n",
+        "additional": "<div><strong>Compensation &amp; Benefits:&nbsp;</strong></div>\n<div>\n<p>The estimated salary range for this role is $69,000- $138,000 USD per year. This salary range is provided as required by local and state law as applicable. Individual salaries vary on a number of factors including but not limited to geography, skills, education, experience and unique qualifications where applicable.</p>\n<p>&nbsp;Bonuses are awarded at Point B’s discretion and are based upon individual contributions and overall firm performance.</p>\n<p>Employees hired on or after October 1 are not eligible to participate in the current year’s bonus or merit increase cycle. Eligibility will begin with the following performance cycle, in accordance with company policy</p>\n<strong>Intrigued To Learn More?</strong></div>\n<div>When you apply, a member of our Talent Acquisition team will personally review your information. If your experience could be a match, we’ll contact you with next steps.</div>\n<div>&nbsp;</div>\n<div><strong>Why Join Point B? </strong></div>\n<div>At Point B, you’ll own meaningful work from day one, contribute your perspective, and stay connected to the outcomes you help create. As you build expertise through hands-on experience, coaches and leaders will support your growth and help you take on what’s next. Point B also offers flexible work options and competitive&nbsp;<a href=\"https://www.pointb.com/Careers/Benefits\">benefits</a>, including medical, dental, and vision coverage, a 401(k), paid time off, paid sick leave, and an employee assistance program, within a culture consistently recognized as one of the best places to work.</div>\n<div>&nbsp;</div>\n<div>Point B is an&nbsp;<strong>equal-opportunity employer</strong>&nbsp;committed to a diverse workforce. We provide equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.&nbsp;You can read more about our commitment to diversity on our&nbsp;<a href=\"https://www.pointb.com/About/DEI-J\">website</a>.</div>\n<div>&nbsp;</div>\n<div>Point B is committed to providing equal opportunities for persons with disabilities or religious observances, which includes providing reasonable accommodation for in any individuals&nbsp;with disabilities or for religious purposes. Applicants with disabilities may contact our Accommodations team at&nbsp;<a href=\"mailto:applicantaccommodations@pointb.com\">applicantaccommodations@pointb.com</a>&nbsp;or 206-517-5000 to request and arrange for accommodations through the application and/or recruiting process. If you need assistance to accommodate a disability or religious observance, you may request an accommodation at any time. Please note: This mailbox is only for accommodation requests or questions. Please use the Contact Us form for any recruiting inquires.</div>\n<div>&nbsp;</div>\n<div>Legal Information for Job Seekers can be accessed on our&nbsp;<a href=\"https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcareers.pointb.com%2F&amp;data=05%7C01%7Cmrutledge%40PointB.com%7C3b178bc9310a45fde1f508dbe6c4b983%7C2e0d020c53684963a29544297d7fd521%7C0%7C0%7C638357504829754746%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=dZoxKKNS4zv%2BShiY6pzjccefaOYyVvNfzEAVKLjSp9o%3D&amp;reserved=0\">Careers Website.</a></div>\n<div>&nbsp;</div>\n<div>Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.</div>",
+        "categories": {
+          "commitment": "Full-time",
+          "department": "Tech and Digital 1",
+          "location": "Chicago, IL",
+          "team": "Consumer and Retail",
+          "allLocations": [
+            "Chicago, IL"
+          ]
+        },
+        "createdAt": 1789594001364,
+        "descriptionPlain": "Point B helps organizations adapt and thrive as technology, AI, and constant disruption reshape how work gets done. For more than 30 years, we’ve connected strategy, execution, and technology so teams, systems, and decisions can move together under pressure. This work helps clients drive growth, improve operational efficiency, and accelerate time to value. We don’t stop at recommendations. We stay with the work through delivery to turn plans into measurable progress and lasting results.\n \n",
+        "description": "<div>Point B helps organizations adapt and thrive as technology, AI, and constant disruption reshape how work gets done. For more than 30 years, we’ve connected strategy, execution, and technology so teams, systems, and decisions can move together under pressure. This work helps clients drive growth, improve operational efficiency, and accelerate time to value. We don’t stop at recommendations. We stay with the work through delivery to turn plans into measurable progress and lasting results.</div>\n<div>&nbsp;</div>",
+        "id": "8706b3fa-6516-4404-9d01-ae6facee8078",
+        "lists": [
+          {
+            "text": "",
+            "content": "<div>\n<div>The Associate is an onsite client-facing role that supports Point B by leading small projects or a workstream within a larger program. The Associate is accountable for planning and managing the work of their workstream, identifying, and managing&nbsp; risks and issues, developing documentation, and engaging with the project team&nbsp;and clients to achieve project goals.</div>\n</div>"
+          },
+          {
+            "text": "RESPONSIBILITIES:",
+            "content": "<div><strong>Decision Making and Influence</strong></div>\n\n<li>Works on client-facing or internal projects under the general supervision of engagement leaders, project leaders, or workstream leaders</li>\n<li>Supports engagement teams and clients across the lifecycle of engagements</li>\n<li>Contributes to the development of client-facing solutions or internal processes and capabilities</li>\n\n<div><strong>Client Service Delivery</strong></div>\n\n<li>Plans, designs, and implements project/workstream plans with minimal oversight</li>\n<li>Develops project management artifacts, including workback schedules, dependency diagrams, issue/risk logs, etc.</li>\n<li>Conducts data analysis to support project findings</li>\n<li>Develops project deliverables and documentation in support of business objectives</li>\n<li>Plans and facilitates effective project meetings, driving discussions to a necessary resolution</li>\n<li>Collaborates effectively with business leaders, project, and technical teams</li>\n<li>Communicates clearly and proactively to peers and client stakeholders</li>\n\n<div><strong>Business Development</strong></div>\n\n<li>Listens for client needs, can speak to Point B capabilities (services, products, etc.) at a high level, and pulls in the right support when a client need is identified</li>\n<li>Opportunistically engages in business development efforts by listening to client needs and engaging with the engagement/account leadership team to support growth</li>\n<li>Builds relationships through exceptional client service delivery and maintains relationships to support Point B business development</li>\n\n<div><strong>Leadership</strong></div>\n\n<li>Supports team effort and builds authentic relationships with individuals in work groups and teams</li>\n<li>Proactively seeks ways to support team members and help other associates and clients achieve their professional goals</li>\n<li>Consistently demonstrates and lives Point B values</li>\n\n<div><strong>Intellectual Capital</strong></div>\n\n<li>Contributes to firm-wide operational initiatives to improve delivery methodologies and/or offerings</li>\n<li>Continuously grows depth of personal expertise in Service Line capability and/or industry practices</li>\n<li>Contributes to the development of other intellectual capital initiatives</li>\n<li>Other duties as assigned</li>\n"
+          },
+          {
+            "text": "REQUIRED QUALIFICATIONS:",
+            "content": "<div>• B.A. or B.S. required<br>• 2 years of relevant experience&nbsp;<br>• Ability to work on-site as requested<br>• Ability to work remotely<br>• Ability to travel up to 80%<br>• Ability to work non-standard work hours as necessary</div>"
+          },
+          {
+            "text": "DESIRED QUALIFICATIONS:",
+            "content": "<div>• MBA desired<br>• Demonstrated project management (PM) capability working with business and&nbsp;<br>technology projects<br>• PM experience for small engagements or work stream lead for a program<br>• Experience with multiple PM frameworks and tools: Agile, SDLC, Waterfall<br>• Experience with one or more service line capabilities<br>• Experience with more than one relevant industr</div>"
+          }
+        ],
+        "text": "Associate, Data & Analytics",
+        "country": "US",
+        "workplaceType": "hybrid",
+        "opening": "<div>Point B helps organizations adapt and thrive as technology, AI, and constant disruption reshape how work gets done. For more than 30 years, we&rsquo;ve connected strategy, execution, and technology so teams, systems, and decisions can move together under pressure. This work helps clients drive growth, improve operational efficiency, and accelerate time to value. We don&rsquo;t stop at recommendations. We stay with the work through delivery to turn plans into measurable progress and lasting results.</div>\n<div>&nbsp;</div>",
+        "openingPlain": "Point B helps organizations adapt and thrive as technology, AI, and constant disruption reshape how work gets done. For more than 30 years, we’ve connected strategy, execution, and technology so teams, systems, and decisions can move together under pressure. This work helps clients drive growth, improve operational efficiency, and accelerate time to value. We don’t stop at recommendations. We stay with the work through delivery to turn plans into measurable progress and lasting results.\n \n",
+        "descriptionBody": "",
+        "descriptionBodyPlain": "",
+        "hostedUrl": "https://jobs.lever.co/pointb/8706b3fa-6516-4404-9d01-ae6facee8078",
+        "applyUrl": "https://jobs.lever.co/pointb/8706b3fa-6516-4404-9d01-ae6facee8078/apply"
+      },
+      {
+        "additionalPlain": "Intrigued To Learn More?\nWhen you apply, a member of our Talent Acquisition team will personally review your information. If your experience could be a match, we’ll contact you with next steps.\n \nWhy Join Point B? \nAt Point B, you’ll own meaningful work from day one, contribute your perspective, and stay connected to the outcomes you help create. As you build expertise through hands-on experience, coaches and leaders will support your growth and help you take on what’s next. Point B also offers flexible work options and competitive benefits, including medical, dental, and vision coverage, a 401(k), paid time off, paid sick leave, and an employee assistance program, within a culture consistently recognized as one of the best places to work.\n \nPoint B is an equal-opportunity employer committed to a diverse workforce. We provide equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws. You can read more about our commitment to diversity on our website.\n \nPoint B is committed to providing equal opportunities for persons with disabilities or religious observances, which includes providing reasonable accommodation for in any individuals with disabilities or for religious purposes. Applicants with disabilities may contact our Accommodations team at applicantaccommodations@pointb.com or 206-517-5000 to request and arrange for accommodations through the application and/or recruiting process. If you need assistance to accommodate a disability or religious observance, you may request an accommodation at any time. Please note: This mailbox is only for accommodation requests or questions. Please use the Contact Us form for any recruiting inquires.\n \nLegal Information for Job Seekers can be accessed on our Careers Website.\n \nPursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\n",
+        "additional": "<div><strong>Intrigued To Learn More?</strong></div>\n<div>When you apply, a member of our Talent Acquisition team will personally review your information. If your experience could be a match, we’ll contact you with next steps.</div>\n<div>&nbsp;</div>\n<div><strong>Why Join Point B? </strong></div>\n<div>At Point B, you’ll own meaningful work from day one, contribute your perspective, and stay connected to the outcomes you help create. As you build expertise through hands-on experience, coaches and leaders will support your growth and help you take on what’s next. Point B also offers flexible work options and competitive&nbsp;<a href=\"https://www.pointb.com/Careers/Benefits\">benefits</a>, including medical, dental, and vision coverage, a 401(k), paid time off, paid sick leave, and an employee assistance program, within a culture consistently recognized as one of the best places to work.</div>\n<div>&nbsp;</div>\n<div>Point B is an&nbsp;<strong>equal-opportunity employer</strong>&nbsp;committed to a diverse workforce. We provide equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.&nbsp;You can read more about our commitment to diversity on our&nbsp;<a href=\"https://www.pointb.com/About/DEI-J\">website</a>.</div>\n<div>&nbsp;</div>\n<div>Point B is committed to providing equal opportunities for persons with disabilities or religious observances, which includes providing reasonable accommodation for in any individuals&nbsp;with disabilities or for religious purposes. Applicants with disabilities may contact our Accommodations team at&nbsp;<a href=\"mailto:applicantaccommodations@pointb.com\">applicantaccommodations@pointb.com</a>&nbsp;or 206-517-5000 to request and arrange for accommodations through the application and/or recruiting process. If you need assistance to accommodate a disability or religious observance, you may request an accommodation at any time. Please note: This mailbox is only for accommodation requests or questions. Please use the Contact Us form for any recruiting inquires.</div>\n<div>&nbsp;</div>\n<div>Legal Information for Job Seekers can be accessed on our&nbsp;<a href=\"https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcareers.pointb.com%2F&amp;data=05%7C01%7Cmrutledge%40PointB.com%7C3b178bc9310a45fde1f508dbe6c4b983%7C2e0d020c53684963a29544297d7fd521%7C0%7C0%7C638357504829754746%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=dZoxKKNS4zv%2BShiY6pzjccefaOYyVvNfzEAVKLjSp9o%3D&amp;reserved=0\">Careers Website.</a></div>\n<div>&nbsp;</div>\n<div>Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.</div>",
+        "categories": {
+          "commitment": "Full-time",
+          "department": "Strategy and Transformation 2",
+          "location": "Chicago, IL",
+          "team": "Payer",
+          "allLocations": [
+            "Chicago, IL"
+          ]
+        },
+        "createdAt": 1784665224965,
+        "descriptionPlain": "Point B helps organizations adapt and thrive as technology, AI, and constant disruption reshape how work gets done. For more than 30 years, we’ve connected strategy, execution, and technology so teams, systems, and decisions can move together under pressure. This work helps clients drive growth, improve operational efficiency, and accelerate time to value. We don’t stop at recommendations. We stay with the work through delivery to turn plans into measurable progress and lasting results.\n \n",
+        "description": "<div>\n<p>Point B helps organizations adapt and thrive as technology, AI, and constant disruption reshape how work gets done. For more than 30 years, we’ve connected strategy, execution, and technology so teams, systems, and decisions can move together under pressure. This work helps clients drive growth, improve operational efficiency, and accelerate time to value. We don’t stop at recommendations. We stay with the work through delivery to turn plans into measurable progress and lasting results.</p>\n</div>\n<div>&nbsp;</div>",
+        "id": "2ca43816-130a-49bf-a28b-6373ab7e1088",
+        "lists": [
+          {
+            "text": "",
+            "content": "<p>Point B is seeking a Senior Strategy Manager to help clients design and execute enterprise growth strategies spanning Product, Service, Marketing, and Sales functions. This role focuses on defining business strategies – enterprise, growth, product/service, and go-to-market. This role is scoped primarily to work within the healthcare Payer industry, bringing foundational understanding of Payer-specific challenges, opportunities and business context.</p>\n<p>You will work with senior executives to define/refine business strategies, create business cases to drive decision making, and translate those strategies into actionable transformation roadmaps across the Payer member/customer/employer group lifecycle and/or value streams. This is a business strategy and transformation role, emphasizing growth architecture, product and service strategy, and organizational capability design rather than technical implementation.</p>\n<p>As a Strategy Senior Manager, you are responsible for developing others in this area of expertise, directly delivering alongside clients, contributing to growth of a portfolio book of business through thought leadership, solution architecture and driving new sales and relationships.&nbsp;</p>\n<p>&nbsp;</p>"
+          },
+          {
+            "text": "RESPONSIBILITIES:",
+            "content": "<div>\n<p><strong>Strategy Development&nbsp;</strong></p>\n\n<li>Shape enterprise strategy by identifying growth opportunities, setting strategic priorities, and aligning investments to deliver long-term value.</li>\n<li>Guide organizations in weighing enterprise strategies to progress their vision and goals; develop business cases to drive investment decisions</li>\n<li>Define product and service portfolio strategies aligned to enterprise growth objectives.</li>\n<li>Support product-market fit analysis, pricing and monetization strategy, and value proposition development.</li>\n<li>Shape service offerings and commercialization strategies that improve customer acquisition and retention and position in the marketplace and enable a sustainable growth plan for the enterprise.</li>\n<li>Develop integrated GTM strategies across demand generation, partner ecosystems, sales motions, and customer lifecycle management.</li>\n<li>Define segmentation, targeting, positioning, and messaging strategies supported by data-driven insights.</li>\n<li>Translate growth strategies into executable roadmaps with measurable KPIs.</li>\n\n<p><strong>Capability Assessment &amp; Operating Model Design</strong></p>\n\n<li>Evaluate enterprise capabilities and architect operating models that align people, processes, and technology to accelerate growth.</li>\n<li>Benchmark organizational capabilities, competitive differentiators, and define future-state operating models.</li>\n<li>Identify capability gaps and develop phased transformation strategies to achieve growth strategies.</li>\n\n<p><strong>Business Development&nbsp;</strong></p>\n\n<li>Collaborates with Industry and Service Line leadership to evaluate opportunities, sell, and deliver innovative results for new and existing clients.</li>\n<li>Develops thought leadership, client insight articles and represents Point B by presenting at client facing forums and conferences.</li>\n<li>Develops and maintains network at the executive level within healthcare, Payer</li>\n<li>Direct role in business development, supporting generation of &nbsp;new sales and solution architecture in the business strategy and transformation domain</li>\n\n<div><strong>Core Competencies</strong></div>\n\n<li>Growth and go-to-market strategy development</li>\n<li>Product and service strategy</li>\n<li>AI-enabled transformation and capability modeling</li>\n<li>Executive facilitation and storytelling</li>\n<li>Business development&nbsp;</li>\n\n</div>"
+          },
+          {
+            "text": "REQUIRED QUALIFICATIONS:",
+            "content": "\n<li>10+ years of experience in strategy consulting, such as growth, product and/or GTM strategy / transformation.</li>\n<li>Experience delivering strategy work in healthcare and/or health insurance/Payer</li>\n<li>Demonstrated experience advising senior stakeholders on growth strategy, product/service strategy, or go-to-market transformation initiatives.</li>\n<li>Proven ability to conduct capability assessments, operating model design, or maturity benchmarking</li>\n<li>Strong business-side understanding of:<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Product and service strategy<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CRM and customer lifecycle strategy<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Lead management and demand generation<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AI-enabled business transformation (use-case definition and strategic adoption)</li>\n<li>Exceptional executive communication, structured problem solving, and consulting storytelling skills</li>\n"
+          },
+          {
+            "text": "DESIRED QUALIFICATIONS:",
+            "content": "\n<li>MBA or MSC in Business, Strategy, Marketing, Management, or a related discipline.</li>\n<li>Experience in a high-performing strategy consulting environment or an equivalent corporate strategy function within a Fortune 500 or scaled mid-market organization.</li>\n<li>Ability to architect strategy engagements, develop a portfolio of work and cultivate executive relationships.</li>\n<li>Experience designing or supporting Lead-to-Cash (L2C), Demand-to-Revenue, Product-Led Growth, or AI-enabled GTM initiatives.</li>\n<li>Familiarity with enterprise transformation frameworks (e.g., CVM, ADKAR, Fit-for-Growth, or similar methodologies).</li>\n<li>Experience facilitating executive workshops and building board-level strategy narratives.</li>\n<li>Trained/Certified in relevant areas of expertise, such as MarTech/CRM and/or Consulting Communication &amp; Product Strategy, Digital and AI Strategy, and/or Consulting/Business Agility.&nbsp;</li>\n"
+          },
+          {
+            "text": "COMPENSATION & BENEFITS:",
+            "content": "<div>\n<div>The estimated salary range for this role is $118,500 - $263,500 USD per year. This salary range is provided as required by local and state law as applicable. Individual salaries vary on a number of factors, including but not limited to geography, skills, education, experience and unique qualifications where applicable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Bonuses are awarded at Point B’s discretion and are based upon individual contributions and overall firm performance.</div>\n<div>&nbsp;</div>\n<div>Employees hired on or after October 1 are not eligible to participate in the current year’s bonus or merit increase cycle. Eligibility will begin with the following performance cycle, in accordance with company policy</div>\n</div>"
+          }
+        ],
+        "text": "Senior Manager, Payer Growth & GTM Strategy",
+        "country": "US",
+        "workplaceType": "hybrid",
+        "opening": "<div>\n<p>Point B helps organizations adapt and thrive as technology, AI, and constant disruption reshape how work gets done. For more than 30 years, we&rsquo;ve connected strategy, execution, and technology so teams, systems, and decisions can move together under pressure. This work helps clients drive growth, improve operational efficiency, and accelerate time to value. We don&rsquo;t stop at recommendations. We stay with the work through delivery to turn plans into measurable progress and lasting results.</p>\n</div>\n<div>&nbsp;</div>",
+        "openingPlain": "Point B helps organizations adapt and thrive as technology, AI, and constant disruption reshape how work gets done. For more than 30 years, we’ve connected strategy, execution, and technology so teams, systems, and decisions can move together under pressure. This work helps clients drive growth, improve operational efficiency, and accelerate time to value. We don’t stop at recommendations. We stay with the work through delivery to turn plans into measurable progress and lasting results.\n \n",
+        "descriptionBody": "",
+        "descriptionBodyPlain": "",
+        "hostedUrl": "https://jobs.lever.co/pointb/2ca43816-130a-49bf-a28b-6373ab7e1088",
+        "applyUrl": "https://jobs.lever.co/pointb/2ca43816-130a-49bf-a28b-6373ab7e1088/apply"
+      }
+    ]
+  },
+  "ownership": {
+    "company_url": "https://www.pointb.com",
+    "explanation": "Point B public employer careers board. Employer evidence: https://jobs.lever.co/pointb. The listed ATS account is branded for this employer or its consolidated consulting group. Representative posting titles, locations, company branding and links were inspected; this proposal contains no personal search profile. Regional coverage and source limitations is documented in the monitor and separate live evidence report.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://jobs.lever.co/pointb/5128a154-c740-48e4-a32a-98e0ab41c4b7",
+      "https://jobs.lever.co/pointb/8706b3fa-6516-4404-9d01-ae6facee8078",
+      "https://jobs.lever.co/pointb/2ca43816-130a-49bf-a28b-6373ab7e1088"
+    ]
+  }
+}

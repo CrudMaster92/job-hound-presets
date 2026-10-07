@@ -1,0 +1,56 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "capco",
+  "company_id": "capco",
+  "revision": 2,
+  "label": "Capco careers",
+  "careers_url": "https://job-boards.greenhouse.io/capco",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Capco",
+    "careers_url": "https://job-boards.greenhouse.io/capco",
+    "strategy": "greenhouse",
+    "allowed_hosts": [
+      "boards-api.greenhouse.io",
+      "job-boards.greenhouse.io"
+    ],
+    "request": {
+      "url": "https://boards-api.greenhouse.io/v1/boards/capco/jobs",
+      "method": "GET",
+      "headers": {},
+      "params": {
+        "content": true
+      },
+      "json_body": null,
+      "timeout_seconds": 25,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "board_token": "capco"
+    },
+    "coverage_mode": "all"
+  }
+}

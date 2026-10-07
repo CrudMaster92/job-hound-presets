@@ -1,0 +1,189 @@
+{
+  "base_commit": "6888898b190440a81c5ba86d75bd80788b601ac8",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "66degrees",
+    "name": "66degrees",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://66degrees.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "66degrees",
+    "company_id": "66degrees",
+    "revision": 2,
+    "label": "66degrees careers",
+    "careers_url": "https://job-boards.greenhouse.io/66degrees",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "66degrees",
+      "careers_url": "https://job-boards.greenhouse.io/66degrees",
+      "strategy": "generic_json",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/66degrees/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {
+        "items": "jobs",
+        "source_id": "id",
+        "title": "title",
+        "location": "location.name",
+        "url": "absolute_url",
+        "description": "content",
+        "posted_date": "updated_at"
+      },
+      "metadata": {
+        "board_token": "66degrees"
+      },
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/66degrees/jobs",
+    "fetched_at": "2026-10-05T16:09:01.664909Z",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/66degrees/jobs/6209159004",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 5223273004,
+          "location": {
+            "name": "Pune ,  Bangalore"
+          },
+          "metadata": null,
+          "id": 6209159004,
+          "updated_at": "2026-09-28T07:35:36-04:00",
+          "requisition_id": "IN-26-133",
+          "title": "Associate Delivery Manager",
+          "company_name": "66degrees",
+          "first_published": "2026-09-28T07:35:36-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/66degrees/jobs/6207311004",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 5222461004,
+          "location": {
+            "name": "India"
+          },
+          "metadata": null,
+          "id": 6207311004,
+          "updated_at": "2026-09-24T04:24:00-04:00",
+          "requisition_id": "IN-26-130",
+          "title": "Azure Cloud Architect",
+          "company_name": "66degrees",
+          "first_published": "2026-09-24T04:24:00-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/66degrees/jobs/6206539004",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 5222148004,
+          "location": {
+            "name": "India"
+          },
+          "metadata": null,
+          "id": 6206539004,
+          "updated_at": "2026-09-23T11:58:52-04:00",
+          "requisition_id": "CT 26-076-IN",
+          "title": "Backend Engineer (.NET), Contract",
+          "company_name": "66degrees",
+          "first_published": "2026-09-23T11:58:04-04:00",
+          "language": "en",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://66degrees.com",
+    "explanation": "66degrees public employer careers board. Employer evidence: https://job-boards.greenhouse.io/66degrees. The listed ATS account is branded for this employer or its consolidated consulting group. Representative posting titles, locations, company branding and links were inspected; this proposal contains no personal search profile. Regional coverage and source limitations is documented in the monitor and separate live evidence report.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://job-boards.greenhouse.io/66degrees/jobs/6209159004",
+      "https://job-boards.greenhouse.io/66degrees/jobs/6207311004",
+      "https://job-boards.greenhouse.io/66degrees/jobs/6206539004"
+    ]
+  }
+}

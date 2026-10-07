@@ -1,0 +1,241 @@
+{
+  "base_commit": "6888898b190440a81c5ba86d75bd80788b601ac8",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "zencore",
+    "name": "Zencore",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://zencore.dev",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "zencore",
+    "company_id": "zencore",
+    "revision": 2,
+    "label": "Zencore careers",
+    "careers_url": "https://jobs.lever.co/zencore",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "Zencore",
+      "careers_url": "https://jobs.lever.co/zencore",
+      "strategy": "lever",
+      "allowed_hosts": [
+        "api.lever.co",
+        "jobs.lever.co"
+      ],
+      "request": {
+        "url": "https://api.lever.co/v0/postings/zencore?mode=json",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {},
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.lever.co/v0/postings/zencore?mode=json",
+    "fetched_at": "2026-10-05T16:09:02.677452Z",
+    "payload": [
+      {
+        "additionalPlain": "Zencore is committed to a diverse and inclusive workplace. Zencore is an equal opportunity employer and does not discriminate on the basis of race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status.\n",
+        "additional": "<div><em>Zencore is committed to a diverse and inclusive workplace. Zencore is an equal opportunity employer and does not discriminate on the basis of race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status.</em></div>",
+        "categories": {
+          "commitment": "Full-Time",
+          "department": "Sales",
+          "location": "US (Remote)",
+          "team": "Alliances",
+          "allLocations": [
+            "US (Remote)"
+          ]
+        },
+        "createdAt": 1788540624445,
+        "descriptionPlain": "Zencore is a premier Google Cloud pure-play consultancy and a four-time Google Cloud Partner of the Year. Founded by former Google Cloud leaders and engineers, we specialize in helping enterprises modernize infrastructure, architect modern data platforms, and deploy production-ready AI frameworks.\nWith private equity backing from Superstep Capital and a rapidly expanding global footprint across North America, LATAM, and EMEA, Zencore combines the technical depth of a large GSI with the agility, senior talent, and execution speed of an elite boutique.\n",
+        "description": "<div>\n<p>Zencore is a premier Google Cloud pure-play consultancy and a four-time Google Cloud Partner of the Year. Founded by former Google Cloud leaders and engineers, we specialize in helping enterprises modernize infrastructure, architect modern data platforms, and deploy production-ready AI frameworks.</p>\n<p>With private equity backing from Superstep Capital and a rapidly expanding global footprint across North America, LATAM, and EMEA, Zencore combines the technical depth of a large GSI with the agility, senior talent, and execution speed of an elite boutique.</p>\n</div>",
+        "id": "9437c5b6-7be1-410e-b563-f0a8cd4c8b2b",
+        "lists": [
+          {
+            "text": "About this role ",
+            "content": "<div>This role will cover <strong>North America </strong>for Zencore</div>\n<div>&nbsp;</div>\n<div>You operate as a peer to Google Cloud’s commercial leadership, bringing deep fluency in how Regional Directors, Sales VP leadership, and enterprise account teams drive growth. You excel at positioning Zencore as an indispensable strategic partner on complex, multi-million dollar transformations and will build strong lasting relationships with Google Cloud’s partner leadership team. This role will report directly to the head of sales.</div>"
+          },
+          {
+            "text": "Responsibilities ",
+            "content": "\n<li>\n<p><strong>Drive Commercial Co-Selling:</strong> Partner directly with Zencore Enterprise AEs and Google Cloud sales reps to map strategic target accounts, shape opportunities, and orchestrate joint account planning across Enterprise and Select verticals.</p>\n</li>\n<li>\n<p><strong>Champion Brand Visibility with Partner Leadership:</strong> Work hand-in-hand with Google Cloud Partner Development Managers (PDMs), Partner Sales Directors, and Ecosystem Executives to maximize Zencore's brand prominence across internal Google sales channels, regional field showcases, and executive forums.</p>\n</li>\n<li>\n<p><strong>Secure Priority Program Access &amp; Resources:</strong> Serve as the chief advocate for Zencore within Google Partner Advantage—securing early access to strategic partner programs, elite specializations, product betas, and maximum drawdown of funding programs (RAMP, Partner Marketing Funds, proof-of-concept credits).</p>\n</li>\n<li>\n<p><strong>Unlock Google Field Incentives:</strong> Deploy Google Cloud funding programs to subsidize client engagements, eliminate buyer friction, and close enterprise SOWs faster.</p>\n</li>\n<li>\n<p><strong>Orchestrate High-Impact QBRs:</strong> Lead business reviews with Google partner leadership, delivering clear, data-driven narrative updates on co-sell performance, win rates, and joint pipeline growth.</p>\n</li>\n<li>\n<p><strong>Pipeline Precision &amp; Health:</strong> Ensure 100% accuracy in partner pipeline reporting, deal registration, and attribution within Google Partner Advantage, framing operational updates around business metrics rather than administrative tasks.</p>\n</li>\n"
+          },
+          {
+            "text": "Qualifications",
+            "content": "<div>\n\n<li>\n<p><strong>Commercial / Sales Background:</strong> 5–8+ years in <strong>Enterprise Software Sales, Solution Sales, Commercial BD, or Strategic Account Management</strong> within the cloud/IT services space. Direct experience carrying a quota or leading commercial deal strategy is strongly preferred over pure administrative alliance experience.</p>\n</li>\n<li>\n<p><strong>Deep Google Cloud Ecosystem Fluency:</strong> Comprehensive understanding of Google Cloud’s organization, sales segments, field incentive structures, and partner programs. You know how field reps get paid, how co-selling works in practice, and how to navigate Google partner leadership to secure elite program access.</p>\n</li>\n<li>\n<p><strong>Partner Advocacy &amp; Gravitas:</strong> Ability to command a room with enterprise executives, Google Regional Directors, and Partner Leadership. You speak the language of business value, ROI, and mutual ecosystem growth.</p>\n</li>\n<li>\n<p><strong>High-Energy Execution:</strong> A \"make-things-happen\" operator who thrives in a fast-paced, PE-backed environment and naturally takes ownership of complex, multi-stakeholder deals.</p>\n</li>\n<li>\n<p><strong>Cross-Functional Influence:</strong> Proven ability to align internal technical delivery leads, external partner reps, and marketing teams behind a unified commercial campaign.</p>\n</li>\n\n</div>"
+          },
+          {
+            "text": "What success looks like",
+            "content": "<div>\n\n<li>\n<p><strong>Measurable Revenue Impact:</strong> Consistent, predictable growth in Zencore-sourced and co-sold revenue attached to Google Cloud.</p>\n</li>\n<li>\n<p><strong>First-Call Partner Status:</strong> Google Cloud sales reps actively bringing Zencore into pre-commit enterprise accounts before competitor consultancies are even notified.</p>\n</li>\n<li>\n<p><strong>Elevated Brand &amp; Program Standing:</strong> Recognized as an elite Google partner with priority access to top-tier funding programs, beta initiatives, and prominent brand visibility across Google Cloud's internal sales channels.</p>\n</li>\n<li>\n<p><strong>High Conversion Rates:</strong> Faster deal cycles and higher win rates driven by strategic deployment of Google funding programs (RAMP/MDF).</p>\n</li>\n<li>\n<p><strong>Robust Executive Alignment:</strong> Deep, durable relationships with Google Cloud regional sales and partner leaders that yield consistent multi-year deal flow.</p>\n</li>\n\n</div>"
+          },
+          {
+            "text": "Why work at Zencore? ",
+            "content": "<div>\n\n<li>\n<p><strong>We Are Trusted Experts:</strong> Our teams bring deep, hands-on experience to solve the hardest cloud and AI challenges.</p>\n</li>\n<li>\n<p><strong>We Value Candor:</strong> We share unbiased opinions and aren't afraid of hard truths—our clients view us as true subject matter experts.</p>\n</li>\n<li>\n<p><strong>We Are the Missing Link:</strong> We connect our enterprise clients directly to Google Cloud innovation, moving with agility where larger consultancies stall out.</p>\n</li>\n<li>\n<p><strong>We Remove Uncertainty:</strong> We bring structured playbooks that eliminate risk from complex cloud migrations and AI deployments.</p>\n</li>\n<li>\n<p><strong>We Show Empathy:</strong> We build lasting client trust because we understand the real-world operational complexities of enterprise technology.</p>\n</li>\n\n</div>"
+          }
+        ],
+        "text": "Director of Alliances",
+        "country": "US",
+        "workplaceType": "remote",
+        "opening": "",
+        "openingPlain": "",
+        "descriptionBody": "<div>\n<p>Zencore is a premier Google Cloud pure-play consultancy and a four-time Google Cloud Partner of the Year. Founded by former Google Cloud leaders and engineers, we specialize in helping enterprises modernize infrastructure, architect modern data platforms, and deploy production-ready AI frameworks.</p>\n<p>With private equity backing from Superstep Capital and a rapidly expanding global footprint across North America, LATAM, and EMEA, Zencore combines the technical depth of a large GSI with the agility, senior talent, and execution speed of an elite boutique.</p>\n</div>",
+        "descriptionBodyPlain": "Zencore is a premier Google Cloud pure-play consultancy and a four-time Google Cloud Partner of the Year. Founded by former Google Cloud leaders and engineers, we specialize in helping enterprises modernize infrastructure, architect modern data platforms, and deploy production-ready AI frameworks.\nWith private equity backing from Superstep Capital and a rapidly expanding global footprint across North America, LATAM, and EMEA, Zencore combines the technical depth of a large GSI with the agility, senior talent, and execution speed of an elite boutique.\n",
+        "hostedUrl": "https://jobs.lever.co/zencore/9437c5b6-7be1-410e-b563-f0a8cd4c8b2b",
+        "applyUrl": "https://jobs.lever.co/zencore/9437c5b6-7be1-410e-b563-f0a8cd4c8b2b/apply"
+      },
+      {
+        "additionalPlain": "Zencore is committed to a diverse and inclusive workplace. Zencore is an equal opportunity employer and does not discriminate on the basis of race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status.\n",
+        "additional": "<div><em>Zencore is committed to a diverse and inclusive workplace. Zencore is an equal opportunity employer and does not discriminate on the basis of race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status.</em></div>",
+        "categories": {
+          "commitment": "Full-Time",
+          "department": "Marketing",
+          "location": "US (Remote)",
+          "team": "Marketing",
+          "allLocations": [
+            "US (Remote)"
+          ]
+        },
+        "createdAt": 1788976694224,
+        "descriptionPlain": "About Zencore\nZencore is a premier Google Cloud pure-play consultancy and a four-time Google Cloud Partner of the Year. Founded by former Google Cloud leaders and engineers, we help enterprises modernize infrastructure, architect advanced data platforms, and deploy production-ready AI solutions - including our market-leading ZenAI Factory agentic frameworks.\nWith private equity backing from Superstep Capital and a rapidly growing global delivery footprint across North America, LATAM, and EMEA, Zencore combines the technical depth of a large consultancy with the agility, senior talent, and speed of an elite boutique.\n",
+        "description": "<div>\n<h2><strong>About Zencore</strong></h2>\n<p>Zencore is a premier Google Cloud pure-play consultancy and a four-time Google Cloud Partner of the Year. Founded by former Google Cloud leaders and engineers, we help enterprises modernize infrastructure, architect advanced data platforms, and deploy production-ready AI solutions - including our market-leading <em>ZenAI Factory</em> agentic frameworks.</p>\n<p>With private equity backing from Superstep Capital and a rapidly growing global delivery footprint across North America, LATAM, and EMEA, Zencore combines the technical depth of a large consultancy with the agility, senior talent, and speed of an elite boutique.</p>\n</div>",
+        "id": "824bcf10-21b0-4708-a7a0-2ec29b89e607",
+        "lists": [
+          {
+            "text": "About Superstep",
+            "content": "<div>\n<p><strong>About Superstep</strong></p>\n<p>Superstep Capital is a growth-oriented private equity firm established by experienced technology services operators and investors who partner with founder-led businesses to build category-leading services platforms. The firm’s investment approach centers on long-term value creation through close collaboration with management teams and targeted investment in leadership development, go-to-market capabilities, and delivery excellence, while preserving strong cultures and trusted client relationships.</p>\n</div>"
+          },
+          {
+            "text": "About the Role",
+            "content": "<div>\n<p>Zencore is seeking a strategic, growth-oriented <strong>Head of Marketing</strong> to design, execute, and scale our global marketing strategy.</p>\n<p>In this senior leadership role, you will be responsible for three core pillars: <strong>setting overarching marketing strategy, building brand awareness across the Google Cloud ecosystem, and driving scalable customer acquisition pipelines</strong>. You will serve as the architect of our Go-To-Market (GTM) strategy, positioning Zencore as the premier enterprise partner for cloud modernization and full stack AI on Google Cloud.</p>\n<p>This role requires a balance of high-level strategic vision, data-driven demand generation, and deep ecosystem marketing. You will work closely with executive leadership, sales, practice leads, and Google Cloud field marketing teams to turn Zencore’s technical capabilities into market demand.</p>\n</div>"
+          },
+          {
+            "text": "Responsibilities ",
+            "content": "<div>\n\n<li>\n<p><strong>Define GTM Strategy:</strong> Build and execute an integrated, multi-year marketing strategy designed to accelerate revenue growth.</p>\n</li>\n<li>\n<p><strong>Budget &amp; ROI Ownership:</strong> Manage the global marketing budget, allocating resources efficiently across brand, demand generation, events, and co-marketing to maximize pipeline ROI.</p>\n</li>\n<li>\n<p><strong>Cross-Functional Alignment:</strong> Partner with Sales, Alliances, and Delivery leadership to align marketing programs with sales targets, practice expansion, and enterprise account strategies.</p>\n</li>\n\n\n<li>\n<p><strong>Ecosystem Co-Marketing:</strong> Maximize joint marketing opportunities with Google Cloud - leveraging Partner Marketing Funds (MDF), RAMP programs, and co-branded campaigns to amplify reach.</p>\n</li>\n<li>\n<p><strong>Events &amp; Event Strategy:</strong> Own Zencore’s presence at major industry and ecosystem events (e.g., Google Cloud Next, regional summits, and executive roundtables), driving high-touch executive engagement.</p>\n</li>\n<li>\n<p><strong>Thought Leadership &amp; PR:</strong> Oversee content strategy, customer case studies, technical whitepapers, and PR initiatives to showcase Zencore’s technical wins and client outcomes.</p>\n</li>\n\n\n<li>\n<p><strong>Multi-Channel Pipeline Generation:</strong> Design and execute Account-Based Marketing (ABM) and inbound/outbound campaigns targeting enterprise C-suite buyers (CIOs, CTOs, CDOs, and VPs of Infrastructure/AI).</p>\n</li>\n<li>\n<p><strong>Funnel Optimization:</strong> Build and optimize a predictable demand generation engine across paid media, LinkedIn, organic search, content syndication, and email marketing.</p>\n</li>\n\n\n<li>\n<p><strong>Commercial Solution Packaging:</strong> Translate complex technical capabilities into compelling, buyer-centric value propositions, sales playbooks, and solution sheets for our service practices.</p>\n</li>\n<li>\n<p><strong>Customer Success Advocacy:</strong> Partner with Delivery leads to capture and publish high-impact enterprise case studies, video testimonials, and ROI metrics that validate Zencore's market leadership.</p>\n</li>\n\n</div>"
+          },
+          {
+            "text": "Qualifications",
+            "content": "<div>\n\n<li>\n<p><strong>8–12+ Years of B2B Marketing Leadership:</strong> Proven track record in B2B enterprise marketing, with at least 4+ years in a senior leadership role within a cloud consultancy, professional services firm, or high-growth IT services company.</p>\n</li>\n<li>\n<p><strong>Hyperscaler / Google Ecosystem Experience:</strong> Direct experience working within the Google Cloud, AWS, or Azure partner ecosystems. Deep familiarity with co-marketing programs, MDF utilization, and hyperscaler field alignment is highly desirable.</p>\n</li>\n<li>\n<p><strong>Track Record in Demand Gen &amp; Pipeline Growth:</strong> Demonstrated ability to own a pipeline target, build multi-touch ABM campaigns, and generate measurable enterprise pipeline.</p>\n</li>\n<li>\n<p><strong>Data-Driven &amp; MarTech Savvy:</strong> Proficient with modern sales and marketing technology stacks (HubSpot, Salesforce, LinkedIn Campaign Manager, ABM platforms, and web analytics). Strong understanding of the current AI tooling.</p>\n</li>\n<li>\n<p><strong>Exceptional Communication:</strong> Outstanding written, verbal, and visual storytelling skills with the ability to translate technical cloud/AI concepts into business outcomes for executive buyers.</p>\n</li>\n\n</div>"
+          },
+          {
+            "text": "Why Work at Zencore? ",
+            "content": "<div>\n\n<li>\n<p><strong>We Are Trusted Experts:</strong> Our teams bring deep, hands-on experience to solve the hardest cloud and AI challenges.</p>\n</li>\n<li>\n<p><strong>We Value Candor:</strong> We share unbiased opinions and aren't afraid of hard truths—our clients view us as true subject matter experts.</p>\n</li>\n<li>\n<p><strong>We Are the Missing Link:</strong> We connect our enterprise clients directly to Google Cloud innovation, moving with agility where larger consultancies stall out.</p>\n</li>\n<li>\n<p><strong>We Remove Uncertainty:</strong> We bring structured playbooks that eliminate risk from complex cloud migrations and AI deployments.</p>\n</li>\n<li>\n<p><strong>We Show Empathy:</strong> We build lasting client trust because we understand the real-world operational complexities of enterprise technology.</p>\n</li>\n\n</div>"
+          }
+        ],
+        "text": "Director of Marketing",
+        "country": "US",
+        "workplaceType": "remote",
+        "opening": "",
+        "openingPlain": "",
+        "descriptionBody": "<div>\n<h2><strong>About Zencore</strong></h2>\n<p>Zencore is a premier Google Cloud pure-play consultancy and a four-time Google Cloud Partner of the Year. Founded by former Google Cloud leaders and engineers, we help enterprises modernize infrastructure, architect advanced data platforms, and deploy production-ready AI solutions - including our market-leading <em>ZenAI Factory</em> agentic frameworks.</p>\n<p>With private equity backing from Superstep Capital and a rapidly growing global delivery footprint across North America, LATAM, and EMEA, Zencore combines the technical depth of a large consultancy with the agility, senior talent, and speed of an elite boutique.</p>\n</div>",
+        "descriptionBodyPlain": "About Zencore\nZencore is a premier Google Cloud pure-play consultancy and a four-time Google Cloud Partner of the Year. Founded by former Google Cloud leaders and engineers, we help enterprises modernize infrastructure, architect advanced data platforms, and deploy production-ready AI solutions - including our market-leading ZenAI Factory agentic frameworks.\nWith private equity backing from Superstep Capital and a rapidly growing global delivery footprint across North America, LATAM, and EMEA, Zencore combines the technical depth of a large consultancy with the agility, senior talent, and speed of an elite boutique.\n",
+        "hostedUrl": "https://jobs.lever.co/zencore/824bcf10-21b0-4708-a7a0-2ec29b89e607",
+        "applyUrl": "https://jobs.lever.co/zencore/824bcf10-21b0-4708-a7a0-2ec29b89e607/apply"
+      },
+      {
+        "additional": "",
+        "additionalPlain": "",
+        "categories": {
+          "commitment": "Full-Time",
+          "department": "Engineering",
+          "location": "Remote",
+          "team": "Infrastructure",
+          "allLocations": [
+            "Remote"
+          ]
+        },
+        "createdAt": 1790869361028,
+        "descriptionPlain": "About Zencore\nZencore was founded by former Google Cloud leaders and engineers with one singular focus: to reduce risk and ensure enterprise client success on Google Cloud. We are a Premier Google Cloud Partner and a four-time Google Cloud Partner of the Year. With private equity backing and a high-growth global delivery model (spanning the US, LATAM, and EMEA), Zencore combines senior technical talent, deep AI specialization, and rapid execution to tackle mission-critical cloud, data, and agentic AI initiatives.\n",
+        "description": "<div>\n<h2><strong>About Zencore</strong></h2>\n<p>Zencore was founded by former Google Cloud leaders and engineers with one singular focus: to reduce risk and ensure enterprise client success on Google Cloud. We are a Premier Google Cloud Partner and a four-time Google Cloud Partner of the Year. With private equity backing and a high-growth global delivery model (spanning the US, LATAM, and EMEA), Zencore combines senior technical talent, deep AI specialization, and rapid execution to tackle mission-critical cloud, data, and agentic AI initiatives.</p>\n</div>",
+        "id": "84153d71-8da0-493d-8a3d-e9c725e6158f",
+        "lists": [
+          {
+            "text": "About the Role ",
+            "content": "<div>\n<p>Zencore is seeking a proven, dual-threat executive to serve as&nbsp;<strong>Head of Engineering and Delivery.</strong></p>\n<p>In this role, you will be the primary architect of Zencore’s technology vision and the operational leader responsible for scaling our global delivery practice. You will ensure delivery quality across a multi-geo workforce, drive technical innovation, and serve as a prominent technical executive across our enterprise client base and the Google Cloud ecosystem.</p>\n<p>This is a pivotal executive seat requiring a balance of deep technical credibility in cloud/AI, disciplined services operations (margin, utilization, governance), and executive presence to co-sell alongside Google Cloud field leadership.</p>\n</div>"
+          },
+          {
+            "text": "Responsibilities ",
+            "content": "<div>\n<h3><strong>1. Technical Strategy &amp; Leadership</strong></h3>\n\n<li>\n<p><strong>Define Technical Vision:</strong> Set the overall technology strategy, solution architecture standards, and innovation roadmap for Zencore, keeping us at the forefront of cloud, data engineering, and agentic AI.</p>\n</li>\n<li>\n<p><strong>Productize Services &amp; IP:</strong> Drive the evolution of Zencore’s proprietary assets and repeatable frameworks.</p>\n</li>\n<li>\n<p><strong>Market Presence &amp; Thought Leadership:</strong> Serve as Zencore’s primary technical voice in the market—speaking at major ecosystem events, authoring whitepapers, and building relationships with Google Cloud go to market, product and engineering teams.</p>\n</li>\n\n<h3><strong>2. Professional Services &amp; Delivery Operations&nbsp;</strong></h3>\n\n<li>\n<p><strong>Global Delivery Model:</strong> Scale and govern an agile, multi-geographic delivery structure across North America, LATAM, and EMEA, ensuring seamless cross-geo resourcing and delivery consistency.</p>\n</li>\n<li>\n<p><strong>Portfolio Governance:</strong> Establish rigorous quality gates, RAID management, and project health reviews to ensure engagements land on time, on budget, and beyond SOW expectations. Personally serve as executive delivery sponsor for strategic enterprise accounts.</p>\n</li>\n\n<h3><strong>3. Go-To-Market &amp; Google Cloud Alliance</strong></h3>\n\n<li>\n<p><strong>Executive Pre-Sales &amp; Deal Shaping:</strong> Partner with sales leadership on complex enterprise pursuits—shaping technical architectures, scoping SOWs, leading technical pitches, and converting opportunities into revenue.</p>\n</li>\n<li>\n<p><strong>Hyperscaler Channel Alignment:</strong> Build deep, trusted relationships with Google Cloud Account Directors, Regional Directors, and PSO leadership to position Zencore as the preferred co-sell partner for complex enterprise accounts.</p>\n</li>\n<li>\n<p><strong>Account Expansion (Land &amp; Expand):</strong> Drive organic account growth by embedding discovery mechanisms into active delivery, converting one-off modernization projects into continuous, multi-year AI and managed service relationships.</p>\n</li>\n\n</div>"
+          },
+          {
+            "text": "Qualifications",
+            "content": "<div>\n\n<li>\n<p><strong>15+ Years of Experience:</strong> Extensive track record leading complex technology programs, with <strong>7+ years in an engineering leadership role </strong>within a professional services firm, systems integrator, or cloud consultancy.</p>\n</li>\n<li>\n<p><strong>Deep Google Cloud &amp; AI Experience:</strong> Hands-on technical background and deep architectural credibility in Google Cloud Platform (GCP), modern data platforms, and enterprise AI/GenAI implementations.</p>\n</li>\n<li>\n<p><strong>Proven P&amp;L &amp; Operations Ownership:</strong> Accountability for professional services revenues, including billable utilization, gross margin optimization, blended rate card management, and delivery risk management.</p>\n</li>\n<li>\n<p><strong>Hyperscaler Co-Sell Experience:</strong> Demonstrated expertise navigating cloud partner ecosystems, co-selling alongside field sales teams, and leveraging partner incentive programs (e.g., Google RAMP/MDF).</p>\n</li>\n<li>\n<p><strong>Multi-Geo Delivery Expertise:</strong> Direct experience building and leading remote, distributed delivery organizations across onshore, nearshore, and offshore regions (US, LATAM, EMEA).</p>\n</li>\n<li>\n<p><strong>Executive Presence:</strong> Ability to engage effortlessly with C-suite executives (CTOs, CIOs, CDOs) as a trusted advisor, translating complex technical trade-offs into clear business outcomes.</p>\n</li>\n\n</div>"
+          },
+          {
+            "text": "Preferred Qualifications",
+            "content": "<div>\n\n<li>\n<p>Prior leadership experience at Google Cloud, a Premier Google Cloud Partner, or an enterprise Systems Integrator.</p>\n</li>\n<li>\n<p>Active Google Cloud Certifications (Professional Cloud Architect, Professional Data Engineer, or AI/ML Specialist).</p>\n</li>\n<li>\n<p>Experience navigating Private Equity governance, reporting, and value-creation milestones.</p>\n</li>\n\n</div>"
+          },
+          {
+            "text": "Why work at Zencore? ",
+            "content": "<div>\n\n<li>\n<p><strong>We Are Trusted Experts:</strong> Our teams bring deep, hands-on experience to solve the hardest cloud and AI challenges.</p>\n</li>\n<li>\n<p><strong>We Value Candor:</strong> We share unbiased opinions and aren't afraid of hard truths—our clients view us as true subject matter experts.</p>\n</li>\n<li>\n<p><strong>We Are the Missing Link:</strong> We connect our enterprise clients directly to Google Cloud innovation, moving with agility where larger consultancies stall out.</p>\n</li>\n<li>\n<p><strong>We Remove Uncertainty:</strong> We bring structured playbooks that eliminate risk from complex cloud migrations and AI deployments.</p>\n</li>\n<li>\n<p><strong>We Show Empathy:</strong> We build lasting client trust because we understand the real-world operational complexities of enterprise technology.</p>\n</li>\n\n</div>"
+          }
+        ],
+        "text": "Head of Engineering & Delivery",
+        "country": "US",
+        "workplaceType": "remote",
+        "opening": "",
+        "openingPlain": "",
+        "descriptionBody": "<div>\n<h2><strong>About Zencore</strong></h2>\n<p>Zencore was founded by former Google Cloud leaders and engineers with one singular focus: to reduce risk and ensure enterprise client success on Google Cloud. We are a Premier Google Cloud Partner and a four-time Google Cloud Partner of the Year. With private equity backing and a high-growth global delivery model (spanning the US, LATAM, and EMEA), Zencore combines senior technical talent, deep AI specialization, and rapid execution to tackle mission-critical cloud, data, and agentic AI initiatives.</p>\n</div>",
+        "descriptionBodyPlain": "About Zencore\nZencore was founded by former Google Cloud leaders and engineers with one singular focus: to reduce risk and ensure enterprise client success on Google Cloud. We are a Premier Google Cloud Partner and a four-time Google Cloud Partner of the Year. With private equity backing and a high-growth global delivery model (spanning the US, LATAM, and EMEA), Zencore combines senior technical talent, deep AI specialization, and rapid execution to tackle mission-critical cloud, data, and agentic AI initiatives.\n",
+        "hostedUrl": "https://jobs.lever.co/zencore/84153d71-8da0-493d-8a3d-e9c725e6158f",
+        "applyUrl": "https://jobs.lever.co/zencore/84153d71-8da0-493d-8a3d-e9c725e6158f/apply"
+      }
+    ]
+  },
+  "ownership": {
+    "company_url": "https://zencore.dev",
+    "explanation": "Zencore public employer careers board. Employer evidence: https://jobs.lever.co/zencore. The listed ATS account is branded for this employer or its consolidated consulting group. Representative posting titles, locations, company branding and links were inspected; this proposal contains no personal search profile. Regional coverage and source limitations is documented in the monitor and separate live evidence report.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://jobs.lever.co/zencore/9437c5b6-7be1-410e-b563-f0a8cd4c8b2b",
+      "https://jobs.lever.co/zencore/824bcf10-21b0-4708-a7a0-2ec29b89e607",
+      "https://jobs.lever.co/zencore/84153d71-8da0-493d-8a3d-e9c725e6158f"
+    ]
+  }
+}

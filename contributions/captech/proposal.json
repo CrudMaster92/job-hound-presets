@@ -1,0 +1,285 @@
+{
+  "base_commit": "6888898b190440a81c5ba86d75bd80788b601ac8",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "captech",
+    "name": "CapTech Consulting",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://www.captechconsulting.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "captech",
+    "company_id": "captech",
+    "revision": 2,
+    "label": "CapTech Consulting careers",
+    "careers_url": "https://careers.smartrecruiters.com/CapTechConsulting",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "CapTech Consulting",
+      "careers_url": "https://careers.smartrecruiters.com/CapTechConsulting",
+      "strategy": "smartrecruiters",
+      "allowed_hosts": [
+        "api.smartrecruiters.com",
+        "careers.smartrecruiters.com",
+        "jobs.smartrecruiters.com"
+      ],
+      "request": {
+        "url": "https://api.smartrecruiters.com/v1/companies/CapTechConsulting/postings",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "company_slug": "CapTechConsulting"
+      },
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.smartrecruiters.com/v1/companies/CapTechConsulting/postings",
+    "fetched_at": "2026-10-05T16:09:03.036764Z",
+    "payload": {
+      "content": [
+        {
+          "id": "744000153267993",
+          "name": "Full-Stack Developer (.NET)",
+          "uuid": "fcf255fb-3c74-4197-9d93-77ab6a1c3362",
+          "jobAdId": "2ebf534d-6f31-4c6c-ac1a-63a34c302a20",
+          "defaultJobAd": true,
+          "refNumber": "REF2089O",
+          "company": {
+            "identifier": "CapTechConsulting",
+            "name": "CapTech Consulting"
+          },
+          "releasedDate": "2026-10-02T20:31:11.546Z",
+          "location": {
+            "city": "Salt Lake City",
+            "region": "UT",
+            "country": "us",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "40.7605601",
+            "longitude": "-111.8881397",
+            "fullLocation": "Salt Lake City, UT, United States"
+          },
+          "industry": {
+            "id": "management_consulting",
+            "label": "Management Consulting"
+          },
+          "department": {},
+          "function": {
+            "id": "consulting",
+            "label": "Consulting"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "us",
+              "valueLabel": "United States"
+            },
+            {
+              "fieldId": "5894d31ce4b03a0ebe1f2993",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "CapTech Consulting"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/CapTechConsulting/postings/744000153267993",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000152504019",
+          "name": "Solutions Architect ",
+          "uuid": "6e1a3477-b2cf-4137-9da8-590946d0b593",
+          "jobAdId": "7ed33817-516e-4a00-b2b1-cbe2849ca81e",
+          "defaultJobAd": false,
+          "refNumber": "REF2091M",
+          "company": {
+            "identifier": "CapTechConsulting",
+            "name": "CapTech Consulting"
+          },
+          "releasedDate": "2026-09-29T17:26:40.816Z",
+          "location": {
+            "city": "Reston",
+            "region": "VA",
+            "country": "us",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "38.9586307",
+            "longitude": "-77.35700279999999",
+            "fullLocation": "Reston, VA, United States"
+          },
+          "industry": {
+            "id": "management_consulting",
+            "label": "Management Consulting"
+          },
+          "department": {},
+          "function": {
+            "id": "consulting",
+            "label": "Consulting"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "us",
+              "valueLabel": "United States"
+            },
+            {
+              "fieldId": "5894d31ce4b03a0ebe1f2993",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "CapTech Consulting"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/CapTechConsulting/postings/744000152504019",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000152454782",
+          "name": "AI Developer",
+          "uuid": "8b1fa933-1816-4c6b-b8b3-5b00002f80dc",
+          "jobAdId": "8c134669-dede-4bae-bb7d-86f9dc56ffee",
+          "defaultJobAd": false,
+          "refNumber": "REF2126T",
+          "company": {
+            "identifier": "CapTechConsulting",
+            "name": "CapTech Consulting"
+          },
+          "releasedDate": "2026-09-29T14:14:29.584Z",
+          "location": {
+            "city": "Columbus",
+            "region": "OH",
+            "country": "us",
+            "remote": false,
+            "hybrid": true,
+            "latitude": "39.9625112",
+            "longitude": "-83.0032218",
+            "fullLocation": "Columbus, OH, United States"
+          },
+          "industry": {
+            "id": "management_consulting",
+            "label": "Management Consulting"
+          },
+          "department": {},
+          "function": {
+            "id": "consulting",
+            "label": "Consulting"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "us",
+              "valueLabel": "United States"
+            },
+            {
+              "fieldId": "5894d31ce4b03a0ebe1f2993",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "CapTech Consulting"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/CapTechConsulting/postings/744000152454782",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.captechconsulting.com",
+    "explanation": "CapTech Consulting public employer careers board. Employer evidence: https://www.captechconsulting.com/careers/current-openings. The listed ATS account is branded for this employer or its consolidated consulting group. Representative posting titles, locations, company branding and links were inspected; this proposal contains no personal search profile. Regional coverage and source limitations is documented in the monitor and separate live evidence report.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://api.smartrecruiters.com/v1/companies/CapTechConsulting/postings/744000153267993",
+      "https://api.smartrecruiters.com/v1/companies/CapTechConsulting/postings/744000152504019",
+      "https://api.smartrecruiters.com/v1/companies/CapTechConsulting/postings/744000152454782"
+    ]
+  }
+}

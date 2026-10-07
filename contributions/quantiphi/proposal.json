@@ -1,0 +1,133 @@
+{
+  "base_commit": "6888898b190440a81c5ba86d75bd80788b601ac8",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "quantiphi",
+    "name": "Quantiphi",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://quantiphi.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "quantiphi",
+    "company_id": "quantiphi",
+    "revision": 2,
+    "label": "Quantiphi careers",
+    "careers_url": "https://quantiphi.wd1.myworkdayjobs.com/Careers_at_Quantiphi",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "Quantiphi",
+      "careers_url": "https://quantiphi.wd1.myworkdayjobs.com/Careers_at_Quantiphi",
+      "strategy": "workday",
+      "allowed_hosts": [
+        "quantiphi.wd1.myworkdayjobs.com"
+      ],
+      "request": {
+        "url": "https://quantiphi.wd1.myworkdayjobs.com/wday/cxs/quantiphi/Careers_at_Quantiphi/jobs",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "json_body": {
+          "appliedFacets": {},
+          "limit": 20,
+          "offset": 0,
+          "searchText": ""
+        },
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 20,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "tenant": "quantiphi",
+        "site": "Careers_at_Quantiphi"
+      },
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://quantiphi.wd1.myworkdayjobs.com/wday/cxs/quantiphi/Careers_at_Quantiphi/jobs",
+    "fetched_at": "2026-10-05T16:09:04.347022Z",
+    "payload": {
+      "jobPostings": [
+        {
+          "title": "AWS Cloud Migration Architect",
+          "externalPath": "/job/US-Massachusetts---Remote/Technical-Architect---Platform---Migration-Specialist---VMWare_JR8699",
+          "locationsText": "2 Locations",
+          "postedOn": "Posted 5 Days Ago",
+          "bulletFields": [
+            "JR8699"
+          ]
+        },
+        {
+          "title": "Technical Architect - ML",
+          "externalPath": "/job/US-NJ-Princeton/Technical-Architect---ML_JR11925",
+          "locationsText": "US NJ Princeton",
+          "postedOn": "Posted 6 Days Ago",
+          "bulletFields": [
+            "JR11925"
+          ]
+        },
+        {
+          "title": "Senior Client Solutions Partner",
+          "externalPath": "/job/USA---Remote/Senior-Client-Solutions-Partner_JR11868",
+          "locationsText": "USA - Remote",
+          "postedOn": "Posted 7 Days Ago",
+          "bulletFields": [
+            "JR11868"
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://quantiphi.com",
+    "explanation": "Quantiphi public employer careers board. Employer evidence: https://quantiphi.com/careers/. The listed ATS account is branded for this employer or its consolidated consulting group. Representative posting titles, locations, company branding and links were inspected; this proposal contains no personal search profile. Regional coverage and source limitations is documented in the monitor and separate live evidence report.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://quantiphi.wd1.myworkdayjobs.com/job/US-Massachusetts---Remote/Technical-Architect---Platform---Migration-Specialist---VMWare_JR8699",
+      "https://quantiphi.wd1.myworkdayjobs.com/job/US-NJ-Princeton/Technical-Architect---ML_JR11925",
+      "https://quantiphi.wd1.myworkdayjobs.com/job/USA---Remote/Senior-Client-Solutions-Partner_JR11868"
+    ]
+  }
+}

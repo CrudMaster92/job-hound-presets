@@ -1,0 +1,25 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "version-1",
+  "name": "Version 1",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.version1.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology-consulting"
+    ],
+    "specialties": [
+      "digital-transformation",
+      "data-and-analytics"
+    ],
+    "tags": [
+      "Consulting",
+      "Technology",
+      "AI",
+      "Global"
+    ]
+  }
+}

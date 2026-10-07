@@ -1,0 +1,220 @@
+{
+  "base_commit": "6888898b190440a81c5ba86d75bd80788b601ac8",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "capco",
+    "name": "Capco",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://www.capco.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "capco",
+    "company_id": "capco",
+    "revision": 2,
+    "label": "Capco careers",
+    "careers_url": "https://job-boards.greenhouse.io/capco",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "Capco",
+      "careers_url": "https://job-boards.greenhouse.io/capco",
+      "strategy": "greenhouse",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/capco/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "board_token": "capco"
+      },
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/capco/jobs",
+    "fetched_at": "2026-10-05T16:09:01.896293Z",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/capco/jobs/8232720",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 3562537,
+          "location": {
+            "name": "India"
+          },
+          "metadata": [
+            {
+              "id": 950685,
+              "name": "FADV_Account",
+              "value": null,
+              "value_type": "single_select"
+            },
+            {
+              "id": 950687,
+              "name": "FADV_Package",
+              "value": null,
+              "value_type": "single_select"
+            }
+          ],
+          "id": 8232720,
+          "updated_at": "2026-10-02T08:12:27-04:00",
+          "requisition_id": "109653",
+          "title": " Accounts BA ",
+          "company_name": "Capco",
+          "first_published": "2026-09-29T05:15:51-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/capco/jobs/8176639",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 3538642,
+          "location": {
+            "name": "Brazil - Sao Paulo"
+          },
+          "metadata": [
+            {
+              "id": 950685,
+              "name": "FADV_Account",
+              "value": null,
+              "value_type": "single_select"
+            },
+            {
+              "id": 950687,
+              "name": "FADV_Package",
+              "value": null,
+              "value_type": "single_select"
+            }
+          ],
+          "id": 8176639,
+          "updated_at": "2026-10-02T08:12:27-04:00",
+          "requisition_id": "25105",
+          "title": "Aduaneiro | Híbrido - Macaé/RJ",
+          "company_name": "Capco",
+          "first_published": "2026-09-03T09:26:37-04:00",
+          "language": "pt",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/capco/jobs/8002464",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 3469836,
+          "location": {
+            "name": "Poland"
+          },
+          "metadata": [
+            {
+              "id": 950685,
+              "name": "FADV_Account",
+              "value": null,
+              "value_type": "single_select"
+            },
+            {
+              "id": 950687,
+              "name": "FADV_Package",
+              "value": null,
+              "value_type": "single_select"
+            }
+          ],
+          "id": 8002464,
+          "updated_at": "2026-10-02T08:12:27-04:00",
+          "requisition_id": "23880",
+          "title": "AI Agent Engineer with Copilot Studio and Power Platform",
+          "company_name": "Capco",
+          "first_published": "2026-06-12T05:21:45-04:00",
+          "language": "en",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.capco.com",
+    "explanation": "Capco public employer careers board. Employer evidence: https://www.capco.com/Careers/Job-Search. The listed ATS account is branded for this employer or its consolidated consulting group. Representative posting titles, locations, company branding and links were inspected; this proposal contains no personal search profile. Regional coverage and source limitations is documented in the monitor and separate live evidence report.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://job-boards.greenhouse.io/capco/jobs/8232720",
+      "https://job-boards.greenhouse.io/capco/jobs/8176639",
+      "https://job-boards.greenhouse.io/capco/jobs/8002464"
+    ]
+  }
+}

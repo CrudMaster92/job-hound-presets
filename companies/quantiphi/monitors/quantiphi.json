@@ -1,0 +1,59 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "quantiphi",
+  "company_id": "quantiphi",
+  "revision": 2,
+  "label": "Quantiphi careers",
+  "careers_url": "https://quantiphi.wd1.myworkdayjobs.com/Careers_at_Quantiphi",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Quantiphi",
+    "careers_url": "https://quantiphi.wd1.myworkdayjobs.com/Careers_at_Quantiphi",
+    "strategy": "workday",
+    "allowed_hosts": [
+      "quantiphi.wd1.myworkdayjobs.com"
+    ],
+    "request": {
+      "url": "https://quantiphi.wd1.myworkdayjobs.com/wday/cxs/quantiphi/Careers_at_Quantiphi/jobs",
+      "method": "POST",
+      "headers": {},
+      "params": {},
+      "json_body": {
+        "appliedFacets": {},
+        "limit": 20,
+        "offset": 0,
+        "searchText": ""
+      },
+      "timeout_seconds": 25,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 20,
+      "max_pages": null,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "tenant": "quantiphi",
+      "site": "Careers_at_Quantiphi"
+    },
+    "coverage_mode": "all"
+  }
+}

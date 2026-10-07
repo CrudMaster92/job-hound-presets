@@ -1,0 +1,399 @@
+{
+  "base_commit": "6888898b190440a81c5ba86d75bd80788b601ac8",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "endava",
+    "name": "Endava",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://www.endava.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "endava",
+    "company_id": "endava",
+    "revision": 2,
+    "label": "Endava careers",
+    "careers_url": "https://careers.smartrecruiters.com/Endava",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "Endava",
+      "careers_url": "https://careers.smartrecruiters.com/Endava",
+      "strategy": "smartrecruiters",
+      "allowed_hosts": [
+        "api.smartrecruiters.com",
+        "careers.smartrecruiters.com",
+        "jobs.smartrecruiters.com"
+      ],
+      "request": {
+        "url": "https://api.smartrecruiters.com/v1/companies/Endava/postings",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "company_slug": "Endava"
+      },
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.smartrecruiters.com/v1/companies/Endava/postings",
+    "fetched_at": "2026-10-05T16:09:03.204326Z",
+    "payload": {
+      "content": [
+        {
+          "id": "744000153535949",
+          "name": "Senior MS Dynamics Developer (Microsoft Power Platform)",
+          "uuid": "dddd560c-f82a-4978-b1b5-799e3b194f10",
+          "jobAdId": "329e8d6c-8c4d-4cd1-8553-cc02d7b7d7ca",
+          "defaultJobAd": false,
+          "refNumber": "REF3568K",
+          "company": {
+            "identifier": "Endava",
+            "name": "Endava"
+          },
+          "releasedDate": "2026-10-05T14:55:45.233Z",
+          "location": {
+            "city": "Cali",
+            "region": "Valle del Cauca",
+            "country": "co",
+            "remote": false,
+            "hybrid": true,
+            "hybridDescription": "8 days per month",
+            "fullLocation": "Cali, Valle del Cauca, Colombia"
+          },
+          "industry": {
+            "id": "it_and_services",
+            "label": "Information Technology And Services"
+          },
+          "department": {
+            "id": "10579005",
+            "label": "Client Delivery"
+          },
+          "function": {
+            "id": "engineering",
+            "label": "Engineering"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "667bff3cc61a5249a4538365",
+              "fieldLabel": "Worker/Person Type",
+              "valueId": "Employee",
+              "valueLabel": "Employee"
+            },
+            {
+              "fieldId": "667c00de83c5f33ac74fe01f",
+              "fieldLabel": "Core Skill - for non-billable roles select business support",
+              "valueId": "40b4460c-9ad2-458c-b49e-46ada121b101",
+              "valueLabel": "MS Dynamics"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ar",
+              "valueLabel": "Argentina"
+            },
+            {
+              "fieldId": "660e8f6e3cfd102cdad42d0f",
+              "fieldLabel": "Department",
+              "valueId": "10579005",
+              "valueLabel": "Client Delivery"
+            },
+            {
+              "fieldId": "660e8f6e3cfd102cdad42d0e",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Endava"
+            },
+            {
+              "fieldId": "667bff6a43e111629f3b6071",
+              "fieldLabel": "Assignment Category",
+              "valueId": "full time indefinite",
+              "valueLabel": "full time indefinite"
+            },
+            {
+              "fieldId": "667c003bb1f3de43a992affb",
+              "fieldLabel": "Exempt or Non Exempt",
+              "valueId": "non exempt",
+              "valueLabel": "non exempt"
+            },
+            {
+              "fieldId": "667bfecd7b4a6a6877cfa566",
+              "fieldLabel": "Discipline",
+              "valueId": "Business Platforms",
+              "valueLabel": "Business Platforms"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Endava/postings/744000153535949",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000153528035",
+          "name": "Senior MS Dynamics Developer (Microsoft Power Platform)",
+          "uuid": "9e4a4d26-ad76-4ad8-8db5-1f88bd89c97f",
+          "jobAdId": "149c89ee-5768-420d-bb95-53c8493ee2e5",
+          "defaultJobAd": false,
+          "refNumber": "REF3568K",
+          "company": {
+            "identifier": "Endava",
+            "name": "Endava"
+          },
+          "releasedDate": "2026-10-05T14:37:59.965Z",
+          "location": {
+            "city": "Medellín",
+            "region": "Antioquia",
+            "country": "co",
+            "remote": false,
+            "hybrid": true,
+            "hybridDescription": "8 days per month",
+            "fullLocation": "Medellín, Antioquia, Colombia"
+          },
+          "industry": {
+            "id": "it_and_services",
+            "label": "Information Technology And Services"
+          },
+          "department": {
+            "id": "10579005",
+            "label": "Client Delivery"
+          },
+          "function": {
+            "id": "engineering",
+            "label": "Engineering"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "667bff3cc61a5249a4538365",
+              "fieldLabel": "Worker/Person Type",
+              "valueId": "Employee",
+              "valueLabel": "Employee"
+            },
+            {
+              "fieldId": "667c00de83c5f33ac74fe01f",
+              "fieldLabel": "Core Skill - for non-billable roles select business support",
+              "valueId": "40b4460c-9ad2-458c-b49e-46ada121b101",
+              "valueLabel": "MS Dynamics"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ar",
+              "valueLabel": "Argentina"
+            },
+            {
+              "fieldId": "660e8f6e3cfd102cdad42d0f",
+              "fieldLabel": "Department",
+              "valueId": "10579005",
+              "valueLabel": "Client Delivery"
+            },
+            {
+              "fieldId": "660e8f6e3cfd102cdad42d0e",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Endava"
+            },
+            {
+              "fieldId": "667bff6a43e111629f3b6071",
+              "fieldLabel": "Assignment Category",
+              "valueId": "full time indefinite",
+              "valueLabel": "full time indefinite"
+            },
+            {
+              "fieldId": "667c003bb1f3de43a992affb",
+              "fieldLabel": "Exempt or Non Exempt",
+              "valueId": "non exempt",
+              "valueLabel": "non exempt"
+            },
+            {
+              "fieldId": "667bfecd7b4a6a6877cfa566",
+              "fieldLabel": "Discipline",
+              "valueId": "Business Platforms",
+              "valueLabel": "Business Platforms"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Endava/postings/744000153528035",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000153528143",
+          "name": "Senior MS Dynamics Developer (Microsoft Power Platform)",
+          "uuid": "16bed70f-6f86-43cb-acde-0e2759cc117b",
+          "jobAdId": "e976c2ba-5659-4586-9863-1cae6293ee74",
+          "defaultJobAd": false,
+          "refNumber": "REF3568K",
+          "company": {
+            "identifier": "Endava",
+            "name": "Endava"
+          },
+          "releasedDate": "2026-10-05T14:36:54.535Z",
+          "location": {
+            "city": "Bogotá",
+            "region": "Bogota D.C.",
+            "country": "co",
+            "remote": false,
+            "hybrid": true,
+            "hybridDescription": "8 days per month",
+            "fullLocation": "Bogotá, Bogota D.C., Colombia"
+          },
+          "industry": {
+            "id": "it_and_services",
+            "label": "Information Technology And Services"
+          },
+          "department": {
+            "id": "10579005",
+            "label": "Client Delivery"
+          },
+          "function": {
+            "id": "engineering",
+            "label": "Engineering"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "667bff3cc61a5249a4538365",
+              "fieldLabel": "Worker/Person Type",
+              "valueId": "Employee",
+              "valueLabel": "Employee"
+            },
+            {
+              "fieldId": "667c00de83c5f33ac74fe01f",
+              "fieldLabel": "Core Skill - for non-billable roles select business support",
+              "valueId": "40b4460c-9ad2-458c-b49e-46ada121b101",
+              "valueLabel": "MS Dynamics"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ar",
+              "valueLabel": "Argentina"
+            },
+            {
+              "fieldId": "660e8f6e3cfd102cdad42d0f",
+              "fieldLabel": "Department",
+              "valueId": "10579005",
+              "valueLabel": "Client Delivery"
+            },
+            {
+              "fieldId": "660e8f6e3cfd102cdad42d0e",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Endava"
+            },
+            {
+              "fieldId": "667bff6a43e111629f3b6071",
+              "fieldLabel": "Assignment Category",
+              "valueId": "full time indefinite",
+              "valueLabel": "full time indefinite"
+            },
+            {
+              "fieldId": "667c003bb1f3de43a992affb",
+              "fieldLabel": "Exempt or Non Exempt",
+              "valueId": "non exempt",
+              "valueLabel": "non exempt"
+            },
+            {
+              "fieldId": "667bfecd7b4a6a6877cfa566",
+              "fieldLabel": "Discipline",
+              "valueId": "Business Platforms",
+              "valueLabel": "Business Platforms"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Endava/postings/744000153528143",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.endava.com",
+    "explanation": "Endava public employer careers board. Employer evidence: https://www.endava.com/careers/jobs. The listed ATS account is branded for this employer or its consolidated consulting group. Representative posting titles, locations, company branding and links were inspected; this proposal contains no personal search profile. Regional coverage and source limitations is documented in the monitor and separate live evidence report.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://api.smartrecruiters.com/v1/companies/Endava/postings/744000153535949",
+      "https://api.smartrecruiters.com/v1/companies/Endava/postings/744000153528035",
+      "https://api.smartrecruiters.com/v1/companies/Endava/postings/744000153528143"
+    ]
+  }
+}

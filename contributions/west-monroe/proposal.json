@@ -1,0 +1,266 @@
+{
+  "base_commit": "6888898b190440a81c5ba86d75bd80788b601ac8",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "west-monroe",
+    "name": "West Monroe",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://www.westmonroe.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "west-monroe",
+    "company_id": "west-monroe",
+    "revision": 2,
+    "label": "West Monroe careers",
+    "careers_url": "https://job-boards.greenhouse.io/westmonroe4",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "West Monroe",
+      "careers_url": "https://job-boards.greenhouse.io/westmonroe4",
+      "strategy": "greenhouse",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/westmonroe4/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "board_token": "westmonroe4"
+      },
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/westmonroe4/jobs",
+    "fetched_at": "2026-10-05T16:09:02.102251Z",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://westmonroe.com/careers/job-details-experienced-professionals?gh_jid=5735518004",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": true
+            }
+          ],
+          "education": "education_optional",
+          "internal_job_id": 5018955004,
+          "location": {
+            "name": "Boston; Chicago; Chicago; Dallas; Los Angeles; Minneapolis; New York; San Francisco; Seattle; Washington, D.C."
+          },
+          "metadata": [
+            {
+              "id": 4030556004,
+              "name": "Recruiting Division",
+              "value": "Consulting",
+              "value_type": "single_select"
+            },
+            {
+              "id": 4030555004,
+              "name": "Hiring Category",
+              "value": "Experienced",
+              "value_type": "single_select"
+            },
+            {
+              "id": 4028482004,
+              "name": "Time Type",
+              "value": "Full time",
+              "value_type": "single_select"
+            },
+            {
+              "id": 6784819004,
+              "name": "Job Type",
+              "value": [
+                "Business & Industry Consulting",
+                "Technologists"
+              ],
+              "value_type": "multi_select"
+            }
+          ],
+          "id": 5735518004,
+          "updated_at": "2026-09-04T11:05:04-04:00",
+          "requisition_id": "JR100910",
+          "title": "Agentic AI Architect-Google Cloud ",
+          "company_name": "West Monroe ",
+          "first_published": "2026-07-23T06:37:13-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://westmonroe.com/careers/job-details-experienced-professionals?gh_jid=5801015004",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": true
+            }
+          ],
+          "education": "education_optional",
+          "internal_job_id": 5050415004,
+          "location": {
+            "name": "Boston; Chicago; Dallas; Los Angeles; Minneapolis; New York; San Francisco; Seattle; Washington, D.C."
+          },
+          "metadata": [
+            {
+              "id": 4030556004,
+              "name": "Recruiting Division",
+              "value": "Consulting",
+              "value_type": "single_select"
+            },
+            {
+              "id": 4030555004,
+              "name": "Hiring Category",
+              "value": "Experienced",
+              "value_type": "single_select"
+            },
+            {
+              "id": 4028482004,
+              "name": "Time Type",
+              "value": "Full time",
+              "value_type": "single_select"
+            },
+            {
+              "id": 6784819004,
+              "name": "Job Type",
+              "value": [
+                "Technologists"
+              ],
+              "value_type": "multi_select"
+            }
+          ],
+          "id": 5801015004,
+          "updated_at": "2026-09-23T10:13:32-04:00",
+          "requisition_id": "JR101266",
+          "title": "Applied AI Engineer/Architect",
+          "company_name": "West Monroe ",
+          "first_published": "2026-06-30T16:37:21-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://westmonroe.com/careers/job-details-experienced-professionals?gh_jid=5417564004",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": true
+            }
+          ],
+          "education": "education_optional",
+          "internal_job_id": 4864118004,
+          "location": {
+            "name": "Boston; Chicago; New York"
+          },
+          "metadata": [
+            {
+              "id": 4030556004,
+              "name": "Recruiting Division",
+              "value": "Corporate",
+              "value_type": "single_select"
+            },
+            {
+              "id": 4030555004,
+              "name": "Hiring Category",
+              "value": "Experienced",
+              "value_type": "single_select"
+            },
+            {
+              "id": 4028482004,
+              "name": "Time Type",
+              "value": "Full time",
+              "value_type": "single_select"
+            },
+            {
+              "id": 6784819004,
+              "name": "Job Type",
+              "value": [
+                "Business & Industry Consulting"
+              ],
+              "value_type": "multi_select"
+            }
+          ],
+          "id": 5417564004,
+          "updated_at": "2026-09-04T11:05:04-04:00",
+          "requisition_id": "JR100692",
+          "title": "Business Development Executive, Energy & Utilities ",
+          "company_name": "West Monroe ",
+          "first_published": "2025-11-26T12:29:35-05:00",
+          "language": "en",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.westmonroe.com",
+    "explanation": "West Monroe public employer careers board. Employer evidence: https://www.westmonroe.com/careers/job-search. The listed ATS account is branded for this employer or its consolidated consulting group. Representative posting titles, locations, company branding and links were inspected; this proposal contains no personal search profile. Regional coverage and source limitations is documented in the monitor and separate live evidence report.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://westmonroe.com/careers/job-details-experienced-professionals?gh_jid=5735518004",
+      "https://westmonroe.com/careers/job-details-experienced-professionals?gh_jid=5801015004",
+      "https://westmonroe.com/careers/job-details-experienced-professionals?gh_jid=5417564004"
+    ]
+  }
+}
