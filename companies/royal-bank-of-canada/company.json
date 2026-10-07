@@ -1,0 +1,18 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "royal-bank-of-canada",
+  "name": "Royal Bank of Canada",
+  "aliases": [],
+  "website_url": "https://www.rbc.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "banking"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  }
+}

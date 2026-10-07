@@ -1,0 +1,92 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "public-sector-north-america",
+  "revision": 1,
+  "name": "Public Sector — Canada & USA",
+  "description": "Public government and healthcare career boards in Canada and the USA. Coverage is bounded and varies by employer: GC Jobs and CalCareers require a local browser; Santé Québec covers its central board; Texas covers HHSC, DSHS and DFPS only. Ontario, Québec public service and Alberta Health Services remain visibly unavailable because their sources restrict access. This is a sector collection, not a workforce ranking.",
+  "tags": [
+    "Public Sector",
+    "Canada",
+    "USA",
+    "Government",
+    "Healthcare"
+  ],
+  "facets": {
+    "collection_types": [
+      "industry"
+    ],
+    "industries": [
+      "public-sector"
+    ],
+    "role_families": [],
+    "locations": [
+      {
+        "city": "",
+        "region": "",
+        "country": "CA"
+      },
+      {
+        "city": "",
+        "region": "",
+        "country": "US"
+      }
+    ]
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "government-of-canada",
+      "monitor_ids": [
+        "government-of-canada"
+      ]
+    },
+    {
+      "company_id": "sante-quebec",
+      "monitor_ids": [
+        "sante-quebec"
+      ]
+    },
+    {
+      "company_id": "us-federal-government",
+      "monitor_ids": [
+        "us-federal-government"
+      ]
+    },
+    {
+      "company_id": "california-state-government",
+      "monitor_ids": [
+        "california-state-government"
+      ]
+    },
+    {
+      "company_id": "texas-state-government",
+      "monitor_ids": [
+        "texas-health-human-services"
+      ]
+    },
+    {
+      "company_id": "alberta-health-services",
+      "note": "Official careers source returned HTTP 403. Healthcare restructuring also limits comparability of historic workforce counts."
+    },
+    {
+      "company_id": "quebec-public-service",
+      "note": "Official public-service recruiting portal returned HTTP 403. No crawler is activated. Santé Québec is covered separately."
+    },
+    {
+      "company_id": "ontario-public-service",
+      "note": "The official job-listing endpoint redirected to a CAPTCHA. No crawler is activated."
+    },
+    {
+      "company_id": "canada-post",
+      "monitor_ids": [
+        "canada-post"
+      ]
+    }
+  ]
+}

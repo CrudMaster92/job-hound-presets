@@ -1,0 +1,62 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "california-state-government",
+  "company_id": "california-state-government",
+  "revision": 1,
+  "label": "State of California public careers",
+  "careers_url": "https://calcareers.ca.gov/CalHRPublic/Search/JobSearchResults.aspx",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "verified",
+    "checked_at": "2026-10-07T20:44:06.570451+00:00",
+    "job_count": 10,
+    "warnings": [
+      "CalCareers state civil-service board only; separate University of California and California State University boards are excluded. Browser runtime required.",
+      "Bounded/partial coverage; unseen jobs must not be closed."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "State of California",
+    "careers_url": "https://calcareers.ca.gov/CalHRPublic/Search/JobSearchResults.aspx",
+    "strategy": "playwright",
+    "allowed_hosts": [
+      "calcareers.ca.gov",
+      "www.calcareers.ca.gov"
+    ],
+    "request": {
+      "url": "https://calcareers.ca.gov/CalHRPublic/Search/JobSearchResults.aspx",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 15.0,
+      "max_response_bytes": 5000000
+    },
+    "pagination": {
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
+      "max_pages": 10,
+      "next_path": null
+    },
+    "source_filter": null,
+    "selectors": {
+      "item": ".card-block:has(a[id*=\"hlViewJobPosting\"])",
+      "title": "a[id*=\"hlViewJobPosting\"]",
+      "link": "a[id*=\"hlViewJobPosting\"]"
+    },
+    "mapping": {},
+    "metadata": {
+      "partial_listing": true,
+      "detail_fetch_limit": 5,
+      "browser_fragment": "empty",
+      "wait_selector": "a[id*=\"hlViewJobPosting\"]"
+    }
+  }
+}

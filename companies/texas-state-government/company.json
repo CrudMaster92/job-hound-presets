@@ -1,0 +1,23 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "texas-state-government",
+  "name": "State of Texas",
+  "aliases": [
+    "Texas state government"
+  ],
+  "website_url": "https://www.texas.gov",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "public-sector"
+    ],
+    "specialties": [
+      "healthcare"
+    ],
+    "tags": [
+      "USA",
+      "Texas"
+    ]
+  }
+}

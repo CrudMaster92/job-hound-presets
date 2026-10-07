@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "quebec-public-service",
+  "name": "Québec Public Service",
+  "aliases": [],
+  "website_url": "https://www.quebec.ca",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "public-sector"
+    ],
+    "specialties": [],
+    "tags": [
+      "Canada"
+    ]
+  },
+  "availability": {
+    "status": "unavailable",
+    "reason": "access-restricted",
+    "message": "Official public-service recruiting portal returned HTTP 403. No crawler is activated. Santé Québec is covered separately.",
+    "checked_at": "2026-10-07T20:47:59.768775+00:00"
+  }
+}
