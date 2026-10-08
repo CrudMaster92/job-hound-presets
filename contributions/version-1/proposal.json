@@ -1,0 +1,343 @@
+{
+  "base_commit": "f059d360024b23693309cb4adb97ae907c29ada5",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "version-1",
+    "name": "Version 1",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://www.version1.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "version-1",
+    "company_id": "version-1",
+    "revision": 2,
+    "label": "Version 1 careers",
+    "careers_url": "https://careers.smartrecruiters.com/Version1",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "Version 1",
+      "careers_url": "https://careers.smartrecruiters.com/Version1",
+      "strategy": "smartrecruiters",
+      "allowed_hosts": [
+        "api.smartrecruiters.com",
+        "careers.smartrecruiters.com",
+        "jobs.smartrecruiters.com"
+      ],
+      "request": {
+        "url": "https://api.smartrecruiters.com/v1/companies/Version1/postings",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "company_slug": "Version1"
+      },
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.smartrecruiters.com/v1/companies/Version1/postings",
+    "fetched_at": "2026-10-05T16:09:03.287235Z",
+    "payload": {
+      "content": [
+        {
+          "id": "744000153547969",
+          "name": "QA/Test Engineer",
+          "uuid": "adb940a3-c76c-472a-a12d-47dea4b518ff",
+          "jobAdId": "a7c63134-f47c-4c01-8606-b8bf7218ff5f",
+          "defaultJobAd": true,
+          "refNumber": "REF6939H",
+          "company": {
+            "identifier": "Version1",
+            "name": "Version 1"
+          },
+          "releasedDate": "2026-10-05T15:33:40.312Z",
+          "location": {
+            "city": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast,",
+            "region": "England",
+            "country": "gb",
+            "remote": false,
+            "hybrid": true,
+            "fullLocation": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast,, England, United Kingdom"
+          },
+          "industry": {
+            "id": "it_and_services",
+            "label": "Information Technology And Services"
+          },
+          "department": {
+            "id": "8178911",
+            "label": "Digital, Data and Cloud"
+          },
+          "function": {
+            "id": "consulting",
+            "label": "Consulting"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "5978b7c9b60a5e25f4903721",
+              "fieldLabel": "Associated V1 Office",
+              "valueId": "087c1b54-aa63-4ce3-b809-c84f05ee5986",
+              "valueLabel": "Office - All (UK)"
+            },
+            {
+              "fieldId": "595a6f5be4b04c9fb8dd82b1",
+              "fieldLabel": "Department",
+              "valueId": "8178911",
+              "valueLabel": "Digital, Data and Cloud"
+            },
+            {
+              "fieldId": "5978ba6eb60a5e25f4903728",
+              "fieldLabel": "Open to Contract & Permanent?",
+              "valueId": "6df987b6-5dea-4703-85dd-df225e06f9ef",
+              "valueLabel": "Permanent only"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "gb",
+              "valueLabel": "United Kingdom"
+            },
+            {
+              "fieldId": "595a6f5be4b00724d407d4ae",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Version 1"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Version1/postings/744000153547969",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000153194109",
+          "name": "Full Stack Developer (Java & Angular)",
+          "uuid": "2dd43869-4f27-4d8d-8f7d-85fc9dfc170a",
+          "jobAdId": "a2a3257a-e5f2-4151-b777-2b063002232f",
+          "defaultJobAd": true,
+          "refNumber": "REF6890G",
+          "company": {
+            "identifier": "Version1",
+            "name": "Version 1"
+          },
+          "releasedDate": "2026-10-02T14:00:13.487Z",
+          "location": {
+            "city": "Dublin, Portlaoise",
+            "country": "ie",
+            "remote": false,
+            "hybrid": true,
+            "fullLocation": "Dublin, Portlaoise, , Ireland"
+          },
+          "industry": {
+            "id": "it_and_services",
+            "label": "Information Technology And Services"
+          },
+          "department": {
+            "id": "13968091",
+            "label": "Public Sector & Utilities (Ireland)"
+          },
+          "function": {
+            "id": "information_technology",
+            "label": "Information Technology"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "5978b7c9b60a5e25f4903721",
+              "fieldLabel": "Associated V1 Office",
+              "valueId": "055ad309-aaab-4192-9136-55d5dbebb50a",
+              "valueLabel": "Office - Dublin"
+            },
+            {
+              "fieldId": "595a6f5be4b04c9fb8dd82b1",
+              "fieldLabel": "Department",
+              "valueId": "13968091",
+              "valueLabel": "Public Sector & Utilities (Ireland)"
+            },
+            {
+              "fieldId": "5978ba6eb60a5e25f4903728",
+              "fieldLabel": "Open to Contract & Permanent?",
+              "valueId": "6df987b6-5dea-4703-85dd-df225e06f9ef",
+              "valueLabel": "Permanent only"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ie",
+              "valueLabel": "Ireland"
+            },
+            {
+              "fieldId": "595a6f5be4b00724d407d4ae",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Version 1"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Version1/postings/744000153194109",
+          "language": {
+            "code": "en-GB",
+            "label": "English (UK)",
+            "labelNative": "English (UK)"
+          }
+        },
+        {
+          "id": "744000152981714",
+          "name": "Tech Lead",
+          "uuid": "8b7812e4-a027-49ec-aede-12bc22bb3186",
+          "jobAdId": "f7e70463-41e9-44d5-8c89-493aae0ebb2c",
+          "defaultJobAd": true,
+          "refNumber": "REF6933A",
+          "company": {
+            "identifier": "Version1",
+            "name": "Version 1"
+          },
+          "releasedDate": "2026-10-01T15:59:17.617Z",
+          "location": {
+            "city": "Birmingham",
+            "region": "England",
+            "country": "gb",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "52.4822694",
+            "longitude": "-1.8900078",
+            "fullLocation": "Birmingham, England, United Kingdom"
+          },
+          "industry": {
+            "id": "it_and_services",
+            "label": "Information Technology And Services"
+          },
+          "department": {
+            "id": "8178911",
+            "label": "Digital, Data and Cloud"
+          },
+          "function": {
+            "id": "consulting",
+            "label": "Consulting"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "5978b7c9b60a5e25f4903721",
+              "fieldLabel": "Associated V1 Office",
+              "valueId": "07412297-a3bf-4500-adff-d7aa688e957b",
+              "valueLabel": "Office - Birmingham"
+            },
+            {
+              "fieldId": "595a6f5be4b04c9fb8dd82b1",
+              "fieldLabel": "Department",
+              "valueId": "8178911",
+              "valueLabel": "Digital, Data and Cloud"
+            },
+            {
+              "fieldId": "5978ba6eb60a5e25f4903728",
+              "fieldLabel": "Open to Contract & Permanent?",
+              "valueId": "6df987b6-5dea-4703-85dd-df225e06f9ef",
+              "valueLabel": "Permanent only"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "gb",
+              "valueLabel": "United Kingdom"
+            },
+            {
+              "fieldId": "595a6f5be4b00724d407d4ae",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Version 1"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Version1/postings/744000152981714",
+          "language": {
+            "code": "en-GB",
+            "label": "English (UK)",
+            "labelNative": "English (UK)"
+          }
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.version1.com",
+    "explanation": "Version 1 public employer careers board. Employer evidence: https://www.version1.com/careers/job-listings/. The listed ATS account is branded for this employer or its consolidated consulting group. Representative posting titles, locations, company branding and links were inspected; this proposal contains no personal search profile. Regional coverage and source limitations is documented in the monitor and separate live evidence report.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://api.smartrecruiters.com/v1/companies/Version1/postings/744000153547969",
+      "https://api.smartrecruiters.com/v1/companies/Version1/postings/744000153194109",
+      "https://api.smartrecruiters.com/v1/companies/Version1/postings/744000152981714"
+    ]
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "base_commit": "f059d360024b23693309cb4adb97ae907c29ada5",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "nagarro",
+    "name": "Nagarro",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://www.nagarro.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "nagarro",
+    "company_id": "nagarro",
+    "revision": 2,
+    "label": "Nagarro careers",
+    "careers_url": "https://careers.smartrecruiters.com/Nagarro1",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "Nagarro",
+      "careers_url": "https://careers.smartrecruiters.com/Nagarro1",
+      "strategy": "smartrecruiters",
+      "allowed_hosts": [
+        "api.smartrecruiters.com",
+        "careers.smartrecruiters.com",
+        "jobs.smartrecruiters.com"
+      ],
+      "request": {
+        "url": "https://api.smartrecruiters.com/v1/companies/Nagarro1/postings",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "company_slug": "Nagarro1"
+      },
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.smartrecruiters.com/v1/companies/Nagarro1/postings",
+    "fetched_at": "2026-10-05T16:09:03.748511Z",
+    "payload": {
+      "content": [
+        {
+          "id": "744000153469825",
+          "name": "Senior Client Growth Partner – AI Transformation",
+          "uuid": "023473df-07ac-4c16-82e8-35a515f93e02",
+          "jobAdId": "10af4584-9a72-4f00-908a-4ff46869bb5c",
+          "defaultJobAd": true,
+          "refNumber": "REF69090F",
+          "company": {
+            "identifier": "Nagarro1",
+            "name": "Nagarro"
+          },
+          "releasedDate": "2026-10-05T11:20:02.153Z",
+          "location": {
+            "city": "Paris",
+            "country": "fr",
+            "remote": false,
+            "hybrid": true,
+            "hybridDescription": "2-3 days per week in the office",
+            "fullLocation": "Paris, , France"
+          },
+          "industry": {
+            "id": "it_and_services",
+            "label": "Information Technology And Services"
+          },
+          "department": {
+            "id": "3109749",
+            "label": "Engineering"
+          },
+          "function": {
+            "id": "information_technology",
+            "label": "Information Technology"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "not_applicable",
+            "label": "Not Applicable"
+          },
+          "customField": [
+            {
+              "fieldId": "61acc05f3df4f85f6627647b",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Nagarro"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "fr",
+              "valueLabel": "France"
+            },
+            {
+              "fieldId": "61acc05f3df4f85f6627647c",
+              "fieldLabel": "Department",
+              "valueId": "3109749",
+              "valueLabel": "Engineering"
+            },
+            {
+              "fieldId": "621f3ca8356d4536765273f4",
+              "fieldLabel": "Service Region",
+              "valueId": "Germany",
+              "valueLabel": "Germany,France,Switzerland"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Nagarro1/postings/744000153469825",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000153437989",
+          "name": "Business Analyst – GTN & Trade Promotion Planning",
+          "uuid": "16130b9b-a1c3-47f9-833f-0e8c57bb2087",
+          "jobAdId": "d2135803-04da-45b8-a1f9-ddc322083dc0",
+          "defaultJobAd": true,
+          "refNumber": "REF71889Q",
+          "company": {
+            "identifier": "Nagarro1",
+            "name": "Nagarro"
+          },
+          "releasedDate": "2026-10-05T08:48:56.285Z",
+          "location": {
+            "city": "Singapore",
+            "country": "sg",
+            "remote": false,
+            "hybrid": false,
+            "fullLocation": "Singapore, , Singapore"
+          },
+          "industry": {
+            "id": "it_and_services",
+            "label": "Information Technology And Services"
+          },
+          "department": {
+            "id": "3109749",
+            "label": "Engineering"
+          },
+          "function": {
+            "id": "information_technology",
+            "label": "Information Technology"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "not_applicable",
+            "label": "Not Applicable"
+          },
+          "customField": [
+            {
+              "fieldId": "61acc05f3df4f85f6627647b",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Nagarro"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "sg",
+              "valueLabel": "Singapore"
+            },
+            {
+              "fieldId": "61acc05f3df4f85f6627647c",
+              "fieldLabel": "Department",
+              "valueId": "3109749",
+              "valueLabel": "Engineering"
+            },
+            {
+              "fieldId": "621f3ca8356d4536765273f4",
+              "fieldLabel": "Service Region",
+              "valueId": "Others",
+              "valueLabel": "Others"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Nagarro1/postings/744000153437989",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000153210334",
+          "name": "SAP Functional Supply Chain Consultant (B2B) with Spanish",
+          "uuid": "8d5b57ed-c180-4b12-8bdf-3f754b76ceaa",
+          "jobAdId": "a919a1a6-4759-4a71-b7ee-7e383d76d951",
+          "defaultJobAd": true,
+          "refNumber": "REF72246G",
+          "company": {
+            "identifier": "Nagarro1",
+            "name": "Nagarro"
+          },
+          "releasedDate": "2026-10-02T15:02:16.600Z",
+          "location": {
+            "city": "Remote",
+            "country": "pt",
+            "remote": true,
+            "hybrid": false,
+            "fullLocation": "Remote, , Portugal"
+          },
+          "industry": {
+            "id": "it_and_services",
+            "label": "Information Technology And Services"
+          },
+          "department": {
+            "id": "3109749",
+            "label": "Engineering"
+          },
+          "function": {
+            "id": "information_technology",
+            "label": "Information Technology"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "not_applicable",
+            "label": "Not Applicable"
+          },
+          "customField": [
+            {
+              "fieldId": "61acc05f3df4f85f6627647b",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Nagarro"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "pt",
+              "valueLabel": "Portugal"
+            },
+            {
+              "fieldId": "61acc05f3df4f85f6627647c",
+              "fieldLabel": "Department",
+              "valueId": "3109749",
+              "valueLabel": "Engineering"
+            },
+            {
+              "fieldId": "621f3ca8356d4536765273f4",
+              "fieldLabel": "Service Region",
+              "valueId": "c11ce795-a722-45b6-95da-5a6f057bb5de",
+              "valueLabel": "Iberia"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Nagarro1/postings/744000153210334",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.nagarro.com",
+    "explanation": "Nagarro public employer careers board. Employer evidence: https://www.nagarro.com/en/careers. The listed ATS account is branded for this employer or its consolidated consulting group. Representative posting titles, locations, company branding and links were inspected; this proposal contains no personal search profile. Regional coverage and source limitations is documented in the monitor and separate live evidence report.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://api.smartrecruiters.com/v1/companies/Nagarro1/postings/744000153469825",
+      "https://api.smartrecruiters.com/v1/companies/Nagarro1/postings/744000153437989",
+      "https://api.smartrecruiters.com/v1/companies/Nagarro1/postings/744000153210334"
+    ]
+  }
+}

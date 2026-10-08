@@ -1,0 +1,25 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "nagarro",
+  "name": "Nagarro",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.nagarro.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology-consulting"
+    ],
+    "specialties": [
+      "digital-transformation",
+      "data-and-analytics"
+    ],
+    "tags": [
+      "Consulting",
+      "Technology",
+      "AI",
+      "Global"
+    ]
+  }
+}

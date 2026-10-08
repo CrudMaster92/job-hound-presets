@@ -1,0 +1,55 @@
+{
+  "format": "jobhound-monitor",
+  "schema_version": 1,
+  "id": "version-1",
+  "company_id": "version-1",
+  "revision": 2,
+  "label": "Version 1 careers",
+  "careers_url": "https://careers.smartrecruiters.com/Version1",
+  "compatibility": {
+    "min_jobhound_version": "0.1.0",
+    "recipe_schema_version": 1
+  },
+  "verification": {
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
+    "warnings": [
+      "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+    ]
+  },
+  "recipe": {
+    "version": 1,
+    "company": "Version 1",
+    "careers_url": "https://careers.smartrecruiters.com/Version1",
+    "strategy": "smartrecruiters",
+    "allowed_hosts": [
+      "api.smartrecruiters.com",
+      "careers.smartrecruiters.com",
+      "jobs.smartrecruiters.com"
+    ],
+    "request": {
+      "url": "https://api.smartrecruiters.com/v1/companies/Version1/postings",
+      "method": "GET",
+      "headers": {},
+      "params": {},
+      "json_body": null,
+      "timeout_seconds": 25,
+      "max_response_bytes": 20000000
+    },
+    "pagination": {
+      "kind": "offset",
+      "parameter": "offset",
+      "page_size_parameter": "limit",
+      "page_size": 100,
+      "max_pages": null,
+      "next_path": null
+    },
+    "selectors": {},
+    "mapping": {},
+    "metadata": {
+      "company_slug": "Version1"
+    },
+    "coverage_mode": "all"
+  }
+}

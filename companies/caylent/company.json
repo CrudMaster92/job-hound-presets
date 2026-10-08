@@ -1,0 +1,25 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "caylent",
+  "name": "Caylent",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://caylent.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology-consulting"
+    ],
+    "specialties": [
+      "digital-transformation",
+      "data-and-analytics"
+    ],
+    "tags": [
+      "Consulting",
+      "Technology",
+      "AI",
+      "Global"
+    ]
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "base_commit": "f059d360024b23693309cb4adb97ae907c29ada5",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "sia",
+    "name": "Sia",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://www.sia-partners.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "sia",
+    "company_id": "sia",
+    "revision": 2,
+    "label": "Sia careers",
+    "careers_url": "https://careers.smartrecruiters.com/sia",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "Sia",
+      "careers_url": "https://careers.smartrecruiters.com/sia",
+      "strategy": "smartrecruiters",
+      "allowed_hosts": [
+        "api.smartrecruiters.com",
+        "careers.smartrecruiters.com",
+        "jobs.smartrecruiters.com"
+      ],
+      "request": {
+        "url": "https://api.smartrecruiters.com/v1/companies/sia/postings",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "company_slug": "sia"
+      },
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.smartrecruiters.com/v1/companies/sia/postings",
+    "fetched_at": "2026-10-05T16:09:03.275899Z",
+    "payload": {
+      "content": [
+        {
+          "id": "744000153487174",
+          "name": "Cyber Security & AI Trust Consultant",
+          "uuid": "b7967a37-4945-4dc6-bce9-41f1b58ba17b",
+          "jobAdId": "35b47700-f328-4abf-9470-03c2fb065667",
+          "defaultJobAd": true,
+          "refNumber": "REF3051R",
+          "company": {
+            "identifier": "Sia",
+            "name": "Sia"
+          },
+          "releasedDate": "2026-10-05T12:35:20.159Z",
+          "location": {
+            "city": "Milano",
+            "region": "Lombardia",
+            "country": "it",
+            "address": "Piazza San Sepolcro 1",
+            "postalCode": "20123",
+            "remote": false,
+            "hybrid": true,
+            "latitude": "45.4628095",
+            "longitude": "9.185569400000002",
+            "fullLocation": "Milano, Lombardia, Italy"
+          },
+          "industry": {
+            "id": "management_consulting",
+            "label": "Management Consulting"
+          },
+          "department": {
+            "id": "10882251",
+            "label": "Cybersecurity & AI Trust"
+          },
+          "function": {
+            "id": "consulting",
+            "label": "Consulting"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "entry_level",
+            "label": "Entry Level"
+          },
+          "customField": [
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "it",
+              "valueLabel": "Italy"
+            },
+            {
+              "fieldId": "58b7e4d0e4b09a6d37a0cd90",
+              "fieldLabel": "Department",
+              "valueId": "10882251",
+              "valueLabel": "Cybersecurity & AI Trust"
+            },
+            {
+              "fieldId": "57ea6c22e4b0f3b9370e4006",
+              "fieldLabel": "Positions",
+              "valueId": "de772bd1-840b-4143-ade9-1b02c0566735",
+              "valueLabel": "Consultant"
+            },
+            {
+              "fieldId": "5ec3f4dbd4a5de40e44b1f6c",
+              "fieldLabel": "Consulting",
+              "valueId": "68cab661-fe2f-49c8-b9cf-9e117c0dd414",
+              "valueLabel": "Cybersecurity & AI Trust"
+            },
+            {
+              "fieldId": "58b7e4d0e4b09a6d37a0cd89",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Sia"
+            },
+            {
+              "fieldId": "5ec3f2058fa85d2dd570dbdc",
+              "fieldLabel": "Role",
+              "valueId": "bb2c4c82-fc26-46d0-bf60-da334f6f3bd9",
+              "valueLabel": "Consulting"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/sia/postings/744000153487174",
+          "language": {
+            "code": "it",
+            "label": "Italian",
+            "labelNative": "italiano"
+          }
+        },
+        {
+          "id": "744000153475339",
+          "name": "Vulnerability & Patch Management (Associate) Manager",
+          "uuid": "0ae36fa9-949b-41a3-8a6e-95ea1522d922",
+          "jobAdId": "7568c13b-b3c6-4fe8-b32b-4592353bdb51",
+          "defaultJobAd": true,
+          "refNumber": "REF4282I",
+          "company": {
+            "identifier": "Sia",
+            "name": "Sia"
+          },
+          "releasedDate": "2026-10-05T11:35:10.535Z",
+          "location": {
+            "city": "Luxembourg",
+            "region": "Luxembourg",
+            "country": "lu",
+            "address": "Boulevard Royal 53",
+            "postalCode": "2449",
+            "remote": false,
+            "hybrid": true,
+            "latitude": "49.6102982",
+            "longitude": "6.126558699999999",
+            "fullLocation": "Luxembourg, Luxembourg, Luxembourg"
+          },
+          "industry": {
+            "id": "management_consulting",
+            "label": "Management Consulting"
+          },
+          "department": {
+            "id": "10882251",
+            "label": "Cybersecurity & AI Trust"
+          },
+          "function": {
+            "id": "consulting",
+            "label": "Consulting"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "lu",
+              "valueLabel": "Luxembourg"
+            },
+            {
+              "fieldId": "58b7e4d0e4b09a6d37a0cd90",
+              "fieldLabel": "Department",
+              "valueId": "10882251",
+              "valueLabel": "Cybersecurity & AI Trust"
+            },
+            {
+              "fieldId": "57ea6c22e4b0f3b9370e4006",
+              "fieldLabel": "Positions",
+              "valueId": "988b1d43-1241-4d0f-9feb-105b6d6580e5",
+              "valueLabel": "Senior Consultant / Associate Manager"
+            },
+            {
+              "fieldId": "5ec3f4dbd4a5de40e44b1f6c",
+              "fieldLabel": "Consulting",
+              "valueId": "68cab661-fe2f-49c8-b9cf-9e117c0dd414",
+              "valueLabel": "Cybersecurity & AI Trust"
+            },
+            {
+              "fieldId": "58b7e4d0e4b09a6d37a0cd89",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Sia"
+            },
+            {
+              "fieldId": "5ec3f2058fa85d2dd570dbdc",
+              "fieldLabel": "Role",
+              "valueId": "bb2c4c82-fc26-46d0-bf60-da334f6f3bd9",
+              "valueLabel": "Consulting"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/sia/postings/744000153475339",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000153474649",
+          "name": "Senior Consultant in Cybersecurity",
+          "uuid": "ed4ce73e-3943-444f-9bc4-835407c085b5",
+          "jobAdId": "f4d2face-1a09-44ff-9154-3cb23c38c4bd",
+          "defaultJobAd": true,
+          "refNumber": "REF1375T",
+          "company": {
+            "identifier": "Sia",
+            "name": "Sia"
+          },
+          "releasedDate": "2026-10-05T11:32:26.475Z",
+          "location": {
+            "city": "Brussels",
+            "country": "be",
+            "address": "Boulevard de Waterloolaan 16",
+            "postalCode": "1000",
+            "remote": false,
+            "hybrid": true,
+            "fullLocation": "Brussels, , Belgium"
+          },
+          "industry": {
+            "id": "management_consulting",
+            "label": "Management Consulting"
+          },
+          "department": {
+            "id": "10882251",
+            "label": "Cybersecurity & AI Trust"
+          },
+          "function": {
+            "id": "consulting",
+            "label": "Consulting"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "be",
+              "valueLabel": "Belgium"
+            },
+            {
+              "fieldId": "58b7e4d0e4b09a6d37a0cd90",
+              "fieldLabel": "Department",
+              "valueId": "10882251",
+              "valueLabel": "Cybersecurity & AI Trust"
+            },
+            {
+              "fieldId": "57ea6c22e4b0f3b9370e4006",
+              "fieldLabel": "Positions",
+              "valueId": "988b1d43-1241-4d0f-9feb-105b6d6580e5",
+              "valueLabel": "Senior Consultant / Associate Manager"
+            },
+            {
+              "fieldId": "5ec3f4dbd4a5de40e44b1f6c",
+              "fieldLabel": "Consulting",
+              "valueId": "68cab661-fe2f-49c8-b9cf-9e117c0dd414",
+              "valueLabel": "Cybersecurity & AI Trust"
+            },
+            {
+              "fieldId": "58b7e4d0e4b09a6d37a0cd89",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Sia"
+            },
+            {
+              "fieldId": "5ec3f2058fa85d2dd570dbdc",
+              "fieldLabel": "Role",
+              "valueId": "bb2c4c82-fc26-46d0-bf60-da334f6f3bd9",
+              "valueLabel": "Consulting"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/sia/postings/744000153474649",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.sia-partners.com",
+    "explanation": "Sia public employer careers board. Employer evidence: https://www.sia-partners.com/en/join-us/careers. The listed ATS account is branded for this employer or its consolidated consulting group. Representative posting titles, locations, company branding and links were inspected; this proposal contains no personal search profile. Regional coverage and source limitations is documented in the monitor and separate live evidence report.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://api.smartrecruiters.com/v1/companies/sia/postings/744000153487174",
+      "https://api.smartrecruiters.com/v1/companies/sia/postings/744000153475339",
+      "https://api.smartrecruiters.com/v1/companies/sia/postings/744000153474649"
+    ]
+  }
+}

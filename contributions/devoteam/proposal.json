@@ -1,0 +1,404 @@
+{
+  "base_commit": "f059d360024b23693309cb4adb97ae907c29ada5",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "devoteam",
+    "name": "Devoteam",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://www.devoteam.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "devoteam",
+    "company_id": "devoteam",
+    "revision": 2,
+    "label": "Devoteam careers",
+    "careers_url": "https://careers.smartrecruiters.com/Devoteam",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "Devoteam",
+      "careers_url": "https://careers.smartrecruiters.com/Devoteam",
+      "strategy": "smartrecruiters",
+      "allowed_hosts": [
+        "api.smartrecruiters.com",
+        "careers.smartrecruiters.com",
+        "jobs.smartrecruiters.com"
+      ],
+      "request": {
+        "url": "https://api.smartrecruiters.com/v1/companies/Devoteam/postings",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "company_slug": "Devoteam"
+      },
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.smartrecruiters.com/v1/companies/Devoteam/postings",
+    "fetched_at": "2026-10-05T16:09:03.607383Z",
+    "payload": {
+      "content": [
+        {
+          "id": "744000153547816",
+          "name": "Ingénieur Réseau Sécurité H/F",
+          "uuid": "d5eb1c82-b57a-44e2-af23-cd5f84779518",
+          "jobAdId": "da2f9593-41cc-4204-9f24-516831e143c2",
+          "defaultJobAd": true,
+          "refNumber": "REF170R",
+          "company": {
+            "identifier": "Devoteam",
+            "name": "Devoteam"
+          },
+          "releasedDate": "2026-10-05T15:47:47.148Z",
+          "location": {
+            "city": "Toulouse",
+            "region": "Occitanie",
+            "country": "fr",
+            "address": "8 Rue Claude-Marie Perroud",
+            "postalCode": "31100",
+            "remote": false,
+            "hybrid": false,
+            "latitude": "43.5755365",
+            "longitude": "1.3812524999999596",
+            "fullLocation": "Toulouse, Occitanie, France"
+          },
+          "industry": {
+            "id": "it_and_services",
+            "label": "Information Technology And Services"
+          },
+          "department": {
+            "id": "5427376",
+            "label": "Trust & Cybersecurity"
+          },
+          "function": {
+            "id": "information_technology",
+            "label": "Information Technology"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "entry_level",
+            "label": "Entry Level"
+          },
+          "customField": [
+            {
+              "fieldId": "63b9e2abdd202d15823c582d",
+              "fieldLabel": "Infinite Team",
+              "valueId": "PP-CYT",
+              "valueLabel": "Cyber Trust"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "fr",
+              "valueLabel": "France"
+            },
+            {
+              "fieldId": "5bc9a4abb1f60b7aea922932",
+              "fieldLabel": "Devoteam Department",
+              "valueId": "DPT_FR_NSC_04_OS_DPT",
+              "valueLabel": "FR-NSC NetSec Regions"
+            },
+            {
+              "fieldId": "63b9e4174a16fe43f1f6e434",
+              "fieldLabel": "Operating Unit",
+              "valueId": "OE_FR_NSC",
+              "valueLabel": "FR - Cyber Trust (NetSec)"
+            },
+            {
+              "fieldId": "5be1ad0bb1f60b7aea922daf",
+              "fieldLabel": "Job Area",
+              "valueId": "ab353f59-2986-43c1-bb09-1a6697293f9c",
+              "valueLabel": "Secure Cloud & Devops Engineer"
+            },
+            {
+              "fieldId": "5b8f982e6d8bc52a560cb0ce",
+              "fieldLabel": "Job Family",
+              "valueId": "5427376",
+              "valueLabel": "Trust & Cybersecurity"
+            },
+            {
+              "fieldId": "5b8f982e6d8bc52a560cb0cd",
+              "fieldLabel": "Brands",
+              "valueId": "c2e90421-7028-483b-8fcb-b3596832ed95",
+              "valueLabel": "Devoteam Cyber Trust France"
+            },
+            {
+              "fieldId": "5bc9adbcb1f60b7aea92293a",
+              "fieldLabel": "Contract type",
+              "valueId": "074cb382-873b-467b-921d-22cc0f8018f7",
+              "valueLabel": "Permanent contract"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Devoteam/postings/744000153547816",
+          "language": {
+            "code": "fr",
+            "label": "French",
+            "labelNative": "français"
+          }
+        },
+        {
+          "id": "744000153542179",
+          "name": "Consultant GenAI / AI (H/F)",
+          "uuid": "30c6f0e9-a2b7-47ce-960b-d93647c57810",
+          "jobAdId": "cf2582b6-5933-4e1a-895c-adec2434516f",
+          "defaultJobAd": true,
+          "refNumber": "REF11780W",
+          "company": {
+            "identifier": "Devoteam",
+            "name": "Devoteam"
+          },
+          "releasedDate": "2026-10-05T15:15:20.953Z",
+          "location": {
+            "city": "Casablanca",
+            "country": "ma",
+            "address": "Casablanca",
+            "remote": false,
+            "hybrid": false,
+            "fullLocation": "Casablanca, , Morocco"
+          },
+          "industry": {
+            "id": "computer_software",
+            "label": "Computer Software"
+          },
+          "department": {
+            "id": "5427325",
+            "label": "Data"
+          },
+          "function": {
+            "id": "information_technology",
+            "label": "Information Technology"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "63b9e2abdd202d15823c582d",
+              "fieldLabel": "Infinite Team",
+              "valueId": "PP-DDD",
+              "valueLabel": "Data Driven"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ma",
+              "valueLabel": "Morocco"
+            },
+            {
+              "fieldId": "5bc9a4abb1f60b7aea922932",
+              "fieldLabel": "Devoteam Department",
+              "valueId": "DPT_MA_DVT_11_OS_DPT",
+              "valueLabel": "MA-DVT Data Driven"
+            },
+            {
+              "fieldId": "63b9e4174a16fe43f1f6e434",
+              "fieldLabel": "Operating Unit",
+              "valueId": "OE-MA-DVT",
+              "valueLabel": "MA - DVT Morocco"
+            },
+            {
+              "fieldId": "5be1ad0bb1f60b7aea922daf",
+              "fieldLabel": "Job Area",
+              "valueId": "8cf75796-3669-40ad-ae18-66f063fd77ba",
+              "valueLabel": "Machine Learning / AI engineer"
+            },
+            {
+              "fieldId": "5b8f982e6d8bc52a560cb0ce",
+              "fieldLabel": "Job Family",
+              "valueId": "5427325",
+              "valueLabel": "Data"
+            },
+            {
+              "fieldId": "5b8f982e6d8bc52a560cb0cd",
+              "fieldLabel": "Brands",
+              "valueId": "41aaa3ae-1537-49af-b8fa-d5c27bccc961",
+              "valueLabel": "Devoteam Morocco"
+            },
+            {
+              "fieldId": "5bc9adbcb1f60b7aea92293a",
+              "fieldLabel": "Contract type",
+              "valueId": "074cb382-873b-467b-921d-22cc0f8018f7",
+              "valueLabel": "Permanent contract"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Devoteam/postings/744000153542179",
+          "language": {
+            "code": "fr",
+            "label": "French",
+            "labelNative": "français"
+          }
+        },
+        {
+          "id": "744000153542039",
+          "name": "Key Account Manager - Sector Banca",
+          "uuid": "85b07907-1b36-4c66-bea3-123d05b8b871",
+          "jobAdId": "8fb8cf48-02a4-4939-9eed-135fca6a0f10",
+          "defaultJobAd": true,
+          "refNumber": "REF12726D",
+          "company": {
+            "identifier": "Devoteam",
+            "name": "Devoteam"
+          },
+          "releasedDate": "2026-10-05T15:14:59.992Z",
+          "location": {
+            "city": "Madrid",
+            "region": "MD",
+            "country": "es",
+            "address": "Calle de María de Molina 37",
+            "postalCode": "28006",
+            "remote": false,
+            "hybrid": true,
+            "latitude": "40.4377011",
+            "longitude": "-3.6807835",
+            "fullLocation": "Madrid, MD, Spain"
+          },
+          "industry": {
+            "id": "it_and_services",
+            "label": "Information Technology And Services"
+          },
+          "department": {
+            "id": "1139568",
+            "label": "Sales & Pre-Sales"
+          },
+          "function": {
+            "id": "information_technology",
+            "label": "Information Technology"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "63b9e2abdd202d15823c582d",
+              "fieldLabel": "Infinite Team",
+              "valueId": "PP-STRUCTURE",
+              "valueLabel": "Structure"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "es",
+              "valueLabel": "Spain"
+            },
+            {
+              "fieldId": "5bc9a4abb1f60b7aea922932",
+              "fieldLabel": "Devoteam Department",
+              "valueId": "DPT_ES_BSU_16_OS_DPT",
+              "valueLabel": "ES-BSU Sales"
+            },
+            {
+              "fieldId": "63b9e4174a16fe43f1f6e434",
+              "fieldLabel": "Operating Unit",
+              "valueId": "OE-ES-BSU",
+              "valueLabel": "ES - Business Support"
+            },
+            {
+              "fieldId": "5be1ad0bb1f60b7aea922daf",
+              "fieldLabel": "Job Area",
+              "valueId": "e97100f7-5a9f-4616-a4ff-c0703c100198",
+              "valueLabel": "Sales"
+            },
+            {
+              "fieldId": "5b8f982e6d8bc52a560cb0ce",
+              "fieldLabel": "Job Family",
+              "valueId": "1139568",
+              "valueLabel": "Sales & Pre-Sales"
+            },
+            {
+              "fieldId": "5b8f982e6d8bc52a560cb0cd",
+              "fieldLabel": "Brands",
+              "valueId": "5933f74e-2fe4-44f7-b1b6-7d569d40d351",
+              "valueLabel": "Devoteam Spain"
+            },
+            {
+              "fieldId": "5bc9adbcb1f60b7aea92293a",
+              "fieldLabel": "Contract type",
+              "valueId": "074cb382-873b-467b-921d-22cc0f8018f7",
+              "valueLabel": "Permanent contract"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Devoteam/postings/744000153542039",
+          "language": {
+            "code": "es",
+            "label": "Spanish",
+            "labelNative": "español"
+          }
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.devoteam.com",
+    "explanation": "Devoteam public employer careers board. Employer evidence: https://careers.smartrecruiters.com/Devoteam. The listed ATS account is branded for this employer or its consolidated consulting group. Representative posting titles, locations, company branding and links were inspected; this proposal contains no personal search profile. Regional coverage and source limitations is documented in the monitor and separate live evidence report.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://api.smartrecruiters.com/v1/companies/Devoteam/postings/744000153547816",
+      "https://api.smartrecruiters.com/v1/companies/Devoteam/postings/744000153542179",
+      "https://api.smartrecruiters.com/v1/companies/Devoteam/postings/744000153542039"
+    ]
+  }
+}

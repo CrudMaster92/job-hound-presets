@@ -1,0 +1,256 @@
+{
+  "base_commit": "f059d360024b23693309cb4adb97ae907c29ada5",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "xebia",
+    "name": "Xebia",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://xebia.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "xebia-north-america",
+    "company_id": "xebia",
+    "revision": 2,
+    "label": "Xebia North America careers",
+    "careers_url": "https://job-boards.greenhouse.io/xebiausa",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "Xebia",
+      "careers_url": "https://job-boards.greenhouse.io/xebiausa",
+      "strategy": "greenhouse",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/xebiausa/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "board_token": "xebiausa"
+      },
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/xebiausa/jobs",
+    "fetched_at": "2026-10-05T16:09:01.995911Z",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/xebiausa/jobs/6211968004",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": true,
+              "requires_processing_consent": true,
+              "requires_retention_consent": false,
+              "retention_period": 1080,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 5224301004,
+          "location": {
+            "name": "United States"
+          },
+          "metadata": [
+            {
+              "id": 4166921004,
+              "name": "Employment Type",
+              "value": "Full-Time",
+              "value_type": "single_select"
+            },
+            {
+              "id": 4729148004,
+              "name": "Additional Skill Details",
+              "value": null,
+              "value_type": "short_text"
+            },
+            {
+              "id": 25123618004,
+              "name": "Job Description",
+              "value": "Role Overview \n\nWe are seeking a highly skilled AI Trainer to deliver world-class training programs in Applied AI, Agentic AI, and Generative AI. The ideal candidate is a passionate educator with deep hands-on expertise in modern AI technologies, strong communication skills, and proven experience in corporate or professional training environments. \n\nThis role will focus primarily on training delivery, content development, and supporting presales conversations for AI skilling programs across enterprise and academic clients. \n\n \n\nKey Responsibilities \n\n1. Training Delivery (Primary Focus — 60–70%) \n\nDeliver high-quality, instructor-led trainings (virtual and in-person) on: \n\nArtificial Intelligence (AI) \n\nAgentic AI \n\nGenerative AI \n\nAI for Engineering, Development, Data related roles.  \n\nFoundational ML concepts \n\nConduct customized corporate workshops, hands-on bootcamps, hackathons, and upskilling sessions. \n\nEnsure high learner satisfaction through engaging, practical, and real-world teaching methods. \n\n2. Curriculum & Content Development \n\nDesign and maintain training modules, labs, and assessments for AI, Agentic AI, and GenAI courses. \n\nTranslate complex technical concepts into learner-friendly material. \n\nContinuously update content with the latest industry trends, tools, and best practices. \n\nContribute to building a scalable AI course catalog for enterprises and universities. \n\n3. Pre-Sales & Solutioning Support (20–30%) \n\nWork with sales teams to scope client AI training needs. \n\nProvide thought leadership during client discussions and solutioning. \n\nHelp create proposals, training plans, and learning journey maps for enterprise clients. \n\n4. Portfolio Enhancement & Innovation \n\nIntroduce new training formats, hands-on labs, case studies, and real-world project scenarios. \n\nCollaborate with internal SMEs and academic partners for curriculum alignment. \n\nParticipate in Train-the-Trainer (T3) initiatives. \n\n \n\nRequired Skills & Experience \n\nProfessional Experience \n\n8–12 years total experience in AI/ML, software engineering, or data-related fields. \n\nMinimum 4–6 years of experience as a corporate trainer, instructor, or technical educator. \n\n2–3 years hands-on experience in building AI/ML or GenAI-based solutions (industry, consulting, or project work). \n\nProven track record of delivering technical trainings to enterprise or university audiences. \n\nTechnical Expertise \n\nStrong foundation in AI/ML concepts, LLMs, prompt engineering, and GenAI workflows. \n\nGood understanding of Agentic AI, including building agents using frameworks like LangChain, GitHub Copilot, Gemini, Claude, OpenAI API, or similar tools. \n\nProficiency with: \n\nPython \n\nAI/ML libraries (PyTorch, TensorFlow, Scikit-learn) \n\nGenAI toolsets (OpenAI, Azure OpenAI, Hugging Face, vector databases, RAG pipelines) \n\nExperience with at least one major cloud: Azure, AWS, or GCP. \n\nAbility to build and demonstrate hands-on labs, notebooks, and real-world examples. \n\nAuthorized Instructor for any cloud services provider will be an added advantage \n\nTraining & Communication Skills \n\nExceptional presentation, communication, and facilitation skills. \n\nAbility to explain technical concepts to audiences at different skill levels. \n\nComfortable managing large groups and interactive sessions. \n\n \n\nNice-to-Have \n\nExperience developing structured learning journeys or training paths for enterprises. \n\nCertifications in AI/ML, cloud AI services, or instructional design. \n\nExperience participating in RFPs for learning programs.",
+              "value_type": "long_text"
+            },
+            {
+              "id": 26779830004,
+              "name": "Salary Brackets",
+              "value": null,
+              "value_type": "short_text"
+            }
+          ],
+          "id": 6211968004,
+          "updated_at": "2026-09-30T14:03:08-04:00",
+          "requisition_id": "11802",
+          "title": "AI Academy Trainer",
+          "company_name": "North America",
+          "first_published": "2026-09-30T14:03:08-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/xebiausa/jobs/6211951004",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": true,
+              "requires_processing_consent": true,
+              "requires_retention_consent": false,
+              "retention_period": 1080,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 5224289004,
+          "location": {
+            "name": "United States"
+          },
+          "metadata": [
+            {
+              "id": 4166921004,
+              "name": "Employment Type",
+              "value": "Full-Time",
+              "value_type": "single_select"
+            },
+            {
+              "id": 4729148004,
+              "name": "Additional Skill Details",
+              "value": null,
+              "value_type": "short_text"
+            },
+            {
+              "id": 25123618004,
+              "name": "Job Description",
+              "value": "The Business Development Director for Xebia training services team will drive revenue growth, market expansion, and strategic partnerships for a leading IT Training and Certification company in the USA and Canada. This sales manager role requires deep expertise in Enterprise skilling with prior experience with hyperscaler’s like Microsoft, GCP, Databricks, Github technologies, and a proven track record of building and executing high-impact business development strategies. The Director will be responsible for the full sales lifecycle, from prospecting and solution development to closing and account management, ensuring the company’s position as a premier provider of Enterprise training solutions across Americas.\nKey Responsibilities\nStrategic Market Development\nDevelop and execute comprehensive business development and go-to-market strategies to expand Xebia’s training services business across enterprise, government, and education sectors in the USA and Canada.\nIdentify new market opportunities, emerging industry trends, and competitive threats to inform strategic decision-making and ensure sustained business growth.\nLead systematic prospect targeting, opportunity qualification, and sales pipeline management to achieve ambitious revenue and growth targets.\nSales Leadership & Execution\nOwn the sales process end-to-end: prospecting, needs analysis, solution design, proposal development, presentations, negotiations, and closing.\nBuild and maintain a robust pipeline, leveraging CRM tools and data analytics for accurate forecasting and performance tracking.\nCollaborate with marketing, product, and delivery teams to align offerings with market demand and ensure seamless customer experiences.\nRelationship & Partnership Management\nEstablish and nurture executive-level relationships with key clients, Alliance stakeholders, channel partners, and industry associations.\nNegotiate and secure high-value contracts, strategic alliances, and co-delivery partnerships to expand reach and impact.\nRepresent the company at industry events, conferences, and technology forums to enhance brand visibility and thought leadership.\nTraining Portfolio & Solution Expertise\nDeeply understand partner training ecosystem including AI, Agentic AI, Data, Developer and cloud technologies for enterprise skilling,\nWork with curriculum and delivery teams to introduce innovative training programs, including instructor-led, virtual, blended, and self-paced learning solutions partner, certification changes, and digital learning trends to ensure the company’s offerings remain best-in-class.\nTeam Leadership & Mentorship\nLead, mentor, and develop a high-performing business development and sales team, fostering a culture of excellence, collaboration, and continuous learning.\nSet clear performance goals, provide ongoing coaching, and drive accountability for results.\nSkills, Experience, and Knowledge Required\nArea\nRequirements\nEducation\nBachelor’s degree in business, Marketing, IT, or related field required; MBA or advanced degree preferred.\nExperience\n7-8+ years in business development, preferably hunting role with farming ability, sales management, Account management and strategic partnerships within IT trainings. Prior experience in partner ecosystem like Microsoft, Google, Databricks, GitHub, AWS will be an added advantage.\nIndustry Knowledge\nFamiliarity with training industry trends, digital learning modalities, and certification frameworks in the Digital & AI, Data, Cloud, Engineering and Transformation\nSales & Business Acumen\nProven ability to develop and execute sales strategies, manage complex sales cycles, and close large enterprise deals. Strong analytical, financial, and forecasting skills.\nRelationship Management\nExceptional networking, negotiation, and stakeholder management skills at the C-suite and senior executive level. Experience forming strategic partnerships and alliances.\nCommunication\nOutstanding written, verbal, and presentation skills; ability to articulate complex solutions and value propositions to diverse audiences.\nTechnical Skills\nProficiency in Hubspot CRM and sales enablement tools, digital marketing platforms, and business analytics.\nLeadership\nDemonstrated experience leading and mentoring teams, driving cross-functional collaboration, and fostering high-performance cultures.",
+              "value_type": "long_text"
+            },
+            {
+              "id": 26779830004,
+              "name": "Salary Brackets",
+              "value": null,
+              "value_type": "short_text"
+            }
+          ],
+          "id": 6211951004,
+          "updated_at": "2026-09-30T13:58:20-04:00",
+          "requisition_id": "11798",
+          "title": "Business Development Director - Training Services",
+          "company_name": "North America",
+          "first_published": "2026-09-30T13:58:20-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/xebiausa/jobs/6133141004",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": true,
+              "requires_processing_consent": true,
+              "requires_retention_consent": false,
+              "retention_period": 1080,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": null,
+          "location": {
+            "name": "Atlanta, GA"
+          },
+          "metadata": [
+            {
+              "id": 4166921004,
+              "name": "Employment Type",
+              "value": null,
+              "value_type": "single_select"
+            },
+            {
+              "id": 4729148004,
+              "name": "Additional Skill Details",
+              "value": null,
+              "value_type": "short_text"
+            },
+            {
+              "id": 25123618004,
+              "name": "Job Description",
+              "value": null,
+              "value_type": "long_text"
+            },
+            {
+              "id": 26779830004,
+              "name": "Salary Brackets",
+              "value": null,
+              "value_type": "short_text"
+            }
+          ],
+          "id": 6133141004,
+          "updated_at": "2026-09-25T07:45:22-04:00",
+          "requisition_id": null,
+          "title": "Delivery Manager",
+          "company_name": "North America",
+          "first_published": "2026-08-03T10:29:59-04:00",
+          "language": "en",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://xebia.com",
+    "explanation": "Xebia public employer careers board. Employer evidence: https://xebia.com/careers/. The listed ATS account is branded for this employer or its consolidated consulting group. Representative posting titles, locations, company branding and links were inspected; this proposal contains no personal search profile. Regional coverage and source limitations is documented in the monitor and separate live evidence report.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://job-boards.greenhouse.io/xebiausa/jobs/6211968004",
+      "https://job-boards.greenhouse.io/xebiausa/jobs/6211951004",
+      "https://job-boards.greenhouse.io/xebiausa/jobs/6133141004"
+    ]
+  }
+}

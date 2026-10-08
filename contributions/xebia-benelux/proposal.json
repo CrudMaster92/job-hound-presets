@@ -1,0 +1,125 @@
+{
+  "base_commit": "f059d360024b23693309cb4adb97ae907c29ada5",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "xebia",
+    "name": "Xebia",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://xebia.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "xebia-benelux",
+    "company_id": "xebia",
+    "revision": 2,
+    "label": "Xebia Benelux careers",
+    "careers_url": "https://xebiacareers.recruitee.com/",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "Xebia",
+      "careers_url": "https://xebiacareers.recruitee.com/",
+      "strategy": "generic_json",
+      "allowed_hosts": [
+        "xebiacareers.recruitee.com"
+      ],
+      "request": {
+        "url": "https://xebiacareers.recruitee.com/api/offers",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {
+        "items": "offers",
+        "source_id": "id",
+        "title": "title",
+        "location": "location",
+        "url": "careers_url",
+        "description": "description",
+        "posted_date": "published_at",
+        "employment_type": "employment_type_code"
+      },
+      "metadata": {},
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://xebiacareers.recruitee.com/api/offers",
+    "fetched_at": "2026-10-05T17:38:51.857147Z",
+    "payload": {
+      "offers": [
+        {
+          "careers_url": "https://xebiacareers.recruitee.com/o/business-development-representative-xebia-academy-software-tech",
+          "employment_type_code": "fulltime_permanent",
+          "description": "<p><strong><span style=\"font-size:1.3em\"><span style=\"color:#6C1D5F\">Ready to turn conversations into opportunities?</span></span><span style=\"color:#6C1D5F\"> </span></strong></p><p>Are you passionate about sales, curious about technology, and energized by connecting with people? Do you enjoy helping professionals grow while achieving great commercial results yourself? Then this might be your next challenge!</p><p><span style=\"font-size:1.2em\"><br></span><strong><span style=\"font-size:1.3em\"><span style=\"color:#6C1D5F\">Get to know Xebia Academy</span></span></strong></p><p>Xebia Academy is Xebia’s learning and development partner. We help professionals and organizations stay ahead by continuously developing their knowledge and skills through high-quality training and learning programs. With more than 10,000 participants every year, we are growing rapidly and have the ambition to become the number one Tech and IT Training and Upskilling partner in Europe.</p><p>As our new Business Development Representative, you’ll become part of our close-knit Academy team. We’re a team that works hard, celebrates successes together, shares knowledge, and — most importantly — enjoys working together. Your focus will be on the Software Technology service line, where you’ll help grow and fill our training programs in areas such as software development, cloud, AI, and modern software engineering.</p><p style=\"min-height: 1.7em;\"></p><p><strong><span style=\"font-size:1.3em\"><span style=\"color:#6C1D5F\">How will you create value? </span></span></strong></p><p>Your goal is simple: connect the right people with the right training. You’ll proactively connect with professionals and organizations, discover their challenges and development needs, and advise them on the training that best fits their ambitions.</p><p>You’ll be responsible for creating opportunities and filling our Software Technology training programs. You’ll use phone, email, LinkedIn, events, campaigns, and your own network to build relationships and generate business.<br>You won’t start from zero. Xebia Academy already has a strong brand, an extensive network, valuable content, events, and a great portfolio of training programs. At the same time, you’ll have plenty of freedom to develop your own approach, experiment with new ideas, and find new opportunities. You’ll work closely with our trainers and Software Technology experts, bringing their knowledge to the right people and organizations.<br><br></p><p><strong><span style=\"font-size:1.3em\"><span style=\"color:#6C1D5F\">The Xebia Academy way </span></span></strong></p><p>At Xebia Academy, we believe in people first, quality without compromise, knowledge sharing, and customer intimacy. You’ll work with enthusiastic colleagues who genuinely care about what they do and enjoy sharing knowledge with each other. We believe that a strong team is built not only through hard work, but also through having fun together. We work in a hybrid way, with our office in Hilversum as an important place to connect, collaborate, and share knowledge.</p><p><br>And because we are Xebia Academy, your own development is important to us too. You’ll receive a <strong>€5,000 annual education budget</strong> to invest in your own growth. Ofcourse, there is more: </p><p style=\"text-align:start;\"><strong>💼 Work &amp; Flexibility</strong></p><ul><li><p>Hybrid working model</p></li><li><p>Up to 20 working days per year working from abroad</p></li><li><p>25 vacation days</p></li><li><p>Sabbatical savings plan</p></li></ul><p style=\"text-align:start;\"><strong>💰 Compensation &amp; Benefits</strong></p><ul><li><p>Competitive salary +  bonus scheme </p></li><li><p>Full pension scheme</p></li><li><p>Mobility budget </p></li></ul><p style=\"text-align:start;\"><strong>📚 Growth &amp; Development</strong></p><ul><li><p>€5,000 annual learning &amp; development budget + 6 dedicated study days</p></li><li><p>Unlimited book budget</p></li></ul><p style=\"text-align:start;\"><strong>🧠 Tools &amp; Home Office</strong></p><ul><li><p>IT budget: laptop, phone, headphones, iPad, and more</p></li><li><p>€750 home office budget</p></li></ul><p style=\"text-align:start;\"><strong>🍎 Office &amp; Culture</strong></p><ul><li><p>Free lunch, great coffee, and an in-office snack bar</p></li><li><p>Inspiring offices in Hilversum and Amsterdam</p></li><li><p>Regular social and sports events</p></li><li><p>our annual Skibia trip </p></li></ul><p style=\"text-align:start;\"><strong>🏋️ Health &amp; Wellbeing</strong></p><ul><li><p>Bedrijfsfitness or ClassPass subscription</p></li><li><p>OpenUp mental wellbeing platform + Headspace</p></li></ul><p style=\"min-height: 1.7em;\"></p><p><strong><span style=\"font-size:1.3em\"><span style=\"color:#6C1D5F\">Ready to join Xebia Academy?</span></span></strong></p><p>If you’re excited about combining sales, technology, and learning, and want to join a team where you can grow, have fun, and make an impact, we’d love to hear from you.</p>",
+          "id": 2761012,
+          "published_at": "2026-09-29 10:29:12 UTC",
+          "location": "Amsterdam, Noord-Holland, Netherlands",
+          "title": "Business Development Representative (Xebia Academy | Software Tech)"
+        },
+        {
+          "careers_url": "https://xebiacareers.recruitee.com/o/senior-scala-software-engineer",
+          "employment_type_code": "fulltime_fixed_term",
+          "description": "<p style=\"text-align:start;\">Senior scala software engineer</p><p style=\"text-align:start;\">Amsterdam &amp; Remote</p><p style=\"text-align:start;min-height: 1.7em;\"></p><p style=\"text-align:start;\">🚀 Available now and ready to jump in?</p><p style=\"text-align:start;min-height: 1.7em;\"></p><p style=\"text-align:start;\">We're looking for a Software Engineer (Scala) who can start on short notice on a high-impact modernization project.</p><p style=\"text-align:start;min-height: 1.7em;\"></p><p style=\"text-align:start;\">💡 Why join?</p><p style=\"text-align:start;min-height: 1.7em;\"></p><p style=\"text-align:start;\">✔ Shape the architecture for a next-gen image management platform</p><p style=\"text-align:start;\">✔ Build scalable JVM libraries that abstract uploads</p><p style=\"text-align:start;\">✔ Prepare and execute large-scale migrations</p><p style=\"text-align:start;\">✔ Collaborate closely with tech leads and architects in an agile, high-ownership environment</p><p style=\"text-align:start;min-height: 1.7em;\"></p><p style=\"text-align:start;\">🚀 What you'll be doing</p><p style=\"text-align:start;min-height: 1.7em;\"></p><p style=\"text-align:start;\">✅ Translate product/architecture requirements into clear technical specs and implementation plans</p><p style=\"text-align:start;\">✅ Design and implement provider-agnostic JVM libraries (Scala) for uploads &amp; URL generation</p><p style=\"text-align:start;\">✅ Migrate services onto the new abstraction layer with backward compatibility and zero user impact</p><p style=\"text-align:start;\">✅ Ship robust, well-tested code that follows industry best practices and existing architecture patterns</p><p style=\"text-align:start;\">✅ Contribute to architecture reviews, code reviews, and long-term media platform decisions</p><p style=\"text-align:start;min-height: 1.7em;\"></p>",
+          "id": 2748929,
+          "published_at": "2026-09-17 07:40:23 UTC",
+          "location": "Amsterdam, Noord-Holland, Netherlands",
+          "title": "Senior Scala software engineer"
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://xebia.com",
+    "explanation": "Xebia links this benelux employer board directly from its official careers page https://xebia.com/careers/. This is a distinct regional source, included alongside all other Xebia careers regions. Original job titles, employer descriptions and source URLs were inspected.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://xebiacareers.recruitee.com/o/business-development-representative-xebia-academy-software-tech",
+      "https://xebiacareers.recruitee.com/o/senior-scala-software-engineer",
+      "https://xebiacareers.recruitee.com/o/cloud-engineer-nl"
+    ]
+  }
+}

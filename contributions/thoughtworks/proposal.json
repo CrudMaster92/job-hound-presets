@@ -1,0 +1,334 @@
+{
+  "base_commit": "f059d360024b23693309cb4adb97ae907c29ada5",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "thoughtworks",
+    "name": "Thoughtworks",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://www.thoughtworks.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "thoughtworks",
+    "company_id": "thoughtworks",
+    "revision": 2,
+    "label": "Thoughtworks careers",
+    "careers_url": "https://job-boards.greenhouse.io/thoughtworks",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "Thoughtworks",
+      "careers_url": "https://job-boards.greenhouse.io/thoughtworks",
+      "strategy": "greenhouse",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/thoughtworks/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "board_token": "thoughtworks"
+      },
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/thoughtworks/jobs",
+    "fetched_at": "2026-10-05T16:09:01.898621Z",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://www.thoughtworks.com/careers/jobs/8166611?gh_jid=8166611",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 3534235,
+          "location": {
+            "name": "Amsterdam, Netherlands"
+          },
+          "metadata": [
+            {
+              "id": 17181,
+              "name": "Employment Type",
+              "value": "Employee",
+              "value_type": "single_select"
+            },
+            {
+              "id": 25173,
+              "name": "Job Role",
+              "value": "Business Development Manager",
+              "value_type": "single_select"
+            },
+            {
+              "id": 61790,
+              "name": "Job Grade",
+              "value": "Principal",
+              "value_type": "single_select"
+            },
+            {
+              "id": 25172,
+              "name": "Country",
+              "value": "Netherlands",
+              "value_type": "single_select"
+            },
+            {
+              "id": 38057280,
+              "name": "Job Category",
+              "value": "Non-Technology",
+              "value_type": "single_select"
+            },
+            {
+              "id": 15975856,
+              "name": "Function",
+              "value": [
+                "Sales"
+              ],
+              "value_type": "multi_select"
+            },
+            {
+              "id": 25175,
+              "name": "Link to Video",
+              "value": null,
+              "value_type": "url"
+            },
+            {
+              "id": 53682232,
+              "name": "No. of days in office",
+              "value": "Hybrid – 2 days on-site/week",
+              "value_type": "single_select"
+            }
+          ],
+          "id": 8166611,
+          "updated_at": "2026-09-21T10:52:24-04:00",
+          "requisition_id": "R14358",
+          "title": "Business Development Manager",
+          "company_name": "Thoughtworks",
+          "first_published": "2026-09-09T08:37:31-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://www.thoughtworks.com/careers/jobs/7978633?gh_jid=7978633",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 3462806,
+          "location": {
+            "name": "Singapore, Singapore"
+          },
+          "metadata": [
+            {
+              "id": 17181,
+              "name": "Employment Type",
+              "value": "Employee",
+              "value_type": "single_select"
+            },
+            {
+              "id": 25173,
+              "name": "Job Role",
+              "value": "Business Development Manager",
+              "value_type": "single_select"
+            },
+            {
+              "id": 61790,
+              "name": "Job Grade",
+              "value": "Principal",
+              "value_type": "single_select"
+            },
+            {
+              "id": 25172,
+              "name": "Country",
+              "value": "Singapore",
+              "value_type": "single_select"
+            },
+            {
+              "id": 38057280,
+              "name": "Job Category",
+              "value": "Non-Technology",
+              "value_type": "single_select"
+            },
+            {
+              "id": 15975856,
+              "name": "Function",
+              "value": [
+                "Sales"
+              ],
+              "value_type": "multi_select"
+            },
+            {
+              "id": 25175,
+              "name": "Link to Video",
+              "value": null,
+              "value_type": "url"
+            },
+            {
+              "id": 53682232,
+              "name": "No. of days in office",
+              "value": "Fully On-site",
+              "value_type": "single_select"
+            }
+          ],
+          "id": 7978633,
+          "updated_at": "2026-09-21T10:52:24-04:00",
+          "requisition_id": "R13233",
+          "title": "Business Development Manager",
+          "company_name": "Thoughtworks",
+          "first_published": "2026-06-04T08:59:09-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://www.thoughtworks.com/careers/jobs/7956304?gh_jid=7956304",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 3418923,
+          "location": {
+            "name": "Singapore, Singapore"
+          },
+          "metadata": [
+            {
+              "id": 17181,
+              "name": "Employment Type",
+              "value": "Employee",
+              "value_type": "single_select"
+            },
+            {
+              "id": 25173,
+              "name": "Job Role",
+              "value": "Client Partner",
+              "value_type": "single_select"
+            },
+            {
+              "id": 61790,
+              "name": "Job Grade",
+              "value": "Principal",
+              "value_type": "single_select"
+            },
+            {
+              "id": 25172,
+              "name": "Country",
+              "value": "Singapore",
+              "value_type": "single_select"
+            },
+            {
+              "id": 38057280,
+              "name": "Job Category",
+              "value": "Non-Technology",
+              "value_type": "single_select"
+            },
+            {
+              "id": 15975856,
+              "name": "Function",
+              "value": [
+                "Sales"
+              ],
+              "value_type": "multi_select"
+            },
+            {
+              "id": 25175,
+              "name": "Link to Video",
+              "value": null,
+              "value_type": "url"
+            },
+            {
+              "id": 53682232,
+              "name": "No. of days in office",
+              "value": "Fully On-site",
+              "value_type": "single_select"
+            }
+          ],
+          "id": 7956304,
+          "updated_at": "2026-09-21T10:52:24-04:00",
+          "requisition_id": "R13232",
+          "title": "Client Partner",
+          "company_name": "Thoughtworks",
+          "first_published": "2026-05-25T07:44:25-04:00",
+          "language": "en",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.thoughtworks.com",
+    "explanation": "Thoughtworks public employer careers board. Employer evidence: https://www.thoughtworks.com/careers/jobs. The listed ATS account is branded for this employer or its consolidated consulting group. Representative posting titles, locations, company branding and links were inspected; this proposal contains no personal search profile. Regional coverage and source limitations is documented in the monitor and separate live evidence report.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://www.thoughtworks.com/careers/jobs/8166611?gh_jid=8166611",
+      "https://www.thoughtworks.com/careers/jobs/7978633?gh_jid=7978633",
+      "https://www.thoughtworks.com/careers/jobs/7956304?gh_jid=7956304"
+    ]
+  }
+}

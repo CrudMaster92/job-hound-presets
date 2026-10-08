@@ -31,6 +31,7 @@
       "required": ["version", "company", "careers_url", "strategy", "allowed_hosts", "request", "pagination", "selectors", "mapping", "metadata"],
       "properties": {
         "version": {"const": 1},
+        "coverage_mode": {"enum": ["bounded", "all"], "default": "bounded"},
         "company": {"type": "string", "minLength": 1, "maxLength": 300},
         "careers_url": {"$ref": "#/$defs/httpUrl"},
         "strategy": {"enum": ["ashby", "greenhouse", "lever", "smartrecruiters", "workday", "jobvite", "json_ld", "generic_json", "generic_html", "playwright"]},
@@ -82,7 +83,7 @@
         "parameter": {"type": ["string", "null"]},
         "page_size_parameter": {"type": ["string", "null"]},
         "page_size": {"type": "integer", "minimum": 1, "maximum": 500},
-        "max_pages": {"type": "integer", "minimum": 1, "maximum": 100},
+        "max_pages": {"type": ["integer", "null"], "minimum": 1, "maximum": 100},
         "next_path": {"type": ["string", "null"]}
       }
     }

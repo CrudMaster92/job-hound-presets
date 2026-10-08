@@ -1,0 +1,25 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "captech",
+  "name": "CapTech Consulting",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.captechconsulting.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "technology-consulting"
+    ],
+    "specialties": [
+      "digital-transformation",
+      "data-and-analytics"
+    ],
+    "tags": [
+      "Consulting",
+      "Technology",
+      "AI",
+      "Global"
+    ]
+  }
+}

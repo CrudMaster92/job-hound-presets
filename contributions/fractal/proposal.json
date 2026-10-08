@@ -1,0 +1,133 @@
+{
+  "base_commit": "f059d360024b23693309cb4adb97ae907c29ada5",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "fractal",
+    "name": "Fractal",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://fractal.ai",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "fractal",
+    "company_id": "fractal",
+    "revision": 2,
+    "label": "Fractal careers",
+    "careers_url": "https://fractal.wd1.myworkdayjobs.com/Careers",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "Fractal",
+      "careers_url": "https://fractal.wd1.myworkdayjobs.com/Careers",
+      "strategy": "workday",
+      "allowed_hosts": [
+        "fractal.wd1.myworkdayjobs.com"
+      ],
+      "request": {
+        "url": "https://fractal.wd1.myworkdayjobs.com/wday/cxs/fractal/Careers/jobs",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "json_body": {
+          "appliedFacets": {},
+          "limit": 20,
+          "offset": 0,
+          "searchText": ""
+        },
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 20,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "tenant": "fractal",
+        "site": "Careers"
+      },
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://fractal.wd1.myworkdayjobs.com/wday/cxs/fractal/Careers/jobs",
+    "fetched_at": "2026-10-05T16:09:04.295952Z",
+    "payload": {
+      "jobPostings": [
+        {
+          "title": "Engagement Manager – Strategic Alliances, CPG-Retail",
+          "externalPath": "/job/New-York/Engagement-Manager---Strategic-Alliances--CPG-Retail_SR-42743-1",
+          "locationsText": "New York",
+          "postedOn": "Posted 30+ Days Ago",
+          "bulletFields": [
+            "SR-42743"
+          ]
+        },
+        {
+          "title": "Senior Decision Scientist – Demand Planner",
+          "externalPath": "/job/California/Senior-Consultant-Decision-Scientist-7_SR-46426-1",
+          "locationsText": "2 Locations",
+          "postedOn": "Posted 4 Days Ago",
+          "bulletFields": [
+            "SR-46426"
+          ]
+        },
+        {
+          "title": "Lead Azure Architect",
+          "externalPath": "/job/Texas/Lead-Azure-Architect_SR-46097",
+          "locationsText": "Texas",
+          "postedOn": "Posted 5 Days Ago",
+          "bulletFields": [
+            "SR-46097"
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://fractal.ai",
+    "explanation": "Fractal public employer careers board. Employer evidence: https://fractal.ai/careers/. The listed ATS account is branded for this employer or its consolidated consulting group. Representative posting titles, locations, company branding and links were inspected; this proposal contains no personal search profile. Regional coverage and source limitations is documented in the monitor and separate live evidence report.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://fractal.wd1.myworkdayjobs.com/job/New-York/Engagement-Manager---Strategic-Alliances--CPG-Retail_SR-42743-1",
+      "https://fractal.wd1.myworkdayjobs.com/job/California/Senior-Consultant-Decision-Scientist-7_SR-46426-1",
+      "https://fractal.wd1.myworkdayjobs.com/job/Texas/Lead-Azure-Architect_SR-46097"
+    ]
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "technology-data-ai-consulting",
+  "revision": 4,
+  "name": "Technology, Data & AI Consulting",
+  "description": "25 technology, data and AI consulting employers with 31 monitors, including Xebia regional boards. Recipes request all public role families and global listings through the updated resumable runtime. Third-party result-window or availability problems remain explicitly incomplete. Some feeds include labelled talent-pool or future-interest postings. Review dated coverage evidence.",
+  "tags": [
+    "Consulting",
+    "Technology",
+    "Data",
+    "AI",
+    "North America",
+    "Global"
+  ],
+  "facets": {
+    "collection_types": [
+      "industry"
+    ],
+    "industries": [
+      "technology-consulting"
+    ],
+    "role_families": [
+      "engineering",
+      "data-and-analytics",
+      "consulting"
+    ],
+    "locations": []
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "ahead",
+      "monitor_ids": [
+        "ahead"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "phdata",
+      "monitor_ids": [
+        "phdata"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "greenlight-consulting",
+      "monitor_ids": [
+        "greenlight-consulting"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "66degrees",
+      "monitor_ids": [
+        "66degrees"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "resultant",
+      "monitor_ids": [
+        "resultant"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "accenture",
+      "monitor_ids": [
+        "accenture"
+      ],
+      "note": "Global careers board; all-role listing and description traversal resumes across work slices. Source search windows and missing metadata can leave coverage incomplete; partial reads never close unseen roles."
+    },
+    {
+      "company_id": "capco",
+      "monitor_ids": [
+        "capco"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "thoughtworks",
+      "monitor_ids": [
+        "thoughtworks"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "artefact",
+      "monitor_ids": [
+        "artefact"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "xebia",
+      "monitor_ids": [
+        "xebia-benelux",
+        "xebia-dach",
+        "xebia-france",
+        "xebia-latin-america",
+        "xebia-mea",
+        "xebia-north-america",
+        "xebia-poland-eastern-europe"
+      ],
+      "note": "Seven regional careers boards. Latin America returned an empty listing on the dated audit; all monitors remain unverified pending upstream review."
+    },
+    {
+      "company_id": "caylent",
+      "monitor_ids": [
+        "caylent"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "west-monroe",
+      "monitor_ids": [
+        "west-monroe"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "bounteous",
+      "monitor_ids": [
+        "bounteous"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "point-b",
+      "monitor_ids": [
+        "point-b"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "zencore",
+      "monitor_ids": [
+        "zencore"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "captech",
+      "monitor_ids": [
+        "captech"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "sia",
+      "monitor_ids": [
+        "sia"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "endava",
+      "monitor_ids": [
+        "endava"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "version-1",
+      "monitor_ids": [
+        "version-1"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "blend360",
+      "monitor_ids": [
+        "blend360"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "devoteam",
+      "monitor_ids": [
+        "devoteam"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "nagarro",
+      "monitor_ids": [
+        "nagarro"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "guidehouse",
+      "monitor_ids": [
+        "guidehouse"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "fractal",
+      "monitor_ids": [
+        "fractal"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    },
+    {
+      "company_id": "quantiphi",
+      "monitor_ids": [
+        "quantiphi"
+      ],
+      "note": "Global public careers feed; all-role listing and description traversal resumes across work slices."
+    }
+  ]
+}

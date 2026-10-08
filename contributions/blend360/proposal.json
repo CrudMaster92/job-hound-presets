@@ -1,0 +1,470 @@
+{
+  "base_commit": "f059d360024b23693309cb4adb97ae907c29ada5",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "blend360",
+    "name": "Blend360",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://www.blend360.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "blend360",
+    "company_id": "blend360",
+    "revision": 2,
+    "label": "Blend360 careers",
+    "careers_url": "https://careers.smartrecruiters.com/Blend360",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "Blend360",
+      "careers_url": "https://careers.smartrecruiters.com/Blend360",
+      "strategy": "smartrecruiters",
+      "allowed_hosts": [
+        "api.smartrecruiters.com",
+        "careers.smartrecruiters.com",
+        "jobs.smartrecruiters.com"
+      ],
+      "request": {
+        "url": "https://api.smartrecruiters.com/v1/companies/Blend360/postings",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "company_slug": "Blend360"
+      },
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://api.smartrecruiters.com/v1/companies/Blend360/postings",
+    "fetched_at": "2026-10-05T16:09:03.459234Z",
+    "payload": {
+      "content": [
+        {
+          "id": "744000153478925",
+          "name": "Lead Snowflake Engineer (AWS)",
+          "uuid": "36ab2428-aec5-468f-8edd-8b823251444d",
+          "jobAdId": "ca2047e4-a76c-4769-a3a8-c8fa85bbce8b",
+          "defaultJobAd": true,
+          "refNumber": "19578",
+          "company": {
+            "identifier": "Blend360",
+            "name": "Blend360"
+          },
+          "releasedDate": "2026-10-05T12:01:19.626Z",
+          "location": {
+            "city": "Hyderabad",
+            "region": "TS",
+            "country": "in",
+            "remote": false,
+            "hybrid": false,
+            "fullLocation": "Hyderabad, TS, India"
+          },
+          "industry": {
+            "id": "marketing_and_advertising",
+            "label": "Marketing And Advertising"
+          },
+          "department": {},
+          "function": {
+            "id": "marketing",
+            "label": "Marketing"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "65c5410215187e609d5ef598",
+              "fieldLabel": "Function",
+              "valueId": "0e71c584-7c99-41c6-b104-0047e5e45a14",
+              "valueLabel": "Data Engineering"
+            },
+            {
+              "fieldId": "61439683f32966646e734c68",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Blend360"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "in",
+              "valueLabel": "India"
+            },
+            {
+              "fieldId": "6197c9d823c5e76f39c4645f",
+              "fieldLabel": "Service Line",
+              "valueId": "d936cdba-9715-41ed-9248-7bf65a82d96d",
+              "valueLabel": "AI Engineering and Science (AIES)"
+            },
+            {
+              "fieldId": "6197e2766644b316ae020f6f",
+              "fieldLabel": "Management Level",
+              "valueId": "56f7b717-4404-4c62-8344-e9406b5db951",
+              "valueLabel": "Senior Analyst"
+            },
+            {
+              "fieldId": "6197dcdf5c1dc670650a820b",
+              "fieldLabel": "Work Location",
+              "valueId": "e5c99343-d8e9-4dfd-8d88-722753bc45c3",
+              "valueLabel": "Hyderabad, Telangana, India"
+            },
+            {
+              "fieldId": "64d643779bd8c41fcb4ceaa3",
+              "fieldLabel": "Placement Type",
+              "valueId": "e83b1ed0-2929-4bc5-a2ce-6d7c46c5fa6c",
+              "valueLabel": "Core"
+            },
+            {
+              "fieldId": "65c540a028671f385bac4887",
+              "fieldLabel": "Sub Service Line",
+              "valueId": "af0bed1a-4cb5-4087-a718-0bd2a5ffdfbb",
+              "valueLabel": "Data Engineering"
+            },
+            {
+              "fieldId": "62fbb0e7a3d83d3289d54fc7",
+              "fieldLabel": "Job Priority",
+              "valueId": "3d1a6c8c-c990-4711-ad78-0bf5d852f8a1",
+              "valueLabel": "A"
+            },
+            {
+              "fieldId": "6197d79323c5e76f39c46463",
+              "fieldLabel": "Region",
+              "valueId": "d12f8ce7-a821-473f-94e8-6ba9be12e775",
+              "valueLabel": "IDC"
+            },
+            {
+              "fieldId": "64d642c9a078325b152b26ce",
+              "fieldLabel": "HubSpot ID",
+              "valueLabel": "64434976294"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Blend360/postings/744000153478925",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000153424250",
+          "name": "Full Stack BI Engineer - PowerBI, Tableau and REST API",
+          "uuid": "1a1535af-b5bc-4f04-ac03-ed9be32eb2d5",
+          "jobAdId": "be6251bf-010e-4cd9-bfad-5934acccd368",
+          "defaultJobAd": true,
+          "refNumber": "19533",
+          "company": {
+            "identifier": "Blend360",
+            "name": "Blend360"
+          },
+          "releasedDate": "2026-10-05T08:03:34.233Z",
+          "location": {
+            "city": "Hyderabad",
+            "region": "TS",
+            "country": "in",
+            "remote": false,
+            "hybrid": true,
+            "fullLocation": "Hyderabad, TS, India"
+          },
+          "industry": {
+            "id": "marketing_and_advertising",
+            "label": "Marketing And Advertising"
+          },
+          "department": {},
+          "function": {
+            "id": "marketing",
+            "label": "Marketing"
+          },
+          "typeOfEmployment": {
+            "id": "permanent",
+            "label": "Full-time"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "65c5410215187e609d5ef598",
+              "fieldLabel": "Function",
+              "valueId": "ea0c5fa5-22de-4ee3-a08b-394852a6455e",
+              "valueLabel": "Reporting and Insights"
+            },
+            {
+              "fieldId": "61439683f32966646e734c68",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Blend360"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "in",
+              "valueLabel": "India"
+            },
+            {
+              "fieldId": "6877f3e3bfdc7bf8c1135d17",
+              "fieldLabel": "Deal Stage",
+              "valueId": "08d18c16-ceba-4751-af83-375b31d96229",
+              "valueLabel": "4- Proposal Presented"
+            },
+            {
+              "fieldId": "6197c9d823c5e76f39c4645f",
+              "fieldLabel": "Service Line",
+              "valueId": "d936cdba-9715-41ed-9248-7bf65a82d96d",
+              "valueLabel": "AI Engineering and Science (AIES)"
+            },
+            {
+              "fieldId": "6197e2766644b316ae020f6f",
+              "fieldLabel": "Management Level",
+              "valueId": "56f7b717-4404-4c62-8344-e9406b5db951",
+              "valueLabel": "Senior Analyst"
+            },
+            {
+              "fieldId": "6197dcdf5c1dc670650a820b",
+              "fieldLabel": "Work Location",
+              "valueId": "e5c99343-d8e9-4dfd-8d88-722753bc45c3",
+              "valueLabel": "Hyderabad, Telangana, India"
+            },
+            {
+              "fieldId": "64d643779bd8c41fcb4ceaa3",
+              "fieldLabel": "Placement Type",
+              "valueId": "e83b1ed0-2929-4bc5-a2ce-6d7c46c5fa6c",
+              "valueLabel": "Core"
+            },
+            {
+              "fieldId": "65c540a028671f385bac4887",
+              "fieldLabel": "Sub Service Line",
+              "valueId": "da4f0970-31c4-44b7-ba5b-b9bdbbd6624d",
+              "valueLabel": "Reporting and Insights"
+            },
+            {
+              "fieldId": "62fbb0e7a3d83d3289d54fc7",
+              "fieldLabel": "Job Priority",
+              "valueId": "3d1a6c8c-c990-4711-ad78-0bf5d852f8a1",
+              "valueLabel": "A"
+            },
+            {
+              "fieldId": "6197d79323c5e76f39c46463",
+              "fieldLabel": "Region",
+              "valueId": "d12f8ce7-a821-473f-94e8-6ba9be12e775",
+              "valueLabel": "IDC"
+            },
+            {
+              "fieldId": "64d642c9a078325b152b26ce",
+              "fieldLabel": "HubSpot ID",
+              "valueLabel": "64055959382"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Blend360/postings/744000153424250",
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        },
+        {
+          "id": "744000153244199",
+          "name": "Manager of Marketing Campaign Planning & Delivery",
+          "uuid": "db2994ca-b72a-49be-a87e-7bc26b53a6d0",
+          "jobAdId": "2dbeecef-b883-4f99-85e8-5dadc3324981",
+          "defaultJobAd": true,
+          "refNumber": "REF2886B",
+          "company": {
+            "identifier": "Blend360",
+            "name": "Blend360"
+          },
+          "releasedDate": "2026-10-02T17:29:22.433Z",
+          "location": {
+            "city": "Toronto",
+            "region": "ON",
+            "country": "ca",
+            "remote": false,
+            "hybrid": true,
+            "hybridDescription": "3 days per week onsite",
+            "latitude": "43.6548253",
+            "longitude": "-79.388447",
+            "fullLocation": "Toronto, ON, Canada"
+          },
+          "industry": {
+            "id": "marketing_and_advertising",
+            "label": "Marketing And Advertising"
+          },
+          "department": {},
+          "function": {
+            "id": "marketing",
+            "label": "Marketing"
+          },
+          "typeOfEmployment": {
+            "id": "contract",
+            "label": "Contract"
+          },
+          "experienceLevel": {
+            "id": "mid_senior_level",
+            "label": "Mid-Senior Level"
+          },
+          "customField": [
+            {
+              "fieldId": "65c5410215187e609d5ef598",
+              "fieldLabel": "Function",
+              "valueId": "ad28fa39-02b3-41bd-9349-1c97e3228073",
+              "valueLabel": "Workforce Solutions"
+            },
+            {
+              "fieldId": "6197c9d823c5e76f39c4645f",
+              "fieldLabel": "Service Line",
+              "valueId": "2e060ae0-19db-4f31-9f40-f2cafa046b1c",
+              "valueLabel": "Workforce Solutions (WS)"
+            },
+            {
+              "fieldId": "64d644d143262249d8140c12",
+              "fieldLabel": "Location Requirement",
+              "valueId": "64783d8c-bf5f-4242-94cf-0bdd6bd49017",
+              "valueLabel": "On-site"
+            },
+            {
+              "fieldId": "64d643779bd8c41fcb4ceaa3",
+              "fieldLabel": "Placement Type",
+              "valueId": "f1ff1f7a-d9cd-4afb-bb3b-a5e923c14919",
+              "valueLabel": "Consultant"
+            },
+            {
+              "fieldId": "65c540a028671f385bac4887",
+              "fieldLabel": "Sub Service Line",
+              "valueId": "b121f2b6-0d9c-4e06-8f90-f21ee7fd9515",
+              "valueLabel": "Workforce Solutions"
+            },
+            {
+              "fieldId": "61439683f32966646e734c68",
+              "fieldLabel": "Brands",
+              "valueId": "default",
+              "valueLabel": "Blend360"
+            },
+            {
+              "fieldId": "COUNTRY",
+              "fieldLabel": "Country/Region",
+              "valueId": "ca",
+              "valueLabel": "Canada"
+            },
+            {
+              "fieldId": "64d64523a5f86a62ed034064",
+              "fieldLabel": "Duration",
+              "valueId": "3eae0c6a-4e43-4267-ba7c-7a96e0188c05",
+              "valueLabel": "10 months"
+            },
+            {
+              "fieldId": "62fbb0e7a3d83d3289d54fc7",
+              "fieldLabel": "Job Priority",
+              "valueId": "3d1a6c8c-c990-4711-ad78-0bf5d852f8a1",
+              "valueLabel": "A"
+            },
+            {
+              "fieldId": "6197d79323c5e76f39c46463",
+              "fieldLabel": "Region",
+              "valueId": "757d06a5-0b5d-4861-b842-fe2bbb70ce73",
+              "valueLabel": "NA"
+            },
+            {
+              "fieldId": "64d642c9a078325b152b26ce",
+              "fieldLabel": "HubSpot ID",
+              "valueLabel": "60785706916"
+            },
+            {
+              "fieldId": "64d645786894a7466e07791d",
+              "fieldLabel": "Hourly Billing Rate",
+              "valueLabel": "100.0 CAD"
+            },
+            {
+              "fieldId": "64d645d37f9a7214b016e492",
+              "fieldLabel": "Hours per Week",
+              "valueLabel": "40"
+            },
+            {
+              "fieldId": "64d64622a709c666f739b495",
+              "fieldLabel": "External Hiring Manager",
+              "valueLabel": "Apurva Singh"
+            },
+            {
+              "fieldId": "64d645599bd8c41fcb4ceaa4",
+              "fieldLabel": "Hourly Pay Rate",
+              "valueLabel": "50.0 CAD"
+            }
+          ],
+          "visibility": "PUBLIC",
+          "ref": "https://api.smartrecruiters.com/v1/companies/Blend360/postings/744000153244199",
+          "creator": {
+            "name": "Kim Roberts"
+          },
+          "language": {
+            "code": "en",
+            "label": "English",
+            "labelNative": "English (US)"
+          }
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.blend360.com",
+    "explanation": "Blend360 public employer careers board. Employer evidence: https://www.blend360.com/careers/. The listed ATS account is branded for this employer or its consolidated consulting group. Representative posting titles, locations, company branding and links were inspected; this proposal contains no personal search profile. Regional coverage and source limitations is documented in the monitor and separate live evidence report.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://api.smartrecruiters.com/v1/companies/Blend360/postings/744000153478925",
+      "https://api.smartrecruiters.com/v1/companies/Blend360/postings/744000153424250",
+      "https://api.smartrecruiters.com/v1/companies/Blend360/postings/744000153244199"
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "base_commit": "f059d360024b23693309cb4adb97ae907c29ada5",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "caylent",
+    "name": "Caylent",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://caylent.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "caylent",
+    "company_id": "caylent",
+    "revision": 2,
+    "label": "Caylent careers",
+    "careers_url": "https://job-boards.greenhouse.io/caylent",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "Caylent",
+      "careers_url": "https://job-boards.greenhouse.io/caylent",
+      "strategy": "generic_json",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/caylent/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {
+        "items": "jobs",
+        "source_id": "id",
+        "title": "title",
+        "location": "location.name",
+        "url": "absolute_url",
+        "description": "content",
+        "posted_date": "updated_at"
+      },
+      "metadata": {
+        "board_token": "caylent"
+      },
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/caylent/jobs",
+    "fetched_at": "2026-10-05T16:09:02.097146Z",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/caylent/jobs/5993149004",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 5149155004,
+          "location": {
+            "name": "CANADA"
+          },
+          "metadata": null,
+          "id": 5993149004,
+          "updated_at": "2026-09-16T11:56:17-04:00",
+          "requisition_id": "436",
+          "title": "AI/ML Engineering Manager",
+          "company_name": "Caylent",
+          "first_published": "2026-05-11T08:38:04-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/caylent/jobs/5985809004",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 5149155004,
+          "location": {
+            "name": "MEXICO"
+          },
+          "metadata": null,
+          "id": 5985809004,
+          "updated_at": "2026-09-16T11:56:17-04:00",
+          "requisition_id": "436",
+          "title": "AI/ML Engineering Manager",
+          "company_name": "Caylent",
+          "first_published": "2026-04-30T15:20:43-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/caylent/jobs/5985808004",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 5149155004,
+          "location": {
+            "name": "ARGENTINA"
+          },
+          "metadata": null,
+          "id": 5985808004,
+          "updated_at": "2026-09-16T11:56:17-04:00",
+          "requisition_id": "436",
+          "title": "AI/ML Engineering Manager",
+          "company_name": "Caylent",
+          "first_published": "2026-04-30T15:20:42-04:00",
+          "language": "en",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://caylent.com",
+    "explanation": "Caylent public employer careers board. Employer evidence: https://caylent.com/careers. The listed ATS account is branded for this employer or its consolidated consulting group. Representative posting titles, locations, company branding and links were inspected; this proposal contains no personal search profile. Regional coverage and source limitations is documented in the monitor and separate live evidence report.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://job-boards.greenhouse.io/caylent/jobs/5993149004",
+      "https://job-boards.greenhouse.io/caylent/jobs/5985809004",
+      "https://job-boards.greenhouse.io/caylent/jobs/5985808004"
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "base_commit": "f059d360024b23693309cb4adb97ae907c29ada5",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "phdata",
+    "name": "phData",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://www.phdata.io",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "phdata",
+    "company_id": "phdata",
+    "revision": 2,
+    "label": "phData careers",
+    "careers_url": "https://job-boards.greenhouse.io/phdata",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "phData",
+      "careers_url": "https://job-boards.greenhouse.io/phdata",
+      "strategy": "generic_json",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/phdata/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {
+        "items": "jobs",
+        "source_id": "id",
+        "title": "title",
+        "location": "location.name",
+        "url": "absolute_url",
+        "description": "content",
+        "posted_date": "updated_at"
+      },
+      "metadata": {
+        "board_token": "phdata"
+      },
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/phdata/jobs",
+    "fetched_at": "2026-10-05T16:09:01.669778Z",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://www.phdata.io/jobs?gh_jid=8165237",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 3533644,
+          "location": {
+            "name": "US - Remote"
+          },
+          "metadata": null,
+          "id": 8165237,
+          "updated_at": "2026-09-10T09:40:14-04:00",
+          "requisition_id": "26492",
+          "title": "AI & Data Strategy Architect ",
+          "company_name": "phData",
+          "first_published": "2026-09-01T17:19:45-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://www.phdata.io/jobs?gh_jid=8145891",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 3525108,
+          "location": {
+            "name": "US - Remote"
+          },
+          "metadata": null,
+          "id": 8145891,
+          "updated_at": "2026-10-04T21:39:05-04:00",
+          "requisition_id": "26408",
+          "title": "AI Services Lead - Client Services",
+          "company_name": "phData",
+          "first_published": "2026-10-02T18:57:31-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://www.phdata.io/jobs?gh_jid=8145909",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 3525116,
+          "location": {
+            "name": "US - Remote"
+          },
+          "metadata": null,
+          "id": 8145909,
+          "updated_at": "2026-09-03T12:57:36-04:00",
+          "requisition_id": "26409",
+          "title": "AI Services Lead - Client Services (Private Equity)",
+          "company_name": "phData",
+          "first_published": "2026-08-21T13:36:41-04:00",
+          "language": "en",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.phdata.io",
+    "explanation": "phData public employer careers board. Employer evidence: https://www.phdata.io/jobs/. The listed ATS account is branded for this employer or its consolidated consulting group. Representative posting titles, locations, company branding and links were inspected; this proposal contains no personal search profile. Regional coverage and source limitations is documented in the monitor and separate live evidence report.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://www.phdata.io/jobs?gh_jid=8165237",
+      "https://www.phdata.io/jobs?gh_jid=8145891",
+      "https://www.phdata.io/jobs?gh_jid=8145909"
+    ]
+  }
+}

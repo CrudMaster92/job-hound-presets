@@ -1,0 +1,158 @@
+{
+  "base_commit": "f059d360024b23693309cb4adb97ae907c29ada5",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "xebia",
+    "name": "Xebia",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://xebia.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "technology-consulting"
+      ],
+      "specialties": [
+        "digital-transformation",
+        "data-and-analytics"
+      ],
+      "tags": [
+        "Consulting",
+        "Technology",
+        "AI",
+        "Global"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "xebia-france",
+    "company_id": "xebia",
+    "revision": 2,
+    "label": "Xebia France careers",
+    "careers_url": "https://job-boards.greenhouse.io/xebiafrance",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Requires the updated all-role traversal runtime; awaiting trusted upstream validation."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "company": "Xebia",
+      "careers_url": "https://job-boards.greenhouse.io/xebiafrance",
+      "strategy": "generic_json",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/xebiafrance/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {
+        "items": "jobs",
+        "source_id": "id",
+        "title": "title",
+        "location": "location.name",
+        "url": "absolute_url",
+        "description": "content",
+        "posted_date": "updated_at"
+      },
+      "metadata": {},
+      "coverage_mode": "all"
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/xebiafrance/jobs",
+    "fetched_at": "2026-10-05T17:38:50.198096Z",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/xebiafrance/jobs/6145107004",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": true,
+              "requires_processing_consent": true,
+              "requires_retention_consent": false,
+              "retention_period": 1080,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 5200914004,
+          "location": {
+            "name": "Paris"
+          },
+          "metadata": [
+            {
+              "id": 4166921004,
+              "name": "Employment Type",
+              "value": null,
+              "value_type": "single_select"
+            },
+            {
+              "id": 4729148004,
+              "name": "Additional Skill Details",
+              "value": "program management, portfolio management",
+              "value_type": "short_text"
+            },
+            {
+              "id": 25123618004,
+              "name": "Job Description",
+              "value": null,
+              "value_type": "long_text"
+            },
+            {
+              "id": 26779830004,
+              "name": "Salary Brackets",
+              "value": null,
+              "value_type": "short_text"
+            }
+          ],
+          "id": 6145107004,
+          "updated_at": "2026-09-25T07:45:24-04:00",
+          "requisition_id": "11403",
+          "title": "Client Engagement Manager",
+          "company_name": "France",
+          "first_published": "2026-08-18T02:22:43-04:00",
+          "language": "en",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://xebia.com",
+    "explanation": "Xebia links this france employer board directly from its official careers page https://xebia.com/careers/. This is a distinct regional source, included alongside all other Xebia careers regions. Original job titles, employer descriptions and source URLs were inspected.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://job-boards.greenhouse.io/xebiafrance/jobs/6145107004"
+    ]
+  }
+}
