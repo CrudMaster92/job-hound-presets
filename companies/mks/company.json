@@ -1,0 +1,27 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "mks",
+  "name": "MKS Instruments",
+  "legal_name": null,
+  "aliases": [
+    "MKS"
+  ],
+  "website_url": "https://www.mks.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "scientific-instruments"
+    ],
+    "specialties": [
+      "photonics",
+      "metrology",
+      "instrumentation"
+    ],
+    "tags": [
+      "Advanced Technology",
+      "Science",
+      "Engineering"
+    ]
+  }
+}

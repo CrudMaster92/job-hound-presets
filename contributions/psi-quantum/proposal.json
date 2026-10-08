@@ -1,0 +1,431 @@
+{
+  "base_commit": "313e8b1c910139934b10c5bbc740966c64b2ff5f",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "psi-quantum",
+    "name": "PsiQuantum",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://www.psiquantum.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "quantum-computing"
+      ],
+      "specialties": [
+        "quantum-hardware",
+        "research-and-development"
+      ],
+      "tags": [
+        "Advanced Technology",
+        "Science",
+        "Engineering"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "psi-quantum",
+    "company_id": "psi-quantum",
+    "revision": 1,
+    "label": "PsiQuantum careers",
+    "careers_url": "https://job-boards.greenhouse.io/psiquantum",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local evidence only; awaiting trusted upstream validation.",
+        "All role families advertised on this public employer board; no title or geographic filter."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "PsiQuantum",
+      "careers_url": "https://job-boards.greenhouse.io/psiquantum",
+      "strategy": "greenhouse",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/psiquantum/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "board_token": "psiquantum"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/psiquantum/jobs",
+    "fetched_at": "2026-10-08T14:33:26.575246+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://www.psiquantum.com/apply?gh_jid=7979452003",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "education": "education_optional",
+          "internal_job_id": 5879281003,
+          "location": {
+            "name": "Palo Alto, California, United States"
+          },
+          "metadata": [
+            {
+              "id": 16581520003,
+              "name": "U.S. Pay Range",
+              "value": {
+                "unit": "USD",
+                "max_value": "0.0",
+                "min_value": "0.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 27885156003,
+              "name": "International Pay Range",
+              "value": {
+                "unit": "USD",
+                "max_value": "0.0",
+                "min_value": "0.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 41706360003,
+              "name": "U.S. Zone 1",
+              "value": {
+                "unit": "USD",
+                "max_value": "178400.0",
+                "min_value": "151800.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 41706432003,
+              "name": "U.S. Zone 2",
+              "value": {
+                "unit": "USD",
+                "max_value": "160600.0",
+                "min_value": "136700.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 41706357003,
+              "name": "U.S. Zone 3",
+              "value": {
+                "unit": "USD",
+                "max_value": "142700.0",
+                "min_value": "121500.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 41706358003,
+              "name": "U.S. Zone 4",
+              "value": {
+                "unit": "USD",
+                "max_value": "124900.0",
+                "min_value": "106300.0"
+              },
+              "value_type": "currency_range"
+            }
+          ],
+          "id": 7979452003,
+          "updated_at": "2026-10-01T18:22:01-04:00",
+          "requisition_id": "2026-PLAN-3850-2",
+          "title": "Computational Chemist - GPU Acceleration",
+          "company_name": "PsiQuantum",
+          "first_published": "2026-08-27T12:40:02-04:00",
+          "language": "en",
+          "application_deadline": null,
+          "content": "&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;PsiQuantum&#39;s mission is to build the first useful quantum computers: machines capable of delivering the breakthroughs the field has long promised. Since our founding in 2016, our singular focus has been to build and deploy million-qubit, fault-tolerant quantum systems.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:200,&amp;quot;335559740&amp;quot;:276}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Quantum computers harness the laws of quantum mechanics to solve problems that even the most advanced supercomputers or AI systems will never reach. Their impact will span energy, pharmaceuticals, finance, agriculture, transportation, materials, and other foundational industries.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:200,&amp;quot;335559740&amp;quot;:276}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Our architecture&amp;nbsp;and approach&amp;nbsp;is&amp;nbsp;based on silicon photonics. By&amp;nbsp;leveraging&amp;nbsp;the advanced semiconductor manufacturing industry, including partners like GlobalFoundries, we use the same high-volume processes that already produce billions of chips for telecom and consumer electronics. Photonics offers natural advantages for scale: photons&amp;nbsp;don&#39;t&amp;nbsp;feel heat, are immune to electromagnetic interference, and integrate with existing cryogenic cooling and standard fiber-optic infrastructure.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:200,&amp;quot;335559740&amp;quot;:276}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;That approach has since been tested at the highest level of scrutiny the U.S. government applies to emerging technology, and it has held up. In 2025,&amp;nbsp;PsiQuantum&amp;nbsp;closed a&amp;nbsp;$1 billion&amp;nbsp;funding round that valued the company at&amp;nbsp;$7 billion. In 2026, the U.S. Department of Commerce signed a $100 million Letter of Intent under the CHIPS and Science Act, followed by a $125 million agreement with DARPA under Stage C of its Quantum Benchmarking Initiative,&amp;nbsp;PsiQuantum&#39;s&amp;nbsp;most valuable U.S. government agreement to date. This year, we also broke ground on our utility-scale quantum computer in Brisbane, Australia, and continued building out our Chicago site. Victor Peng, our CEO, and co-founder Jeremy O&#39;Brien, now Executive&amp;nbsp;Chairman, lead a team and board that reflects how seriously the world is taking this build, joined this year by Intel&#39;s Lip-Bu Tan and Atomico&#39;s Niklas&amp;nbsp;Zennström.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:200,&amp;quot;335559740&amp;quot;:276}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;PsiQuantum&amp;nbsp;also develops the algorithms and software needed to make these systems commercially valuable. Our application, software, and industry teams work directly with leading Fortune 500 companies, including&amp;nbsp;Airbus,&amp;nbsp;Lockheed&amp;nbsp;Martin, Mercedes-Benz, Boehringer Ingelheim, and Mitsubishi Chemical, to prepare quantum solutions for real-world impact.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:200,&amp;quot;335559740&amp;quot;:276}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Quantum computing is not an extension of classical computing. It&amp;nbsp;represents&amp;nbsp;a fundamental shift, and a path to mastering challenges that cannot be&amp;nbsp;solved&amp;nbsp;any other way. The potential is enormous, and we now have&amp;nbsp;the funding,&amp;nbsp;the government&amp;nbsp;validation, and&amp;nbsp;the sites&amp;nbsp;under construction to make it real.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:200,&amp;quot;335559740&amp;quot;:276}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Job Summary:&lt;/strong&gt;&lt;/p&gt;\n&lt;p data-renderer-start-pos=&quot;1&quot;&gt;Want to be at the forefront of using high-performance computing, GPU acceleration, computational chemistry, and quantum computing to solve challenging problems in chemistry and materials science?&amp;nbsp;&lt;/p&gt;\n&lt;p data-renderer-start-pos=&quot;199&quot;&gt;PsiQuantum is seeking a &lt;strong data-renderer-mark=&quot;true&quot;&gt;Computational Chemist with strong GPU acceleration and scientific software development expertise&lt;/strong&gt; to join our Quantum Solutions team. You will develop and optimize computational chemistry algorithms and scientific workflows for modern heterogeneous computing platforms, with particular emphasis on &lt;strong data-renderer-mark=&quot;true&quot;&gt;AMD and NVIDIA GPUs&lt;/strong&gt;.&amp;nbsp;&lt;/p&gt;\n&lt;p data-renderer-start-pos=&quot;543&quot;&gt;You will work at the intersection of computational chemistry, electronic-structure theory, high-performance computing, and fault-tolerant quantum computing. A major focus of this role will be accelerating computationally demanding chemistry workloads, improving end-to-end computational pipelines, and enabling efficient integration between classical HPC/GPU calculations and emerging quantum-computing workflows.&amp;nbsp;&lt;/p&gt;\n&lt;p data-renderer-start-pos=&quot;959&quot;&gt;You will collaborate closely with computational chemists, quantum algorithm researchers, and scientific software developers to identify performance bottlenecks, design scalable numerical algorithms, and translate state-of-the-art computational chemistry methods into robust, high-performance implementations.&amp;nbsp;&lt;/p&gt;\n&lt;p data-renderer-start-pos=&quot;1270&quot;&gt;This role offers the opportunity to conduct publishable scientific research while developing computational capabilities that can operate at the scale required for industrially relevant chemistry and materials problems.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Develop, implement, and optimize computational chemistry and electronic-structure algorithms for GPU-accelerated computing platforms.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Design scientific software capable of efficiently utilizing &lt;strong data-renderer-mark=&quot;true&quot;&gt;NVIDIA and AMD GPU architectures&lt;/strong&gt;, as well as conventional CPU-based HPC systems.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Profile and optimize computational kernels, memory movement, parallelism, and end-to-end scientific workflows to improve performance and scalability.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Develop computational pipelines that combine best-in-class classical approaches, including HPC and GPU acceleration, with fault-tolerant quantum-computing workflows.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Identify computational bottlenecks in electronic-structure and quantum-chemistry methods and develop algorithmic and software solutions to address them.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Implement and optimize numerical methods relevant to electronic-structure calculations, including tensor contractions, linear algebra, iterative solvers, and related computational primitives.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Work closely with computational chemists and quantum algorithm researchers to benchmark and validate GPU-accelerated classical methods against emerging quantum algorithms.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Contribute to the architecture and development of scalable scientific software used for molecular and materials simulations.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Evaluate emerging GPU programming frameworks, libraries, and hardware capabilities and determine how they can improve computational chemistry workloads.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Participate in scientific collaborations and technical discussions across chemistry, physics, materials science, quantum computing, and high-performance computing teams.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Document software and research results and contribute to internal technical reports, scientific publications, and presentations.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Experience/Qualifications:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li data-renderer-start-pos=&quot;29&quot;&gt;Ph.D. in computational chemistry, theoretical chemistry, computational physics, materials science, computer science, or a closely related field, or equivalent relevant experience.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;29&quot;&gt;Strong understanding of computational chemistry or electronic-structure methods, such as density functional theory, wave-function-based quantum chemistry, atomistic simulation, or related numerical methods.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;29&quot;&gt;Demonstrated experience developing or optimizing &lt;strong data-renderer-mark=&quot;true&quot;&gt;GPU-accelerated scientific software&lt;/strong&gt;.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;29&quot;&gt;Experience programming for GPU or heterogeneous computing environments, for example using &lt;strong data-renderer-mark=&quot;true&quot;&gt;CUDA, HIP/ROCm, or comparable GPU programming frameworks&lt;/strong&gt;.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;29&quot;&gt;Experience working with &lt;strong data-renderer-mark=&quot;true&quot;&gt;NVIDIA and/or AMD GPU architectures&lt;/strong&gt; and understanding of GPU performance considerations such as memory hierarchy, data movement, parallel execution, and kernel performance.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;29&quot;&gt;Strong experience with high-performance computing and parallel scientific workloads.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;29&quot;&gt;Proficiency in scientific programming and algorithm development using &lt;strong data-renderer-mark=&quot;true&quot;&gt;C++, C, Fortran, and/or Python&lt;/strong&gt;, with the ability to work effectively in large scientific software codebases.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;29&quot;&gt;Experience profiling, benchmarking, and optimizing scientific applications.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;29&quot;&gt;Strong numerical and computational problem-solving skills and the ability to translate mathematical algorithms into efficient software implementations.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;29&quot;&gt;Ability to work effectively in a collaborative, interdisciplinary research environment spanning chemistry, physics, materials science, HPC, and quantum computing.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p data-renderer-start-pos=&quot;1560&quot;&gt;Preferred Qualifications&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li data-renderer-start-pos=&quot;1589&quot;&gt;Experience developing GPU implementations of &lt;strong data-renderer-mark=&quot;true&quot;&gt;electronic-structure or quantum-chemistry methods&lt;/strong&gt;.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1589&quot;&gt;Experience with both &lt;strong data-renderer-mark=&quot;true&quot;&gt;NVIDIA CUDA and AMD HIP/ROCm ecosystems&lt;/strong&gt;, including porting or maintaining scientific software across GPU architectures.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1589&quot;&gt;Experience optimizing large computational pipelines rather than individual kernels alone, including CPU/GPU scheduling, asynchronous execution, data movement, and distributed GPU workloads.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1589&quot;&gt;Experience with GPU-accelerated scientific libraries or frameworks for dense/sparse linear algebra, tensor operations, FFTs, or related numerical workloads.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1589&quot;&gt;Experience with distributed-memory HPC environments using technologies such as MPI in combination with multi-GPU computing.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1589&quot;&gt;Experience developing, extending, or contributing to large-scale scientific software for electronic structure, quantum chemistry, or materials modeling.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1589&quot;&gt;Experience with &lt;strong data-renderer-mark=&quot;true&quot;&gt;DMRG, tensor-network methods, or other strongly correlated electronic-structure methods&lt;/strong&gt;, particularly implementations involving large tensor contractions or GPU acceleration.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1589&quot;&gt;Experience with coupled-cluster, configuration-interaction, multireference, or other advanced wave-function-based electronic-structure methods.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1589&quot;&gt;Experience with quantum embedding, localized orbital methods, active-space approaches, or reduced electronic models derived from first-principles calculations.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1589&quot;&gt;Experience applying or evaluating quantum-computing algorithms for electronic-structure, chemistry, or materials-science applications.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1589&quot;&gt;Experience developing portable performance-critical software targeting multiple accelerator architectures.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1589&quot;&gt;Strong track record of scientific software contributions and/or peer-reviewed publications.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;PsiQuantum provides equal employment opportunity for all applicants and employees. PsiQuantum does not unlawfully discriminate on the basis of race, color, religion, sex (including pregnancy, childbirth, or related medical conditions), gender identity, gender expression, national origin, ancestry, citizenship, age, physical or mental disability, military or veteran status, marital status, domestic partner status, sexual orientation, genetic information, or any other basis protected by applicable laws.&lt;/p&gt;\n&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Note: PsiQuantum will only reach out to you using an official PsiQuantum email address and will never ask you for bank account information as part of the interview process. Please report any suspicious activity to &lt;/strong&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;&lt;a class=&quot;c-link&quot; href=&quot;mailto:recruiting@psiquantum.com&quot; target=&quot;_blank&quot; data-stringify-link=&quot;mailto:recruiting@psiquantum.com&quot; data-sk=&quot;tooltip_parent&quot;&gt;recruiting@psiquantum.com&lt;/a&gt;&lt;/strong&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are not accepting unsolicited resumes from employment agencies.&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span class=&quot;TextRun SCXW71807523 BCX0&quot; lang=&quot;EN-US&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW71807523 BCX0&quot;&gt;Base pay is one part of the total compensation package. Full-time roles are eligible for equity and benefits. Our compensation ranges reflect the cost of labor across multiple U.S. geographic markets, and we pay based on defined geographic zones. This position may be filled within one of the&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW71807523 BCX0&quot;&gt;following U.S.&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW71807523 BCX0&quot;&gt;&amp;nbsp;geographic zones, each with its own salary range. &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Actual compensation may vary outside of these ranges and is dependent on&amp;nbsp;various factors&amp;nbsp;including, but not limited to, a candidate&#39;s qualifications, relevant education and training, competencies, experience, geographic location, business needs, and internal equity. Your recruiter can share more details about the salary range applicable to your location during the hiring process.&amp;nbsp;&lt;/span&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Zone 1&amp;nbsp;- Bay Area and NYC&lt;/span&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;2&quot; data-aria-level=&quot;1&quot;&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Zone 2&amp;nbsp;-&amp;nbsp;Examples include Los&amp;nbsp;Angeles&amp;nbsp;and&amp;nbsp;Washington DC&lt;/span&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;3&quot; data-aria-level=&quot;1&quot;&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Zone 3&amp;nbsp;-&amp;nbsp;Examples include Austin, Chicago,&amp;nbsp;and Sacramento&lt;/span&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;4&quot; data-aria-level=&quot;1&quot;&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Zone 4&amp;nbsp;-&amp;nbsp;Examples include Nashville and Phoenix/Tempe and many&amp;nbsp;remote locations&lt;/span&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;This position includes the following benefits: competitive health coverage for you and your dependents, 401(k) with company match, equity grants, access to financial wellness tools and planning resources, wellness benefits, family support programs, life and disability insurance, paid leave programs, company-designated paid holidays, discretionary time off (DTO), and an end-of-year company shutdown. Some of these benefits have eligibility requirements and may vary based on location, role, or employment status. Many of these benefits are subsidized or fully paid for by the company.&lt;/span&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span class=&quot;TextRun SCXW71807523 BCX0&quot; lang=&quot;EN-US&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW71807523 BCX0&quot;&gt;The e&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW71807523 BCX0&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW71807523 BCX0&quot;&gt;timated annual base salary range for this role is:&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;EOP Selected SCXW71807523 BCX0&quot; data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Zone 1&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$151,800&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$178,400 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;Zone 2&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$136,700&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$160,600 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;Zone 3&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$121,500&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$142,700 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;Zone 4&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$106,300&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$124,900 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+          "departments": [
+            {
+              "id": 4040155003,
+              "name": "Engineering",
+              "child_ids": [],
+              "parent_id": null
+            }
+          ],
+          "offices": [
+            {
+              "id": 4012784003,
+              "name": "Palo Alto, California, United States",
+              "location": "Palo Alto, California, United States",
+              "child_ids": [],
+              "parent_id": null
+            }
+          ],
+          "ai_disclaimer": null,
+          "include_ai_disclaimer": false,
+          "ai_opt_out_request_url": "http://app3.greenhouse.io/ai_opt_out_request/job_post/7979452003/ai_opt_out"
+        },
+        {
+          "absolute_url": "https://www.psiquantum.com/apply?gh_jid=8004969003",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "education": "education_optional",
+          "internal_job_id": 5890046003,
+          "location": {
+            "name": "Palo Alto, California, United States"
+          },
+          "metadata": [
+            {
+              "id": 16581520003,
+              "name": "U.S. Pay Range",
+              "value": {
+                "unit": "USD",
+                "max_value": "0.0",
+                "min_value": "0.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 27885156003,
+              "name": "International Pay Range",
+              "value": {
+                "unit": null,
+                "max_value": "0.0",
+                "min_value": "0.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 41706360003,
+              "name": "U.S. Zone 1",
+              "value": {
+                "unit": null,
+                "max_value": "0.0",
+                "min_value": "0.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 41706432003,
+              "name": "U.S. Zone 2",
+              "value": {
+                "unit": null,
+                "max_value": "0.0",
+                "min_value": "0.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 41706357003,
+              "name": "U.S. Zone 3",
+              "value": {
+                "unit": null,
+                "max_value": "0.0",
+                "min_value": "0.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 41706358003,
+              "name": "U.S. Zone 4",
+              "value": {
+                "unit": null,
+                "max_value": "0.0",
+                "min_value": "0.0"
+              },
+              "value_type": "currency_range"
+            }
+          ],
+          "id": 8004969003,
+          "updated_at": "2026-10-01T18:22:01-04:00",
+          "requisition_id": "105",
+          "title": "Contract - Senior Technical Recruiter",
+          "company_name": "PsiQuantum",
+          "first_published": "2026-09-24T18:48:12-04:00",
+          "language": "en",
+          "application_deadline": null,
+          "content": "&lt;p&gt;Quantum computing holds the promise of humanity’s mastery over the natural world, but only if we can build a &lt;strong&gt;&lt;em&gt;real&lt;/em&gt; &lt;/strong&gt;quantum computer. PsiQuantum is on a mission to build the first real, useful quantum computers, capable of delivering the world-changing applications that the technology has long promised. We know that means we will need to build a system with roughly 1 million qubits that supports fault tolerant error correction within a scalable architecture, and a data center footprint.&lt;/p&gt;\n&lt;p&gt;By harnessing the laws of quantum physics, quantum computers can provide exponential performance increases over today’s most powerful supercomputers, offering the potential for extraordinary advances across a broad range of industries including climate, energy, healthcare, pharmaceuticals, finance, agriculture, transportation, materials design, and many more.&lt;/p&gt;\n&lt;p&gt;PsiQuantum has determined the fastest path to delivering a useful quantum computer, years earlier than the rest of the industry. Our architecture is based on silicon photonics which gives us the ability to produce our components at Tier-1 semiconductor fabs such as GlobalFoundries where we leverage high-volume semiconductor manufacturing processes, the same processes that are already producing billions of chips for telecom and consumer electronics applications. We also benefit from the quantum mechanics reality that photons don’t feel heat or electromagnetic interference, allowing us to take advantage of existing cryogenic cooling systems and industry standard fiber connectivity.&lt;/p&gt;\n&lt;p&gt;In 2024, PsiQuantum announced two government-funded projects to support the build-out of our first Quantum Data Centers and utility-scale quantum computers in Brisbane, Australia and Chicago, Illinois. Both projects are backed by nations that understand quantum computing’s potential impact and the need to scale this technology to unlock that potential. And we won’t just be building the hardware, but also the fault tolerant quantum applications that will provide industry-transforming results.&lt;/p&gt;\n&lt;p&gt;Quantum computing is not just an evolution of the decades-old advancement in compute power. It provides the key to mastering our future, not merely discovering it. The potential is enormous, and we have the plan to make it real. Come join us.&lt;/p&gt;\n&lt;p&gt;There’s much more work to be done and we are looking for exceptional talent to join us on this extraordinary journey!&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Job Summary: &lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;PsiQuantum is seeking a highly skilled Senior Technical Recruiter to drive full-cycle recruitment for advanced technical roles, specifically targeting top-tier candidates, including PhDs, in fields such as quantum computing, engineering, and applied sciences. You will work closely with hiring managers to source, engage, and secure world-class talent, ensuring a pipeline of highly qualified individuals who align with PsiQuantum’s mission to revolutionize quantum computing. This role offers a unique opportunity to influence the growth of a pioneering company at the cutting edge of technology.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Talent Partnering:&lt;/strong&gt; Partner with leadership and hiring managers across the organization to develop and execute talent acquisition strategies that support the company’s growth, with a specific focus on attracting top-tier candidates for technical senior roles in quantum computing and advanced technology.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;High-Level Candidate Sourcing &amp;amp; Engagement:&lt;/strong&gt; Employ a range of sophisticated sourcing techniques to identify, engage, and recruit highly specialized and diverse talent pools, including passive candidates and those from leading tech, academic, and research institutions globally.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Search &amp;amp; Leadership Recruitment:&lt;/strong&gt; Drive the recruitment for senior roles within the organization, including strategic planning, candidate mapping, outreach, and negotiation, ensuring an exceptional candidate experience while securing the highest-caliber talent.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;End-to-End Talent Acquisition Leadership:&lt;/strong&gt; Oversee the full recruitment lifecycle for critical roles, from role definition and job specification through to final offer acceptance. Ensure a seamless, efficient, and positive experience for candidates at every touchpoint.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Market Intelligence:&lt;/strong&gt; Provide thought leadership in leveraging deep market insights, and data-driven approaches to inform recruitment strategies. Stay ahead of trends in the quantum computing and tech industries to ensure the company attracts top talent.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Collaboration &amp;amp; Stakeholder Management:&lt;/strong&gt; Foster strong relationships across internal teams, providing regular updates on hiring progress, market trends, and recruitment strategies.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Employer Branding:&lt;/strong&gt; Actively promote the company’s mission, vision, and culture to the broader talent pool. Involved in initiatives to enhance employer branding, both within the quantum computing industry and in the broader tech ecosystem.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Diversity, Equity, and Inclusion (DEI):&lt;/strong&gt; Champion diversity and inclusion initiatives throughout the recruitment process, ensuring that diverse talent is attracted, assessed, and hired into the organization.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Data-Driven Decision Making:&lt;/strong&gt; Use recruitment metrics, industry insights, and data analytics to measure and continuously improve the effectiveness of recruitment processes, ensuring the timely and high-quality placement of candidates.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Required Qualifications:&lt;/u&gt;&lt;/strong&gt;&lt;u&gt;&amp;nbsp;&lt;/u&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A Bachelor’s degree in Business, or a related field&lt;/li&gt;\n&lt;li&gt;7+ years of proven experience in full-cycle recruiting, with a strong track record of hiring for highly technical and senior roles, ideally within the tech or STEM sectors.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Exceptional expertise in sourcing and engaging candidates for highly specialized and cutting-edge fields such as quantum computing, artificial intelligence, machine learning, and related technologies.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Demonstrated ability to partner with leaders, providing strategic counsel on talent acquisition and organizational growth.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Strong knowledge of sourcing tools, advanced Boolean search techniques, and recruiting platforms (e.g., LinkedIn Recruiter, Greenhouse, GEM).&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Exceptional communication and interpersonal skills, with the ability to build relationships and influence stakeholders at all levels.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;A deep understanding of the quantum computing landscape and a passion for the industry and its impact on the world.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Proven ability to thrive in hyper-growth, constantly evolving, and high-stakes environment.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Preferred Qualifications:&lt;/u&gt;&lt;/strong&gt;&lt;u&gt;&amp;nbsp;&lt;/u&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Direct experience recruiting within quantum computing, AI, or other highly technical, innovative industries.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Experience working in a global, distributed environment, with expertise in international talent acquisition.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Fluency in additional languages is a plus.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Expertise in driving diversity and inclusion initiatives and advancing DEI goals within the recruitment function.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;PsiQuantum provides equal employment opportunity for all applicants and employees. PsiQuantum does not unlawfully discriminate on the basis of race, color, religion, sex (including pregnancy, childbirth, or related medical conditions), gender identity, gender expression, national origin, ancestry, citizenship, age, physical or mental disability, military or veteran status, marital status, domestic partner status, sexual orientation, genetic information, or any other basis protected by applicable laws.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Note: PsiQuantum will only reach out to you using an official PsiQuantum email address and will never ask you for bank account information as part of the interview process. Please report any suspicious activity to&amp;nbsp;&lt;/strong&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;&lt;a class=&quot;c-link&quot; href=&quot;mailto:recruiting@psiquantum.com&quot; target=&quot;_blank&quot; data-stringify-link=&quot;mailto:recruiting@psiquantum.com&quot; data-sk=&quot;tooltip_parent&quot;&gt;recruiting@psiquantum.com&lt;/a&gt;&lt;/strong&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are not accepting unsolicited resumes from employment agencies.&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The ranges below reflect the target ranges for a new hire base salary. One is for the Bay Area (within 50 miles of HQ, Palo Alto), the second one (if applicable) is for elsewhere in the US (beyond 50 miles of HQ, Palo Alto). If there is only one range, it is for the specific location of where the position will be located.&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;Actual compensation may vary outside of these ranges and is dependent on various factors including but not limited to a candidate&#39;s qualifications including relevant education and training, competencies, experience, geographic location, and business needs. Base pay is only one part of the total compensation package. Full time roles are eligible for equity and benefits. Base pay is subject to change and may be modified in the future.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;U.S. Base Pay Range &lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$125,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$175,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+          "departments": [
+            {
+              "id": 4122367003,
+              "name": "HR",
+              "child_ids": [],
+              "parent_id": null
+            }
+          ],
+          "offices": [
+            {
+              "id": 4012784003,
+              "name": "Palo Alto, California, United States",
+              "location": "Palo Alto, California, United States",
+              "child_ids": [],
+              "parent_id": null
+            }
+          ],
+          "ai_disclaimer": null,
+          "include_ai_disclaimer": false,
+          "ai_opt_out_request_url": "http://app3.greenhouse.io/ai_opt_out_request/job_post/8004969003/ai_opt_out"
+        },
+        {
+          "absolute_url": "https://www.psiquantum.com/apply?gh_jid=8010626003",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "education": "education_optional",
+          "internal_job_id": 5892469003,
+          "location": {
+            "name": "Milpitas, California, United States"
+          },
+          "metadata": [
+            {
+              "id": 16581520003,
+              "name": "U.S. Pay Range",
+              "value": {
+                "unit": "USD",
+                "max_value": "0.0",
+                "min_value": "0.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 27885156003,
+              "name": "International Pay Range",
+              "value": {
+                "unit": "USD",
+                "max_value": "0.0",
+                "min_value": "0.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 41706360003,
+              "name": "U.S. Zone 1",
+              "value": {
+                "unit": "USD",
+                "max_value": "148700.0",
+                "min_value": "126600.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 41706432003,
+              "name": "U.S. Zone 2",
+              "value": {
+                "unit": "USD",
+                "max_value": "133800.0",
+                "min_value": "113900.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 41706357003,
+              "name": "U.S. Zone 3",
+              "value": {
+                "unit": "USD",
+                "max_value": "119000.0",
+                "min_value": "101300.0"
+              },
+              "value_type": "currency_range"
+            },
+            {
+              "id": 41706358003,
+              "name": "U.S. Zone 4",
+              "value": {
+                "unit": "USD",
+                "max_value": "104100.0",
+                "min_value": "88600.0"
+              },
+              "value_type": "currency_range"
+            }
+          ],
+          "id": 8010626003,
+          "updated_at": "2026-10-01T18:22:01-04:00",
+          "requisition_id": "2026-PLAN-3370-5",
+          "title": "Cryogenic Electrical Interconnect Engineer",
+          "company_name": "PsiQuantum",
+          "first_published": "2026-10-01T12:15:44-04:00",
+          "language": "en",
+          "application_deadline": null,
+          "content": "&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;PsiQuantum&#39;s mission is to build the first useful quantum computers: machines capable of delivering the breakthroughs the field has long promised. Since our founding in 2016, our singular focus has been to build and deploy million-qubit, fault-tolerant quantum systems.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:200,&amp;quot;335559740&amp;quot;:276}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Quantum computers harness the laws of quantum mechanics to solve problems that even the most advanced supercomputers or AI systems will never reach. Their impact will span energy, pharmaceuticals, finance, agriculture, transportation, materials, and other foundational industries.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:200,&amp;quot;335559740&amp;quot;:276}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Our architecture&amp;nbsp;and approach&amp;nbsp;is&amp;nbsp;based on silicon photonics. By&amp;nbsp;leveraging&amp;nbsp;the advanced semiconductor manufacturing industry, including partners like GlobalFoundries, we use the same high-volume processes that already produce billions of chips for telecom and consumer electronics. Photonics offers natural advantages for scale: photons&amp;nbsp;don&#39;t&amp;nbsp;feel heat, are immune to electromagnetic interference, and integrate with existing cryogenic cooling and standard fiber-optic infrastructure.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:200,&amp;quot;335559740&amp;quot;:276}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;That approach has since been tested at the highest level of scrutiny the U.S. government applies to emerging technology, and it has held up. In 2025,&amp;nbsp;PsiQuantum&amp;nbsp;closed a&amp;nbsp;$1 billion&amp;nbsp;funding round that valued the company at&amp;nbsp;$7 billion. In 2026, the U.S. Department of Commerce signed a $100 million Letter of Intent under the CHIPS and Science Act, followed by a $125 million agreement with DARPA under Stage C of its Quantum Benchmarking Initiative,&amp;nbsp;PsiQuantum&#39;s&amp;nbsp;most valuable U.S. government agreement to date. This year, we also broke ground on our utility-scale quantum computer in Brisbane, Australia, and continued building out our Chicago site. Victor Peng, our CEO, and co-founder Jeremy O&#39;Brien, now Executive&amp;nbsp;Chairman, lead a team and board that reflects how seriously the world is taking this build, joined this year by Intel&#39;s Lip-Bu Tan and Atomico&#39;s Niklas&amp;nbsp;Zennström.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:200,&amp;quot;335559740&amp;quot;:276}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;PsiQuantum&amp;nbsp;also develops the algorithms and software needed to make these systems commercially valuable. Our application, software, and industry teams work directly with leading Fortune 500 companies, including&amp;nbsp;Airbus,&amp;nbsp;Lockheed&amp;nbsp;Martin, Mercedes-Benz, Boehringer Ingelheim, and Mitsubishi Chemical, to prepare quantum solutions for real-world impact.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:200,&amp;quot;335559740&amp;quot;:276}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Quantum computing is not an extension of classical computing. It&amp;nbsp;represents&amp;nbsp;a fundamental shift, and a path to mastering challenges that cannot be&amp;nbsp;solved&amp;nbsp;any other way. The potential is enormous, and we now have&amp;nbsp;the funding,&amp;nbsp;the government&amp;nbsp;validation, and&amp;nbsp;the sites&amp;nbsp;under construction to make it real.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:200,&amp;quot;335559740&amp;quot;:276}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Job Summary:&lt;/strong&gt;&lt;/p&gt;\n&lt;p data-renderer-start-pos=&quot;1&quot;&gt;The Cryogenic Electrical Interconnect Engineer is responsible for the design, development, integration, and testing of electrical interconnect solutions used within PsiQuantum&#39;s cryogenic systems.&lt;/p&gt;\n&lt;p data-renderer-start-pos=&quot;199&quot;&gt;This role focuses on cables, connectors, electrical feedthroughs, and PCB interconnects operating in vacuum and cryogenic environments. The engineer develops the electrical connection architecture required to interconnect components within the cryostat, provide reliable connections at cryogenic temperatures, and route electrical signals through the cryostat vacuum boundary to external equipment.&lt;/p&gt;\n&lt;p data-renderer-start-pos=&quot;599&quot;&gt;The Cryogenic Electrical Interconnect Engineer combines electrical and mechanical engineering expertise to develop interconnect solutions that meet electrical performance, thermal, mechanical, vacuum, and integration requirements. The role supports engineering activities from concept development through detailed design, component selection, qualification testing, manufacturing, installation, and troubleshooting.&lt;/p&gt;\n&lt;p data-renderer-start-pos=&quot;1016&quot;&gt;The ideal candidate combines electrical interconnect expertise with strong mechanical engineering judgment and an understanding of the challenges associated with vacuum and cryogenic environments.&lt;/p&gt;\n&lt;p data-renderer-start-pos=&quot;1214&quot;&gt;They are comfortable working at the interface between electrical, mechanical, thermal, and cryogenic engineering and can translate electrical connectivity requirements into practical cable, connector, feedthrough, and PCB interconnect solutions.&lt;/p&gt;\n&lt;p data-renderer-start-pos=&quot;1461&quot;&gt;They are able to move between detailed 3D design, component selection, engineering analysis, supplier coordination, hands-on testing, integration, and troubleshooting. Success in this role requires attention to detail, practical engineering judgment, and effective collaboration across electrical, mechanical, cryogenic, system, and supplier teams.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Design electrical cables and cable assemblies for operation in vacuum and cryogenic environments.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Design electrical feedthroughs and interconnect solutions across cryostat vacuum boundaries.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Design and integrate electrical connectors for PCB and electronic components operating at cryogenic temperatures.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Develop interconnect architectures between electronic components located inside the cryostat and external room-temperature equipment.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Select cables, conductors, connectors, feedthroughs, insulation materials, and associated components based on electrical, thermal, mechanical, vacuum, and cryogenic requirements.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Evaluate thermal conduction through electrical cables and interconnects and contribute to the management of cryostat thermal loads.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Design cable routing, mechanical supports, strain relief, and thermal anchoring solutions within the cryostat.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Evaluate mechanical and thermal effects on connectors and cable assemblies, including differential thermal contraction during cooldown and warmup.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Develop 3D CAD models, drawings, interface definitions, and specifications for cables, connectors, feedthroughs, and associated mechanical components.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Work closely with electrical, mechanical, PCB, cryogenic, and system engineering teams to define and manage interconnect requirements and interfaces.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Support component selection and qualification through engineering analysis and testing.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Develop and execute test plans to validate electrical, mechanical, thermal, vacuum, and cryogenic performance of interconnect components and assemblies.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Support procurement and manufacturing activities and work directly with cable, connector, feedthrough, and electronics suppliers.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Support installation, integration, commissioning, and troubleshooting of electrical interconnect systems within cryogenic equipment.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;3&quot;&gt;Analyze field and test issues related to electrical interconnects and develop technical solutions where required.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Experience/Qualifications:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Required Qualifications&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li data-renderer-start-pos=&quot;28&quot;&gt;&lt;span class=&quot;_0wOv4QAxrc _3iDTPbS8kF&quot; data-testid=&quot;smart-link-draggable-inline&quot;&gt;&lt;span class=&quot;loader-wrapper&quot;&gt;&lt;span class=&quot;hover-card-trigger-wrapper&quot; data-testid=&quot;hover-card-trigger-wrapper&quot;&gt;&lt;span class=&quot;_30huDKYbGa _24h04i2Njc _034jHtYbGa _1ANEUSlpBW _3W2Oc84hR5 _2NnhnEXpc7 _0Of8r2FQfX _1Znuxb1Y8M _1wydGWFQfX _2Zuz6Q1Y8M&quot; data-testid=&quot;inline-card-icon-and-title&quot;&gt;&lt;span class=&quot;_30huDKYbGa _24h04i2Njc _034jHtYbGa&quot;&gt;BSc Courses, Eligibility, Fees &amp;amp; Verified Programs | B.SC&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; . or M.Sc. in Electrical Engineering, Mechanical Engineering, Electromechanical Engineering, or a related engineering discipline.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;28&quot;&gt;3+ years of experience designing electrical interconnects, cable assemblies, connectors, electronic packaging, or related electromechanical systems.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;28&quot;&gt;Professional experience with connectors and cables for electronic components and systems.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;28&quot;&gt;Strong understanding of electrical interconnect design, including conductors, insulation, connectors, shielding, grounding, and signal integrity considerations.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;28&quot;&gt;Good understanding of mechanical engineering principles relevant to connector and cable design, including tolerances, mechanical interfaces, strain relief, and material selection.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;28&quot;&gt;Experience designing components and assemblies using 3D CAD software. Experience with Siemens NX is preferred.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;28&quot;&gt;Ability to develop engineering drawings, specifications, interface definitions, and component requirements.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;28&quot;&gt;Ability to work across electrical and mechanical engineering disciplines to develop integrated solutions.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;28&quot;&gt;Ability to adapt to changing requirements and handle multiple assignments.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Required Qualifications&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li data-renderer-start-pos=&quot;1195&quot;&gt;Experience designing cables, connectors, or electrical feedthroughs for vacuum and/or cryogenic environments.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1195&quot;&gt;Experience with cryogenic electronic systems and electrical interconnects operating at cryogenic temperatures.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1195&quot;&gt;Experience with superconducting cables, superconducting electrical connections, or other low-temperature electrical technologies.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1195&quot;&gt;Understanding of material behavior at cryogenic temperatures, including differential thermal contraction and its impact on electrical and mechanical interfaces.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1195&quot;&gt;Understanding of thermal conduction through electrical wiring and methods for thermal anchoring of cables within cryogenic systems.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1195&quot;&gt;Experience with hermetic electrical feedthroughs and vacuum-compatible connectors and materials.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1195&quot;&gt;Experience with PCB connectors and electronic packaging for cryogenic applications.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1195&quot;&gt;Experience with low-noise, high-density, high-frequency, or other performance-sensitive electrical interconnects.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1195&quot;&gt;Hands-on experience assembling, testing, and troubleshooting cables, connectors, feedthroughs, and electronic hardware.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1195&quot;&gt;Experience performing vacuum, thermal cycling, cryogenic, and electrical qualification testing.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1195&quot;&gt;Familiarity with manufacturing processes applicable to cable and connector assemblies, including soldering, crimping, brazing, and related joining techniques.&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1195&quot;&gt;Understanding of Geometric Dimensioning &amp;amp; Tolerancing per ASME Y14.5.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;PsiQuantum provides equal employment opportunity for all applicants and employees. PsiQuantum does not unlawfully discriminate on the basis of race, color, religion, sex (including pregnancy, childbirth, or related medical conditions), gender identity, gender expression, national origin, ancestry, citizenship, age, physical or mental disability, military or veteran status, marital status, domestic partner status, sexual orientation, genetic information, or any other basis protected by applicable laws.&lt;/p&gt;\n&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Note: PsiQuantum will only reach out to you using an official PsiQuantum email address and will never ask you for bank account information as part of the interview process. Please report any suspicious activity to &lt;/strong&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;&lt;a class=&quot;c-link&quot; href=&quot;mailto:recruiting@psiquantum.com&quot; target=&quot;_blank&quot; data-stringify-link=&quot;mailto:recruiting@psiquantum.com&quot; data-sk=&quot;tooltip_parent&quot;&gt;recruiting@psiquantum.com&lt;/a&gt;&lt;/strong&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are not accepting unsolicited resumes from employment agencies.&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span class=&quot;TextRun SCXW71807523 BCX0&quot; lang=&quot;EN-US&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW71807523 BCX0&quot;&gt;Base pay is one part of the total compensation package. Full-time roles are eligible for equity and benefits. Our compensation ranges reflect the cost of labor across multiple U.S. geographic markets, and we pay based on defined geographic zones. This position may be filled within one of the&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW71807523 BCX0&quot;&gt;following U.S.&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW71807523 BCX0&quot;&gt;&amp;nbsp;geographic zones, each with its own salary range. &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Actual compensation may vary outside of these ranges and is dependent on&amp;nbsp;various factors&amp;nbsp;including, but not limited to, a candidate&#39;s qualifications, relevant education and training, competencies, experience, geographic location, business needs, and internal equity. Your recruiter can share more details about the salary range applicable to your location during the hiring process.&amp;nbsp;&lt;/span&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Zone 1&amp;nbsp;- Bay Area and NYC&lt;/span&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;2&quot; data-aria-level=&quot;1&quot;&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Zone 2&amp;nbsp;-&amp;nbsp;Examples include Los&amp;nbsp;Angeles&amp;nbsp;and&amp;nbsp;Washington DC&lt;/span&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;3&quot; data-aria-level=&quot;1&quot;&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Zone 3&amp;nbsp;-&amp;nbsp;Examples include Austin, Chicago,&amp;nbsp;and Sacramento&lt;/span&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;4&quot; data-aria-level=&quot;1&quot;&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Zone 4&amp;nbsp;-&amp;nbsp;Examples include Nashville and Phoenix/Tempe and many&amp;nbsp;remote locations&lt;/span&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;This position includes the following benefits: competitive health coverage for you and your dependents, 401(k) with company match, equity grants, access to financial wellness tools and planning resources, wellness benefits, family support programs, life and disability insurance, paid leave programs, company-designated paid holidays, discretionary time off (DTO), and an end-of-year company shutdown. Some of these benefits have eligibility requirements and may vary based on location, role, or employment status. Many of these benefits are subsidized or fully paid for by the company.&lt;/span&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span class=&quot;TextRun SCXW71807523 BCX0&quot; lang=&quot;EN-US&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW71807523 BCX0&quot;&gt;The e&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW71807523 BCX0&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW71807523 BCX0&quot;&gt;timated annual base salary range for this role is:&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;EOP Selected SCXW71807523 BCX0&quot; data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Zone 1&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$126,600&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$148,700 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;Zone 2&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$113,900&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$133,800 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;Zone 3&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$101,300&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$119,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;Zone 4&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$88,600&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$104,100 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+          "departments": [
+            {
+              "id": 4040155003,
+              "name": "Engineering",
+              "child_ids": [],
+              "parent_id": null
+            }
+          ],
+          "offices": [
+            {
+              "id": 4061627003,
+              "name": "Milpitas, California, United States",
+              "location": "Milpitas, California, United States",
+              "child_ids": [],
+              "parent_id": null
+            }
+          ],
+          "ai_disclaimer": null,
+          "include_ai_disclaimer": false,
+          "ai_opt_out_request_url": "http://app3.greenhouse.io/ai_opt_out_request/job_post/8010626003/ai_opt_out"
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.psiquantum.com",
+    "explanation": "Public careers source for PsiQuantum: https://www.psiquantum.com/careers. The ATS board and representative job links are branded for this employer or its consolidated corporate group. This is a group monitor, not an unfiltered child-company monitor. Regional/student scope is stated in monitor warnings. Local findings are provisional and require maintainer ownership review.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://www.psiquantum.com/apply?gh_jid=7979452003",
+      "https://www.psiquantum.com/apply?gh_jid=8004969003",
+      "https://www.psiquantum.com/apply?gh_jid=8010626003"
+    ]
+  }
+}

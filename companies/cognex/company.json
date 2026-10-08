@@ -1,0 +1,25 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "cognex",
+  "name": "Cognex",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.cognex.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "scientific-instruments"
+    ],
+    "specialties": [
+      "photonics",
+      "metrology",
+      "instrumentation"
+    ],
+    "tags": [
+      "Advanced Technology",
+      "Science",
+      "Engineering"
+    ]
+  }
+}

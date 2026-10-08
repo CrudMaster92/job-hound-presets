@@ -1,0 +1,133 @@
+{
+  "base_commit": "313e8b1c910139934b10c5bbc740966c64b2ff5f",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "globalfoundries",
+    "name": "GlobalFoundries",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://gf.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "semiconductors"
+      ],
+      "specialties": [
+        "semiconductor-engineering",
+        "electronics"
+      ],
+      "tags": [
+        "Advanced Technology",
+        "Science",
+        "Engineering"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "globalfoundries",
+    "company_id": "globalfoundries",
+    "revision": 1,
+    "label": "GlobalFoundries careers",
+    "careers_url": "https://globalfoundries.wd1.myworkdayjobs.com/External",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local evidence only; awaiting trusted upstream validation.",
+        "All role families advertised on this public employer board; no title or geographic filter."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "GlobalFoundries",
+      "careers_url": "https://globalfoundries.wd1.myworkdayjobs.com/External",
+      "strategy": "workday",
+      "allowed_hosts": [
+        "globalfoundries.wd1.myworkdayjobs.com"
+      ],
+      "request": {
+        "url": "https://globalfoundries.wd1.myworkdayjobs.com/wday/cxs/globalfoundries/External/jobs",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "json_body": {
+          "appliedFacets": {},
+          "limit": 20,
+          "offset": 0,
+          "searchText": ""
+        },
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 20,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "tenant": "globalfoundries",
+        "site": "External"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://globalfoundries.wd1.myworkdayjobs.com/wday/cxs/globalfoundries/External/jobs",
+    "fetched_at": "2026-10-08T14:33:22.203906+00:00",
+    "payload": {
+      "jobPostings": [
+        {
+          "title": "Silicon Photonic (SiPh) Sort Test Engineer",
+          "externalPath": "/job/Essex-Junction/Silicon-Photonic--SiPh--Sort-Test-Engineer_JR-2601311",
+          "locationsText": "2 Locations",
+          "postedOn": "Posted 2 Days Ago",
+          "bulletFields": [
+            "JR-2601311"
+          ]
+        },
+        {
+          "title": "Principal Eng Reliability – RF Reliability",
+          "externalPath": "/job/USA---New-York---Malta/Principal-Eng-Reliability---RF-Reliability_JR-2605519",
+          "locationsText": "2 Locations",
+          "postedOn": "Posted 2 Days Ago",
+          "bulletFields": [
+            "JR-2605519"
+          ]
+        },
+        {
+          "title": "Photonics Technology Development FEOL Integration",
+          "externalPath": "/job/USA---New-York---Malta/Photonics-Technology-Development-FEOL-Integration_JR-2605447",
+          "locationsText": "USA - New York - Malta",
+          "postedOn": "Posted 2 Days Ago",
+          "bulletFields": [
+            "JR-2605447"
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://gf.com",
+    "explanation": "Public careers source for GlobalFoundries: https://gf.com/careers/. The ATS board and representative job links are branded for this employer or its consolidated corporate group. This is a group monitor, not an unfiltered child-company monitor. Regional/student scope is stated in monitor warnings. Local findings are provisional and require maintainer ownership review.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://globalfoundries.wd1.myworkdayjobs.com/External/job/Essex-Junction/Silicon-Photonic--SiPh--Sort-Test-Engineer_JR-2601311",
+      "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Principal-Eng-Reliability---RF-Reliability_JR-2605519",
+      "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Photonics-Technology-Development-FEOL-Integration_JR-2605447"
+    ]
+  }
+}

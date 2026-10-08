@@ -3,25 +3,26 @@
   "schema_version": 1,
   "id": "intel",
   "company_id": "intel",
-  "revision": 1,
-  "label": "Intel Careers",
+  "revision": 2,
+  "label": "Intel careers",
   "careers_url": "https://intel.wd1.myworkdayjobs.com/External",
   "compatibility": {
     "min_jobhound_version": "0.1.0",
     "recipe_schema_version": 1
   },
   "verification": {
-    "status": "verified",
-    "checked_at": "2026-09-04T12:57:34.314332+00:00",
-    "job_count": 180,
+    "status": "unverified",
+    "checked_at": null,
+    "job_count": null,
     "warnings": [
-      "removed 20 duplicate source IDs",
-      "description detail enrichment skipped 175 jobs after the configured 5-posting limit",
-      "Bounded/partial listing; unseen jobs must not be closed from this run."
+      "Provisional local evidence only; awaiting trusted upstream validation.",
+      "All role families advertised on this public employer board; no title or geographic filter.",
+      "Local listing validation on 2026-10-08 was incomplete: Source result window could not be fully traversed: observed 627/647 advertised postings."
     ]
   },
   "recipe": {
     "version": 1,
+    "coverage_mode": "all",
     "company": "Intel",
     "careers_url": "https://intel.wd1.myworkdayjobs.com/External",
     "strategy": "workday",
@@ -39,25 +40,22 @@
         "offset": 0,
         "searchText": ""
       },
-      "timeout_seconds": 15.0,
-      "max_response_bytes": 5000000
+      "timeout_seconds": 25,
+      "max_response_bytes": 20000000
     },
     "pagination": {
       "kind": "offset",
       "parameter": "offset",
       "page_size_parameter": "limit",
       "page_size": 20,
-      "max_pages": 10,
+      "max_pages": null,
       "next_path": null
     },
-    "source_filter": null,
     "selectors": {},
     "mapping": {},
     "metadata": {
       "tenant": "intel",
-      "site": "External",
-      "detail_fetch_limit": 5,
-      "partial_listing": true
+      "site": "External"
     }
   }
 }

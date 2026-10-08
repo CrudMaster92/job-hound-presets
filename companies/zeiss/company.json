@@ -1,0 +1,27 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "zeiss",
+  "name": "ZEISS",
+  "legal_name": null,
+  "aliases": [
+    "Carl Zeiss"
+  ],
+  "website_url": "https://www.zeiss.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "scientific-instruments"
+    ],
+    "specialties": [
+      "photonics",
+      "metrology",
+      "instrumentation"
+    ],
+    "tags": [
+      "Advanced Technology",
+      "Science",
+      "Engineering"
+    ]
+  }
+}

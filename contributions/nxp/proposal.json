@@ -1,0 +1,134 @@
+{
+  "base_commit": "313e8b1c910139934b10c5bbc740966c64b2ff5f",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "nxp",
+    "name": "NXP Semiconductors",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://www.nxp.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "semiconductors"
+      ],
+      "specialties": [
+        "semiconductor-engineering",
+        "electronics"
+      ],
+      "tags": [
+        "Advanced Technology",
+        "Science",
+        "Engineering"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "nxp",
+    "company_id": "nxp",
+    "revision": 1,
+    "label": "NXP Semiconductors careers",
+    "careers_url": "https://nxp.wd3.myworkdayjobs.com/careers",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local evidence only; awaiting trusted upstream validation.",
+        "All role families advertised on this public employer board; no title or geographic filter.",
+        "Local listing validation on 2026-10-08 was incomplete: Public metadata is still missing for 1 advertised postings; no placeholder roles were fabricated. Source result window could not be fully traversed: observed 810/810 advertised postings."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "NXP Semiconductors",
+      "careers_url": "https://nxp.wd3.myworkdayjobs.com/careers",
+      "strategy": "workday",
+      "allowed_hosts": [
+        "nxp.wd3.myworkdayjobs.com"
+      ],
+      "request": {
+        "url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/jobs",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "json_body": {
+          "appliedFacets": {},
+          "limit": 20,
+          "offset": 0,
+          "searchText": ""
+        },
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 20,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "tenant": "nxp",
+        "site": "careers"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/jobs",
+    "fetched_at": "2026-10-08T14:33:23.340350+00:00",
+    "payload": {
+      "jobPostings": [
+        {
+          "title": "NPU Compiler SW Engineer",
+          "externalPath": "/job/Bucharest/NPU-Compiler-SW-Engineer_R-10066442",
+          "locationsText": "Bucharest",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R-10066442"
+          ]
+        },
+        {
+          "title": "MST – Etch",
+          "externalPath": "/job/Chandler-Manufacturing/Semiconductor-Maintenance-Technician---Etch-Metals_R-10065772",
+          "locationsText": "Chandler (Manufacturing)",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R-10065772"
+          ]
+        },
+        {
+          "title": "Software Internship - Systems Engineering",
+          "externalPath": "/job/Bucharest/Software-Internship---Systems-Engineering_R-10066965",
+          "locationsText": "Bucharest",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R-10066965"
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.nxp.com",
+    "explanation": "Public careers source for NXP Semiconductors: https://www.nxp.com/company/about-nxp/careers:CAREERS. The ATS board and representative job links are branded for this employer or its consolidated corporate group. This is a group monitor, not an unfiltered child-company monitor. Regional/student scope is stated in monitor warnings. Local findings are provisional and require maintainer ownership review.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://nxp.wd3.myworkdayjobs.com/careers/job/Bucharest/NPU-Compiler-SW-Engineer_R-10066442",
+      "https://nxp.wd3.myworkdayjobs.com/careers/job/Chandler-Manufacturing/Semiconductor-Maintenance-Technician---Etch-Metals_R-10065772",
+      "https://nxp.wd3.myworkdayjobs.com/careers/job/Bucharest/Software-Internship---Systems-Engineering_R-10066965"
+    ]
+  }
+}

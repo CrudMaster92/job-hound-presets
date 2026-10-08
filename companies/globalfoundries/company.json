@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "globalfoundries",
+  "name": "GlobalFoundries",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://gf.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "semiconductors"
+    ],
+    "specialties": [
+      "semiconductor-engineering",
+      "electronics"
+    ],
+    "tags": [
+      "Advanced Technology",
+      "Science",
+      "Engineering"
+    ]
+  }
+}

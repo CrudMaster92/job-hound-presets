@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "nxp",
+  "name": "NXP Semiconductors",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.nxp.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "semiconductors"
+    ],
+    "specialties": [
+      "semiconductor-engineering",
+      "electronics"
+    ],
+    "tags": [
+      "Advanced Technology",
+      "Science",
+      "Engineering"
+    ]
+  }
+}

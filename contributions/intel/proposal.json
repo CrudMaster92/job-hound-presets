@@ -1,0 +1,131 @@
+{
+  "base_commit": "313e8b1c910139934b10c5bbc740966c64b2ff5f",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "intel",
+    "name": "Intel",
+    "aliases": [],
+    "website_url": "https://www.intel.com/",
+    "logo_url": "https://www.google.com/s2/favicons?domain=intel.com&sz=128",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Fortune 100",
+        "2026",
+        "United States"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "intel",
+    "company_id": "intel",
+    "revision": 2,
+    "label": "Intel careers",
+    "careers_url": "https://intel.wd1.myworkdayjobs.com/External",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local evidence only; awaiting trusted upstream validation.",
+        "All role families advertised on this public employer board; no title or geographic filter.",
+        "Local listing validation on 2026-10-08 was incomplete: Source result window could not be fully traversed: observed 627/647 advertised postings."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Intel",
+      "careers_url": "https://intel.wd1.myworkdayjobs.com/External",
+      "strategy": "workday",
+      "allowed_hosts": [
+        "intel.wd1.myworkdayjobs.com"
+      ],
+      "request": {
+        "url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "json_body": {
+          "appliedFacets": {},
+          "limit": 20,
+          "offset": 0,
+          "searchText": ""
+        },
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 20,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "tenant": "intel",
+        "site": "External"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
+    "fetched_at": "2026-10-08T14:33:23.488015+00:00",
+    "payload": {
+      "jobPostings": [
+        {
+          "title": "Early Careers Manufacturing Technician",
+          "externalPath": "/job/Ireland-Leixlip/Manufacturing-Technician_JR0284021",
+          "locationsText": "Ireland, Leixlip",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "Spotlight Job",
+            "JR0284021"
+          ]
+        },
+        {
+          "title": "Pre-Silicon verification engineer",
+          "externalPath": "/job/Ireland-Leixlip/Pre-Silicon-verification-engineer_JR0286861",
+          "locationsText": "Ireland, Leixlip",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "Spotlight Job",
+            "JR0286861"
+          ]
+        },
+        {
+          "title": "Senior Verification Engineer",
+          "externalPath": "/job/Ireland-Leixlip/Senior-Verification-Engineer_JR0287844",
+          "locationsText": "Ireland, Leixlip",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "Spotlight Job",
+            "JR0287844"
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.intel.com/",
+    "explanation": "Public careers source for Intel: https://www.intel.com/content/www/us/en/jobs/jobs-at-intel.html. The ATS board and representative job links are branded for this employer or its consolidated corporate group. This is a group monitor, not an unfiltered child-company monitor. Regional/student scope is stated in monitor warnings. Local findings are provisional and require maintainer ownership review.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://intel.wd1.myworkdayjobs.com/External/job/Ireland-Leixlip/Manufacturing-Technician_JR0284021",
+      "https://intel.wd1.myworkdayjobs.com/External/job/Ireland-Leixlip/Pre-Silicon-verification-engineer_JR0286861",
+      "https://intel.wd1.myworkdayjobs.com/External/job/Ireland-Leixlip/Senior-Verification-Engineer_JR0287844"
+    ]
+  }
+}

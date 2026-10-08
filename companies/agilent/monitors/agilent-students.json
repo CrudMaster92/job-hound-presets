@@ -1,11 +1,11 @@
 {
   "format": "jobhound-monitor",
   "schema_version": 1,
-  "id": "broadcom",
-  "company_id": "broadcom",
-  "revision": 2,
-  "label": "Broadcom careers",
-  "careers_url": "https://broadcom.wd1.myworkdayjobs.com/External_Career",
+  "id": "agilent-students",
+  "company_id": "agilent",
+  "revision": 1,
+  "label": "Agilent Technologies student careers",
+  "careers_url": "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers",
   "compatibility": {
     "min_jobhound_version": "0.1.0",
     "recipe_schema_version": 1
@@ -16,21 +16,20 @@
     "job_count": null,
     "warnings": [
       "Provisional local evidence only; awaiting trusted upstream validation.",
-      "All role families advertised on this public employer board; no title or geographic filter.",
-      "Local listing validation on 2026-10-08 was incomplete: Public metadata is still missing for 1 advertised postings; no placeholder roles were fabricated. Source result window could not be fully traversed: observed 384/384 advertised postings."
+      "Graduate and student careers board; experienced openings use the separate experienced monitor."
     ]
   },
   "recipe": {
     "version": 1,
     "coverage_mode": "all",
-    "company": "Broadcom",
-    "careers_url": "https://broadcom.wd1.myworkdayjobs.com/External_Career",
+    "company": "Agilent Technologies",
+    "careers_url": "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers",
     "strategy": "workday",
     "allowed_hosts": [
-      "broadcom.wd1.myworkdayjobs.com"
+      "agilent.wd5.myworkdayjobs.com"
     ],
     "request": {
-      "url": "https://broadcom.wd1.myworkdayjobs.com/wday/cxs/broadcom/External_Career/jobs",
+      "url": "https://agilent.wd5.myworkdayjobs.com/wday/cxs/agilent/Agilent_Student_Careers/jobs",
       "method": "POST",
       "headers": {},
       "params": {},
@@ -54,8 +53,8 @@
     "selectors": {},
     "mapping": {},
     "metadata": {
-      "tenant": "broadcom",
-      "site": "External_Career"
+      "tenant": "agilent",
+      "site": "Agilent_Student_Careers"
     }
   }
 }

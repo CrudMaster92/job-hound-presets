@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "ionq",
+  "name": "IonQ",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://ionq.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "quantum-computing"
+    ],
+    "specialties": [
+      "quantum-hardware",
+      "research-and-development"
+    ],
+    "tags": [
+      "Advanced Technology",
+      "Science",
+      "Engineering"
+    ]
+  }
+}

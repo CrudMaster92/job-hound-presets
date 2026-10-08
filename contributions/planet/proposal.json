@@ -1,0 +1,260 @@
+{
+  "base_commit": "313e8b1c910139934b10c5bbc740966c64b2ff5f",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "planet",
+    "name": "Planet Labs",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://www.planet.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "aerospace"
+      ],
+      "specialties": [
+        "space-systems",
+        "advanced-manufacturing"
+      ],
+      "tags": [
+        "Advanced Technology",
+        "Science",
+        "Engineering"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "planet",
+    "company_id": "planet",
+    "revision": 1,
+    "label": "Planet Labs careers",
+    "careers_url": "https://job-boards.greenhouse.io/planetlabs",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local evidence only; awaiting trusted upstream validation.",
+        "All role families advertised on this public employer board; no title or geographic filter."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Planet Labs",
+      "careers_url": "https://job-boards.greenhouse.io/planetlabs",
+      "strategy": "generic_json",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/planetlabs/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {
+        "items": "jobs",
+        "source_id": "id",
+        "title": "title",
+        "location": "location.name",
+        "url": "absolute_url",
+        "description": "content",
+        "posted_date": "updated_at"
+      },
+      "metadata": {
+        "board_token": "planetlabs"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/planetlabs/jobs",
+    "fetched_at": "2026-10-08T14:33:25.899041+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/planetlabs/jobs/8204162",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": true
+            }
+          ],
+          "internal_job_id": 3359055,
+          "location": {
+            "name": "France, Remote"
+          },
+          "metadata": null,
+          "id": 8204162,
+          "updated_at": "2026-09-17T08:08:55-04:00",
+          "requisition_id": "843",
+          "title": "Account Executive, Defence & Intelligence, France",
+          "company_name": "Planet",
+          "first_published": "2026-09-15T10:30:50-04:00",
+          "language": "en",
+          "application_deadline": "2026-10-26T18:45:00-04:00",
+          "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Welcome to Planet. We believe in using space to help life on Earth.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Planet designs, builds, and operates the largest constellation of imaging satellites in history. This constellation delivers an unprecedented dataset of empirical information via a revolutionary cloud-based platform to authoritative figures in commercial, environmental, and humanitarian sectors. We are both a space company and data company all rolled into one.&lt;/p&gt;\n&lt;p&gt;Customers and users across the globe use Planet&#39;s data to develop new technologies, drive revenue, power research, and solve our world’s toughest obstacles.&lt;/p&gt;\n&lt;p&gt;As we control every component of hardware design, manufacturing, data processing, and software engineering, our office is a truly inspiring mix of experts from a variety of domains.&lt;/p&gt;\n&lt;p&gt;We have a people-centric approach toward culture and community and we strive to iterate in a way that puts our team members first and prepares our company for growth. Join Planet and be a part of our mission to change the way people see the world.&lt;/p&gt;\n&lt;p&gt;Planet is a global company with employees working remotely world wide and joining us from offices in San Francisco, Washington DC, Germany, Austria, Slovenia, and The Netherlands.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;About the Role:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Based in France, the France Account Executive will be responsible for growing Planets Government sales pipeline and book of business in the Ministère des Armées and the Armées Françaises. The ideal candidate for this position is a driven, independent thinker, who can also be creative in finding new and dynamic ways to expand Planet’s government business. This person will have a proven track record of selling in government and defense, with an extensive network and able to navigate procurement processes and frameworks. They will identify, qualify, negotiate, and close large and medium-size deals and drive sales revenue targets. Most likely, the ideal candidate will have a strong understanding of Military Operations and Intelligence as well as designing, forming and selling complex solutions to government customers.&lt;/p&gt;\n&lt;p&gt;This role involves developing an extensive pipeline of new sales leads, providing product and sales demonstrations to prospective customers, and formulating appropriate business. To support this, the France D&amp;amp;I Account Executive should have the ability to forecast accurately when managing the incoming pipeline of opportunities. The need to source, sell, co-sell, and close deals means that the ideal candidate should be familiar with the concepts of solution selling, carrying quota and closing. Above all else, we want our potential Government Sales Executive to enjoy our unique value proposition and join us in Planet’s mission to see change and change the world.&lt;/p&gt;\n&lt;p&gt;This is a full-time, remote position based in France. If located near an office, you are expected to work from that office 3 days per week.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Impact You’ll Own:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Work to develop the sales pipeline needed to achieve or exceed your sales targets and goals&lt;/li&gt;\n&lt;li&gt;Work in close collaboration with the Global D&amp;amp;I Sales team and Leadership&lt;/li&gt;\n&lt;li&gt;Work with Planet’s marketing team to run campaigns to attract and identify new opportunities&lt;/li&gt;\n&lt;li&gt;Prospect and develop business relationships, close sales, and manage customer expectations as the company grows&lt;/li&gt;\n&lt;li&gt;Collaborate with the wider Commercial team (for example Customer Success) to foster and grow customer relationships&lt;/li&gt;\n&lt;li&gt;Engage qualified prospects and take them through the journey of identifying a fit for Planet solutions and negotiating through agreement/contract/procurement obstacles to achieve an ultimate win&lt;/li&gt;\n&lt;li&gt;Manage the contracting and Government procurement process&lt;/li&gt;\n&lt;li&gt;Work closely with Solution Engineering staff to design a solution that answers customer needs and work in a cohesive manner to achieve technical validation that underpins a successful sale&lt;/li&gt;\n&lt;li&gt;Work closely with our post sales organization and customer success team to ensure a successful onboarding for new customers&lt;/li&gt;\n&lt;li&gt;Work strategically to develop the adequate sales pipeline needed to achieve or exceed your sales targets and goals&lt;/li&gt;\n&lt;li&gt;Maintain an extensive level of pipeline hygiene using Salesforce.com&lt;/li&gt;\n&lt;li&gt;Collaborate and innovate as needed to create customer-facing presentations and proposals unique to the prospect and situation&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What You Bring:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor’s Degree or commensurate professional experience&lt;/li&gt;\n&lt;li&gt;6+ years of related experience in software solutions and SaaS required along with a track record of success&lt;/li&gt;\n&lt;li&gt;6+ years’ experience selling to government customers including understanding the nuances of Government sales cycles and how to navigate through the process&lt;/li&gt;\n&lt;li&gt;Success finding and winning business with Government customers; in particular the Ministère des Armées and the Armées Françaises&lt;/li&gt;\n&lt;li&gt;Deep understanding of military operations and planning and the role of intelligence supporting military Commanders that could include Planet’s services.&lt;/li&gt;\n&lt;li&gt;Excellent relationships across Ministère des Armées and the Armées Françaises and Agencies and the partner ecosystem&lt;/li&gt;\n&lt;li&gt;Ability to satisfy French Nationality and other requirements to hold a Security Clearance&lt;/li&gt;\n&lt;li&gt;Excellent communication skills and fluent/native French speaker&lt;/li&gt;\n&lt;li&gt;Self-starter, able to work independently under tight deadlines in start-up environment&lt;/li&gt;\n&lt;li&gt;Excellent judgment and decision-making skills&lt;/li&gt;\n&lt;li&gt;Negotiation and persuasion skills&lt;/li&gt;\n&lt;li&gt;Critical thinking and creative problem-solving skills&lt;/li&gt;\n&lt;li&gt;Experience with Salesforce.com or a similar CRM System&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What Makes You Stand Out:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Ability to speak other languages&lt;/li&gt;\n&lt;li&gt;Existing Security Clearance at suitable level for engaging all levels of Command&lt;/li&gt;\n&lt;li&gt;Active Armed Forces Reserve or veteran as a relevant intelligence professional&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Application Deadline:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;11:45p / 23:45 CET on the date stated below. Applications are reviewed on a rolling basis. This posting may be removed earlier than projected if a suitable pool of applications has been received. For this reason, we recommend applying as soon as you are able to.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Benefits While Working at Planet:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;These offerings are dependent on employment type and geographical location, based upon applicable law or company policy.&lt;/em&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Paid time off including vacation, holidays and company-wide days off&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Employee Wellness Program&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Home Office Reimbursement&lt;/li&gt;\n&lt;li&gt;Monthly Phone and Internet Reimbursement&lt;/li&gt;\n&lt;li&gt;Tuition Reimbursement and access to LinkedIn Learning&lt;/li&gt;\n&lt;li&gt;Equity&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Volunteering Paid Time Off&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Compensation:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The expected starting gross salary range for this role is listed below. Individual placement within this range is determined objectively based on gender-neutral criteria such as your skills, qualifications, and professional experience. This position may also be eligible for discretionary bonuses, and/or equity.&lt;/p&gt;\n&lt;div id=&quot;message-list_1788369991.807479&quot;&gt;\n&lt;div&gt;\n&lt;div&gt;\n&lt;div&gt;\n&lt;div&gt;\n&lt;div&gt;\n&lt;div&gt;\n&lt;div&gt;\n&lt;div&gt;\n&lt;div&gt;\n&lt;div&gt;\n&lt;div&gt;In addition to the salary range listed below, this role is also eligible to receive commission.&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;h6&gt;&lt;span style=&quot;font-weight: 300; font-family: verdana, geneva, sans-serif;&quot;&gt;#LI-REMOTE&lt;/span&gt;&lt;/h6&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;France Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;€60.700&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;€75.850 EUR&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;San Francisco Fair Chance Ordinance&lt;br&gt;&lt;/strong&gt;Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Why we care so much about Belonging.&amp;nbsp;&lt;br&gt;&lt;/strong&gt;We’re dedicated to helping the whole Planet, and to do that we must strive to represent all of it within each of our offices and on all of our teams. That’s why Planet is guided by an ultimate north star of Belonging—dreaming big as we approach our ongoing work.&amp;nbsp; If this job intrigues you, but you’re thinking you might not have all the qualifications, please... do apply!&amp;nbsp; At Planet, we are looking for well-rounded people from around the world who can contribute to more ways than just what is listed in this job description.&amp;nbsp; We don’t just fill positions, we aspire to fulfill people’s careers, most excited about folks who are motivated by our underlying humanitarian efforts.&amp;nbsp; We are a few orbits around the sun before we get to where we want to be, so we hope you’re excited to come along for the ride.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;EEO statement: &lt;br&gt;&lt;/strong&gt;Planet is committed to building a community where everyone belongs and we invite people from all backgrounds to apply. Planet is an equal opportunity employer, and committed to providing employment opportunities regardless of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, pregnancy, childbirth and breastfeeding, age, sexual orientation, military or veteran status, or any other protected classification, in accordance with applicable federal, state, and local laws. &lt;a href=&quot;https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12.pdf&quot;&gt;Know Your Rights.&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Accommodations:&amp;nbsp;&lt;br&gt;&lt;/strong&gt;Planet is an inclusive community and we know that everyone has their own needs. If you have a disability or special need that requires accommodation during the hiring process, please reach out to accommodations@planet.com or contact your recruiter with your request. Your message will be confidential and we will be happy to assist you.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Privacy Policy&lt;/strong&gt;: By clicking &quot;Apply Now&quot; at the top of this job posting, I acknowledge that I have read the &lt;a href=&quot;https://www.planet.com/privacy/#california&quot;&gt;Planet Data Privacy Notice for California Staff Members and Applicants&lt;/a&gt;, and hereby consent to the collection, processing, use, and storage of my personal information as described therein.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Privacy Policy (European Applicants):&lt;/strong&gt; By clicking &quot;Apply Now&quot; at the top of this job posting, I acknowledge that I have read the &lt;a href=&quot;https://www.planet.com/privacy/&quot;&gt;Candidate Privacy Notice GDPR Planet Labs Europe&lt;/a&gt;, and hereby consent to the collection, processing, use, and storage of my personal information as described therein.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;AI in Our Interviewing Process&lt;/strong&gt;: Planet is committed to providing an exceptional interview experience for all candidates. We currently use &lt;a href=&quot;https://www.metaview.ai/&quot; target=&quot;_blank&quot;&gt;Metaview&lt;/a&gt; to better focus on candidates and less on trying to capture notes. As such, with the candidate&#39;s consent, select interviews may be recorded and include a &quot;Planet AI Notetaker&quot; for transcription and summarization purposes. Should an interview involve use of AI interview technologies, the candidate will receive notification and have the ability to opt out both in advance and/or real-time. Opting out will not affect one&#39;s candidacy.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Candidate AI Policy&lt;/strong&gt;: Planet embraces Artificial Intelligence (AI) tools, and we encourage its responsible use. We understand that candidates may use various resources, including AI tools, to &lt;em&gt;prepare&lt;/em&gt; for interviews and assessments. However, &lt;em&gt;during any live interview stage or when actively completing assessments for this position, the use of AI tools—e.g. Large Language Models (LLMs), deep fake technology, etc.—is strictly prohibited unless explicitly prompted by an interviewer or assessment instructions&lt;/em&gt;. If you are unsure about acceptable use, please contact your recruiter for clarification. If an AI tool or similar technology is desired as an accommodation, please contact accommodations@planet.com with your request for assistance. Your message will be confidential, and we will be happy to assist you. Violation of this policy may result in disqualification of your application.&lt;/p&gt;&lt;/div&gt;",
+          "departments": [
+            {
+              "id": 85200,
+              "name": "Account Executive",
+              "child_ids": [],
+              "parent_id": 9120
+            }
+          ],
+          "offices": [
+            {
+              "id": 85607,
+              "name": "EMEA, Remote",
+              "location": null,
+              "child_ids": [],
+              "parent_id": 84576
+            }
+          ],
+          "ai_disclaimer": null,
+          "include_ai_disclaimer": null,
+          "ai_opt_out_request_url": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/planetlabs/jobs/7711289",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": true
+            }
+          ],
+          "internal_job_id": 3387707,
+          "location": {
+            "name": "Sweden, Remote"
+          },
+          "metadata": null,
+          "id": 7711289,
+          "updated_at": "2026-09-17T08:36:51-04:00",
+          "requisition_id": "894",
+          "title": "Account Executive, Defence & Intelligence, Sweden",
+          "company_name": "Planet",
+          "first_published": "2026-03-16T12:34:53-04:00",
+          "language": "en",
+          "application_deadline": "2026-10-26T18:45:00-04:00",
+          "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Welcome to Planet. We believe in using space to help life on Earth.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Planet designs, builds, and operates the largest constellation of imaging satellites in history. This constellation delivers an unprecedented dataset of empirical information via a revolutionary cloud-based platform to authoritative figures in commercial, environmental, and humanitarian sectors. We are both a space company and data company all rolled into one.&lt;/p&gt;\n&lt;p&gt;Customers and users across the globe use Planet&#39;s data to develop new technologies, drive revenue, power research, and solve our world’s toughest obstacles.&lt;/p&gt;\n&lt;p&gt;As we control every component of hardware design, manufacturing, data processing, and software engineering, our office is a truly inspiring mix of experts from a variety of domains.&lt;/p&gt;\n&lt;p&gt;We have a people-centric approach toward culture and community and we strive to iterate in a way that puts our team members first and prepares our company for growth. Join Planet and be a part of our mission to change the way people see the world.&lt;/p&gt;\n&lt;p&gt;Planet is a global company with employees working remotely world wide and joining us from offices in San Francisco, Washington DC, Germany, Austria, Slovenia, and The Netherlands.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;About the Role:&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Based in Sweden, the D&amp;amp;I Account Executive will be responsible for growing Planet’s Government sales pipeline and book of business in the Swedish Ministry of Defence, Armed Forces and related agencies. The ideal candidate for this position is a driven, independent thinker, who can also be creative in finding new and dynamic ways to expand Planet’s government business. This person will have a track record of selling in government and defense, with an extensive network and able to navigate procurement processes and frameworks. They will identify, qualify, negotiate, and close large and medium-size deals and drive sales revenue targets. Most likely, the ideal candidate will have a solid understanding of Military Operations and Intelligence as well as designing, forming and selling complex solutions to government customers.&lt;/p&gt;\n&lt;p&gt;This role involves developing an extensive pipeline of new sales leads, providing product and sales demonstrations to prospective customers, and formulating appropriate business. To support this, the Swedish D&amp;amp;I Account Executive should have the ability to forecast accurately when managing the incoming pipeline of opportunities. The need to source, sell, co-sell, and close deals means that the ideal candidate should be familiar with the concepts of solution selling, carrying quota and closing. Above all else, we want our Account Executive to enjoy our unique value proposition and join us in Planet’s mission to see change and change the world.&lt;/p&gt;\n&lt;p&gt;This is a full-time, remote position based in Sweden. If located near an office, you are expected to work from that office 3 days per week.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Impact You’ll Own:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Work to develop the sales pipeline needed to achieve or exceed your sales targets and goals.&lt;/li&gt;\n&lt;li&gt;Work in close collaboration with the Global D&amp;amp;I Sales team and Leadership.&lt;/li&gt;\n&lt;li&gt;Work with Planet’s marketing team to run campaigns to attract and identify new opportunities.&lt;/li&gt;\n&lt;li&gt;Prospect and develop business relationships, close sales, and manage customer expectations as the company grows.&lt;/li&gt;\n&lt;li&gt;Collaborate with the wider Commercial team (for example Customer Success) to foster and grow customer relationships.&lt;/li&gt;\n&lt;li&gt;Engage qualified prospects and take them through the journey of identifying a fit for Planet solutions and negotiating through agreement/contract/procurement obstacles to achieve an ultimate win.&lt;/li&gt;\n&lt;li&gt;Manage the contracting and Government procurement process.&lt;/li&gt;\n&lt;li&gt;Work closely with Solution Engineering staff to design a solution that answers customer needs and work in a cohesive manner to achieve technical validation that underpins a successful sale.&lt;/li&gt;\n&lt;li&gt;Work closely with our post sales organization and customer success team to ensure a successful onboarding for new customers.&lt;/li&gt;\n&lt;li&gt;Work strategically to develop the adequate sales pipeline needed to achieve or exceed your sales targets and goals.&lt;/li&gt;\n&lt;li&gt;Maintain an extensive level of pipeline hygiene using Salesforce.com.&lt;/li&gt;\n&lt;li&gt;Collaborate and innovate as needed to create customer-facing presentations and proposals unique to the prospect and situation.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What You Bring:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor’s Degree or commensurate professional experience.&lt;/li&gt;\n&lt;li&gt;6+ years of related experience in software solutions and SaaS.&lt;/li&gt;\n&lt;li&gt;6+ years experience selling to government customers including understanding the nuances of Government sales cycles and how to navigate through the process.&lt;/li&gt;\n&lt;li&gt;Success finding and winning business with Government customers, in particular the Swedish Armed Forces and related agencies (for example FMV).&lt;/li&gt;\n&lt;li&gt;Deep understanding of military operations and planning and the role of intelligence supporting military Commanders that could include Planet’s services.&lt;/li&gt;\n&lt;li&gt;Excellent relationships across Swedish Ministry of Defence (especially the Armed Forces and FMV) and Agencies and the partner ecosystem.&lt;/li&gt;\n&lt;li&gt;Excellent communication skills.&lt;/li&gt;\n&lt;li&gt;Self-starter, able to work independently under tight deadlines in start-up environment.&lt;/li&gt;\n&lt;li&gt;Solid judgment and decision-making skills.&lt;/li&gt;\n&lt;li&gt;Negotiation and persuasion skills.&lt;/li&gt;\n&lt;li&gt;Critical thinking and creative problem-solving skills.&lt;/li&gt;\n&lt;li&gt;Experience with Salesforce.com or a similar CRM System.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What Makes You Stand Out:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Ability to speak regional languages (for example Danish, Finnish).&lt;/li&gt;\n&lt;li&gt;Active Armed Forces Reserve or veteran as a relevant intelligence professional.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Application Deadline:&lt;/strong&gt;&lt;/p&gt;\n&lt;p class=&quot;p1&quot;&gt;11:45p / 23:45 CET on the date stated below. Applications are reviewed on a rolling basis. This posting may be removed earlier than projected if a suitable pool of applications has been received. For this reason, we recommend applying as soon as you are able to.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Benefits While Working at Planet:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;These offerings are dependent on employment type and geographical location, based upon applicable law or company policy.&lt;/em&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Paid time off including vacation, holidays and company-wide days off&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Employee Wellness Program&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Home Office Reimbursement&lt;/li&gt;\n&lt;li&gt;Monthly Phone and Internet Reimbursement&lt;/li&gt;\n&lt;li&gt;Tuition Reimbursement and access to LinkedIn Learning&lt;/li&gt;\n&lt;li&gt;Equity&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Volunteering Paid Time Off&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Compensation:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The expected starting gross salary range for this role is listed below. Individual placement within this range is determined objectively based on gender-neutral criteria such as your skills, qualifications, and professional experience. This position may also be eligible for discretionary bonuses and/or equity.&lt;/p&gt;\n&lt;div id=&quot;message-list_1788369991.807479&quot;&gt;\n&lt;div&gt;\n&lt;div&gt;\n&lt;div&gt;\n&lt;div&gt;\n&lt;div&gt;\n&lt;div&gt;\n&lt;div&gt;\n&lt;div&gt;\n&lt;div&gt;\n&lt;div&gt;\n&lt;div&gt;In addition to the salary range listed below, this role is also eligible to receive commission.&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;h6&gt;&lt;span style=&quot;font-weight: 300; font-family: verdana, geneva, sans-serif;&quot;&gt;#LI-REMOTE&lt;/span&gt;&lt;/h6&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;Sweden Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;754 500 kr&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;943 100 kr SEK&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;San Francisco Fair Chance Ordinance&lt;br&gt;&lt;/strong&gt;Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Why we care so much about Belonging.&amp;nbsp;&lt;br&gt;&lt;/strong&gt;We’re dedicated to helping the whole Planet, and to do that we must strive to represent all of it within each of our offices and on all of our teams. That’s why Planet is guided by an ultimate north star of Belonging—dreaming big as we approach our ongoing work.&amp;nbsp; If this job intrigues you, but you’re thinking you might not have all the qualifications, please... do apply!&amp;nbsp; At Planet, we are looking for well-rounded people from around the world who can contribute to more ways than just what is listed in this job description.&amp;nbsp; We don’t just fill positions, we aspire to fulfill people’s careers, most excited about folks who are motivated by our underlying humanitarian efforts.&amp;nbsp; We are a few orbits around the sun before we get to where we want to be, so we hope you’re excited to come along for the ride.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;EEO statement: &lt;br&gt;&lt;/strong&gt;Planet is committed to building a community where everyone belongs and we invite people from all backgrounds to apply. Planet is an equal opportunity employer, and committed to providing employment opportunities regardless of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, pregnancy, childbirth and breastfeeding, age, sexual orientation, military or veteran status, or any other protected classification, in accordance with applicable federal, state, and local laws. &lt;a href=&quot;https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12.pdf&quot;&gt;Know Your Rights.&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Accommodations:&amp;nbsp;&lt;br&gt;&lt;/strong&gt;Planet is an inclusive community and we know that everyone has their own needs. If you have a disability or special need that requires accommodation during the hiring process, please reach out to accommodations@planet.com or contact your recruiter with your request. Your message will be confidential and we will be happy to assist you.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Privacy Policy&lt;/strong&gt;: By clicking &quot;Apply Now&quot; at the top of this job posting, I acknowledge that I have read the &lt;a href=&quot;https://www.planet.com/privacy/#california&quot;&gt;Planet Data Privacy Notice for California Staff Members and Applicants&lt;/a&gt;, and hereby consent to the collection, processing, use, and storage of my personal information as described therein.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Privacy Policy (European Applicants):&lt;/strong&gt; By clicking &quot;Apply Now&quot; at the top of this job posting, I acknowledge that I have read the &lt;a href=&quot;https://www.planet.com/privacy/&quot;&gt;Candidate Privacy Notice GDPR Planet Labs Europe&lt;/a&gt;, and hereby consent to the collection, processing, use, and storage of my personal information as described therein.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;AI in Our Interviewing Process&lt;/strong&gt;: Planet is committed to providing an exceptional interview experience for all candidates. We currently use &lt;a href=&quot;https://www.metaview.ai/&quot; target=&quot;_blank&quot;&gt;Metaview&lt;/a&gt; to better focus on candidates and less on trying to capture notes. As such, with the candidate&#39;s consent, select interviews may be recorded and include a &quot;Planet AI Notetaker&quot; for transcription and summarization purposes. Should an interview involve use of AI interview technologies, the candidate will receive notification and have the ability to opt out both in advance and/or real-time. Opting out will not affect one&#39;s candidacy.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Candidate AI Policy&lt;/strong&gt;: Planet embraces Artificial Intelligence (AI) tools, and we encourage its responsible use. We understand that candidates may use various resources, including AI tools, to &lt;em&gt;prepare&lt;/em&gt; for interviews and assessments. However, &lt;em&gt;during any live interview stage or when actively completing assessments for this position, the use of AI tools—e.g. Large Language Models (LLMs), deep fake technology, etc.—is strictly prohibited unless explicitly prompted by an interviewer or assessment instructions&lt;/em&gt;. If you are unsure about acceptable use, please contact your recruiter for clarification. If an AI tool or similar technology is desired as an accommodation, please contact accommodations@planet.com with your request for assistance. Your message will be confidential, and we will be happy to assist you. Violation of this policy may result in disqualification of your application.&lt;/p&gt;&lt;/div&gt;",
+          "departments": [
+            {
+              "id": 85200,
+              "name": "Account Executive",
+              "child_ids": [],
+              "parent_id": 9120
+            }
+          ],
+          "offices": [
+            {
+              "id": 85607,
+              "name": "EMEA, Remote",
+              "location": null,
+              "child_ids": [],
+              "parent_id": 84576
+            }
+          ],
+          "ai_disclaimer": null,
+          "include_ai_disclaimer": null,
+          "ai_opt_out_request_url": null
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/planetlabs/jobs/8244395",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 3562229,
+          "location": {
+            "name": "Arlington, VA"
+          },
+          "metadata": null,
+          "id": 8244395,
+          "updated_at": "2026-10-02T15:46:14-04:00",
+          "requisition_id": "1126",
+          "title": "Analyst, Sales Strategy & GTM Planning",
+          "company_name": "Planet",
+          "first_published": "2026-10-02T15:46:14-04:00",
+          "language": "en",
+          "application_deadline": "2026-12-31T02:45:00-05:00",
+          "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Welcome to Planet. We believe in using space to help life on Earth.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Planet designs, builds, and operates the largest constellation of imaging satellites in history. This constellation delivers an unprecedented dataset of empirical information via a revolutionary cloud-based platform to authoritative figures in commercial, environmental, and humanitarian sectors. We are both a space company and data company all rolled into one.&lt;/p&gt;\n&lt;p&gt;Customers and users across the globe use Planet&#39;s data to develop new technologies, drive revenue, power research, and solve our world’s toughest obstacles.&lt;/p&gt;\n&lt;p&gt;As we control every component of hardware design, manufacturing, data processing, and software engineering, our office is a truly inspiring mix of experts from a variety of domains.&lt;/p&gt;\n&lt;p&gt;We have a people-centric approach toward culture and community and we strive to iterate in a way that puts our team members first and prepares our company for growth. Join Planet and be a part of our mission to change the way people see the world.&lt;/p&gt;\n&lt;p&gt;Planet is a global company with employees working remotely world wide and joining us from offices in San Francisco, Washington DC, Germany, Austria, Slovenia, and The Netherlands.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;About the Role:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;As we scale, we’re looking for a high-impact, analytical, and strategic problem-solver to join our Rev Ops team as our Sales Strategy Analyst..&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;You&#39;ll bring analytical rigor and strategic thinking to solve high-priority business challenges, optimize revenue performance, and help shape our go-to-market strategy.&lt;/p&gt;\n&lt;p&gt;We are looking for an Analyst of Sales Strategy &amp;amp; GTM Planning to serve as the engine behind our annual planning, sales capacity modeling, and strategic revenue initiatives. Reporting to the Senior Manager of Sales Strategy &amp;amp; GTM Ops, you will bridge strategic GTM decisions with analytical and system execution.&lt;/p&gt;\n&lt;p&gt;You will own complex quantitative models—from territory design and quota allocation to account scoring algorithms—and translate them into scalable GTM architecture. While day-to-day tactical sales execution is managed by our Sales Ops team, your focus will be on the strategic framework that enables our global field teams to succeed.&lt;/p&gt;\n&lt;p&gt;This is a full-time, hybrid role which will require you to work from our San Francisco or Arlington, VA office 3 days per week.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Impact You&#39;ll Own:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Fiscal Year Planning &amp;amp; Modeling: Partner on annual capacity modeling, quota deployment, and territory carve-outs. Build scenario models analyzing rep ramp times, productivity curves, and coverage rules.&lt;/li&gt;\n&lt;li&gt;Planning Stack Architecture (Pigment): Own and evolve our multi-dimensional planning models (in Pigment) to ensure automated, real-time tracking of quotas, territories, and headcount allocation.&lt;/li&gt;\n&lt;li&gt;Account Scoring &amp;amp; Segmentation: Design, test, and maintain data-driven account scoring models and tiering frameworks to optimize field team focus and lead-to-account mapping.&lt;/li&gt;\n&lt;li&gt;Data Governance &amp;amp; Metric Definitions: Establish metric layers and data governance standards across GTM platforms to ensure data integrity across CRM, EPM, and executive reporting.&lt;/li&gt;\n&lt;li&gt;Recommend strategies to enhance CRM data quality and governance (e.g., opportunity hygiene, stage definitions, activity capture, account/contact integrity), and work with field teams to improve data capture processes.&lt;/li&gt;\n&lt;li&gt;Strategic Ad-Hoc Analytics: Deliver rigorous business cases, scenario analyses, and data insights for strategic leadership initiatives across GTM leadership.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What You Bring:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience: 6–8 years of relevant work experience in GTM Strategy, RevOps, BizOps, or Financial Planning &amp;amp; Analysis (FP&amp;amp;A) at a high-growth B2B SaaS or technology enterprise.&lt;/li&gt;\n&lt;li&gt;Advanced Modeling Skills: Expert proficiency in multi-dimensional data modeling, scenario planning, and complex financial/operational logic in Excel/Google Sheets.&lt;/li&gt;\n&lt;li&gt;Dimensional Planning Systems: Direct experience (or strong operational foundation) in EPM platforms such as Pigment, Anaplan, Adaptive, or Workday Planning. (Pigment certification or experience is a strong plus, but willingness to master Pigment is required).&lt;/li&gt;\n&lt;li&gt;Data &amp;amp; CRM Literacy: Solid understanding of Salesforce architecture, data schema, and data governance standards. SQL experience is a major plus.&lt;/li&gt;\n&lt;li&gt;Business Acumen: Deep understanding of SaaS business metrics (ARR, NRR, CAC, Ramped Capacity, Win Rates).&lt;/li&gt;\n&lt;li&gt;Communication: Ability to distill complex analytical findings into clear strategic recommendations for GTM leaders.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What Makes You Stand Out:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Prior experience implementing or managing models inside Pigment.&lt;/li&gt;\n&lt;li&gt;Proven track record of owning annual quota and territory rollouts end-to-end.&lt;/li&gt;\n&lt;li&gt;Background combining corporate strategy/consulting with hands-on systems administration.&lt;/li&gt;\n&lt;li&gt;Solid FP&amp;amp;A background or Rev Ops background.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Application Deadline:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;11:45p / 23:45 PT on the date stated below. Applications are reviewed on a rolling basis. This posting may be removed earlier than projected if a suitable pool of applications has been received. For this reason, we recommend applying as soon as you are able to.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Benefits While Working at Planet:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;These offerings are dependent on employment type and geographical location, based upon applicable law or company policy.&lt;/em&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Comprehensive Medical, Dental, and Vision plans&lt;/li&gt;\n&lt;li&gt;Health Savings Account (HSA) with a company contribution&lt;/li&gt;\n&lt;li&gt;Generous Paid Time Off in addition to holidays and company-wide days off&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;16 Weeks of Paid Parental Leave&lt;/li&gt;\n&lt;li&gt;Wellness Program and Employee Assistance Program (EAP)&lt;/li&gt;\n&lt;li&gt;Home Office Reimbursement&lt;/li&gt;\n&lt;li&gt;Monthly Phone and Internet Reimbursement&lt;/li&gt;\n&lt;li&gt;Tuition Reimbursement and access to LinkedIn Learning&lt;/li&gt;\n&lt;li&gt;Equity&lt;/li&gt;\n&lt;li&gt;Commuter Benefits (if local to an office)&lt;/li&gt;\n&lt;li&gt;Volunteering Paid Time Off&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Compensation:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The US base salary range for this full-time position at the commencement of employment is listed below. Additionally, this role might be eligible for discretionary short-term and long-term incentives (bonus and equity). The final salary range is determined by job related experience, skills and location. The range displays our typical hiring range for new hire salaries in US locations only. Your recruiter can share more about the specific salary range for your preferred location during the hiring process. This role is eligible for commission.&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;US National Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$112,900&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$141,100 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;San Francisco Fair Chance Ordinance&lt;br&gt;&lt;/strong&gt;Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Why we care so much about Belonging.&amp;nbsp;&lt;br&gt;&lt;/strong&gt;We’re dedicated to helping the whole Planet, and to do that we must strive to represent all of it within each of our offices and on all of our teams. That’s why Planet is guided by an ultimate north star of Belonging—dreaming big as we approach our ongoing work.&amp;nbsp; If this job intrigues you, but you’re thinking you might not have all the qualifications, please... do apply!&amp;nbsp; At Planet, we are looking for well-rounded people from around the world who can contribute to more ways than just what is listed in this job description.&amp;nbsp; We don’t just fill positions, we aspire to fulfill people’s careers, most excited about folks who are motivated by our underlying humanitarian efforts.&amp;nbsp; We are a few orbits around the sun before we get to where we want to be, so we hope you’re excited to come along for the ride.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;EEO statement: &lt;br&gt;&lt;/strong&gt;Planet is committed to building a community where everyone belongs and we invite people from all backgrounds to apply. Planet is an equal opportunity employer, and committed to providing employment opportunities regardless of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, pregnancy, childbirth and breastfeeding, age, sexual orientation, military or veteran status, or any other protected classification, in accordance with applicable federal, state, and local laws. &lt;a href=&quot;https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12.pdf&quot;&gt;Know Your Rights.&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Accommodations:&amp;nbsp;&lt;br&gt;&lt;/strong&gt;Planet is an inclusive community and we know that everyone has their own needs. If you have a disability or special need that requires accommodation during the hiring process, please reach out to accommodations@planet.com or contact your recruiter with your request. Your message will be confidential and we will be happy to assist you.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Privacy Policy&lt;/strong&gt;: By clicking &quot;Apply Now&quot; at the top of this job posting, I acknowledge that I have read the &lt;a href=&quot;https://www.planet.com/privacy/#california&quot;&gt;Planet Data Privacy Notice for California Staff Members and Applicants&lt;/a&gt;, and hereby consent to the collection, processing, use, and storage of my personal information as described therein.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Privacy Policy (European Applicants):&lt;/strong&gt; By clicking &quot;Apply Now&quot; at the top of this job posting, I acknowledge that I have read the &lt;a href=&quot;https://www.planet.com/privacy/&quot;&gt;Candidate Privacy Notice GDPR Planet Labs Europe&lt;/a&gt;, and hereby consent to the collection, processing, use, and storage of my personal information as described therein.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;AI in Our Interviewing Process&lt;/strong&gt;: Planet is committed to providing an exceptional interview experience for all candidates. We currently use &lt;a href=&quot;https://www.metaview.ai/&quot; target=&quot;_blank&quot;&gt;Metaview&lt;/a&gt; to better focus on candidates and less on trying to capture notes. As such, with the candidate&#39;s consent, select interviews may be recorded and include a &quot;Planet AI Notetaker&quot; for transcription and summarization purposes. Should an interview involve use of AI interview technologies, the candidate will receive notification and have the ability to opt out both in advance and/or real-time. Opting out will not affect one&#39;s candidacy.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Candidate AI Policy&lt;/strong&gt;: Planet embraces Artificial Intelligence (AI) tools, and we encourage its responsible use. We understand that candidates may use various resources, including AI tools, to &lt;em&gt;prepare&lt;/em&gt; for interviews and assessments. However, &lt;em&gt;during any live interview stage or when actively completing assessments for this position, the use of AI tools—e.g. Large Language Models (LLMs), deep fake technology, etc.—is strictly prohibited unless explicitly prompted by an interviewer or assessment instructions&lt;/em&gt;. If you are unsure about acceptable use, please contact your recruiter for clarification. If an AI tool or similar technology is desired as an accommodation, please contact accommodations@planet.com with your request for assistance. Your message will be confidential, and we will be happy to assist you. Violation of this policy may result in disqualification of your application.&lt;/p&gt;&lt;/div&gt;",
+          "departments": [
+            {
+              "id": 85188,
+              "name": "Global Revenue Operations",
+              "child_ids": [],
+              "parent_id": 9120
+            }
+          ],
+          "offices": [
+            {
+              "id": 5524,
+              "name": "San Francisco Office",
+              "location": null,
+              "child_ids": [],
+              "parent_id": 84575
+            },
+            {
+              "id": 20886,
+              "name": "Washington D.C. Office",
+              "location": null,
+              "child_ids": [],
+              "parent_id": 84575
+            }
+          ],
+          "ai_disclaimer": null,
+          "include_ai_disclaimer": null,
+          "ai_opt_out_request_url": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.planet.com",
+    "explanation": "Public careers source for Planet Labs: https://www.planet.com/company/careers/. The ATS board and representative job links are branded for this employer or its consolidated corporate group. This is a group monitor, not an unfiltered child-company monitor. Regional/student scope is stated in monitor warnings. Local findings are provisional and require maintainer ownership review.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://job-boards.greenhouse.io/planetlabs/jobs/8204162",
+      "https://job-boards.greenhouse.io/planetlabs/jobs/7711289",
+      "https://job-boards.greenhouse.io/planetlabs/jobs/8244395"
+    ]
+  }
+}
