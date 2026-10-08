@@ -11,13 +11,14 @@
     "recipe_schema_version": 1
   },
   "verification": {
-    "status": "unverified",
-    "checked_at": null,
-    "job_count": null,
+    "status": "verified",
+    "checked_at": "2026-10-08T17:33:33.968505+00:00",
+    "job_count": 1783,
     "warnings": [
-      "Provisional local evidence only; awaiting trusted upstream validation.",
-      "All role families advertised on this public employer board; no title or geographic filter.",
-      "Local listing validation on 2026-10-08 was incomplete: Listing request failed (ScraperNetworkError); saved traversal remains incomplete and retries next run."
+      "Listing is incomplete; unseen roles are not confirmed closed.",
+      "Description traversal paused; 1601 eligible roles resume next run.",
+      "description detail enrichment was incomplete for 1 jobs",
+      "Resuming metadata or descriptions from a prior listing snapshot; this is not a new absence check."
     ]
   },
   "recipe": {

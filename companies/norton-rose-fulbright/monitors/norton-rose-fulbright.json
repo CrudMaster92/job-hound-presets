@@ -12,10 +12,10 @@
   },
   "verification": {
     "status": "verified",
-    "checked_at": "2026-10-05T18:09:15.490968+00:00",
-    "job_count": 116,
+    "checked_at": "2026-10-08T17:33:33.968505+00:00",
+    "job_count": 119,
     "warnings": [
-      "description detail enrichment skipped 91 jobs after the configured 25-posting limit"
+      "description detail enrichment skipped 99 jobs after the configured 20-posting limit"
     ]
   },
   "recipe": {

@@ -2,9 +2,9 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "advanced-technology-science-engineering",
-  "revision": 1,
+  "revision": 2,
   "name": "Advanced Technology, Science & Engineering",
-  "description": "Initial 25 employers and 27 public careers monitors across semiconductors, instruments, photonics, quantum computing, space and advanced manufacturing. Recipes request all role families without personal filters. Five Workday feeds returned incomplete listings in local validation. TSMC regional and SpaceX feeds lack descriptions; the TSMC Taiwan/global board is blocked and excluded. Student/regional boards are labelled separately. Local findings are provisional pending trusted validation and review.",
+  "description": "25 employers and 27 monitors across semiconductors, instruments, photonics, quantum, space and manufacturing. All 27 returned company-owned jobs on 2026-10-08. Recipes request all role families without personal filters; large feeds can remain partial while listing or description work continues. TSMC regional and SpaceX feeds lack descriptions; the blocked TSMC Taiwan/global board is excluded. Student/regional boards are labelled. Review dated counts and warnings; coverage is not guaranteed exhaustive.",
   "tags": [
     "Advanced Technology",
     "Science",
