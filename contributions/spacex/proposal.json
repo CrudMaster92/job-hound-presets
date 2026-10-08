@@ -1,0 +1,248 @@
+{
+  "base_commit": "313e8b1c910139934b10c5bbc740966c64b2ff5f",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "spacex",
+    "name": "SpaceX",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://www.spacex.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "aerospace"
+      ],
+      "specialties": [
+        "space-systems",
+        "advanced-manufacturing"
+      ],
+      "tags": [
+        "Advanced Technology",
+        "Science",
+        "Engineering"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "spacex",
+    "company_id": "spacex",
+    "revision": 1,
+    "label": "SpaceX careers",
+    "careers_url": "https://job-boards.greenhouse.io/spacex",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local evidence only; awaiting trusted upstream validation.",
+        "All role families on the public SpaceX board. Listing-only: the combined descriptions response exceeds the runtime byte budget."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "SpaceX",
+      "careers_url": "https://job-boards.greenhouse.io/spacex",
+      "strategy": "greenhouse",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": false
+        },
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "board_token": "spacex"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs",
+    "fetched_at": "2026-10-08T14:43:22.923813+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://boards.greenhouse.io/spacex/jobs/8815850002?gh_jid=8815850002",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "education": "education_required",
+          "internal_job_id": 6451875002,
+          "location": {
+            "name": "Palo Alto, CA"
+          },
+          "metadata": [
+            {
+              "id": 4010460002,
+              "name": "Employment Type",
+              "value": "Regular",
+              "value_type": "single_select"
+            },
+            {
+              "id": 4026103002,
+              "name": "Discipline",
+              "value": "Corporate - Finance & Accounting",
+              "value_type": "single_select"
+            },
+            {
+              "id": 28070425002,
+              "name": "Program",
+              "value": [
+                "Corporate"
+              ],
+              "value_type": "multi_select"
+            }
+          ],
+          "id": 8815850002,
+          "updated_at": "2026-09-29T17:52:51-04:00",
+          "requisition_id": "6451875002",
+          "title": "Accountant",
+          "company_name": "SpaceX",
+          "first_published": "2026-09-16T20:43:28-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://boards.greenhouse.io/spacex/jobs/8643277002?gh_jid=8643277002",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "education": "education_required",
+          "internal_job_id": 6451875002,
+          "location": {
+            "name": "Hawthorne, CA"
+          },
+          "metadata": [
+            {
+              "id": 4010460002,
+              "name": "Employment Type",
+              "value": "Regular",
+              "value_type": "single_select"
+            },
+            {
+              "id": 4026103002,
+              "name": "Discipline",
+              "value": "Corporate - Finance & Accounting",
+              "value_type": "single_select"
+            },
+            {
+              "id": 28070425002,
+              "name": "Program",
+              "value": [
+                "Corporate"
+              ],
+              "value_type": "multi_select"
+            }
+          ],
+          "id": 8643277002,
+          "updated_at": "2026-09-29T17:52:51-04:00",
+          "requisition_id": "6451875002",
+          "title": "Accountant",
+          "company_name": "SpaceX",
+          "first_published": "2026-07-21T19:49:28-04:00",
+          "language": "en",
+          "application_deadline": null
+        },
+        {
+          "absolute_url": "https://boards.greenhouse.io/spacex/jobs/8786430002?gh_jid=8786430002",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "education": "education_required",
+          "internal_job_id": 6514991002,
+          "location": {
+            "name": "Palo Alto, CA"
+          },
+          "metadata": [
+            {
+              "id": 4010460002,
+              "name": "Employment Type",
+              "value": "Regular",
+              "value_type": "single_select"
+            },
+            {
+              "id": 4026103002,
+              "name": "Discipline",
+              "value": "Corporate - Finance & Accounting",
+              "value_type": "single_select"
+            },
+            {
+              "id": 28070425002,
+              "name": "Program",
+              "value": [
+                "Corporate"
+              ],
+              "value_type": "multi_select"
+            }
+          ],
+          "id": 8786430002,
+          "updated_at": "2026-10-05T17:53:23-04:00",
+          "requisition_id": "6514991002",
+          "title": "Accountant, AI Operations",
+          "company_name": "SpaceX",
+          "first_published": "2026-09-09T17:28:46-04:00",
+          "language": "en",
+          "application_deadline": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.spacex.com",
+    "explanation": "Public careers source for SpaceX: https://www.spacex.com/careers/. The ATS board and representative job links are branded for this employer or its consolidated corporate group. This is a group monitor, not an unfiltered child-company monitor. Regional/student scope is stated in monitor warnings. Local findings are provisional and require maintainer ownership review.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://boards.greenhouse.io/spacex/jobs/8815850002?gh_jid=8815850002",
+      "https://boards.greenhouse.io/spacex/jobs/8643277002?gh_jid=8643277002",
+      "https://boards.greenhouse.io/spacex/jobs/8786430002?gh_jid=8786430002"
+    ]
+  }
+}

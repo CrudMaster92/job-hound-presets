@@ -1,0 +1,133 @@
+{
+  "base_commit": "313e8b1c910139934b10c5bbc740966c64b2ff5f",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "marvell",
+    "name": "Marvell",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://www.marvell.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "semiconductors"
+      ],
+      "specialties": [
+        "semiconductor-engineering",
+        "electronics"
+      ],
+      "tags": [
+        "Advanced Technology",
+        "Science",
+        "Engineering"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "marvell",
+    "company_id": "marvell",
+    "revision": 1,
+    "label": "Marvell careers",
+    "careers_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local evidence only; awaiting trusted upstream validation.",
+        "All role families advertised on this public employer board; no title or geographic filter."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Marvell",
+      "careers_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers",
+      "strategy": "workday",
+      "allowed_hosts": [
+        "marvell.wd1.myworkdayjobs.com"
+      ],
+      "request": {
+        "url": "https://marvell.wd1.myworkdayjobs.com/wday/cxs/marvell/MarvellCareers/jobs",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "json_body": {
+          "appliedFacets": {},
+          "limit": 20,
+          "offset": 0,
+          "searchText": ""
+        },
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 20,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "tenant": "marvell",
+        "site": "MarvellCareers"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://marvell.wd1.myworkdayjobs.com/wday/cxs/marvell/MarvellCareers/jobs",
+    "fetched_at": "2026-10-08T14:33:22.933068+00:00",
+    "payload": {
+      "jobPostings": [
+        {
+          "title": "Hardware Board Design Senior Staff Engineer",
+          "externalPath": "/job/Yokneam/Hardware-Board-Design-Senior-Staff-Engineer_2603477",
+          "locationsText": "Yokneam",
+          "postedOn": "Posted 4 Days Ago",
+          "bulletFields": [
+            "2603477"
+          ]
+        },
+        {
+          "title": "Director of IT - Legal, Compliance & Workplace Applications",
+          "externalPath": "/job/Santa-Clara-CA/Director-of-IT---Legal--Compliance---Workplace-Applications_2604737",
+          "locationsText": "2 Locations",
+          "postedOn": "Posted 24 Days Ago",
+          "bulletFields": [
+            "2604737"
+          ]
+        },
+        {
+          "title": "Photonics Design and Test",
+          "externalPath": "/job/Remote---Greece/Photonics-Design-and-Test_2603864",
+          "locationsText": "Remote - Greece",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "2603864"
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.marvell.com",
+    "explanation": "Public careers source for Marvell: https://www.marvell.com/careers.html. The ATS board and representative job links are branded for this employer or its consolidated corporate group. This is a group monitor, not an unfiltered child-company monitor. Regional/student scope is stated in monitor warnings. Local findings are provisional and require maintainer ownership review.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Yokneam/Hardware-Board-Design-Senior-Staff-Engineer_2603477",
+      "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Director-of-IT---Legal--Compliance---Workplace-Applications_2604737",
+      "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Remote---Greece/Photonics-Design-and-Test_2603864"
+    ]
+  }
+}

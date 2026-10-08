@@ -1,0 +1,301 @@
+{
+  "base_commit": "313e8b1c910139934b10c5bbc740966c64b2ff5f",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "formlabs",
+    "name": "Formlabs",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://careers.formlabs.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "advanced-manufacturing"
+      ],
+      "specialties": [
+        "additive-manufacturing"
+      ],
+      "tags": [
+        "Advanced Technology",
+        "Science",
+        "Engineering"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "formlabs",
+    "company_id": "formlabs",
+    "revision": 1,
+    "label": "Formlabs careers",
+    "careers_url": "https://job-boards.greenhouse.io/formlabs",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local evidence only; awaiting trusted upstream validation.",
+        "All role families advertised on this public employer board; no title or geographic filter."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Formlabs",
+      "careers_url": "https://job-boards.greenhouse.io/formlabs",
+      "strategy": "greenhouse",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/formlabs/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "board_token": "formlabs"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/formlabs/jobs",
+    "fetched_at": "2026-10-08T14:33:26.057611+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://careers.formlabs.com/job/8203818/apply/?gh_jid=8203818",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 3344133,
+          "location": {
+            "name": "Perrysburg, OH"
+          },
+          "metadata": [
+            {
+              "id": 23858,
+              "name": "Employment Type",
+              "value": "Full-time",
+              "value_type": "single_select"
+            },
+            {
+              "id": 34304608,
+              "name": "Time Type",
+              "value": "Full-Time",
+              "value_type": "single_select"
+            },
+            {
+              "id": 34304609,
+              "name": "Headcount Classification",
+              "value": "Counted in Headcount",
+              "value_type": "single_select"
+            }
+          ],
+          "id": 8203818,
+          "updated_at": "2026-09-15T07:45:39-04:00",
+          "requisition_id": "2189",
+          "title": "1st Shift Production Specialist",
+          "company_name": "Formlabs",
+          "first_published": "2026-09-15T07:45:39-04:00",
+          "language": "en",
+          "application_deadline": null,
+          "content": "&lt;p&gt;&lt;strong&gt;About Formlabs:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Do you want to change how the world creates?&lt;/p&gt;\n&lt;p&gt;At Formlabs, we’re building the tools that make it possible for anyone to bring their ideas to life, from cutting-edge products to life-saving medical devices. Our 3D printing technology powers innovation at more than 50,000 industry leaders worldwide, including Apple, Google, Tesla, New Balance, and NASA. Together, we’re helping everyone design, prototype, and manufacture faster than ever before.&lt;/p&gt;\n&lt;p&gt;We’re a team of hands-on builders, engineers, and innovators reinventing how the world makes physical things. If you’re ready to shape the future of fabrication, come build it with us.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Your Impact:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;This position (Production Specialist) is responsible for the preparation and completion of engineered resins manufacturing for photochemistry applications. A detailed breakdown of the different responsibilities associated with this position is defined below. The 1st shift hours are 7am - 3:30pm, Monday through Friday.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What You’ll Do:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Ensure a reliable live inventory of raw materials, WIP, or completed batches in the areas under his/her responsibility. You will be moving chemicals from inventory to mixing tanks and emptying drums into tanks.&lt;/li&gt;\n&lt;li&gt;Provide first hand support to Production on issues associated with the resins based on the actual process parameters that may result in significant downtime.&lt;/li&gt;\n&lt;li&gt;Ensure compliance with all Spectra health and safety and local, state, and federal regulatory requirements.&lt;/li&gt;\n&lt;li&gt;Responsible for creating, reviewing, submitting and completing the resin recipes required to accomplish the production schedules.&lt;/li&gt;\n&lt;li&gt;Submit and complete all the sampling associated with the batching process so batches are fully approved before use.&lt;/li&gt;\n&lt;li&gt;Ensure the effective utilization of raw materials in the batching area so minimal waste or obsolescence is avoided while accomplishing his/her duties.&lt;/li&gt;\n&lt;li&gt;Responsible to follow and maintain all the documentation associated with his/her activities as defined in the Quality Management System.&lt;/li&gt;\n&lt;li&gt;Address any potential equipment or batching process issues that may affect or delay the batching schedule.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;You:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Associates degree or High School degree with production experience.&lt;/li&gt;\n&lt;li&gt;Excellent verbal and written communication skills.&lt;/li&gt;\n&lt;li&gt;Solid problem-solving abilities.&lt;/li&gt;\n&lt;li&gt;Self-motivated with the ability to work on an independent basis.&lt;/li&gt;\n&lt;li&gt;Strong organizational and time management skills.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;We Offer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Medical, Dental, Vision&lt;/li&gt;\n&lt;li&gt;3% match of yearly salary for 401(k)&lt;/li&gt;\n&lt;li&gt;EAP Program&lt;/li&gt;\n&lt;li&gt;In-office catering 3x per week&lt;/li&gt;\n&lt;li&gt;120 hours of PTO per year&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;em&gt;We are an equal opportunity employer and value diversity at our company.&amp;nbsp; We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.&amp;nbsp;&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Even if you don&#39;t check every box, but see yourself contributing, please apply.&lt;/strong&gt; Help us build an inclusive community that will change the face of 3D printing.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;strong&gt;Compensation&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;At Formlabs, base pay is one part of our total compensation package and is determined within a range. Your base pay will depend on your skills, qualifications, experience, location and expected impact on the organization.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;The hourly base pay range for this role is:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$17.75&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$21 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+          "departments": [
+            {
+              "id": 6210,
+              "name": "Operations",
+              "child_ids": [],
+              "parent_id": null
+            }
+          ],
+          "offices": [
+            {
+              "id": 67297,
+              "name": "Millbury, Ohio",
+              "location": "Millbury, Ohio, United States",
+              "child_ids": [],
+              "parent_id": null
+            }
+          ],
+          "ai_disclaimer": null,
+          "include_ai_disclaimer": null,
+          "ai_opt_out_request_url": null
+        },
+        {
+          "absolute_url": "https://careers.formlabs.com/job/8203819/apply/?gh_jid=8203819",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 3344133,
+          "location": {
+            "name": "Perrysburg, OH"
+          },
+          "metadata": [
+            {
+              "id": 23858,
+              "name": "Employment Type",
+              "value": "Full-time",
+              "value_type": "single_select"
+            },
+            {
+              "id": 34304608,
+              "name": "Time Type",
+              "value": "Full-Time",
+              "value_type": "single_select"
+            },
+            {
+              "id": 34304609,
+              "name": "Headcount Classification",
+              "value": "Counted in Headcount",
+              "value_type": "single_select"
+            }
+          ],
+          "id": 8203819,
+          "updated_at": "2026-09-15T07:47:01-04:00",
+          "requisition_id": "2189",
+          "title": "2nd Shift Production Specialist",
+          "company_name": "Formlabs",
+          "first_published": "2026-09-15T07:47:01-04:00",
+          "language": "en",
+          "application_deadline": null,
+          "content": "&lt;p&gt;&lt;strong&gt;About Formlabs:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Do you want to change how the world creates?&lt;/p&gt;\n&lt;p&gt;At Formlabs, we’re building the tools that make it possible for anyone to bring their ideas to life, from cutting-edge products to life-saving medical devices. Our 3D printing technology powers innovation at more than 50,000 industry leaders worldwide, including Apple, Google, Tesla, New Balance, and NASA. Together, we’re helping everyone design, prototype, and manufacture faster than ever before.&lt;/p&gt;\n&lt;p&gt;We’re a team of hands-on builders, engineers, and innovators reinventing how the world makes physical things. If you’re ready to shape the future of fabrication, come build it with us.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Your Impact:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;This position (Production Specialist) is responsible for the preparation and completion of engineered resins manufacturing for photochemistry applications. A detailed breakdown of the different responsibilities associated with this position is defined below. The hours are 2pm - 10:30pm, Monday through Friday.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What You’ll Do:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Ensure a reliable live inventory of raw materials, WIP, or completed batches in the areas under his/her responsibility. You will be moving chemicals from inventory to mixing tanks and emptying drums into tanks.&lt;/li&gt;\n&lt;li&gt;Provide first hand support to Production on issues associated with the resins based on the actual process parameters that may result in significant downtime.&lt;/li&gt;\n&lt;li&gt;Ensure compliance with all Spectra health and safety and local, state, and federal regulatory requirements.&lt;/li&gt;\n&lt;li&gt;Responsible for creating, reviewing, submitting and completing the resin recipes required to accomplish the production schedules.&lt;/li&gt;\n&lt;li&gt;Submit and complete all the sampling associated with the batching process so batches are fully approved before use.&lt;/li&gt;\n&lt;li&gt;Ensure the effective utilization of raw materials in the batching area so minimal waste or obsolescence is avoided while accomplishing his/her duties.&lt;/li&gt;\n&lt;li&gt;Responsible to follow and maintain all the documentation associated with his/her activities as defined in the Quality Management System.&lt;/li&gt;\n&lt;li&gt;Address any potential equipment or batching process issues that may affect or delay the batching schedule.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;You:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Associates degree or High School degree with production experience.&lt;/li&gt;\n&lt;li&gt;Excellent verbal and written communication skills.&lt;/li&gt;\n&lt;li&gt;Solid problem-solving abilities.&lt;/li&gt;\n&lt;li&gt;Self-motivated with the ability to work on an independent basis.&lt;/li&gt;\n&lt;li&gt;Strong organizational and time management skills.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;We Offer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Medical, Dental, Vision&lt;/li&gt;\n&lt;li&gt;3% match of yearly salary for 401(k)&lt;/li&gt;\n&lt;li&gt;EAP Program&lt;/li&gt;\n&lt;li&gt;In-office catering 3x per week&lt;/li&gt;\n&lt;li&gt;120 hours of PTO per year&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;em&gt;We are an equal opportunity employer and value diversity at our company.&amp;nbsp; We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.&amp;nbsp;&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Even if you don&#39;t check every box, but see yourself contributing, please apply.&lt;/strong&gt; Help us build an inclusive community that will change the face of 3D printing.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;strong&gt;Compensation&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;At Formlabs, base pay is one part of our total compensation package and is determined within a range. Your base pay will depend on your skills, qualifications, experience, location and expected impact on the organization.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;The hourly base pay range for this role is:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$19&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$22 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+          "departments": [
+            {
+              "id": 6210,
+              "name": "Operations",
+              "child_ids": [],
+              "parent_id": null
+            }
+          ],
+          "offices": [
+            {
+              "id": 67297,
+              "name": "Millbury, Ohio",
+              "location": "Millbury, Ohio, United States",
+              "child_ids": [],
+              "parent_id": null
+            }
+          ],
+          "ai_disclaimer": null,
+          "include_ai_disclaimer": null,
+          "ai_opt_out_request_url": null
+        },
+        {
+          "absolute_url": "https://careers.formlabs.com/job/7996435/apply/?gh_jid=7996435",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 3258756,
+          "location": {
+            "name": "Billerica, MA"
+          },
+          "metadata": [
+            {
+              "id": 23858,
+              "name": "Employment Type",
+              "value": "Full-time",
+              "value_type": "single_select"
+            },
+            {
+              "id": 34304608,
+              "name": "Time Type",
+              "value": "Full-Time",
+              "value_type": "single_select"
+            },
+            {
+              "id": 34304609,
+              "name": "Headcount Classification",
+              "value": "Counted in Headcount",
+              "value_type": "single_select"
+            }
+          ],
+          "id": 7996435,
+          "updated_at": "2026-07-20T10:58:46-04:00",
+          "requisition_id": "2076",
+          "title": "3D Digital Manufacturing Technician",
+          "company_name": "Formlabs",
+          "first_published": "2026-06-10T08:00:39-04:00",
+          "language": "en",
+          "application_deadline": null,
+          "content": "&lt;p&gt;Do you want to change how the world creates?&lt;/p&gt;\n&lt;p&gt;At Formlabs, we’re building the tools that make it possible for anyone to bring their ideas to life, from cutting-edge products to life-saving medical devices. Our 3D printing technology powers innovation at more than 50,000 industry leaders worldwide, including Apple, Google, Tesla, New Balance, and NASA. Together, we’re helping everyone design, prototype, and manufacture faster than ever before.&lt;/p&gt;\n&lt;p&gt;We’re a team of hands-on builders, engineers, and innovators reinventing how the world makes physical things. If you’re ready to shape the future of fabrication, come build it with us.&lt;/p&gt;\n&lt;p&gt;We are seeking a detail-oriented &lt;strong&gt;3D&lt;/strong&gt; &lt;strong&gt;Digital Manufacturing Technician&lt;/strong&gt; to join our team and help lead and execute day to day operations related to preparing, slicing, and optimizing parts for additive manufacturing. Your expertise in print setup, orientation strategies, Design for Manufacturing (DFM), and troubleshooting will ensure consistently high-quality output and streamlined production workflows.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Prepare and slice CAD models for various 3D printing technologies (including FDM, SLA, and SLS) using various slicing software.&lt;/li&gt;\n&lt;li&gt;Optimize print orientation, support structures, and settings to maximize quality, efficiency, and material usage.&lt;/li&gt;\n&lt;li&gt;Identify and communicate potential design improvements using DFM principles to enhance printability and reduce post-processing.&lt;/li&gt;\n&lt;li&gt;Troubleshoot print setup and orientation issues, analyze failures, and implement effective solutions.&lt;/li&gt;\n&lt;li&gt;Collaborate with the internal teams and external customers to ensure alignment on technical requirements and improvements.&lt;/li&gt;\n&lt;li&gt;Provide occasional support for printer operation tasks, including setup, maintenance, troubleshooting, and monitoring.&lt;/li&gt;\n&lt;li&gt;Serve as the main liaison for customer inquiries regarding orders, project status, and technical specifications, ensuring professional and timely communication.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Required Skills &amp;amp; Experience:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Hands-on experience with slicing and print setup software (PreForm, Cura, Simplify3D, Magics, Netfabb, etc.).&lt;/li&gt;\n&lt;li&gt;Solid understanding of additive manufacturing processes and materials, particularly around print orientation, support generation, and print settings.&lt;/li&gt;\n&lt;li&gt;Familiarity with Design for Manufacturing (DFM) concepts, specifically for 3D printing.&lt;/li&gt;\n&lt;li&gt;Strong analytical and troubleshooting skills for diagnosing and resolving printing issues.&lt;/li&gt;\n&lt;li&gt;Ability to effectively collaborate with cross-functional teams.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Preferred Qualifications:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience operating industrial and consumer 3D printers&lt;/li&gt;\n&lt;li&gt;Basic proficiency with CAD software (SolidWorks, Fusion 360, Onshape, ect).&lt;/li&gt;\n&lt;li&gt;Familiarity with programming or scripting languages (Python) for automating processes.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Our Perks &amp;amp; Benefits:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Comprehensive healthcare coverage (Medical, Dental, Vision)&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Low cost fund options in our 401K and access to advisors&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Ample on-site parking &amp;amp; pre-tax commuter benefits&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Healthy on-site lunches, snacks, beverages, &amp;amp; treats&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Regular sponsored professional development opportunities&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Many opt-in culture events across our diverse community&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;And of course… unlimited 3D prints&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Pay range: $20/hr-$26/hr&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;We are an equal opportunity employer and value diversity at our company. &amp;nbsp;We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. &amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Even if you don&#39;t check every box, but see yourself contributing, please apply.&lt;/strong&gt; Help us build an inclusive community that will change the face of 3D printing.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;strong&gt;Compensation&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;At Formlabs, base pay is one part of our total compensation package and is determined within a range. Your base pay will depend on your skills, qualifications, experience, location and expected impact on the organization.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;The hourly base pay range for this role is:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$20&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$25 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+          "departments": [
+            {
+              "id": 28191,
+              "name": "Product",
+              "child_ids": [],
+              "parent_id": null
+            }
+          ],
+          "offices": [
+            {
+              "id": 252990,
+              "name": "Billerica, Massachusetts",
+              "location": "Billerica, Massachusetts, United States",
+              "child_ids": [],
+              "parent_id": null
+            }
+          ],
+          "ai_disclaimer": null,
+          "include_ai_disclaimer": null,
+          "ai_opt_out_request_url": null
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://careers.formlabs.com",
+    "explanation": "Public careers source for Formlabs: https://careers.formlabs.com/. The ATS board and representative job links are branded for this employer or its consolidated corporate group. This is a group monitor, not an unfiltered child-company monitor. Regional/student scope is stated in monitor warnings. Local findings are provisional and require maintainer ownership review.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://careers.formlabs.com/job/8203818/apply?gh_jid=8203818",
+      "https://careers.formlabs.com/job/8203819/apply?gh_jid=8203819",
+      "https://careers.formlabs.com/job/7996435/apply?gh_jid=7996435"
+    ]
+  }
+}

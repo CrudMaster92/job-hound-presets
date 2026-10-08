@@ -1,0 +1,136 @@
+{
+  "base_commit": "313e8b1c910139934b10c5bbc740966c64b2ff5f",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "mks",
+    "name": "MKS Instruments",
+    "legal_name": null,
+    "aliases": [
+      "MKS"
+    ],
+    "website_url": "https://www.mks.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "scientific-instruments"
+      ],
+      "specialties": [
+        "photonics",
+        "metrology",
+        "instrumentation"
+      ],
+      "tags": [
+        "Advanced Technology",
+        "Science",
+        "Engineering"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "mks-emea",
+    "company_id": "mks",
+    "revision": 1,
+    "label": "MKS Instruments EMEA careers",
+    "careers_url": "https://mksinst.wd1.myworkdayjobs.com/MKSCareersEMEA",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local evidence only; awaiting trusted upstream validation.",
+        "MKS EMEA named board; board labels are not location filters. Other regional systems may exist."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "MKS Instruments",
+      "careers_url": "https://mksinst.wd1.myworkdayjobs.com/MKSCareersEMEA",
+      "strategy": "workday",
+      "allowed_hosts": [
+        "mksinst.wd1.myworkdayjobs.com"
+      ],
+      "request": {
+        "url": "https://mksinst.wd1.myworkdayjobs.com/wday/cxs/mksinst/MKSCareersEMEA/jobs",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "json_body": {
+          "appliedFacets": {},
+          "limit": 20,
+          "offset": 0,
+          "searchText": ""
+        },
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 20,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "tenant": "mksinst",
+        "site": "MKSCareersEMEA"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://mksinst.wd1.myworkdayjobs.com/wday/cxs/mksinst/MKSCareersEMEA/jobs",
+    "fetched_at": "2026-10-08T14:33:24.116222+00:00",
+    "payload": {
+      "jobPostings": [
+        {
+          "title": "Talent Acquisition Specialist- temp for 8 months",
+          "externalPath": "/job/Israel-Karmiel/Talent-Acquisition-Specialist_R22859",
+          "locationsText": "Israel Karmiel",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R22859"
+          ]
+        },
+        {
+          "title": "Component Engineer",
+          "externalPath": "/job/India-Bangalore-Whitefield/Component-Engineer_R23318",
+          "locationsText": "India Bangalore Whitefield",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R23318"
+          ]
+        },
+        {
+          "title": "Engineering Applications Administrator",
+          "externalPath": "/job/India-Bangalore-Whitefield/Engineering-Applications-Administrator_R23319",
+          "locationsText": "India Bangalore Whitefield",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R23319"
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.mks.com",
+    "explanation": "Public careers source for MKS Instruments: https://www.mks.com/careers. The ATS board and representative job links are branded for this employer or its consolidated corporate group. This is a group monitor, not an unfiltered child-company monitor. Regional/student scope is stated in monitor warnings. Local findings are provisional and require maintainer ownership review.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://mksinst.wd1.myworkdayjobs.com/MKSCareersEMEA/job/Israel-Karmiel/Talent-Acquisition-Specialist_R22859",
+      "https://mksinst.wd1.myworkdayjobs.com/MKSCareersEMEA/job/India-Bangalore-Whitefield/Component-Engineer_R23318",
+      "https://mksinst.wd1.myworkdayjobs.com/MKSCareersEMEA/job/India-Bangalore-Whitefield/Engineering-Applications-Administrator_R23319"
+    ]
+  }
+}

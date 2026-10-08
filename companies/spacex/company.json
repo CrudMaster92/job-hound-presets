@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "spacex",
+  "name": "SpaceX",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.spacex.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "aerospace"
+    ],
+    "specialties": [
+      "space-systems",
+      "advanced-manufacturing"
+    ],
+    "tags": [
+      "Advanced Technology",
+      "Science",
+      "Engineering"
+    ]
+  }
+}

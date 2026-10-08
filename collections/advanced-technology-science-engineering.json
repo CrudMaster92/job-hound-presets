@@ -1,0 +1,219 @@
+{
+  "format": "jobhound-collection",
+  "schema_version": 1,
+  "id": "advanced-technology-science-engineering",
+  "revision": 1,
+  "name": "Advanced Technology, Science & Engineering",
+  "description": "Initial 25 employers and 27 public careers monitors across semiconductors, instruments, photonics, quantum computing, space and advanced manufacturing. Recipes request all role families without personal filters. Five Workday feeds returned incomplete listings in local validation. TSMC regional and SpaceX feeds lack descriptions; the TSMC Taiwan/global board is blocked and excluded. Student/regional boards are labelled separately. Local findings are provisional pending trusted validation and review.",
+  "tags": [
+    "Advanced Technology",
+    "Science",
+    "Engineering",
+    "Semiconductors",
+    "Photonics",
+    "Quantum Computing",
+    "Space",
+    "Manufacturing"
+  ],
+  "facets": {
+    "collection_types": [
+      "industry"
+    ],
+    "industries": [
+      "advanced-manufacturing",
+      "aerospace",
+      "quantum-computing",
+      "scientific-instruments",
+      "semiconductors"
+    ],
+    "role_families": [
+      "engineering"
+    ],
+    "locations": []
+  },
+  "suggested_criteria": {
+    "cities": [],
+    "title_terms": [],
+    "keywords": []
+  },
+  "source": null,
+  "companies": [
+    {
+      "company_id": "teledyne",
+      "monitor_ids": [
+        "teledyne"
+      ],
+      "note": "Consolidated Teledyne group board, including division postings. No claim of division-specific selection or exhaustive coverage of separate legacy boards."
+    },
+    {
+      "company_id": "tsmc",
+      "monitor_ids": [
+        "tsmc-regional"
+      ],
+      "note": "Regional SuccessFactors board only; Taiwan/global board blocked in runtime validation."
+    },
+    {
+      "company_id": "applied-materials",
+      "monitor_ids": [
+        "applied-materials"
+      ],
+      "note": "All role families on this employer board; local listing validation was incomplete. See monitor warnings and dated evidence."
+    },
+    {
+      "company_id": "kla",
+      "monitor_ids": [
+        "kla"
+      ],
+      "note": "All role families advertised on this public employer board; no title or geographic filter."
+    },
+    {
+      "company_id": "globalfoundries",
+      "monitor_ids": [
+        "globalfoundries"
+      ],
+      "note": "All role families advertised on this public employer board; no title or geographic filter."
+    },
+    {
+      "company_id": "nxp",
+      "monitor_ids": [
+        "nxp"
+      ],
+      "note": "All role families on this employer board; local listing validation was incomplete. See monitor warnings and dated evidence."
+    },
+    {
+      "company_id": "marvell",
+      "monitor_ids": [
+        "marvell"
+      ],
+      "note": "All role families advertised on this public employer board; no title or geographic filter."
+    },
+    {
+      "company_id": "broadcom",
+      "monitor_ids": [
+        "broadcom"
+      ],
+      "note": "All role families on this employer board; local listing validation was incomplete. See monitor warnings and dated evidence."
+    },
+    {
+      "company_id": "intel",
+      "monitor_ids": [
+        "intel"
+      ],
+      "note": "All role families on this employer board; local listing validation was incomplete. See monitor warnings and dated evidence."
+    },
+    {
+      "company_id": "agilent",
+      "monitor_ids": [
+        "agilent",
+        "agilent-students"
+      ],
+      "note": "Experienced careers board; student openings use the separate student monitor."
+    },
+    {
+      "company_id": "mks",
+      "monitor_ids": [
+        "mks-americas",
+        "mks-emea"
+      ],
+      "note": "Two separate named regional boards; other regional systems may exist."
+    },
+    {
+      "company_id": "zeiss",
+      "monitor_ids": [
+        "zeiss"
+      ],
+      "note": "All role families advertised on this public employer board; no title or geographic filter."
+    },
+    {
+      "company_id": "renishaw",
+      "monitor_ids": [
+        "renishaw"
+      ],
+      "note": "All role families advertised on this public employer board; no title or geographic filter."
+    },
+    {
+      "company_id": "cognex",
+      "monitor_ids": [
+        "cognex"
+      ],
+      "note": "All role families advertised on this public employer board; no title or geographic filter."
+    },
+    {
+      "company_id": "lumentum",
+      "monitor_ids": [
+        "lumentum"
+      ],
+      "note": "All role families advertised on this public employer board; no title or geographic filter."
+    },
+    {
+      "company_id": "blue-origin",
+      "monitor_ids": [
+        "blue-origin"
+      ],
+      "note": "All role families on this employer board; local listing validation was incomplete. See monitor warnings and dated evidence."
+    },
+    {
+      "company_id": "ionq",
+      "monitor_ids": [
+        "ionq"
+      ],
+      "note": "All role families advertised on this public employer board; no title or geographic filter."
+    },
+    {
+      "company_id": "rigetti",
+      "monitor_ids": [
+        "rigetti"
+      ],
+      "note": "All role families advertised on this public employer board; no title or geographic filter."
+    },
+    {
+      "company_id": "astranis",
+      "monitor_ids": [
+        "astranis"
+      ],
+      "note": "All role families advertised on this public employer board; no title or geographic filter."
+    },
+    {
+      "company_id": "rocket-lab",
+      "monitor_ids": [
+        "rocket-lab"
+      ],
+      "note": "All role families advertised on this public employer board; no title or geographic filter."
+    },
+    {
+      "company_id": "spacex",
+      "monitor_ids": [
+        "spacex"
+      ],
+      "note": "All role families on the public SpaceX board. Listing-only: the combined descriptions response exceeds the runtime byte budget."
+    },
+    {
+      "company_id": "planet",
+      "monitor_ids": [
+        "planet"
+      ],
+      "note": "All role families advertised on this public employer board; no title or geographic filter."
+    },
+    {
+      "company_id": "formlabs",
+      "monitor_ids": [
+        "formlabs"
+      ],
+      "note": "All role families advertised on this public employer board; no title or geographic filter."
+    },
+    {
+      "company_id": "varda",
+      "monitor_ids": [
+        "varda"
+      ],
+      "note": "All role families advertised on this public employer board; no title or geographic filter."
+    },
+    {
+      "company_id": "psi-quantum",
+      "monitor_ids": [
+        "psi-quantum"
+      ],
+      "note": "All role families advertised on this public employer board; no title or geographic filter."
+    }
+  ]
+}

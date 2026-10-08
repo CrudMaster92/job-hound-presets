@@ -1,0 +1,24 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "rocket-lab",
+  "name": "Rocket Lab",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://www.rocketlabusa.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "aerospace"
+    ],
+    "specialties": [
+      "space-systems",
+      "advanced-manufacturing"
+    ],
+    "tags": [
+      "Advanced Technology",
+      "Science",
+      "Engineering"
+    ]
+  }
+}

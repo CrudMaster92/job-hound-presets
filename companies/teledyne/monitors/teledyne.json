@@ -1,11 +1,11 @@
 {
   "format": "jobhound-monitor",
   "schema_version": 1,
-  "id": "broadcom",
-  "company_id": "broadcom",
-  "revision": 2,
-  "label": "Broadcom careers",
-  "careers_url": "https://broadcom.wd1.myworkdayjobs.com/External_Career",
+  "id": "teledyne",
+  "company_id": "teledyne",
+  "revision": 1,
+  "label": "Teledyne Technologies careers",
+  "careers_url": "https://flir.wd1.myworkdayjobs.com/flircareers",
   "compatibility": {
     "min_jobhound_version": "0.1.0",
     "recipe_schema_version": 1
@@ -16,21 +16,20 @@
     "job_count": null,
     "warnings": [
       "Provisional local evidence only; awaiting trusted upstream validation.",
-      "All role families advertised on this public employer board; no title or geographic filter.",
-      "Local listing validation on 2026-10-08 was incomplete: Public metadata is still missing for 1 advertised postings; no placeholder roles were fabricated. Source result window could not be fully traversed: observed 384/384 advertised postings."
+      "Consolidated Teledyne group board, including division postings. No claim of division-specific selection or exhaustive coverage of separate legacy boards."
     ]
   },
   "recipe": {
     "version": 1,
     "coverage_mode": "all",
-    "company": "Broadcom",
-    "careers_url": "https://broadcom.wd1.myworkdayjobs.com/External_Career",
+    "company": "Teledyne Technologies",
+    "careers_url": "https://flir.wd1.myworkdayjobs.com/flircareers",
     "strategy": "workday",
     "allowed_hosts": [
-      "broadcom.wd1.myworkdayjobs.com"
+      "flir.wd1.myworkdayjobs.com"
     ],
     "request": {
-      "url": "https://broadcom.wd1.myworkdayjobs.com/wday/cxs/broadcom/External_Career/jobs",
+      "url": "https://flir.wd1.myworkdayjobs.com/wday/cxs/flir/flircareers/jobs",
       "method": "POST",
       "headers": {},
       "params": {},
@@ -54,8 +53,8 @@
     "selectors": {},
     "mapping": {},
     "metadata": {
-      "tenant": "broadcom",
-      "site": "External_Career"
+      "tenant": "flir",
+      "site": "flircareers"
     }
   }
 }

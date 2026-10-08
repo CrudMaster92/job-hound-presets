@@ -1,0 +1,266 @@
+{
+  "base_commit": "313e8b1c910139934b10c5bbc740966c64b2ff5f",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "ionq",
+    "name": "IonQ",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://ionq.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "quantum-computing"
+      ],
+      "specialties": [
+        "quantum-hardware",
+        "research-and-development"
+      ],
+      "tags": [
+        "Advanced Technology",
+        "Science",
+        "Engineering"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "ionq",
+    "company_id": "ionq",
+    "revision": 1,
+    "label": "IonQ careers",
+    "careers_url": "https://job-boards.greenhouse.io/ionq",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local evidence only; awaiting trusted upstream validation.",
+        "All role families advertised on this public employer board; no title or geographic filter."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "IonQ",
+      "careers_url": "https://job-boards.greenhouse.io/ionq",
+      "strategy": "greenhouse",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/ionq/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "board_token": "ionq"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/ionq/jobs",
+    "fetched_at": "2026-10-08T14:33:24.996295+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://ionq.com/job?gh_jid=6107289004",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 5181734004,
+          "location": {
+            "name": "Bothell, Washington, United States"
+          },
+          "metadata": [
+            {
+              "id": 9626277004,
+              "name": "Division",
+              "value": "IT",
+              "value_type": "single_select"
+            }
+          ],
+          "id": 6107289004,
+          "updated_at": "2026-10-05T16:13:58-04:00",
+          "requisition_id": "1717",
+          "title": "Asset Lifecycle Coordinator",
+          "company_name": "IonQ",
+          "first_published": "2026-09-29T12:52:33-04:00",
+          "language": "en",
+          "application_deadline": null,
+          "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;About IonQ:&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;u&gt;&lt;a href=&quot;https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=https%3A%2F%2Fionq.com%2F&amp;amp;esheet=54451094&amp;amp;newsitemid=20260316477473&amp;amp;lan=en-US&amp;amp;anchor=IonQ%2C+Inc&amp;amp;index=7&amp;amp;md5=0818ffbedc6dbad8c4d1611ac94c2a0f&quot; target=&quot;_blank&quot;&gt;IonQ, Inc&lt;/a&gt;&lt;/u&gt;. [NYSE: IONQ] is the world’s leading quantum platform and merchant supplier - delivering integrated quantum solutions across computing, networking, sensing, and security. IonQ’s newest generation of quantum computers, the IonQ Tempo, is the latest in a line of cutting-edge systems that have been helping customers and partners including &lt;u&gt;&lt;a href=&quot;https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=https%3A%2F%2Fionq.com%2Fnews%2Fionq-speeds-quantum-accelerated-drug-development-application-with&amp;amp;esheet=54451094&amp;amp;newsitemid=20260316477473&amp;amp;lan=en-US&amp;amp;anchor=Amazon+Web+Services%2C&amp;amp;index=8&amp;amp;md5=a7f94ee9b71a392dca3cd6c413722e51&quot; target=&quot;_blank&quot;&gt;Amazon Web Services, &lt;/a&gt;&lt;/u&gt;&lt;u&gt;&lt;a href=&quot;https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=https%3A%2F%2Fionq.com%2Fnews%2Fionq-speeds-quantum-accelerated-drug-development-application-with&amp;amp;esheet=54451094&amp;amp;newsitemid=20260316477473&amp;amp;lan=en-US&amp;amp;anchor=and&amp;amp;index=9&amp;amp;md5=2bed627b388878763f41ffe0e4edb16c&quot; target=&quot;_blank&quot;&gt;and &lt;/a&gt;&lt;/u&gt;&lt;u&gt;&lt;a href=&quot;https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=https%3A%2F%2Fionq.com%2Fnews%2Fionq-speeds-quantum-accelerated-drug-development-application-with&amp;amp;esheet=54451094&amp;amp;newsitemid=20260316477473&amp;amp;lan=en-US&amp;amp;anchor=AstraZeneca&amp;amp;index=10&amp;amp;md5=757c1f2c2ec94cf3982700106122164f&quot; target=&quot;_blank&quot;&gt;AstraZeneca&lt;/a&gt;&lt;/u&gt; achieve 20x performance results and accelerate innovation in drug discovery, materials science, financial modeling, logistics, cybersecurity, and defense. In 2025, the company achieved 99.99% two-qubit gate fidelity, &lt;u&gt;&lt;a href=&quot;https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=https%3A%2F%2Fionq.com%2Fnews%2Fionq-achieves-landmark-result-setting-new-world-record-in-quantum-computing&amp;amp;esheet=54451094&amp;amp;newsitemid=20260316477473&amp;amp;lan=en-US&amp;amp;anchor=setting+a+world+record+in+quantum+computing+performance&amp;amp;index=11&amp;amp;md5=32e9cb88afbd439026a352666cc72c91&quot; target=&quot;_blank&quot;&gt;setting a world record in quantum computing performance&lt;/a&gt;&lt;/u&gt;.&lt;br&gt;&lt;br&gt;Headquartered in College Park, Maryland, IonQ has operations in California, Colorado, Massachusetts, Tennessee, Washington, Italy, South Korea, Sweden, Switzerland, Canada, and the United Kingdom. Our quantum computing services are available through all major cloud providers, while we also meet the needs of networking and sensing customers across land, sea, air, and space. IonQ is making quantum platforms more accessible and impactful than ever before. &amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; This role is based at our Bothell, WA office.&lt;br&gt;&lt;strong&gt;Travel:&lt;/strong&gt; 10% domestic or international&lt;strong&gt;&lt;br&gt;Job ID:&lt;/strong&gt; 1717&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;The Role:&amp;nbsp;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are seeking a detail-oriented, organized, and proactive Asset Lifecycle Coordinator to manage the physical and logical lifecycle of our corporate IT assets. In this role, you will be the custodian of our hardware inventory—overseeing everything from initial receiving and staging to deployment, tracking, and final, secure disposal.&lt;/p&gt;\n&lt;p&gt;Beyond core logistical duties, you will serve as a vital extension of our IT support team, utilizing your foundational technical skills to handle basic helpdesk requests, provision devices, and assist local users. This dual-impact role ensures our technology assets are tracked flawlessly while maintaining an excellent support experience for our team.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;:&lt;/p&gt;\n&lt;p&gt;Asset Lifecycle &amp;amp; Logistics Management&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Receiving &amp;amp; Intake: Securely receive, unbox, inspect, and tag all incoming IT hardware (laptops, monitors, peripherals, and network gear).&lt;/li&gt;\n&lt;li&gt;Inventory Tracking: Maintain 100% accuracy in our Asset Management system. Record serial numbers, user assignments, warranty statuses, and physical locations.&lt;/li&gt;\n&lt;li&gt;Deployment &amp;amp; Provisioning: Coordinate the logistics of shipping hardware to remote employees or setting up workspaces for local staff, ensuring all accessories and standard peripherals are included.&lt;/li&gt;\n&lt;li&gt;Harvesting &amp;amp; Offboarding: Manage the secure return of IT equipment from departing employees. Clean, inspect, test, and assess returned hardware for redeployment or retirement.&lt;/li&gt;\n&lt;li&gt;E-Waste &amp;amp; Secure Disposal: Coordinate the safe and compliant disposal or recycling of legacy hardware. Ensure data sanitization certificates are obtained and filed in compliance with corporate security policies.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Legal Holds &amp;amp; Security Compliance&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Legal Hold Management: Securely isolate, track, and log all hardware placed on active legal holds. Ensure these assets are strictly preserved and exempted from standard data wiping, refurbishment, or disposal cycles.&lt;/li&gt;\n&lt;li&gt;Chain of Custody: Maintain an airtight, documented chain of custody for all sensitive or legally restricted hardware in strict accordance with instructions from the Legal and Security teams.&lt;/li&gt;\n&lt;li&gt;Policy Enforcement: Strictly adhere to corporate security protocols and legal procedures regarding device handling, data privacy, and evidence preservation.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Basic IT Helpdesk Support&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;First-Line Triage: Monitor incoming helpdesk tickets, Slack channels, or walk-up requests, providing basic technical assistance or routing complex issues to tier-2 engineers.&lt;/li&gt;\n&lt;li&gt;Hardware Preparation: Perform basic provisioning tasks (e.g., enrolling devices via MDM, imaging laptops, running OS updates, and conducting initial hardware functionality checks).&lt;/li&gt;\n&lt;li&gt;Peripherals &amp;amp; Conference Rooms: Troubleshoot basic workplace tech issues, including monitors, docking stations, keyboards, printers, and meeting room AV setups.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience: 1–3 years of experience in IT asset management, warehouse inventory tracking, logistics, or an IT desktop support role.&lt;/li&gt;\n&lt;li&gt;Detail-Oriented Mindset: Extreme accuracy in data entry and a passion for keeping spreadsheets, asset databases, and physical storage spaces immaculate.&lt;/li&gt;\n&lt;li&gt;Technical Foundations: Basic familiarity with Mac and Windows operating systems, modern hardware components, and standard computer peripherals.&lt;/li&gt;\n&lt;li&gt;Customer Service Skills: Excellent interpersonal skills with a helpful, friendly attitude when interacting with employees during hardware handoffs and troubleshooting.&lt;/li&gt;\n&lt;li&gt;Physical Stamina: Ability to physically move, organize, and lift boxes of computer equipment (up to 40 lbs) safely and regularly.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Preferred Qualifications:&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience using IT Asset Management (ITAM) or ITSM software (e.g., Snipe-IT, Jira Service Desk, ServiceNow, Freshservice).&lt;/li&gt;\n&lt;li&gt;Basic understanding of Mobile Device Management (MDM) concepts (e.g., Jamf, Kandji, Intune) or Cloud Directories.&lt;/li&gt;\n&lt;li&gt;Prior experience handling sensitive data destruction protocols or e-waste logistics.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;The approximate base salary range for this position is &lt;span data-sheets-root=&quot;1&quot;&gt;$86,767&lt;/span&gt; - &lt;span data-sheets-root=&quot;1&quot;&gt;$113,601&lt;/span&gt;. The total compensation package includes base, bonus, equity, and a range of benefit options found on our career site.&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;Compensation will vary based on individual factors such as education, qualifications, and experience of the final candidate(s), specific office location, and calibration against relevant market data and internal team equity. Posted base salary figures are subject to change as new market data becomes available. Our benefits include comprehensive medical, dental, and vision plans, matching 401(k), unlimited PTO and paid holidays, parental/adoption leave, legal insurance, and a home technology stipend. Details of participation in these benefit plans will be provided when a candidate receives an offer of employment.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;At IonQ, we believe in fair treatment, access, opportunity, and advancement for all while striving to identify and eliminate barriers. We empower employees to thrive by fostering a culture of autonomy, productivity, and respect. We are dedicated to creating an environment where individuals can feel welcomed, respected, supported, and valued.&lt;br&gt;&amp;nbsp;&lt;br&gt;We are committed to equity and justice. We welcome different voices and viewpoints and do not discriminate on the basis of race, religion, ancestry, physical and/or mental disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, transgender status, age, sexual orientation, military or veteran status, or any other basis protected by law. We are proud to be an Equal Employment Opportunity employer.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;US Technical Jobs.&amp;nbsp;&lt;/strong&gt;The position you are applying for will require access to technology that is subject to U.S. export control and government contract restrictions.&amp;nbsp; Employment with IonQ is contingent on either verifying “U.S. Person” (e.g., U.S. citizen, U.S. national, U.S. permanent resident, or lawfully admitted into the U.S. as a refugee or granted asylum) status for export controls and government contracts work, obtaining any necessary license, and/or confirming the availability of a license exception under U.S. export controls.&amp;nbsp; Please note that in the absence of confirming you are a U.S. Person for export control and government contracts work purposes, IonQ may choose not to apply for a license or decline to use a license exception (if available) for you to access export-controlled technology that may require authorization, and similarly, you may not qualify for government contracts work that requires U.S. Persons, and IonQ may decline to proceed with your application on those bases alone.&amp;nbsp; Accordingly, we will have some additional questions regarding your immigration status that will be used for export control and compliance purposes, and the answers will be reviewed by compliance personnel to ensure compliance with federal law.&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;US Non-Technical Jobs.&amp;nbsp;&lt;/strong&gt;Due to applicable export control laws and regulations, candidates must be a U.S. citizen or national, U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum. Accordingly, we will have some additional questions regarding your immigration status that will be used for export control and compliance purposes, and the answers will be reviewed by compliance personnel to ensure compliance with federal law.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;If you are interested in being a part of our team and mission, we encourage you to apply!&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
+          "departments": [
+            {
+              "id": 4076895004,
+              "name": "Corporate - IT",
+              "child_ids": [],
+              "parent_id": null
+            }
+          ],
+          "offices": [
+            {
+              "id": 4007983004,
+              "name": "Bothell, Washington",
+              "location": "Bothell, Washington, United States",
+              "child_ids": [],
+              "parent_id": 4114580004
+            }
+          ],
+          "ai_disclaimer": null,
+          "include_ai_disclaimer": null,
+          "ai_opt_out_request_url": "http://app4.greenhouse.io/ai_opt_out_request/job_post/6107289004/ai_opt_out"
+        },
+        {
+          "absolute_url": "https://ionq.com/job?gh_jid=6207878004",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 5222705004,
+          "location": {
+            "name": "Remote, US"
+          },
+          "metadata": [
+            {
+              "id": 9626277004,
+              "name": "Division",
+              "value": "Legal",
+              "value_type": "single_select"
+            }
+          ],
+          "id": 6207878004,
+          "updated_at": "2026-10-05T16:13:58-04:00",
+          "requisition_id": "1914",
+          "title": "Associate General Counsel, Product",
+          "company_name": "IonQ",
+          "first_published": "2026-09-28T15:21:04-04:00",
+          "language": "en",
+          "application_deadline": null,
+          "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;About IonQ:&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;u&gt;&lt;a href=&quot;https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=https%3A%2F%2Fionq.com%2F&amp;amp;esheet=54451094&amp;amp;newsitemid=20260316477473&amp;amp;lan=en-US&amp;amp;anchor=IonQ%2C+Inc&amp;amp;index=7&amp;amp;md5=0818ffbedc6dbad8c4d1611ac94c2a0f&quot; target=&quot;_blank&quot;&gt;IonQ, Inc&lt;/a&gt;&lt;/u&gt;. [NYSE: IONQ] is the world’s leading quantum platform and merchant supplier - delivering integrated quantum solutions across computing, networking, sensing, and security. IonQ’s newest generation of quantum computers, the IonQ Tempo, is the latest in a line of cutting-edge systems that have been helping customers and partners including &lt;u&gt;&lt;a href=&quot;https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=https%3A%2F%2Fionq.com%2Fnews%2Fionq-speeds-quantum-accelerated-drug-development-application-with&amp;amp;esheet=54451094&amp;amp;newsitemid=20260316477473&amp;amp;lan=en-US&amp;amp;anchor=Amazon+Web+Services%2C&amp;amp;index=8&amp;amp;md5=a7f94ee9b71a392dca3cd6c413722e51&quot; target=&quot;_blank&quot;&gt;Amazon Web Services, &lt;/a&gt;&lt;/u&gt;&lt;u&gt;&lt;a href=&quot;https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=https%3A%2F%2Fionq.com%2Fnews%2Fionq-speeds-quantum-accelerated-drug-development-application-with&amp;amp;esheet=54451094&amp;amp;newsitemid=20260316477473&amp;amp;lan=en-US&amp;amp;anchor=and&amp;amp;index=9&amp;amp;md5=2bed627b388878763f41ffe0e4edb16c&quot; target=&quot;_blank&quot;&gt;and &lt;/a&gt;&lt;/u&gt;&lt;u&gt;&lt;a href=&quot;https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=https%3A%2F%2Fionq.com%2Fnews%2Fionq-speeds-quantum-accelerated-drug-development-application-with&amp;amp;esheet=54451094&amp;amp;newsitemid=20260316477473&amp;amp;lan=en-US&amp;amp;anchor=AstraZeneca&amp;amp;index=10&amp;amp;md5=757c1f2c2ec94cf3982700106122164f&quot; target=&quot;_blank&quot;&gt;AstraZeneca&lt;/a&gt;&lt;/u&gt; achieve 20x performance results and accelerate innovation in drug discovery, materials science, financial modeling, logistics, cybersecurity, and defense. In 2025, the company achieved 99.99% two-qubit gate fidelity, &lt;u&gt;&lt;a href=&quot;https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=https%3A%2F%2Fionq.com%2Fnews%2Fionq-achieves-landmark-result-setting-new-world-record-in-quantum-computing&amp;amp;esheet=54451094&amp;amp;newsitemid=20260316477473&amp;amp;lan=en-US&amp;amp;anchor=setting+a+world+record+in+quantum+computing+performance&amp;amp;index=11&amp;amp;md5=32e9cb88afbd439026a352666cc72c91&quot; target=&quot;_blank&quot;&gt;setting a world record in quantum computing performance&lt;/a&gt;&lt;/u&gt;.&lt;br&gt;&lt;br&gt;Headquartered in College Park, Maryland, IonQ has operations in California, Colorado, Massachusetts, Tennessee, Washington, Italy, South Korea, Sweden, Switzerland, Canada, and the United Kingdom. Our quantum computing services are available through all major cloud providers, while we also meet the needs of networking and sensing customers across land, sea, air, and space. IonQ is making quantum platforms more accessible and impactful than ever before. &amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; This position can work onsite or hybrid from one of our offices in the US or fully remote.&lt;br&gt;&lt;strong&gt;Travel:&lt;/strong&gt; Up to 10%&lt;strong&gt;&lt;br&gt;Job ID:&lt;/strong&gt; 1914&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;The Role:&amp;nbsp;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;IonQ&#39;s Legal team supports the company&#39;s global legal affairs, including intellectual property, corporate and securities matters, commercial contracting, regulatory compliance, and enterprise risk management. As IonQ scales its quantum computing, networking, sensing, and fabrication businesses, we&#39;re building a dedicated product legal function to partner directly with product, research, engineering, and go-to-market teams from the earliest stages of development, and this role is foundational to that effort.&lt;/p&gt;\n&lt;p&gt;As Associate General Counsel, Product, you&#39;ll report to the Head of Product Legal and serve as a trusted legal partner to the teams building IonQ&#39;s products, in a role defined not by practice area but by impact: if a matter shapes how IonQ&#39;s products are designed, built, or brought to market, the product legal team helps get it done. The successful candidate will bring deep regulatory compliance expertise for technology products alongside the drive to take complex, technology-driven transactions across the finish line.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Counsel IonQ&#39;s product and research teams, providing practical, business-calibrated legal guidance across the full product lifecycle — with regulatory compliance and strategic transactions as signature areas of expertise&lt;/li&gt;\n&lt;li&gt;Lead regulatory compliance efforts for the manufacture, distribution, and sale of IonQ&#39;s products, both in the United States and abroad&lt;/li&gt;\n&lt;li&gt;Draft, negotiate, and execute complex technology-driven transactions that directly advance IonQ&#39;s product strategy, including strategic partnerships, licensing, joint development, and supply and manufacturing arrangements&lt;/li&gt;\n&lt;li&gt;Shape the playbooks, processes, and infrastructure of a new product legal function designed to scale with the business&lt;/li&gt;\n&lt;li&gt;Collaborate closely with product, research, engineering, finance, privacy, compliance, trade, and other cross-functional stakeholders, as well as outside counsel&lt;/li&gt;\n&lt;li&gt;Translate in both directions — distill complex legal concepts into clear, actionable guidance for non-lawyers, and render product, engineering, and business strategy in terms that sharpen product legal&#39;s advice and priorities&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A J.D. from an accredited law school and active membership in good standing in at least one U.S. state bar (or eligibility for in-house/registered counsel status in your state of employment)&lt;/li&gt;\n&lt;li&gt;8+ years of relevant experience at a leading law firm and/or in-house legal department&lt;/li&gt;\n&lt;li&gt;Substantial experience advising on regulatory compliance for the manufacturing, distribution, and sale of technology products, both in the US and abroad&lt;/li&gt;\n&lt;li&gt;A proven track record of drafting, negotiating, and executing complex technology transactions with direct impact on business or product strategy&lt;/li&gt;\n&lt;li&gt;Demonstrated versatility — the range to move between regulatory and transactional matters, and the mindset to build your skills on matters outside your core practice areas&lt;/li&gt;\n&lt;li&gt;An appetite for genuinely novel legal questions — the judgment to advise confidently amid ambiguity, and the drive to work where technology is unprecedented and legal frameworks are still being written&lt;/li&gt;\n&lt;li&gt;A desire to become a force-multiplier for your team, uncovering new opportunities for speed and efficiency — including leveraging existing AI tools and helping to build superior ones&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Preferred Qualifications:&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;In-house legal experience with a mature US technology company&lt;/li&gt;\n&lt;li&gt;Experience specific to hardware products or hardware-focused businesses&lt;/li&gt;\n&lt;li&gt;Experience supporting post-acquisition integration of products, technologies, or businesses&lt;/li&gt;\n&lt;li&gt;Proficiency with multiple languages&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;The total compensation package includes base, bonus, equity, and a range of benefit options found on our career site.&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;If this role has a commission structure, the compensation range below just reflects the base compensation range.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Wage Transparency:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$160,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$240,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;Compensation will vary based on individual factors such as education, qualifications, and experience of the final candidate(s), specific office location, and calibration against relevant market data and internal team equity. Posted base salary figures are subject to change as new market data becomes available. Our benefits include comprehensive medical, dental, and vision plans, matching 401(k), unlimited PTO and paid holidays, parental/adoption leave, legal insurance, and a home technology stipend. Details of participation in these benefit plans will be provided when a candidate receives an offer of employment.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;At IonQ, we believe in fair treatment, access, opportunity, and advancement for all while striving to identify and eliminate barriers. We empower employees to thrive by fostering a culture of autonomy, productivity, and respect. We are dedicated to creating an environment where individuals can feel welcomed, respected, supported, and valued.&lt;br&gt;&amp;nbsp;&lt;br&gt;We are committed to equity and justice. We welcome different voices and viewpoints and do not discriminate on the basis of race, religion, ancestry, physical and/or mental disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, transgender status, age, sexual orientation, military or veteran status, or any other basis protected by law. We are proud to be an Equal Employment Opportunity employer.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;US Technical Jobs.&amp;nbsp;&lt;/strong&gt;The position you are applying for will require access to technology that is subject to U.S. export control and government contract restrictions.&amp;nbsp; Employment with IonQ is contingent on either verifying “U.S. Person” (e.g., U.S. citizen, U.S. national, U.S. permanent resident, or lawfully admitted into the U.S. as a refugee or granted asylum) status for export controls and government contracts work, obtaining any necessary license, and/or confirming the availability of a license exception under U.S. export controls.&amp;nbsp; Please note that in the absence of confirming you are a U.S. Person for export control and government contracts work purposes, IonQ may choose not to apply for a license or decline to use a license exception (if available) for you to access export-controlled technology that may require authorization, and similarly, you may not qualify for government contracts work that requires U.S. Persons, and IonQ may decline to proceed with your application on those bases alone.&amp;nbsp; Accordingly, we will have some additional questions regarding your immigration status that will be used for export control and compliance purposes, and the answers will be reviewed by compliance personnel to ensure compliance with federal law.&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;US Non-Technical Jobs.&amp;nbsp;&lt;/strong&gt;Due to applicable export control laws and regulations, candidates must be a U.S. citizen or national, U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum. Accordingly, we will have some additional questions regarding your immigration status that will be used for export control and compliance purposes, and the answers will be reviewed by compliance personnel to ensure compliance with federal law.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;If you are interested in being a part of our team and mission, we encourage you to apply!&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
+          "departments": [
+            {
+              "id": 4017023004,
+              "name": "Corporate - Legal",
+              "child_ids": [],
+              "parent_id": null
+            }
+          ],
+          "offices": [
+            {
+              "id": 4007989004,
+              "name": "Remote, US",
+              "location": null,
+              "child_ids": [],
+              "parent_id": 4114580004
+            }
+          ],
+          "ai_disclaimer": null,
+          "include_ai_disclaimer": null,
+          "ai_opt_out_request_url": "http://app4.greenhouse.io/ai_opt_out_request/job_post/6207878004/ai_opt_out"
+        },
+        {
+          "absolute_url": "https://ionq.com/job?gh_jid=6181875004",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 5210959004,
+          "location": {
+            "name": "Remote, US"
+          },
+          "metadata": [
+            {
+              "id": 9626277004,
+              "name": "Division",
+              "value": "Legal",
+              "value_type": "single_select"
+            }
+          ],
+          "id": 6181875004,
+          "updated_at": "2026-10-05T16:13:58-04:00",
+          "requisition_id": "1849",
+          "title": "Associate General Counsel, Transactions",
+          "company_name": "IonQ",
+          "first_published": "2026-09-17T14:10:13-04:00",
+          "language": "en",
+          "application_deadline": null,
+          "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;About IonQ:&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;u&gt;&lt;a href=&quot;https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=https%3A%2F%2Fionq.com%2F&amp;amp;esheet=54451094&amp;amp;newsitemid=20260316477473&amp;amp;lan=en-US&amp;amp;anchor=IonQ%2C+Inc&amp;amp;index=7&amp;amp;md5=0818ffbedc6dbad8c4d1611ac94c2a0f&quot; target=&quot;_blank&quot;&gt;IonQ, Inc&lt;/a&gt;&lt;/u&gt;. [NYSE: IONQ] is the world’s leading quantum platform and merchant supplier - delivering integrated quantum solutions across computing, networking, sensing, and security. IonQ’s newest generation of quantum computers, the IonQ Tempo, is the latest in a line of cutting-edge systems that have been helping customers and partners including &lt;u&gt;&lt;a href=&quot;https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=https%3A%2F%2Fionq.com%2Fnews%2Fionq-speeds-quantum-accelerated-drug-development-application-with&amp;amp;esheet=54451094&amp;amp;newsitemid=20260316477473&amp;amp;lan=en-US&amp;amp;anchor=Amazon+Web+Services%2C&amp;amp;index=8&amp;amp;md5=a7f94ee9b71a392dca3cd6c413722e51&quot; target=&quot;_blank&quot;&gt;Amazon Web Services, &lt;/a&gt;&lt;/u&gt;&lt;u&gt;&lt;a href=&quot;https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=https%3A%2F%2Fionq.com%2Fnews%2Fionq-speeds-quantum-accelerated-drug-development-application-with&amp;amp;esheet=54451094&amp;amp;newsitemid=20260316477473&amp;amp;lan=en-US&amp;amp;anchor=and&amp;amp;index=9&amp;amp;md5=2bed627b388878763f41ffe0e4edb16c&quot; target=&quot;_blank&quot;&gt;and &lt;/a&gt;&lt;/u&gt;&lt;u&gt;&lt;a href=&quot;https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=https%3A%2F%2Fionq.com%2Fnews%2Fionq-speeds-quantum-accelerated-drug-development-application-with&amp;amp;esheet=54451094&amp;amp;newsitemid=20260316477473&amp;amp;lan=en-US&amp;amp;anchor=AstraZeneca&amp;amp;index=10&amp;amp;md5=757c1f2c2ec94cf3982700106122164f&quot; target=&quot;_blank&quot;&gt;AstraZeneca&lt;/a&gt;&lt;/u&gt; achieve 20x performance results and accelerate innovation in drug discovery, materials science, financial modeling, logistics, cybersecurity, and defense. In 2025, the company achieved 99.99% two-qubit gate fidelity, &lt;u&gt;&lt;a href=&quot;https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=https%3A%2F%2Fionq.com%2Fnews%2Fionq-achieves-landmark-result-setting-new-world-record-in-quantum-computing&amp;amp;esheet=54451094&amp;amp;newsitemid=20260316477473&amp;amp;lan=en-US&amp;amp;anchor=setting+a+world+record+in+quantum+computing+performance&amp;amp;index=11&amp;amp;md5=32e9cb88afbd439026a352666cc72c91&quot; target=&quot;_blank&quot;&gt;setting a world record in quantum computing performance&lt;/a&gt;&lt;/u&gt;.&lt;br&gt;&lt;br&gt;Headquartered in College Park, Maryland, IonQ has operations in California, Colorado, Massachusetts, Tennessee, Washington, Italy, South Korea, Sweden, Switzerland, Canada, and the United Kingdom. Our quantum computing services are available through all major cloud providers, while we also meet the needs of networking and sensing customers across land, sea, air, and space. IonQ is making quantum platforms more accessible and impactful than ever before. &amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; This position can work onsite or hybrid from one of our offices in the US or fully remote.&lt;br&gt;&lt;strong&gt;Travel:&lt;/strong&gt; Up to 20%&lt;strong&gt;&lt;br&gt;Job ID:&lt;/strong&gt; 1849&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;The Role:&amp;nbsp;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are seeking a senior attorney to lead our Transactions function, reporting directly to the Deputy General Counsel and Chief IP Counsel. This role will help build and scale a transactions practice supporting development, partnerships, supply chain, commercial, and government engagements. The successful candidate will be an accomplished attorney who thrives in high-intensity, business-driven environments and can serve as both a trusted subject-matter expert and practice leader.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Lead agreement drafting and negotiations on business-critical transactions with complex IP, technology, business, and regulatory issues.&lt;/li&gt;\n&lt;li&gt;Develop agreement templates, negotiation standards, playbooks, processes, and risk frameworks that support consistently high-quality work while enabling the business to move quickly and appropriately manage legal and commercial risk.&lt;/li&gt;\n&lt;li&gt;Partner cross-functionally on company-wide initiatives to standardize the deal process, from initial discussions through contract signing.&lt;/li&gt;\n&lt;li&gt;Partner with legal subject-matter experts to ensure contract templates and positions are regularly updated to reflect current company objectives and legal obligations.&lt;/li&gt;\n&lt;li&gt;Act as an embedded member of the business teams, building trust by providing timely guidance, helpful education, and practical, commercially oriented counsel.&lt;/li&gt;\n&lt;li&gt;Manage and prioritize a high-volume, fast-moving transactional workload in an intense, deadline-driven environment.&lt;/li&gt;\n&lt;li&gt;Provide objective and consistent oversight of transactional work performed by other transactional attorneys, accounting for workload allocation, prioritization, and ongoing training.&lt;/li&gt;\n&lt;li&gt;Serve as a senior escalation point for complex or high-value transactions and help drive matters to resolution.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;J.D. and admission in good standing with at least one U.S. state bar.&lt;/li&gt;\n&lt;li&gt;10+ years of experience negotiating complex commercial contracts, including significant in-house experience at fast-paced, mid- to large-sized companies.&lt;/li&gt;\n&lt;li&gt;Significant experience handling complex technology and commercial transactions in a sophisticated corporate or law firm environment.&lt;/li&gt;\n&lt;li&gt;Strong transactional judgment and the ability to operate effectively in a high-intensity, sales-driven business environment.&lt;/li&gt;\n&lt;li&gt;Exceptional relationship-building and client management skills, with the ability to establish credibility and trust with demanding business stakeholders.&lt;/li&gt;\n&lt;li&gt;Strong business acumen and the ability to understand business objectives and translate them into practical legal solutions.&lt;/li&gt;\n&lt;li&gt;Demonstrated ability to structure and improve legal functions, workflows, and processes.&lt;/li&gt;\n&lt;li&gt;Strong organizational and prioritization skills, with a high degree of accountability for managing competing demands and ensuring work is appropriately allocated.&lt;/li&gt;\n&lt;li&gt;A capacity to think big, bias for action, and willingness to take ownership of complex matters and broader functional initiatives.&lt;/li&gt;\n&lt;li&gt;A growth mindset focused on continuous operational improvement, efficiency, and service excellence.&lt;/li&gt;\n&lt;li&gt;Excellent communication, negotiation, and issue-spotting skills.&lt;/li&gt;\n&lt;li&gt;Ability to balance speed and commercial objectives with sound legal judgment and risk management.&lt;/li&gt;\n&lt;li&gt;Comfortable operating with significant autonomy and ambiguity.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Ideal Candidate&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The ideal candidate is a business-driven senior attorney who combines strong technical transactional expertise with exceptional client-management skills and business judgment. A strong understanding of the IP and Trade &amp;amp; Regulatory issues relevant to a global business is a must. They are comfortable operating at speed, can independently manage complex matters, and have the judgment and organizational discipline to serve as a de facto practice leader.&lt;/p&gt;\n&lt;p&gt;This role is particularly well suited for someone who enjoys building the function and the way the work gets done, rather than simply managing people, and who can bring structure, accountability, and consistency to a rapidly evolving transactions environment.&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;br&gt;The total compensation package includes base, bonus, equity, and a range of benefit options found on our career site.&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;If this role has a commission structure, the compensation range below just reflects the base compensation range.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Wage Transparency:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$188,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$282,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;Compensation will vary based on individual factors such as education, qualifications, and experience of the final candidate(s), specific office location, and calibration against relevant market data and internal team equity. Posted base salary figures are subject to change as new market data becomes available. Our benefits include comprehensive medical, dental, and vision plans, matching 401(k), unlimited PTO and paid holidays, parental/adoption leave, legal insurance, and a home technology stipend. Details of participation in these benefit plans will be provided when a candidate receives an offer of employment.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;At IonQ, we believe in fair treatment, access, opportunity, and advancement for all while striving to identify and eliminate barriers. We empower employees to thrive by fostering a culture of autonomy, productivity, and respect. We are dedicated to creating an environment where individuals can feel welcomed, respected, supported, and valued.&lt;br&gt;&amp;nbsp;&lt;br&gt;We are committed to equity and justice. We welcome different voices and viewpoints and do not discriminate on the basis of race, religion, ancestry, physical and/or mental disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, transgender status, age, sexual orientation, military or veteran status, or any other basis protected by law. We are proud to be an Equal Employment Opportunity employer.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;US Technical Jobs.&amp;nbsp;&lt;/strong&gt;The position you are applying for will require access to technology that is subject to U.S. export control and government contract restrictions.&amp;nbsp; Employment with IonQ is contingent on either verifying “U.S. Person” (e.g., U.S. citizen, U.S. national, U.S. permanent resident, or lawfully admitted into the U.S. as a refugee or granted asylum) status for export controls and government contracts work, obtaining any necessary license, and/or confirming the availability of a license exception under U.S. export controls.&amp;nbsp; Please note that in the absence of confirming you are a U.S. Person for export control and government contracts work purposes, IonQ may choose not to apply for a license or decline to use a license exception (if available) for you to access export-controlled technology that may require authorization, and similarly, you may not qualify for government contracts work that requires U.S. Persons, and IonQ may decline to proceed with your application on those bases alone.&amp;nbsp; Accordingly, we will have some additional questions regarding your immigration status that will be used for export control and compliance purposes, and the answers will be reviewed by compliance personnel to ensure compliance with federal law.&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;US Non-Technical Jobs.&amp;nbsp;&lt;/strong&gt;Due to applicable export control laws and regulations, candidates must be a U.S. citizen or national, U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum. Accordingly, we will have some additional questions regarding your immigration status that will be used for export control and compliance purposes, and the answers will be reviewed by compliance personnel to ensure compliance with federal law.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;If you are interested in being a part of our team and mission, we encourage you to apply!&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
+          "departments": [
+            {
+              "id": 4017023004,
+              "name": "Corporate - Legal",
+              "child_ids": [],
+              "parent_id": null
+            }
+          ],
+          "offices": [
+            {
+              "id": 4007989004,
+              "name": "Remote, US",
+              "location": null,
+              "child_ids": [],
+              "parent_id": 4114580004
+            }
+          ],
+          "ai_disclaimer": null,
+          "include_ai_disclaimer": null,
+          "ai_opt_out_request_url": "http://app4.greenhouse.io/ai_opt_out_request/job_post/6181875004/ai_opt_out"
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://ionq.com",
+    "explanation": "Public careers source for IonQ: https://ionq.com/jobs. The ATS board and representative job links are branded for this employer or its consolidated corporate group. This is a group monitor, not an unfiltered child-company monitor. Regional/student scope is stated in monitor warnings. Local findings are provisional and require maintainer ownership review.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://ionq.com/job?gh_jid=6107289004",
+      "https://ionq.com/job?gh_jid=6207878004",
+      "https://ionq.com/job?gh_jid=6181875004"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "agilent",
+  "name": "Agilent Technologies",
+  "legal_name": null,
+  "aliases": [],
+  "website_url": "https://careers.agilent.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "scientific-instruments"
+    ],
+    "specialties": [
+      "photonics",
+      "metrology",
+      "instrumentation"
+    ],
+    "tags": [
+      "Advanced Technology",
+      "Science",
+      "Engineering"
+    ]
+  }
+}

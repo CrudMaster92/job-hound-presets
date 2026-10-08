@@ -1,0 +1,27 @@
+{
+  "format": "jobhound-company",
+  "schema_version": 1,
+  "id": "teledyne",
+  "name": "Teledyne Technologies",
+  "legal_name": null,
+  "aliases": [
+    "Teledyne"
+  ],
+  "website_url": "https://www.teledynedalsa.com",
+  "logo_url": null,
+  "facets": {
+    "industries": [
+      "scientific-instruments"
+    ],
+    "specialties": [
+      "photonics",
+      "metrology",
+      "instrumentation"
+    ],
+    "tags": [
+      "Advanced Technology",
+      "Science",
+      "Engineering"
+    ]
+  }
+}

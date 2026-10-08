@@ -1,0 +1,134 @@
+{
+  "base_commit": "313e8b1c910139934b10c5bbc740966c64b2ff5f",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "cognex",
+    "name": "Cognex",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://www.cognex.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "scientific-instruments"
+      ],
+      "specialties": [
+        "photonics",
+        "metrology",
+        "instrumentation"
+      ],
+      "tags": [
+        "Advanced Technology",
+        "Science",
+        "Engineering"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "cognex",
+    "company_id": "cognex",
+    "revision": 1,
+    "label": "Cognex careers",
+    "careers_url": "https://cognex.wd1.myworkdayjobs.com/External_Career_Site",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local evidence only; awaiting trusted upstream validation.",
+        "All role families advertised on this public employer board; no title or geographic filter."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Cognex",
+      "careers_url": "https://cognex.wd1.myworkdayjobs.com/External_Career_Site",
+      "strategy": "workday",
+      "allowed_hosts": [
+        "cognex.wd1.myworkdayjobs.com"
+      ],
+      "request": {
+        "url": "https://cognex.wd1.myworkdayjobs.com/wday/cxs/cognex/External_Career_Site/jobs",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "json_body": {
+          "appliedFacets": {},
+          "limit": 20,
+          "offset": 0,
+          "searchText": ""
+        },
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 20,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "tenant": "cognex",
+        "site": "External_Career_Site"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://cognex.wd1.myworkdayjobs.com/wday/cxs/cognex/External_Career_Site/jobs",
+    "fetched_at": "2026-10-08T14:33:24.767927+00:00",
+    "payload": {
+      "jobPostings": [
+        {
+          "title": "SAP Implementation Manager, Supply Chain and Logistics",
+          "externalPath": "/job/Cork-Ireland/SAP-Supply-Chain-and-Logistics-Manager_R0012155",
+          "locationsText": "Cork, Ireland",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R0012155"
+          ]
+        },
+        {
+          "title": "Account Development Representative",
+          "externalPath": "/job/Seoul-Korea/Account-Development-Representative_R0012478",
+          "locationsText": "Seoul, Korea",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R0012478"
+          ]
+        },
+        {
+          "title": "Production Technician",
+          "externalPath": "/job/Vietnam---Bac-Ninh/Production-Technician_R0012452",
+          "locationsText": "Vietnam - Bac Ninh",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R0012452"
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.cognex.com",
+    "explanation": "Public careers source for Cognex: https://www.cognex.com/company/careers. The ATS board and representative job links are branded for this employer or its consolidated corporate group. This is a group monitor, not an unfiltered child-company monitor. Regional/student scope is stated in monitor warnings. Local findings are provisional and require maintainer ownership review.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://cognex.wd1.myworkdayjobs.com/External_Career_Site/job/Cork-Ireland/SAP-Supply-Chain-and-Logistics-Manager_R0012155",
+      "https://cognex.wd1.myworkdayjobs.com/External_Career_Site/job/Seoul-Korea/Account-Development-Representative_R0012478",
+      "https://cognex.wd1.myworkdayjobs.com/External_Career_Site/job/Vietnam---Bac-Ninh/Production-Technician_R0012452"
+    ]
+  }
+}

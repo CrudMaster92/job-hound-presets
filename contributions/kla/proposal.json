@@ -1,0 +1,127 @@
+{
+  "base_commit": "313e8b1c910139934b10c5bbc740966c64b2ff5f",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "kla",
+    "name": "KLA",
+    "aliases": [],
+    "website_url": "https://www.kla.com/",
+    "logo_url": "https://www.google.com/s2/favicons?domain=kla.com&sz=128",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Fortune 375",
+        "2026",
+        "United States"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "kla",
+    "company_id": "kla",
+    "revision": 2,
+    "label": "KLA careers",
+    "careers_url": "https://kla.wd1.myworkdayjobs.com/Search",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local evidence only; awaiting trusted upstream validation.",
+        "All role families advertised on this public employer board; no title or geographic filter."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "KLA",
+      "careers_url": "https://kla.wd1.myworkdayjobs.com/Search",
+      "strategy": "workday",
+      "allowed_hosts": [
+        "kla.wd1.myworkdayjobs.com"
+      ],
+      "request": {
+        "url": "https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/Search/jobs",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "json_body": {
+          "appliedFacets": {},
+          "limit": 20,
+          "offset": 0,
+          "searchText": ""
+        },
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 20,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "tenant": "kla",
+        "site": "Search"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/Search/jobs",
+    "fetched_at": "2026-10-08T14:33:22.176428+00:00",
+    "payload": {
+      "jobPostings": [
+        {
+          "title": "Sr. IT Operations Specialist - Corporate Events & Executive Support",
+          "externalPath": "/job/Milpitas-CA/Sr-IT-Operation-Specialist---Corporate-Events---Executive-Support_2641386",
+          "locationsText": "Milpitas, CA",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "2641386"
+          ]
+        },
+        {
+          "title": "Customer Engagement Applications Engineer",
+          "externalPath": "/job/Hillsboro-OR/Customer-Engagement-Applications-Engineer_2641503",
+          "locationsText": "Hillsboro, OR",
+          "postedOn": "Posted Yesterday",
+          "bulletFields": [
+            "2641503"
+          ]
+        },
+        {
+          "title": "Customer Engagement Applications Engineer",
+          "externalPath": "/job/Hillsboro-OR/Customer-Engagement-Applications-Engineer_2641501",
+          "locationsText": "Hillsboro, OR",
+          "postedOn": "Posted Yesterday",
+          "bulletFields": [
+            "2641501"
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.kla.com/",
+    "explanation": "Public careers source for KLA: https://www.kla.com/careers. The ATS board and representative job links are branded for this employer or its consolidated corporate group. This is a group monitor, not an unfiltered child-company monitor. Regional/student scope is stated in monitor warnings. Local findings are provisional and require maintainer ownership review.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Sr-IT-Operation-Specialist---Corporate-Events---Executive-Support_2641386",
+      "https://kla.wd1.myworkdayjobs.com/Search/job/Hillsboro-OR/Customer-Engagement-Applications-Engineer_2641503",
+      "https://kla.wd1.myworkdayjobs.com/Search/job/Hillsboro-OR/Customer-Engagement-Applications-Engineer_2641501"
+    ]
+  }
+}

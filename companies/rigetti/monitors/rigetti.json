@@ -1,11 +1,11 @@
 {
   "format": "jobhound-monitor",
   "schema_version": 1,
-  "id": "kla",
-  "company_id": "kla",
-  "revision": 2,
-  "label": "KLA careers",
-  "careers_url": "https://kla.wd1.myworkdayjobs.com/Search",
+  "id": "rigetti",
+  "company_id": "rigetti",
+  "revision": 1,
+  "label": "Rigetti Computing careers",
+  "careers_url": "https://jobs.lever.co/rigetti",
   "compatibility": {
     "min_jobhound_version": "0.1.0",
     "recipe_schema_version": 1
@@ -22,39 +22,34 @@
   "recipe": {
     "version": 1,
     "coverage_mode": "all",
-    "company": "KLA",
-    "careers_url": "https://kla.wd1.myworkdayjobs.com/Search",
-    "strategy": "workday",
+    "company": "Rigetti Computing",
+    "careers_url": "https://jobs.lever.co/rigetti",
+    "strategy": "lever",
     "allowed_hosts": [
-      "kla.wd1.myworkdayjobs.com"
+      "api.lever.co",
+      "jobs.lever.co"
     ],
     "request": {
-      "url": "https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/Search/jobs",
-      "method": "POST",
+      "url": "https://api.lever.co/v0/postings/rigetti",
+      "method": "GET",
       "headers": {},
-      "params": {},
-      "json_body": {
-        "appliedFacets": {},
-        "limit": 20,
-        "offset": 0,
-        "searchText": ""
+      "params": {
+        "mode": "json"
       },
+      "json_body": null,
       "timeout_seconds": 25,
       "max_response_bytes": 20000000
     },
     "pagination": {
-      "kind": "offset",
-      "parameter": "offset",
-      "page_size_parameter": "limit",
-      "page_size": 20,
+      "kind": "none",
+      "parameter": null,
+      "page_size_parameter": null,
+      "page_size": 100,
       "max_pages": null,
       "next_path": null
     },
     "selectors": {},
     "mapping": {},
-    "metadata": {
-      "tenant": "kla",
-      "site": "Search"
-    }
+    "metadata": {}
   }
 }

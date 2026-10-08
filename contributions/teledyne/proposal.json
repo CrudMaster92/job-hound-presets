@@ -1,0 +1,136 @@
+{
+  "base_commit": "313e8b1c910139934b10c5bbc740966c64b2ff5f",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "teledyne",
+    "name": "Teledyne Technologies",
+    "legal_name": null,
+    "aliases": [
+      "Teledyne"
+    ],
+    "website_url": "https://www.teledynedalsa.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "scientific-instruments"
+      ],
+      "specialties": [
+        "photonics",
+        "metrology",
+        "instrumentation"
+      ],
+      "tags": [
+        "Advanced Technology",
+        "Science",
+        "Engineering"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "teledyne",
+    "company_id": "teledyne",
+    "revision": 1,
+    "label": "Teledyne Technologies careers",
+    "careers_url": "https://flir.wd1.myworkdayjobs.com/flircareers",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local evidence only; awaiting trusted upstream validation.",
+        "Consolidated Teledyne group board, including division postings. No claim of division-specific selection or exhaustive coverage of separate legacy boards."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Teledyne Technologies",
+      "careers_url": "https://flir.wd1.myworkdayjobs.com/flircareers",
+      "strategy": "workday",
+      "allowed_hosts": [
+        "flir.wd1.myworkdayjobs.com"
+      ],
+      "request": {
+        "url": "https://flir.wd1.myworkdayjobs.com/wday/cxs/flir/flircareers/jobs",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "json_body": {
+          "appliedFacets": {},
+          "limit": 20,
+          "offset": 0,
+          "searchText": ""
+        },
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 20,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "tenant": "flir",
+        "site": "flircareers"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://flir.wd1.myworkdayjobs.com/wday/cxs/flir/flircareers/jobs",
+    "fetched_at": "2026-10-08T14:33:22.164207+00:00",
+    "payload": {
+      "jobPostings": [
+        {
+          "title": "Environmental Health & Safety Manager",
+          "externalPath": "/job/US---Montgomeryville-PA-TDY/Environmental-Health---Safety-Manager_REQ36384",
+          "locationsText": "2 Locations",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "REQ36384"
+          ]
+        },
+        {
+          "title": "Procurement Specialist/Buyer (U.S. Citizenship required)",
+          "externalPath": "/job/US---Stillwater-OK/Procurement-Specialist-Buyer_REQ37228-1",
+          "locationsText": "US - Stillwater, OK",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "REQ37228"
+          ]
+        },
+        {
+          "title": "Application Engineer",
+          "externalPath": "/job/China---Beijing/Application-Engineer_REQ37165",
+          "locationsText": "China - Beijing",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "REQ37165"
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.teledynedalsa.com",
+    "explanation": "Public careers source for Teledyne Technologies: https://www.teledynedalsa.com/en/company/dalsa-careers/. The ATS board and representative job links are branded for this employer or its consolidated corporate group. This is a group monitor, not an unfiltered child-company monitor. Regional/student scope is stated in monitor warnings. Local findings are provisional and require maintainer ownership review.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Montgomeryville-PA-TDY/Environmental-Health---Safety-Manager_REQ36384",
+      "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Stillwater-OK/Procurement-Specialist-Buyer_REQ37228-1",
+      "https://flir.wd1.myworkdayjobs.com/flircareers/job/China---Beijing/Application-Engineer_REQ37165"
+    ]
+  }
+}

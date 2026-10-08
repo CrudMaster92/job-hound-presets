@@ -1,0 +1,285 @@
+{
+  "base_commit": "313e8b1c910139934b10c5bbc740966c64b2ff5f",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "astranis",
+    "name": "Astranis",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://www.astranis.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "aerospace"
+      ],
+      "specialties": [
+        "space-systems",
+        "advanced-manufacturing"
+      ],
+      "tags": [
+        "Advanced Technology",
+        "Science",
+        "Engineering"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "astranis",
+    "company_id": "astranis",
+    "revision": 1,
+    "label": "Astranis careers",
+    "careers_url": "https://job-boards.greenhouse.io/astranis",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local evidence only; awaiting trusted upstream validation.",
+        "All role families advertised on this public employer board; no title or geographic filter."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Astranis",
+      "careers_url": "https://job-boards.greenhouse.io/astranis",
+      "strategy": "greenhouse",
+      "allowed_hosts": [
+        "boards-api.greenhouse.io",
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io"
+      ],
+      "request": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/astranis/jobs",
+        "method": "GET",
+        "headers": {},
+        "params": {
+          "content": true
+        },
+        "json_body": null,
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "none",
+        "parameter": null,
+        "page_size_parameter": null,
+        "page_size": 100,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "board_token": "astranis"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/astranis/jobs",
+    "fetched_at": "2026-10-08T14:33:25.273698+00:00",
+    "payload": {
+      "jobs": [
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/astranis/jobs/4430423006",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "education": "education_optional",
+          "internal_job_id": 4443565006,
+          "location": {
+            "name": "San Francisco"
+          },
+          "metadata": [
+            {
+              "id": 16001956006,
+              "name": "Recruiting Difficulty - ONCE SET, DO NOT CHANGE",
+              "value": "1",
+              "value_type": "single_select"
+            },
+            {
+              "id": 16039096006,
+              "name": "Level Estimate",
+              "value": "S3",
+              "value_type": "single_select"
+            }
+          ],
+          "id": 4430423006,
+          "updated_at": "2026-10-07T17:19:40-04:00",
+          "requisition_id": "614",
+          "title": "Aerospace Fabricator",
+          "company_name": "Astranis",
+          "first_published": "2025-01-02T18:33:41-05:00",
+          "language": "en",
+          "application_deadline": null,
+          "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Astranis builds advanced satellites for high orbits, expanding humanity’s reach into the solar system. Today Astranis satellites provide dedicated, secure networks to highly-sophisticated customers across the globe – large enterprises, sovereign governments, and the US military.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;With five satellites on orbit and many more set to launch soon, the company is servicing a backlog of more than $1 billion of commercial contracts. Astranis is the preferred satellite communications partner for buyers with stringent requirements for uptime, data security, network visibility, and customization.&lt;/p&gt;\n&lt;p&gt;Astranis has raised over $1.2 billion from some of the world’s best investors, including Andreessen Horowitz, Baillie Gifford, Blackrock, Fidelity, Franklin Templeton, and Snowpoint, and employs a team of 500 engineers and entrepreneurs. Astranis designs, builds, and operates its satellites out of its 153,000 sq. ft. headquarters in Northern California, USA.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;section page-centered&quot;&gt;\n&lt;p&gt;&lt;strong&gt;Aerospace Fabricator&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;div&gt;As a Aerospace Fabricator, you will be responsible for coordinating and supporting the production of propulsion hardware. You will also be responsible for operating and maintaining a world-class CNC tube bender, metal fabrication tools, as well as managing an inventory of space hardware.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Role&lt;/strong&gt;&lt;/div&gt;\n&lt;ul&gt;\n&lt;li&gt;Program, operate, troubleshoot, and maintain a CNC Tube Bender, and otherl metal fabrication tools for aerospace applications&lt;/li&gt;\n&lt;li&gt;Prepare metal components for welding and/or assembly into micro-GEO satellites&lt;/li&gt;\n&lt;li&gt;Manage the inventory and material traceability for thousands of propulsion components&lt;/li&gt;\n&lt;li&gt;Perform dimensional and quality inspections on propulsion components and assemblies&lt;/li&gt;\n&lt;li&gt;Follow processes and work instructions, complete associated paperwork, and provide detailed feedback to authors&lt;/li&gt;\n&lt;li&gt;Identify and procure capital equipment, manage its installation, and perform its commissioning&lt;/li&gt;\n&lt;li&gt;Be a jack-of-all-trades around the factory - learn new skills, help other teams, be able to find other uses for your talents&lt;/li&gt;\n&lt;/ul&gt;\n&lt;div&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/div&gt;\n&lt;ul&gt;\n&lt;li&gt;Ability to program CNC equipment, and operate fabrication tools&lt;/li&gt;\n&lt;li&gt;Ability to interpret technical drawings, test plans, and work to procedures&lt;/li&gt;\n&lt;li&gt;Ability to operate cranes, man lifts, tugs &amp;amp; handling equipment&lt;/li&gt;\n&lt;li&gt;Willing and able to work all shifts, overtime, and/or weekends as required&lt;/li&gt;\n&lt;li&gt;Willing and able to travel to support vendor visits and trainings&lt;/li&gt;\n&lt;li&gt;Climbing ladders, long durations of standing, grasping, sitting, pulling, and physical bending movements&lt;/li&gt;\n&lt;li&gt;Must be able to lift at least 25 lbs unassisted&lt;/li&gt;\n&lt;li&gt;Don&#39;t meet them all? Not a problem. Please apply even if you do not meet all these criteria&lt;/li&gt;\n&lt;/ul&gt;\n&lt;div&gt;&lt;strong&gt;Bonus&lt;/strong&gt;&lt;/div&gt;\n&lt;ul&gt;\n&lt;li&gt;3+ years of experience doing tube bending, aerospace/ high-precision assembly or fabrication, and/or CNC machine operation&lt;/li&gt;\n&lt;li&gt;Experience operating a CNC tube bender&lt;/li&gt;\n&lt;li&gt;Experience operating a FARO arm or CMM&lt;/li&gt;\n&lt;li&gt;Good understanding of GD&amp;amp;T&lt;/li&gt;\n&lt;li&gt;Experience welding, specifically orbital tube welding (OTW)&lt;/li&gt;\n&lt;li&gt;Experience related to other roles in the production of satellites, i.e. machining, welding, assembly, or harnessing&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;div&gt;&lt;strong&gt;What we offer:&amp;nbsp;&lt;/strong&gt;&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;All our positions offer a compensation package that includes equity and robust benefits.&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;Base pay is just one component of Astranis’s total rewards package. Your compensation also includes a significant equity package via incentive stock options, high-quality company-subsidized healthcare, disability and life insurance, 401(k) retirement planning, flexible PTO, and free on-site catered meals.&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;Astranis pay ranges are informed and defined through professional-grade salary surveys and compensation data sources. The actual base salary offered to a successful candidate will additionally be influenced by a variety of factors including experience, credentials &amp;amp; certifications, educational attainment, skill level requirements, and the level and scope of the position.&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Base Hourly Pay&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$36&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$47 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;div&gt;&lt;strong&gt;U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required&lt;/strong&gt;&lt;/div&gt;\n&lt;div&gt;(To comply with U.S. Government space technology export regulations, applicant must be a U.S. citizen, lawful permanent resident of the United States, or other protected individual as defined by 8 U.S.C. 1324b(a)(3))&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;Our mission and products are built for everyone, regardless of gender, race, creed, or background. We believe in a diverse and inclusive workplace, and we invite all people to join our team and bring their unique perspectives to make us stronger.&lt;/div&gt;\n&lt;h4&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;1800&quot;&gt;Astranis SMS Terms of Service&lt;/span&gt;&lt;/strong&gt;&lt;/h4&gt;\n&lt;ol&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;1837&quot;&gt;Recruiting Updates:&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;1858&quot;&gt; By opting in, you agree to receive SMS updates, interview coordination, and recruiting communications from Astranis Space Technologies Corp.&lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2004&quot;&gt;Opt-Out:&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2014&quot;&gt; You can cancel this service at any time by replying &lt;/span&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2069&quot;&gt;STOP&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2075&quot;&gt;. We will send one final text confirming your unsubscription.&lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2142&quot;&gt;Opt-In Again:&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2157&quot;&gt; To resume receiving messages, reply &lt;/span&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2196&quot;&gt;START&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2203&quot;&gt; or &lt;/span&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2209&quot;&gt;YES&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2214&quot;&gt;.&lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2220&quot;&gt;Support &amp;amp; Rates:&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2238&quot;&gt; For assistance, reply &lt;/span&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2263&quot;&gt;HELP&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2269&quot;&gt; or contact us at coordinators@astranis.com. Message and data rates may apply. Message frequency varies; carriers are not liable for delayed or undelivered messages.&lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2427&quot;&gt;Privacy:&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2437&quot;&gt; For details on how we protect your data, view our &lt;/span&gt;&lt;a href=&quot;https://www.google.com/url?q=https%3A%2F%2Fwww.astranis.com%2Flegal%2Fprivacy&quot; target=&quot;_blank&quot;&gt;&lt;span data-markdown-start-index=&quot;2489&quot;&gt;Privacy Policy&lt;/span&gt;&lt;/a&gt;&lt;span data-markdown-start-index=&quot;2544&quot;&gt;.&lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ol&gt;&lt;/div&gt;",
+          "departments": [
+            {
+              "id": 4025746006,
+              "name": "3804 Propulsion Manufacturing",
+              "child_ids": [],
+              "parent_id": 4020013006
+            }
+          ],
+          "offices": [
+            {
+              "id": 4001511006,
+              "name": "San Francisco",
+              "location": "San Francisco, California, United States",
+              "child_ids": [],
+              "parent_id": null
+            }
+          ],
+          "ai_disclaimer": "<p>We use Greenhouse’s AI-powered Talent Matching tool to compare your application against our job requirements.</p>",
+          "include_ai_disclaimer": false,
+          "ai_opt_out_request_url": "http://app6.greenhouse.io/ai_opt_out_request/job_post/4430423006/ai_opt_out"
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/astranis/jobs/4704301006",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 4559075006,
+          "location": {
+            "name": "San Francisco"
+          },
+          "metadata": [
+            {
+              "id": 16001956006,
+              "name": "Recruiting Difficulty - ONCE SET, DO NOT CHANGE",
+              "value": "1",
+              "value_type": "single_select"
+            },
+            {
+              "id": 16039096006,
+              "name": "Level Estimate",
+              "value": "P1",
+              "value_type": "single_select"
+            }
+          ],
+          "id": 4704301006,
+          "updated_at": "2026-10-07T17:19:41-04:00",
+          "requisition_id": "1038",
+          "title": "Antenna Associate (Summer 2027)",
+          "company_name": "Astranis",
+          "first_published": "2026-09-23T00:09:38-04:00",
+          "language": "en",
+          "application_deadline": null,
+          "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Astranis builds advanced satellites for high orbits, expanding humanity’s reach into the solar system. Today Astranis satellites provide dedicated, secure networks to highly-sophisticated customers across the globe – large enterprises, sovereign governments, and the US military.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;With five satellites on orbit and many more set to launch soon, the company is servicing a backlog of more than $1 billion of commercial contracts. Astranis is the preferred satellite communications partner for buyers with stringent requirements for uptime, data security, network visibility, and customization.&lt;/p&gt;\n&lt;p&gt;Astranis has raised over $1.2 billion from some of the world’s best investors, including Andreessen Horowitz, Baillie Gifford, Blackrock, Fidelity, Franklin Templeton, and Snowpoint, and employs a team of 500 engineers and entrepreneurs. Astranis designs, builds, and operates its satellites out of its 153,000 sq. ft. headquarters in Northern California, USA.&lt;/p&gt;&lt;/div&gt;&lt;h4&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;strong&gt;Antenna Associate (Summer 2027)&lt;/strong&gt;&lt;/span&gt;&lt;/h4&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Internships at Astranis typically last for twelve weeks, and are hourly roles designed for students who are currently enrolled at a four-year university.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;As an Antenna Intern, you will work closely with mechanical, thermal, and payload system engineers to design, build and test antenna systems for ongoing and next-generation satellite payloads.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;strong&gt;Role&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Leverage cutting-edge design tools to realize high-performance communications antenna systems with on-orbit flexibility to meet evolving customer demand.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Work with vendors to design and procure antenna and RF components and validate their performance through anechoic chamber testing.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Co-design antenna components and systems in conjunction with other technical disciplines, including Mechanical/Structural/Thermal/Payload Systems.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Fundamental understanding of electromagnetics, including antenna fundamentals, impedance matching, transmission lines, and circuit matching.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Experience measuring components using vector network analyzers, spectrum analyzers, and signal sources.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Demonstrated ability to solve engineering challenges in innovative and creative ways.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Capable of using industry-standard design tools such as CST, HFSS, or TICRA and scripting to solve engineering problems using Matlab or Python.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;strong&gt;Bonus&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Experience with 3D printing (Direct Metal Laser Sintering and Fused Deposition Modeling).&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Experience with link budget and system calculations including EIRP, noise figure, and G/T.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Experience designing waveguide components (OMT, MUX, diplexer, filters, polarizers, etc).&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Experience with reflectors.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;div&gt;The base salary for this position is $1,925 per week.&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Base Salary&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$1,925&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$1,925 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;div&gt;&lt;strong&gt;U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required&lt;/strong&gt;&lt;/div&gt;\n&lt;div&gt;(To comply with U.S. Government space technology export regulations, applicant must be a U.S. citizen, lawful permanent resident of the United States, or other protected individual as defined by 8 U.S.C. 1324b(a)(3))&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;Our mission and products are built for everyone, regardless of gender, race, creed, or background. We believe in a diverse and inclusive workplace, and we invite all people to join our team and bring their unique perspectives to make us stronger.&lt;/div&gt;\n&lt;h4&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;1800&quot;&gt;Astranis SMS Terms of Service&lt;/span&gt;&lt;/strong&gt;&lt;/h4&gt;\n&lt;ol&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;1837&quot;&gt;Recruiting Updates:&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;1858&quot;&gt; By opting in, you agree to receive SMS updates, interview coordination, and recruiting communications from Astranis Space Technologies Corp.&lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2004&quot;&gt;Opt-Out:&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2014&quot;&gt; You can cancel this service at any time by replying &lt;/span&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2069&quot;&gt;STOP&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2075&quot;&gt;. We will send one final text confirming your unsubscription.&lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2142&quot;&gt;Opt-In Again:&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2157&quot;&gt; To resume receiving messages, reply &lt;/span&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2196&quot;&gt;START&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2203&quot;&gt; or &lt;/span&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2209&quot;&gt;YES&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2214&quot;&gt;.&lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2220&quot;&gt;Support &amp;amp; Rates:&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2238&quot;&gt; For assistance, reply &lt;/span&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2263&quot;&gt;HELP&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2269&quot;&gt; or contact us at coordinators@astranis.com. Message and data rates may apply. Message frequency varies; carriers are not liable for delayed or undelivered messages.&lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2427&quot;&gt;Privacy:&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2437&quot;&gt; For details on how we protect your data, view our &lt;/span&gt;&lt;a href=&quot;https://www.google.com/url?q=https%3A%2F%2Fwww.astranis.com%2Flegal%2Fprivacy&quot; target=&quot;_blank&quot;&gt;&lt;span data-markdown-start-index=&quot;2489&quot;&gt;Privacy Policy&lt;/span&gt;&lt;/a&gt;&lt;span data-markdown-start-index=&quot;2544&quot;&gt;.&lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ol&gt;&lt;/div&gt;",
+          "departments": [
+            {
+              "id": 4003233006,
+              "name": "Payload Internships",
+              "child_ids": [],
+              "parent_id": 4003202006
+            }
+          ],
+          "offices": [
+            {
+              "id": 4001511006,
+              "name": "San Francisco",
+              "location": "San Francisco, California, United States",
+              "child_ids": [],
+              "parent_id": null
+            }
+          ],
+          "ai_disclaimer": "<p>We use Greenhouse’s AI-powered Talent Matching tool to compare your application against our job requirements.</p>",
+          "include_ai_disclaimer": true,
+          "ai_opt_out_request_url": "http://app6.greenhouse.io/ai_opt_out_request/job_post/4704301006/ai_opt_out"
+        },
+        {
+          "absolute_url": "https://job-boards.greenhouse.io/astranis/jobs/4704298006",
+          "data_compliance": [
+            {
+              "type": "gdpr",
+              "requires_consent": false,
+              "requires_processing_consent": false,
+              "requires_retention_consent": false,
+              "retention_period": null,
+              "demographic_data_consent_applies": false
+            }
+          ],
+          "internal_job_id": 4559075006,
+          "location": {
+            "name": "San Francisco"
+          },
+          "metadata": [
+            {
+              "id": 16001956006,
+              "name": "Recruiting Difficulty - ONCE SET, DO NOT CHANGE",
+              "value": "1",
+              "value_type": "single_select"
+            },
+            {
+              "id": 16039096006,
+              "name": "Level Estimate",
+              "value": "P1",
+              "value_type": "single_select"
+            }
+          ],
+          "id": 4704298006,
+          "updated_at": "2026-10-07T17:19:41-04:00",
+          "requisition_id": "1038",
+          "title": "Antenna Associate (Winter 2027)",
+          "company_name": "Astranis",
+          "first_published": "2026-09-23T00:09:40-04:00",
+          "language": "en",
+          "application_deadline": null,
+          "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Astranis builds advanced satellites for high orbits, expanding humanity’s reach into the solar system. Today Astranis satellites provide dedicated, secure networks to highly-sophisticated customers across the globe – large enterprises, sovereign governments, and the US military.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;With five satellites on orbit and many more set to launch soon, the company is servicing a backlog of more than $1 billion of commercial contracts. Astranis is the preferred satellite communications partner for buyers with stringent requirements for uptime, data security, network visibility, and customization.&lt;/p&gt;\n&lt;p&gt;Astranis has raised over $1.2 billion from some of the world’s best investors, including Andreessen Horowitz, Baillie Gifford, Blackrock, Fidelity, Franklin Templeton, and Snowpoint, and employs a team of 500 engineers and entrepreneurs. Astranis designs, builds, and operates its satellites out of its 153,000 sq. ft. headquarters in Northern California, USA.&lt;/p&gt;&lt;/div&gt;&lt;h4&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;strong&gt;Antenna Associate (Winter 2027)&lt;/strong&gt;&lt;/span&gt;&lt;/h4&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Internships at Astranis typically last for twelve weeks, and are hourly roles designed for students who are currently enrolled at a four-year university.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;As an Antenna Intern, you will work closely with mechanical, thermal, and payload system engineers to design, build and test antenna systems for ongoing and next-generation satellite payloads.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;strong&gt;Role&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Leverage cutting-edge design tools to realize high-performance communications antenna systems with on-orbit flexibility to meet evolving customer demand.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Work with vendors to design and procure antenna and RF components and validate their performance through anechoic chamber testing.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Co-design antenna components and systems in conjunction with other technical disciplines, including Mechanical/Structural/Thermal/Payload Systems.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Fundamental understanding of electromagnetics, including antenna fundamentals, impedance matching, transmission lines, and circuit matching.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Experience measuring components using vector network analyzers, spectrum analyzers, and signal sources.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Demonstrated ability to solve engineering challenges in innovative and creative ways.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Capable of using industry-standard design tools such as CST, HFSS, or TICRA and scripting to solve engineering problems using Matlab or Python.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;strong&gt;Bonus&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Experience with 3D printing (Direct Metal Laser Sintering and Fused Deposition Modeling).&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Experience with link budget and system calculations including EIRP, noise figure, and G/T.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Experience designing waveguide components (OMT, MUX, diplexer, filters, polarizers, etc).&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Experience with reflectors.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;div&gt;The base salary for this position is $1,925 per week.&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Base Salary&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$1,925&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$1,925 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;div&gt;&lt;strong&gt;U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required&lt;/strong&gt;&lt;/div&gt;\n&lt;div&gt;(To comply with U.S. Government space technology export regulations, applicant must be a U.S. citizen, lawful permanent resident of the United States, or other protected individual as defined by 8 U.S.C. 1324b(a)(3))&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;Our mission and products are built for everyone, regardless of gender, race, creed, or background. We believe in a diverse and inclusive workplace, and we invite all people to join our team and bring their unique perspectives to make us stronger.&lt;/div&gt;\n&lt;h4&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;1800&quot;&gt;Astranis SMS Terms of Service&lt;/span&gt;&lt;/strong&gt;&lt;/h4&gt;\n&lt;ol&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;1837&quot;&gt;Recruiting Updates:&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;1858&quot;&gt; By opting in, you agree to receive SMS updates, interview coordination, and recruiting communications from Astranis Space Technologies Corp.&lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2004&quot;&gt;Opt-Out:&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2014&quot;&gt; You can cancel this service at any time by replying &lt;/span&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2069&quot;&gt;STOP&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2075&quot;&gt;. We will send one final text confirming your unsubscription.&lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2142&quot;&gt;Opt-In Again:&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2157&quot;&gt; To resume receiving messages, reply &lt;/span&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2196&quot;&gt;START&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2203&quot;&gt; or &lt;/span&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2209&quot;&gt;YES&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2214&quot;&gt;.&lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2220&quot;&gt;Support &amp;amp; Rates:&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2238&quot;&gt; For assistance, reply &lt;/span&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2263&quot;&gt;HELP&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2269&quot;&gt; or contact us at coordinators@astranis.com. Message and data rates may apply. Message frequency varies; carriers are not liable for delayed or undelivered messages.&lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-markdown-start-index=&quot;2427&quot;&gt;Privacy:&lt;/span&gt;&lt;/strong&gt;&lt;span data-markdown-start-index=&quot;2437&quot;&gt; For details on how we protect your data, view our &lt;/span&gt;&lt;a href=&quot;https://www.google.com/url?q=https%3A%2F%2Fwww.astranis.com%2Flegal%2Fprivacy&quot; target=&quot;_blank&quot;&gt;&lt;span data-markdown-start-index=&quot;2489&quot;&gt;Privacy Policy&lt;/span&gt;&lt;/a&gt;&lt;span data-markdown-start-index=&quot;2544&quot;&gt;.&lt;/span&gt;&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ol&gt;&lt;/div&gt;",
+          "departments": [
+            {
+              "id": 4003233006,
+              "name": "Payload Internships",
+              "child_ids": [],
+              "parent_id": 4003202006
+            }
+          ],
+          "offices": [
+            {
+              "id": 4001511006,
+              "name": "San Francisco",
+              "location": "San Francisco, California, United States",
+              "child_ids": [],
+              "parent_id": null
+            }
+          ],
+          "ai_disclaimer": "<p>We use Greenhouse’s AI-powered Talent Matching tool to compare your application against our job requirements.</p>",
+          "include_ai_disclaimer": true,
+          "ai_opt_out_request_url": "http://app6.greenhouse.io/ai_opt_out_request/job_post/4704298006/ai_opt_out"
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.astranis.com",
+    "explanation": "Public careers source for Astranis: https://www.astranis.com/careers. The ATS board and representative job links are branded for this employer or its consolidated corporate group. This is a group monitor, not an unfiltered child-company monitor. Regional/student scope is stated in monitor warnings. Local findings are provisional and require maintainer ownership review.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://job-boards.greenhouse.io/astranis/jobs/4430423006",
+      "https://job-boards.greenhouse.io/astranis/jobs/4704301006",
+      "https://job-boards.greenhouse.io/astranis/jobs/4704298006"
+    ]
+  }
+}

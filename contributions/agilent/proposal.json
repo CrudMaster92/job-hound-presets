@@ -1,0 +1,134 @@
+{
+  "base_commit": "313e8b1c910139934b10c5bbc740966c64b2ff5f",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "agilent",
+    "name": "Agilent Technologies",
+    "legal_name": null,
+    "aliases": [],
+    "website_url": "https://careers.agilent.com",
+    "logo_url": null,
+    "facets": {
+      "industries": [
+        "scientific-instruments"
+      ],
+      "specialties": [
+        "photonics",
+        "metrology",
+        "instrumentation"
+      ],
+      "tags": [
+        "Advanced Technology",
+        "Science",
+        "Engineering"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "agilent",
+    "company_id": "agilent",
+    "revision": 1,
+    "label": "Agilent Technologies careers",
+    "careers_url": "https://agilent.wd5.myworkdayjobs.com/Agilent_Careers",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local evidence only; awaiting trusted upstream validation.",
+        "Experienced careers board; student openings use the separate student monitor."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Agilent Technologies",
+      "careers_url": "https://agilent.wd5.myworkdayjobs.com/Agilent_Careers",
+      "strategy": "workday",
+      "allowed_hosts": [
+        "agilent.wd5.myworkdayjobs.com"
+      ],
+      "request": {
+        "url": "https://agilent.wd5.myworkdayjobs.com/wday/cxs/agilent/Agilent_Careers/jobs",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "json_body": {
+          "appliedFacets": {},
+          "limit": 20,
+          "offset": 0,
+          "searchText": ""
+        },
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 20,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "tenant": "agilent",
+        "site": "Agilent_Careers"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://agilent.wd5.myworkdayjobs.com/wday/cxs/agilent/Agilent_Careers/jobs",
+    "fetched_at": "2026-10-08T14:33:23.401846+00:00",
+    "payload": {
+      "jobPostings": [
+        {
+          "title": "Technical Solution Specialist-LC-Shanghai",
+          "externalPath": "/job/China-Remote-Location-Shanghai/Technical-Solution-Specialist-LC-Shanghai_4039858",
+          "locationsText": "China-Remote Location-Shanghai​",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "4039858"
+          ]
+        },
+        {
+          "title": "Technical Solution Specialist-LC-Shanghai",
+          "externalPath": "/job/China-Remote-Location-Shanghai/Technical-Solution-Specialist-LC-Shanghai_4039844",
+          "locationsText": "China-Remote Location-Shanghai​",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "4039844"
+          ]
+        },
+        {
+          "title": "Service Sales Manager - Malaysia & Thailand",
+          "externalPath": "/job/Thailand-Bangkok/Service-Sales-Manager---Malaysia---Thailand_4040378",
+          "locationsText": "2 Locations",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "4040378"
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://careers.agilent.com",
+    "explanation": "Public careers source for Agilent Technologies: https://careers.agilent.com/. The ATS board and representative job links are branded for this employer or its consolidated corporate group. This is a group monitor, not an unfiltered child-company monitor. Regional/student scope is stated in monitor warnings. Local findings are provisional and require maintainer ownership review.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://agilent.wd5.myworkdayjobs.com/Agilent_Careers/job/China-Remote-Location-Shanghai/Technical-Solution-Specialist-LC-Shanghai_4039858",
+      "https://agilent.wd5.myworkdayjobs.com/Agilent_Careers/job/China-Remote-Location-Shanghai/Technical-Solution-Specialist-LC-Shanghai_4039844",
+      "https://agilent.wd5.myworkdayjobs.com/Agilent_Careers/job/Thailand-Bangkok/Service-Sales-Manager---Malaysia---Thailand_4040378"
+    ]
+  }
+}

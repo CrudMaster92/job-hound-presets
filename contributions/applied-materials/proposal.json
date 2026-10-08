@@ -1,0 +1,128 @@
+{
+  "base_commit": "313e8b1c910139934b10c5bbc740966c64b2ff5f",
+  "company": {
+    "format": "jobhound-company",
+    "schema_version": 1,
+    "id": "applied-materials",
+    "name": "Applied Materials",
+    "aliases": [],
+    "website_url": "https://www.appliedmaterials.com/",
+    "logo_url": "https://www.google.com/s2/favicons?domain=appliedmaterials.com&sz=128",
+    "facets": {
+      "industries": [],
+      "specialties": [],
+      "tags": [
+        "Fortune 200",
+        "2026",
+        "United States"
+      ]
+    }
+  },
+  "monitor": {
+    "format": "jobhound-monitor",
+    "schema_version": 1,
+    "id": "applied-materials",
+    "company_id": "applied-materials",
+    "revision": 2,
+    "label": "Applied Materials careers",
+    "careers_url": "https://amat.wd1.myworkdayjobs.com/External",
+    "compatibility": {
+      "min_jobhound_version": "0.1.0",
+      "recipe_schema_version": 1
+    },
+    "verification": {
+      "status": "unverified",
+      "checked_at": null,
+      "job_count": null,
+      "warnings": [
+        "Provisional local evidence only; awaiting trusted upstream validation.",
+        "All role families advertised on this public employer board; no title or geographic filter.",
+        "Local listing validation on 2026-10-08 was incomplete: Listing request failed (ScraperNetworkError); saved traversal remains incomplete and retries next run."
+      ]
+    },
+    "recipe": {
+      "version": 1,
+      "coverage_mode": "all",
+      "company": "Applied Materials",
+      "careers_url": "https://amat.wd1.myworkdayjobs.com/External",
+      "strategy": "workday",
+      "allowed_hosts": [
+        "amat.wd1.myworkdayjobs.com"
+      ],
+      "request": {
+        "url": "https://amat.wd1.myworkdayjobs.com/wday/cxs/amat/External/jobs",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "json_body": {
+          "appliedFacets": {},
+          "limit": 20,
+          "offset": 0,
+          "searchText": ""
+        },
+        "timeout_seconds": 25,
+        "max_response_bytes": 20000000
+      },
+      "pagination": {
+        "kind": "offset",
+        "parameter": "offset",
+        "page_size_parameter": "limit",
+        "page_size": 20,
+        "max_pages": null,
+        "next_path": null
+      },
+      "selectors": {},
+      "mapping": {},
+      "metadata": {
+        "tenant": "amat",
+        "site": "External"
+      }
+    }
+  },
+  "collections": [],
+  "fixture": {
+    "source_url": "https://amat.wd1.myworkdayjobs.com/wday/cxs/amat/External/jobs",
+    "fetched_at": "2026-10-08T14:33:22.569697+00:00",
+    "payload": {
+      "jobPostings": [
+        {
+          "title": "Build Manufacturing Engineer ( 4pm to 1.30am)",
+          "externalPath": "/job/SingaporeSGP/FEP-Manufacturing-Engineer_R2611165",
+          "locationsText": "Singapore,SGP",
+          "postedOn": "Posted Today",
+          "bulletFields": [
+            "R2611165"
+          ]
+        },
+        {
+          "title": "Manufacturing Engineer (4pm to 1.30am)",
+          "externalPath": "/job/SingaporeSGP/Manufacturing-Engineer--4pm-to-130am-_R2628710",
+          "locationsText": "Singapore,SGP",
+          "postedOn": "Posted 8 Days Ago",
+          "bulletFields": [
+            "R2628710"
+          ]
+        },
+        {
+          "title": "Manufacturing Engineer",
+          "externalPath": "/job/SingaporeSGP/Manufacturing-Engineer_R2611214",
+          "locationsText": "Singapore,SGP",
+          "postedOn": "Posted 14 Days Ago",
+          "bulletFields": [
+            "R2611214"
+          ]
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "company_url": "https://www.appliedmaterials.com/",
+    "explanation": "Public careers source for Applied Materials: https://www.appliedmaterials.com/us/en/careers.html. The ATS board and representative job links are branded for this employer or its consolidated corporate group. This is a group monitor, not an unfiltered child-company monitor. Regional/student scope is stated in monitor warnings. Local findings are provisional and require maintainer ownership review.",
+    "shared_feed": false,
+    "representative_urls": [
+      "https://amat.wd1.myworkdayjobs.com/External/job/SingaporeSGP/FEP-Manufacturing-Engineer_R2611165",
+      "https://amat.wd1.myworkdayjobs.com/External/job/SingaporeSGP/Manufacturing-Engineer--4pm-to-130am-_R2628710",
+      "https://amat.wd1.myworkdayjobs.com/External/job/SingaporeSGP/Manufacturing-Engineer_R2611214"
+    ]
+  }
+}
