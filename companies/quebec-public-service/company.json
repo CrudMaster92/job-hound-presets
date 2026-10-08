@@ -18,7 +18,7 @@
   "availability": {
     "status": "unavailable",
     "reason": "access-restricted",
-    "message": "Official public-service recruiting portal returned HTTP 403. No crawler is activated. Santé Québec is covered separately.",
-    "checked_at": "2026-10-07T20:47:59.768775+00:00"
+    "message": "The current official portal, emplois.carrieres.gouv.qc.ca/plateforme-emploi, returns HTTP 403 in both HTTP and browser checks. No crawler is activated.",
+    "checked_at": "2026-10-08T02:53:27.825425+00:00"
   }
 }

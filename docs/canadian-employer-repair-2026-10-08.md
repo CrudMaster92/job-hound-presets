@@ -1,0 +1,20 @@
+# Canadian employer access recheck — 8 October 2026 UTC
+
+The earlier blocked labels generalized failures of individual URLs. This recheck separates accessible listings from reliable recurring coverage.
+
+- **Sobeys:** the official `postings.sobeyscareers.com/search/` feed returns 61 postings over three pages (30/30/1). The JobHound runtime returned 61 unique postings, eight requests including five detail attempts, and `complete=false`. A new partial monitor uses offset pagination (`startrow`). The newer WordPress careers search returns HTTP 403; the legacy feed does not establish full current hiring coverage. Detail descriptions could not be enriched. Banners observed include Sobeys, Safeway, Thrifty Foods and FreshCo.
+- **Alberta Health Services:** `/latest-jobs` and individual postings return HTTP 200. Full search and its ordinary public AJAX search return HTTP 403; an ordinary browser also returned 403. The portal advertises multiple employers after restructuring. For example, Analyst ALB00584033 explicitly names Health Shared Services and other listings name Assisted Living Alberta. A broad crawler would misattribute those jobs to AHS. A crawler for this primary portal is not activated; the employer-checked Job Bank fallback described below provides limited coverage.
+- **Quebec Public Service:** the current government careers page links to `https://emplois.carrieres.gouv.qc.ca/plateforme-emploi`, replacing the old recruitment hostname. That exact route returns HTTP 403 in both normal HTTP and browser checks. The official Job Bank employer browse page was accessible but supplied no validated listing feed in this check; this is not evidence that Quebec is not hiring.
+- **Ontario Public Service:** `Search.aspx` initially returns HTTP 200. Submitting its normal public ASP.NET search form redirects to a Radware CAPTCHA. Stop at that control. Ontario publishes a leadership email alert subscription, which is a manual, leadership-only fallback rather than a complete automated feed. No subscription was created and no user email was used. The Job Bank fallback described below provides limited automated coverage.
+
+Next viable Ontario routes are a publicly documented feed or employer-approved machine access. Any government reposting fallback must verify employer identity, closing dates and original posting URLs, and explicitly label partial coverage. Search engine caches and manual alerts are not validated recurring crawlers. No CAPTCHA solving, proxies, stealth, accounts or private data were used.
+
+Official sources: [Sobeys postings](https://postings.sobeyscareers.com/search/), [AHS latest jobs](https://careers.albertahealthservices.ca/latest-jobs), [Quebec careers](https://www.quebec.ca/gouvernement/travailler-gouvernement/emplois-fonction-publique), [Ontario search](https://www.gojobs.gov.on.ca/Search.aspx), [Ontario leadership alerts](https://www.ontario.ca/page/careers-ontario-public-service-leadership).
+
+## Validated government fallback
+
+Job Bank's public employer searches provide **2 AHS** and **9 Ontario Public Service** employer-posted jobs in fresh JobHound runs. The monitors require an exact case-insensitive employer label, exclude aggregator reposts, use stable article IDs, and remove anonymous Java session IDs from posting URLs. Both remain explicitly partial and cannot close unseen jobs. Government Job Bank postings are preserved as their source URLs; Ontario detail pages also link back to OPS competition pages (for example JobID 248425). No subscription or login is involved.
+
+The primary AHS and Ontario portal restrictions described above remain; the fallback monitors now provide limited usable coverage, so those companies are no longer globally unavailable. Quebec's Job Bank employer search returned zero results in this check and was not activated.
+
+Sources: [Ontario Job Bank](https://www.jobbank.gc.ca/jobsearch/jobsearch?empl=Ontario+Public+Service), [AHS Job Bank](https://www.jobbank.gc.ca/jobsearch/jobsearch?empl=Alberta+Health+Services).

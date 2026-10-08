@@ -2,9 +2,9 @@
   "format": "jobhound-collection",
   "schema_version": 1,
   "id": "public-sector-north-america",
-  "revision": 1,
+  "revision": 2,
   "name": "Public Sector — Canada & USA",
-  "description": "Public government and healthcare career boards in Canada and the USA. Coverage is bounded and varies by employer: GC Jobs and CalCareers require a local browser; Santé Québec covers its central board; Texas covers HHSC, DSHS and DFPS only. Ontario, Québec public service and Alberta Health Services remain visibly unavailable because their sources restrict access. This is a sector collection, not a workforce ranking.",
+  "description": "Public government and healthcare career boards in Canada and the USA. Coverage varies: GC Jobs and CalCareers need a local browser; Sante Quebec covers its central board; Texas covers HHSC, DSHS and DFPS. AHS and Ontario Public Service use limited employer-posted Job Bank listings. Quebec public service remains unavailable. Not a workforce ranking.",
   "tags": [
     "Public Sector",
     "Canada",
@@ -72,15 +72,21 @@
     },
     {
       "company_id": "alberta-health-services",
-      "note": "Official careers source returned HTTP 403. Healthcare restructuring also limits comparability of historic workforce counts."
+      "note": "Partial fallback: employer-posted Job Bank listings only. The main portal search is restricted and mixes restructured employers.",
+      "monitor_ids": [
+        "ahs-job-bank"
+      ]
     },
     {
       "company_id": "quebec-public-service",
-      "note": "Official public-service recruiting portal returned HTTP 403. No crawler is activated. Santé Québec is covered separately."
+      "note": "The current official portal, emplois.carrieres.gouv.qc.ca/plateforme-emploi, returns HTTP 403 in both HTTP and browser checks. No crawler is activated."
     },
     {
       "company_id": "ontario-public-service",
-      "note": "The official job-listing endpoint redirected to a CAPTCHA. No crawler is activated."
+      "note": "Partial fallback: employer-posted Job Bank listings only. Primary careers search presents a CAPTCHA.",
+      "monitor_ids": [
+        "ontario-public-service-job-bank"
+      ]
     },
     {
       "company_id": "canada-post",

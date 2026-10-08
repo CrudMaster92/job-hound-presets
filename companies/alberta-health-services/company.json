@@ -14,11 +14,5 @@
     "tags": [
       "Canada"
     ]
-  },
-  "availability": {
-    "status": "unavailable",
-    "reason": "access-restricted",
-    "message": "Official careers source returned HTTP 403. Healthcare restructuring also limits comparability of historic workforce counts.",
-    "checked_at": "2026-10-07T20:47:59.768775+00:00"
   }
 }
